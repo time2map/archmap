@@ -10,6 +10,14 @@ function getImageUrl(properties) {
   return `https://arquitecturaviva.com/assets/uploads/obras/${properties.id}/av_thumb__${properties.img}?h=${properties.hash}`
 }
 
+// Helper function to construct article URL
+function getArticleUrl(properties) {
+  if (!properties?.slug) {
+    return null
+  }
+  return `https://arquitecturaviva.com/obras/${properties.slug}`
+}
+
 // Mapbox tileset configuration
 // Replace with your Mapbox tileset ID after uploading to Mapbox Studio
 const MAPBOX_TILESET_ID = import.meta.env.VITE_MAPBOX_TILESET_ID || 'your-username.your-tileset-id'
@@ -236,6 +244,28 @@ function MapComponent({ data, useVectorTiles = false }) {
               {selectedFeature.properties.date && (
                 <p style={{ margin: '0.25rem 0', fontSize: '0.85rem' }}>
                   <strong>Date:</strong> {selectedFeature.properties.date}
+                </p>
+              )}
+              {getArticleUrl(selectedFeature.properties) && (
+                <p style={{ margin: '0.75rem 0 0 0', fontSize: '0.85rem' }}>
+                  <a
+                    href={getArticleUrl(selectedFeature.properties)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      color: '#3498db',
+                      textDecoration: 'none',
+                      fontWeight: '500'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.target.style.textDecoration = 'underline'
+                    }}
+                    onMouseLeave={(e) => {
+                      e.target.style.textDecoration = 'none'
+                    }}
+                  >
+                    View original article →
+                  </a>
                 </p>
               )}
             </div>
