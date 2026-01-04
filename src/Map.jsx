@@ -21,6 +21,36 @@ function getArticleUrl(properties) {
   return `https://arquitecturaviva.com/obras/${properties.slug}`
 }
 
+// Helper function to normalize author field (handles array, JSON string, or plain string)
+function normalizeAuthor(author) {
+  if (!author) return null
+  
+  // If it's already an array, return it
+  if (Array.isArray(author)) {
+    return author.filter(a => a && a.trim()).join(', ')
+  }
+  
+  // If it's a string, try to parse it as JSON
+  if (typeof author === 'string') {
+    // Check if it looks like a JSON array
+    const trimmed = author.trim()
+    if (trimmed.startsWith('[') && trimmed.endsWith(']')) {
+      try {
+        const parsed = JSON.parse(trimmed)
+        if (Array.isArray(parsed)) {
+          return parsed.filter(a => a && a.trim()).join(', ')
+        }
+      } catch (e) {
+        // If parsing fails, just return the string as is
+      }
+    }
+    // If it's a plain string, return it
+    return trimmed
+  }
+  
+  return null
+}
+
 // Mapbox tileset configuration
 // Replace with your Mapbox tileset ID after uploading to Mapbox Studio
 const MAPBOX_TILESET_ID = import.meta.env.VITE_MAPBOX_TILESET_ID || 'your-username.your-tileset-id'
@@ -296,54 +326,27 @@ function MapComponent({ data, useVectorTiles = false }) {
             closeOnClick={false}
             className="popup-container"
           >
-            <div className={`${isMobile ? 'min-w-[calc(100vw-60px)] max-w-[calc(100vw-60px)]' : 'min-w-[200px] max-w-[320px]'}`}>
+            <div className="popup-content-wrapper overflow-hidden">
               {getImageUrl(selectedFeature.properties) && (
                 <img
                   src={getImageUrl(selectedFeature.properties)}
                   alt={selectedFeature.properties.title || 'Architecture photo'}
-                  className="w-full h-auto mb-3 rounded-lg block shadow-md"
+                  className="mb-3 rounded-lg block shadow-md"
                   onError={(e) => {
                     e.target.style.display = 'none'
                   }}
                 />
               )}
-              <h3 className="m-0 mb-2 text-base font-semibold leading-tight text-gray-900">
+              <h3 className="m-0 mb-2 text-base font-semibold leading-tight text-gray-900 break-words overflow-wrap-anywhere">
                 {selectedFeature.properties.title}
               </h3>
-              <div className="space-y-1.5 text-sm text-gray-700">
-                {selectedFeature.properties.author && selectedFeature.properties.author.length > 0 && (
-                  <p className="m-0">
-                    <span className="font-semibold text-gray-900">Author:</span>{' '}
-                    {Array.isArray(selectedFeature.properties.author) 
-                      ? selectedFeature.properties.author.join(', ')
-                      : selectedFeature.properties.author}
-                  </p>
-                )}
-                {selectedFeature.properties.city && selectedFeature.properties.city.length > 0 && (
-                  <p className="m-0">
-                    <span className="font-semibold text-gray-900">City:</span>{' '}
-                    {Array.isArray(selectedFeature.properties.city)
-                      ? selectedFeature.properties.city.join(', ')
-                      : selectedFeature.properties.city}
-                  </p>
-                )}
-                {selectedFeature.properties.country && selectedFeature.properties.country.length > 0 && (
-                  <p className="m-0">
-                    <span className="font-semibold text-gray-900">Country:</span>{' '}
-                    {Array.isArray(selectedFeature.properties.country)
-                      ? selectedFeature.properties.country.join(', ')
-                      : selectedFeature.properties.country}
-                  </p>
-                )}
-                {selectedFeature.properties.date && (
-                  <p className="m-0">
-                    <span className="font-semibold text-gray-900">Date:</span>{' '}
-                    {selectedFeature.properties.date}
-                  </p>
-                )}
-              </div>
-              {getArticleUrl(selectedFeature.properties) && (
-                <div className="mt-3 pt-3 border-t border-gray-200">
+              {normalizeAuthor(selectedFeature.properties.author) && (
+                <p className="m-0 mb-3 text-sm text-gray-700">
+                  {normalizeAuthor(selectedFeature.properties.author)}
+                </p>
+              )}
+              <div className="mt-3 pt-3 border-t border-gray-200 space-y-2">
+                {getArticleUrl(selectedFeature.properties) && (
                   <a
                     href={getArticleUrl(selectedFeature.properties)}
                     target="_blank"
@@ -355,8 +358,19 @@ function MapComponent({ data, useVectorTiles = false }) {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </a>
-                </div>
-              )}
+                )}
+                <a
+                  href={`https://www.google.com/maps?q=${selectedFeature.coordinates[1]},${selectedFeature.coordinates[0]}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-600 hover:text-green-700 no-underline font-medium text-sm transition-colors duration-150 inline-flex items-center gap-1"
+                >
+                  Open in Google Maps
+                  <svg className="w-4 h-4 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              </div>
             </div>
           </Popup>
         )}

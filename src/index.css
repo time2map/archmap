@@ -28,6 +28,12 @@
   .popup-container .mapboxgl-popup-content {
     @apply bg-white rounded-lg shadow-xl border border-gray-200 p-4;
     font-family: inherit;
+    box-sizing: border-box;
+    overflow: hidden;
+    word-wrap: break-word;
+    width: 250px !important;
+    max-width: 250px !important;
+    min-width: 250px !important;
   }
 
   .popup-container .mapboxgl-popup-tip {
@@ -40,6 +46,28 @@
     @apply transition-colors duration-150;
     right: 8px;
     top: 8px;
+  }
+
+  /* Popup content wrapper */
+  .popup-content-wrapper {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .popup-content-wrapper img {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+  }
+
+  .popup-content-wrapper * {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
   }
 }
 
