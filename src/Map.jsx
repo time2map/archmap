@@ -1,61 +1,34 @@
-import { useState, useEffect, useCallback } from 'react'
-import MapLibreMap, { Marker, Popup } from 'react-map-gl/maplibre'
-import 'maplibre-gl/dist/maplibre-gl.css'
+import { useState, useEffect, useCallback, useRef } from 'react'
+import Map, { Source, Layer, Popup, Marker } from 'react-map-gl'
+import 'mapbox-gl/dist/mapbox-gl.css'
 
 // Helper function to construct image URL
-function getImageUrl(item) {
-  if (!item.id || !item.img || !item.hash) {
+function getImageUrl(properties) {
+  if (!properties?.id || !properties?.img || !properties?.hash) {
     return null
   }
-  return `https://arquitecturaviva.com/assets/uploads/obras/${item.id}/av_thumb__${item.img}?h=${item.hash}`
+  return `https://arquitecturaviva.com/assets/uploads/obras/${properties.id}/av_thumb__${properties.img}?h=${properties.hash}`
 }
 
-// Custom marker component
-function CustomMarker({ item, onClick }) {
-  return (
-    <Marker
-      longitude={item.position[1]}
-      latitude={item.position[0]}
-      anchor="bottom"
-    >
-      <div
-        style={{
-          cursor: 'pointer',
-          width: '20px',
-          height: '20px',
-          borderRadius: '50%',
-          backgroundColor: '#2c3e50',
-          border: '2px solid white',
-          boxShadow: '0 2px 4px rgba(0,0,0,0.3)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center'
-        }}
-        onClick={onClick}
-      >
-        <div
-          style={{
-            width: '10px',
-            height: '10px',
-            borderRadius: '50%',
-            backgroundColor: '#3498db'
-          }}
-        />
-      </div>
-    </Marker>
-  )
-}
+// Mapbox tileset configuration
+// Replace with your Mapbox tileset ID after uploading to Mapbox Studio
+const MAPBOX_TILESET_ID = import.meta.env.VITE_MAPBOX_TILESET_ID || 'your-username.your-tileset-id'
+const MAPBOX_ACCESS_TOKEN = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN || ''
+// Source layer name - typically matches your GeoJSON filename (without .geojson)
+// Common names: "data", "points", or the filename you uploaded
+const MAPBOX_SOURCE_LAYER = import.meta.env.VITE_MAPBOX_SOURCE_LAYER || 'data'
 
-function MapComponent({ data }) {
-  const [selectedMarker, setSelectedMarker] = useState(null)
+function MapComponent({ data, useVectorTiles = false }) {
+  const [selectedFeature, setSelectedFeature] = useState(null)
   const [viewState, setViewState] = useState({
     longitude: -3.7038,
     latitude: 40.4168,
     zoom: 6
   })
+  const mapRef = useRef(null)
 
-  // Parse coordinates and filter out invalid entries
-  const markers = data
+  // Fallback: Parse coordinates for non-vector tile mode
+  const markers = useVectorTiles ? [] : (data || [])
     .filter(item => item.coords && item.coords.includes(','))
     .map(item => {
       const [lat, lng] = item.coords.split(',').map(Number)
@@ -66,9 +39,9 @@ function MapComponent({ data }) {
     })
     .filter(item => !isNaN(item.position[0]) && !isNaN(item.position[1]))
 
-  // Calculate center point and fit bounds on initial load
+  // Calculate center point and fit bounds on initial load (only for non-vector mode)
   useEffect(() => {
-    if (markers.length > 0) {
+    if (!useVectorTiles && markers.length > 0) {
       const lngs = markers.map(m => m.position[1])
       const lats = markers.map(m => m.position[0])
       
@@ -98,42 +71,132 @@ function MapComponent({ data }) {
         zoom: zoom
       })
     }
-  }, [markers.length])
+  }, [markers.length, useVectorTiles])
 
-  const handleMarkerClick = useCallback((item) => {
-    setSelectedMarker(item)
-  }, [])
+  // Handle click on vector tile features
+  const handleMapClick = useCallback((event) => {
+    if (!useVectorTiles || !mapRef.current) return
+
+    const features = mapRef.current.queryRenderedFeatures(event.point, {
+      layers: ['architectural-points']
+    })
+
+    if (features && features.length > 0) {
+      const feature = features[0]
+      setSelectedFeature({
+        properties: feature.properties,
+        coordinates: feature.geometry.coordinates
+      })
+    } else {
+      setSelectedFeature(null)
+    }
+  }, [useVectorTiles])
+
+  // Vector tile source URL - use mapbox:// protocol for Mapbox GL JS
+  const vectorTileUrl = useVectorTiles && MAPBOX_ACCESS_TOKEN && MAPBOX_TILESET_ID
+    ? `mapbox://${MAPBOX_TILESET_ID}`
+    : null
 
   return (
     <div style={{ flex: 1, position: 'relative' }}>
-      <MapLibreMap
+      <Map
+        ref={mapRef}
         {...viewState}
         onMove={evt => setViewState(evt.viewState)}
+        onClick={handleMapClick}
         style={{ width: '100%', height: '100%' }}
-        mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
+        mapStyle={useVectorTiles 
+          ? "mapbox://styles/mapbox/light-v11"
+          : "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"}
+        mapboxAccessToken={useVectorTiles ? MAPBOX_ACCESS_TOKEN : undefined}
       >
-        {markers.map((item, index) => (
-          <CustomMarker
-            key={item.id || index}
-            item={item}
-            onClick={() => handleMarkerClick(item)}
-          />
-        ))}
+        {useVectorTiles && vectorTileUrl ? (
+          // Vector tile mode: Use Mapbox tileset
+          <>
+            <Source
+              id="architectural-data"
+              type="vector"
+              url={vectorTileUrl}
+            >
+              <Layer
+                id="architectural-points"
+                type="circle"
+                source-layer={MAPBOX_SOURCE_LAYER}
+                paint={{
+                  'circle-radius': {
+                    'base': 1.75,
+                    'stops': [
+                      [0, 2],
+                      [10, 5],
+                      [14, 10]
+                    ]
+                  },
+                  'circle-color': '#3498db',
+                  'circle-stroke-width': 2,
+                  'circle-stroke-color': '#ffffff',
+                  'circle-opacity': 0.8
+                }}
+              />
+            </Source>
+          </>
+        ) : (
+          // Fallback mode: Render individual markers (original implementation)
+          data && data.length > 0 && (
+            <>
+              {markers.map((item, index) => (
+                <Marker
+                  key={item.id || index}
+                  longitude={item.position[1]}
+                  latitude={item.position[0]}
+                  anchor="bottom"
+                >
+                  <div
+                    style={{
+                      cursor: 'pointer',
+                      width: '20px',
+                      height: '20px',
+                      borderRadius: '50%',
+                      backgroundColor: '#2c3e50',
+                      border: '2px solid white',
+                      boxShadow: '0 2px 4px rgba(0,0,0,0.3)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center'
+                    }}
+                    onClick={() => setSelectedFeature({
+                      properties: item,
+                      coordinates: [item.position[1], item.position[0]]
+                    })}
+                  >
+                    <div
+                      style={{
+                        width: '10px',
+                        height: '10px',
+                        borderRadius: '50%',
+                        backgroundColor: '#3498db'
+                      }}
+                    />
+                  </div>
+                </Marker>
+              ))}
+            </>
+          )
+        )}
         
-        {selectedMarker && (
+        {selectedFeature && (
           <Popup
-            longitude={selectedMarker.position[1]}
-            latitude={selectedMarker.position[0]}
+            longitude={selectedFeature.coordinates[0]}
+            latitude={selectedFeature.coordinates[1]}
             anchor="bottom"
-            onClose={() => setSelectedMarker(null)}
+            onClose={() => setSelectedFeature(null)}
             closeButton={true}
             closeOnClick={false}
           >
             <div style={{ minWidth: '200px', maxWidth: '300px' }}>
-              {getImageUrl(selectedMarker) && (
+              {getImageUrl(selectedFeature.properties) && (
                 <img
-                  src={getImageUrl(selectedMarker)}
-                  alt={selectedMarker.title || 'Architecture photo'}
+                  src={getImageUrl(selectedFeature.properties)}
+                  alt={selectedFeature.properties.title || 'Architecture photo'}
                   style={{
                     width: '100%',
                     height: 'auto',
@@ -147,32 +210,38 @@ function MapComponent({ data }) {
                 />
               )}
               <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1rem', lineHeight: '1.3' }}>
-                {selectedMarker.title}
+                {selectedFeature.properties.title}
               </h3>
-              {selectedMarker.author && selectedMarker.author.length > 0 && (
+              {selectedFeature.properties.author && selectedFeature.properties.author.length > 0 && (
                 <p style={{ margin: '0.25rem 0', fontSize: '0.85rem' }}>
-                  <strong>Author:</strong> {selectedMarker.author.join(', ')}
+                  <strong>Author:</strong> {Array.isArray(selectedFeature.properties.author) 
+                    ? selectedFeature.properties.author.join(', ')
+                    : selectedFeature.properties.author}
                 </p>
               )}
-              {selectedMarker.city && selectedMarker.city.length > 0 && (
+              {selectedFeature.properties.city && selectedFeature.properties.city.length > 0 && (
                 <p style={{ margin: '0.25rem 0', fontSize: '0.85rem' }}>
-                  <strong>City:</strong> {selectedMarker.city.join(', ')}
+                  <strong>City:</strong> {Array.isArray(selectedFeature.properties.city)
+                    ? selectedFeature.properties.city.join(', ')
+                    : selectedFeature.properties.city}
                 </p>
               )}
-              {selectedMarker.country && selectedMarker.country.length > 0 && (
+              {selectedFeature.properties.country && selectedFeature.properties.country.length > 0 && (
                 <p style={{ margin: '0.25rem 0', fontSize: '0.85rem' }}>
-                  <strong>Country:</strong> {selectedMarker.country.join(', ')}
+                  <strong>Country:</strong> {Array.isArray(selectedFeature.properties.country)
+                    ? selectedFeature.properties.country.join(', ')
+                    : selectedFeature.properties.country}
                 </p>
               )}
-              {selectedMarker.date && (
+              {selectedFeature.properties.date && (
                 <p style={{ margin: '0.25rem 0', fontSize: '0.85rem' }}>
-                  <strong>Date:</strong> {selectedMarker.date}
+                  <strong>Date:</strong> {selectedFeature.properties.date}
                 </p>
               )}
             </div>
           </Popup>
         )}
-      </MapLibreMap>
+      </Map>
     </div>
   )
 }
