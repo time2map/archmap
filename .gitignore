@@ -28,3 +28,7 @@ yarn-error.log*
 *.swo
 *~
 
+# Allow GitHub workflows
+!.github/
+!.github/workflows/
+

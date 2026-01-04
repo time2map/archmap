@@ -40,6 +40,40 @@ npm run build
 
 The built files will be in the `dist` folder.
 
+## Deployment to GitHub Pages
+
+This project is configured for automatic deployment to GitHub Pages using GitHub Actions.
+
+### Setup
+
+1. **Push your code to GitHub** (if you haven't already):
+   ```bash
+   git add .
+   git commit -m "Setup GitHub Pages deployment"
+   git push origin main
+   ```
+
+2. **Enable GitHub Pages**:
+   - Go to your repository on GitHub
+   - Navigate to **Settings** → **Pages**
+   - Under **Source**, select **GitHub Actions**
+   - Save
+
+3. **(Optional) Configure Mapbox Secrets** (only if using vector tiles):
+   - Go to **Settings** → **Secrets and variables** → **Actions**
+   - Add the following secrets if you want to use Mapbox vector tiles:
+     - `VITE_MAPBOX_ACCESS_TOKEN` - Your Mapbox access token
+     - `VITE_MAPBOX_TILESET_ID` - Your Mapbox tileset ID
+     - `VITE_MAPBOX_SOURCE_LAYER` - Your source layer name (e.g., `data`)
+     - `VITE_USE_VECTOR_TILES` - Set to `true` to use vector tiles
+   - If you don't add these secrets, the app will use local GeoJSON mode
+
+4. **The workflow will automatically deploy** on every push to `main` branch
+
+Your site will be available at: `https://yourusername.github.io/archmap/`
+
+(Replace `yourusername` and `archmap` with your actual GitHub username and repository name)
+
 ## Project Structure
 
 ```
