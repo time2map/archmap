@@ -1,0 +1,8786 @@
+{
+  "firms": [
+    {
+      "name": "Herzog & de Meuron",
+      "count": 112
+    },
+    {
+      "name": "David Chipperfield Architects",
+      "count": 64
+    },
+    {
+      "name": "Kengo Kuma",
+      "count": 62
+    },
+    {
+      "name": "Renzo Piano Building Workshop",
+      "count": 57
+    },
+    {
+      "name": "Álvaro Siza",
+      "count": 50
+    },
+    {
+      "name": "OMA - Office for Metropolitan Architecture",
+      "count": 50
+    },
+    {
+      "name": "BIG Bjarke Ingels Group",
+      "count": 49
+    },
+    {
+      "name": "Rafael Moneo",
+      "count": 45
+    },
+    {
+      "name": "Foster + Partners",
+      "count": 45
+    },
+    {
+      "name": "Snøhetta",
+      "count": 43
+    },
+    {
+      "name": "MVRDV",
+      "count": 39
+    },
+    {
+      "name": "RCR Arquitectes",
+      "count": 35
+    },
+    {
+      "name": "Norman Foster",
+      "count": 35
+    },
+    {
+      "name": "Nieto Sobejano Arquitectos",
+      "count": 32
+    },
+    {
+      "name": "Zaha Hadid Architects",
+      "count": 31
+    },
+    {
+      "name": "SANAA",
+      "count": 28
+    },
+    {
+      "name": "Francisco Mangado",
+      "count": 27
+    },
+    {
+      "name": "Tadao Ando",
+      "count": 26
+    },
+    {
+      "name": "Oscar Niemeyer",
+      "count": 22
+    },
+    {
+      "name": "Diller Scofidio + Renfro",
+      "count": 22
+    },
+    {
+      "name": "Frank Gehry",
+      "count": 21
+    },
+    {
+      "name": "Dominique Perrault Architecture",
+      "count": 21
+    },
+    {
+      "name": "Batlleiroig",
+      "count": 21
+    },
+    {
+      "name": "Eduardo Souto de Moura",
+      "count": 21
+    },
+    {
+      "name": "Cruz y Ortiz Arquitectos",
+      "count": 20
+    },
+    {
+      "name": "Paredes Pedrosa Arquitectos",
+      "count": 20
+    },
+    {
+      "name": "b720 Fermín Vázquez Arquitectos",
+      "count": 20
+    },
+    {
+      "name": "Miralles Tagliabue EMBT",
+      "count": 20
+    },
+    {
+      "name": "Kéré Architecture",
+      "count": 20
+    },
+    {
+      "name": "Sauerbruch Hutton",
+      "count": 20
+    },
+    {
+      "name": "Paulo Mendes da Rocha",
+      "count": 19
+    },
+    {
+      "name": "Guillermo Vázquez Consuegra",
+      "count": 17
+    },
+    {
+      "name": "Jean Nouvel",
+      "count": 17
+    },
+    {
+      "name": "LAN Architecture",
+      "count": 17
+    },
+    {
+      "name": "El Equipo Mazzanti",
+      "count": 17
+    },
+    {
+      "name": "Miguel Fisac",
+      "count": 17
+    },
+    {
+      "name": "Mecanoo",
+      "count": 16
+    },
+    {
+      "name": "ELEMENTAL",
+      "count": 16
+    },
+    {
+      "name": "Carlos Ferrater",
+      "count": 15
+    },
+    {
+      "name": "Diébédo Francis Kéré",
+      "count": 15
+    },
+    {
+      "name": "Steven Holl",
+      "count": 15
+    },
+    {
+      "name": "Colectivo C733",
+      "count": 15
+    },
+    {
+      "name": "Alberto Campo Baeza",
+      "count": 14
+    },
+    {
+      "name": "O’Donnell + Tuomey Architects",
+      "count": 14
+    },
+    {
+      "name": "estudioHerreros",
+      "count": 14
+    },
+    {
+      "name": "Heatherwick Studio",
+      "count": 14
+    },
+    {
+      "name": "Alvar Aalto",
+      "count": 14
+    },
+    {
+      "name": "Níall McLaughlin Architects",
+      "count": 14
+    },
+    {
+      "name": "Mansilla + Tuñón",
+      "count": 13
+    },
+    {
+      "name": "Amann-Cánovas-Maruri",
+      "count": 13
+    },
+    {
+      "name": "Carme Pinós",
+      "count": 13
+    },
+    {
+      "name": "Christ & Gantenbein",
+      "count": 13
+    },
+    {
+      "name": "Lacaton & Vassal",
+      "count": 13
+    },
+    {
+      "name": "Aires Mateus",
+      "count": 13
+    },
+    {
+      "name": "John Tuomey",
+      "count": 13
+    },
+    {
+      "name": "Sheila O’Donnell",
+      "count": 13
+    },
+    {
+      "name": "Alejandro Aravena",
+      "count": 13
+    },
+    {
+      "name": "gmp Architekten",
+      "count": 13
+    },
+    {
+      "name": "Santiago Calatrava",
+      "count": 12
+    },
+    {
+      "name": "Barozzi Veiga",
+      "count": 12
+    },
+    {
+      "name": "Fernando Menis",
+      "count": 12
+    },
+    {
+      "name": "Sou Fujimoto Architects",
+      "count": 12
+    },
+    {
+      "name": "MAD Architects",
+      "count": 12
+    },
+    {
+      "name": "E2A",
+      "count": 12
+    },
+    {
+      "name": "Undurraga Devés arquitectos",
+      "count": 12
+    },
+    {
+      "name": "Louis Kahn",
+      "count": 12
+    },
+    {
+      "name": "Sancho-Madridejos",
+      "count": 11
+    },
+    {
+      "name": "Vector Architects",
+      "count": 11
+    },
+    {
+      "name": "Grafton Architects",
+      "count": 11
+    },
+    {
+      "name": "VTN Architects",
+      "count": 11
+    },
+    {
+      "name": "Carlos Jiménez",
+      "count": 11
+    },
+    {
+      "name": "Neri & Hu Design and Research Office",
+      "count": 11
+    },
+    {
+      "name": "Adjaye Associates",
+      "count": 11
+    },
+    {
+      "name": "Alejandro de la Sota",
+      "count": 11
+    },
+    {
+      "name": "James Stirling",
+      "count": 11
+    },
+    {
+      "name": "Juan Navarro Baldeweg",
+      "count": 10
+    },
+    {
+      "name": "Flores & Prats",
+      "count": 10
+    },
+    {
+      "name": "Harquitectes",
+      "count": 10
+    },
+    {
+      "name": "Magén Arquitectos",
+      "count": 10
+    },
+    {
+      "name": "Lina Bo Bardi",
+      "count": 10
+    },
+    {
+      "name": "LRO Lederer Ragnarsdóttir Oei",
+      "count": 10
+    },
+    {
+      "name": "Coll-Leclerc",
+      "count": 9
+    },
+    {
+      "name": "Martínez Lapeña & Elías Torres",
+      "count": 9
+    },
+    {
+      "name": "Selgascano",
+      "count": 9
+    },
+    {
+      "name": "MGM Morales De Giles Arquitectos",
+      "count": 9
+    },
+    {
+      "name": "Rafael de La-Hoz",
+      "count": 9
+    },
+    {
+      "name": "Toyo Ito",
+      "count": 9
+    },
+    {
+      "name": "Ábalos + Sentkiewicz",
+      "count": 9
+    },
+    {
+      "name": "IDOM",
+      "count": 9
+    },
+    {
+      "name": "COBE Architects",
+      "count": 9
+    },
+    {
+      "name": "Shigeru Ban",
+      "count": 9
+    },
+    {
+      "name": "Ábalos & Herreros",
+      "count": 8
+    },
+    {
+      "name": "Ensamble Studio",
+      "count": 8
+    },
+    {
+      "name": "Irisarri + Piñera",
+      "count": 8
+    },
+    {
+      "name": "OAB",
+      "count": 8
+    },
+    {
+      "name": "Office of Ryue Nishizawa",
+      "count": 8
+    },
+    {
+      "name": "Picharchitects/Pich-Aguilera",
+      "count": 8
+    },
+    {
+      "name": "Bernard Tschumi",
+      "count": 8
+    },
+    {
+      "name": "Carles Enrich",
+      "count": 8
+    },
+    {
+      "name": "Arquitectura-G",
+      "count": 8
+    },
+    {
+      "name": "Martín Lejarraga",
+      "count": 7
+    },
+    {
+      "name": "Junquera arquitectos",
+      "count": 7
+    },
+    {
+      "name": "BAAS",
+      "count": 7
+    },
+    {
+      "name": "Peris + Toral arquitectes",
+      "count": 7
+    },
+    {
+      "name": "Óscar Miguel Ares",
+      "count": 7
+    },
+    {
+      "name": "Jørn Utzon",
+      "count": 7
+    },
+    {
+      "name": "Coop Himmelb(l)au",
+      "count": 7
+    },
+    {
+      "name": "Liu Jiakun",
+      "count": 7
+    },
+    {
+      "name": "Wutopia Lab",
+      "count": 7
+    },
+    {
+      "name": "KAAN Architecten",
+      "count": 7
+    },
+    {
+      "name": "Michael Wilford",
+      "count": 7
+    },
+    {
+      "name": "Aranguren + Gallegos Arquitectos",
+      "count": 6
+    },
+    {
+      "name": "Víctor López Cotelo",
+      "count": 6
+    },
+    {
+      "name": "Rueda & Pizarro",
+      "count": 6
+    },
+    {
+      "name": "Burgos & Garrido",
+      "count": 6
+    },
+    {
+      "name": "José María Sánchez García",
+      "count": 6
+    },
+    {
+      "name": "Barceló Balanzó Arquitectes",
+      "count": 6
+    },
+    {
+      "name": "Josep Lluís Mateo",
+      "count": 6
+    },
+    {
+      "name": "Tham & Videgård",
+      "count": 6
+    },
+    {
+      "name": "Balkrishna Doshi",
+      "count": 6
+    },
+    {
+      "name": "Peter Zumthor",
+      "count": 6
+    },
+    {
+      "name": "Kazuyo Sejima & Associates",
+      "count": 6
+    },
+    {
+      "name": "Abalo Alonso Arquitectos",
+      "count": 6
+    },
+    {
+      "name": "Dorte Mandrup",
+      "count": 6
+    },
+    {
+      "name": "Reiulf Ramstad Arkitekter - RRA",
+      "count": 6
+    },
+    {
+      "name": "Ateliers Jean Nouvel",
+      "count": 6
+    },
+    {
+      "name": "Neutelings Riedijk Architects",
+      "count": 6
+    },
+    {
+      "name": "Studio Anne Holtrop",
+      "count": 6
+    },
+    {
+      "name": "Max Dudler",
+      "count": 6
+    },
+    {
+      "name": "FRPO",
+      "count": 6
+    },
+    {
+      "name": "Vivas Arquitectos",
+      "count": 6
+    },
+    {
+      "name": "OFFICE Kersten Geers David Van Severen",
+      "count": 6
+    },
+    {
+      "name": "Rob Krier",
+      "count": 6
+    },
+    {
+      "name": "Karl Friedrich Schinkel",
+      "count": 6
+    },
+    {
+      "name": "Bonell & Gil",
+      "count": 5
+    },
+    {
+      "name": "Ángel Jaramillo",
+      "count": 5
+    },
+    {
+      "name": "AMP Arquitectos",
+      "count": 5
+    },
+    {
+      "name": "Eduardo de Miguel",
+      "count": 5
+    },
+    {
+      "name": "Richard Rogers",
+      "count": 5
+    },
+    {
+      "name": "Estudio Lamela",
+      "count": 5
+    },
+    {
+      "name": "Vaillo + Irigaray",
+      "count": 5
+    },
+    {
+      "name": "Josep Llinàs",
+      "count": 5
+    },
+    {
+      "name": "FOA | Foreign Office Architects",
+      "count": 5
+    },
+    {
+      "name": "Rogers Stirk Harbour + Partners (RSHP)",
+      "count": 5
+    },
+    {
+      "name": "COR Architecture + Design",
+      "count": 5
+    },
+    {
+      "name": "Arquitecturia",
+      "count": 5
+    },
+    {
+      "name": "Elisa Valero",
+      "count": 5
+    },
+    {
+      "name": "Henning Larsen",
+      "count": 5
+    },
+    {
+      "name": "TAO | Trace Architecture Office",
+      "count": 5
+    },
+    {
+      "name": "Rudy Ricciotti",
+      "count": 5
+    },
+    {
+      "name": "Barclay & Crousse Arquitectos",
+      "count": 5
+    },
+    {
+      "name": "Rubio & Álvarez-Sala",
+      "count": 5
+    },
+    {
+      "name": "West 8",
+      "count": 5
+    },
+    {
+      "name": "Bjarke Ingels",
+      "count": 5
+    },
+    {
+      "name": "José María Rodríguez Pastrana",
+      "count": 5
+    },
+    {
+      "name": "Baumschlager Eberle Architekten",
+      "count": 5
+    },
+    {
+      "name": "Valerio Olgiati",
+      "count": 5
+    },
+    {
+      "name": "Fuksas",
+      "count": 5
+    },
+    {
+      "name": "Diener & Diener Architekten",
+      "count": 5
+    },
+    {
+      "name": "Junya Ishigami + associates",
+      "count": 5
+    },
+    {
+      "name": "UNStudio",
+      "count": 5
+    },
+    {
+      "name": "Bernardo Bader Architekten",
+      "count": 5
+    },
+    {
+      "name": "DIIR",
+      "count": 5
+    },
+    {
+      "name": "Grimshaw Architects",
+      "count": 5
+    },
+    {
+      "name": "Enric Miralles",
+      "count": 5
+    },
+    {
+      "name": "Pablo Millán",
+      "count": 5
+    },
+    {
+      "name": "Anna & Eugeni Bach",
+      "count": 5
+    },
+    {
+      "name": "NP2F",
+      "count": 5
+    },
+    {
+      "name": "BAX studio",
+      "count": 5
+    },
+    {
+      "name": "José Ignacio Linazasoro",
+      "count": 4
+    },
+    {
+      "name": "MTM arquitectos",
+      "count": 4
+    },
+    {
+      "name": "Tabuenca & Leache",
+      "count": 4
+    },
+    {
+      "name": "Matos Castillo",
+      "count": 4
+    },
+    {
+      "name": "Roberto Ercilla",
+      "count": 4
+    },
+    {
+      "name": "Alfredo Payá Benedito / Noname 29",
+      "count": 4
+    },
+    {
+      "name": "Basilio Tobías Pintre",
+      "count": 4
+    },
+    {
+      "name": "NO.MAD",
+      "count": 4
+    },
+    {
+      "name": "Carlos Puente",
+      "count": 4
+    },
+    {
+      "name": "Clotet & Paricio",
+      "count": 4
+    },
+    {
+      "name": "Ignacio Laguillo",
+      "count": 4
+    },
+    {
+      "name": "Picado - De Blas Arquitectos",
+      "count": 4
+    },
+    {
+      "name": "Luis Machuca",
+      "count": 4
+    },
+    {
+      "name": "Ecosistema urbano",
+      "count": 4
+    },
+    {
+      "name": "Wiel Arets",
+      "count": 4
+    },
+    {
+      "name": "aldayjover arquitectura y paisaje",
+      "count": 4
+    },
+    {
+      "name": "Pesquera Ulargui Arquitectos",
+      "count": 4
+    },
+    {
+      "name": "Roldán + Berengué",
+      "count": 4
+    },
+    {
+      "name": "MCEA | Manuel Costoya Estudio de Arquitectura",
+      "count": 4
+    },
+    {
+      "name": "Langarita Navarro",
+      "count": 4
+    },
+    {
+      "name": "Miró Rivera Architects",
+      "count": 4
+    },
+    {
+      "name": "Estudio de Arquitectura Toni Gironès",
+      "count": 4
+    },
+    {
+      "name": "Sergison Bates architects",
+      "count": 4
+    },
+    {
+      "name": "Andrés Jaque / Office for Political Innovation",
+      "count": 4
+    },
+    {
+      "name": "Héctor Fernández Elorza",
+      "count": 4
+    },
+    {
+      "name": "José María de Lapuerta",
+      "count": 4
+    },
+    {
+      "name": "Ripoll Tizón Estudio de Arquitectura",
+      "count": 4
+    },
+    {
+      "name": "GPY Arquitectos",
+      "count": 4
+    },
+    {
+      "name": "Felipe Artengo",
+      "count": 4
+    },
+    {
+      "name": "dataAE",
+      "count": 4
+    },
+    {
+      "name": "Calderon-Folch Arquitectes",
+      "count": 4
+    },
+    {
+      "name": "Gigon Guyer Architects",
+      "count": 4
+    },
+    {
+      "name": "Antonio Jiménez Torrecillas",
+      "count": 4
+    },
+    {
+      "name": "Atelier Deshaus",
+      "count": 4
+    },
+    {
+      "name": "Promontório",
+      "count": 4
+    },
+    {
+      "name": "Pau Vidal",
+      "count": 4
+    },
+    {
+      "name": "José Cruz Ovalle",
+      "count": 4
+    },
+    {
+      "name": "Bolles + Wilson",
+      "count": 4
+    },
+    {
+      "name": "OFIS Architects",
+      "count": 4
+    },
+    {
+      "name": "Christian de Portzamparc",
+      "count": 4
+    },
+    {
+      "name": "Linazasoro & Sánchez Arquitectura",
+      "count": 4
+    },
+    {
+      "name": "3XN",
+      "count": 4
+    },
+    {
+      "name": "Gutiérrez-de la Fuente Arquitectos",
+      "count": 4
+    },
+    {
+      "name": "SOM",
+      "count": 4
+    },
+    {
+      "name": "Carquero arquitectura",
+      "count": 4
+    },
+    {
+      "name": "MIAS Architects",
+      "count": 4
+    },
+    {
+      "name": "Estudio Cano Lasso",
+      "count": 4
+    },
+    {
+      "name": "Claus en Kaan",
+      "count": 4
+    },
+    {
+      "name": "Caruso St John Architects",
+      "count": 4
+    },
+    {
+      "name": "Ingenhoven Architects",
+      "count": 4
+    },
+    {
+      "name": "Barkow Leibinger",
+      "count": 4
+    },
+    {
+      "name": "OHLAB",
+      "count": 4
+    },
+    {
+      "name": "Luis Vidal",
+      "count": 4
+    },
+    {
+      "name": "Gabriel Gallegos Borges",
+      "count": 4
+    },
+    {
+      "name": "Tuñón y Albornoz Arquitectos",
+      "count": 4
+    },
+    {
+      "name": "Open Architecture",
+      "count": 4
+    },
+    {
+      "name": "Manuel Herz",
+      "count": 4
+    },
+    {
+      "name": "Hans Kollhoff",
+      "count": 4
+    },
+    {
+      "name": "Studio Muoto",
+      "count": 4
+    },
+    {
+      "name": "Jaume Bach",
+      "count": 4
+    },
+    {
+      "name": "Marmolbravo",
+      "count": 4
+    },
+    {
+      "name": "MADhel",
+      "count": 4
+    },
+    {
+      "name": "Mendoza Partida",
+      "count": 4
+    },
+    {
+      "name": "Lina Ghotmeh",
+      "count": 4
+    },
+    {
+      "name": "Studio Gang",
+      "count": 4
+    },
+    {
+      "name": "Buchner Bründler Architekten",
+      "count": 4
+    },
+    {
+      "name": "Javier García-Solera",
+      "count": 3
+    },
+    {
+      "name": "Aldo Rossi",
+      "count": 3
+    },
+    {
+      "name": "César Portela",
+      "count": 3
+    },
+    {
+      "name": "AH Alonso & Hernández",
+      "count": 3
+    },
+    {
+      "name": "Vicens & Ramos",
+      "count": 3
+    },
+    {
+      "name": "Jordi Badia",
+      "count": 3
+    },
+    {
+      "name": "Miguel Ángel Campo",
+      "count": 3
+    },
+    {
+      "name": "Rojo Fernández-Shaw",
+      "count": 3
+    },
+    {
+      "name": "Iñaqui Carnicero",
+      "count": 3
+    },
+    {
+      "name": "Alejandro Virseda",
+      "count": 3
+    },
+    {
+      "name": "Solid Arquitectura",
+      "count": 3
+    },
+    {
+      "name": "Manuel Ruisánchez",
+      "count": 3
+    },
+    {
+      "name": "Andrés Cánovas",
+      "count": 3
+    },
+    {
+      "name": "Atxu Amann",
+      "count": 3
+    },
+    {
+      "name": "Nicolás Maruri",
+      "count": 3
+    },
+    {
+      "name": "César Ruiz-Larrea",
+      "count": 3
+    },
+    {
+      "name": "BmasC arquitectos",
+      "count": 3
+    },
+    {
+      "name": "Virgilio Gutiérrez",
+      "count": 3
+    },
+    {
+      "name": "estudio_entresitio",
+      "count": 3
+    },
+    {
+      "name": "Santiago Carroquino",
+      "count": 3
+    },
+    {
+      "name": "López Rivera Arquitectos",
+      "count": 3
+    },
+    {
+      "name": "Patrik Schumacher",
+      "count": 3
+    },
+    {
+      "name": "Enrique Krahe",
+      "count": 3
+    },
+    {
+      "name": "Juan Domingo Santos",
+      "count": 3
+    },
+    {
+      "name": "Peter Eisenman",
+      "count": 3
+    },
+    {
+      "name": "Eisenman Architects",
+      "count": 3
+    },
+    {
+      "name": "Alejandro Muñoz Miranda",
+      "count": 3
+    },
+    {
+      "name": "Sol89",
+      "count": 3
+    },
+    {
+      "name": "Izaskun Chinchilla",
+      "count": 3
+    },
+    {
+      "name": "Arquitectos Ayala",
+      "count": 3
+    },
+    {
+      "name": "Ramón Esteve",
+      "count": 3
+    },
+    {
+      "name": "Annabelle Selldorf",
+      "count": 3
+    },
+    {
+      "name": "Pezo von Ellrichshausen",
+      "count": 3
+    },
+    {
+      "name": "Joaquín Vaquero Palacios",
+      "count": 3
+    },
+    {
+      "name": "C.F. Møller",
+      "count": 3
+    },
+    {
+      "name": "AL_A (Amanda Levete Architects)",
+      "count": 3
+    },
+    {
+      "name": "Rojkind Arquitectos",
+      "count": 3
+    },
+    {
+      "name": "Porras La Casta arquitectos",
+      "count": 3
+    },
+    {
+      "name": "Churtichaga + Quadra-Salcedo arquitectos",
+      "count": 3
+    },
+    {
+      "name": "Enric Sòria",
+      "count": 3
+    },
+    {
+      "name": "Manuel Gallego Jorreto",
+      "count": 3
+    },
+    {
+      "name": "ACXT Arquitectos",
+      "count": 3
+    },
+    {
+      "name": "Romera y Ruiz Arquitectos",
+      "count": 3
+    },
+    {
+      "name": "GCA Architects",
+      "count": 3
+    },
+    {
+      "name": "Taller Básico de Arquitectura",
+      "count": 3
+    },
+    {
+      "name": "llps arquitectos",
+      "count": 3
+    },
+    {
+      "name": "Pereda Pérez Arquitectos",
+      "count": 3
+    },
+    {
+      "name": "AIA Activitats Arquitectòniques",
+      "count": 3
+    },
+    {
+      "name": "Vicente Guallart",
+      "count": 3
+    },
+    {
+      "name": "TYIN Tegnestue",
+      "count": 3
+    },
+    {
+      "name": "Tezuka Architects",
+      "count": 3
+    },
+    {
+      "name": "Francisco Vieira de Campos",
+      "count": 3
+    },
+    {
+      "name": "Gonçalo Byrne",
+      "count": 3
+    },
+    {
+      "name": "William Alsop",
+      "count": 3
+    },
+    {
+      "name": "Mario Cucinella Architects",
+      "count": 3
+    },
+    {
+      "name": "Padilla Nicás arquitectos",
+      "count": 3
+    },
+    {
+      "name": "Labics",
+      "count": 3
+    },
+    {
+      "name": "MAYU architects",
+      "count": 3
+    },
+    {
+      "name": "Oualalou + Choi",
+      "count": 3
+    },
+    {
+      "name": "Nua arquitectures",
+      "count": 3
+    },
+    {
+      "name": "Erik Gunnar Asplund",
+      "count": 3
+    },
+    {
+      "name": "Erich Mendelsohn",
+      "count": 3
+    },
+    {
+      "name": "EM2N Architekten",
+      "count": 3
+    },
+    {
+      "name": "SUMO Arquitectes",
+      "count": 3
+    },
+    {
+      "name": "John Pawson",
+      "count": 3
+    },
+    {
+      "name": "Ribas & Ribas",
+      "count": 3
+    },
+    {
+      "name": "Archea Associati",
+      "count": 3
+    },
+    {
+      "name": "Ortner & Ortner",
+      "count": 3
+    },
+    {
+      "name": "Arup Associates",
+      "count": 3
+    },
+    {
+      "name": "AZAB",
+      "count": 3
+    },
+    {
+      "name": "BeAr",
+      "count": 3
+    },
+    {
+      "name": "EFFEKT",
+      "count": 3
+    },
+    {
+      "name": "RLA",
+      "count": 3
+    },
+    {
+      "name": "Metro Arquitetos",
+      "count": 3
+    },
+    {
+      "name": "Populous",
+      "count": 3
+    },
+    {
+      "name": "Le Corbusier",
+      "count": 3
+    },
+    {
+      "name": "Plan:B Arquitectos",
+      "count": 3
+    },
+    {
+      "name": "Creus e Carrasco",
+      "count": 3
+    },
+    {
+      "name": "Juan Trías de Bes - TdB Architects",
+      "count": 3
+    },
+    {
+      "name": "Vittorio Magnago Lampugnani",
+      "count": 3
+    },
+    {
+      "name": "Carlos Asensio",
+      "count": 3
+    },
+    {
+      "name": "Christian Kerez",
+      "count": 3
+    },
+    {
+      "name": "Jensen & Skodvin",
+      "count": 3
+    },
+    {
+      "name": "Germán del Sol",
+      "count": 3
+    },
+    {
+      "name": "TEd’A arquitectes",
+      "count": 3
+    },
+    {
+      "name": "Oscar Tusquets",
+      "count": 3
+    },
+    {
+      "name": "Morphosis",
+      "count": 3
+    },
+    {
+      "name": "Daniel Libeskind",
+      "count": 3
+    },
+    {
+      "name": "Miller & Maranta",
+      "count": 3
+    },
+    {
+      "name": "Studio Zhu Pei",
+      "count": 3
+    },
+    {
+      "name": "Machado Silvetti Associates",
+      "count": 3
+    },
+    {
+      "name": "AMM - Adelino Magalhaes",
+      "count": 3
+    },
+    {
+      "name": "Dellekamp Schleich",
+      "count": 3
+    },
+    {
+      "name": "Carmody Groarke",
+      "count": 3
+    },
+    {
+      "name": "Lacol",
+      "count": 3
+    },
+    {
+      "name": "Josep Ferrando Architecture",
+      "count": 3
+    },
+    {
+      "name": "Bosch Haslett Architects",
+      "count": 3
+    },
+    {
+      "name": "Jordi Garcés",
+      "count": 3
+    },
+    {
+      "name": "Jakob + MacFarlane",
+      "count": 3
+    },
+    {
+      "name": "Sebastián Arquitectos",
+      "count": 3
+    },
+    {
+      "name": "Giorgio Grassi",
+      "count": 3
+    },
+    {
+      "name": "Gerhard Spangenberg",
+      "count": 3
+    },
+    {
+      "name": "Dieter Frowein",
+      "count": 3
+    },
+    {
+      "name": "Arthur Owaska",
+      "count": 3
+    },
+    {
+      "name": "Hans Scharoun",
+      "count": 3
+    },
+    {
+      "name": "Natura Futura Arquitectura",
+      "count": 3
+    },
+    {
+      "name": "Xavier Vendrell",
+      "count": 3
+    },
+    {
+      "name": "UAD Zhejiang",
+      "count": 3
+    },
+    {
+      "name": "Carbajo Barrios",
+      "count": 3
+    },
+    {
+      "name": "Alventosa Morell Arquitectes",
+      "count": 3
+    },
+    {
+      "name": "Bach arquitectes",
+      "count": 3
+    },
+    {
+      "name": "Nikken Sekkei",
+      "count": 3
+    },
+    {
+      "name": "HW Studio",
+      "count": 3
+    },
+    {
+      "name": "Estudio Acta",
+      "count": 3
+    },
+    {
+      "name": "Roberto Valle",
+      "count": 2
+    },
+    {
+      "name": "Francisco Ruiz-Gijón",
+      "count": 2
+    },
+    {
+      "name": "Fité & Mejón",
+      "count": 2
+    },
+    {
+      "name": "aceboXalonso Studio",
+      "count": 2
+    },
+    {
+      "name": "Francisco Javier Sáenz de Oíza",
+      "count": 2
+    },
+    {
+      "name": "Mariano Bayón",
+      "count": 2
+    },
+    {
+      "name": "Juan Miguel Otxotorena",
+      "count": 2
+    },
+    {
+      "name": "Javier Terrados",
+      "count": 2
+    },
+    {
+      "name": "Fernando Suárez Corchete",
+      "count": 2
+    },
+    {
+      "name": "Miguel Ángel Cámara",
+      "count": 2
+    },
+    {
+      "name": "Carrascal-Fernandez de la Puente arquitectos",
+      "count": 2
+    },
+    {
+      "name": "Pico & López",
+      "count": 2
+    },
+    {
+      "name": "Jaime Sanahuja",
+      "count": 2
+    },
+    {
+      "name": "Harald Schöenegger",
+      "count": 2
+    },
+    {
+      "name": "Antonio Gómez",
+      "count": 2
+    },
+    {
+      "name": "Eustaquio Martínez García",
+      "count": 2
+    },
+    {
+      "name": "Helio Piñón",
+      "count": 2
+    },
+    {
+      "name": "Gabriel Verd",
+      "count": 2
+    },
+    {
+      "name": "José Ramón Garitaonaidía",
+      "count": 2
+    },
+    {
+      "name": "DL+A arquitectos",
+      "count": 2
+    },
+    {
+      "name": "Manuel Ocaña",
+      "count": 2
+    },
+    {
+      "name": "Coll-Barreu Arquitectos",
+      "count": 2
+    },
+    {
+      "name": "Alonso | Balaguer",
+      "count": 2
+    },
+    {
+      "name": "Blanca Lleó",
+      "count": 2
+    },
+    {
+      "name": "LABB",
+      "count": 2
+    },
+    {
+      "name": "Cloud 9",
+      "count": 2
+    },
+    {
+      "name": "Grupo Aranea",
+      "count": 2
+    },
+    {
+      "name": "amid.cero9",
+      "count": 2
+    },
+    {
+      "name": "Zigzag Arquitectura",
+      "count": 2
+    },
+    {
+      "name": "Gradolí & Sanz arquitectes",
+      "count": 2
+    },
+    {
+      "name": "OFS architects",
+      "count": 2
+    },
+    {
+      "name": "Oliveras Boix Arquitectes",
+      "count": 2
+    },
+    {
+      "name": "AleaOlea arquitectura i paisatge",
+      "count": 2
+    },
+    {
+      "name": "SUMA Arquitectura",
+      "count": 2
+    },
+    {
+      "name": "Carles Oliver Barceló",
+      "count": 2
+    },
+    {
+      "name": "Antonio Martín Procopio",
+      "count": 2
+    },
+    {
+      "name": "Alfonso Reina Ferragut",
+      "count": 2
+    },
+    {
+      "name": "ARX Portugal",
+      "count": 2
+    },
+    {
+      "name": "Thomas Phifer",
+      "count": 2
+    },
+    {
+      "name": "Rick Joy Architects",
+      "count": 2
+    },
+    {
+      "name": "Studio MK27",
+      "count": 2
+    },
+    {
+      "name": "Miguel Quismondo",
+      "count": 2
+    },
+    {
+      "name": "Coussée & Goris architecten",
+      "count": 2
+    },
+    {
+      "name": "Christophe Hutin",
+      "count": 2
+    },
+    {
+      "name": "Sanjay Puri Architects",
+      "count": 2
+    },
+    {
+      "name": "NL Architects",
+      "count": 2
+    },
+    {
+      "name": "Rural Urban Framework RUF",
+      "count": 2
+    },
+    {
+      "name": "Urko Sánchez Architects",
+      "count": 2
+    },
+    {
+      "name": "Dietmar Feichtinger Architectes",
+      "count": 2
+    },
+    {
+      "name": "Assemble",
+      "count": 2
+    },
+    {
+      "name": "Anna Heringer",
+      "count": 2
+    },
+    {
+      "name": "Adriaan Geuze",
+      "count": 2
+    },
+    {
+      "name": "Arturo Franco",
+      "count": 2
+    },
+    {
+      "name": "Cayetana de la Quadra-Salcedo",
+      "count": 2
+    },
+    {
+      "name": "Ignacio Vila",
+      "count": 2
+    },
+    {
+      "name": "Pablo Fernández Lorenzo",
+      "count": 2
+    },
+    {
+      "name": "Pablo Redondo Díez",
+      "count": 2
+    },
+    {
+      "name": "Javier Fresneda",
+      "count": 2
+    },
+    {
+      "name": "Javier Sanjuán",
+      "count": 2
+    },
+    {
+      "name": "José Javier Gallardo | G///bang",
+      "count": 2
+    },
+    {
+      "name": "IND [Inter.National.Design]",
+      "count": 2
+    },
+    {
+      "name": "Mercè Berengué",
+      "count": 2
+    },
+    {
+      "name": "Íñigo Beguiristáin",
+      "count": 2
+    },
+    {
+      "name": "bosch.capdeferro arquitectura",
+      "count": 2
+    },
+    {
+      "name": "Paloma Campo Ruano",
+      "count": 2
+    },
+    {
+      "name": "Nendo",
+      "count": 2
+    },
+    {
+      "name": "Josep Miàs",
+      "count": 2
+    },
+    {
+      "name": "ACH arquitectos",
+      "count": 2
+    },
+    {
+      "name": "Baum Lab",
+      "count": 2
+    },
+    {
+      "name": "Jaime Magén",
+      "count": 2
+    },
+    {
+      "name": "Francisco Javier Magén",
+      "count": 2
+    },
+    {
+      "name": "Manuel Fernández Ramírez",
+      "count": 2
+    },
+    {
+      "name": "El Fabricante de Espheras",
+      "count": 2
+    },
+    {
+      "name": "Castillo-Miras arquitectos",
+      "count": 2
+    },
+    {
+      "name": "Mateo Arquitectura",
+      "count": 2
+    },
+    {
+      "name": "Grüntuch Ernst Architects",
+      "count": 2
+    },
+    {
+      "name": "Pol Sarsanedas",
+      "count": 2
+    },
+    {
+      "name": "Terradas Arquitectos",
+      "count": 2
+    },
+    {
+      "name": "Amateur Architecture Studio",
+      "count": 2
+    },
+    {
+      "name": "70°N arkitektur",
+      "count": 2
+    },
+    {
+      "name": "ETH Zürich",
+      "count": 2
+    },
+    {
+      "name": "ZAO / Zhang Ke Architecture Office",
+      "count": 2
+    },
+    {
+      "name": "AZL Architects",
+      "count": 2
+    },
+    {
+      "name": "Feld72",
+      "count": 2
+    },
+    {
+      "name": "Tank Architectes",
+      "count": 2
+    },
+    {
+      "name": "Ricardo Bak Gordon",
+      "count": 2
+    },
+    {
+      "name": "Paulo David",
+      "count": 2
+    },
+    {
+      "name": "Murado & Elvira",
+      "count": 2
+    },
+    {
+      "name": "Meyer & Van Schooten",
+      "count": 2
+    },
+    {
+      "name": "Bruno Fioretti Marquez",
+      "count": 2
+    },
+    {
+      "name": "GRAS Reynés Arquitectos",
+      "count": 2
+    },
+    {
+      "name": "CEBRA architecture",
+      "count": 2
+    },
+    {
+      "name": "Studio Arthur Casas",
+      "count": 2
+    },
+    {
+      "name": "Studio KO",
+      "count": 2
+    },
+    {
+      "name": "Sameep Padora, sP+a",
+      "count": 2
+    },
+    {
+      "name": "Hiroshi Namakura & NAP",
+      "count": 2
+    },
+    {
+      "name": "Carlos de Riaño",
+      "count": 2
+    },
+    {
+      "name": "Fernández-Abascal + Muruzabal",
+      "count": 2
+    },
+    {
+      "name": "Forgas Arquitectes",
+      "count": 2
+    },
+    {
+      "name": "OLA Studio",
+      "count": 2
+    },
+    {
+      "name": "Patrick Berger",
+      "count": 2
+    },
+    {
+      "name": "Manuelle Gautrand Architecture",
+      "count": 2
+    },
+    {
+      "name": "OOIIO",
+      "count": 2
+    },
+    {
+      "name": "João Mendes Ribeiro",
+      "count": 2
+    },
+    {
+      "name": "Kashef Chowdhury - URBANA",
+      "count": 2
+    },
+    {
+      "name": "A21Studio",
+      "count": 2
+    },
+    {
+      "name": "Soriano y Asociados Arquitectos",
+      "count": 2
+    },
+    {
+      "name": "Brasil Arquitetura",
+      "count": 2
+    },
+    {
+      "name": "Heneghan Peng Architects",
+      "count": 2
+    },
+    {
+      "name": "Emre Arolat",
+      "count": 2
+    },
+    {
+      "name": "Felipe Assadi",
+      "count": 2
+    },
+    {
+      "name": "Schneider + Schumacher",
+      "count": 2
+    },
+    {
+      "name": "BC Architects & Studies",
+      "count": 2
+    },
+    {
+      "name": "Sharon Davis Design",
+      "count": 2
+    },
+    {
+      "name": "Werner Tscholl",
+      "count": 2
+    },
+    {
+      "name": "Andrea Dragoni",
+      "count": 2
+    },
+    {
+      "name": "Terry Pawson",
+      "count": 2
+    },
+    {
+      "name": "AAVP architecture",
+      "count": 2
+    },
+    {
+      "name": "Buró 4 Arquitectos",
+      "count": 2
+    },
+    {
+      "name": "Carlos Arroyo Arquitectos",
+      "count": 2
+    },
+    {
+      "name": "Robbrecht en Daem",
+      "count": 2
+    },
+    {
+      "name": "Marie-José Van Hee",
+      "count": 2
+    },
+    {
+      "name": "System Arquitectura",
+      "count": 2
+    },
+    {
+      "name": "Meritxell Inaraja",
+      "count": 2
+    },
+    {
+      "name": "Hopkins Architects",
+      "count": 2
+    },
+    {
+      "name": "Wilkinson+Eyre",
+      "count": 2
+    },
+    {
+      "name": "Taller de Arquitectura de Bogotá - Daniel Bonilla",
+      "count": 2
+    },
+    {
+      "name": "Carles Muro",
+      "count": 2
+    },
+    {
+      "name": "Charmaine Lay",
+      "count": 2
+    },
+    {
+      "name": "Ginés Garrido",
+      "count": 2
+    },
+    {
+      "name": "Patkau Architects",
+      "count": 2
+    },
+    {
+      "name": "Shim-Sutcliffe Architects",
+      "count": 2
+    },
+    {
+      "name": "Tony Fretton",
+      "count": 2
+    },
+    {
+      "name": "Moneo Brock",
+      "count": 2
+    },
+    {
+      "name": "Behnisch y Behnisch",
+      "count": 2
+    },
+    {
+      "name": "Marks Barfield Architects",
+      "count": 2
+    },
+    {
+      "name": "Delugan Meissl",
+      "count": 2
+    },
+    {
+      "name": "McCullough Mulvin Architects",
+      "count": 2
+    },
+    {
+      "name": "Trahan Architects",
+      "count": 2
+    },
+    {
+      "name": "Manuel de Solà-Morales",
+      "count": 2
+    },
+    {
+      "name": "Ramón Vázquez Molezún",
+      "count": 2
+    },
+    {
+      "name": "Eladio Dieste",
+      "count": 2
+    },
+    {
+      "name": "Esrawe Studio",
+      "count": 2
+    },
+    {
+      "name": "MIM-A Arquitectes",
+      "count": 2
+    },
+    {
+      "name": "Riken Yamamoto",
+      "count": 2
+    },
+    {
+      "name": "De Architectengroep",
+      "count": 2
+    },
+    {
+      "name": "marte.marte architects",
+      "count": 2
+    },
+    {
+      "name": "Future Systems",
+      "count": 2
+    },
+    {
+      "name": "Ian Ritchie",
+      "count": 2
+    },
+    {
+      "name": "Steimle Architekten",
+      "count": 2
+    },
+    {
+      "name": "Jun Aoki & Associates",
+      "count": 2
+    },
+    {
+      "name": "Ferrier Marchetti Studio",
+      "count": 2
+    },
+    {
+      "name": "Díaz y Díaz",
+      "count": 2
+    },
+    {
+      "name": "AGENdA Agencia de Arquitectura",
+      "count": 2
+    },
+    {
+      "name": "MMX",
+      "count": 2
+    },
+    {
+      "name": "MMBB",
+      "count": 2
+    },
+    {
+      "name": "Gabriel Allende",
+      "count": 2
+    },
+    {
+      "name": "Enrique De Teresa",
+      "count": 2
+    },
+    {
+      "name": "LUO studio",
+      "count": 2
+    },
+    {
+      "name": "CSO Arquitectura",
+      "count": 2
+    },
+    {
+      "name": "unparelld’arquitectes",
+      "count": 2
+    },
+    {
+      "name": "Édouard François",
+      "count": 2
+    },
+    {
+      "name": "Cristina Guedes",
+      "count": 2
+    },
+    {
+      "name": "BuroLandschap",
+      "count": 2
+    },
+    {
+      "name": "Hans Hollein",
+      "count": 2
+    },
+    {
+      "name": "Allmann Sattler Wappner Architekten",
+      "count": 2
+    },
+    {
+      "name": "Pemán y Franco Arquitectos Zaragoza",
+      "count": 2
+    },
+    {
+      "name": "Juan Carlos Sanz",
+      "count": 2
+    },
+    {
+      "name": "Rafael Otero",
+      "count": 2
+    },
+    {
+      "name": "José Morales",
+      "count": 2
+    },
+    {
+      "name": "Javier de las Heras Solé",
+      "count": 2
+    },
+    {
+      "name": "Toshiko Mori",
+      "count": 2
+    },
+    {
+      "name": "Steven Chilton Architects",
+      "count": 2
+    },
+    {
+      "name": "Frida Escobedo",
+      "count": 2
+    },
+    {
+      "name": "Atelier Masomi",
+      "count": 2
+    },
+    {
+      "name": "Materia",
+      "count": 2
+    },
+    {
+      "name": "Macías Peredo",
+      "count": 2
+    },
+    {
+      "name": "Antonio Virga Architecte",
+      "count": 2
+    },
+    {
+      "name": "Nexo arquitectura",
+      "count": 2
+    },
+    {
+      "name": "Andrés Perea",
+      "count": 2
+    },
+    {
+      "name": "Studio Animal",
+      "count": 2
+    },
+    {
+      "name": "Alsop & Störmer",
+      "count": 2
+    },
+    {
+      "name": "Frank Lloyd Wright",
+      "count": 2
+    },
+    {
+      "name": "Burkard Meyer",
+      "count": 2
+    },
+    {
+      "name": "Manuel Brullet",
+      "count": 2
+    },
+    {
+      "name": "Chaix & Morel",
+      "count": 2
+    },
+    {
+      "name": "Morger &  Degelo",
+      "count": 2
+    },
+    {
+      "name": "Daniele Marques",
+      "count": 2
+    },
+    {
+      "name": "Manuel Narváez",
+      "count": 2
+    },
+    {
+      "name": "Kisho Kurokawa",
+      "count": 2
+    },
+    {
+      "name": "Mathias Klotz",
+      "count": 2
+    },
+    {
+      "name": "Teodoro González de León",
+      "count": 2
+    },
+    {
+      "name": "Taller | Mauricio Rocha",
+      "count": 2
+    },
+    {
+      "name": "Bevk Perović arhitekti",
+      "count": 2
+    },
+    {
+      "name": "Julio Grijalba",
+      "count": 2
+    },
+    {
+      "name": "Alberto Grijalba",
+      "count": 2
+    },
+    {
+      "name": "Eduardo Carazo",
+      "count": 2
+    },
+    {
+      "name": "Paloma Gil",
+      "count": 2
+    },
+    {
+      "name": "Víctor Ruiz",
+      "count": 2
+    },
+    {
+      "name": "Branson Coates Architecture",
+      "count": 2
+    },
+    {
+      "name": "Lecumberri & Cidoncha",
+      "count": 2
+    },
+    {
+      "name": "Luis Peña Ganchegui",
+      "count": 2
+    },
+    {
+      "name": "Arata Isozaki",
+      "count": 2
+    },
+    {
+      "name": "Martin Wagner",
+      "count": 2
+    },
+    {
+      "name": "Rudolf Otto Salvisberg",
+      "count": 2
+    },
+    {
+      "name": "Bruno Taut",
+      "count": 2
+    },
+    {
+      "name": "José Antonio Coderch",
+      "count": 2
+    },
+    {
+      "name": "K architectures Sigwalt Herman",
+      "count": 2
+    },
+    {
+      "name": "Olsson Lyckefors",
+      "count": 2
+    },
+    {
+      "name": "AGI Architects",
+      "count": 2
+    },
+    {
+      "name": "P+S  Estudio de Arquitectura",
+      "count": 2
+    },
+    {
+      "name": "RAUM",
+      "count": 2
+    },
+    {
+      "name": "bxd arquitectura",
+      "count": 2
+    },
+    {
+      "name": "Tomás García Píriz",
+      "count": 2
+    },
+    {
+      "name": "META Architectuurbureau",
+      "count": 2
+    },
+    {
+      "name": "van Bergen Kolpa Architects",
+      "count": 2
+    },
+    {
+      "name": "Haz Arquitectura",
+      "count": 2
+    },
+    {
+      "name": "De Leon & Primmer Architecture Workshop",
+      "count": 2
+    },
+    {
+      "name": "SO-IL",
+      "count": 2
+    },
+    {
+      "name": "Ander Bados Sesma",
+      "count": 2
+    },
+    {
+      "name": "Betsaida Curto Reyes",
+      "count": 2
+    },
+    {
+      "name": "Garcés - de Seta - Bonet | arquitectes",
+      "count": 2
+    },
+    {
+      "name": "Gerardo Ayala",
+      "count": 2
+    },
+    {
+      "name": "Aixopluc",
+      "count": 2
+    },
+    {
+      "name": "Aulets",
+      "count": 2
+    },
+    {
+      "name": "Tomás Montis",
+      "count": 2
+    },
+    {
+      "name": "Mae Architects",
+      "count": 2
+    },
+    {
+      "name": "Solar",
+      "count": 2
+    },
+    {
+      "name": "Marta Jarabo",
+      "count": 2
+    },
+    {
+      "name": "Buzzo Spinelli Architecture",
+      "count": 2
+    },
+    {
+      "name": "Semillas",
+      "count": 2
+    },
+    {
+      "name": "Arenas Basabe Palacios",
+      "count": 2
+    },
+    {
+      "name": "Joan J Fortuny Giró",
+      "count": 2
+    },
+    {
+      "name": "ALE ESTUDIO",
+      "count": 2
+    },
+    {
+      "name": "Narch Arquitectes",
+      "count": 2
+    },
+    {
+      "name": "Maira Arquitectes",
+      "count": 2
+    },
+    {
+      "name": "Behet Bondzio Lin Architects",
+      "count": 2
+    },
+    {
+      "name": "Hanghar",
+      "count": 2
+    },
+    {
+      "name": "Tropical Space",
+      "count": 2
+    },
+    {
+      "name": "TAKK",
+      "count": 2
+    },
+    {
+      "name": "labaula cooperativa",
+      "count": 2
+    },
+    {
+      "name": "L35 Architects",
+      "count": 2
+    },
+    {
+      "name": "Ellen van Loon",
+      "count": 2
+    },
+    {
+      "name": "Coldefy",
+      "count": 2
+    },
+    {
+      "name": "Pachón–Paredes",
+      "count": 2
+    },
+    {
+      "name": "Taller Héctor Barroso",
+      "count": 2
+    },
+    {
+      "name": "AV62 Arquitectos",
+      "count": 2
+    },
+    {
+      "name": "Studio di Architettura Zermani Associati",
+      "count": 2
+    },
+    {
+      "name": "Beaudouin Architectes",
+      "count": 2
+    },
+    {
+      "name": "ERRE",
+      "count": 2
+    },
+    {
+      "name": "NOARQ | José Carlos Nunes de Oliveira",
+      "count": 2
+    },
+    {
+      "name": "Fernanda Canales",
+      "count": 2
+    },
+    {
+      "name": "Sordo Madaleno Arquitectos",
+      "count": 2
+    },
+    {
+      "name": "HEMAA",
+      "count": 2
+    },
+    {
+      "name": "SV60 / Cordón & Liñán Arquitectos",
+      "count": 2
+    },
+    {
+      "name": "Triptyque",
+      "count": 2
+    },
+    {
+      "name": "Carlo Ratti",
+      "count": 2
+    },
+    {
+      "name": "vaumm",
+      "count": 2
+    },
+    {
+      "name": "Urbanitree",
+      "count": 2
+    },
+    {
+      "name": "Aidia Studio",
+      "count": 2
+    },
+    {
+      "name": "Josep Maria Cartañà",
+      "count": 1
+    },
+    {
+      "name": "MBM arquitectes",
+      "count": 1
+    },
+    {
+      "name": "Carlos Quintáns",
+      "count": 1
+    },
+    {
+      "name": "Antonio Raya",
+      "count": 1
+    },
+    {
+      "name": "Cristóbal Crespo",
+      "count": 1
+    },
+    {
+      "name": "Javier Peña",
+      "count": 1
+    },
+    {
+      "name": "CHS arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Tabuenca & Saralegui",
+      "count": 1
+    },
+    {
+      "name": "ODImásP",
+      "count": 1
+    },
+    {
+      "name": "Luis María Uriarte",
+      "count": 1
+    },
+    {
+      "name": "Alfonso Penela",
+      "count": 1
+    },
+    {
+      "name": "ByE arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Rubiño García Márquez Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Josep Val",
+      "count": 1
+    },
+    {
+      "name": "Ángel Verdasco",
+      "count": 1
+    },
+    {
+      "name": "José Luis Camarasa",
+      "count": 1
+    },
+    {
+      "name": "Javier Manterola",
+      "count": 1
+    },
+    {
+      "name": "Lorenzo Fernández-Ordóñez",
+      "count": 1
+    },
+    {
+      "name": "Francisco Millanes",
+      "count": 1
+    },
+    {
+      "name": "Jesús Aparicio",
+      "count": 1
+    },
+    {
+      "name": "Ramón González de la Peña",
+      "count": 1
+    },
+    {
+      "name": "Joan Pascual",
+      "count": 1
+    },
+    {
+      "name": "José María Valero",
+      "count": 1
+    },
+    {
+      "name": "Justo García Rubio",
+      "count": 1
+    },
+    {
+      "name": "José María de la Mata",
+      "count": 1
+    },
+    {
+      "name": "martínezysoler",
+      "count": 1
+    },
+    {
+      "name": "Carvajal+Casariego Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Carlos Martín González",
+      "count": 1
+    },
+    {
+      "name": "Carlos Escura",
+      "count": 1
+    },
+    {
+      "name": "Vicente Corell Farinós",
+      "count": 1
+    },
+    {
+      "name": "Francesc Torres",
+      "count": 1
+    },
+    {
+      "name": "Antonio Martínez García",
+      "count": 1
+    },
+    {
+      "name": "Juan Luis Trillo de Leyva",
+      "count": 1
+    },
+    {
+      "name": "Joan Nogué",
+      "count": 1
+    },
+    {
+      "name": "Txema Onzain",
+      "count": 1
+    },
+    {
+      "name": "José María Fernández-Isla",
+      "count": 1
+    },
+    {
+      "name": "Enrique Delgado",
+      "count": 1
+    },
+    {
+      "name": "Alberto Medem",
+      "count": 1
+    },
+    {
+      "name": "Gonzalo Ortega",
+      "count": 1
+    },
+    {
+      "name": "Eduard Gascón",
+      "count": 1
+    },
+    {
+      "name": "Carlos Martí Aris",
+      "count": 1
+    },
+    {
+      "name": "Alberto Martínez Castillo",
+      "count": 1
+    },
+    {
+      "name": "Beatriz Matos Castaño",
+      "count": 1
+    },
+    {
+      "name": "Nicanor García",
+      "count": 1
+    },
+    {
+      "name": "Nicolás Carbajal",
+      "count": 1
+    },
+    {
+      "name": "Simone Solinas",
+      "count": 1
+    },
+    {
+      "name": "María Viñé",
+      "count": 1
+    },
+    {
+      "name": "Virginia Daroca",
+      "count": 1
+    },
+    {
+      "name": "Eduardo Jiménez",
+      "count": 1
+    },
+    {
+      "name": "Yolanda Brasa",
+      "count": 1
+    },
+    {
+      "name": "Alberto Nicolau",
+      "count": 1
+    },
+    {
+      "name": "Carlos A. Wandosell",
+      "count": 1
+    },
+    {
+      "name": "Javier de Mateo",
+      "count": 1
+    },
+    {
+      "name": "Hans Finner",
+      "count": 1
+    },
+    {
+      "name": "Dospunts Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "L'Atelier du Paysage",
+      "count": 1
+    },
+    {
+      "name": "Francisco Ibáñez",
+      "count": 1
+    },
+    {
+      "name": "Juan Manuel Vargas",
+      "count": 1
+    },
+    {
+      "name": "Miguel de Guzmán",
+      "count": 1
+    },
+    {
+      "name": "Suárez & Santas Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Arroyo Pemjean Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Alberola, Díaz-Mauriño & Martorell",
+      "count": 1
+    },
+    {
+      "name": "Nuria Ayala",
+      "count": 1
+    },
+    {
+      "name": "Miguel Bretones del Pozo",
+      "count": 1
+    },
+    {
+      "name": "Julia González Pérez-Blanco",
+      "count": 1
+    },
+    {
+      "name": "Pilar Peña Tarancón",
+      "count": 1
+    },
+    {
+      "name": "María Antonia Fernández Nieto",
+      "count": 1
+    },
+    {
+      "name": "Viar Estudio Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Jürgen Mayer",
+      "count": 1
+    },
+    {
+      "name": "Joan Puigcorbé",
+      "count": 1
+    },
+    {
+      "name": "Mestura",
+      "count": 1
+    },
+    {
+      "name": "NGNP Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "GAZ Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "BSA Barrio & Sainz de Aja",
+      "count": 1
+    },
+    {
+      "name": "Carmen Martínez Gregori",
+      "count": 1
+    },
+    {
+      "name": "NIU Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Naos 04",
+      "count": 1
+    },
+    {
+      "name": "AZPML",
+      "count": 1
+    },
+    {
+      "name": "Clara Moneo",
+      "count": 1
+    },
+    {
+      "name": "Valerio Canals",
+      "count": 1
+    },
+    {
+      "name": "Jorge Vidal",
+      "count": 1
+    },
+    {
+      "name": "Víctor Rahola",
+      "count": 1
+    },
+    {
+      "name": "Garciagerman Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "deAbajoGarcía (DABG)",
+      "count": 1
+    },
+    {
+      "name": "Ángel Panero",
+      "count": 1
+    },
+    {
+      "name": "MAIO",
+      "count": 1
+    },
+    {
+      "name": "Joaquín Moyá Costa",
+      "count": 1
+    },
+    {
+      "name": "TNA / Takei  Nabeshima architects",
+      "count": 1
+    },
+    {
+      "name": "Andrade Morettin Arquitetos",
+      "count": 1
+    },
+    {
+      "name": "Nitsche Arquitetos",
+      "count": 1
+    },
+    {
+      "name": "Durbach Block Architects",
+      "count": 1
+    },
+    {
+      "name": "David Patricio Barragán Andrade",
+      "count": 1
+    },
+    {
+      "name": "José María Sáez Vaquero",
+      "count": 1
+    },
+    {
+      "name": "Valdimar Harðarson",
+      "count": 1
+    },
+    {
+      "name": "Architects Bates Maher",
+      "count": 1
+    },
+    {
+      "name": "FAR frohn&rojas",
+      "count": 1
+    },
+    {
+      "name": "HMA Hanrahan Meyers Architects",
+      "count": 1
+    },
+    {
+      "name": "Hertl Architekten",
+      "count": 1
+    },
+    {
+      "name": "Sean Godsell",
+      "count": 1
+    },
+    {
+      "name": "Terroir",
+      "count": 1
+    },
+    {
+      "name": "Smiljan Radic",
+      "count": 1
+    },
+    {
+      "name": "Zenkaya",
+      "count": 1
+    },
+    {
+      "name": "Gana Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Bermúdez Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Mendaro Corsini Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "PPA Architectures",
+      "count": 1
+    },
+    {
+      "name": "Frédéric Druot",
+      "count": 1
+    },
+    {
+      "name": "Alejandro Medina Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Reyes Ríos + Larrain",
+      "count": 1
+    },
+    {
+      "name": "Muñoz Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Quesnel Arqs",
+      "count": 1
+    },
+    {
+      "name": "XVW architectuur",
+      "count": 1
+    },
+    {
+      "name": "Marge Arkitekter",
+      "count": 1
+    },
+    {
+      "name": "Gino Guarnieri & Roberto Mascazzini",
+      "count": 1
+    },
+    {
+      "name": "RAW Architecture",
+      "count": 1
+    },
+    {
+      "name": "1+1>2 International Architecture",
+      "count": 1
+    },
+    {
+      "name": "feat.collective",
+      "count": 1
+    },
+    {
+      "name": "Chartier-Corbasson architects",
+      "count": 1
+    },
+    {
+      "name": "AFGH/Andreas Fuhrimann y Gabrielle Hächler",
+      "count": 1
+    },
+    {
+      "name": "Rockwell Group",
+      "count": 1
+    },
+    {
+      "name": "Atelier U20",
+      "count": 1
+    },
+    {
+      "name": "Rintala Eggertsson Architects",
+      "count": 1
+    },
+    {
+      "name": "Next Architects",
+      "count": 1
+    },
+    {
+      "name": "Daniel Galar",
+      "count": 1
+    },
+    {
+      "name": "Josecho Vélaz",
+      "count": 1
+    },
+    {
+      "name": "BBGK Architekci",
+      "count": 1
+    },
+    {
+      "name": "Guedes Cruz Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Dietger Wissounig Architekten",
+      "count": 1
+    },
+    {
+      "name": "SUMA/ Issei Suma",
+      "count": 1
+    },
+    {
+      "name": "Li Xiaodong",
+      "count": 1
+    },
+    {
+      "name": "Keisuke Maeda",
+      "count": 1
+    },
+    {
+      "name": "AAPP / Agence d’Architecture Philippe Prost",
+      "count": 1
+    },
+    {
+      "name": "Miroslaw Nizio",
+      "count": 1
+    },
+    {
+      "name": "SET architects",
+      "count": 1
+    },
+    {
+      "name": "Studio Marco Vermeulen",
+      "count": 1
+    },
+    {
+      "name": "Cao Ye",
+      "count": 1
+    },
+    {
+      "name": "Cai Yongjie",
+      "count": 1
+    },
+    {
+      "name": "Ai Weiwei",
+      "count": 1
+    },
+    {
+      "name": "Edzo Bindels",
+      "count": 1
+    },
+    {
+      "name": "Martin Biewenga",
+      "count": 1
+    },
+    {
+      "name": "Gonzalo Moure",
+      "count": 1
+    },
+    {
+      "name": "Exit Architects",
+      "count": 1
+    },
+    {
+      "name": "Jaime Ferrer Forés",
+      "count": 1
+    },
+    {
+      "name": "Antoni Vilanova",
+      "count": 1
+    },
+    {
+      "name": "Alfonso González Gaisán",
+      "count": 1
+    },
+    {
+      "name": "Francisco Blanco",
+      "count": 1
+    },
+    {
+      "name": "Jesús Olivares Casado",
+      "count": 1
+    },
+    {
+      "name": "Miguel Rodenas Mussons",
+      "count": 1
+    },
+    {
+      "name": "Ramón Fernández-Alonso",
+      "count": 1
+    },
+    {
+      "name": "David Sebastián",
+      "count": 1
+    },
+    {
+      "name": "Gerard Puig",
+      "count": 1
+    },
+    {
+      "name": "Fernando De Retes Aparicio",
+      "count": 1
+    },
+    {
+      "name": "Retes Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Juan Coll-Barreu",
+      "count": 1
+    },
+    {
+      "name": "Daniel Gutiérrez Zarza",
+      "count": 1
+    },
+    {
+      "name": "Iñaki Alday",
+      "count": 1
+    },
+    {
+      "name": "Margarita Jover",
+      "count": 1
+    },
+    {
+      "name": "Jover",
+      "count": 1
+    },
+    {
+      "name": "José Miguel Roldán",
+      "count": 1
+    },
+    {
+      "name": "Miguel Santiago",
+      "count": 1
+    },
+    {
+      "name": "José Antonio Sosa",
+      "count": 1
+    },
+    {
+      "name": "Magüi González",
+      "count": 1
+    },
+    {
+      "name": "Rafael Cáceres",
+      "count": 1
+    },
+    {
+      "name": "Miguel Hernández Valencia",
+      "count": 1
+    },
+    {
+      "name": "Esther López Martín",
+      "count": 1
+    },
+    {
+      "name": "Juliane Potter",
+      "count": 1
+    },
+    {
+      "name": "Francisco José Domínguez Saborido",
+      "count": 1
+    },
+    {
+      "name": "Ángel González Aguilar",
+      "count": 1
+    },
+    {
+      "name": "AF6 Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Santiago Barge Ferreiros",
+      "count": 1
+    },
+    {
+      "name": "María Belén Bouza",
+      "count": 1
+    },
+    {
+      "name": "Barge & Bouza",
+      "count": 1
+    },
+    {
+      "name": "Javier Larraz",
+      "count": 1
+    },
+    {
+      "name": "Iñaki Bergera",
+      "count": 1
+    },
+    {
+      "name": "María José Pizarro",
+      "count": 1
+    },
+    {
+      "name": "Óscar Rueda",
+      "count": 1
+    },
+    {
+      "name": "Ramón Bosch",
+      "count": 1
+    },
+    {
+      "name": "Elisabet Capdeferro",
+      "count": 1
+    },
+    {
+      "name": "Pep Ripoll",
+      "count": 1
+    },
+    {
+      "name": "Juan Miguel Tizón",
+      "count": 1
+    },
+    {
+      "name": "Luis Pancorbo",
+      "count": 1
+    },
+    {
+      "name": "José de Villar",
+      "count": 1
+    },
+    {
+      "name": "Carlos Chacón",
+      "count": 1
+    },
+    {
+      "name": "Inés Martín Robles",
+      "count": 1
+    },
+    {
+      "name": "Ángela Ruiz Martínez",
+      "count": 1
+    },
+    {
+      "name": "Pedro Romera García",
+      "count": 1
+    },
+    {
+      "name": "Elizabeth Abalo",
+      "count": 1
+    },
+    {
+      "name": "Gonzalo Alonso",
+      "count": 1
+    },
+    {
+      "name": "Francisco Gómez Díaz",
+      "count": 1
+    },
+    {
+      "name": "Juan Antonio González Pérez",
+      "count": 1
+    },
+    {
+      "name": "Urbano Yanes Tuña",
+      "count": 1
+    },
+    {
+      "name": "Luis Rojo de Castro",
+      "count": 1
+    },
+    {
+      "name": "Juan Llorente",
+      "count": 1
+    },
+    {
+      "name": "Eduardo Pérez Gómez",
+      "count": 1
+    },
+    {
+      "name": "Miguel Ángel Sánchez",
+      "count": 1
+    },
+    {
+      "name": "Ferran Vizoso",
+      "count": 1
+    },
+    {
+      "name": "CUAC Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Archikubik",
+      "count": 1
+    },
+    {
+      "name": "Enllaç arquitectònic",
+      "count": 1
+    },
+    {
+      "name": "Rodríguez + Pintos arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Rem Koolhaas",
+      "count": 1
+    },
+    {
+      "name": "REX",
+      "count": 1
+    },
+    {
+      "name": "César Azcárate",
+      "count": 1
+    },
+    {
+      "name": "Javier Rubio Montero",
+      "count": 1
+    },
+    {
+      "name": "Cómo crear historias",
+      "count": 1
+    },
+    {
+      "name": "Ramón Sanabria",
+      "count": 1
+    },
+    {
+      "name": "Armand Grüntuch",
+      "count": 1
+    },
+    {
+      "name": "Almut Grüntuch-Ernst",
+      "count": 1
+    },
+    {
+      "name": "Carlos Sánchez Hernández",
+      "count": 1
+    },
+    {
+      "name": "Enrique Marín",
+      "count": 1
+    },
+    {
+      "name": "Arkítera",
+      "count": 1
+    },
+    {
+      "name": "Corea, Moran & Guerrico",
+      "count": 1
+    },
+    {
+      "name": "Ramiro Losada",
+      "count": 1
+    },
+    {
+      "name": "Alberto García",
+      "count": 1
+    },
+    {
+      "name": "Losada García Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Bakpak Architects",
+      "count": 1
+    },
+    {
+      "name": "Robert Terradas",
+      "count": 1
+    },
+    {
+      "name": "Esteve Terradas",
+      "count": 1
+    },
+    {
+      "name": "Marc Arnal",
+      "count": 1
+    },
+    {
+      "name": "Julio Clúa Martínez",
+      "count": 1
+    },
+    {
+      "name": "Román y Canivell",
+      "count": 1
+    },
+    {
+      "name": "Astearchitecture",
+      "count": 1
+    },
+    {
+      "name": "Maud Nieraeth-van Banning",
+      "count": 1
+    },
+    {
+      "name": "Bram Hurkens",
+      "count": 1
+    },
+    {
+      "name": "Ateliereen Architecten",
+      "count": 1
+    },
+    {
+      "name": "Stefan Giers",
+      "count": 1
+    },
+    {
+      "name": "Architektur & Landschaft",
+      "count": 1
+    },
+    {
+      "name": "Pasi Aalto",
+      "count": 1
+    },
+    {
+      "name": "Haugen/Zohar Arkitekter (HZA)",
+      "count": 1
+    },
+    {
+      "name": "KARO* architekten",
+      "count": 1
+    },
+    {
+      "name": "Luis Ferreira Rodrigues",
+      "count": 1
+    },
+    {
+      "name": "Stefanie Seeholzer",
+      "count": 1
+    },
+    {
+      "name": "Peter Kunze",
+      "count": 1
+    },
+    {
+      "name": "Kunze Seeholzer",
+      "count": 1
+    },
+    {
+      "name": "Granger Moorhead",
+      "count": 1
+    },
+    {
+      "name": "Robert Moorhead",
+      "count": 1
+    },
+    {
+      "name": "Moorhead & Moorhead",
+      "count": 1
+    },
+    {
+      "name": "studioMAS Architecture & Urban Design",
+      "count": 1
+    },
+    {
+      "name": "Brian Hooper",
+      "count": 1
+    },
+    {
+      "name": "m3architecture",
+      "count": 1
+    },
+    {
+      "name": "Thilo Höhne",
+      "count": 1
+    },
+    {
+      "name": "Karim Scharabi",
+      "count": 1
+    },
+    {
+      "name": "Philipp Schiffer",
+      "count": 1
+    },
+    {
+      "name": "Jochen Schuh",
+      "count": 1
+    },
+    {
+      "name": "Markus Schwieger",
+      "count": 1
+    },
+    {
+      "name": "Oliver Witan",
+      "count": 1
+    },
+    {
+      "name": "Netzwerk Architekten",
+      "count": 1
+    },
+    {
+      "name": "Form Art",
+      "count": 1
+    },
+    {
+      "name": "Carlo Baumschlager",
+      "count": 1
+    },
+    {
+      "name": "Dietmar Eberle",
+      "count": 1
+    },
+    {
+      "name": "Andrés Silanes",
+      "count": 1
+    },
+    {
+      "name": "Fernando Valderrama",
+      "count": 1
+    },
+    {
+      "name": "Carlos Bañon",
+      "count": 1
+    },
+    {
+      "name": "Subarquitectura",
+      "count": 1
+    },
+    {
+      "name": "Martin Reusser",
+      "count": 1
+    },
+    {
+      "name": "Markus Müller",
+      "count": 1
+    },
+    {
+      "name": "Boris Egli",
+      "count": 1
+    },
+    {
+      "name": "L3P Architekten",
+      "count": 1
+    },
+    {
+      "name": "Takaharu Tezuka",
+      "count": 1
+    },
+    {
+      "name": "Yui Tezuka",
+      "count": 1
+    },
+    {
+      "name": "Valentin Bearth",
+      "count": 1
+    },
+    {
+      "name": "Andrea Deplazes",
+      "count": 1
+    },
+    {
+      "name": "Bearth & Deplazes",
+      "count": 1
+    },
+    {
+      "name": "Julien Boidot",
+      "count": 1
+    },
+    {
+      "name": "Diego Jiménez López",
+      "count": 1
+    },
+    {
+      "name": "Juana Sánchez Gómez",
+      "count": 1
+    },
+    {
+      "name": "DJ arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Laurent Ammeter",
+      "count": 1
+    },
+    {
+      "name": "Adrien Besson",
+      "count": 1
+    },
+    {
+      "name": "Tarramo Broennimann",
+      "count": 1
+    },
+    {
+      "name": "Group 8",
+      "count": 1
+    },
+    {
+      "name": "Pacific Environments Architects",
+      "count": 1
+    },
+    {
+      "name": "White Arkitekter",
+      "count": 1
+    },
+    {
+      "name": "Judith Wellmann",
+      "count": 1
+    },
+    {
+      "name": "Martin Ladinger",
+      "count": 1
+    },
+    {
+      "name": "wellmann ladinger",
+      "count": 1
+    },
+    {
+      "name": "Annette Spillmann",
+      "count": 1
+    },
+    {
+      "name": "Harald Echsle",
+      "count": 1
+    },
+    {
+      "name": "Spillmann Echsle Architekten",
+      "count": 1
+    },
+    {
+      "name": "topos-architecture",
+      "count": 1
+    },
+    {
+      "name": "Xu Tiantian",
+      "count": 1
+    },
+    {
+      "name": "Liu Kecheng",
+      "count": 1
+    },
+    {
+      "name": "Li Hua",
+      "count": 1
+    },
+    {
+      "name": "Urbanus",
+      "count": 1
+    },
+    {
+      "name": "Zhang Lei",
+      "count": 1
+    },
+    {
+      "name": "Archivision Hirotani Studio",
+      "count": 1
+    },
+    {
+      "name": "Ignacio Grávalos",
+      "count": 1
+    },
+    {
+      "name": "Patrizia Di Monte",
+      "count": 1
+    },
+    {
+      "name": "Alberto Alcalde",
+      "count": 1
+    },
+    {
+      "name": "Alessio Battistella",
+      "count": 1
+    },
+    {
+      "name": "Carmine Chiarelli",
+      "count": 1
+    },
+    {
+      "name": "Valerio Marazzi",
+      "count": 1
+    },
+    {
+      "name": "Diego Torriani",
+      "count": 1
+    },
+    {
+      "name": "Luca Trabattoni",
+      "count": 1
+    },
+    {
+      "name": "ARCò",
+      "count": 1
+    },
+    {
+      "name": "Dominique Coulon & Associés",
+      "count": 1
+    },
+    {
+      "name": "Atelier Nuno Lacerda Lopes",
+      "count": 1
+    },
+    {
+      "name": "Architects Rudanko Kankkunen",
+      "count": 1
+    },
+    {
+      "name": "Noero Wolff Architects",
+      "count": 1
+    },
+    {
+      "name": "Ateliers Lion Associés",
+      "count": 1
+    },
+    {
+      "name": "Franciso Amaral Pólvora",
+      "count": 1
+    },
+    {
+      "name": "José Amaral Pólvora",
+      "count": 1
+    },
+    {
+      "name": "BFJ Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Camilo Rebelo",
+      "count": 1
+    },
+    {
+      "name": "Tiago Pimentel",
+      "count": 1
+    },
+    {
+      "name": "e|348",
+      "count": 1
+    },
+    {
+      "name": "Barbosa & Guimarães",
+      "count": 1
+    },
+    {
+      "name": "Afaconsult",
+      "count": 1
+    },
+    {
+      "name": "João Pedro Falcão de Campos",
+      "count": 1
+    },
+    {
+      "name": "ASPA",
+      "count": 1
+    },
+    {
+      "name": "Pedro Campos Costa",
+      "count": 1
+    },
+    {
+      "name": "Alberto de Souza Oliveira",
+      "count": 1
+    },
+    {
+      "name": "Paulo Martins Barata",
+      "count": 1
+    },
+    {
+      "name": "Joao Luis Ferreira",
+      "count": 1
+    },
+    {
+      "name": "Paulo Perloiro",
+      "count": 1
+    },
+    {
+      "name": "Pedro Appleton",
+      "count": 1
+    },
+    {
+      "name": "Joao Perloiro",
+      "count": 1
+    },
+    {
+      "name": "Nuno Ribeiro Lopes",
+      "count": 1
+    },
+    {
+      "name": "MEK Architects",
+      "count": 1
+    },
+    {
+      "name": "Rim Bell",
+      "count": 1
+    },
+    {
+      "name": "Hari Phillips",
+      "count": 1
+    },
+    {
+      "name": "Bell Phillips Architects",
+      "count": 1
+    },
+    {
+      "name": "Marlies Rohmer",
+      "count": 1
+    },
+    {
+      "name": "Hild und K Architekten",
+      "count": 1
+    },
+    {
+      "name": "Rue Royale Architectes",
+      "count": 1
+    },
+    {
+      "name": "Pedro Sousa",
+      "count": 1
+    },
+    {
+      "name": "Sergi Pons",
+      "count": 1
+    },
+    {
+      "name": "Ricard Galiana",
+      "count": 1
+    },
+    {
+      "name": "Almudena Ribot",
+      "count": 1
+    },
+    {
+      "name": "Núñez Ribot Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Enrique Nuere",
+      "count": 1
+    },
+    {
+      "name": "Benthem Crouwel Architects",
+      "count": 1
+    },
+    {
+      "name": "Lundgaard & Tranberg Arkitekter",
+      "count": 1
+    },
+    {
+      "name": "Pryds",
+      "count": 1
+    },
+    {
+      "name": "Cowi",
+      "count": 1
+    },
+    {
+      "name": "jaja architects",
+      "count": 1
+    },
+    {
+      "name": "Jordi Henrich",
+      "count": 1
+    },
+    {
+      "name": "Iotti + Pavarini Architetti",
+      "count": 1
+    },
+    {
+      "name": "Antonello Stella",
+      "count": 1
+    },
+    {
+      "name": "Favero & Milan",
+      "count": 1
+    },
+    {
+      "name": "Francesco Cellini",
+      "count": 1
+    },
+    {
+      "name": "insula | insula architettura e ingegneria",
+      "count": 1
+    },
+    {
+      "name": "Stefano Serpenti",
+      "count": 1
+    },
+    {
+      "name": "Federico Desideri",
+      "count": 1
+    },
+    {
+      "name": "ACT",
+      "count": 1
+    },
+    {
+      "name": "Luigi Cisternino",
+      "count": 1
+    },
+    {
+      "name": "Ruggiero Comitangelo",
+      "count": 1
+    },
+    {
+      "name": "BDF",
+      "count": 1
+    },
+    {
+      "name": "Metrogramma",
+      "count": 1
+    },
+    {
+      "name": "AZPA",
+      "count": 1
+    },
+    {
+      "name": "LSB",
+      "count": 1
+    },
+    {
+      "name": "Politecnica",
+      "count": 1
+    },
+    {
+      "name": "Domenico Piemonte",
+      "count": 1
+    },
+    {
+      "name": "Katerina Samsarelou",
+      "count": 1
+    },
+    {
+      "name": "PISaA",
+      "count": 1
+    },
+    {
+      "name": "Jornet Llop Pastor",
+      "count": 1
+    },
+    {
+      "name": "Centola & Associati",
+      "count": 1
+    },
+    {
+      "name": "Erregi",
+      "count": 1
+    },
+    {
+      "name": "TAAU",
+      "count": 1
+    },
+    {
+      "name": "Helen & Hard",
+      "count": 1
+    },
+    {
+      "name": "Superuse Studios",
+      "count": 1
+    },
+    {
+      "name": "Kendall/Heaton Associates",
+      "count": 1
+    },
+    {
+      "name": "Ants of the Prairie",
+      "count": 1
+    },
+    {
+      "name": "NEX Architecture",
+      "count": 1
+    },
+    {
+      "name": "baumraum",
+      "count": 1
+    },
+    {
+      "name": "Gion Antoni Caminada",
+      "count": 1
+    },
+    {
+      "name": "Ball-Nogues Studio",
+      "count": 1
+    },
+    {
+      "name": "Atelier de Lyon",
+      "count": 1
+    },
+    {
+      "name": "Rietveld Landscape",
+      "count": 1
+    },
+    {
+      "name": "BUEAU A",
+      "count": 1
+    },
+    {
+      "name": "Georg Nickisch",
+      "count": 1
+    },
+    {
+      "name": "Selina Walder",
+      "count": 1
+    },
+    {
+      "name": "Ifat Finkelman",
+      "count": 1
+    },
+    {
+      "name": "Deborah Warschawski",
+      "count": 1
+    },
+    {
+      "name": "Gijs Van Vaerenbergh",
+      "count": 1
+    },
+    {
+      "name": "Estonian Academy of Arts",
+      "count": 1
+    },
+    {
+      "name": "Flanagan Lawrence",
+      "count": 1
+    },
+    {
+      "name": "Lukas Kühne",
+      "count": 1
+    },
+    {
+      "name": "Luke Jerram",
+      "count": 1
+    },
+    {
+      "name": "KOZ architectes",
+      "count": 1
+    },
+    {
+      "name": "Contemporaries",
+      "count": 1
+    },
+    {
+      "name": "Laia Renalias",
+      "count": 1
+    },
+    {
+      "name": "Carles Serrano",
+      "count": 1
+    },
+    {
+      "name": "Leticia Soriano",
+      "count": 1
+    },
+    {
+      "name": "Roger Such",
+      "count": 1
+    },
+    {
+      "name": "Taller de Arquitectura / Mauricio Rocha + Gabriela Carrillo",
+      "count": 1
+    },
+    {
+      "name": "Studiomake",
+      "count": 1
+    },
+    {
+      "name": "Antonio Lamela",
+      "count": 1
+    },
+    {
+      "name": "Carlos Lamela",
+      "count": 1
+    },
+    {
+      "name": "Giovanni Vaccarini Architetti",
+      "count": 1
+    },
+    {
+      "name": "FOJAB arkitekter",
+      "count": 1
+    },
+    {
+      "name": "Barcode Architects",
+      "count": 1
+    },
+    {
+      "name": "Penzel Valier AG",
+      "count": 1
+    },
+    {
+      "name": "Hariri Pontarini Architects",
+      "count": 1
+    },
+    {
+      "name": "AAU Anastas",
+      "count": 1
+    },
+    {
+      "name": "MX_SI Architectural Studio",
+      "count": 1
+    },
+    {
+      "name": "Bernardes Arquitetura",
+      "count": 1
+    },
+    {
+      "name": "CCDI",
+      "count": 1
+    },
+    {
+      "name": "De Architekten Cie",
+      "count": 1
+    },
+    {
+      "name": "KIENTRUC O",
+      "count": 1
+    },
+    {
+      "name": "murmuro",
+      "count": 1
+    },
+    {
+      "name": "H&P Architects",
+      "count": 1
+    },
+    {
+      "name": "WISE Architecture",
+      "count": 1
+    },
+    {
+      "name": "Light Earth Designs",
+      "count": 1
+    },
+    {
+      "name": "Marina Tabassum",
+      "count": 1
+    },
+    {
+      "name": "Nicolás Campodonico",
+      "count": 1
+    },
+    {
+      "name": "Takashi Niwa",
+      "count": 1
+    },
+    {
+      "name": "Entre Nos Atelier",
+      "count": 1
+    },
+    {
+      "name": "Juan Miguel Hernández León",
+      "count": 1
+    },
+    {
+      "name": "kleyer.koblitz.letzel.freivogel",
+      "count": 1
+    },
+    {
+      "name": "Alonso / Barrientos",
+      "count": 1
+    },
+    {
+      "name": "Studio Farris Architects",
+      "count": 1
+    },
+    {
+      "name": "Llowarch Llowarch Architects",
+      "count": 1
+    },
+    {
+      "name": "Borja Ferrater",
+      "count": 1
+    },
+    {
+      "name": "BIA arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Specific Architects",
+      "count": 1
+    },
+    {
+      "name": "Unit Architects",
+      "count": 1
+    },
+    {
+      "name": "Jacques Anziutti",
+      "count": 1
+    },
+    {
+      "name": "Pablo Gallego",
+      "count": 1
+    },
+    {
+      "name": "Noemí Martínez García",
+      "count": 1
+    },
+    {
+      "name": "Miguel Ángel García-Pola Vallejo",
+      "count": 1
+    },
+    {
+      "name": "Menos é Mais",
+      "count": 1
+    },
+    {
+      "name": "ADH Architectes",
+      "count": 1
+    },
+    {
+      "name": "51N4E",
+      "count": 1
+    },
+    {
+      "name": "Riegler Riewe Architekten",
+      "count": 1
+    },
+    {
+      "name": "AREP",
+      "count": 1
+    },
+    {
+      "name": "Wang Shu",
+      "count": 1
+    },
+    {
+      "name": "Scenic Architecture Office",
+      "count": 1
+    },
+    {
+      "name": "Erick Van Egeraat",
+      "count": 1
+    },
+    {
+      "name": "JUNG Architectures",
+      "count": 1
+    },
+    {
+      "name": "CedraRuddy",
+      "count": 1
+    },
+    {
+      "name": "Arcgency",
+      "count": 1
+    },
+    {
+      "name": "GRAFT Brandlab",
+      "count": 1
+    },
+    {
+      "name": "Renato Rizzi",
+      "count": 1
+    },
+    {
+      "name": "Urbane Kultur",
+      "count": 1
+    },
+    {
+      "name": "GAJD arkitekter",
+      "count": 1
+    },
+    {
+      "name": "Auer Weber Architekten",
+      "count": 1
+    },
+    {
+      "name": "Markus Schietsch Architekten",
+      "count": 1
+    },
+    {
+      "name": "Marco Casagrande",
+      "count": 1
+    },
+    {
+      "name": "Ahlbrecht Felix Scheidt Kasprusch",
+      "count": 1
+    },
+    {
+      "name": "Orkidstudio",
+      "count": 1
+    },
+    {
+      "name": "Equipo 01 / Jesús San Vicente",
+      "count": 1
+    },
+    {
+      "name": "Wilk - Salinas Architekten",
+      "count": 1
+    },
+    {
+      "name": "Thomas Freiwald",
+      "count": 1
+    },
+    {
+      "name": "Arkon Jan Kabac",
+      "count": 1
+    },
+    {
+      "name": "Meteor Architects",
+      "count": 1
+    },
+    {
+      "name": "Pitágoras Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Tchoban & Kuznetsov",
+      "count": 1
+    },
+    {
+      "name": "Tillicharchitektur",
+      "count": 1
+    },
+    {
+      "name": "Feldman y Quiñones",
+      "count": 1
+    },
+    {
+      "name": "Abbink X de Hass Architects",
+      "count": 1
+    },
+    {
+      "name": "Álvaro Fernandes Andrade",
+      "count": 1
+    },
+    {
+      "name": "Petr Hájek Architekti",
+      "count": 1
+    },
+    {
+      "name": "José Carlos Cruz",
+      "count": 1
+    },
+    {
+      "name": "Atkins",
+      "count": 1
+    },
+    {
+      "name": "PLaT architects",
+      "count": 1
+    },
+    {
+      "name": "Architectural Association (AA)",
+      "count": 1
+    },
+    {
+      "name": "AAN (Arquitectura Anna Noguera)",
+      "count": 1
+    },
+    {
+      "name": "J2J architects",
+      "count": 1
+    },
+    {
+      "name": "Yolanda Olmo",
+      "count": 1
+    },
+    {
+      "name": "Carlos Castanheira",
+      "count": 1
+    },
+    {
+      "name": "Sebastián Irarrázaval",
+      "count": 1
+    },
+    {
+      "name": "Königs Architekten",
+      "count": 1
+    },
+    {
+      "name": "kister scheithauer gross Architects",
+      "count": 1
+    },
+    {
+      "name": "Estudio Nómada",
+      "count": 1
+    },
+    {
+      "name": "Alejandro Beautell",
+      "count": 1
+    },
+    {
+      "name": "Guzmán de Yarza Blache",
+      "count": 1
+    },
+    {
+      "name": "Atelier Alice / EPFL",
+      "count": 1
+    },
+    {
+      "name": "Henchion + Reuter",
+      "count": 1
+    },
+    {
+      "name": "Vehovar & Jauslin",
+      "count": 1
+    },
+    {
+      "name": "Périphériques Architects",
+      "count": 1
+    },
+    {
+      "name": "DSDHA",
+      "count": 1
+    },
+    {
+      "name": "Pol Femenias",
+      "count": 1
+    },
+    {
+      "name": "Juan Beldarraín",
+      "count": 1
+    },
+    {
+      "name": "Hegger Hegger Schleiff / HHS Architekten",
+      "count": 1
+    },
+    {
+      "name": "Domenico Fiore",
+      "count": 1
+    },
+    {
+      "name": "MVN Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "David Closes",
+      "count": 1
+    },
+    {
+      "name": "NLÉ",
+      "count": 1
+    },
+    {
+      "name": "Anupama Kundoo",
+      "count": 1
+    },
+    {
+      "name": "Cino Zucchi",
+      "count": 1
+    },
+    {
+      "name": "Park Associati",
+      "count": 1
+    },
+    {
+      "name": "Cappai + Segantini architects",
+      "count": 1
+    },
+    {
+      "name": "Francesco Pes",
+      "count": 1
+    },
+    {
+      "name": "JDS Architects",
+      "count": 1
+    },
+    {
+      "name": "Gramazio & Kohler",
+      "count": 1
+    },
+    {
+      "name": "Witherford Watson Mann Architects",
+      "count": 1
+    },
+    {
+      "name": "Archi-Union Architects",
+      "count": 1
+    },
+    {
+      "name": "RMA Architects",
+      "count": 1
+    },
+    {
+      "name": "HCP Design, Planning & Management",
+      "count": 1
+    },
+    {
+      "name": "Khosla Associates",
+      "count": 1
+    },
+    {
+      "name": "PMMT Arquitectes",
+      "count": 1
+    },
+    {
+      "name": "Hombre de Piedra",
+      "count": 1
+    },
+    {
+      "name": "Huggenbergerfries Architekten",
+      "count": 1
+    },
+    {
+      "name": "Casanova + Hernández architects",
+      "count": 1
+    },
+    {
+      "name": "TallerDE2 Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Carmen Izquierdo Arkitektkontor",
+      "count": 1
+    },
+    {
+      "name": "Patricia Barbas",
+      "count": 1
+    },
+    {
+      "name": "Diogo Seixas Lopes",
+      "count": 1
+    },
+    {
+      "name": "Gerber Architekten",
+      "count": 1
+    },
+    {
+      "name": "Eduardo Torroja",
+      "count": 1
+    },
+    {
+      "name": "DAW Office",
+      "count": 1
+    },
+    {
+      "name": "Tracks Architectes",
+      "count": 1
+    },
+    {
+      "name": "RavetllatRibas arquitectes",
+      "count": 1
+    },
+    {
+      "name": "fuses-viader arquitectes",
+      "count": 1
+    },
+    {
+      "name": "Puig Mir arquitectura y diseño de espacio",
+      "count": 1
+    },
+    {
+      "name": "Elii",
+      "count": 1
+    },
+    {
+      "name": "VArquitectos",
+      "count": 1
+    },
+    {
+      "name": "Gorka Álvarez Ugalde",
+      "count": 1
+    },
+    {
+      "name": "Gabriel Ruiz-Larrea",
+      "count": 1
+    },
+    {
+      "name": "Mario Bellini",
+      "count": 1
+    },
+    {
+      "name": "José Manuel Chacón",
+      "count": 1
+    },
+    {
+      "name": "DOSA Studio",
+      "count": 1
+    },
+    {
+      "name": "Blázquez Palacios Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Haworth Tompkins",
+      "count": 1
+    },
+    {
+      "name": "Aether Architects",
+      "count": 1
+    },
+    {
+      "name": "Boldarini Arquitectura e Urbanismo",
+      "count": 1
+    },
+    {
+      "name": "Biselli + Katchborian architects",
+      "count": 1
+    },
+    {
+      "name": "Silvio Oksman",
+      "count": 1
+    },
+    {
+      "name": "Fernanda Neiva",
+      "count": 1
+    },
+    {
+      "name": "João Filgueiras Lima, 'Lelé'",
+      "count": 1
+    },
+    {
+      "name": "BCMF",
+      "count": 1
+    },
+    {
+      "name": "Grupo SP",
+      "count": 1
+    },
+    {
+      "name": "Arquitetos Associados",
+      "count": 1
+    },
+    {
+      "name": "John McAslan",
+      "count": 1
+    },
+    {
+      "name": "Make",
+      "count": 1
+    },
+    {
+      "name": "Oppenheim Architecture",
+      "count": 1
+    },
+    {
+      "name": "Atelier Ryo Abe",
+      "count": 1
+    },
+    {
+      "name": "Hiroshi Sambuichi",
+      "count": 1
+    },
+    {
+      "name": "Saad El Kabbaj",
+      "count": 1
+    },
+    {
+      "name": "Driss Kettani",
+      "count": 1
+    },
+    {
+      "name": "Mohamed Amine Siana",
+      "count": 1
+    },
+    {
+      "name": "Hollmén Reuter Sandman Architects",
+      "count": 1
+    },
+    {
+      "name": "Paisajes Emergentes",
+      "count": 1
+    },
+    {
+      "name": "Lorenzo Castro",
+      "count": 1
+    },
+    {
+      "name": "Ana Elvira Vélez Villa",
+      "count": 1
+    },
+    {
+      "name": "Ctrl G",
+      "count": 1
+    },
+    {
+      "name": "Alejandro Echeverri Restrepo",
+      "count": 1
+    },
+    {
+      "name": "Carlos Mario Rodríguez Osorio",
+      "count": 1
+    },
+    {
+      "name": "Carlos Alberto Montoya Correa",
+      "count": 1
+    },
+    {
+      "name": "Birk und Heilmeyer Architekten",
+      "count": 1
+    },
+    {
+      "name": "PT Bamboo Pure",
+      "count": 1
+    },
+    {
+      "name": "Rubens Cortés / M57 arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Ignacio Olite",
+      "count": 1
+    },
+    {
+      "name": "OAM arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Fernando García Pino",
+      "count": 1
+    },
+    {
+      "name": "Manuel García de Paredes",
+      "count": 1
+    },
+    {
+      "name": "José María Urzelai",
+      "count": 1
+    },
+    {
+      "name": "Alberto Peñín",
+      "count": 1
+    },
+    {
+      "name": "Aidhos Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Alfonso Casares",
+      "count": 1
+    },
+    {
+      "name": "Alberto Pieltain",
+      "count": 1
+    },
+    {
+      "name": "Justo Isasi",
+      "count": 1
+    },
+    {
+      "name": "Antonio Ocaña",
+      "count": 1
+    },
+    {
+      "name": "Eduardo Casares",
+      "count": 1
+    },
+    {
+      "name": "José Manuel Martín",
+      "count": 1
+    },
+    {
+      "name": "Carlos Ruiz de Villegas",
+      "count": 1
+    },
+    {
+      "name": "Adolf Krischanitz",
+      "count": 1
+    },
+    {
+      "name": "Yoshio Taniguchi",
+      "count": 1
+    },
+    {
+      "name": "Fumihiko Maki",
+      "count": 1
+    },
+    {
+      "name": "Alex Jaeggi",
+      "count": 1
+    },
+    {
+      "name": "Urs Pfister",
+      "count": 1
+    },
+    {
+      "name": "DHK Architects",
+      "count": 1
+    },
+    {
+      "name": "Peter Rich",
+      "count": 1
+    },
+    {
+      "name": "José Carlos Fernández",
+      "count": 1
+    },
+    {
+      "name": "José Juárez del Dago",
+      "count": 1
+    },
+    {
+      "name": "Manuel García García",
+      "count": 1
+    },
+    {
+      "name": "Alejandro González Vigil",
+      "count": 1
+    },
+    {
+      "name": "Longo + Roldán",
+      "count": 1
+    },
+    {
+      "name": "Fernando Pardo",
+      "count": 1
+    },
+    {
+      "name": "Bernardo García Tapia",
+      "count": 1
+    },
+    {
+      "name": "Daniel Villanueva Zarraolandía",
+      "count": 1
+    },
+    {
+      "name": "Boogertman Urban Edge",
+      "count": 1
+    },
+    {
+      "name": "Amores García arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Blancafort-reus arquitectura",
+      "count": 1
+    },
+    {
+      "name": "MID estudio",
+      "count": 1
+    },
+    {
+      "name": "James Corner Field Operations",
+      "count": 1
+    },
+    {
+      "name": "KSP",
+      "count": 1
+    },
+    {
+      "name": "Mario Botta",
+      "count": 1
+    },
+    {
+      "name": "The next ENTERprise",
+      "count": 1
+    },
+    {
+      "name": "Luis Cano",
+      "count": 1
+    },
+    {
+      "name": "Luis Ridao",
+      "count": 1
+    },
+    {
+      "name": "Gustavo Díaz García",
+      "count": 1
+    },
+    {
+      "name": "Lucas Díaz Sierra",
+      "count": 1
+    },
+    {
+      "name": "Jesús Marco",
+      "count": 1
+    },
+    {
+      "name": "Galvez + Wieczorek Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Hidalgo & Hartmann",
+      "count": 1
+    },
+    {
+      "name": "Los del Desierto",
+      "count": 1
+    },
+    {
+      "name": "Erwin Heinle",
+      "count": 1
+    },
+    {
+      "name": "Robert Wischer",
+      "count": 1
+    },
+    {
+      "name": "Fay Architekten",
+      "count": 1
+    },
+    {
+      "name": "Liquid Architekten",
+      "count": 1
+    },
+    {
+      "name": "Jprcr",
+      "count": 1
+    },
+    {
+      "name": "Solano Benítez",
+      "count": 1
+    },
+    {
+      "name": "Pelli Clarke Pelli",
+      "count": 1
+    },
+    {
+      "name": "Pei Cobb Freed & Partners",
+      "count": 1
+    },
+    {
+      "name": "OXO Architects",
+      "count": 1
+    },
+    {
+      "name": "FabriKG",
+      "count": 1
+    },
+    {
+      "name": "De Gouden Liniaal Architecten",
+      "count": 1
+    },
+    {
+      "name": ":mlzd",
+      "count": 1
+    },
+    {
+      "name": "tres birds workshop",
+      "count": 1
+    },
+    {
+      "name": "StudioVRA",
+      "count": 1
+    },
+    {
+      "name": "Hardel Le Bihan Architectes",
+      "count": 1
+    },
+    {
+      "name": "Moshe Safdie",
+      "count": 1
+    },
+    {
+      "name": "Belzberg Architects",
+      "count": 1
+    },
+    {
+      "name": "LLLab",
+      "count": 1
+    },
+    {
+      "name": "Koichi Takada",
+      "count": 1
+    },
+    {
+      "name": "Groupe Signes",
+      "count": 1
+    },
+    {
+      "name": "Patel Taylor",
+      "count": 1
+    },
+    {
+      "name": "Martha Schwartz",
+      "count": 1
+    },
+    {
+      "name": "Kollhoff & Timmermann",
+      "count": 1
+    },
+    {
+      "name": "Rudolf Michael Schindler",
+      "count": 1
+    },
+    {
+      "name": "Konstantin Melnikov",
+      "count": 1
+    },
+    {
+      "name": "Richard Neutra",
+      "count": 1
+    },
+    {
+      "name": "Ralph Erskine",
+      "count": 1
+    },
+    {
+      "name": "Jean Prouvé",
+      "count": 1
+    },
+    {
+      "name": "Alison & Peter Smithson",
+      "count": 1
+    },
+    {
+      "name": "Ludwig Godefroy",
+      "count": 1
+    },
+    {
+      "name": "Bez + Kock Architekten",
+      "count": 1
+    },
+    {
+      "name": "Cubo Rojo Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "GRX Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "External Reference",
+      "count": 1
+    },
+    {
+      "name": "Richter Dahl Rocha & Associés architectes",
+      "count": 1
+    },
+    {
+      "name": "Vogt Landscape Architects",
+      "count": 1
+    },
+    {
+      "name": "Francis Soler",
+      "count": 1
+    },
+    {
+      "name": "Staab Architekten",
+      "count": 1
+    },
+    {
+      "name": "Anssi Lassila",
+      "count": 1
+    },
+    {
+      "name": "Amiot-Lombard Architectures",
+      "count": 1
+    },
+    {
+      "name": "Colin Fournier",
+      "count": 1
+    },
+    {
+      "name": "Peter Cook",
+      "count": 1
+    },
+    {
+      "name": "William Russell",
+      "count": 1
+    },
+    {
+      "name": "AMPS",
+      "count": 1
+    },
+    {
+      "name": "Degli Esposti Architetti",
+      "count": 1
+    },
+    {
+      "name": "Azstudio (Guido Zuliani)",
+      "count": 1
+    },
+    {
+      "name": "abr/+/arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Makin Molowny Portela",
+      "count": 1
+    },
+    {
+      "name": "Peter Marino",
+      "count": 1
+    },
+    {
+      "name": "Estudio Botteri-Connell",
+      "count": 1
+    },
+    {
+      "name": "Canals Moneo Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Ramón Ruiz Marrodán",
+      "count": 1
+    },
+    {
+      "name": "LAP Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "TAU",
+      "count": 1
+    },
+    {
+      "name": "Studio Doarchi",
+      "count": 1
+    },
+    {
+      "name": "Ibarra Aragón Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "RDR architectes",
+      "count": 1
+    },
+    {
+      "name": "Studio Botter",
+      "count": 1
+    },
+    {
+      "name": "Studio Bressan",
+      "count": 1
+    },
+    {
+      "name": "DVCH / De Villar Chacón Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "vora",
+      "count": 1
+    },
+    {
+      "name": "Saif Ul Haque Sthapati",
+      "count": 1
+    },
+    {
+      "name": "Juan Manuel Palerm Salazar",
+      "count": 1
+    },
+    {
+      "name": "Leopoldo Tabares de Nava y Marín",
+      "count": 1
+    },
+    {
+      "name": "Peter Märkli",
+      "count": 1
+    },
+    {
+      "name": "addenda architects",
+      "count": 1
+    },
+    {
+      "name": "Co-lab design office",
+      "count": 1
+    },
+    {
+      "name": "Goldsmith",
+      "count": 1
+    },
+    {
+      "name": "Francisco Torres",
+      "count": 1
+    },
+    {
+      "name": "Jabornegg & Pálffy Architects",
+      "count": 1
+    },
+    {
+      "name": "Italo Rota",
+      "count": 1
+    },
+    {
+      "name": "João Luís Carrilho da Graça",
+      "count": 1
+    },
+    {
+      "name": "Daniel Gómez-Valcárcel",
+      "count": 1
+    },
+    {
+      "name": "X Architects",
+      "count": 1
+    },
+    {
+      "name": "Jan Störmer",
+      "count": 1
+    },
+    {
+      "name": "Brückner & Brückner Architekten",
+      "count": 1
+    },
+    {
+      "name": "Lanoire & Courrian",
+      "count": 1
+    },
+    {
+      "name": "Josep M. Julià",
+      "count": 1
+    },
+    {
+      "name": "Codina Prat Valls i Arquitectes Associats SLP",
+      "count": 1
+    },
+    {
+      "name": "dosmasunoarquitectos",
+      "count": 1
+    },
+    {
+      "name": "The Design Institute of Landscape and Architecture China Academy of Art",
+      "count": 1
+    },
+    {
+      "name": "Xavier Iván Díaz Martín",
+      "count": 1
+    },
+    {
+      "name": "Alexis López Acosta",
+      "count": 1
+    },
+    {
+      "name": "Olano y Mendo Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Rahul Mehrotra",
+      "count": 1
+    },
+    {
+      "name": "straddle3",
+      "count": 1
+    },
+    {
+      "name": "Yaiza Terré",
+      "count": 1
+    },
+    {
+      "name": "Eulia Arkitektura",
+      "count": 1
+    },
+    {
+      "name": "Glenn Murcutt",
+      "count": 1
+    },
+    {
+      "name": "Taller de Casquería",
+      "count": 1
+    },
+    {
+      "name": "Bizna estudio",
+      "count": 1
+    },
+    {
+      "name": "Josean Ruiz Esquíroz",
+      "count": 1
+    },
+    {
+      "name": "Jo Janssen",
+      "count": 1
+    },
+    {
+      "name": "Lagula Arquitectes",
+      "count": 1
+    },
+    {
+      "name": "Clavel Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Pablo Larroulet",
+      "count": 1
+    },
+    {
+      "name": "Co-Architectes",
+      "count": 1
+    },
+    {
+      "name": "Inés Lamunière",
+      "count": 1
+    },
+    {
+      "name": "Patrick Devanthéry",
+      "count": 1
+    },
+    {
+      "name": "Gonzalo Arias Recalde",
+      "count": 1
+    },
+    {
+      "name": "Duncan Lewis / Scape Architecture",
+      "count": 1
+    },
+    {
+      "name": "Chris McVoy",
+      "count": 1
+    },
+    {
+      "name": "Studio QI",
+      "count": 1
+    },
+    {
+      "name": "Asun Vidal Layel (AVL Arquitectura)",
+      "count": 1
+    },
+    {
+      "name": "Antoni Bou Arquitectes",
+      "count": 1
+    },
+    {
+      "name": "Sasa Randic",
+      "count": 1
+    },
+    {
+      "name": "Idis Turato",
+      "count": 1
+    },
+    {
+      "name": "Nick Antonopoulos",
+      "count": 1
+    },
+    {
+      "name": "Deaton",
+      "count": 1
+    },
+    {
+      "name": "José María Tomás",
+      "count": 1
+    },
+    {
+      "name": "Luis Ferrer Óbanos",
+      "count": 1
+    },
+    {
+      "name": "Carlos Meri",
+      "count": 1
+    },
+    {
+      "name": "José María Lozano Velasco",
+      "count": 1
+    },
+    {
+      "name": "Jorge Bosch Abarca",
+      "count": 1
+    },
+    {
+      "name": "Maite Mariezcurrena",
+      "count": 1
+    },
+    {
+      "name": "Óscar Mongay",
+      "count": 1
+    },
+    {
+      "name": "Daniel Morrás",
+      "count": 1
+    },
+    {
+      "name": "Ignacio Barrutia",
+      "count": 1
+    },
+    {
+      "name": "Adela González",
+      "count": 1
+    },
+    {
+      "name": "PO2 arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Patricia Sabín",
+      "count": 1
+    },
+    {
+      "name": "Enrique Blanco",
+      "count": 1
+    },
+    {
+      "name": "Xavier Claramunt",
+      "count": 1
+    },
+    {
+      "name": "ADD+",
+      "count": 1
+    },
+    {
+      "name": "Daniel Jiménez",
+      "count": 1
+    },
+    {
+      "name": "Ladislav Kuba",
+      "count": 1
+    },
+    {
+      "name": "Tomas Pilar",
+      "count": 1
+    },
+    {
+      "name": "JEMS",
+      "count": 1
+    },
+    {
+      "name": "Paul Andreu",
+      "count": 1
+    },
+    {
+      "name": "PTW Architects",
+      "count": 1
+    },
+    {
+      "name": "Antonio Citterio",
+      "count": 1
+    },
+    {
+      "name": "Patricia Viel",
+      "count": 1
+    },
+    {
+      "name": "Pedro Pacheco",
+      "count": 1
+    },
+    {
+      "name": "Marie Clément",
+      "count": 1
+    },
+    {
+      "name": "Albert Faus",
+      "count": 1
+    },
+    {
+      "name": "Carlos J. Coelho Veloso",
+      "count": 1
+    },
+    {
+      "name": "Vilius ir parterai",
+      "count": 1
+    },
+    {
+      "name": "AET",
+      "count": 1
+    },
+    {
+      "name": "Jacobo Bouzada",
+      "count": 1
+    },
+    {
+      "name": "Pierre Hebbelinck",
+      "count": 1
+    },
+    {
+      "name": "Pierre de Wit",
+      "count": 1
+    },
+    {
+      "name": "Heinrich Böll",
+      "count": 1
+    },
+    {
+      "name": "Jordi Hidalgo Tané",
+      "count": 1
+    },
+    {
+      "name": "Werner March",
+      "count": 1
+    },
+    {
+      "name": "Cristina Veríssimo",
+      "count": 1
+    },
+    {
+      "name": "Diogo Burnay",
+      "count": 1
+    },
+    {
+      "name": "Inês Lobo",
+      "count": 1
+    },
+    {
+      "name": "Makoto Yokomizo",
+      "count": 1
+    },
+    {
+      "name": "Kevin Roche",
+      "count": 1
+    },
+    {
+      "name": "Bosch Architects",
+      "count": 1
+    },
+    {
+      "name": "S333",
+      "count": 1
+    },
+    {
+      "name": "José Manuel Palao",
+      "count": 1
+    },
+    {
+      "name": "Julián Franco",
+      "count": 1
+    },
+    {
+      "name": "Mario di Felice",
+      "count": 1
+    },
+    {
+      "name": "Bernalte Leon y Asociados",
+      "count": 1
+    },
+    {
+      "name": "Daniel Díaz Font",
+      "count": 1
+    },
+    {
+      "name": "Belén Martín-Granizo",
+      "count": 1
+    },
+    {
+      "name": "Jesús Orúe",
+      "count": 1
+    },
+    {
+      "name": "Pedro Ledo",
+      "count": 1
+    },
+    {
+      "name": "Germán López Mena",
+      "count": 1
+    },
+    {
+      "name": "Conrado Capilla",
+      "count": 1
+    },
+    {
+      "name": "José V. Vallejo",
+      "count": 1
+    },
+    {
+      "name": "Giraudi & Wettstein",
+      "count": 1
+    },
+    {
+      "name": "Beth Galí",
+      "count": 1
+    },
+    {
+      "name": "Xavier Casas",
+      "count": 1
+    },
+    {
+      "name": "Rosa Torres",
+      "count": 1
+    },
+    {
+      "name": "BCQ arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Ernest Ferré",
+      "count": 1
+    },
+    {
+      "name": "Mamen Domingo",
+      "count": 1
+    },
+    {
+      "name": "Yves Lion",
+      "count": 1
+    },
+    {
+      "name": "Antonio Montes Gil",
+      "count": 1
+    },
+    {
+      "name": "Kees Kaan",
+      "count": 1
+    },
+    {
+      "name": "Firma Arquitetura",
+      "count": 1
+    },
+    {
+      "name": "Oficina Aberta",
+      "count": 1
+    },
+    {
+      "name": "Twobo arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Luis Twose",
+      "count": 1
+    },
+    {
+      "name": "LOT-EK",
+      "count": 1
+    },
+    {
+      "name": "Hera van Sande",
+      "count": 1
+    },
+    {
+      "name": "Laurent Liefooghe",
+      "count": 1
+    },
+    {
+      "name": "Peter De Bruycker",
+      "count": 1
+    },
+    {
+      "name": "Luge de Brock",
+      "count": 1
+    },
+    {
+      "name": "Christian Kieckens",
+      "count": 1
+    },
+    {
+      "name": "Willy Müller",
+      "count": 1
+    },
+    {
+      "name": "Fred Guillaud",
+      "count": 1
+    },
+    {
+      "name": "Sara de la Mata",
+      "count": 1
+    },
+    {
+      "name": "Myriam Abarca",
+      "count": 1
+    },
+    {
+      "name": "Jesús Marco Llombart",
+      "count": 1
+    },
+    {
+      "name": "Clúa Longás",
+      "count": 1
+    },
+    {
+      "name": "Colmenares Vilata Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Antonio González Cordón",
+      "count": 1
+    },
+    {
+      "name": "Enrique Carbonell Meseguer",
+      "count": 1
+    },
+    {
+      "name": "Salvador Moreno Pérez",
+      "count": 1
+    },
+    {
+      "name": "Carlos Jurado Fernández",
+      "count": 1
+    },
+    {
+      "name": "María de los Ángeles Hernández",
+      "count": 1
+    },
+    {
+      "name": "Josep Lluís Canosa",
+      "count": 1
+    },
+    {
+      "name": "Bet Figueras",
+      "count": 1
+    },
+    {
+      "name": "Enrique Herrada",
+      "count": 1
+    },
+    {
+      "name": "Marta Maíz",
+      "count": 1
+    },
+    {
+      "name": "Juan González Mariscal",
+      "count": 1
+    },
+    {
+      "name": "Bangkok Project Studio",
+      "count": 1
+    },
+    {
+      "name": "med.arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Horizontal Design",
+      "count": 1
+    },
+    {
+      "name": "Gustau Gili Galfetti",
+      "count": 1
+    },
+    {
+      "name": "PPAA Pérez Palacios Arquitectos Asociados",
+      "count": 1
+    },
+    {
+      "name": "B + M + L (Eugenia Álvarez Blanch, Elena Sánchez Montero y Enrique Bravo Lanzac)",
+      "count": 1
+    },
+    {
+      "name": "Ricardo Yslas Gámez",
+      "count": 1
+    },
+    {
+      "name": "Ocamica Tudanca arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Martín Peláez",
+      "count": 1
+    },
+    {
+      "name": "Lux Architect",
+      "count": 1
+    },
+    {
+      "name": "Mario Corea",
+      "count": 1
+    },
+    {
+      "name": "Studio Chahar",
+      "count": 1
+    },
+    {
+      "name": "Francesca Torzo Architetto",
+      "count": 1
+    },
+    {
+      "name": "Interval Architects",
+      "count": 1
+    },
+    {
+      "name": "EPArquitectos",
+      "count": 1
+    },
+    {
+      "name": "Aleph Zero",
+      "count": 1
+    },
+    {
+      "name": "Rosenbaum",
+      "count": 1
+    },
+    {
+      "name": "Gustavo Utrabo",
+      "count": 1
+    },
+    {
+      "name": "Pedro Duschenes",
+      "count": 1
+    },
+    {
+      "name": "Tigges Architekt",
+      "count": 1
+    },
+    {
+      "name": "Hassell",
+      "count": 1
+    },
+    {
+      "name": "Studio Lotus",
+      "count": 1
+    },
+    {
+      "name": "Roarc Renew",
+      "count": 1
+    },
+    {
+      "name": "Santos Mera Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Architectopia",
+      "count": 1
+    },
+    {
+      "name": "J. MAYER H. and Partners",
+      "count": 1
+    },
+    {
+      "name": "Equipo Sarrablo",
+      "count": 1
+    },
+    {
+      "name": "Juan Fernando Ródenas",
+      "count": 1
+    },
+    {
+      "name": "Carlos Gonzalvo",
+      "count": 1
+    },
+    {
+      "name": "Gillermo Zuaznabar",
+      "count": 1
+    },
+    {
+      "name": "Atelier Lorentzen Langkilde",
+      "count": 1
+    },
+    {
+      "name": "Carl Fredrik Svenstedt Architect",
+      "count": 1
+    },
+    {
+      "name": "José Manuel López Osorio",
+      "count": 1
+    },
+    {
+      "name": "ASP Architecture",
+      "count": 1
+    },
+    {
+      "name": "Salgado e Liñares",
+      "count": 1
+    },
+    {
+      "name": "Cifuentes Costales",
+      "count": 1
+    },
+    {
+      "name": "Arquitectura Chile 15",
+      "count": 1
+    },
+    {
+      "name": "Mathias Schütte",
+      "count": 1
+    },
+    {
+      "name": "Designplus Associates Services",
+      "count": 1
+    },
+    {
+      "name": "Mjölk architekti",
+      "count": 1
+    },
+    {
+      "name": "Jonathan Tuckey Design",
+      "count": 1
+    },
+    {
+      "name": "Mínimo Común Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "ilimelgo architectes",
+      "count": 1
+    },
+    {
+      "name": "MAPAA",
+      "count": 1
+    },
+    {
+      "name": "noa*",
+      "count": 1
+    },
+    {
+      "name": "Xavier Vilalta",
+      "count": 1
+    },
+    {
+      "name": "SAM architecture",
+      "count": 1
+    },
+    {
+      "name": "Javier J. Iniesta",
+      "count": 1
+    },
+    {
+      "name": "Boano Prišmontas",
+      "count": 1
+    },
+    {
+      "name": "Luis Climent Rosillo",
+      "count": 1
+    },
+    {
+      "name": "María Navascues Abad",
+      "count": 1
+    },
+    {
+      "name": "Luis Climent Soto",
+      "count": 1
+    },
+    {
+      "name": "Michael Hopkins",
+      "count": 1
+    },
+    {
+      "name": "John McAsland",
+      "count": 1
+    },
+    {
+      "name": "Nigel Coates",
+      "count": 1
+    },
+    {
+      "name": "Doug Branson",
+      "count": 1
+    },
+    {
+      "name": "Eva Jiricna",
+      "count": 1
+    },
+    {
+      "name": "Atelier-r",
+      "count": 1
+    },
+    {
+      "name": "Philippe Starck",
+      "count": 1
+    },
+    {
+      "name": "alonso + sosa",
+      "count": 1
+    },
+    {
+      "name": "Stéphane Beel",
+      "count": 1
+    },
+    {
+      "name": "Marlene Dörrie",
+      "count": 1
+    },
+    {
+      "name": "Pierre-Alain Croset",
+      "count": 1
+    },
+    {
+      "name": "Gaetano Bertolazzi",
+      "count": 1
+    },
+    {
+      "name": "Dominikus Böhm",
+      "count": 1
+    },
+    {
+      "name": "Sigurd Lewerentz",
+      "count": 1
+    },
+    {
+      "name": "Giovanni Michelucci",
+      "count": 1
+    },
+    {
+      "name": "BKK-3",
+      "count": 1
+    },
+    {
+      "name": "Liesbeth Van der Pol",
+      "count": 1
+    },
+    {
+      "name": "Gert Wingårdh",
+      "count": 1
+    },
+    {
+      "name": "Fink+Jocher",
+      "count": 1
+    },
+    {
+      "name": "Estudio Arquitectura HAGO",
+      "count": 1
+    },
+    {
+      "name": "Trazia Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Wandel Hoefer Lorch + Hirsch",
+      "count": 1
+    },
+    {
+      "name": "Massimiliano Fuksas",
+      "count": 1
+    },
+    {
+      "name": "Arquitectura Produccions",
+      "count": 1
+    },
+    {
+      "name": "TEN Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Hans Zwimpfer",
+      "count": 1
+    },
+    {
+      "name": "Pareid",
+      "count": 1
+    },
+    {
+      "name": "Kees Christiaanse",
+      "count": 1
+    },
+    {
+      "name": "ASTOC Architects",
+      "count": 1
+    },
+    {
+      "name": "Tod Williams Billie Tsien Architects",
+      "count": 1
+    },
+    {
+      "name": "Raimund Abraham",
+      "count": 1
+    },
+    {
+      "name": "Fernando Mejías",
+      "count": 1
+    },
+    {
+      "name": "Esteve Aymerich",
+      "count": 1
+    },
+    {
+      "name": "Ton Salvadó",
+      "count": 1
+    },
+    {
+      "name": "Josep Maria Rieradevall",
+      "count": 1
+    },
+    {
+      "name": "Hiroshi Hara",
+      "count": 1
+    },
+    {
+      "name": "Manuel Casanueva",
+      "count": 1
+    },
+    {
+      "name": "Eduardo Castillo Vinuesa",
+      "count": 1
+    },
+    {
+      "name": "Enrique Browne",
+      "count": 1
+    },
+    {
+      "name": "Teodoro Fernández Larrañaga",
+      "count": 1
+    },
+    {
+      "name": "Sebastián Hernández Silva",
+      "count": 1
+    },
+    {
+      "name": "Izquierdo Lehmann Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Francisca Pulido",
+      "count": 1
+    },
+    {
+      "name": "NUR Architektur",
+      "count": 1
+    },
+    {
+      "name": "MaccreanorLavington Architects",
+      "count": 1
+    },
+    {
+      "name": "Sadar + Vuga",
+      "count": 1
+    },
+    {
+      "name": "Studio Dali Architects",
+      "count": 1
+    },
+    {
+      "name": "Michel Rojkind",
+      "count": 1
+    },
+    {
+      "name": "FGMF Arquitetos",
+      "count": 1
+    },
+    {
+      "name": "Isay Weinfeld",
+      "count": 1
+    },
+    {
+      "name": "AFRa",
+      "count": 1
+    },
+    {
+      "name": "Fernández Prieto y asociados arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Diéguez-Fridman Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "GGMPU Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Rafael Iglesia",
+      "count": 1
+    },
+    {
+      "name": "Alberto Mozó",
+      "count": 1
+    },
+    {
+      "name": "Grupo Talca",
+      "count": 1
+    },
+    {
+      "name": "Fox y Fowle",
+      "count": 1
+    },
+    {
+      "name": "James Stewart Polshek",
+      "count": 1
+    },
+    {
+      "name": "Architecture Research Office (ARO)",
+      "count": 1
+    },
+    {
+      "name": "Joaquim Rosell",
+      "count": 1
+    },
+    {
+      "name": "Xefirotarch",
+      "count": 1
+    },
+    {
+      "name": "Polaris",
+      "count": 1
+    },
+    {
+      "name": "Atelier da Bouça",
+      "count": 1
+    },
+    {
+      "name": "Palma",
+      "count": 1
+    },
+    {
+      "name": "Garmendia & Cordero",
+      "count": 1
+    },
+    {
+      "name": "TCGA arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Berger + Parkkinen",
+      "count": 1
+    },
+    {
+      "name": "Francisco Serrano",
+      "count": 1
+    },
+    {
+      "name": "Lecoc Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Abraham Castro Neira",
+      "count": 1
+    },
+    {
+      "name": "Carlos Alberto Pita Abad",
+      "count": 1
+    },
+    {
+      "name": "Duarte Fournies Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Legorreta Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "György Vadász",
+      "count": 1
+    },
+    {
+      "name": "Gergely Fernezelyi",
+      "count": 1
+    },
+    {
+      "name": "SARC",
+      "count": 1
+    },
+    {
+      "name": "Thomas Herzog",
+      "count": 1
+    },
+    {
+      "name": "Meinhard von Gerkan",
+      "count": 1
+    },
+    {
+      "name": "Francesc Rius i Camps",
+      "count": 1
+    },
+    {
+      "name": "Esteve Bonell",
+      "count": 1
+    },
+    {
+      "name": "Archwerk",
+      "count": 1
+    },
+    {
+      "name": "Formafatal",
+      "count": 1
+    },
+    {
+      "name": "Albert Viaplana",
+      "count": 1
+    },
+    {
+      "name": "Alarcia Ferrer Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Caractère spécial",
+      "count": 1
+    },
+    {
+      "name": "Bruther",
+      "count": 1
+    },
+    {
+      "name": "Holon Arkitektur",
+      "count": 1
+    },
+    {
+      "name": "Levelstudio",
+      "count": 1
+    },
+    {
+      "name": "Büro Kiefer",
+      "count": 1
+    },
+    {
+      "name": "Carlos Bento",
+      "count": 1
+    },
+    {
+      "name": "Juan José Echeverría",
+      "count": 1
+    },
+    {
+      "name": "Jerónimo Junquera",
+      "count": 1
+    },
+    {
+      "name": "Estanislao Pérez Pita",
+      "count": 1
+    },
+    {
+      "name": "Eduardo Arroyo",
+      "count": 1
+    },
+    {
+      "name": "Rainer Köberl",
+      "count": 1
+    },
+    {
+      "name": "Daniela Kröss",
+      "count": 1
+    },
+    {
+      "name": "Fernando Visedo",
+      "count": 1
+    },
+    {
+      "name": "Santiago Quesada-García",
+      "count": 1
+    },
+    {
+      "name": "Bruno Plisson",
+      "count": 1
+    },
+    {
+      "name": "Galar-Vélaz-Gil",
+      "count": 1
+    },
+    {
+      "name": "Estudio CO–A",
+      "count": 1
+    },
+    {
+      "name": "Onda Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Checa Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "MCL Studio",
+      "count": 1
+    },
+    {
+      "name": "Francisco Domouso",
+      "count": 1
+    },
+    {
+      "name": "Emilio Rodríguez",
+      "count": 1
+    },
+    {
+      "name": "Ayllón Paradela De Andrés",
+      "count": 1
+    },
+    {
+      "name": "Juan José Medina",
+      "count": 1
+    },
+    {
+      "name": "Rafael Torrelo",
+      "count": 1
+    },
+    {
+      "name": "Equipo AUIA",
+      "count": 1
+    },
+    {
+      "name": "AMM Arquitectes",
+      "count": 1
+    },
+    {
+      "name": "Pedro García Hernández",
+      "count": 1
+    },
+    {
+      "name": "Mar Puig de la Bellacasa",
+      "count": 1
+    },
+    {
+      "name": "Manel Casellas",
+      "count": 1
+    },
+    {
+      "name": "Crossboundaries",
+      "count": 1
+    },
+    {
+      "name": "Stefano Boeri Architetti",
+      "count": 1
+    },
+    {
+      "name": "Atelier David Telerman",
+      "count": 1
+    },
+    {
+      "name": "BN Asociados Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Glenn Howells Architects",
+      "count": 1
+    },
+    {
+      "name": "Bojaus",
+      "count": 1
+    },
+    {
+      "name": "Amelia Tavella Architectes",
+      "count": 1
+    },
+    {
+      "name": "Wilhelm Holzbauer",
+      "count": 1
+    },
+    {
+      "name": "Hinrich Baller",
+      "count": 1
+    },
+    {
+      "name": "Inke Baller",
+      "count": 1
+    },
+    {
+      "name": "Gianni Braghieri",
+      "count": 1
+    },
+    {
+      "name": "Hermann & Valentiny Partner",
+      "count": 1
+    },
+    {
+      "name": "Benedict Tonon",
+      "count": 1
+    },
+    {
+      "name": "Henry Nielebock",
+      "count": 1
+    },
+    {
+      "name": "K. T. Brener",
+      "count": 1
+    },
+    {
+      "name": "Josef Paul Kleihues",
+      "count": 1
+    },
+    {
+      "name": "Franz C. Demblin",
+      "count": 1
+    },
+    {
+      "name": "Sven Albrecht",
+      "count": 1
+    },
+    {
+      "name": "Bernhardt E. Muller",
+      "count": 1
+    },
+    {
+      "name": "Jochem Jourdan",
+      "count": 1
+    },
+    {
+      "name": "Stavoprojekt",
+      "count": 1
+    },
+    {
+      "name": "Werner Kreis",
+      "count": 1
+    },
+    {
+      "name": "Peter Schaad",
+      "count": 1
+    },
+    {
+      "name": "Ulrich Schaad",
+      "count": 1
+    },
+    {
+      "name": "William Matthews Associates",
+      "count": 1
+    },
+    {
+      "name": "Georg Wenzeslaus von Knobelsdorff",
+      "count": 1
+    },
+    {
+      "name": "Alfred Messel",
+      "count": 1
+    },
+    {
+      "name": "Ludwig Hoffmann",
+      "count": 1
+    },
+    {
+      "name": "Heinrich Strack",
+      "count": 1
+    },
+    {
+      "name": "Carl von Gontard",
+      "count": 1
+    },
+    {
+      "name": "Johann Arnold Nering",
+      "count": 1
+    },
+    {
+      "name": "Georg Christian Unger",
+      "count": 1
+    },
+    {
+      "name": "Heinrich Gentz",
+      "count": 1
+    },
+    {
+      "name": "Edgar Wisniewski",
+      "count": 1
+    },
+    {
+      "name": "Peter Behrens",
+      "count": 1
+    },
+    {
+      "name": "Emil Fahnrenkamp",
+      "count": 1
+    },
+    {
+      "name": "Ludwig Mies van der Rohe",
+      "count": 1
+    },
+    {
+      "name": "Walter Gropius",
+      "count": 1
+    },
+    {
+      "name": "Ludwig Leo",
+      "count": 1
+    },
+    {
+      "name": "Bruno Ahrend",
+      "count": 1
+    },
+    {
+      "name": "Ludwig Lesser",
+      "count": 1
+    },
+    {
+      "name": "Carl Legien",
+      "count": 1
+    },
+    {
+      "name": "Hugo Häring",
+      "count": 1
+    },
+    {
+      "name": "Heinrich Tessenow",
+      "count": 1
+    },
+    {
+      "name": "Hans Poelzig",
+      "count": 1
+    },
+    {
+      "name": "Hermann Henselmann",
+      "count": 1
+    },
+    {
+      "name": "Groupwork",
+      "count": 1
+    },
+    {
+      "name": "RDA",
+      "count": 1
+    },
+    {
+      "name": "Franz Schwechten",
+      "count": 1
+    },
+    {
+      "name": "Gottfried Böhm",
+      "count": 1
+    },
+    {
+      "name": "Carlo Aymonino",
+      "count": 1
+    },
+    {
+      "name": "Antonio Bonet Castellana",
+      "count": 1
+    },
+    {
+      "name": "Josep Maria Sostres",
+      "count": 1
+    },
+    {
+      "name": "Erwin Broner",
+      "count": 1
+    },
+    {
+      "name": "Fernando Higueras",
+      "count": 1
+    },
+    {
+      "name": "Antonio Miró Valverde",
+      "count": 1
+    },
+    {
+      "name": "José Bar Boo",
+      "count": 1
+    },
+    {
+      "name": "Javier Carvajal",
+      "count": 1
+    },
+    {
+      "name": "José Antonio Corrales",
+      "count": 1
+    },
+    {
+      "name": "Desirée Mas",
+      "count": 1
+    },
+    {
+      "name": "g+f arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Torrado Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Federico Colella | Re:lab",
+      "count": 1
+    },
+    {
+      "name": "Carlana Mezzalira Pentimalli",
+      "count": 1
+    },
+    {
+      "name": "Fenwick Iribarren Architects",
+      "count": 1
+    },
+    {
+      "name": "Serrano Suñer Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "TDA",
+      "count": 1
+    },
+    {
+      "name": "Juan Adrián Bueno",
+      "count": 1
+    },
+    {
+      "name": "Paul und Petra Kahlfeeldt Architekten",
+      "count": 1
+    },
+    {
+      "name": "Ilg Santer Architekten",
+      "count": 1
+    },
+    {
+      "name": "Odile Seyler",
+      "count": 1
+    },
+    {
+      "name": "Henri Ciriani",
+      "count": 1
+    },
+    {
+      "name": "Joan Guibernau",
+      "count": 1
+    },
+    {
+      "name": "Gabriel Mora",
+      "count": 1
+    },
+    {
+      "name": "GFA2",
+      "count": 1
+    },
+    {
+      "name": "Noguerol+Diez",
+      "count": 1
+    },
+    {
+      "name": "Pedro Palmero",
+      "count": 1
+    },
+    {
+      "name": "Samuel Torres",
+      "count": 1
+    },
+    {
+      "name": "W.A.S.A. Architects & Engineers",
+      "count": 1
+    },
+    {
+      "name": "WRKSHP arquitectura | urbanismo",
+      "count": 1
+    },
+    {
+      "name": "Studio Jan Vermeulen",
+      "count": 1
+    },
+    {
+      "name": "Tom Thys Architecten",
+      "count": 1
+    },
+    {
+      "name": "Open AD",
+      "count": 1
+    },
+    {
+      "name": "Markus Aerni",
+      "count": 1
+    },
+    {
+      "name": "Barbara Holzer",
+      "count": 1
+    },
+    {
+      "name": "Kazuyo Sejima",
+      "count": 1
+    },
+    {
+      "name": "Akiko Takahashi",
+      "count": 1
+    },
+    {
+      "name": "Christine Hawley",
+      "count": 1
+    },
+    {
+      "name": "Elizabeth Diller",
+      "count": 1
+    },
+    {
+      "name": "Javier A. Molinero",
+      "count": 1
+    },
+    {
+      "name": "Bernat Ivars",
+      "count": 1
+    },
+    {
+      "name": "Es Devlin Studio",
+      "count": 1
+    },
+    {
+      "name": "Veretec UK",
+      "count": 1
+    },
+    {
+      "name": "OOS Architekten",
+      "count": 1
+    },
+    {
+      "name": "JKMM",
+      "count": 1
+    },
+    {
+      "name": "JPG.ARQ",
+      "count": 1
+    },
+    {
+      "name": "Ben-Avid",
+      "count": 1
+    },
+    {
+      "name": "Yuko Nagayama & Associates",
+      "count": 1
+    },
+    {
+      "name": "WOHA Architects",
+      "count": 1
+    },
+    {
+      "name": "De Lapuerta + Campo",
+      "count": 1
+    },
+    {
+      "name": "Bellafilarquitectes",
+      "count": 1
+    },
+    {
+      "name": "SLAS architects",
+      "count": 1
+    },
+    {
+      "name": "SPRB Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Manuel Álvarez-Monteserín",
+      "count": 1
+    },
+    {
+      "name": "Beatriz Pachón",
+      "count": 1
+    },
+    {
+      "name": "Javier Simó",
+      "count": 1
+    },
+    {
+      "name": "Mark Ongg",
+      "count": 1
+    },
+    {
+      "name": "EDDEA",
+      "count": 1
+    },
+    {
+      "name": "Pía Montero",
+      "count": 1
+    },
+    {
+      "name": "EEESTUDIO",
+      "count": 1
+    },
+    {
+      "name": "Lys Villalba",
+      "count": 1
+    },
+    {
+      "name": "Visioarq Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Equipo de Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Bergnes de las Casas",
+      "count": 1
+    },
+    {
+      "name": "behark",
+      "count": 1
+    },
+    {
+      "name": "Localworks",
+      "count": 1
+    },
+    {
+      "name": "Alegría Colón Mur",
+      "count": 1
+    },
+    {
+      "name": "Alejandro Dean",
+      "count": 1
+    },
+    {
+      "name": "Mathieu Forest",
+      "count": 1
+    },
+    {
+      "name": "Zone Of Utopia",
+      "count": 1
+    },
+    {
+      "name": "Paco Marqués",
+      "count": 1
+    },
+    {
+      "name": "Daaz Office",
+      "count": 1
+    },
+    {
+      "name": "Santiago Varela Botella",
+      "count": 1
+    },
+    {
+      "name": "Santiago Varela Rizo",
+      "count": 1
+    },
+    {
+      "name": "MACH",
+      "count": 1
+    },
+    {
+      "name": "Happenstance Collective [HaCo]",
+      "count": 1
+    },
+    {
+      "name": "Javier Villar Ruiz",
+      "count": 1
+    },
+    {
+      "name": "CEL-RAS Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Marià Castelló  Architecture",
+      "count": 1
+    },
+    {
+      "name": "José Antonio Molina",
+      "count": 1
+    },
+    {
+      "name": "Domani Architectural Concepts",
+      "count": 1
+    },
+    {
+      "name": "Daniel Ibáñez",
+      "count": 1
+    },
+    {
+      "name": "IAAC",
+      "count": 1
+    },
+    {
+      "name": "OGATAYOHEI",
+      "count": 1
+    },
+    {
+      "name": "Sergio Valadez",
+      "count": 1
+    },
+    {
+      "name": "Os 3 arkitektura",
+      "count": 1
+    },
+    {
+      "name": "LIN Architects",
+      "count": 1
+    },
+    {
+      "name": "Grand Huit",
+      "count": 1
+    },
+    {
+      "name": "Mélanie Drevet Paysagiste",
+      "count": 1
+    },
+    {
+      "name": "FRES Architectes",
+      "count": 1
+    },
+    {
+      "name": "DnA_Design and Architecture",
+      "count": 1
+    },
+    {
+      "name": "Deadline Studio",
+      "count": 1
+    },
+    {
+      "name": "RIMA Design Group",
+      "count": 1
+    },
+    {
+      "name": "Bailorull +ADD Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "BDR bureau",
+      "count": 1
+    },
+    {
+      "name": "Dhooge & Meganck",
+      "count": 1
+    },
+    {
+      "name": "BUZZ - Büro Ziyu Zhuang",
+      "count": 1
+    },
+    {
+      "name": "Beautell Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Francisco Cadau",
+      "count": 1
+    },
+    {
+      "name": "M2R Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Jean-Christophe Quinton",
+      "count": 1
+    },
+    {
+      "name": "kurosawa kawaraten",
+      "count": 1
+    },
+    {
+      "name": "querkraft",
+      "count": 1
+    },
+    {
+      "name": "Arvydas Gudelis",
+      "count": 1
+    },
+    {
+      "name": "Fránek Architects",
+      "count": 1
+    },
+    {
+      "name": "Gallego Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Plasencia Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "AIS",
+      "count": 1
+    },
+    {
+      "name": "Isla architects",
+      "count": 1
+    },
+    {
+      "name": "FREAKS freearchitects",
+      "count": 1
+    },
+    {
+      "name": "ATELIER62",
+      "count": 1
+    },
+    {
+      "name": "ABLM arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Sara de Giles",
+      "count": 1
+    },
+    {
+      "name": "Rocío Casado",
+      "count": 1
+    },
+    {
+      "name": "Jovino Martínez Sierra Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Xim Moyá",
+      "count": 1
+    },
+    {
+      "name": "Miguel Nevado",
+      "count": 1
+    },
+    {
+      "name": "Alcolea + Tárrago",
+      "count": 1
+    },
+    {
+      "name": "Sebastián Araujo",
+      "count": 1
+    },
+    {
+      "name": "Jaime Nadal",
+      "count": 1
+    },
+    {
+      "name": "Enric Ruiz-Geli",
+      "count": 1
+    },
+    {
+      "name": "Summary",
+      "count": 1
+    },
+    {
+      "name": "Manuel Portaceli",
+      "count": 1
+    },
+    {
+      "name": "Pinearq - Albert de Pineda",
+      "count": 1
+    },
+    {
+      "name": "Juan Navarro Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Formline",
+      "count": 1
+    },
+    {
+      "name": "Wingårdhs",
+      "count": 1
+    },
+    {
+      "name": "Scapelab",
+      "count": 1
+    },
+    {
+      "name": "Santiago Vives",
+      "count": 1
+    },
+    {
+      "name": "Adriana Clapés",
+      "count": 1
+    },
+    {
+      "name": "MYCC",
+      "count": 1
+    },
+    {
+      "name": "María Fandiño",
+      "count": 1
+    },
+    {
+      "name": "HEMAA Architectes",
+      "count": 1
+    },
+    {
+      "name": "Hesters-Oyon Architectes",
+      "count": 1
+    },
+    {
+      "name": "Kleihues + Kleihues",
+      "count": 1
+    },
+    {
+      "name": "Klaus Schuwerk",
+      "count": 1
+    },
+    {
+      "name": "Antoine Dufour",
+      "count": 1
+    },
+    {
+      "name": "Federico Marinaro",
+      "count": 1
+    },
+    {
+      "name": "Taller Capital",
+      "count": 1
+    },
+    {
+      "name": "Mix Architecture",
+      "count": 1
+    },
+    {
+      "name": "Evvo Retail",
+      "count": 1
+    },
+    {
+      "name": "P-M-A-A",
+      "count": 1
+    },
+    {
+      "name": "Totem Arquitectos Asociados (TAAs)",
+      "count": 1
+    },
+    {
+      "name": "Peñín Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Allford Hall Monaghan Morris",
+      "count": 1
+    },
+    {
+      "name": "Invisible Studio",
+      "count": 1
+    },
+    {
+      "name": "MOCA estudio",
+      "count": 1
+    },
+    {
+      "name": "Sulkin Marchissio",
+      "count": 1
+    },
+    {
+      "name": "OMA Octavio Mestre Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Brendeland & Kristoffersen",
+      "count": 1
+    },
+    {
+      "name": "Antonio López Díaz",
+      "count": 1
+    },
+    {
+      "name": "Ana López Sánchez-Vegazo",
+      "count": 1
+    },
+    {
+      "name": "Carmen López Sánchez-Vegazo",
+      "count": 1
+    },
+    {
+      "name": "Cabrera Arqs",
+      "count": 1
+    },
+    {
+      "name": "Chartier Dalix Architectes",
+      "count": 1
+    },
+    {
+      "name": "OKRA",
+      "count": 1
+    },
+    {
+      "name": "OOOA Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Iván Bravo",
+      "count": 1
+    },
+    {
+      "name": "Mailitis Architects",
+      "count": 1
+    },
+    {
+      "name": "J. Pogas Birojs",
+      "count": 1
+    },
+    {
+      "name": "Renesa Architecture",
+      "count": 1
+    },
+    {
+      "name": "ASA North",
+      "count": 1
+    },
+    {
+      "name": "De Zwarte Hond",
+      "count": 1
+    },
+    {
+      "name": "Lluís Jubert - Taller d’Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Ferran Pelegrina i Associats",
+      "count": 1
+    },
+    {
+      "name": "G8A Architects",
+      "count": 1
+    },
+    {
+      "name": "rollimarchini architects",
+      "count": 1
+    },
+    {
+      "name": "SAU Taller de Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Studioninedots",
+      "count": 1
+    },
+    {
+      "name": "Tabanlioglu Architects",
+      "count": 1
+    },
+    {
+      "name": "Clementine Blakemore Architects",
+      "count": 1
+    },
+    {
+      "name": "Werk Arkitekter",
+      "count": 1
+    },
+    {
+      "name": "Frontera Sur Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Soyka/Silber/Soyka Architekten",
+      "count": 1
+    },
+    {
+      "name": "Aurelien Chen",
+      "count": 1
+    },
+    {
+      "name": "SUO",
+      "count": 1
+    },
+    {
+      "name": "Style-A",
+      "count": 1
+    },
+    {
+      "name": "Sher Maker",
+      "count": 1
+    },
+    {
+      "name": "Erre Q Erre",
+      "count": 1
+    },
+    {
+      "name": "Ramos Alderete",
+      "count": 1
+    },
+    {
+      "name": "ArchStudio",
+      "count": 1
+    },
+    {
+      "name": "haas cook zemmrich STUDIO 2050",
+      "count": 1
+    },
+    {
+      "name": "AFF architekten",
+      "count": 1
+    },
+    {
+      "name": "Risco",
+      "count": 1
+    },
+    {
+      "name": "Atelier Daniel Flórez",
+      "count": 1
+    },
+    {
+      "name": "Hugh Broughton Architects",
+      "count": 1
+    },
+    {
+      "name": "b-ground arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Des Clics et des Calques",
+      "count": 1
+    },
+    {
+      "name": "Arias Garrido Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Pedro Pitarch",
+      "count": 1
+    },
+    {
+      "name": "Ramón Bescós",
+      "count": 1
+    },
+    {
+      "name": "Atelier Atlántico",
+      "count": 1
+    },
+    {
+      "name": "Estudio Primitivo González | e.G.a",
+      "count": 1
+    },
+    {
+      "name": "Hsü Rudolphy",
+      "count": 1
+    },
+    {
+      "name": "MARS Architectes",
+      "count": 1
+    },
+    {
+      "name": "Régis Roudil",
+      "count": 1
+    },
+    {
+      "name": "Sergio Martín Blas",
+      "count": 1
+    },
+    {
+      "name": "Gabriel Carrascal Aguirre",
+      "count": 1
+    },
+    {
+      "name": "Atelier Lavit",
+      "count": 1
+    },
+    {
+      "name": "Atelier L+",
+      "count": 1
+    },
+    {
+      "name": "Taller de Arquitectura Miguel Montor",
+      "count": 1
+    },
+    {
+      "name": "Müller Feijoo",
+      "count": 1
+    },
+    {
+      "name": "Santiago García Camacho",
+      "count": 1
+    },
+    {
+      "name": "Wiki World",
+      "count": 1
+    },
+    {
+      "name": "Advanced Architecture Lab [AaL]",
+      "count": 1
+    },
+    {
+      "name": "08014 arquitectura",
+      "count": 1
+    },
+    {
+      "name": "JEJU.studio",
+      "count": 1
+    },
+    {
+      "name": "Diana Kellogg Architects",
+      "count": 1
+    },
+    {
+      "name": "Parallect Design",
+      "count": 1
+    },
+    {
+      "name": "Bayona Studio",
+      "count": 1
+    },
+    {
+      "name": "Alba Colomer",
+      "count": 1
+    },
+    {
+      "name": "SIRS Architects",
+      "count": 1
+    },
+    {
+      "name": "Atelier Oslo",
+      "count": 1
+    },
+    {
+      "name": "Juan Carlos Bamba",
+      "count": 1
+    },
+    {
+      "name": "Wood Marsh",
+      "count": 1
+    },
+    {
+      "name": "Bergendy Cooke",
+      "count": 1
+    },
+    {
+      "name": "Studio.Noju",
+      "count": 1
+    },
+    {
+      "name": "ARQBR Arquitetura e Urbanismo",
+      "count": 1
+    },
+    {
+      "name": "BURR",
+      "count": 1
+    },
+    {
+      "name": "Sukunfuku Studio",
+      "count": 1
+    },
+    {
+      "name": "Edra arquitectura km0 - Àngels Castellarnau Visús",
+      "count": 1
+    },
+    {
+      "name": "bunyesc arquitectes",
+      "count": 1
+    },
+    {
+      "name": "Michèle & Miquel",
+      "count": 1
+    },
+    {
+      "name": "Da Vision",
+      "count": 1
+    },
+    {
+      "name": "Ángel Borrego",
+      "count": 1
+    },
+    {
+      "name": "Gonzalo Mardones",
+      "count": 1
+    },
+    {
+      "name": "Studio RC",
+      "count": 1
+    },
+    {
+      "name": "Napur Architect",
+      "count": 1
+    },
+    {
+      "name": "GRAAM architecture",
+      "count": 1
+    },
+    {
+      "name": "Tanghua Architects",
+      "count": 1
+    },
+    {
+      "name": "Rozana Montiel | Estudio de Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Arkpabi",
+      "count": 1
+    },
+    {
+      "name": "Néstor Montenegro",
+      "count": 1
+    },
+    {
+      "name": "Toni Gelabert",
+      "count": 1
+    },
+    {
+      "name": "Mixtura",
+      "count": 1
+    },
+    {
+      "name": "Atelier Tsuyoshi Tane Architects (ATTA)",
+      "count": 1
+    },
+    {
+      "name": "taller11",
+      "count": 1
+    },
+    {
+      "name": "Onion",
+      "count": 1
+    },
+    {
+      "name": "Boamistura",
+      "count": 1
+    },
+    {
+      "name": "Coyote",
+      "count": 1
+    },
+    {
+      "name": "rvr arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Mary English",
+      "count": 1
+    },
+    {
+      "name": "Powerhouse Company",
+      "count": 1
+    },
+    {
+      "name": "Virseda-Vila Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Miguel Fernández Rueda",
+      "count": 1
+    },
+    {
+      "name": "Leonardo Quinteros",
+      "count": 1
+    },
+    {
+      "name": "Nicolás Norero",
+      "count": 1
+    },
+    {
+      "name": "Tomás Villalón",
+      "count": 1
+    },
+    {
+      "name": "Shulin Architectural Design",
+      "count": 1
+    },
+    {
+      "name": "Ecoproyecta",
+      "count": 1
+    },
+    {
+      "name": "Florian Nagler Architekten",
+      "count": 1
+    },
+    {
+      "name": "wiercinski-studio",
+      "count": 1
+    },
+    {
+      "name": "Jacobo García-Germán",
+      "count": 1
+    },
+    {
+      "name": "CoBe Architecture & Paysage",
+      "count": 1
+    },
+    {
+      "name": "WEEK",
+      "count": 1
+    },
+    {
+      "name": "Salazar Sequero Medina",
+      "count": 1
+    },
+    {
+      "name": "Bruno Dias Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "EST arquitectura",
+      "count": 1
+    },
+    {
+      "name": "WORKac",
+      "count": 1
+    },
+    {
+      "name": "Brooks + Scarpa Architects",
+      "count": 1
+    },
+    {
+      "name": "A Threshold",
+      "count": 1
+    },
+    {
+      "name": "Gramática Arquitectónica",
+      "count": 1
+    },
+    {
+      "name": "Gestión vecinal de la plaza de la Cebada",
+      "count": 1
+    },
+    {
+      "name": "Centro Social Autogestionado de Lavapiés",
+      "count": 1
+    },
+    {
+      "name": "Titan architects",
+      "count": 1
+    },
+    {
+      "name": "BNIM",
+      "count": 1
+    },
+    {
+      "name": "Moreau Kusunoki",
+      "count": 1
+    },
+    {
+      "name": "Oslotre",
+      "count": 1
+    },
+    {
+      "name": "Productora",
+      "count": 1
+    },
+    {
+      "name": "Bayer & Strobel",
+      "count": 1
+    },
+    {
+      "name": "ARB Architects",
+      "count": 1
+    },
+    {
+      "name": "Nguyen Khac Phuoc Architects",
+      "count": 1
+    },
+    {
+      "name": "BDR Architekci",
+      "count": 1
+    },
+    {
+      "name": "Taisei Design Planners Architects & Engineers",
+      "count": 1
+    },
+    {
+      "name": "Atelier Bridge Structures",
+      "count": 1
+    },
+    {
+      "name": "Blank architekti",
+      "count": 1
+    },
+    {
+      "name": "NORD Architects",
+      "count": 1
+    },
+    {
+      "name": "López+Aroca",
+      "count": 1
+    },
+    {
+      "name": "allmannwappner",
+      "count": 1
+    },
+    {
+      "name": "Menges Scheffler Architekten",
+      "count": 1
+    },
+    {
+      "name": "Balance Architettura",
+      "count": 1
+    },
+    {
+      "name": "casa solo arquitectos",
+      "count": 1
+    },
+    {
+      "name": "AECOM",
+      "count": 1
+    },
+    {
+      "name": "H/RD (Hopson Rodstrom Design)",
+      "count": 1
+    },
+    {
+      "name": "Kauh arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Comamala Ismail",
+      "count": 1
+    },
+    {
+      "name": "KPMB Architects",
+      "count": 1
+    },
+    {
+      "name": "Mirag - Millet i Ramoneda",
+      "count": 1
+    },
+    {
+      "name": "WE-S architects",
+      "count": 1
+    },
+    {
+      "name": "KAL A",
+      "count": 1
+    },
+    {
+      "name": "ARREA",
+      "count": 1
+    },
+    {
+      "name": "MONO Architekten",
+      "count": 1
+    },
+    {
+      "name": "KWK Promes",
+      "count": 1
+    },
+    {
+      "name": "Zooco Estudio",
+      "count": 1
+    },
+    {
+      "name": "Rafael Landete",
+      "count": 1
+    },
+    {
+      "name": "José Manuel Escobedo",
+      "count": 1
+    },
+    {
+      "name": "Branco del Río",
+      "count": 1
+    },
+    {
+      "name": "Max Hacke",
+      "count": 1
+    },
+    {
+      "name": "Gustav Düsing",
+      "count": 1
+    },
+    {
+      "name": "Ehl & Koumar Architekti",
+      "count": 1
+    },
+    {
+      "name": "barea pizarro",
+      "count": 1
+    },
+    {
+      "name": "Carlos Seoane",
+      "count": 1
+    },
+    {
+      "name": "Medprostor",
+      "count": 1
+    },
+    {
+      "name": "Rodrigo Núñez Carrasco",
+      "count": 1
+    },
+    {
+      "name": "Nazareth Gutiérrez Franco",
+      "count": 1
+    },
+    {
+      "name": "CCA Centro de Colaboración Arquitectónica | Bernardo Quinzaños",
+      "count": 1
+    },
+    {
+      "name": "i29",
+      "count": 1
+    },
+    {
+      "name": "Namo Architecture",
+      "count": 1
+    },
+    {
+      "name": "TEST",
+      "count": 1
+    },
+    {
+      "name": "Guillermo Santomà",
+      "count": 1
+    },
+    {
+      "name": "petrjanda/brainwork",
+      "count": 1
+    },
+    {
+      "name": "Estudio Garúa",
+      "count": 1
+    },
+    {
+      "name": "Fernando Carrascal",
+      "count": 1
+    },
+    {
+      "name": "José María Fernández de la Puente",
+      "count": 1
+    },
+    {
+      "name": "Juan Antonio Mesa Cadena",
+      "count": 1
+    },
+    {
+      "name": "SOA architekti",
+      "count": 1
+    },
+    {
+      "name": "Ateliér Koncept",
+      "count": 1
+    },
+    {
+      "name": "CollectiveProject",
+      "count": 1
+    },
+    {
+      "name": "Bilgin Architects",
+      "count": 1
+    },
+    {
+      "name": "JJ+ estudio",
+      "count": 1
+    },
+    {
+      "name": "Ángela Sueiro",
+      "count": 1
+    },
+    {
+      "name": "Rubén Hernández",
+      "count": 1
+    },
+    {
+      "name": "Martens Willems & Humblé Architecten",
+      "count": 1
+    },
+    {
+      "name": "GTRF. Tortelli Frassoni",
+      "count": 1
+    },
+    {
+      "name": "PRÁCTICA",
+      "count": 1
+    },
+    {
+      "name": "Arenas & Asociados",
+      "count": 1
+    },
+    {
+      "name": "AM2 Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Hiroyuki Ito",
+      "count": 1
+    },
+    {
+      "name": "Frade Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "oiga estudio",
+      "count": 1
+    },
+    {
+      "name": "Mestres Wåge Arquitectes",
+      "count": 1
+    },
+    {
+      "name": "La Cabina de la Curiosidad",
+      "count": 1
+    },
+    {
+      "name": "Castroferro Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Prokš Přikryl architekti",
+      "count": 1
+    },
+    {
+      "name": "Gaia Redaelli",
+      "count": 1
+    },
+    {
+      "name": "Jacinta Ortiz Miranda",
+      "count": 1
+    },
+    {
+      "name": "Carlos Anaya Sahuco",
+      "count": 1
+    },
+    {
+      "name": "Estudio Álvarez-Sala",
+      "count": 1
+    },
+    {
+      "name": "LLOC arquitectes",
+      "count": 1
+    },
+    {
+      "name": "Bajet Giramé",
+      "count": 1
+    },
+    {
+      "name": "JAAS Julià Arquitectes Associats",
+      "count": 1
+    },
+    {
+      "name": "Ignacio Borrego",
+      "count": 1
+    },
+    {
+      "name": "Xstudio",
+      "count": 1
+    },
+    {
+      "name": "Bernabeu Ingenieros",
+      "count": 1
+    },
+    {
+      "name": "IXA",
+      "count": 1
+    },
+    {
+      "name": "Galaxy Arch",
+      "count": 1
+    },
+    {
+      "name": "Enrico Molteni Architecture",
+      "count": 1
+    },
+    {
+      "name": "TAOA | Tao Lei Architect Studio",
+      "count": 1
+    },
+    {
+      "name": "Aretz Dürr Architektur",
+      "count": 1
+    },
+    {
+      "name": "JSa",
+      "count": 1
+    },
+    {
+      "name": "Verne arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Alejandro Maortua",
+      "count": 1
+    },
+    {
+      "name": "Kauffmann Theilig & Partner",
+      "count": 1
+    },
+    {
+      "name": "Ivry Serres",
+      "count": 1
+    },
+    {
+      "name": "Jorge Urias Studio",
+      "count": 1
+    },
+    {
+      "name": "Metronom arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Frederic Villagrasa",
+      "count": 1
+    },
+    {
+      "name": "Efrén Munarriz",
+      "count": 1
+    },
+    {
+      "name": "Stanton Williams",
+      "count": 1
+    },
+    {
+      "name": "Studio Moto",
+      "count": 1
+    },
+    {
+      "name": "Rafael de La-Hoz Arderius",
+      "count": 1
+    },
+    {
+      "name": "José María García de Paredes",
+      "count": 1
+    },
+    {
+      "name": "rzero estudio",
+      "count": 1
+    },
+    {
+      "name": "K-Studio",
+      "count": 1
+    },
+    {
+      "name": "Holzer Kobler Architekturen",
+      "count": 1
+    },
+    {
+      "name": "ODB Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Pelletier de Fontenay",
+      "count": 1
+    },
+    {
+      "name": "Leclerc architectes",
+      "count": 1
+    },
+    {
+      "name": "Amasa Estudio",
+      "count": 1
+    },
+    {
+      "name": "KSP Engel",
+      "count": 1
+    },
+    {
+      "name": "Alley Poyner Macchietto",
+      "count": 1
+    },
+    {
+      "name": "Palenzuela Taller de Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "OODA architecture",
+      "count": 1
+    },
+    {
+      "name": "John Lautner",
+      "count": 1
+    },
+    {
+      "name": "Holt Hinshaw Pfau Jones",
+      "count": 1
+    },
+    {
+      "name": "Eric Owen Moss",
+      "count": 1
+    },
+    {
+      "name": "MRM arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Article 25",
+      "count": 1
+    },
+    {
+      "name": "krft",
+      "count": 1
+    },
+    {
+      "name": "Max Otto Zitzelsberger",
+      "count": 1
+    },
+    {
+      "name": "Čtyřstěn",
+      "count": 1
+    },
+    {
+      "name": "CL MAP",
+      "count": 1
+    },
+    {
+      "name": "archipelago",
+      "count": 1
+    },
+    {
+      "name": "Lluc Darder Aldeguer (DRDR Arquitectura)",
+      "count": 1
+    },
+    {
+      "name": "RM Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Olson Kundig",
+      "count": 1
+    },
+    {
+      "name": "PL-T Architecture",
+      "count": 1
+    },
+    {
+      "name": "Jorge Almazán Architects",
+      "count": 1
+    },
+    {
+      "name": "Keio University Studiolab",
+      "count": 1
+    },
+    {
+      "name": "ATAMA",
+      "count": 1
+    },
+    {
+      "name": "Mollinedo Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Laboqueria Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Feilden Clegg Bradley Studios",
+      "count": 1
+    },
+    {
+      "name": "Adamson Associates Architects",
+      "count": 1
+    },
+    {
+      "name": "Jerez Arquitectos - Enrique Jerez",
+      "count": 1
+    },
+    {
+      "name": "Rebeca Piedra",
+      "count": 1
+    },
+    {
+      "name": "José Manuel Méndez Primo",
+      "count": 1
+    },
+    {
+      "name": "Itten + Brechbühl",
+      "count": 1
+    },
+    {
+      "name": "Carmen Maurice",
+      "count": 1
+    },
+    {
+      "name": "HYBRIDa",
+      "count": 1
+    },
+    {
+      "name": "aZCON",
+      "count": 1
+    },
+    {
+      "name": "D388 Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Andrea Tabocchini",
+      "count": 1
+    },
+    {
+      "name": "SHISUO Design Office",
+      "count": 1
+    },
+    {
+      "name": "Donghua Chen Studio",
+      "count": 1
+    },
+    {
+      "name": "Serrano + Baquero Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Pedra Líquida",
+      "count": 1
+    },
+    {
+      "name": "Paradigma estudio",
+      "count": 1
+    },
+    {
+      "name": "Ignacio Frade",
+      "count": 1
+    },
+    {
+      "name": "Michel Desvigne",
+      "count": 1
+    },
+    {
+      "name": "Estudio Flume",
+      "count": 1
+    },
+    {
+      "name": "Marion Bernard",
+      "count": 1
+    },
+    {
+      "name": "Point Supreme",
+      "count": 1
+    },
+    {
+      "name": "Seyler & Lucan",
+      "count": 1
+    },
+    {
+      "name": "CENTRAL",
+      "count": 1
+    },
+    {
+      "name": "SCAU Architecture",
+      "count": 1
+    },
+    {
+      "name": "Waechter + Waechter",
+      "count": 1
+    },
+    {
+      "name": "Topia landskapsarkitekter",
+      "count": 1
+    },
+    {
+      "name": "Turenscape",
+      "count": 1
+    },
+    {
+      "name": "Arsomsilp",
+      "count": 1
+    },
+    {
+      "name": "Van Belle & Medina",
+      "count": 1
+    },
+    {
+      "name": "PLP Atelier",
+      "count": 1
+    },
+    {
+      "name": "Serie Architects",
+      "count": 1
+    },
+    {
+      "name": "MASS Design Group",
+      "count": 1
+    },
+    {
+      "name": "MUDA-Architects",
+      "count": 1
+    },
+    {
+      "name": "Mulder Zonderland",
+      "count": 1
+    },
+    {
+      "name": "ARW Associates",
+      "count": 1
+    },
+    {
+      "name": "Endosdedos arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Richter architectes et associés",
+      "count": 1
+    },
+    {
+      "name": "Firm Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Studio Morphogenesis",
+      "count": 1
+    },
+    {
+      "name": "Mónica Alberola",
+      "count": 1
+    },
+    {
+      "name": "Emac Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Kerstin Thompson Architects",
+      "count": 1
+    },
+    {
+      "name": "Multiprojectus",
+      "count": 1
+    },
+    {
+      "name": "BOV Estudio",
+      "count": 1
+    },
+    {
+      "name": "Askim & Hartvig",
+      "count": 1
+    },
+    {
+      "name": "Studio Granda",
+      "count": 1
+    },
+    {
+      "name": "Kristian Gullichsen",
+      "count": 1
+    },
+    {
+      "name": "Erkki Kairamo",
+      "count": 1
+    },
+    {
+      "name": "Timo Vormala",
+      "count": 1
+    },
+    {
+      "name": "Pekka Helin",
+      "count": 1
+    },
+    {
+      "name": "Tuomo Siitonen",
+      "count": 1
+    },
+    {
+      "name": "Ove Hidemark",
+      "count": 1
+    },
+    {
+      "name": "Carsten Hoff",
+      "count": 1
+    },
+    {
+      "name": "Juha Leiviskä",
+      "count": 1
+    },
+    {
+      "name": "Narud, Stokke & Wiig",
+      "count": 1
+    },
+    {
+      "name": "Ingimundur Sveinsson",
+      "count": 1
+    },
+    {
+      "name": "Al Borde",
+      "count": 1
+    },
+    {
+      "name": "Barthélémy Griño",
+      "count": 1
+    },
+    {
+      "name": "archigrest",
+      "count": 1
+    },
+    {
+      "name": "Toposcape",
+      "count": 1
+    },
+    {
+      "name": "Déchelette Architecture",
+      "count": 1
+    },
+    {
+      "name": "Summacumfemmer",
+      "count": 1
+    },
+    {
+      "name": "Büro Juliane Greb",
+      "count": 1
+    },
+    {
+      "name": "Crea - arquitetos",
+      "count": 1
+    },
+    {
+      "name": "GWJ",
+      "count": 1
+    },
+    {
+      "name": "Esch Sintzel Architekten",
+      "count": 1
+    },
+    {
+      "name": "Studio Mumbai",
+      "count": 1
+    },
+    {
+      "name": "Studio Médtierranée",
+      "count": 1
+    },
+    {
+      "name": "Puerto & Sánchez Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Rubén Valdez",
+      "count": 1
+    },
+    {
+      "name": "EXE Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Clément Blanchet Architecture",
+      "count": 1
+    },
+    {
+      "name": "Estudio Montevideo",
+      "count": 1
+    },
+    {
+      "name": "César Béjar Studio",
+      "count": 1
+    },
+    {
+      "name": "Esencial Studio",
+      "count": 1
+    },
+    {
+      "name": "Weyell Zipse Architekten",
+      "count": 1
+    },
+    {
+      "name": "Bruce Goff",
+      "count": 1
+    },
+    {
+      "name": "Architects Office",
+      "count": 1
+    },
+    {
+      "name": "3ME Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Ieoh Ming Pei",
+      "count": 1
+    },
+    {
+      "name": "Minoru Yamasaki",
+      "count": 1
+    },
+    {
+      "name": "Elias Khuri",
+      "count": 1
+    },
+    {
+      "name": "h3o architects",
+      "count": 1
+    },
+    {
+      "name": "Ricardo Sánchez González",
+      "count": 1
+    },
+    {
+      "name": "Ángel Munárriz Blasco",
+      "count": 1
+    },
+    {
+      "name": "FORarquitectura",
+      "count": 1
+    },
+    {
+      "name": "Salvador Roig",
+      "count": 1
+    },
+    {
+      "name": "Quinta Fachada | Arquitectura Consciente",
+      "count": 1
+    },
+    {
+      "name": "Tab Architects",
+      "count": 1
+    },
+    {
+      "name": "Koplamp Architecten",
+      "count": 1
+    },
+    {
+      "name": "Santamaria Arquitectes",
+      "count": 1
+    },
+    {
+      "name": "Donaire Milans Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Olivieri Office",
+      "count": 1
+    },
+    {
+      "name": "GN Architects",
+      "count": 1
+    },
+    {
+      "name": "Martino Picchedda",
+      "count": 1
+    },
+    {
+      "name": "b+",
+      "count": 1
+    },
+    {
+      "name": "Manfred Pernice",
+      "count": 1
+    },
+    {
+      "name": "Estudio APLG",
+      "count": 1
+    },
+    {
+      "name": "Miguel Ángel Díaz Camacho (MADC & Partners)",
+      "count": 1
+    },
+    {
+      "name": "Ignacio Carón",
+      "count": 1
+    },
+    {
+      "name": "Fabio Estremera",
+      "count": 1
+    },
+    {
+      "name": "Andres Francesconi",
+      "count": 1
+    },
+    {
+      "name": "Ezequiel Spinelli",
+      "count": 1
+    },
+    {
+      "name": "Luis Sese",
+      "count": 1
+    },
+    {
+      "name": "Estudio ods",
+      "count": 1
+    },
+    {
+      "name": "Flexoarquitectura",
+      "count": 1
+    },
+    {
+      "name": "Onze04 Arquitectes",
+      "count": 1
+    },
+    {
+      "name": "SMAR Architecture Studio",
+      "count": 1
+    },
+    {
+      "name": "Martin Varga",
+      "count": 1
+    },
+    {
+      "name": "Martin Kvitkovský",
+      "count": 1
+    },
+    {
+      "name": "Pavol Pauliny",
+      "count": 1
+    },
+    {
+      "name": "Estruch Martorell arquitectes",
+      "count": 1
+    },
+    {
+      "name": "Estudi E. Torres Pujol",
+      "count": 1
+    },
+    {
+      "name": "Elisenda Foradada",
+      "count": 1
+    },
+    {
+      "name": "Mireia Noguera",
+      "count": 1
+    },
+    {
+      "name": "Miquel Autet",
+      "count": 1
+    },
+    {
+      "name": "noAarchitecten",
+      "count": 1
+    },
+    {
+      "name": "Marinauno Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Espinet / Ubach Arquitectes",
+      "count": 1
+    },
+    {
+      "name": "Cierto Estudio",
+      "count": 1
+    },
+    {
+      "name": "Franc Llonch",
+      "count": 1
+    },
+    {
+      "name": "Ramírez Suárez Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Laboratorio Regional de Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Mossessian Architecture",
+      "count": 1
+    },
+    {
+      "name": "Yassir Khalil Studio",
+      "count": 1
+    },
+    {
+      "name": "Bayona Valero",
+      "count": 1
+    },
+    {
+      "name": "Cantallops Vicente",
+      "count": 1
+    },
+    {
+      "name": "Ensenyat Tarrida",
+      "count": 1
+    },
+    {
+      "name": "Sp(r)int Studio",
+      "count": 1
+    },
+    {
+      "name": "Extudio",
+      "count": 1
+    },
+    {
+      "name": "ENORME Studio",
+      "count": 1
+    },
+    {
+      "name": "Smart and Green Design",
+      "count": 1
+    },
+    {
+      "name": "RAU Architects",
+      "count": 1
+    },
+    {
+      "name": "AMDL CIRCLE",
+      "count": 1
+    },
+    {
+      "name": "Apropos Architects",
+      "count": 1
+    },
+    {
+      "name": "interplay",
+      "count": 1
+    },
+    {
+      "name": "Atelier Brückner",
+      "count": 1
+    },
+    {
+      "name": "Espen Surnevik",
+      "count": 1
+    },
+    {
+      "name": "Israel Alba Estudio",
+      "count": 1
+    },
+    {
+      "name": "José Antonio Aguado Benito",
+      "count": 1
+    },
+    {
+      "name": "Javier Vellés Montoya",
+      "count": 1
+    },
+    {
+      "name": "Team BLDG",
+      "count": 1
+    },
+    {
+      "name": "Saunders Architecture",
+      "count": 1
+    },
+    {
+      "name": "Ruizesquiroz Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Chris van Duijn",
+      "count": 1
+    },
+    {
+      "name": "Bofill Taller de Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Groupe3Architectes",
+      "count": 1
+    },
+    {
+      "name": "fadg estudio",
+      "count": 1
+    },
+    {
+      "name": "IARA",
+      "count": 1
+    },
+    {
+      "name": "Clancy Moore Architects",
+      "count": 1
+    },
+    {
+      "name": "Blasco Esparza Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "Link Architectes Associés",
+      "count": 1
+    },
+    {
+      "name": "Vinklu",
+      "count": 1
+    },
+    {
+      "name": "Topiaris",
+      "count": 1
+    },
+    {
+      "name": "Carbajo Hermanos",
+      "count": 1
+    },
+    {
+      "name": "HOK",
+      "count": 1
+    },
+    {
+      "name": "pihlmann architects",
+      "count": 1
+    },
+    {
+      "name": "Mesa Atelier",
+      "count": 1
+    },
+    {
+      "name": "Arquimes",
+      "count": 1
+    },
+    {
+      "name": "Ricardo Carvalho Arquitectos & Associados",
+      "count": 1
+    },
+    {
+      "name": "Malte Kloes Architekten",
+      "count": 1
+    },
+    {
+      "name": "Modus Studio",
+      "count": 1
+    },
+    {
+      "name": "Archiplan Studio",
+      "count": 1
+    },
+    {
+      "name": "Urzúa Soler",
+      "count": 1
+    },
+    {
+      "name": "Alvisi Kirimoto + Partners",
+      "count": 1
+    },
+    {
+      "name": "Módica Ledezma",
+      "count": 1
+    },
+    {
+      "name": "CRB arquitectos",
+      "count": 1
+    },
+    {
+      "name": "DB Studios",
+      "count": 1
+    },
+    {
+      "name": "pk_iNCEPTiON",
+      "count": 1
+    },
+    {
+      "name": "Studio Sangath",
+      "count": 1
+    },
+    {
+      "name": "BAT (Bilbao Architecture Team)",
+      "count": 1
+    },
+    {
+      "name": "Takween",
+      "count": 1
+    },
+    {
+      "name": "ZAV Architects",
+      "count": 1
+    },
+    {
+      "name": "KA Architecture Studio",
+      "count": 1
+    },
+    {
+      "name": "JAO Arquitectura",
+      "count": 1
+    },
+    {
+      "name": "De Rungs Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "firmaa",
+      "count": 1
+    },
+    {
+      "name": "Farshid Moussavi",
+      "count": 1
+    },
+    {
+      "name": "MAHT arquitectura",
+      "count": 1
+    },
+    {
+      "name": "Lava Architecten",
+      "count": 1
+    },
+    {
+      "name": "DeRoche Projects",
+      "count": 1
+    },
+    {
+      "name": "Alexis Dornier",
+      "count": 1
+    },
+    {
+      "name": "BDP",
+      "count": 1
+    },
+    {
+      "name": "Miel Arquitectos",
+      "count": 1
+    },
+    {
+      "name": "REDO architects",
+      "count": 1
+    },
+    {
+      "name": "AACM",
+      "count": 1
+    },
+    {
+      "name": "Christian Schmoelz",
+      "count": 1
+    },
+    {
+      "name": "ELSE",
+      "count": 1
+    },
+    {
+      "name": "LAUS architectes",
+      "count": 1
+    },
+    {
+      "name": "Lucas y Hernández-Gil -  Kresta Design",
+      "count": 1
+    }
+  ],
+  "totalFirms": 2195,
+  "totalProjects": 4108
+}

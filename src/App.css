@@ -23,3 +23,18 @@
   @apply text-red-600;
 }
 
+/* Firm filter styles */
+@media (max-width: 768px) {
+  .firm-filter {
+    max-width: calc(100vw - 20px) !important;
+    width: calc(100vw - 20px) !important;
+    top: 10px !important;
+    left: 10px !important;
+    max-height: calc(100vh - 100px);
+  }
+  
+  .firm-filter .max-h-64 {
+    max-height: 200px;
+  }
+}
+

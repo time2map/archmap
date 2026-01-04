@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from 'react'
+import { useState, useEffect, useCallback, useRef, useMemo } from 'react'
 import Map, { Source, Layer, Popup, Marker } from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 
@@ -59,7 +59,57 @@ const MAPBOX_ACCESS_TOKEN = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN || ''
 // Common names: "data", "points", or the filename you uploaded
 const MAPBOX_SOURCE_LAYER = import.meta.env.VITE_MAPBOX_SOURCE_LAYER || 'data'
 
-function MapComponent({ data, useVectorTiles = false }) {
+// Top-tier architects/firms to highlight in red
+const TOP_TIER_FIRMS = [
+  'Kengo Kuma',
+  'Renzo Piano Building Workshop',
+  'OMA - Office for Metropolitan Architecture',
+  'BIG Bjarke Ingels Group',
+  'Zaha Hadid Architects',
+  'Tadao Ando',
+  'Foster + Partners',
+  'Snøhetta',
+  'MVRDV',
+  'Santiago Calatrava',
+  'Norman Foster',
+  'Alvar Aalto',
+  'Frank Gehry'
+]
+
+// Helper function to check if item belongs to top-tier firms
+function isTopTierFirm(item) {
+  if (!item.author) return false
+  
+  const authors = Array.isArray(item.author) ? item.author : [item.author]
+  
+  return authors.some(author => {
+    if (!author) return false
+    const authorName = typeof author === 'string' ? author.trim() : String(author).trim()
+    return TOP_TIER_FIRMS.includes(authorName)
+  })
+}
+
+// Helper function to check if item belongs to selected firms
+function belongsToSelectedFirms(item, selectedFirms) {
+  if (!selectedFirms || selectedFirms.length === 0) {
+    return true // Show all if no filter
+  }
+  
+  if (!item.author) {
+    return false
+  }
+  
+  const authors = Array.isArray(item.author) ? item.author : [item.author]
+  
+  // Check if any of the item's authors match any selected firm
+  return authors.some(author => {
+    if (!author) return false
+    const authorName = typeof author === 'string' ? author.trim() : String(author).trim()
+    return selectedFirms.includes(authorName)
+  })
+}
+
+function MapComponent({ data, useVectorTiles = false, selectedFirms = [] }) {
   const [selectedFeature, setSelectedFeature] = useState(null)
   const [viewState, setViewState] = useState({
     longitude: -3.7038,
@@ -70,16 +120,24 @@ function MapComponent({ data, useVectorTiles = false }) {
   const mapRef = useRef(null)
 
   // Fallback: Parse coordinates for non-vector tile mode
-  const markers = useVectorTiles ? [] : (data || [])
-    .filter(item => item.coords && item.coords.includes(','))
-    .map(item => {
-      const [lat, lng] = item.coords.split(',').map(Number)
-      return {
-        ...item,
-        position: [lat, lng]
-      }
-    })
-    .filter(item => !isNaN(item.position[0]) && !isNaN(item.position[1]))
+  // Use useMemo to recalculate when data or selectedFirms change
+  const markers = useMemo(() => {
+    if (useVectorTiles) return []
+    
+    const filtered = (data || [])
+      .filter(item => belongsToSelectedFirms(item, selectedFirms))
+      .filter(item => item.coords && item.coords.includes(','))
+      .map(item => {
+        const [lat, lng] = item.coords.split(',').map(Number)
+        return {
+          ...item,
+          position: [lat, lng]
+        }
+      })
+      .filter(item => !isNaN(item.position[0]) && !isNaN(item.position[1]))
+    
+    return filtered
+  }, [data, selectedFirms, useVectorTiles])
 
   // Calculate center point and fit bounds on initial load (only for non-vector mode)
   useEffect(() => {
@@ -113,7 +171,7 @@ function MapComponent({ data, useVectorTiles = false }) {
         zoom: zoom
       })
     }
-  }, [markers.length, useVectorTiles])
+  }, [markers.length, useVectorTiles, selectedFirms])
 
   // Handle geolocation
   const handleGeolocate = useCallback(() => {
@@ -150,6 +208,8 @@ function MapComponent({ data, useVectorTiles = false }) {
 
     if (features && features.length > 0) {
       const feature = features[0]
+      
+      // Filter is already applied at layer level, so we can show the popup
       const coords = feature.geometry.coordinates
       
       // On mobile, center map first before showing popup
@@ -232,6 +292,14 @@ function MapComponent({ data, useVectorTiles = false }) {
                 id="architectural-points"
                 type="circle"
                 source-layer={MAPBOX_SOURCE_LAYER}
+                filter={selectedFirms.length > 0 ? [
+                  'any',
+                  ...selectedFirms.map(firm => [
+                    'in',
+                    firm,
+                    ['get', 'author']
+                  ])
+                ] : undefined}
                 paint={{
                   'circle-radius': {
                     'base': 1.75,
@@ -243,7 +311,19 @@ function MapComponent({ data, useVectorTiles = false }) {
                       [18, 35]
                     ]
                   },
-                  'circle-color': '#3498db',
+                  'circle-color': [
+                    'case',
+                    [
+                      'any',
+                      ...TOP_TIER_FIRMS.map(firm => [
+                        'in',
+                        firm,
+                        ['get', 'author']
+                      ])
+                    ],
+                    '#e74c3c', // Red for top-tier firms
+                    '#3498db'  // Blue for others
+                  ],
                   'circle-stroke-width': 2,
                   'circle-stroke-color': '#ffffff',
                   'circle-opacity': 0.8
@@ -253,7 +333,7 @@ function MapComponent({ data, useVectorTiles = false }) {
           </>
         ) : (
           // Fallback mode: Render individual markers (original implementation)
-          data && data.length > 0 && (
+          markers && markers.length > 0 && (
             <>
               {markers.map((item, index) => (
                 <Marker
@@ -305,7 +385,7 @@ function MapComponent({ data, useVectorTiles = false }) {
                         width: viewState.zoom >= 14 ? '16px' : viewState.zoom >= 12 ? '12px' : '10px',
                         height: viewState.zoom >= 14 ? '16px' : viewState.zoom >= 12 ? '12px' : '10px',
                         borderRadius: '50%',
-                        backgroundColor: '#3498db',
+                        backgroundColor: isTopTierFirm(item) ? '#e74c3c' : '#3498db',
                         transition: 'width 0.2s, height 0.2s'
                       }}
                     />
