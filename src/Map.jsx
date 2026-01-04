@@ -114,9 +114,11 @@ function MapComponent({ data, useVectorTiles = false }) {
         onClick={handleMapClick}
         style={{ width: '100%', height: '100%' }}
         mapStyle={useVectorTiles 
-          ? "mapbox://styles/mapbox/light-v11"
-          : "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"}
-        mapboxAccessToken={useVectorTiles ? MAPBOX_ACCESS_TOKEN : undefined}
+          ? "mapbox://styles/mapbox/streets-v12"
+          : MAPBOX_ACCESS_TOKEN 
+            ? "mapbox://styles/mapbox/streets-v12"
+            : "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"}
+        mapboxAccessToken={MAPBOX_ACCESS_TOKEN || undefined}
       >
         {useVectorTiles && vectorTileUrl ? (
           // Vector tile mode: Use Mapbox tileset
