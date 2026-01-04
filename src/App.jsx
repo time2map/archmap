@@ -17,7 +17,7 @@ function App() {
       return
     }
 
-    fetch('/data.json')
+    fetch(`${import.meta.env.BASE_URL}data.json`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to load data')
