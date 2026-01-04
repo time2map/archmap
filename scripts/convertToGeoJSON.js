@@ -58,3 +58,4 @@ fs.writeFileSync(outputPath, JSON.stringify(geoJSON, null, 2))
 console.log(`Converted ${features.length} features to GeoJSON`)
 console.log(`Output: ${outputPath}`)
 
+
