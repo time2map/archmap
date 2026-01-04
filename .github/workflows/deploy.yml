@@ -41,8 +41,12 @@ jobs:
           VITE_MAPBOX_TILESET_ID: ${{ secrets.VITE_MAPBOX_TILESET_ID }}
           VITE_MAPBOX_SOURCE_LAYER: ${{ secrets.VITE_MAPBOX_SOURCE_LAYER }}
           VITE_USE_VECTOR_TILES: ${{ secrets.VITE_USE_VECTOR_TILES }}
-          # This helps set the correct base path
-          GITHUB_REPOSITORY: ${{ github.repository }}
+      
+      - name: List dist contents
+        run: ls -la dist/ || echo "Dist folder not found"
+      
+      - name: Check built index.html
+        run: head -20 dist/index.html || echo "index.html not found"
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -62,4 +66,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
 
