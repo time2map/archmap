@@ -112,9 +112,9 @@ function belongsToSelectedFirms(item, selectedFirms) {
 function MapComponent({ data, useVectorTiles = false, selectedFirms = [] }) {
   const [selectedFeature, setSelectedFeature] = useState(null)
   const [viewState, setViewState] = useState({
-    longitude: -3.7038,
-    latitude: 40.4168,
-    zoom: 6
+    longitude: 2.1734, // Barcelona coordinates
+    latitude: 41.3851,
+    zoom: 12
   })
   const [isLocating, setIsLocating] = useState(false)
   const mapRef = useRef(null)
@@ -289,17 +289,20 @@ function MapComponent({ data, useVectorTiles = false, selectedFirms = [] }) {
               url={vectorTileUrl}
             >
               <Layer
+                key={`points-${selectedFirms.length}`}
                 id="architectural-points"
                 type="circle"
                 source-layer={MAPBOX_SOURCE_LAYER}
-                filter={selectedFirms.length > 0 ? [
-                  'any',
-                  ...selectedFirms.map(firm => [
-                    'in',
-                    firm,
-                    ['get', 'author']
-                  ])
-                ] : undefined}
+                {...(selectedFirms && selectedFirms.length > 0 ? {
+                  filter: [
+                    'any',
+                    ...selectedFirms.map(firm => [
+                      'in',
+                      firm,
+                      ['get', 'author']
+                    ])
+                  ]
+                } : {})}
                 paint={{
                   'circle-radius': {
                     'base': 1.75,
@@ -329,6 +332,38 @@ function MapComponent({ data, useVectorTiles = false, selectedFirms = [] }) {
                   'circle-opacity': 0.8
                 }}
               />
+              <Layer
+                key={`labels-${selectedFirms.length}`}
+                id="architectural-points-labels"
+                type="symbol"
+                source-layer={MAPBOX_SOURCE_LAYER}
+                {...(selectedFirms && selectedFirms.length > 0 ? {
+                  filter: [
+                    'any',
+                    ...selectedFirms.map(firm => [
+                      'in',
+                      firm,
+                      ['get', 'author']
+                    ])
+                  ]
+                } : {})}
+                layout={{
+                  'text-field': ['get', 'title'],
+                  'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+                  'text-size': 12,
+                  'text-anchor': 'bottom',
+                  'text-offset': [0, -0.5],
+                  'text-allow-overlap': false,
+                  'text-ignore-placement': false
+                }}
+                paint={{
+                  'text-color': '#2c3e50',
+                  'text-halo-color': '#ffffff',
+                  'text-halo-width': 2,
+                  'text-halo-blur': 1
+                }}
+                minzoom={14.5}
+              />
             </Source>
           </>
         ) : (
@@ -336,61 +371,90 @@ function MapComponent({ data, useVectorTiles = false, selectedFirms = [] }) {
           markers && markers.length > 0 && (
             <>
               {markers.map((item, index) => (
-                <Marker
-                  key={item.id || index}
-                  longitude={item.position[1]}
-                  latitude={item.position[0]}
-                  anchor="bottom"
-                >
-                  <div
-                    style={{
-                      cursor: 'pointer',
-                      width: viewState.zoom >= 14 ? '32px' : viewState.zoom >= 12 ? '24px' : '20px',
-                      height: viewState.zoom >= 14 ? '32px' : viewState.zoom >= 12 ? '24px' : '20px',
-                      borderRadius: '50%',
-                      backgroundColor: '#2c3e50',
-                      border: '2px solid white',
-                      boxShadow: '0 2px 4px rgba(0,0,0,0.3)',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      transition: 'width 0.2s, height 0.2s'
-                    }}
-                    onClick={() => {
-                      const coords = [item.position[1], item.position[0]]
-                      // On mobile, center map first before showing popup
-                      if (isMobile) {
-                        setViewState(prev => ({
-                          ...prev,
-                          longitude: coords[0],
-                          latitude: coords[1]
-                        }))
-                        // Small delay to allow map to center before showing popup
-                        setTimeout(() => {
+                <div key={item.id || index}>
+                  <Marker
+                    longitude={item.position[1]}
+                    latitude={item.position[0]}
+                    anchor="bottom"
+                  >
+                    <div
+                      style={{
+                        cursor: 'pointer',
+                        width: viewState.zoom >= 14 ? '32px' : viewState.zoom >= 12 ? '24px' : '20px',
+                        height: viewState.zoom >= 14 ? '32px' : viewState.zoom >= 12 ? '24px' : '20px',
+                        borderRadius: '50%',
+                        backgroundColor: '#2c3e50',
+                        border: '2px solid white',
+                        boxShadow: '0 2px 4px rgba(0,0,0,0.3)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        transition: 'width 0.2s, height 0.2s'
+                      }}
+                      onClick={() => {
+                        const coords = [item.position[1], item.position[0]]
+                        // On mobile, center map first before showing popup
+                        if (isMobile) {
+                          setViewState(prev => ({
+                            ...prev,
+                            longitude: coords[0],
+                            latitude: coords[1]
+                          }))
+                          // Small delay to allow map to center before showing popup
+                          setTimeout(() => {
+                            setSelectedFeature({
+                              properties: item,
+                              coordinates: coords
+                            })
+                          }, 300)
+                        } else {
                           setSelectedFeature({
                             properties: item,
                             coordinates: coords
                           })
-                        }, 300)
-                      } else {
-                        setSelectedFeature({
-                          properties: item,
-                          coordinates: coords
-                        })
-                      }
-                    }}
-                  >
-                    <div
-                      style={{
-                        width: viewState.zoom >= 14 ? '16px' : viewState.zoom >= 12 ? '12px' : '10px',
-                        height: viewState.zoom >= 14 ? '16px' : viewState.zoom >= 12 ? '12px' : '10px',
-                        borderRadius: '50%',
-                        backgroundColor: isTopTierFirm(item) ? '#e74c3c' : '#3498db',
-                        transition: 'width 0.2s, height 0.2s'
+                        }
                       }}
-                    />
-                  </div>
-                </Marker>
+                    >
+                      <div
+                        style={{
+                          width: viewState.zoom >= 14 ? '16px' : viewState.zoom >= 12 ? '12px' : '10px',
+                          height: viewState.zoom >= 14 ? '16px' : viewState.zoom >= 12 ? '12px' : '10px',
+                          borderRadius: '50%',
+                          backgroundColor: isTopTierFirm(item) ? '#e74c3c' : '#3498db',
+                          transition: 'width 0.2s, height 0.2s'
+                        }}
+                      />
+                    </div>
+                  </Marker>
+                  {viewState.zoom >= 14.5 && item.title && (
+                    <Marker
+                      longitude={item.position[1]}
+                      latitude={item.position[0]}
+                      anchor="bottom"
+                      offset={[0, -10]}
+                    >
+                      <div
+                        style={{
+                          backgroundColor: 'rgba(255, 255, 255, 0.95)',
+                          padding: '4px 8px',
+                          borderRadius: '4px',
+                          fontSize: '12px',
+                          fontWeight: '600',
+                          color: '#2c3e50',
+                          whiteSpace: 'nowrap',
+                          boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+                          border: '1px solid rgba(0,0,0,0.1)',
+                          pointerEvents: 'none',
+                          maxWidth: '200px',
+                          overflow: 'hidden',
+                          textOverflow: 'ellipsis'
+                        }}
+                      >
+                        {item.title}
+                      </div>
+                    </Marker>
+                  )}
+                </div>
               ))}
             </>
           )
