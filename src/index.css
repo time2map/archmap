@@ -1,19 +1,45 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #root {
+    width: 100%;
+    height: 100vh;
+  }
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@layer components {
+  /* Custom styles for Mapbox Popup */
+  .popup-container .mapboxgl-popup-content {
+    @apply bg-white rounded-lg shadow-xl border border-gray-200 p-4;
+    font-family: inherit;
+  }
 
-#root {
-  width: 100%;
-  height: 100vh;
+  .popup-container .mapboxgl-popup-tip {
+    @apply border-t-gray-200;
+  }
+
+  .popup-container .mapboxgl-popup-close-button {
+    @apply text-gray-400 hover:text-gray-600 text-xl font-light;
+    @apply w-6 h-6 flex items-center justify-center;
+    @apply transition-colors duration-150;
+    right: 8px;
+    top: 8px;
+  }
 }
 

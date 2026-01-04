@@ -153,30 +153,12 @@ function MapComponent({ data, useVectorTiles = false }) {
     : null
 
   return (
-    <div style={{ flex: 1, position: 'relative' }}>
+    <div className="flex-1 relative">
       {/* Geolocation Button */}
       <button
         onClick={handleGeolocate}
         disabled={isLocating}
-        style={{
-          position: 'absolute',
-          bottom: '50px',
-          right: '10px',
-          zIndex: 1000,
-          backgroundColor: '#fff',
-          border: '2px solid rgba(0,0,0,0.2)',
-          borderRadius: '4px',
-          padding: '10px',
-          cursor: 'pointer',
-          boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          width: '44px',
-          height: '44px',
-          opacity: isLocating ? 0.6 : 1,
-          transition: 'opacity 0.2s'
-        }}
+        className="absolute bottom-12 right-3 z-[1000] bg-white border-2 border-gray-200 rounded-lg p-2.5 cursor-pointer shadow-lg hover:shadow-xl hover:bg-gray-50 active:bg-gray-100 disabled:opacity-60 disabled:cursor-not-allowed transition-all duration-200 flex items-center justify-center w-11 h-11"
         title="Find my location"
       >
         <svg
@@ -185,7 +167,7 @@ function MapComponent({ data, useVectorTiles = false }) {
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          style={{ display: 'block' }}
+          className="block"
         >
           <circle cx="12" cy="12" r="3" fill="#333" />
           <circle cx="12" cy="12" r="8" stroke="#333" strokeWidth="1.5" fill="none" />
@@ -312,77 +294,68 @@ function MapComponent({ data, useVectorTiles = false }) {
             onClose={() => setSelectedFeature(null)}
             closeButton={true}
             closeOnClick={false}
+            className="popup-container"
           >
-            <div style={{ 
-              minWidth: isMobile ? 'calc(100vw - 60px)' : '200px', 
-              maxWidth: isMobile ? 'calc(100vw - 60px)' : '300px' 
-            }}>
+            <div className={`${isMobile ? 'min-w-[calc(100vw-60px)] max-w-[calc(100vw-60px)]' : 'min-w-[200px] max-w-[320px]'}`}>
               {getImageUrl(selectedFeature.properties) && (
                 <img
                   src={getImageUrl(selectedFeature.properties)}
                   alt={selectedFeature.properties.title || 'Architecture photo'}
-                  style={{
-                    width: '100%',
-                    height: 'auto',
-                    marginBottom: '0.75rem',
-                    borderRadius: '4px',
-                    display: 'block'
-                  }}
+                  className="w-full h-auto mb-3 rounded-lg block shadow-md"
                   onError={(e) => {
                     e.target.style.display = 'none'
                   }}
                 />
               )}
-              <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1rem', lineHeight: '1.3' }}>
+              <h3 className="m-0 mb-2 text-base font-semibold leading-tight text-gray-900">
                 {selectedFeature.properties.title}
               </h3>
-              {selectedFeature.properties.author && selectedFeature.properties.author.length > 0 && (
-                <p style={{ margin: '0.25rem 0', fontSize: '0.85rem' }}>
-                  <strong>Author:</strong> {Array.isArray(selectedFeature.properties.author) 
-                    ? selectedFeature.properties.author.join(', ')
-                    : selectedFeature.properties.author}
-                </p>
-              )}
-              {selectedFeature.properties.city && selectedFeature.properties.city.length > 0 && (
-                <p style={{ margin: '0.25rem 0', fontSize: '0.85rem' }}>
-                  <strong>City:</strong> {Array.isArray(selectedFeature.properties.city)
-                    ? selectedFeature.properties.city.join(', ')
-                    : selectedFeature.properties.city}
-                </p>
-              )}
-              {selectedFeature.properties.country && selectedFeature.properties.country.length > 0 && (
-                <p style={{ margin: '0.25rem 0', fontSize: '0.85rem' }}>
-                  <strong>Country:</strong> {Array.isArray(selectedFeature.properties.country)
-                    ? selectedFeature.properties.country.join(', ')
-                    : selectedFeature.properties.country}
-                </p>
-              )}
-              {selectedFeature.properties.date && (
-                <p style={{ margin: '0.25rem 0', fontSize: '0.85rem' }}>
-                  <strong>Date:</strong> {selectedFeature.properties.date}
-                </p>
-              )}
+              <div className="space-y-1.5 text-sm text-gray-700">
+                {selectedFeature.properties.author && selectedFeature.properties.author.length > 0 && (
+                  <p className="m-0">
+                    <span className="font-semibold text-gray-900">Author:</span>{' '}
+                    {Array.isArray(selectedFeature.properties.author) 
+                      ? selectedFeature.properties.author.join(', ')
+                      : selectedFeature.properties.author}
+                  </p>
+                )}
+                {selectedFeature.properties.city && selectedFeature.properties.city.length > 0 && (
+                  <p className="m-0">
+                    <span className="font-semibold text-gray-900">City:</span>{' '}
+                    {Array.isArray(selectedFeature.properties.city)
+                      ? selectedFeature.properties.city.join(', ')
+                      : selectedFeature.properties.city}
+                  </p>
+                )}
+                {selectedFeature.properties.country && selectedFeature.properties.country.length > 0 && (
+                  <p className="m-0">
+                    <span className="font-semibold text-gray-900">Country:</span>{' '}
+                    {Array.isArray(selectedFeature.properties.country)
+                      ? selectedFeature.properties.country.join(', ')
+                      : selectedFeature.properties.country}
+                  </p>
+                )}
+                {selectedFeature.properties.date && (
+                  <p className="m-0">
+                    <span className="font-semibold text-gray-900">Date:</span>{' '}
+                    {selectedFeature.properties.date}
+                  </p>
+                )}
+              </div>
               {getArticleUrl(selectedFeature.properties) && (
-                <p style={{ margin: '0.75rem 0 0 0', fontSize: '0.85rem' }}>
+                <div className="mt-3 pt-3 border-t border-gray-200">
                   <a
                     href={getArticleUrl(selectedFeature.properties)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{
-                      color: '#3498db',
-                      textDecoration: 'none',
-                      fontWeight: '500'
-                    }}
-                    onMouseEnter={(e) => {
-                      e.target.style.textDecoration = 'underline'
-                    }}
-                    onMouseLeave={(e) => {
-                      e.target.style.textDecoration = 'none'
-                    }}
+                    className="text-blue-600 hover:text-blue-700 no-underline font-medium text-sm transition-colors duration-150 inline-flex items-center gap-1"
                   >
-                    View original article →
+                    View original article
+                    <svg className="w-4 h-4 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
                   </a>
-                </p>
+                </div>
               )}
             </div>
           </Popup>

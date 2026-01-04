@@ -1,38 +1,25 @@
 .app {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+  @apply w-full h-screen flex flex-col;
 }
 
 .header {
-  background: #2c3e50;
-  color: white;
-  padding: 1rem 2rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
+  @apply bg-slate-700 text-white py-4 px-8 shadow-md z-[1000];
 }
 
 .header h1 {
-  font-size: 1.5rem;
-  margin-bottom: 0.25rem;
+  @apply text-2xl mb-1;
 }
 
 .subtitle {
-  font-size: 0.9rem;
-  opacity: 0.9;
+  @apply text-sm opacity-90;
 }
 
 .loading,
 .error {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  font-size: 1.2rem;
+  @apply flex items-center justify-center h-screen text-xl;
 }
 
 .error {
-  color: #e74c3c;
+  @apply text-red-600;
 }
 
