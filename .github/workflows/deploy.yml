@@ -42,11 +42,23 @@ jobs:
           VITE_MAPBOX_SOURCE_LAYER: ${{ secrets.VITE_MAPBOX_SOURCE_LAYER }}
           VITE_USE_VECTOR_TILES: ${{ secrets.VITE_USE_VECTOR_TILES }}
       
-      - name: List dist contents
-        run: ls -la dist/ || echo "Dist folder not found"
-      
-      - name: Check built index.html
-        run: head -20 dist/index.html || echo "index.html not found"
+      - name: Verify build output
+        run: |
+          echo "Checking dist folder..."
+          ls -la dist/ || (echo "ERROR: dist folder not found!" && exit 1)
+          echo ""
+          echo "Checking index.html..."
+          if [ -f dist/index.html ]; then
+            echo "index.html exists"
+            echo "First 30 lines of index.html:"
+            head -30 dist/index.html
+          else
+            echo "ERROR: index.html not found in dist!"
+            exit 1
+          fi
+          echo ""
+          echo "Checking for JS bundles..."
+          ls -la dist/assets/ || echo "No assets folder found"
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
