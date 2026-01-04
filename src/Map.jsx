@@ -485,8 +485,13 @@ function MapComponent({ data, useVectorTiles = false, selectedFirms = [] }) {
                 {selectedFeature.properties.title}
               </h3>
               {normalizeAuthor(selectedFeature.properties.author) && (
-                <p className="m-0 mb-3 text-sm text-gray-700">
+                <p className="m-0 mb-2 text-sm text-gray-700">
                   {normalizeAuthor(selectedFeature.properties.author)}
+                </p>
+              )}
+              {selectedFeature.properties.date && (
+                <p className="m-0 mb-3 text-sm text-gray-600">
+                  {selectedFeature.properties.date}
                 </p>
               )}
               <div className="mt-3 pt-3 border-t border-gray-200 space-y-2">
