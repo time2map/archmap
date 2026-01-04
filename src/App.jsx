@@ -52,14 +52,6 @@ function App() {
 
   return (
     <div className="app">
-      <header className="header">
-        <h1>ArchMap</h1>
-        <p className="subtitle">
-          {USE_VECTOR_TILES 
-            ? 'Architectural locations' 
-            : `${data.length} architectural locations`}
-        </p>
-      </header>
       <Map data={data} useVectorTiles={USE_VECTOR_TILES} />
     </div>
   )

@@ -2,6 +2,9 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import Map, { Source, Layer, Popup, Marker } from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 
+// Detect mobile device
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) || window.innerWidth < 768
+
 // Helper function to construct image URL
 function getImageUrl(properties) {
   if (!properties?.id || !properties?.img || !properties?.hash) {
@@ -33,6 +36,7 @@ function MapComponent({ data, useVectorTiles = false }) {
     latitude: 40.4168,
     zoom: 6
   })
+  const [isLocating, setIsLocating] = useState(false)
   const mapRef = useRef(null)
 
   // Fallback: Parse coordinates for non-vector tile mode
@@ -81,6 +85,31 @@ function MapComponent({ data, useVectorTiles = false }) {
     }
   }, [markers.length, useVectorTiles])
 
+  // Handle geolocation
+  const handleGeolocate = useCallback(() => {
+    if (!navigator.geolocation) {
+      alert('Geolocation is not supported by your browser')
+      return
+    }
+
+    setIsLocating(true)
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        setViewState({
+          longitude: position.coords.longitude,
+          latitude: position.coords.latitude,
+          zoom: 14
+        })
+        setIsLocating(false)
+      },
+      (error) => {
+        console.error('Error getting location:', error)
+        alert('Unable to get your location. Please check your browser permissions.')
+        setIsLocating(false)
+      }
+    )
+  }, [])
+
   // Handle click on vector tile features
   const handleMapClick = useCallback((event) => {
     if (!useVectorTiles || !mapRef.current) return
@@ -91,10 +120,28 @@ function MapComponent({ data, useVectorTiles = false }) {
 
     if (features && features.length > 0) {
       const feature = features[0]
-      setSelectedFeature({
-        properties: feature.properties,
-        coordinates: feature.geometry.coordinates
-      })
+      const coords = feature.geometry.coordinates
+      
+      // On mobile, center map first before showing popup
+      if (isMobile) {
+        setViewState(prev => ({
+          ...prev,
+          longitude: coords[0],
+          latitude: coords[1]
+        }))
+        // Small delay to allow map to center before showing popup
+        setTimeout(() => {
+          setSelectedFeature({
+            properties: feature.properties,
+            coordinates: coords
+          })
+        }, 300)
+      } else {
+        setSelectedFeature({
+          properties: feature.properties,
+          coordinates: coords
+        })
+      }
     } else {
       setSelectedFeature(null)
     }
@@ -107,6 +154,47 @@ function MapComponent({ data, useVectorTiles = false }) {
 
   return (
     <div style={{ flex: 1, position: 'relative' }}>
+      {/* Geolocation Button */}
+      <button
+        onClick={handleGeolocate}
+        disabled={isLocating}
+        style={{
+          position: 'absolute',
+          bottom: '50px',
+          right: '10px',
+          zIndex: 1000,
+          backgroundColor: '#fff',
+          border: '2px solid rgba(0,0,0,0.2)',
+          borderRadius: '4px',
+          padding: '10px',
+          cursor: 'pointer',
+          boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          width: '44px',
+          height: '44px',
+          opacity: isLocating ? 0.6 : 1,
+          transition: 'opacity 0.2s'
+        }}
+        title="Find my location"
+      >
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          style={{ display: 'block' }}
+        >
+          <circle cx="12" cy="12" r="3" fill="#333" />
+          <circle cx="12" cy="12" r="8" stroke="#333" strokeWidth="1.5" fill="none" />
+          <line x1="12" y1="4" x2="12" y2="2" stroke="#333" strokeWidth="1.5" strokeLinecap="round" />
+          <line x1="12" y1="22" x2="12" y2="20" stroke="#333" strokeWidth="1.5" strokeLinecap="round" />
+          <line x1="4" y1="12" x2="2" y2="12" stroke="#333" strokeWidth="1.5" strokeLinecap="round" />
+          <line x1="22" y1="12" x2="20" y2="12" stroke="#333" strokeWidth="1.5" strokeLinecap="round" />
+        </svg>
+      </button>
       <Map
         ref={mapRef}
         {...viewState}
@@ -138,7 +226,9 @@ function MapComponent({ data, useVectorTiles = false }) {
                     'stops': [
                       [0, 2],
                       [10, 5],
-                      [14, 10]
+                      [14, 15],
+                      [16, 25],
+                      [18, 35]
                     ]
                   },
                   'circle-color': '#3498db',
@@ -163,27 +253,48 @@ function MapComponent({ data, useVectorTiles = false }) {
                   <div
                     style={{
                       cursor: 'pointer',
-                      width: '20px',
-                      height: '20px',
+                      width: viewState.zoom >= 14 ? '32px' : viewState.zoom >= 12 ? '24px' : '20px',
+                      height: viewState.zoom >= 14 ? '32px' : viewState.zoom >= 12 ? '24px' : '20px',
                       borderRadius: '50%',
                       backgroundColor: '#2c3e50',
                       border: '2px solid white',
                       boxShadow: '0 2px 4px rgba(0,0,0,0.3)',
                       display: 'flex',
                       alignItems: 'center',
-                      justifyContent: 'center'
+                      justifyContent: 'center',
+                      transition: 'width 0.2s, height 0.2s'
                     }}
-                    onClick={() => setSelectedFeature({
-                      properties: item,
-                      coordinates: [item.position[1], item.position[0]]
-                    })}
+                    onClick={() => {
+                      const coords = [item.position[1], item.position[0]]
+                      // On mobile, center map first before showing popup
+                      if (isMobile) {
+                        setViewState(prev => ({
+                          ...prev,
+                          longitude: coords[0],
+                          latitude: coords[1]
+                        }))
+                        // Small delay to allow map to center before showing popup
+                        setTimeout(() => {
+                          setSelectedFeature({
+                            properties: item,
+                            coordinates: coords
+                          })
+                        }, 300)
+                      } else {
+                        setSelectedFeature({
+                          properties: item,
+                          coordinates: coords
+                        })
+                      }
+                    }}
                   >
                     <div
                       style={{
-                        width: '10px',
-                        height: '10px',
+                        width: viewState.zoom >= 14 ? '16px' : viewState.zoom >= 12 ? '12px' : '10px',
+                        height: viewState.zoom >= 14 ? '16px' : viewState.zoom >= 12 ? '12px' : '10px',
                         borderRadius: '50%',
-                        backgroundColor: '#3498db'
+                        backgroundColor: '#3498db',
+                        transition: 'width 0.2s, height 0.2s'
                       }}
                     />
                   </div>
@@ -202,7 +313,10 @@ function MapComponent({ data, useVectorTiles = false }) {
             closeButton={true}
             closeOnClick={false}
           >
-            <div style={{ minWidth: '200px', maxWidth: '300px' }}>
+            <div style={{ 
+              minWidth: isMobile ? 'calc(100vw - 60px)' : '200px', 
+              maxWidth: isMobile ? 'calc(100vw - 60px)' : '300px' 
+            }}>
               {getImageUrl(selectedFeature.properties) && (
                 <img
                   src={getImageUrl(selectedFeature.properties)}
