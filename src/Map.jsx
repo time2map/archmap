@@ -117,6 +117,8 @@ function MapComponent({ data, useVectorTiles = false, selectedFirms = [] }) {
     zoom: 12
   })
   const [isLocating, setIsLocating] = useState(false)
+  const [userLocation, setUserLocation] = useState(null)
+  const watchIdRef = useRef(null)
   const mapRef = useRef(null)
 
   // Fallback: Parse coordinates for non-vector tile mode
@@ -173,30 +175,92 @@ function MapComponent({ data, useVectorTiles = false, selectedFirms = [] }) {
     }
   }, [markers.length, useVectorTiles, selectedFirms])
 
-  // Handle geolocation
+  // Stop geolocation tracking
+  const stopGeolocation = useCallback(() => {
+    if (watchIdRef.current !== null) {
+      navigator.geolocation.clearWatch(watchIdRef.current)
+      watchIdRef.current = null
+    }
+    setIsLocating(false)
+    setUserLocation(null)
+  }, [])
+
+  // Handle geolocation toggle
   const handleGeolocate = useCallback(() => {
     if (!navigator.geolocation) {
       alert('Geolocation is not supported by your browser')
       return
     }
 
-    setIsLocating(true)
-    navigator.geolocation.getCurrentPosition(
-      (position) => {
-        setViewState({
-          longitude: position.coords.longitude,
-          latitude: position.coords.latitude,
-          zoom: 14
-        })
-        setIsLocating(false)
-      },
-      (error) => {
-        console.error('Error getting location:', error)
-        alert('Unable to get your location. Please check your browser permissions.')
-        setIsLocating(false)
-      }
-    )
-  }, [])
+    if (isLocating) {
+      // Stop tracking
+      stopGeolocation()
+    } else {
+      // Start tracking
+      setIsLocating(true)
+      
+      // Get initial position
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          const coords = {
+            longitude: position.coords.longitude,
+            latitude: position.coords.latitude,
+            accuracy: position.coords.accuracy
+          }
+          setUserLocation(coords)
+          setViewState(prev => ({
+            ...prev,
+            longitude: coords.longitude,
+            latitude: coords.latitude,
+            zoom: Math.max(prev.zoom, 14)
+          }))
+        },
+        (error) => {
+          console.error('Error getting location:', error)
+          stopGeolocation()
+          // Only show alert for permission errors
+          if (error.code === error.PERMISSION_DENIED) {
+            alert('Location access denied. Please enable location permissions in your browser settings.')
+          }
+          // For POSITION_UNAVAILABLE and TIMEOUT, don't show alert - these can be temporary issues
+        }
+      )
+
+      // Watch position for real-time updates
+      watchIdRef.current = navigator.geolocation.watchPosition(
+        (position) => {
+          const coords = {
+            longitude: position.coords.longitude,
+            latitude: position.coords.latitude,
+            accuracy: position.coords.accuracy
+          }
+          setUserLocation(coords)
+        },
+        (error) => {
+          console.error('Error watching location:', error)
+          // Only stop for permission denied, keep trying for other errors
+          if (error.code === error.PERMISSION_DENIED) {
+            stopGeolocation()
+            alert('Location access denied. Please enable location permissions in your browser settings.')
+          }
+          // For POSITION_UNAVAILABLE and TIMEOUT, keep the watch active and try again
+          // Don't stop tracking - these can be temporary issues
+        },
+        {
+          enableHighAccuracy: false, // Changed to false to reduce errors
+          maximumAge: 30000, // Accept cached position up to 30 seconds old
+          timeout: 15000 // Increased timeout to 15 seconds
+        }
+      )
+    }
+  }, [isLocating, stopGeolocation])
+
+  // Cleanup watch on unmount
+  useEffect(() => {
+    return () => {
+      stopGeolocation()
+    }
+  }, [stopGeolocation])
 
   // Handle click on vector tile features
   const handleMapClick = useCallback((event) => {
@@ -247,9 +311,12 @@ function MapComponent({ data, useVectorTiles = false, selectedFirms = [] }) {
       {/* Geolocation Button */}
       <button
         onClick={handleGeolocate}
-        disabled={isLocating}
-        className="absolute bottom-12 right-3 z-[1000] bg-white border-2 border-gray-200 rounded-lg p-2.5 cursor-pointer shadow-lg hover:shadow-xl hover:bg-gray-50 active:bg-gray-100 disabled:opacity-60 disabled:cursor-not-allowed transition-all duration-200 flex items-center justify-center w-11 h-11"
-        title="Find my location"
+        className={`absolute bottom-12 right-3 z-[1000] border-2 rounded-lg p-2.5 cursor-pointer shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center w-11 h-11 ${
+          isLocating 
+            ? 'bg-blue-50 border-blue-300' 
+            : 'bg-white border-gray-200 hover:bg-gray-50 active:bg-gray-100'
+        }`}
+        title={isLocating ? "Stop tracking location" : "Find my location"}
       >
         <svg
           width="24"
@@ -458,6 +525,26 @@ function MapComponent({ data, useVectorTiles = false, selectedFirms = [] }) {
               ))}
             </>
           )
+        )}
+
+        {/* User location marker */}
+        {userLocation && (
+          <Marker
+            longitude={userLocation.longitude}
+            latitude={userLocation.latitude}
+            anchor="center"
+          >
+            <div className="relative">
+              {/* Concentric circles animation */}
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="absolute w-16 h-16 border-2 border-blue-500 rounded-full animate-ping opacity-75"></div>
+                <div className="absolute w-12 h-12 border-2 border-blue-400 rounded-full animate-ping opacity-50" style={{ animationDelay: '1s' }}></div>
+                <div className="absolute w-8 h-8 border-2 border-blue-300 rounded-full animate-ping opacity-25" style={{ animationDelay: '2s' }}></div>
+              </div>
+              {/* Blue dot */}
+              <div className="relative w-4 h-4 bg-blue-600 border-2 border-white rounded-full shadow-lg"></div>
+            </div>
+          </Marker>
         )}
         
         {selectedFeature && (
