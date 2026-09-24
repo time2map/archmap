@@ -50,3 +50,4 @@ firms.slice(0, 10).forEach((firm, index) => {
   console.log(`${index + 1}. ${firm.name}: ${firm.count} projects`)
 })
 
+
