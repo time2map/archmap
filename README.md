@@ -22,16 +22,6 @@ most guidebooks leave out. Cities so far: **Madrid** and **Barcelona**.
 - **Photos** come from Wikimedia Commons under free licences, credited with author and licence.
 - **Links** open a city directly, e.g. `archmap.time2map.com/#top/madrid`.
 
-## All projects (hidden on the site for now)
-
-A map of about 4,100 works published by Arquitectura Viva, with a filter by bureau, popups with
-a photo, authors, place, date and a link to the article, plus a "my location" button.
-
-The tab sits behind a feature flag: the site on GitHub Pages hides it, and it is always shown
-when you run the project locally. To turn it on for the site, add a repository variable
-`FEATURE_ALL_PROJECTS` = `true` (Settings → Secrets and variables → Actions → Variables),
-then re-run the deploy.
-
 ## Adding a city
 
 The TOP lists are built with the `city-top` skill for Claude Code (`.claude/skills/city-top`):
@@ -47,10 +37,3 @@ npm run dev
 
 For the Mapbox base map, put `VITE_MAPBOX_ACCESS_TOKEN` in `.env`. Without it the maps use a
 plain Carto base map.
-
-## Publishing
-
-Every push to `main` builds the site and publishes it to GitHub Pages. This needs:
-
-- Settings → Pages → Source: **GitHub Actions**
-- Settings → Secrets and variables → Actions → Secrets: `VITE_MAPBOX_ACCESS_TOKEN`
