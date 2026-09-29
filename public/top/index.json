@@ -1,5 +1,6 @@
 [
   { "id": "madrid", "name": "Madrid" },
   { "id": "barcelona", "name": "Barcelona" },
-  { "id": "bordeaux", "name": "Bordeaux" }
+  { "id": "bordeaux", "name": "Bordeaux" },
+  { "id": "valencia", "name": "Valencia" }
 ]

@@ -201,7 +201,9 @@ function PlaceCard({ place, cityName, sources, selected, onSelect, onSelectPoint
         <div className="flex items-start gap-3">
           <div className="min-w-0 flex-1">
             <h3 className="text-base font-semibold leading-snug text-gray-900">{place.title}</h3>
-            <p className="mt-0.5 text-sm text-gray-600">{place.architect} · {place.year}</p>
+            {(place.architect || place.year) && (
+              <p className="mt-0.5 text-sm text-gray-600">{[place.architect, place.year].filter(Boolean).join(' · ')}</p>
+            )}
             {place.area && <p className="mt-0.5 text-xs text-gray-500">{place.area}</p>}
           </div>
           <div className="shrink-0 text-right" title="Independent authors and outlets that recommend this place">
