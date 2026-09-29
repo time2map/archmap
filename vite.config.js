@@ -1,11 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// Base path for GitHub Pages
-// Repository name: archmap
-// URL will be: https://time2map.github.io/archmap/
+// Relative base: the same build works at https://archmap.time2map.com/ and at
+// https://time2map.github.io/archmap/ (the app routes by URL hash, not by path)
 export default defineConfig({
   plugins: [react()],
-  base: '/archmap/',
+  base: './',
 })
-

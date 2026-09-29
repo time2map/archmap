@@ -2,7 +2,7 @@
 
 Maps of architecture worth a trip, for travellers who care about beauty and good buildings.
 
-Site: https://time2map.github.io/archmap/
+Site: https://archmap.time2map.com
 
 ## TOP
 
@@ -20,7 +20,7 @@ most guidebooks leave out. Cities so far: **Madrid** and **Barcelona**.
 - **Checked locations:** a place gets a pin only when its location is confirmed. Otherwise
   the card stays in the list with a "Find in Google Maps" link.
 - **Photos** come from Wikimedia Commons under free licences, credited with author and licence.
-- **Links** open a city directly, e.g. `…/archmap/#top/madrid`.
+- **Links** open a city directly, e.g. `archmap.time2map.com/#top/madrid`.
 
 ## All projects (hidden on the site for now)
 

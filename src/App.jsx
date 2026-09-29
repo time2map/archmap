@@ -18,7 +18,7 @@ const TABS = [
   { id: 'top', label: 'TOP' }
 ].filter(tab => tab.id !== 'all' || SHOW_ALL_PROJECTS)
 
-// The active tab and city live in the URL hash so they can be bookmarked (e.g. .../archmap/#top/madrid)
+// The active tab and city live in the URL hash so they can be bookmarked (e.g. archmap.time2map.com/#top/madrid)
 function routeFromHash() {
   const hash = window.location.hash.slice(1)
   if (hash === 'top-madrid') return { tab: 'top', city: 'madrid' } // links from the first version of the tab
