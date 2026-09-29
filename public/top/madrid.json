@@ -558,8 +558,8 @@
         },
         {
           "name": "Carabanchel 20 — dosmasuno",
-          "lat": 40.366943,
-          "lng": -3.763938,
+          "lat": 40.36685,
+          "lng": -3.763706,
           "refs": {
             "av": "102-viviendas-madrid",
             "other": [
@@ -572,14 +572,14 @@
             ]
           },
           "verifiedBy": [
-            "av",
-            "commons"
+            "commons",
+            "av"
           ]
         },
         {
           "name": "Carabanchel 26 — José Cruz Ovalle",
-          "lat": 40.371003,
-          "lng": -3.762085,
+          "lat": 40.37114,
+          "lng": -3.762228,
           "refs": {
             "av": "vivienda-en-carabanchel",
             "other": [
@@ -592,8 +592,8 @@
             ]
           },
           "verifiedBy": [
-            "av",
-            "commons"
+            "commons",
+            "av"
           ]
         },
         {
@@ -618,8 +618,8 @@
         },
         {
           "name": "Carabanchel 34 — César Ruiz-Larrea",
-          "lat": 40.363737,
-          "lng": -3.751983,
+          "lat": 40.363427,
+          "lng": -3.752069,
           "refs": {
             "av": "25-viviendas-en-carabanchel-madrid",
             "other": [
@@ -632,8 +632,8 @@
             ]
           },
           "verifiedBy": [
-            "av",
-            "commons"
+            "commons",
+            "av"
           ]
         },
         {
@@ -855,8 +855,8 @@
         },
         {
           "name": "Vallecas 57 — Núñez Ribot",
-          "lat": 40.367444,
-          "lng": -3.601055,
+          "lat": 40.367593,
+          "lng": -3.601035,
           "refs": {
             "av": "viviendas-sociales-en-vallecas-2",
             "other": [
@@ -869,8 +869,8 @@
             ]
           },
           "verifiedBy": [
-            "av",
-            "commons"
+            "commons",
+            "av"
           ]
         },
         {
@@ -2390,8 +2390,8 @@
             ]
           },
           "verifiedBy": [
-            "av",
-            "esmadrid"
+            "esmadrid",
+            "av"
           ]
         }
       ],

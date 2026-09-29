@@ -12,7 +12,9 @@ user sees is in English.
 - Do NOT read the local data.json / public/data.json. For Arquitectura Viva use the live
   map dataset https://arquitecturaviva.com/assets/uploads/obras/all-en.json (and
   all-es.json — the data behind https://arquitecturaviva.com/mapa) or the work page
-  (coords are in its map link).
+  (coords are in its map link). AV is a vote and a check for a location, never the stored
+  coordinate: its map is AV's own database. Do not copy AV coordinates into the city file,
+  `other` included.
 - No quotes from people in card text. Write in your own words; the sources are linked.
 - No temporary content: exhibitions, event programmes, guided-visit schedules, opening days.
 - Never recommend tours or tour operators (bus, walking, guided).
@@ -22,7 +24,7 @@ user sees is in English.
   without it.
 - Areas and lines come only from OpenStreetMap objects. Never draw or trace geometry by hand.
 - Photos only from Wikimedia Commons under CC0 / PD / CC BY / CC BY-SA, with author,
-  license and link to the file.
+  license and link to the file, and only where freedom of panorama allows commercial use (§5).
 
 ## 1. Collect recommendations
 Search each source type in English, the local language(s) and Russian:
@@ -47,7 +49,7 @@ Arquitectura Viva counts as one vote per place (map entry, article or book — a
 vote per place). The entry must be about the place itself: an interior refurbishment inside
 a building (e.g. a flat in Torres Blancas) does not count as a vote for that building. For
 an ensemble card, one AV entry for any of its buildings is enough.
-AV is also a coordinate source (§4).
+AV also confirms locations (§4), but its coordinates are never stored.
 
 Vote rule: one vote = one independent author or outlet. The same author in several outlets
 is one vote. For every source record: publisher, author, title, url, publication date
@@ -101,7 +103,8 @@ Arc de Triomf, Tibidabo and the seafront because this check was not there.)
 For each point collect candidates: Wikidata P625; OSM (Nominatim or Overpass, ≤1 request/s,
 custom User-Agent); AV map dataset or work page; Docomomo page (its Google Maps link);
 official site.
-Accept when two independent sources agree within 150 m. A single source is allowed only
+Accept when two independent sources agree within 150 m. The stored coordinate comes from
+OSM, Wikidata or another source; AV can only confirm it. A single source is allowed only
 for a landmark whose Wikidata item has a Commons category; it is flagged `singleSource`.
 Otherwise: no point, and the card shows "No confirmed location".
 
@@ -153,13 +156,29 @@ the map pin, so make it the most recognisable one. Fewer is fine; no photo is be
 a wrong or non-free one. The script fills in author, license, the 960 px image and the
 120 px pin thumbnail, and rejects non-free licenses.
 
+### Freedom of panorama
+The photo's license covers only the photographer. The building, landscape design,
+sculpture or artwork in it has its own author. Before choosing photos, read the country's
+page on Commons: `COM:FOP <country>` (https://commons.wikimedia.org/wiki/COM:FOP_France).
+- Freedom of panorama covers commercial use (Spain, LPI art. 35.2): any photo taken from a
+  public place is fine.
+- It does not (France: non-commercial only; Italy: none): do not take a photo whose main
+  subject is a work still under copyright, that is, one of its authors is alive or died
+  less than 70 years ago (the country's term is on the same page). A protected work that is
+  only incidental in a wider view is fine (a modern kiosk on a historic square); a view
+  framed or cropped to it is not. Such a place keeps its card with photos of its parts that
+  are out of copyright, or with no photo.
+Commons tags some of these photos `{{NoFoP-<country>}}`, and the script rejects them. Most
+are not tagged, so the check is yours.
+
 ## 6. Write and verify
 1. Write public/top/<city>.json (schema below) and add the city to public/top/index.json.
 2. Run `node scripts/verifyTop.js <city>`: no errors; review every warning.
 3. Run the app, open `#top/<city>`, screenshot desktop 1440×900 and mobile 390×844,
    click one card, one marker and one shape.
 4. Report to the user: number of places, sources with dates, places without a location or
-   photo, places left out at the coverage check and why, open doubts.
+   photo, the country's freedom of panorama and the places left without photos because of
+   it, places left out at the coverage check and why, open doubts.
 
 ## Schema (public/top/<city>.json)
 ```json

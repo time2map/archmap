@@ -5,10 +5,12 @@ import { fileURLToPath } from 'url'
 
 // Verifies public/top/<city>.json for the TOP tab:
 // - cross-checks every point between Wikidata, OpenStreetMap, the Arquitectura Viva map
-//   and manually collected sources, and writes lat/lng only when two of them agree;
+//   and manually collected sources, and writes lat/lng only when two of them agree
+//   (AV only confirms: its coordinates are never stored);
 // - fetches the OSM geometry of every area and line and keeps it only when another source's
 //   point lies inside the area or near the line;
-// - fills in Commons photo metadata (author, license, thumbnails) and rejects non-free files;
+// - fills in Commons photo metadata (author, license, thumbnails) and rejects non-free files
+//   and files Commons tags as having no freedom of panorama;
 // - validates the schema and prints a report in the order the UI shows the places.
 // Usage: node scripts/verifyTop.js <city> [--offline]
 // --offline only validates the file and prints the report, without network access.
@@ -27,7 +29,10 @@ const SHAPE_KINDS = ['area', 'line']
 const MAX_CITY_CORE = 30
 const SOURCE_TYPES = ['media', 'architect', 'registry', 'award', 'tourism', 'blogger']
 // When several sources agree, the point is taken from the first one in this list
-const COORD_PRIORITY = ['osm', 'wikidata', 'av']
+const COORD_PRIORITY = ['osm', 'wikidata']
+// The AV map is Arquitectura Viva's own database: it confirms a point, but its coordinates
+// are never stored in the city file
+const CONFIRM_ONLY = ['av']
 const AV_DATASETS = ['en', 'es'].map(lang => `https://arquitecturaviva.com/assets/uploads/obras/all-${lang}.json`)
 const AV_PUBLISHER = 'Arquitectura Viva'
 const FREE_LICENSE = /^(CC0( 1\.0)?|Public domain|CC BY(-SA)? \d\.\d( [a-z]{2,})?)$/i
@@ -274,6 +279,35 @@ async function loadPhotos(files) {
   return result
 }
 
+// {{NoFoP-<country>}}: the photo shows a work under copyright in a country whose freedom of
+// panorama does not cover commercial use
+async function loadNoFop(files) {
+  const result = new Map()
+  for (const batch of chunks([...new Set(files)], 50)) {
+    let next = {}
+    while (next) {
+      const params = new URLSearchParams({
+        action: 'query',
+        titles: batch.map(file => `File:${file}`).join('|'),
+        prop: 'templates',
+        tlnamespace: '10',
+        tllimit: 'max',
+        format: 'json',
+        ...next
+      })
+      const json = await fetchJson(`https://commons.wikimedia.org/w/api.php?${params}`)
+      const requestedTitle = new Map((json.query?.normalized || []).map(n => [n.to, n.from]))
+      for (const page of Object.values(json.query?.pages || {})) {
+        const file = (requestedTitle.get(page.title) || page.title).replace(/^File:/, '')
+        const tags = (page.templates || []).map(t => t.title.replace(/^Template:/, '')).filter(t => /^NoFoP-[^/]+$/.test(t))
+        if (tags.length) result.set(file, [...new Set([...(result.get(file) || []), ...tags])])
+      }
+      next = json.continue || null
+    }
+  }
+  return result
+}
+
 async function checkImages(urls) {
   const failed = new Set()
   const queue = [...new Set(urls)]
@@ -334,7 +368,8 @@ function verifyPoint(point, lookups, issues) {
     const i = COORD_PRIORITY.indexOf(c.source)
     return i === -1 ? COORD_PRIORITY.length : i
   }
-  for (const candidate of [...candidates].sort((a, b) => rank(a) - rank(b))) {
+  const storable = candidates.filter(c => !CONFIRM_ONLY.includes(c.source))
+  for (const candidate of storable.sort((a, b) => rank(a) - rank(b))) {
     const agreeing = candidates.filter(o => o.source !== candidate.source && distanceMeters(candidate, o) <= AGREE_METERS)
     if (agreeing.length > 0) {
       point.lat = round6(candidate.lat)
@@ -549,7 +584,9 @@ async function main() {
       for (const shape of place.shapes || []) verifyShape(shape, lookups, issuesByPlace.get(place))
     }
 
-    const photoMeta = await loadPhotos(places.flatMap(p => (p.photos || []).map(photo => photo.file)).filter(Boolean))
+    const photoFiles = places.flatMap(p => (p.photos || []).map(photo => photo.file)).filter(Boolean)
+    const photoMeta = await loadPhotos(photoFiles)
+    const noFop = await loadNoFop(photoFiles)
     for (const place of places) {
       const issues = issuesByPlace.get(place)
       for (const photo of place.photos || []) {
@@ -561,6 +598,9 @@ async function main() {
         Object.assign(photo, meta)
         if (!FREE_LICENSE.test(meta.license || '')) issues.errors.push(`photo "${photo.file}": license "${meta.license}" is not free`)
         if (!meta.author) issues.errors.push(`photo "${photo.file}": no author for attribution`)
+        for (const tag of noFop.get(photo.file) || []) {
+          issues.errors.push(`photo "${photo.file}": Commons tags it {{${tag}}} — a work under copyright, no freedom of panorama for commercial use`)
+        }
       }
     }
     const failed = await checkImages(places.flatMap(p => (p.photos || []).flatMap(photo => [photo.src, photo.thumb])).filter(Boolean))
