@@ -83,3 +83,14 @@
   }
 }
 
+
+@layer utilities {
+  /* Photo galleries scroll sideways by swipe or arrows; the scrollbar only adds noise */
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}

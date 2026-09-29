@@ -1,5 +1,7 @@
 .app {
   @apply w-full h-screen flex flex-col;
+  /* Mobile browsers: 100vh includes the URL bar and would cut off the bottom of the TOP-Madrid list */
+  height: 100dvh;
 }
 
 .header {
