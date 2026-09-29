@@ -114,12 +114,15 @@ function MapComponent({ data, useVectorTiles = false, selectedFirms = [] }) {
   const [viewState, setViewState] = useState({
     longitude: 2.1734, // Barcelona coordinates
     latitude: 41.3851,
-    zoom: 12
+    zoom: 12,
+    pitch: 45
   })
   const [isLocating, setIsLocating] = useState(false)
   const [userLocation, setUserLocation] = useState(null)
   const watchIdRef = useRef(null)
   const mapRef = useRef(null)
+  // Mapbox Standard loads its imports asynchronously; adding sources before load throws "Style is not done loading"
+  const [mapLoaded, setMapLoaded] = useState(false)
 
   // Fallback: Parse coordinates for non-vector tile mode
   // Use useMemo to recalculate when data or selectedFirms change
@@ -339,15 +342,18 @@ function MapComponent({ data, useVectorTiles = false, selectedFirms = [] }) {
         {...viewState}
         onMove={evt => setViewState(evt.viewState)}
         onClick={handleMapClick}
+        onLoad={(e) => {
+          // Standard's 3D terrain hides pins behind hills when pitched; keep 3D buildings, drop terrain
+          e.target.setTerrain(null)
+          setMapLoaded(true)
+        }}
         style={{ width: '100%', height: '100%' }}
-        mapStyle={useVectorTiles 
-          ? "mapbox://styles/mapbox/streets-v12"
-          : MAPBOX_ACCESS_TOKEN 
-            ? "mapbox://styles/mapbox/streets-v12"
-            : "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"}
+        mapStyle={useVectorTiles || MAPBOX_ACCESS_TOKEN
+          ? "mapbox://styles/mapbox/standard"
+          : "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"}
         mapboxAccessToken={MAPBOX_ACCESS_TOKEN || undefined}
       >
-        {useVectorTiles && vectorTileUrl ? (
+        {useVectorTiles && vectorTileUrl ? mapLoaded && (
           // Vector tile mode: Use Mapbox tileset
           <>
             <Source
