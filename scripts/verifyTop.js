@@ -16,7 +16,7 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-const USER_AGENT = 'archmap-verify-top/1.0 (https://github.com/sasfeat/archmap)'
+const USER_AGENT = 'archmap-verify-top/1.0 (https://github.com/time2map/archmap)'
 const AGREE_METERS = 150
 const MAX_PHOTOS = 5
 const THUMB_WIDTH = 960

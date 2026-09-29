@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // Base path for GitHub Pages
 // Repository name: archmap
-// URL will be: https://sasfeat.github.io/archmap/
+// URL will be: https://time2map.github.io/archmap/
 export default defineConfig({
   plugins: [react()],
   base: '/archmap/',

@@ -41,6 +41,9 @@ jobs:
           VITE_MAPBOX_TILESET_ID: ${{ secrets.VITE_MAPBOX_TILESET_ID }}
           VITE_MAPBOX_SOURCE_LAYER: ${{ secrets.VITE_MAPBOX_SOURCE_LAYER }}
           VITE_USE_VECTOR_TILES: ${{ secrets.VITE_USE_VECTOR_TILES }}
+          # Feature flag: the All projects tab stays hidden on the site until the
+          # repository variable FEATURE_ALL_PROJECTS is set to true
+          VITE_FEATURE_ALL_PROJECTS: ${{ vars.FEATURE_ALL_PROJECTS || 'false' }}
       
       - name: Verify build output
         run: |

@@ -9,17 +9,22 @@ const USE_VECTOR_TILES = import.meta.env.VITE_USE_VECTOR_TILES === 'true'
 // Detect mobile device
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) || window.innerWidth < 768
 
+// Feature flag: the GitHub Pages build hides the All projects tab unless the repository
+// variable FEATURE_ALL_PROJECTS is true (see .github/workflows/deploy.yml). Locally it is on.
+const SHOW_ALL_PROJECTS = import.meta.env.VITE_FEATURE_ALL_PROJECTS !== 'false'
+
 const TABS = [
   { id: 'all', label: 'All projects' },
   { id: 'top', label: 'TOP' }
-]
+].filter(tab => tab.id !== 'all' || SHOW_ALL_PROJECTS)
 
 // The active tab and city live in the URL hash so they can be bookmarked (e.g. .../archmap/#top/madrid)
 function routeFromHash() {
   const hash = window.location.hash.slice(1)
   if (hash === 'top-madrid') return { tab: 'top', city: 'madrid' } // links from the first version of the tab
   const [tab, city] = hash.split('/')
-  return tab === 'top' ? { tab: 'top', city: city || null } : { tab: 'all', city: null }
+  if (tab === 'top') return { tab: 'top', city: city || null }
+  return { tab: SHOW_ALL_PROJECTS ? 'all' : 'top', city: null }
 }
 
 function writeHash(route) {
@@ -37,6 +42,9 @@ function App() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
+    // Nothing to load when the tab is hidden
+    if (!SHOW_ALL_PROJECTS) return
+
     // Load firms data
     fetch(`${import.meta.env.BASE_URL}firms.json`)
       .then(response => {
@@ -208,7 +216,8 @@ function App() {
 
   return (
     <div className="app">
-      <nav className="flex items-center gap-1 px-2 py-1.5 bg-white border-b border-gray-200 shadow-sm z-[1100]">
+      {/* With a single tab the bar has nothing to switch; the TOP panel has its own heading */}
+      {TABS.length > 1 && <nav className="flex items-center gap-1 px-2 py-1.5 bg-white border-b border-gray-200 shadow-sm z-[1100]">
         {TABS.map(tab => (
           <button
             key={tab.id}
@@ -221,7 +230,7 @@ function App() {
             {tab.label}
           </button>
         ))}
-      </nav>
+      </nav>}
       <main className="flex-1 min-h-0 relative flex flex-col">
         {route.tab === 'top'
           ? <TopCity cityId={route.city} onCityChange={(city) => navigate({ tab: 'top', city })} />
