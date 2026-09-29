@@ -1,4 +1,5 @@
 [
   { "id": "madrid", "name": "Madrid" },
-  { "id": "barcelona", "name": "Barcelona" }
+  { "id": "barcelona", "name": "Barcelona" },
+  { "id": "bordeaux", "name": "Bordeaux" }
 ]
