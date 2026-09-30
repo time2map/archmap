@@ -33,6 +33,9 @@ The TOP lists are built with the `city-top` skill for Claude Code (`.claude/skil
 ask it to build the TOP list for a city. Each city is a file in `public/top/` and is listed in
 `public/top/index.json`. Its `cover` photo is the picture in link previews.
 
+The home page's picture in link previews is a collage of the city covers, `public/og-image.jpg`.
+It is not rebuilt with the site: run `npm run og-image` when you want new cities in it, and commit the image.
+
 `npm run build` also runs `scripts/buildPages.js`, which writes a page for every city
 (`dist/<city>/index.html`) and `sitemap.xml`. The title and description templates are in
 `src/meta.js`.

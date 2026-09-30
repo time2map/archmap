@@ -722,7 +722,7 @@ function TopCity({ cityId, onCityChange }) {
           </header>
 
           {city && <p className="text-sm leading-relaxed text-gray-600">{cityDescription(city)}</p>}
-          {!cityId && cities.length > 0 && <p className="text-sm leading-relaxed text-gray-600">{siteDescription(cities)}</p>}
+          {!cityId && <p className="text-sm leading-relaxed text-gray-600">{siteDescription()}</p>}
           {error && <p className="text-sm text-red-600">{error}</p>}
           {(cityId ? !city : overview.length === 0) && !error && <p className="text-sm text-gray-500">Loading…</p>}
 

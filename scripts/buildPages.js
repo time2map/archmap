@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { SITE_URL, SITE_NAME, siteTitle, siteDescription, cityTitle, cityDescription, cityPath } from '../src/meta.js'
+import { SITE_URL, SITE_NAME, SITE_IMAGE, siteTitle, siteDescription, cityTitle, cityDescription, cityPath } from '../src/meta.js'
 
 // Runs after `vite build` (npm run build). The app is a single page, but search engines and link
 // previews need a URL of its own for every city, with its own title, description and Open Graph tags:
@@ -40,6 +40,7 @@ function metaBlock({ title, description, url, image }) {
     `<meta property="og:description" content="${escape(description)}" />`,
     `<meta property="og:url" content="${url}" />`,
     `<meta property="og:image" content="${escape(image.src)}" />`,
+    ...(image.width ? [`<meta property="og:image:width" content="${image.width}" />`, `<meta property="og:image:height" content="${image.height}" />`] : []),
     `<meta property="og:image:alt" content="${escape(image.alt)}" />`,
     '<meta name="twitter:card" content="summary_large_image" />'
   ]
@@ -59,7 +60,14 @@ function writePage(file, meta) {
 
 const cities = readJson(path.join(topDir, 'index.json')).map(({ id }) => readJson(path.join(topDir, `${id}.json`)))
 
-writePage('index.html', { title: siteTitle(), description: siteDescription(cities), url: `${SITE_URL}/`, image: coverOf(cities[0]) })
+// The home page's collage is built on request (npm run og-image) and copied from public/ by vite build
+if (!fs.existsSync(path.join(dist, SITE_IMAGE.path))) throw new Error(`dist${SITE_IMAGE.path} is missing: run npm run og-image`)
+writePage('index.html', {
+  title: siteTitle(),
+  description: siteDescription(),
+  url: `${SITE_URL}/`,
+  image: { ...SITE_IMAGE, src: SITE_URL + SITE_IMAGE.path }
+})
 for (const city of cities) {
   writePage(path.join(city.id, 'index.html'), {
     title: cityTitle(city),

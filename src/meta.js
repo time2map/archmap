@@ -4,17 +4,22 @@
 export const SITE_URL = 'https://archmap.time2map.com'
 export const SITE_NAME = 'ArchMap'
 
-// "Madrid, Barcelona and Paris"
-function listNames(names) {
-  return names.length > 1 ? `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}` : names.join('')
+// The home page's picture in link previews: a collage of the city covers, rebuilt only on request
+// with `npm run og-image` (scripts/buildOgImage.js), so its alt names no cities
+export const SITE_IMAGE = {
+  path: '/og-image.jpg',
+  width: 1200,
+  height: 630,
+  alt: 'Landmarks of the cities on ArchMap'
 }
 
 export function siteTitle() {
   return `${SITE_NAME} – TOP places to visit for architects and designers`
 }
 
-export function siteDescription(cities) {
-  return `The best architecture, city cores, and areas and streets to walk in ${listNames(cities.map(c => c.name))}, on one map.`
+// No list of cities: there will be too many of them
+export function siteDescription() {
+  return 'City by city, the best architecture on one map: city cores, notable buildings, contemporary housing, parks, and areas and streets to walk.'
 }
 
 export function cityTitle(city) {
