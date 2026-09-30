@@ -10,7 +10,7 @@ function listNames(names) {
 }
 
 export function siteTitle() {
-  return `${SITE_NAME} – top places to visit for architects and designers`
+  return `${SITE_NAME} – TOP places to visit for architects and designers`
 }
 
 export function siteDescription(cities) {
@@ -18,7 +18,7 @@ export function siteDescription(cities) {
 }
 
 export function cityTitle(city) {
-  return `${city.name} – top ${city.places.length} places to visit for architects and designers`
+  return `${city.name} – TOP ${city.places.length} places to visit for architects and designers`
 }
 
 export function cityDescription(city) {
