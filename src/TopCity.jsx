@@ -587,13 +587,14 @@ function TopCity({ cityId, onCityChange }) {
       {/* List: bottom on mobile, left sidebar on desktop */}
       <aside className="order-2 md:order-1 flex-1 min-h-0 md:flex-none md:w-[420px] overflow-y-auto bg-gray-50 border-t md:border-t-0 md:border-r border-gray-200">
         <div className="p-3 sm:p-4 space-y-3">
-          <header className="flex items-center justify-between gap-3">
-            <h2 className="text-lg font-bold text-gray-900">TOP</h2>
+          {/* The heading repeats the page title (src/meta.js) */}
+          <header className="flex items-start justify-between gap-3">
+            <h1 className="text-lg font-bold leading-snug text-gray-900">{city ? cityTitle(city) : 'TOP'}</h1>
             {cities.length > 0 && (
               <select
                 value={activeCityId || ''}
                 onChange={(e) => onCityChange(e.target.value)}
-                className="rounded-md border border-gray-300 bg-white px-2 py-1 text-sm font-medium text-gray-900"
+                className="shrink-0 rounded-md border border-gray-300 bg-white px-2 py-1 text-sm font-medium text-gray-900"
                 aria-label="City"
               >
                 {cities.map(c => <option key={c.id} value={c.id}>{c.name}</option>)}
