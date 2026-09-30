@@ -55,6 +55,8 @@ function normalizeAuthor(author) {
 // Replace with your Mapbox tileset ID after uploading to Mapbox Studio
 const MAPBOX_TILESET_ID = import.meta.env.VITE_MAPBOX_TILESET_ID || 'your-username.your-tileset-id'
 const MAPBOX_ACCESS_TOKEN = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN || ''
+// The RTL text plugin for mapbox-gl v3, not react-map-gl 7's default made for v1–v2 (see TopCity.jsx)
+const RTL_TEXT_PLUGIN = 'https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.3.0/mapbox-gl-rtl-text.js'
 // Source layer name - typically matches your GeoJSON filename (without .geojson)
 // Common names: "data", "points", or the filename you uploaded
 const MAPBOX_SOURCE_LAYER = import.meta.env.VITE_MAPBOX_SOURCE_LAYER || 'data'
@@ -352,6 +354,7 @@ function MapComponent({ data, useVectorTiles = false, selectedFirms = [] }) {
           ? "mapbox://styles/mapbox/standard"
           : "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"}
         mapboxAccessToken={MAPBOX_ACCESS_TOKEN || undefined}
+        RTLTextPlugin={RTL_TEXT_PLUGIN}
       >
         {useVectorTiles && vectorTileUrl ? mapLoaded && (
           // Vector tile mode: Use Mapbox tileset

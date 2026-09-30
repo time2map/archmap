@@ -10,6 +10,9 @@ const MAP_STYLE = MAPBOX_ACCESS_TOKEN
   : 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json'
 // Standard places custom layers into slots: areas under roads, lines above them
 const slot = (name) => (MAPBOX_ACCESS_TOKEN ? { slot: name } : {})
+// Arabic and Hebrew labels (North Africa on the overview of all cities) need the RTL text plugin. react-map-gl 7
+// loads v0.2.3, made for mapbox-gl v1–v2; v3 takes v0.3.0. Only the first map to load sets it, so Map.jsx passes the same.
+const RTL_TEXT_PLUGIN = 'https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.3.0/mapbox-gl-rtl-text.js'
 
 const GROUPS = [
   { id: 'city-core', label: 'City core', color: '#c0392b' },
@@ -571,6 +574,10 @@ function TopCity({ cityId, onCityChange }) {
           style={{ width: '100%', height: '100%' }}
           mapStyle={MAP_STYLE}
           mapboxAccessToken={MAPBOX_ACCESS_TOKEN || undefined}
+          RTLTextPlugin={RTL_TEXT_PLUGIN}
+          // A flat map at every zoom: Standard turns into a globe below zoom 6, and on the globe Chrome drew
+          // no labels on the base map of the overview, nor in a city after flying into it
+          projection="mercator"
         >
           {mapLoaded && (
             <Source id="top-shapes" type="geojson" data={shapeData}>
