@@ -171,10 +171,16 @@ page on Commons: `COM:FOP <country>` (https://commons.wikimedia.org/wiki/COM:FOP
 Commons tags some of these photos `{{NoFoP-<country>}}`, and the script rejects them. Most
 are not tagged, so the check is yours.
 
+### Cover
+`cover` is the city's picture in link previews and search results (og:image of `/<city>/`).
+Pick it from the photos already in the file: a landscape exterior view of a city-core place
+that anyone would recognise as the city (Paris: the Eiffel Tower; Barcelona: the Sagrada
+Família). Check on Commons that the file is wider than it is tall.
+
 ## 6. Write and verify
 1. Write public/top/<city>.json (schema below) and add the city to public/top/index.json.
 2. Run `node scripts/verifyTop.js <city>`: no errors; review every warning.
-3. Run the app, open `#top/<city>`, screenshot desktop 1440×900 and mobile 390×844,
+3. Run the app, open `/<city>/`, screenshot desktop 1440×900 and mobile 390×844,
    click one card, one marker and one shape.
 4. Report to the user: number of places, sources with dates, places without a location or
    photo, the country's freedom of panorama and the places left without photos because of
@@ -184,6 +190,7 @@ are not tagged, so the check is yours.
 ```json
 {
   "id": "barcelona", "name": "Barcelona", "updated": "YYYY-MM-DD",
+  "cover": "Commons file name of one of the photos below",
   "sources": {
     "<source-id>": { "publisher": "ArchDaily", "author": "Miguel Picado",
       "title": "…", "url": "…", "date": "2017-09-20",

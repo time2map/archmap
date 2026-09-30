@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Map from './Map'
 import TopCity from './TopCity'
+import { cityPath } from './meta'
 import './App.css'
 
 // Set to true to use Mapbox vector tiles, false to use local GeoJSON
@@ -18,22 +19,29 @@ const TABS = [
   { id: 'top', label: 'TOP' }
 ].filter(tab => tab.id !== 'all' || SHOW_ALL_PROJECTS)
 
-// The active tab and city live in the URL hash so they can be bookmarked (e.g. archmap.time2map.com/#top/madrid)
-function routeFromHash() {
+// Each city has its own URL, archmap.time2map.com/madrid/, with a static page of its own for search
+// engines and link previews (see scripts/buildPages.js). Older links kept the city in the hash (#top/madrid).
+function routeFromLocation() {
+  const city = window.location.pathname.split('/').filter(Boolean)[0]
+  if (city && !city.includes('.')) return { tab: 'top', city } // not /index.html
   const hash = window.location.hash.slice(1)
   if (hash === 'top-madrid') return { tab: 'top', city: 'madrid' } // links from the first version of the tab
-  const [tab, city] = hash.split('/')
-  if (tab === 'top') return { tab: 'top', city: city || null }
+  const [tab, hashCity] = hash.split('/')
+  if (tab === 'top') return { tab: 'top', city: hashCity || null }
   return { tab: SHOW_ALL_PROJECTS ? 'all' : 'top', city: null }
 }
 
-function writeHash(route) {
-  const hash = route.tab === 'top' ? `#top${route.city ? `/${route.city}` : ''}` : ''
-  window.history.replaceState(null, '', window.location.pathname + window.location.search + hash)
+// The TOP tab without a city needs an address of its own only while the All projects tab is shown
+function urlOf(route) {
+  const path = route.tab === 'top' && route.city ? cityPath(route.city) : '/'
+  const hash = route.tab === 'top' && !route.city && SHOW_ALL_PROJECTS ? '#top' : ''
+  return path + window.location.search + hash
 }
 
+const currentUrl = () => window.location.pathname + window.location.search + window.location.hash
+
 function App() {
-  const [route, setRoute] = useState(routeFromHash)
+  const [route, setRoute] = useState(routeFromLocation)
   const [data, setData] = useState([])
   const [firms, setFirms] = useState([])
   const [selectedFirms, setSelectedFirms] = useState([])
@@ -97,9 +105,19 @@ function App() {
     setSelectedFirms([])
   }
 
+  // An old hash link moves to the city's own URL; Back and Forward switch between cities
+  useEffect(() => {
+    const url = urlOf(route)
+    if (url !== currentUrl()) window.history.replaceState(null, '', url)
+    const onPopState = () => setRoute(routeFromLocation())
+    window.addEventListener('popstate', onPopState)
+    return () => window.removeEventListener('popstate', onPopState)
+  }, [])
+
   const navigate = (next) => {
     setRoute(next)
-    writeHash(next)
+    const url = urlOf(next)
+    if (url !== currentUrl()) window.history.pushState(null, '', url)
   }
 
   const renderAllProjects = () => {

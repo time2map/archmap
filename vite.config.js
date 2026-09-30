@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// Relative base: the same build works at https://archmap.time2map.com/ and at
-// https://time2map.github.io/archmap/ (the app routes by URL hash, not by path)
+// Absolute base: each city has its own page at /<city>/ (see scripts/buildPages.js), and assets
+// and data load from the site root. time2map.github.io/archmap/ redirects to archmap.time2map.com.
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/',
 })

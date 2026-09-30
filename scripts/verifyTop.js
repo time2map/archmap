@@ -487,6 +487,11 @@ function validate(data, issuesByPlace, topErrors) {
   if (data.id !== city) topErrors.push(`id "${data.id}" does not match the file name "${city}"`)
   if (!data.name) topErrors.push('name is missing')
   if (!DATE.test(data.updated || '')) topErrors.push('updated must be a date')
+  // The cover is the city's picture in link previews (scripts/buildPages.js)
+  if (!data.cover) topErrors.push('cover is missing: the file of one of the city\'s photos')
+  else if (!(data.places || []).some(p => (p.photos || []).some(photo => photo.file === data.cover))) {
+    topErrors.push(`cover "${data.cover}" is not the file of any of the city's photos`)
+  }
 
   const sources = data.sources || {}
   for (const [id, source] of Object.entries(sources)) {

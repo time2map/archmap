@@ -1,6 +1,7 @@
 import { useState, useRef, useCallback, useMemo, useEffect } from 'react'
 import Map, { Marker, Source, Layer } from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
+import { cityTitle, cityDescription, siteTitle } from './meta'
 
 // Same base map as the main tab (see Map.jsx)
 const MAPBOX_ACCESS_TOKEN = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN || ''
@@ -355,6 +356,13 @@ function TopCity({ cityId, onCityChange }) {
       .catch(err => setError(err.message))
   }, [activeCityId])
 
+  // On a city's own URL the browser tab shows the same title as its static page; the home page keeps the site title
+  useEffect(() => {
+    if (!city || !cityId) return
+    document.title = cityTitle(city)
+    return () => { document.title = siteTitle() }
+  }, [city, cityId])
+
   // rank keeps higher places on top where pins overlap
   const places = useMemo(
     () => (city ? sortPlaces(city.places.map(place => ({ ...place, pins: pinsOf(place) }))).map((place, rank) => ({ ...place, rank })) : []),
@@ -593,6 +601,7 @@ function TopCity({ cityId, onCityChange }) {
             )}
           </header>
 
+          {city && <p className="text-sm leading-relaxed text-gray-600">{cityDescription(city)}</p>}
           {error && <p className="text-sm text-red-600">{error}</p>}
           {!city && !error && <p className="text-sm text-gray-500">Loading…</p>}
 

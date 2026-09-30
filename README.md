@@ -20,13 +20,19 @@ most guidebooks leave out. Cities so far: **Madrid** and **Barcelona**.
 - **Checked locations:** a place gets a pin only when its location is confirmed. Otherwise
   the card stays in the list with a "Find in Google Maps" link.
 - **Photos** come from Wikimedia Commons under free licences, credited with author and licence.
-- **Links** open a city directly, e.g. `archmap.time2map.com/#top/madrid`.
+- **Each city has its own page**, e.g. `archmap.time2map.com/madrid/`, with its own title,
+  description and link preview (Open Graph); all cities are listed in `sitemap.xml`.
+  Old links like `#top/madrid` still work.
 
 ## Adding a city
 
 The TOP lists are built with the `city-top` skill for Claude Code (`.claude/skills/city-top`):
 ask it to build the TOP list for a city. Each city is a file in `public/top/` and is listed in
-`public/top/index.json`.
+`public/top/index.json`. Its `cover` photo is the picture in link previews.
+
+`npm run build` also runs `scripts/buildPages.js`, which writes a page for every city
+(`dist/<city>/index.html`) and `sitemap.xml`. The title and description templates are in
+`src/meta.js`.
 
 ## Running locally
 
