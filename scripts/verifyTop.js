@@ -549,12 +549,12 @@ function validate(data, issuesByPlace, topErrors) {
 const hasLocation = (place) =>
   (place.points || []).some(p => Number.isFinite(p.lat)) || (place.shapes || []).some(s => s.geometry)
 
-// Same order as the TOP tab: on the map, with a photo, votes, number of photos, title
+// Same order as the TOP tab: votes, with a photo, on the map, number of photos, title
 function uiOrder(places) {
   return [...places].sort((a, b) =>
-    Number(hasLocation(b)) - Number(hasLocation(a)) ||
-    Number((b.photos || []).length > 0) - Number((a.photos || []).length > 0) ||
     b.sources.length - a.sources.length ||
+    Number((b.photos || []).length > 0) - Number((a.photos || []).length > 0) ||
+    Number(hasLocation(b)) - Number(hasLocation(a)) ||
     (b.photos || []).length - (a.photos || []).length ||
     a.title.localeCompare(b.title)
   )

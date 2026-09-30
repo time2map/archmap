@@ -60,7 +60,7 @@ is one vote. For every source record: publisher, author, title, url, publication
   out of places worth a trip, and never pad the list. The reader filters and chooses.
   Take every place with ≥2 votes first, then 1-vote places, preferring award winners,
   registry entries and Arquitectura Viva.
-- Order (the UI applies it): has a location on the map, has a photo, votes, number of
+- Order (the UI applies it): votes, has a photo, has a location on the map, number of
   photos, title.
 - Scope: the city and its metro area, if the place is reachable by public transport;
   put the municipality in `area` (e.g. "Sant Just Desvern").

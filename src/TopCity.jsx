@@ -32,12 +32,12 @@ function pinsOf(place) {
   ]
 }
 
-// Places on the map first, then those with a photo, then the most mentioned
+// The most mentioned first, then those with a photo, then places on the map
 function sortPlaces(places) {
   return [...places].sort((a, b) =>
-    Number(located(b.pins).length > 0) - Number(located(a.pins).length > 0) ||
-    Number((b.photos || []).length > 0) - Number((a.photos || []).length > 0) ||
     b.sources.length - a.sources.length ||
+    Number((b.photos || []).length > 0) - Number((a.photos || []).length > 0) ||
+    Number(located(b.pins).length > 0) - Number(located(a.pins).length > 0) ||
     (b.photos || []).length - (a.photos || []).length ||
     a.title.localeCompare(b.title)
   )
