@@ -7,8 +7,11 @@ Site: https://archmap.time2map.com
 ## TOP
 
 Hand-picked places in each city: must-sees, and also housing, parks and new buildings that
-most guidebooks leave out. Cities so far: **Madrid** and **Barcelona**.
+most guidebooks leave out. Cities so far: **Madrid**, **Barcelona**, **Bordeaux**, **Valencia**
+and **Paris**.
 
+- **All cities** on the home page: a map with every city's cover photo and a list of the cities.
+  Click a city to fly into it and open its page; "All cities" in the city picker, or Back, flies out again.
 - **Five groups:** City core (the must-sees), Housing (contemporary housing and quarters),
   Buildings (notable buildings), Unusual (unusual architecture) and Parks (parks and public spaces).
 - **Place cards** show photos, the architect and year, a short note on why the place is worth

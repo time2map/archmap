@@ -1,7 +1,7 @@
 import { useState, useRef, useCallback, useMemo, useEffect } from 'react'
 import Map, { Marker, Source, Layer } from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
-import { cityTitle, cityDescription, siteTitle } from './meta'
+import { cityTitle, cityDescription, cityPath, siteTitle, siteDescription } from './meta'
 
 // Same base map as the main tab (see Map.jsx)
 const MAPBOX_ACCESS_TOKEN = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN || ''
@@ -20,6 +20,8 @@ const GROUPS = [
 ]
 const GROUP_BY_ID = Object.fromEntries(GROUPS.map(g => [g.id, g]))
 const MIN_MENTIONS = [1, 2, 3]
+// The map's frame when no city is open
+const OVERVIEW = Symbol('overview')
 
 const isLocated = (pin) => Number.isFinite(pin.lat) && Number.isFinite(pin.lng)
 const located = (pins) => pins.filter(isLocated)
@@ -315,9 +317,48 @@ function PlaceCard({ place, cityName, sources, selected, onSelect, onSelectPoint
   )
 }
 
+// A city on the overview. The name is a real link, for search engines and for opening the city in a new tab.
+function CityCard({ city, onOpen }) {
+  const open = () => onOpen(city.id)
+  return (
+    <article
+      role="button"
+      tabIndex={0}
+      onClick={open}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault()
+          open()
+        }
+      }}
+      className="bg-white rounded-xl border border-gray-200 overflow-hidden cursor-pointer shadow-sm hover:shadow-md transition-shadow focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+    >
+      {city.cover && <PhotoGallery photos={[city.cover]} title={city.coverTitle} />}
+      <div className="p-3 sm:p-4 flex items-baseline justify-between gap-3">
+        <h2 className="text-base font-semibold text-gray-900">
+          <a
+            href={cityPath(city.id)}
+            onClick={(e) => {
+              // Cmd/Ctrl- and Shift-click open the page in a new tab or window; a plain click opens it here, through the card
+              if (e.metaKey || e.ctrlKey || e.shiftKey) e.stopPropagation()
+              else e.preventDefault()
+            }}
+            className="hover:underline"
+          >
+            {city.name}
+          </a>
+        </h2>
+        <span className="shrink-0 text-sm text-gray-500">{city.count} places</span>
+      </div>
+    </article>
+  )
+}
+
+// With a city: its places. Without one: the overview of all cities, on the same map, so that opening a city flies into it.
 function TopCity({ cityId, onCityChange }) {
   const [cities, setCities] = useState([])
-  const [city, setCity] = useState(null)
+  // City files by id, loaded on demand and kept: a city opened from the overview shows at once
+  const [cityData, setCityData] = useState({})
   const [error, setError] = useState(null)
   // pointIndex: which pin of an ensemble is active (only that one gets a map label)
   const [selection, setSelection] = useState({ id: null, pointIndex: null })
@@ -329,6 +370,9 @@ function TopCity({ cityId, onCityChange }) {
   const [cursor, setCursor] = useState('')
   const mapRef = useRef(null)
   const cardRefs = useRef({})
+  const requestedCities = useRef(new Set())
+  // What the map framed last: null before the first frame, OVERVIEW, or a city id
+  const framedRef = useRef(null)
   const selectedId = selection.id
 
   useEffect(() => {
@@ -341,20 +385,48 @@ function TopCity({ cityId, onCityChange }) {
       .catch(err => setError(err.message))
   }, [])
 
-  const activeCityId = cityId || cities[0]?.id
-
-  useEffect(() => {
-    if (!activeCityId) return
-    setCity(null)
-    setSelection({ id: null, pointIndex: null })
-    fetch(`${import.meta.env.BASE_URL}top/${activeCityId}.json`)
+  const loadCity = useCallback((id) => {
+    if (requestedCities.current.has(id)) return
+    requestedCities.current.add(id)
+    fetch(`${import.meta.env.BASE_URL}top/${id}.json`)
       .then(response => {
-        if (!response.ok) throw new Error(`Failed to load ${activeCityId}`)
+        if (!response.ok) throw new Error(`Failed to load ${id}`)
         return response.json()
       })
-      .then(setCity)
+      .then(data => setCityData(prev => ({ ...prev, [id]: data })))
       .catch(err => setError(err.message))
-  }, [activeCityId])
+  }, [])
+
+  // A city's page needs only its own file; the overview needs all of them
+  useEffect(() => {
+    if (cityId) loadCity(cityId)
+    else cities.forEach(c => loadCity(c.id))
+  }, [cityId, cities, loadCity])
+
+  const city = (cityId && cityData[cityId]) || null
+
+  useEffect(() => {
+    setSelection({ id: null, pointIndex: null })
+  }, [cityId])
+
+  // Every loaded city: the bounds of its pins, its cover, and where its marker stands: at the place
+  // of the cover (the Eiffel Tower, the Royal Palace), or in the middle of the city without one
+  const overview = useMemo(() => cities.filter(c => cityData[c.id]).map(({ id }) => {
+    const data = cityData[id]
+    const bounds = boundsOf(data.places.flatMap(place => located(pinsOf(place)).map(pin => [pin.lng, pin.lat])))
+    const coverPlace = data.places.find(place => (place.photos || []).some(photo => photo.file === data.cover))
+    const at = coverPlace && located(pinsOf(coverPlace))[0]
+    return {
+      id,
+      name: data.name,
+      count: data.places.length,
+      bounds,
+      cover: coverPlace?.photos.find(photo => photo.file === data.cover),
+      coverTitle: coverPlace?.title,
+      lng: at ? at.lng : (bounds[0][0] + bounds[1][0]) / 2,
+      lat: at ? at.lat : (bounds[0][1] + bounds[1][1]) / 2
+    }
+  }), [cities, cityData])
 
   // On a city's own URL the browser tab shows the same title as its static page; the home page keeps the site title
   useEffect(() => {
@@ -373,11 +445,11 @@ function TopCity({ cityId, onCityChange }) {
     place.sources.length >= minMentions && (groupFilter === 'all' || place.group === groupFilter)
   ), [places, groupFilter, minMentions])
 
-  // Pins only: a whole district would zoom the city out too far
-  const fitPlaces = useCallback((list, duration = 1000) => {
+  // Pins only: a whole district would zoom the city out too far. Without a pitch the map keeps its tilt.
+  const fitPlaces = useCallback((list, duration = 1000, pitch) => {
     const coords = list.flatMap(p => located(p.pins).map(pin => [pin.lng, pin.lat]))
     if (mapRef.current && coords.length > 0) {
-      mapRef.current.fitBounds(boundsOf(coords), { padding: mapPadding(), duration })
+      mapRef.current.fitBounds(boundsOf(coords), { padding: mapPadding(), duration, ...(pitch !== undefined && { pitch }) })
     }
   }, [])
 
@@ -399,10 +471,28 @@ function TopCity({ cityId, onCityChange }) {
     return { type: 'FeatureCollection', features }
   }, [visiblePlaces, selectedId])
 
-  // Frame the whole city when it loads (the map may already be on screen from another city)
+  // Frame the whole city once its file is loaded: fly in from the overview, jump from another city
+  // or on the first load. Back on the overview, frame every city once all of them are loaded.
   useEffect(() => {
-    if (mapLoaded && places.length > 0) fitPlaces(places, 0)
-  }, [mapLoaded, places, fitPlaces])
+    const map = mapRef.current
+    if (!mapLoaded || !map) return
+    const framed = framedRef.current
+    if (cityId) {
+      if (places.length === 0 || framed === cityId) return
+      fitPlaces(places, framed === OVERVIEW ? 2000 : 0, 45)
+      framedRef.current = cityId
+    } else if (framed !== OVERVIEW && cities.length > 0 && overview.length === cities.length) {
+      const padding = mapPadding()
+      map.fitBounds(boundsOf(overview.flatMap(c => c.bounds)), {
+        // Room at the bottom for the labels under the southern cities
+        padding: { top: padding, right: padding, bottom: padding + 32, left: padding },
+        maxZoom: 6,
+        pitch: 0,
+        duration: framed ? 1500 : 0
+      })
+      framedRef.current = OVERVIEW
+    }
+  }, [mapLoaded, cityId, places, cities, overview, fitPlaces])
 
   useEffect(() => {
     if (!visiblePlaces.some(p => p.id === selectedId)) setSelection({ id: null, pointIndex: null })
@@ -461,7 +551,8 @@ function TopCity({ cityId, onCityChange }) {
       <div className="relative order-1 md:order-2 h-[42%] md:h-auto md:flex-1 shrink-0">
         <Map
           ref={mapRef}
-          initialViewState={{ longitude: -3.7, latitude: 40.42, zoom: 11, pitch: 45 }}
+          // Replaced by the frame of the city or of all cities as soon as their files load
+          initialViewState={cityId ? { longitude: -3.7, latitude: 40.42, zoom: 11, pitch: 45 } : { longitude: 2, latitude: 45, zoom: 4, pitch: 0 }}
           onZoom={(e) => {
             const next = Math.round(e.viewState.zoom * 2) / 2
             setZoom(prev => (prev === next ? prev : next))
@@ -581,6 +672,33 @@ function TopCity({ cityId, onCityChange }) {
               )
             })
           })}
+
+          {/* The overview: a city's cover at its landmark; a click opens the city */}
+          {!cityId && overview.map(c => (
+            <Marker
+              key={c.id}
+              longitude={c.lng}
+              latitude={c.lat}
+              anchor="center"
+              // Northern cities on top: a label hangs below its photo, onto the city south of it
+              style={{ zIndex: Math.round(c.lat * 100) }}
+              onClick={(e) => {
+                e.originalEvent.stopPropagation()
+                onCityChange(c.id)
+              }}
+            >
+              <div className="relative cursor-pointer group" title={c.name}>
+                <div className="w-12 h-12 md:w-14 md:h-14 rounded-full overflow-hidden bg-white border-[3px] border-white shadow-lg transition-transform group-hover:scale-110">
+                  {c.cover && (
+                    <img src={c.cover.thumb || c.cover.src} alt="" draggable={false} className="w-full h-full object-cover" />
+                  )}
+                </div>
+                <div className="absolute left-1/2 top-full mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-white/95 px-2 py-0.5 text-xs font-semibold text-gray-900 shadow">
+                  {c.name} <span className="font-normal text-gray-500">· {c.count}</span>
+                </div>
+              </div>
+            </Marker>
+          ))}
         </Map>
       </div>
 
@@ -589,22 +707,26 @@ function TopCity({ cityId, onCityChange }) {
         <div className="p-3 sm:p-4 space-y-3">
           {/* The heading repeats the page title (src/meta.js) */}
           <header className="flex items-start justify-between gap-3">
-            <h1 className="text-lg font-bold leading-snug text-gray-900">{city ? cityTitle(city) : 'TOP'}</h1>
+            <h1 className="text-lg font-bold leading-snug text-gray-900">{city ? cityTitle(city) : cityId ? 'TOP' : siteTitle()}</h1>
             {cities.length > 0 && (
               <select
-                value={activeCityId || ''}
-                onChange={(e) => onCityChange(e.target.value)}
+                value={cityId || ''}
+                onChange={(e) => onCityChange(e.target.value || null)}
                 className="shrink-0 rounded-md border border-gray-300 bg-white px-2 py-1 text-sm font-medium text-gray-900"
                 aria-label="City"
               >
+                <option value="">All cities</option>
                 {cities.map(c => <option key={c.id} value={c.id}>{c.name}</option>)}
               </select>
             )}
           </header>
 
           {city && <p className="text-sm leading-relaxed text-gray-600">{cityDescription(city)}</p>}
+          {!cityId && cities.length > 0 && <p className="text-sm leading-relaxed text-gray-600">{siteDescription(cities)}</p>}
           {error && <p className="text-sm text-red-600">{error}</p>}
-          {!city && !error && <p className="text-sm text-gray-500">Loading…</p>}
+          {(cityId ? !city : overview.length === 0) && !error && <p className="text-sm text-gray-500">Loading…</p>}
+
+          {!cityId && overview.map(c => <CityCard key={c.id} city={c} onOpen={onCityChange} />)}
 
           {city && (
             <>
