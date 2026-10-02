@@ -9537,9 +9537,14 @@
               }
             ]
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 56.038385,
+          "lng": 12.568267,
+          "verifiedBy": [
+            "osm"
+          ],
+          "near": [
+            "big-helsingor-psychiatric"
+          ]
         }
       ],
       "shapes": [],

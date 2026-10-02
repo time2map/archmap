@@ -25,6 +25,9 @@ const AGREE_METERS = 150
 // A named OSM building is taken when another source puts the place this close: firms and media often
 // pin the entrance of the grounds or the middle of the town, while OSM has the building itself
 const NEAR_METERS = 2000
+// The same for an OSM building of another name (a local name, the name of the whole institution),
+// only closer: the OSM object is the one picked for the place, the other source has to be next to it
+const NEAR_UNNAMED_METERS = 500
 // OSM objects that are not a building or a structure: a street or an area of that name proves nothing
 const NOT_A_BUILDING = ['highway', 'place', 'boundary', 'landuse', 'natural', 'waterway', 'railway', 'route']
 // Words that say what a building is, not which one
@@ -423,10 +426,11 @@ function verifyPoint(point, place, lookups, issues) {
     issues.warnings.push(`${label}: sources disagree (${pairs.join(', ')})`)
   }
 
-  // A named OSM building, with another source within NEAR_METERS
+  // An OSM building, with another source within NEAR_METERS when its name matches, NEAR_UNNAMED_METERS otherwise
   const osm = candidates.find(c => c.source === 'osm')
-  if (osm && !NOT_A_BUILDING.includes(osm.category) && osmNameMatches(osm.names, [point.name, place.title])) {
-    const near = candidates.filter(o => o.source !== 'osm' && distanceMeters(osm, o) <= NEAR_METERS)
+  if (osm && !NOT_A_BUILDING.includes(osm.category)) {
+    const radius = osmNameMatches(osm.names, [point.name, place.title]) ? NEAR_METERS : NEAR_UNNAMED_METERS
+    const near = candidates.filter(o => o.source !== 'osm' && distanceMeters(osm, o) <= radius)
     if (near.length > 0) {
       point.lat = round6(osm.lat)
       point.lng = round6(osm.lng)
