@@ -207,7 +207,9 @@ Família). Check on Commons that the file is wider than it is tall.
 
 ## 6. Write and verify
 1. Write public/top/<city>.json (schema below) and add the city to public/top/index.json.
-2. Run `node scripts/verifyTop.js <city>`: no errors; review every warning.
+2. Run `node scripts/verifyTop.js <city>`: no errors; review every warning. When you change a
+   few places of an existing city, add `--only <id>,<id>`: only they are checked online, and
+   the rest of the file stays as it is.
 3. Run the app, open `/<city>/`, screenshot desktop 1440×900 and mobile 390×844,
    click one card, one marker and one shape.
 4. Report to the user: number of places, sources with dates, places without a location or

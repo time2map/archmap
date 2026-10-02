@@ -14,7 +14,9 @@ import { fileURLToPath } from 'url'
 // - validates the schema and prints a report in the order the UI shows the places.
 // public/top/world.json holds the works of top architecture firms beyond the cities: no cover, and every
 // place names its city and country in `area`, shown on the card when the location is not confirmed.
-// Usage: node scripts/verifyTop.js <city|world> [--offline]
+// Usage: node scripts/verifyTop.js <city|world> [--offline] [--only <place-id>,<place-id>]
+// --only checks the locations and photos of these places alone and leaves the rest of the file as it
+// is (a run over a whole city refreshes every outline from OSM); the schema is still validated for all.
 // --offline only validates the file and prints the report, without network access.
 
 const __filename = fileURLToPath(import.meta.url)
@@ -43,6 +45,10 @@ const GROUPS = ['city-core', 'architecture', 'unusual', 'parks']
 const SHAPE_KINDS = ['area', 'line']
 const MAX_CITY_CORE = 30
 const SOURCE_TYPES = ['media', 'architect', 'registry', 'award', 'tourism', 'blogger']
+// The names a place's `firms` may hold: the firms of TOP_TIER_FIRMS (src/Map.jsx), one name each
+// (Norman Foster is Foster + Partners, Bjarke Ingels is BIG, Rem Koolhaas is OMA)
+const FIRMS = ['Alvar Aalto', 'BIG', 'Foster + Partners', 'Frank Gehry', 'Kengo Kuma', 'MVRDV', 'OMA',
+  'Renzo Piano Building Workshop', 'Santiago Calatrava', 'Snøhetta', 'Tadao Ando', 'Zaha Hadid Architects']
 // When several sources agree, the point is taken from the first one in this list
 const COORD_PRIORITY = ['osm', 'wikidata']
 // The AV map is Arquitectura Viva's own database: it confirms a point, but its coordinates
@@ -61,8 +67,10 @@ const QUOTES = /[«»“”"]/
 const city = process.argv[2]
 const isWorld = city === 'world'
 const offline = process.argv.includes('--offline')
-if (!city || city.startsWith('--')) {
-  console.error('Usage: node scripts/verifyTop.js <city> [--offline]')
+const onlyArg = process.argv.indexOf('--only')
+const only = onlyArg > 0 ? (process.argv[onlyArg + 1] || '').split(',').filter(Boolean) : null
+if (!city || city.startsWith('--') || (only && only.length === 0)) {
+  console.error('Usage: node scripts/verifyTop.js <city|world> [--offline] [--only <place-id>,<place-id>]')
   process.exit(1)
 }
 
@@ -629,6 +637,7 @@ function validate(data, issuesByPlace, topErrors) {
     if (place.firms !== undefined && (!Array.isArray(place.firms) || place.firms.length === 0 || !place.firms.every(f => typeof f === 'string' && f.trim()))) {
       issues.errors.push('firms must be a non-empty array of firm names')
     }
+    for (const firm of place.firms || []) if (!FIRMS.includes(firm)) issues.errors.push(`firm "${firm}" must be one of ${FIRMS.join(', ')}`)
     if (!place.why && !place.firms?.length) issues.errors.push('why is missing')
     if (isWorld && !/^[^,]+(, [^,]+)+$/.test(place.area || '')) issues.errors.push('area must be "City, Country"')
     if (QUOTES.test(place.why || '')) issues.warnings.push('why contains quotation marks — no quotes in card text')
@@ -681,27 +690,32 @@ async function main() {
   const cityCore = validate(data, issuesByPlace, topErrors)
   if (cityCore > MAX_CITY_CORE) topWarnings.push(`${cityCore} city-core places — usually 15–25`)
 
+  const unknown = (only || []).filter(id => !places.some(p => p.id === id))
+  for (const id of unknown) topErrors.push(`--only: no place "${id}"`)
+  // The places whose locations and photos this run checks
+  const checked = only ? places.filter(p => only.includes(p.id)) : places
+
   let avIndex = null
   if (!offline) {
-    const points = places.flatMap(p => p.points || [])
-    const shapes = places.flatMap(p => p.shapes || [])
+    const points = checked.flatMap(p => p.points || [])
+    const shapes = checked.flatMap(p => p.shapes || [])
     avIndex = await loadAvIndex()
     const lookups = {
       av: avIndex,
       wikidata: await loadWikidata([...points, ...shapes].map(p => p.refs?.wikidata).filter(Boolean)),
       osm: await loadOsm(points.map(p => p.refs?.osm).filter(ref => /^(node|way|relation)\/\d+$/.test(ref || ''))),
       shapes: await loadOsmShapes(shapes.flatMap(s => s.refs?.osm || []).filter(ref => /^(way|relation)\/\d+$/.test(ref))),
-      photoCoords: await loadPhotoCoords(places.flatMap(p => (p.photos || []).map(photo => photo.file)).filter(Boolean))
+      photoCoords: await loadPhotoCoords(checked.flatMap(p => (p.photos || []).map(photo => photo.file)).filter(Boolean))
     }
-    for (const place of places) {
+    for (const place of checked) {
       for (const point of place.points || []) verifyPoint(point, place, lookups, issuesByPlace.get(place))
       for (const shape of place.shapes || []) verifyShape(shape, lookups, issuesByPlace.get(place))
     }
 
-    const photoFiles = places.flatMap(p => (p.photos || []).map(photo => photo.file)).filter(Boolean)
+    const photoFiles = checked.flatMap(p => (p.photos || []).map(photo => photo.file)).filter(Boolean)
     const photoMeta = await loadPhotos(photoFiles)
     const noFop = await loadNoFop(photoFiles)
-    for (const place of places) {
+    for (const place of checked) {
       const issues = issuesByPlace.get(place)
       for (const photo of place.photos || []) {
         const meta = photoMeta.get(photo.file)
@@ -717,8 +731,8 @@ async function main() {
         }
       }
     }
-    const failed = await checkImages(places.flatMap(p => (p.photos || []).flatMap(photo => [photo.src, photo.thumb])).filter(Boolean))
-    for (const place of places) {
+    const failed = await checkImages(checked.flatMap(p => (p.photos || []).flatMap(photo => [photo.src, photo.thumb])).filter(Boolean))
+    for (const place of checked) {
       for (const photo of place.photos || []) {
         if (failed.has(photo.src)) issuesByPlace.get(place).errors.push(`photo "${photo.file}": thumbnail does not load`)
         if (failed.has(photo.thumb)) issuesByPlace.get(place).errors.push(`photo "${photo.file}": pin thumbnail does not load`)
@@ -728,7 +742,7 @@ async function main() {
     // A work beyond the cities without a location is listed while the map shows its town:
     // the bounds of its "City, Country", never a point
     if (isWorld) {
-      for (const place of places) {
+      for (const place of checked) {
         if (hasLocation(place)) {
           delete place.areaBounds
           continue
@@ -748,7 +762,7 @@ async function main() {
 
   // AV hint: the place is on the AV map but has no Arquitectura Viva vote
   if (avIndex) {
-    for (const place of places) {
+    for (const place of checked) {
       const onAvMap = [...(place.points || []), ...(place.shapes || [])].some(p => p.refs?.av && avIndex.has(p.refs.av))
       const hasAvVote = (place.sources || []).some(id => data.sources[id]?.publisher === AV_PUBLISHER)
       if (onAvMap && !hasAvVote) issuesByPlace.get(place).warnings.push('on the AV map but has no Arquitectura Viva vote')
@@ -757,7 +771,7 @@ async function main() {
 
   let errorCount = topErrors.length
   let warningCount = 0
-  console.log(`${data.name}: ${places.length} places, ${Object.keys(data.sources || {}).length} sources${offline ? ' (offline check)' : ''}\n`)
+  console.log(`${data.name}: ${places.length} places, ${Object.keys(data.sources || {}).length} sources${offline ? ' (offline check)' : ''}${only ? `, checking ${checked.length}` : ''}\n`)
   for (const error of topErrors) console.log(`ERROR ${error}`)
   for (const warning of topWarnings) console.log(`warn  ${warning}`)
   warningCount += topWarnings.length

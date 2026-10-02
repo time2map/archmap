@@ -46,7 +46,8 @@ ask it to build the TOP list for a city. Each city is a file in `public/top/` an
 
 Built with the `firm-works` skill (`.claude/skills/firm-works`): ask it to collect the works of one
 firm. Works inside a city go to the city's file; the others go to `public/top/world.json`, which has
-the same schema without a cover. Check it with `node scripts/verifyTop.js world`.
+the same schema without a cover. Check it with `node scripts/verifyTop.js world`; add
+`--only <id>,<id>` to check only the places you added or changed and leave the rest of the file as it is.
 
 The home page's picture in link previews is a collage of the city covers, `public/og-image.jpg`.
 It is not rebuilt with the site: run `npm run og-image` when you want new cities in it, and commit the image.
