@@ -14,7 +14,7 @@ What differs from city-top:
 - No `why`. The card shows the links to read about the work; that is enough.
 - Every completed work of the firm is taken: there is no vote threshold and no 100-place
   ceiling, and a work may have no source at all.
-- Every place gets `firms` and `firmPage` (§3). The firm's page is never a source: a firm does
+- Every place gets `firms`, and `firmPage` when the firm has a page for the work (§3). The firm's page is never a source: a firm does
   not recommend its own work.
 
 ## The firms
@@ -82,9 +82,17 @@ it was only a consultant. Leave out private homes (a family's house or cabin, Vi
 are not places to visit, and a pin on them points at private people. A work that is not on
 the firm's site and has no other source that credits the firm stays out; name it in the report.
 
+Some firms have no full list of their works online: Alvar Aalto (died 1976; his works are kept
+by the Alvar Aalto Foundation), and sites that show only a selection (check Tadao Ando's and
+Frank Gehry's). There the official list is the foundation's or the archive's when one exists;
+otherwise a work is confirmed by a registry (Docomomo, heritage lists) or by two independent
+sources that credit the architect and describe the building as built. Say in the report which
+list served as the firm's.
+
 ## 3. Links
-`firmPage`: the url of the work's page on the firm's site, the page of this project, not the
-list of projects or the home page. The card links to it as "Read more on official website".
+`firmPage`: the url of the work's page on the firm's site (or the foundation's, §2), the page of
+this project, not the list of projects or the home page. The card links to it as "Read more on
+official website". No such page, no `firmPage`.
 
 Sources, as in city-top §1: architecture media (ArchDaily, Dezeen, Divisare, Metalocus,
 Wallpaper*), awards, registries, Arquitectura Viva (one vote, never its coordinates). Each
