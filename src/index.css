@@ -94,8 +94,3 @@
     display: none;
   }
 }
-
-/* A hovered pin (it grows, see TopCity.jsx) comes above its neighbours */
-.mapboxgl-marker:hover {
-  z-index: 100003 !important;
-}

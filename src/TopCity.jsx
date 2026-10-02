@@ -30,6 +30,32 @@ const WORLD_PHOTO_ZOOM = 6
 const CITY_ZOOM = 9
 // Labels of the places beyond the cities from this zoom on: below it they are dots across continents
 const WORLD_LABEL_ZOOM = 5
+// The white rounded box with a soft shadow behind a label, drawn once and stretched to each text
+// (icon-text-fit): the look of the HTML labels of the selected pin and of the city covers
+function labelBackground() {
+  const ratio = 2
+  const [width, height, inset, radius] = [36, 28, 4, 4]
+  const canvas = document.createElement('canvas')
+  canvas.width = width * ratio
+  canvas.height = height * ratio
+  const ctx = canvas.getContext('2d')
+  ctx.scale(ratio, ratio)
+  ctx.shadowColor = 'rgba(0, 0, 0, 0.18)'
+  ctx.shadowBlur = 3
+  ctx.shadowOffsetY = 1
+  ctx.fillStyle = 'rgba(255, 255, 255, 0.95)'
+  ctx.beginPath()
+  ctx.roundRect(inset, inset, width - 2 * inset, height - 2 * inset, radius)
+  ctx.fill()
+  const box = [inset, inset, width - inset, height - inset].map(v => v * ratio)
+  return [ctx.getImageData(0, 0, canvas.width, canvas.height), {
+    pixelRatio: ratio,
+    stretchX: [[(inset + radius) * ratio, (width - inset - radius) * ratio]],
+    stretchY: [[(inset + radius) * ratio, (height - inset - radius) * ratio]],
+    content: box
+  }]
+}
+
 // Fonts of the label layer, from the glyphs of each base map
 const LABEL_FONT = MAPBOX_ACCESS_TOKEN ? ['DIN Pro Medium', 'Arial Unicode MS Regular'] : ['Montserrat Medium', 'Open Sans Bold', 'Noto Sans Regular']
 // The ids of world.json places carry this prefix, so they never collide with a city's places
@@ -541,8 +567,8 @@ function TopCity({ cityId, onCityChange }) {
       const selected = place.id === selectedId
       blockers.push({ type: 'Feature', geometry: point(pin), properties: { size: (selected ? 56 : diameter) + 2 } })
       if (selected) return
-      // radialOffset in ems of the 11 px text: just outside the pin's own blocker
-      labels.push({ type: 'Feature', geometry: point(pin), properties: { name: pin.name || place.title, rank: -place.sources.length, offset: (diameter / 2 + 5) / 11 } })
+      // radialOffset, in ems of the 12 px text, to the text: 4 px from the pin, plus the 2 px of the label's padding
+      labels.push({ type: 'Feature', geometry: point(pin), properties: { name: pin.name || place.title, rank: -place.sources.length, offset: (diameter / 2 + 6) / 12 } })
     })
     if (zoom >= WORLD_LABEL_ZOOM) worldPlaces.forEach(place => add(place, zoom >= WORLD_PHOTO_ZOOM ? Math.max(pinSize, 28) : 10))
     visiblePlaces.forEach(place => add(place, place.pins.length > 1 ? pinSize - 4 : pinSize))
@@ -685,10 +711,9 @@ function TopCity({ cityId, onCityChange }) {
         >
           <div className="relative cursor-pointer" title={point.name || place.title}>
             {/* The group colour is the ring; the first photo fills the pin */}
-            {/* On hover the pin grows to about 72 px, enough to see the photo */}
             <div
-              className="rounded-full overflow-hidden bg-white shadow-md transition-all duration-200 hover:scale-[var(--hover-scale)] hover:shadow-xl"
-              style={{ width: size, height: size, border: `${size < 24 ? 2 : 3}px solid ${color}`, '--hover-scale': Math.max(1.3, 72 / size) }}
+              className="rounded-full overflow-hidden bg-white shadow-md transition-all duration-200"
+              style={{ width: size, height: size, border: `${size < 24 ? 2 : 3}px solid ${color}` }}
             >
               {photo && (
                 <img
@@ -764,6 +789,7 @@ function TopCity({ cityId, onCityChange }) {
             e.target.setTerrain(null)
             // A transparent pixel: scaled to a pin's size, it keeps the labels off the pin (see blockerData)
             e.target.addImage('pin-blocker', { width: 1, height: 1, data: new Uint8Array(4) })
+            e.target.addImage('label-background', ...labelBackground())
             setBounds(e.target.getBounds())
             setMapLoaded(true)
           }}
@@ -857,17 +883,26 @@ function TopCity({ cityId, onCityChange }) {
                 layout={{
                   'text-field': ['get', 'name'],
                   'text-font': LABEL_FONT,
-                  'text-size': 11,
-                  'text-max-width': 9,
+                  'text-size': 12,
+                  'text-max-width': 12,
+                  // Below the pin first, as the label of the selected pin; elsewhere when there is no room
                   'text-variable-anchor': ['top', 'bottom', 'right', 'left'],
                   'text-radial-offset': ['get', 'offset'],
-                  'text-justify': 'auto',
+                  // The white box: px-2 py-0.5, as the labels of the selected pin and of the city covers.
+                  // With a variable anchor the map would test the box where the text was before it moved,
+                  // on the pin itself, and drop every label: the box stays out of the collision, and the
+                  // text's padding keeps room for it instead
+                  'icon-image': 'label-background',
+                  'icon-text-fit': 'both',
+                  'icon-text-fit-padding': [2, 8, 2, 8],
+                  'icon-allow-overlap': true,
+                  'icon-ignore-placement': true,
+                  'text-padding': 5,
                   'symbol-sort-key': ['get', 'rank']
                 }}
                 paint={{
                   'text-color': '#111827',
-                  'text-halo-color': '#ffffff',
-                  'text-halo-width': 1.5,
+                  'icon-emissive-strength': 1,
                   'text-emissive-strength': 1
                 }}
               />

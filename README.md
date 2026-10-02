@@ -26,8 +26,8 @@ and **Paris**.
   a visit, and who recommends it: architecture media, travel guides, architects, heritage
   registries and awards. The number on each card counts independent authors and outlets.
 - **Filters** by group and by number of mentions (any, 2+, 3+).
-- **Map:** pins carry the place's photo and the colour of its group, and grow on hover so the photo
-  can be seen. Their names stand next to them wherever they fit without overlapping. Districts, parks
+- **Map:** pins carry the place's photo and the colour of its group. Their names stand next to
+  them, on white labels, wherever they fit without overlapping. Districts, parks
   and promenades appear as areas and lines. Click a card to fly to the place, or a pin to open its card.
 - **Checked locations:** a place gets a pin only when its location is confirmed. Otherwise
   the card stays in the list with a "Find in Google Maps" link.
