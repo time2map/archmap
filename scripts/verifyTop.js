@@ -725,6 +725,22 @@ async function main() {
       }
     }
 
+    // A work beyond the cities without a location is listed while the map shows its town:
+    // the bounds of its "City, Country", never a point
+    if (isWorld) {
+      for (const place of places) {
+        if (hasLocation(place)) {
+          delete place.areaBounds
+          continue
+        }
+        const json = await fetchJson(`https://nominatim.openstreetmap.org/search?${new URLSearchParams({ q: place.area, format: 'json', limit: 1 })}`)
+        await sleep(1100)
+        const box = json[0]?.boundingbox?.map(Number)
+        if (box) place.areaBounds = [[round6(box[2]), round6(box[0])], [round6(box[3]), round6(box[1])]]
+        else issuesByPlace.get(place).warnings.push(`no bounds found for "${place.area}"`)
+      }
+    }
+
     // Coordinate pairs of the geometry stay on one line, or they take most of the file
     const json = JSON.stringify(data, null, 2).replace(/\[\s+(-?[\d.]+),\s+(-?[\d.]+)\s+\]/g, '[$1, $2]')
     fs.writeFileSync(cityPath, json + '\n', 'utf8')

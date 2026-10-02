@@ -18,15 +18,17 @@ and **Paris**.
   as dots while the map is zoomed out and photo pins from zoom 6. Their cards carry a
   "Top architecture firm" label, a "Read more on official website" link to the work's page on the
   firm's site, and links to read about them instead of a note. A work without a
-  confirmed location is listed under "Not on the map yet" with its city and country.
+  confirmed location is listed under "Not on the map yet" with its city and country, while the map
+  shows part of that town.
 - **Four groups:** City core (the must-sees), Architecture (notable buildings, contemporary housing
   and quarters), Unusual (unusual architecture) and Parks (parks and public spaces).
 - **Place cards** show photos, the architect and year, a short note on why the place is worth
   a visit, and who recommends it: architecture media, travel guides, architects, heritage
   registries and awards. The number on each card counts independent authors and outlets.
 - **Filters** by group and by number of mentions (any, 2+, 3+).
-- **Map:** pins carry the place's photo and the colour of its group. Districts, parks and
-  promenades appear as areas and lines. Click a card to fly to the place, or a pin to open its card.
+- **Map:** pins carry the place's photo and the colour of its group, and grow on hover so the photo
+  can be seen. Their names stand next to them wherever they fit without overlapping. Districts, parks
+  and promenades appear as areas and lines. Click a card to fly to the place, or a pin to open its card.
 - **Checked locations:** a place gets a pin only when its location is confirmed. Otherwise
   the card stays in the list with a "Find in Google Maps" link.
 - **Photos** come from Wikimedia Commons under free licences, credited with author and licence.

@@ -28,6 +28,10 @@ const OVERVIEW = Symbol('overview')
 const WORLD_PHOTO_ZOOM = 6
 // Below this zoom a city is its cover; from it on, its places. Zooming out of an open city past it closes the city.
 const CITY_ZOOM = 9
+// Labels of the places beyond the cities from this zoom on: below it they are dots across continents
+const WORLD_LABEL_ZOOM = 5
+// Fonts of the label layer, from the glyphs of each base map
+const LABEL_FONT = MAPBOX_ACCESS_TOKEN ? ['DIN Pro Medium', 'Arial Unicode MS Regular'] : ['Montserrat Medium', 'Open Sans Bold', 'Noto Sans Regular']
 // The ids of world.json places carry this prefix, so they never collide with a city's places
 const WORLD = 'world:'
 
@@ -474,10 +478,12 @@ function TopCity({ cityId, onCityChange }) {
   const inBounds = useCallback((place) => !!bounds && located(place.pins).some(pin => bounds.contains([pin.lng, pin.lat])), [bounds])
   // The overview lists the places beyond the cities that are on the map, then those without a location
   const worldInView = useMemo(() => worldPlaces.filter(inBounds), [worldPlaces, inBounds])
-  const worldUnlocated = useMemo(
-    () => worldPlaces.filter(place => located(place.pins).length === 0).sort((a, b) => a.area.localeCompare(b.area)),
-    [worldPlaces]
-  )
+  // Without a location, a place is listed while the map shows part of its town (areaBounds, from verifyTop.js)
+  const worldUnlocated = useMemo(() => worldPlaces.filter(place => {
+    const box = place.areaBounds
+    return located(place.pins).length === 0 && !!bounds && !!box &&
+      box[0][0] <= bounds.getEast() && box[1][0] >= bounds.getWest() && box[0][1] <= bounds.getNorth() && box[1][1] >= bounds.getSouth()
+  }).sort((a, b) => a.area.localeCompare(b.area)), [worldPlaces, bounds])
 
   // On the overview zoomed in past CITY_ZOOM, the cities show their places instead of their covers
   const overviewPlaces = useMemo(() => cities.filter(c => cityData[c.id]).map(c => ({
@@ -520,6 +526,34 @@ function TopCity({ cityId, onCityChange }) {
   const visiblePlaces = useMemo(() => places.filter(place =>
     place.sources.length >= minMentions && (groupFilter === 'all' || place.group === groupFilter)
   ), [places, groupFilter, minMentions])
+
+  // The names of the pins on the map, in one symbol layer: the map leaves out a label that would overlap
+  // another one, and places the most mentioned first. The pins are HTML markers the map knows nothing
+  // about, so each also gets an invisible square of its size (blockers) that labels keep clear of.
+  // The selected pin has a label of its own.
+  const { labelData, blockerData } = useMemo(() => {
+    const pinSize = zoom < 12 ? 18 : zoom < 13.5 ? 28 : 40
+    const labels = []
+    const blockers = []
+    const point = (pin) => ({ type: 'Point', coordinates: [pin.lng, pin.lat] })
+    const add = (place, diameter) => place.pins.forEach(pin => {
+      if (!isLocated(pin)) return
+      const selected = place.id === selectedId
+      blockers.push({ type: 'Feature', geometry: point(pin), properties: { size: (selected ? 56 : diameter) + 2 } })
+      if (selected) return
+      // radialOffset in ems of the 11 px text: just outside the pin's own blocker
+      labels.push({ type: 'Feature', geometry: point(pin), properties: { name: pin.name || place.title, rank: -place.sources.length, offset: (diameter / 2 + 5) / 11 } })
+    })
+    if (zoom >= WORLD_LABEL_ZOOM) worldPlaces.forEach(place => add(place, zoom >= WORLD_PHOTO_ZOOM ? Math.max(pinSize, 28) : 10))
+    visiblePlaces.forEach(place => add(place, place.pins.length > 1 ? pinSize - 4 : pinSize))
+    if (!cityId && zoom >= CITY_ZOOM) overviewPlaces.forEach(c => c.places.forEach(place => add(place, pinSize)))
+    // The city covers on the overview, with their name below
+    if (!cityId && zoom < CITY_ZOOM) overview.forEach(c => blockers.push({ type: 'Feature', geometry: point(c), properties: { size: 64 } }))
+    return {
+      labelData: { type: 'FeatureCollection', features: labels },
+      blockerData: { type: 'FeatureCollection', features: blockers }
+    }
+  }, [zoom, worldPlaces, visiblePlaces, overviewPlaces, overview, cityId, selectedId])
 
   // Pins only: a whole district would zoom the city out too far. Without a pitch the map keeps its tilt.
   const fitPlaces = useCallback((list, duration = 1000, pitch) => {
@@ -651,9 +685,10 @@ function TopCity({ cityId, onCityChange }) {
         >
           <div className="relative cursor-pointer" title={point.name || place.title}>
             {/* The group colour is the ring; the first photo fills the pin */}
+            {/* On hover the pin grows to about 72 px, enough to see the photo */}
             <div
-              className="rounded-full overflow-hidden bg-white shadow-md transition-all duration-200"
-              style={{ width: size, height: size, border: `${size < 24 ? 2 : 3}px solid ${color}` }}
+              className="rounded-full overflow-hidden bg-white shadow-md transition-all duration-200 hover:scale-[var(--hover-scale)] hover:shadow-xl"
+              style={{ width: size, height: size, border: `${size < 24 ? 2 : 3}px solid ${color}`, '--hover-scale': Math.max(1.3, 72 / size) }}
             >
               {photo && (
                 <img
@@ -727,6 +762,8 @@ function TopCity({ cityId, onCityChange }) {
           onLoad={(e) => {
             // Same as the main tab: keep Standard's 3D buildings, drop terrain so pins stay visible
             e.target.setTerrain(null)
+            // A transparent pixel: scaled to a pin's size, it keeps the labels off the pin (see blockerData)
+            e.target.addImage('pin-blocker', { width: 1, height: 1, data: new Uint8Array(4) })
             setBounds(e.target.getBounds())
             setMapLoaded(true)
           }}
@@ -807,6 +844,43 @@ function TopCity({ cityId, onCityChange }) {
                   'circle-stroke-width': 1.5,
                   'circle-emissive-strength': 1
                 }}
+              />
+            </Source>
+          )}
+
+          {mapLoaded && (
+            <Source id="pin-labels" type="geojson" data={labelData}>
+              <Layer
+                id="pin-labels"
+                type="symbol"
+                {...slot('top')}
+                layout={{
+                  'text-field': ['get', 'name'],
+                  'text-font': LABEL_FONT,
+                  'text-size': 11,
+                  'text-max-width': 9,
+                  'text-variable-anchor': ['top', 'bottom', 'right', 'left'],
+                  'text-radial-offset': ['get', 'offset'],
+                  'text-justify': 'auto',
+                  'symbol-sort-key': ['get', 'rank']
+                }}
+                paint={{
+                  'text-color': '#111827',
+                  'text-halo-color': '#ffffff',
+                  'text-halo-width': 1.5,
+                  'text-emissive-strength': 1
+                }}
+              />
+            </Source>
+          )}
+          {/* Above the labels, so the map places these first and the labels around them */}
+          {mapLoaded && (
+            <Source id="pin-blockers" type="geojson" data={blockerData}>
+              <Layer
+                id="pin-blockers"
+                type="symbol"
+                {...slot('top')}
+                layout={{ 'icon-image': 'pin-blocker', 'icon-size': ['get', 'size'], 'icon-allow-overlap': true, 'icon-padding': 0 }}
               />
             </Source>
           )}

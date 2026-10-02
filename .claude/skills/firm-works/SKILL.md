@@ -74,7 +74,9 @@ has no point.
 Every place still says where it is in `area`:
 - in a city file: the district or municipality, as city-top does;
 - in world.json: `"City, Country"` in English (`"Billund, Denmark"`). The card shows it when
-  there is no point, so it must be right even when the coordinates are not.
+  there is no point, so it must be right even when the coordinates are not. For such a place
+  the script stores `areaBounds`, the bounds of that town: the card is listed while the map
+  shows it.
 
 ## 5. Photos
 As city-top §5: Wikimedia Commons only, free licenses, freedom of panorama checked. Never
