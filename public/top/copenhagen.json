@@ -5162,11 +5162,15 @@
         {
           "name": null,
           "refs": {
-            "av": "centro-de-tratamiento-diabetico-y-enfermedades-cardiacas-en-copenhague-dinamarca"
+            "av": "centro-de-tratamiento-diabetico-y-enfermedades-cardiacas-en-copenhague-dinamarca",
+            "osm": "node/340511939"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 55.693944,
+          "lng": 12.560402,
+          "verifiedBy": [
+            "osm",
+            "av"
+          ]
         }
       ],
       "shapes": [],
@@ -8889,13 +8893,35 @@
           "refs": {
             "osm": "way/1086668390"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 55.658991,
+          "lng": 12.542277,
+          "verifiedBy": [
+            "osm",
+            "photo-camera"
+          ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "BaneGaarden 01.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/BaneGaarden_01.jpg/960px-BaneGaarden_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/BaneGaarden_01.jpg/120px-BaneGaarden_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:BaneGaarden_01.jpg",
+          "author": "Leif Jørgensen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "BaneGaarden 02.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/BaneGaarden_02.jpg/960px-BaneGaarden_02.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/BaneGaarden_02.jpg/120px-BaneGaarden_02.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:BaneGaarden_02.jpg",
+          "author": "Leif Jørgensen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "karensminde",

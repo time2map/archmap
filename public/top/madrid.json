@@ -1000,8 +1000,8 @@
       "points": [
         {
           "name": null,
-          "lat": null,
-          "lng": null,
+          "lat": 40.396154,
+          "lng": -3.740727,
           "refs": {
             "other": [
               {
@@ -1009,10 +1009,19 @@
                 "url": "https://docomomoiberico.com/en/buildings/poblado-dirigido-de-cano-roto/",
                 "lat": 40.396154,
                 "lng": -3.740727
+              },
+              {
+                "source": "catastro",
+                "url": "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_CPMRC?Provincia=&Municipio=&SRS=EPSG:4326&RC=7222209VK3772A",
+                "lat": 40.395721,
+                "lng": -3.741579
               }
             ]
           },
-          "verifiedBy": []
+          "verifiedBy": [
+            "docomomo",
+            "catastro"
+          ]
         }
       ],
       "shapes": [],
@@ -1072,30 +1081,63 @@
       "points": [
         {
           "name": "NSA6 LaScalA — 100 units",
-          "lat": null,
-          "lng": null,
+          "lat": 40.385663,
+          "lng": -3.665028,
           "refs": {
-            "av": "lascala-nsa6-100-viviendas-sociales-en-madrid"
+            "av": "lascala-nsa6-100-viviendas-sociales-en-madrid",
+            "other": [
+              {
+                "source": "catastro",
+                "url": "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_CPMRC?Provincia=&Municipio=&SRS=EPSG:4326&RC=3609514VK4730H",
+                "lat": 40.385663,
+                "lng": -3.665028
+              }
+            ]
           },
-          "verifiedBy": []
+          "verifiedBy": [
+            "catastro",
+            "av"
+          ]
         },
         {
           "name": "NSA13 Twpeaks — 131 units",
-          "lat": null,
-          "lng": null,
+          "lat": 40.383801,
+          "lng": -3.664233,
           "refs": {
-            "av": "twpeaks-nsa13-131-viviendas-sociales-en-madrid"
+            "av": "twpeaks-nsa13-131-viviendas-sociales-en-madrid",
+            "other": [
+              {
+                "source": "catastro",
+                "url": "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_CPMRC?Provincia=&Municipio=&SRS=EPSG:4326&RC=3708104VK4730H",
+                "lat": 40.383801,
+                "lng": -3.664233
+              }
+            ]
           },
-          "verifiedBy": []
+          "verifiedBy": [
+            "catastro",
+            "av"
+          ]
         },
         {
           "name": "SFJ6 — 102 units",
-          "lat": null,
-          "lng": null,
+          "lat": 40.385642,
+          "lng": -3.663553,
           "refs": {
-            "av": "102-viviendas-sociales-en-madrid"
+            "av": "102-viviendas-sociales-en-madrid",
+            "other": [
+              {
+                "source": "catastro",
+                "url": "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_CPMRC?Provincia=&Municipio=&SRS=EPSG:4326&RC=3710740VK4731B",
+                "lat": 40.385642,
+                "lng": -3.663553
+              }
+            ]
           },
-          "verifiedBy": []
+          "verifiedBy": [
+            "catastro",
+            "av"
+          ]
         },
         {
           "name": "NSA14 — 205 units",

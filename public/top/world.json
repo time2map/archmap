@@ -250,6 +250,38 @@
       "url": "https://www.archdaily.com/1040404/not-a-hotel-setouchi-resort-big",
       "date": "2026-04-08",
       "type": "media"
+    },
+    "av-bloomberg-center": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Bloomberg Student Center, Baltimore",
+      "url": "https://arquitecturaviva.com/works/centro-de-estudiantes-bloomberg-en-la-universidad-johns-hopkins-de-baltimore",
+      "date": null,
+      "type": "media"
+    },
+    "av-honeycomb": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Honeycomb Residences, Nassau",
+      "url": "https://arquitecturaviva.com/works/honeycomb-residences",
+      "date": null,
+      "type": "media"
+    },
+    "av-biosphere": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Biosphere treehouse in Harads",
+      "url": "https://arquitecturaviva.com/works/casa-del-arbol-biosphere-en-harads",
+      "date": null,
+      "type": "media"
+    },
+    "av-jinji-lake-pavilion": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Jinji Lake Pavilion in Suzhou",
+      "url": "https://arquitecturaviva.com/works/pabellon-del-lago-jinji-en-suzhou-big-bjarke-ingels",
+      "date": null,
+      "type": "media"
     }
   },
   "places": [
@@ -579,11 +611,15 @@
         {
           "name": null,
           "refs": {
-            "osm": "node/11813300935"
+            "osm": "node/11813300935",
+            "wikidata": "Q63448922"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 56.163753,
+          "lng": 10.225379,
+          "verifiedBy": [
+            "osm",
+            "wikidata"
+          ]
         }
       ],
       "shapes": [],
@@ -616,11 +652,15 @@
                 "lat": 56.162939,
                 "lng": 10.203921
               }
-            ]
+            ],
+            "osm": "node/7841477386"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 56.232431,
+          "lng": 10.205378,
+          "verifiedBy": [
+            "osm",
+            "photo-camera"
+          ]
         }
       ],
       "shapes": [],
@@ -688,41 +728,6 @@
       ]
     },
     {
-      "id": "villa-gug",
-      "title": "Villa Gug",
-      "architect": "BIG",
-      "year": "2022",
-      "area": "Aalborg, Denmark",
-      "group": "architecture",
-      "firms": [
-        "BIG"
-      ],
-      "firmPage": "https://big.dk/projects/villa-gug-2994",
-      "sources": [],
-      "why": null,
-      "note": null,
-      "points": [
-        {
-          "name": null,
-          "refs": {
-            "other": [
-              {
-                "source": "firm",
-                "url": "https://big.dk/projects/villa-gug-2994",
-                "lat": 57.0488195,
-                "lng": 9.921747
-              }
-            ]
-          },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
-        }
-      ],
-      "shapes": [],
-      "photos": []
-    },
-    {
       "id": "hb-trapper",
       "title": "HB Trapper",
       "architect": "BIG",
@@ -747,11 +752,15 @@
                 "lat": 56.1333441,
                 "lng": 8.9122068
               }
-            ]
+            ],
+            "osm": "node/343892117"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 56.133449,
+          "lng": 8.911654,
+          "verifiedBy": [
+            "osm",
+            "firm"
+          ]
         }
       ],
       "shapes": [],
@@ -998,7 +1007,8 @@
       ],
       "firmPage": "https://big.dk/projects/biosphere-4043",
       "sources": [
-        "archdaily-biosphere"
+        "archdaily-biosphere",
+        "av-biosphere"
       ],
       "why": null,
       "note": null,
@@ -1013,11 +1023,17 @@
                 "lat": 66.08265,
                 "lng": 20.96268
               }
-            ]
+            ],
+            "osm": "node/7796744419"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 66.072858,
+          "lng": 20.98187,
+          "verifiedBy": [
+            "osm"
+          ],
+          "near": [
+            "firm"
+          ]
         }
       ],
       "shapes": [],
@@ -1857,7 +1873,7 @@
     },
     {
       "id": "google-gradient-canopy",
-      "title": "Google Gradient Canopy",
+      "title": "Google Gradient Canopy (Charleston East)",
       "architect": "BIG and Heatherwick Studio",
       "year": null,
       "area": "Mountain View, United States",
@@ -1880,11 +1896,17 @@
                 "lat": 37.4162045,
                 "lng": -122.0828468
               }
-            ]
+            ],
+            "osm": "way/741753434"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 37.421968,
+          "lng": -122.079598,
+          "verifiedBy": [
+            "osm"
+          ],
+          "near": [
+            "firm"
+          ]
         }
       ],
       "shapes": [],
@@ -2029,7 +2051,8 @@
       ],
       "firmPage": "https://big.dk/projects/bloomberg-student-center-at-johns-hopkins-university-22443",
       "sources": [
-        "archdaily-bloomberg-center"
+        "archdaily-bloomberg-center",
+        "av-bloomberg-center"
       ],
       "why": null,
       "note": null,
@@ -2044,11 +2067,16 @@
                 "lat": 39.3300091850609,
                 "lng": -76.6204318693114
               }
-            ]
+            ],
+            "osm": "way/967557825",
+            "av": "centro-de-estudiantes-bloomberg-en-la-universidad-johns-hopkins-de-baltimore"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 39.327605,
+          "lng": -76.61761,
+          "verifiedBy": [
+            "osm",
+            "av"
+          ]
         }
       ],
       "shapes": [],
@@ -2293,7 +2321,9 @@
         "BIG"
       ],
       "firmPage": "https://big.dk/projects/honeycomb-residences-albany-masterplan-11530",
-      "sources": [],
+      "sources": [
+        "av-honeycomb"
+      ],
       "why": null,
       "note": null,
       "points": [
@@ -2477,7 +2507,8 @@
       ],
       "firmPage": "https://big.dk/projects/jinji-lake-pavilion-20223",
       "sources": [
-        "archdaily-jinji-lake-pavilion"
+        "archdaily-jinji-lake-pavilion",
+        "av-jinji-lake-pavilion"
       ],
       "why": null,
       "note": null,

@@ -101,7 +101,15 @@ Arc de Triomf, Tibidabo and the seafront because this check was not there.)
 ### Points
 For each point collect candidates: Wikidata P625; OSM (Nominatim or Overpass, ≤1 request/s,
 custom User-Agent); AV map dataset or work page; Docomomo page (its Google Maps link);
-official site. The script adds the Commons coordinates of the card's photos by itself: the
+official site; for Catalonia the Arquitectura Catalana catalogue of the College of Architects
+(arquitecturacatalana.cat: each work page has its coordinates); for Spain the Catastro, which
+gives the coordinates of the parcel at an address (OVC services: `Consulta_DNPLOC` for the
+address, then `Consulta_CPMRC` with `SRS=EPSG:4326`; check that the parcel it returns is the
+number you asked for, a missing number returns a neighbour). Put such a coordinate in
+`refs.other` with the catalogue's url. An OSM address point (`place=house`) at the place's
+address counts as the OSM object when there is no building with that address.
+Two pins that coincide within a few metres in two sources (a firm's site and AV) were copied
+from one another: count them as one source. The script adds the Commons coordinates of the card's photos by itself: the
 camera location and the object location. They only confirm, like AV, and only on a card with
 one point (in an ensemble a photo may show another building).
 Accept when two independent sources agree within 150 m. The stored coordinate comes from

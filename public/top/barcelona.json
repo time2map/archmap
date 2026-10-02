@@ -1387,12 +1387,23 @@
       "points": [
         {
           "name": null,
-          "lat": null,
-          "lng": null,
+          "lat": 41.40479,
+          "lng": 2.204367,
           "refs": {
-            "av": "thomas-lussi-y-lola-domenech-viviendas-para-cuatro-amigos-en-barcelona-fgm2g"
+            "av": "thomas-lussi-y-lola-domenech-viviendas-para-cuatro-amigos-en-barcelona-fgm2g",
+            "other": [
+              {
+                "source": "coac",
+                "url": "https://www.arquitecturacatalana.cat/en/works/habitatges-pujades-251",
+                "lat": 41.40479,
+                "lng": 2.204367
+              }
+            ]
           },
-          "verifiedBy": []
+          "verifiedBy": [
+            "coac",
+            "av"
+          ]
         }
       ],
       "shapes": [],
@@ -1414,12 +1425,16 @@
       "points": [
         {
           "name": null,
-          "lat": null,
-          "lng": null,
+          "lat": 41.37903,
+          "lng": 2.177025,
           "refs": {
-            "av": "aprop-ciutat-vella-en-barcelona-5"
+            "av": "aprop-ciutat-vella-en-barcelona-5",
+            "osm": "node/11943262172"
           },
-          "verifiedBy": []
+          "verifiedBy": [
+            "osm",
+            "av"
+          ]
         }
       ],
       "shapes": [],
@@ -1441,12 +1456,23 @@
       "points": [
         {
           "name": null,
-          "lat": null,
-          "lng": null,
+          "lat": 41.364455,
+          "lng": 2.07921,
           "refs": {
-            "av": "85-viviendas-sociales-en-cornella-de-llobregat-barcelona"
+            "av": "85-viviendas-sociales-en-cornella-de-llobregat-barcelona",
+            "other": [
+              {
+                "source": "coac",
+                "url": "https://www.arquitecturacatalana.cat/en/works/85-habitatges-socials-a-cornella",
+                "lat": 41.3644549481,
+                "lng": 2.0792103087
+              }
+            ]
           },
-          "verifiedBy": []
+          "verifiedBy": [
+            "coac",
+            "av"
+          ]
         }
       ],
       "shapes": [],
@@ -1468,12 +1494,25 @@
       "points": [
         {
           "name": null,
-          "lat": null,
-          "lng": null,
+          "lat": 41.411929,
+          "lng": 2.210313,
           "refs": {
-            "av": "140-viviendas-sociales-en-el-22-de-barcelona"
+            "av": "140-viviendas-sociales-en-el-22-de-barcelona",
+            "osm": "way/913109892",
+            "other": [
+              {
+                "source": "coac",
+                "url": "https://www.arquitecturacatalana.cat/en/works/greenhuse-140-habitatges-socials-",
+                "lat": 41.4120901946,
+                "lng": 2.210294692
+              }
+            ]
           },
-          "verifiedBy": []
+          "verifiedBy": [
+            "osm",
+            "av",
+            "coac"
+          ]
         }
       ],
       "shapes": [],
@@ -1495,12 +1534,23 @@
       "points": [
         {
           "name": null,
-          "lat": null,
-          "lng": null,
+          "lat": 41.334386,
+          "lng": 2.044101,
           "refs": {
-            "av": "edificio-de-viviendas-en-sant-boi-de-llobregat"
+            "av": "edificio-de-viviendas-en-sant-boi-de-llobregat",
+            "other": [
+              {
+                "source": "coac",
+                "url": "https://www.arquitecturacatalana.cat/en/works/79-habitatges-amb-proteccio-al-salo-central",
+                "lat": 41.334386,
+                "lng": 2.044101
+              }
+            ]
           },
-          "verifiedBy": []
+          "verifiedBy": [
+            "coac",
+            "av"
+          ]
         }
       ],
       "shapes": [],
@@ -2534,12 +2584,25 @@
       "points": [
         {
           "name": null,
-          "lat": null,
-          "lng": null,
+          "lat": 41.432864,
+          "lng": 2.172178,
           "refs": {
-            "av": "polideportivo-turo-de-la-peira-en-barcelona"
+            "av": "polideportivo-turo-de-la-peira-en-barcelona",
+            "osm": "node/11991024284",
+            "other": [
+              {
+                "source": "coac",
+                "url": "https://www.arquitecturacatalana.cat/en/works/poliesportiu-i-ordenacio-interior-dilla-al-turo-de-la-peira",
+                "lat": 41.4329959967,
+                "lng": 2.1722957373
+              }
+            ]
           },
-          "verifiedBy": []
+          "verifiedBy": [
+            "osm",
+            "av",
+            "coac"
+          ]
         }
       ],
       "shapes": [],
@@ -4571,7 +4634,28 @@
       ],
       "why": "The new fishermen's market on the Moll del Rellotge in the port of Barceloneta, winner of the Barcelona City Architecture Award 2024.",
       "note": null,
-      "points": [],
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/1553389621",
+            "other": [
+              {
+                "source": "coac",
+                "url": "https://www.arquitecturacatalana.cat/en/works/nova-llotja-de-pescadors-al-port-de-barcelona",
+                "lat": 41.374927,
+                "lng": 2.18544
+              }
+            ]
+          },
+          "lat": 41.374266,
+          "lng": 2.185596,
+          "verifiedBy": [
+            "osm",
+            "coac"
+          ]
+        }
+      ],
       "shapes": [],
       "photos": []
     },

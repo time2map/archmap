@@ -4052,11 +4052,15 @@
         {
           "name": null,
           "refs": {
-            "av": "rehabilitacion-de-709-viviendas-lormont-10"
+            "av": "rehabilitacion-de-709-viviendas-lormont-10",
+            "osm": "node/12118504648"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 44.872039,
+          "lng": -0.514191,
+          "verifiedBy": [
+            "osm",
+            "av"
+          ]
         }
       ],
       "shapes": [],

@@ -47,7 +47,8 @@ completed works that Wikidata lacks (recent ones usually).
 Leave out, as city-top does: interiors (shops, restaurants, flats, fair stands), ephemeral
 pavilions and installations, unbuilt and competition projects, and works still under
 construction. Leave out a work the firm only renovated in a small way, or where it was only
-a consultant. A work that is not on the firm's site and has no other source that credits the
+a consultant. Leave out private homes (a family's house or cabin): they are not places to
+visit, and a pin on them points at private people. A work that is not on the firm's site and has no other source that credits the
 firm stays out; name it in the report.
 
 ## 3. Links

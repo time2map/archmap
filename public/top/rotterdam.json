@@ -3127,11 +3127,24 @@
         {
           "name": null,
           "refs": {
-            "osm": "node/11887541665"
+            "osm": "node/11887541665",
+            "other": [
+              {
+                "source": "archdaily",
+                "url": "https://www.archdaily.com/968996/port-pavilion-rotterdam-moederscheimmoonen-architects",
+                "lat": 51.9244201,
+                "lng": 4.4777326
+              }
+            ]
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 51.915273,
+          "lng": 4.48235,
+          "verifiedBy": [
+            "osm"
+          ],
+          "near": [
+            "archdaily"
+          ]
         }
       ],
       "shapes": [],
