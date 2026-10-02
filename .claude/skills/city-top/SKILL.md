@@ -115,7 +115,13 @@ significant words, or for Chinese and Japanese a part of 4+ characters); within 
 name differs (the name of the whole institution).
 Search OSM by the local name, not only the English one: OSM often has only the name in the
 local script (Shenzhen Energy Mansion is 能源大厦). Take the local names from the place's
-Wikidata item (labels in all languages) and from its Wikipedia article in the local language. The point is stored
+Wikidata item (labels in all languages) and from its Wikipedia article in the local language.
+When the name finds nothing, read where the place is in the texts about it (the architect's
+project page, the sources): a street, an address, a campus. Search OSM for that address and
+take the building itself, not the campus or the institution named in the text (Google Bay View
+is "at the NASA Ames Research Center": the buildings are 100–300 Bay View Drive, a kilometre
+from NASA's own point). Unnamed buildings are common for new works; a geotagged Commons photo
+of the place (search Commons, not only the Wikidata image) often supplies the second source. The point is stored
 with `near` listing the other sources; check a point accepted this way on the map. Geocoders built on OSM (Nominatim, Geoapify)
 are OSM, not a second source; use them to find the OSM object, then store its id.
 A single source is allowed only for a landmark whose Wikidata item has a Commons category; it

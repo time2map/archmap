@@ -1831,15 +1831,29 @@
                 "lat": 37.3860517,
                 "lng": -122.0838511
               }
-            ]
+            ],
+            "osm": "way/821621414"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 37.422537,
+          "lng": -122.064874,
+          "verifiedBy": [
+            "osm",
+            "photo-camera"
+          ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Google Bay View complex.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Google_Bay_View_complex.jpg/960px-Google_Bay_View_complex.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Google_Bay_View_complex.jpg/120px-Google_Bay_View_complex.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Google_Bay_View_complex.jpg",
+          "author": "Dicklyon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "google-gradient-canopy",
