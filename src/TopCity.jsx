@@ -217,10 +217,12 @@ function PlaceCard({ place, cityName, sources, selected, onSelect, onSelectPoint
             )}
             {place.area && <p className="mt-0.5 text-xs text-gray-500">{place.area}</p>}
           </div>
-          <div className="shrink-0 text-right" title="Independent authors and outlets that recommend this place">
-            <div className="text-lg font-bold leading-none text-gray-900">{votes}</div>
-            <div className="text-[10px] text-gray-500">{votes === 1 ? 'mention' : 'mentions'}</div>
-          </div>
+          {votes > 0 && (
+            <div className="shrink-0 text-right" title="Independent authors and outlets that recommend this place">
+              <div className="text-lg font-bold leading-none text-gray-900">{votes}</div>
+              <div className="text-[10px] text-gray-500">{votes === 1 ? 'mention' : 'mentions'}</div>
+            </div>
+          )}
         </div>
 
         <div className="mt-2 flex flex-wrap gap-1.5">
@@ -238,7 +240,7 @@ function PlaceCard({ place, cityName, sources, selected, onSelect, onSelectPoint
         {/* Works of top firms have no text of their own: the links below are the place to read about them */}
         {place.why && <p className="mt-3 text-sm leading-relaxed text-gray-800">{place.why}</p>}
 
-        <div className="mt-3">
+        {votes > 0 && <div className="mt-3">
           <p className="text-[11px] font-medium uppercase tracking-wide text-gray-500 mb-1">Recommended by</p>
           <div className="flex flex-wrap gap-1">
             {place.sources.map(key => {
@@ -258,7 +260,7 @@ function PlaceCard({ place, cityName, sources, selected, onSelect, onSelectPoint
               )
             })}
           </div>
-        </div>
+        </div>}
 
         {isEnsemble && (
           <ul className="mt-3 space-y-1">
@@ -301,6 +303,18 @@ function PlaceCard({ place, cityName, sources, selected, onSelect, onSelectPoint
         {place.note && <p className="mt-2 text-xs text-gray-500">{place.note}</p>}
 
         <div className="mt-3 pt-3 border-t border-gray-100 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
+          {/* The project's page on the website of the firm that designed it */}
+          {place.firmPage && (
+            <a
+              href={place.firmPage}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={stop}
+              className="inline-flex items-center gap-1 font-medium text-gray-900 hover:text-gray-700"
+            >
+              Read more on official website <ExternalIcon />
+            </a>
+          )}
           {mapPins.length > 0 ? (
             <a
               href={googleMapsUrl(mapPins[0])}

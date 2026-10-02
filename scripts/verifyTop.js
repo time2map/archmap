@@ -597,7 +597,9 @@ function validate(data, issuesByPlace, topErrors) {
     if (!place.title) issues.errors.push('title is missing')
     if (!GROUPS.includes(place.group)) issues.errors.push(`group must be one of ${GROUPS.join(', ')}`)
     if (place.tags) issues.errors.push('tags are no longer used — city-core is a group')
-    if (!place.sources?.length) issues.errors.push('no sources')
+    // The firm's page of its own work is a link to read more, not a recommendation
+    if (place.firmPage !== undefined && !/^https:\/\//.test(place.firmPage || '')) issues.errors.push('firmPage must be an https url')
+    if (!place.sources?.length && !place.firmPage) issues.errors.push('no sources')
     for (const id of place.sources || []) {
       if (!sources[id]) issues.errors.push(`unknown source "${id}"`)
       usedSources.add(id)

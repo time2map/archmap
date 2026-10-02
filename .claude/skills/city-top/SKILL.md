@@ -208,6 +208,8 @@ Família). Check on Commons that the file is wider than it is tall.
   "places": [{
     "id": "…", "title": "local name", "architect": "…", "year": "…", "area": "…",
     "group": "city-core|architecture|unusual|parks",
+    "firms": ["only for works of top firms, see the firm-works skill"],
+    "firmPage": "https://… the work's page on the firm's site, only with firms",
     "sources": ["<source-id>"], "why": "…", "note": null,
     "points": [{ "name": "building name inside an ensemble, else null",
       "lat": 0, "lng": 0,

@@ -1108,22 +1108,6 @@
       "date": null,
       "type": "media"
     },
-    "big-kaktus": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Kaktus Towers",
-      "url": "https://big.dk/projects/kaktus-towers-10789",
-      "date": null,
-      "type": "architect"
-    },
-    "big-sjakket": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Sjakket Youth Club",
-      "url": "https://big.dk/projects/sjakket-youth-club-1375",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-sjakket": {
       "publisher": "ArchDaily",
       "author": null,
@@ -1131,14 +1115,6 @@
       "url": "https://www.archdaily.com/13373/sjakket-youth-club-plot",
       "date": "2009-02-25",
       "type": "media"
-    },
-    "big-noma": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Noma 2.0",
-      "url": "https://big.dk/projects/noma-2-0-3189",
-      "date": null,
-      "type": "architect"
     },
     "archdaily-noma": {
       "publisher": "ArchDaily",
@@ -1148,22 +1124,6 @@
       "date": "2018-09-21",
       "type": "media"
     },
-    "big-big-hq": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "BIG HQ",
-      "url": "https://big.dk/projects/big-hq-11526",
-      "date": null,
-      "type": "architect"
-    },
-    "big-gammel-hellerup": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Gammel Hellerup Gymnasium",
-      "url": "https://big.dk/projects/gammel-hellerup-gymnasium-2271",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-gammel-hellerup": {
       "publisher": "ArchDaily",
       "author": null,
@@ -1172,14 +1132,6 @@
       "date": "2013-08-07",
       "type": "media"
     },
-    "big-maritime-museum": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Danish Maritime Museum",
-      "url": "https://big.dk/projects/danish-maritime-museum-1699",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-maritime-museum": {
       "publisher": "ArchDaily",
       "author": null,
@@ -1187,14 +1139,6 @@
       "url": "https://www.archdaily.com/440541/danish-national-maritime-museum-big",
       "date": "2013-10-21",
       "type": "media"
-    },
-    "big-helsingor-psychiatric": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Ellsinore Psychiatric Hospital",
-      "url": "https://big.dk/projects/psychiatric-hospital-2064",
-      "date": null,
-      "type": "architect"
     }
   },
   "places": [
@@ -5921,6 +5865,7 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/copenhill-2391",
       "sources": [
         "woco-masterpieces",
         "avontuura-2025",
@@ -6079,6 +6024,7 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/maritime-youth-house-2123",
       "sources": [
         "avontuura-2025",
         "av-myh"
@@ -6441,6 +6387,7 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/urban-rigger-3021",
       "sources": [
         "woco-architecture",
         "ad-michaelsen-2023",
@@ -6504,6 +6451,7 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/8-house-2021",
       "sources": [
         "woco-masterpieces",
         "avontuura-2025",
@@ -6590,6 +6538,7 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/the-mountain-1430",
       "sources": [
         "woco-masterpieces",
         "avontuura-2025",
@@ -6677,6 +6626,7 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/vm-houses-2181",
       "sources": [
         "avontuura-2025",
         "av-vmhouses",
@@ -6994,6 +6944,7 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/dortheavej-2-residences-2442",
       "sources": [
         "woco-masterpieces",
         "kk-awards",
@@ -7601,6 +7552,7 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/superkilen-1621",
       "sources": [
         "woco-masterpieces",
         "avontuura-2025",
@@ -7698,6 +7650,7 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/copenhagen-harbor-bath-1525",
       "sources": [
         "avontuura-2025",
         "av-harbourbath",
@@ -9247,9 +9200,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-kaktus"
-      ],
+      "firmPage": "https://big.dk/projects/kaktus-towers-10789",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -9260,7 +9212,7 @@
             "osm": "way/1030747647",
             "other": [
               {
-                "source": "big-kaktus",
+                "source": "firm",
                 "url": "https://big.dk/projects/kaktus-towers-10789",
                 "lat": 55.665904,
                 "lng": 12.5670108
@@ -9298,8 +9250,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/sjakket-youth-club-1375",
       "sources": [
-        "big-sjakket",
         "archdaily-sjakket"
       ],
       "why": null,
@@ -9311,7 +9263,7 @@
             "osm": "way/279937207",
             "other": [
               {
-                "source": "big-sjakket",
+                "source": "firm",
                 "url": "https://big.dk/projects/sjakket-youth-club-1375",
                 "lat": 55.7057182,
                 "lng": 12.5336375
@@ -9322,7 +9274,7 @@
           "lng": 12.533832,
           "verifiedBy": [
             "osm",
-            "big-sjakket"
+            "firm"
           ]
         }
       ],
@@ -9339,8 +9291,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/noma-2-0-3189",
       "sources": [
-        "big-noma",
         "archdaily-noma"
       ],
       "why": null,
@@ -9353,7 +9305,7 @@
             "osm": "node/5416925514",
             "other": [
               {
-                "source": "big-noma",
+                "source": "firm",
                 "url": "https://big.dk/projects/noma-2-0-3189",
                 "lat": 55.6828273,
                 "lng": 12.6104808
@@ -9365,7 +9317,7 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-noma"
+            "firm"
           ]
         }
       ],
@@ -9382,9 +9334,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-big-hq"
-      ],
+      "firmPage": "https://big.dk/projects/big-hq-11526",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -9394,7 +9345,7 @@
             "osm": "way/1030758514",
             "other": [
               {
-                "source": "big-big-hq",
+                "source": "firm",
                 "url": "https://big.dk/projects/big-hq-11526",
                 "lat": 55.7085308512724,
                 "lng": 12.6044706363617
@@ -9405,7 +9356,7 @@
           "lng": 12.60446,
           "verifiedBy": [
             "osm",
-            "big-big-hq"
+            "firm"
           ]
         }
       ],
@@ -9422,8 +9373,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/gammel-hellerup-gymnasium-2271",
       "sources": [
-        "big-gammel-hellerup",
         "archdaily-gammel-hellerup"
       ],
       "why": null,
@@ -9436,7 +9387,7 @@
             "osm": "way/660433562",
             "other": [
               {
-                "source": "big-gammel-hellerup",
+                "source": "firm",
                 "url": "https://big.dk/projects/gammel-hellerup-gymnasium-2271",
                 "lat": 55.730653,
                 "lng": 12.5734051
@@ -9448,7 +9399,7 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-gammel-hellerup"
+            "firm"
           ]
         }
       ],
@@ -9465,8 +9416,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/danish-maritime-museum-1699",
       "sources": [
-        "big-maritime-museum",
         "archdaily-maritime-museum"
       ],
       "why": null,
@@ -9479,7 +9430,7 @@
             "osm": "way/192140803",
             "other": [
               {
-                "source": "big-maritime-museum",
+                "source": "firm",
                 "url": "https://big.dk/projects/danish-maritime-museum-1699",
                 "lat": 56.0390219,
                 "lng": 12.6160778
@@ -9491,7 +9442,7 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-maritime-museum"
+            "firm"
           ]
         }
       ],
@@ -9518,9 +9469,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-helsingor-psychiatric"
-      ],
+      "firmPage": "https://big.dk/projects/psychiatric-hospital-2064",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -9530,7 +9480,7 @@
             "osm": "way/145245495",
             "other": [
               {
-                "source": "big-helsingor-psychiatric",
+                "source": "firm",
                 "url": "https://big.dk/projects/psychiatric-hospital-2064",
                 "lat": 56.0401559,
                 "lng": 12.5675499
@@ -9543,7 +9493,7 @@
             "osm"
           ],
           "near": [
-            "big-helsingor-psychiatric"
+            "firm"
           ]
         }
       ],

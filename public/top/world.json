@@ -3,14 +3,6 @@
   "name": "Beyond cities",
   "updated": "2026-10-02",
   "sources": {
-    "big-lego-house": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "LEGO Brand House",
-      "url": "https://big.dk/projects/lego-brand-house-2740",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-lego-house": {
       "publisher": "ArchDaily",
       "author": null,
@@ -18,14 +10,6 @@
       "url": "https://www.archdaily.com/880900/lego-house-big",
       "date": "2017-10-03",
       "type": "media"
-    },
-    "big-tirpitz": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Tirpitz Museum",
-      "url": "https://big.dk/projects/tirpitz-museum-2640",
-      "date": null,
-      "type": "architect"
     },
     "archdaily-tirpitz": {
       "publisher": "ArchDaily",
@@ -35,14 +19,6 @@
       "date": "2017-07-18",
       "type": "media"
     },
-    "big-flugt": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Refugee Museum of Denmark",
-      "url": "https://big.dk/projects/denmarks-refugee-museum-4593",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-flugt": {
       "publisher": "ArchDaily",
       "author": null,
@@ -50,14 +26,6 @@
       "url": "https://www.archdaily.com/984378/flugt-refugee-museum-of-denmark-big",
       "date": "2022-06-29",
       "type": "media"
-    },
-    "big-marsk-tower": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Marsk Tower",
-      "url": "https://big.dk/projects/marsk-tower-4092",
-      "date": null,
-      "type": "architect"
     },
     "archdaily-marsk-tower": {
       "publisher": "ArchDaily",
@@ -67,14 +35,6 @@
       "date": "2021-08-12",
       "type": "media"
     },
-    "big-henning-g-kruses-plads": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Henning G. Kruses Plads",
-      "url": "https://big.dk/projects/henning-g-kruses-plads-3889",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-henning-g-kruses-plads": {
       "publisher": "ArchDaily",
       "author": null,
@@ -82,14 +42,6 @@
       "url": "https://www.archdaily.com/970678/henning-g-kruses-plads-big",
       "date": "2021-10-25",
       "type": "media"
-    },
-    "big-aarhus-residences": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "AARhus Residences",
-      "url": "https://big.dk/projects/aarhus-residences-19789",
-      "date": null,
-      "type": "architect"
     },
     "archdaily-aarhus-harbor-bath": {
       "publisher": "ArchDaily",
@@ -99,14 +51,6 @@
       "date": "2018-08-13",
       "type": "media"
     },
-    "big-sneglehusene": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Sneglehusene Residences",
-      "url": "https://big.dk/projects/sneglehusene-12338",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-sneglehusene": {
       "publisher": "ArchDaily",
       "author": null,
@@ -114,38 +58,6 @@
       "url": "https://www.archdaily.com/989940/sneglehusene-housing-big",
       "date": "2022-10-05",
       "type": "media"
-    },
-    "big-kampanilen": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Kampanilen",
-      "url": "https://big.dk/projects/kampanilen-14736",
-      "date": null,
-      "type": "architect"
-    },
-    "big-villa-gug": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Villa Gug",
-      "url": "https://big.dk/projects/villa-gug-2994",
-      "date": null,
-      "type": "architect"
-    },
-    "big-hb-trapper": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "HB Trapper",
-      "url": "https://big.dk/projects/hb-trapper-3767",
-      "date": null,
-      "type": "architect"
-    },
-    "big-dymak-hq": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Dymak HQ",
-      "url": "https://big.dk/projects/dymak-hq-16408",
-      "date": null,
-      "type": "architect"
     },
     "archdaily-dymak-hq": {
       "publisher": "ArchDaily",
@@ -155,14 +67,6 @@
       "date": "2026-07-02",
       "type": "media"
     },
-    "big-glasir": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Glasir",
-      "url": "https://big.dk/projects/glasir-1487",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-glasir": {
       "publisher": "ArchDaily",
       "author": null,
@@ -170,14 +74,6 @@
       "url": "https://www.archdaily.com/914510/glasir-torshavn-college-big",
       "date": "2019-04-08",
       "type": "media"
-    },
-    "big-the-twist": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "The Twist",
-      "url": "https://big.dk/projects/the-twist-2-1337",
-      "date": null,
-      "type": "architect"
     },
     "archdaily-the-twist": {
       "publisher": "ArchDaily",
@@ -187,14 +83,6 @@
       "date": "2019-09-18",
       "type": "media"
     },
-    "big-the-plus": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "The Plus",
-      "url": "https://big.dk/projects/the-plus-3837",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-the-plus": {
       "publisher": "ArchDaily",
       "author": null,
@@ -202,14 +90,6 @@
       "url": "https://www.archdaily.com/982957/the-plus-for-vestre-big",
       "date": "2022-06-01",
       "type": "media"
-    },
-    "big-79-park": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "79 \\u0026 Park Residences",
-      "url": "https://big.dk/projects/79-park-residences-2557",
-      "date": null,
-      "type": "architect"
     },
     "archdaily-79-park": {
       "publisher": "ArchDaily",
@@ -219,14 +99,6 @@
       "date": "2018-11-08",
       "type": "media"
     },
-    "big-biosphere": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Biosphere",
-      "url": "https://big.dk/projects/biosphere-4043",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-biosphere": {
       "publisher": "ArchDaily",
       "author": null,
@@ -234,30 +106,6 @@
       "url": "https://www.archdaily.com/984164/biosphere-at-treehotel-big",
       "date": "2022-06-24",
       "type": "media"
-    },
-    "big-omniturm": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Omniturm",
-      "url": "https://big.dk/projects/omniturm-tower-4529",
-      "date": null,
-      "type": "architect"
-    },
-    "big-edge-east-side": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "EDGE East Side Berlin",
-      "url": "https://big.dk/projects/edge-east-side-berlin-23193",
-      "date": null,
-      "type": "architect"
-    },
-    "big-sluishuis": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Sluishuis Residences",
-      "url": "https://big.dk/projects/sluishuis-residences-missing-pictures-7293",
-      "date": null,
-      "type": "architect"
     },
     "archdaily-sluishuis": {
       "publisher": "ArchDaily",
@@ -267,22 +115,6 @@
       "date": "2022-07-15",
       "type": "media"
     },
-    "big-transitlager": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Transitlager Dreispitz",
-      "url": "https://big.dk/projects/transitlager-dreispitz-2478",
-      "date": null,
-      "type": "architect"
-    },
-    "big-musee-atelier-ap": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Musée Atelier Audemars Piguet",
-      "url": "https://big.dk/projects/musee-atelier-audemars-piguet-2884",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-musee-atelier-ap": {
       "publisher": "ArchDaily",
       "author": null,
@@ -290,38 +122,6 @@
       "url": "https://www.archdaily.com/938537/atelier-audemars-piguet-museum-big",
       "date": "2020-04-29",
       "type": "media"
-    },
-    "big-hotel-des-horlogers": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Audemars Piguet Hotel",
-      "url": "https://big.dk/projects/audemars-piguet-hotel-5067",
-      "date": null,
-      "type": "architect"
-    },
-    "big-skypark": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Skypark Business Center",
-      "url": "https://big.dk/projects/skypark-business-center-3716",
-      "date": null,
-      "type": "architect"
-    },
-    "big-goe": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Gastronomy Open Ecosystem",
-      "url": "https://big.dk/projects/gastronomy-open-ecosystem-4679",
-      "date": null,
-      "type": "architect"
-    },
-    "big-via-57-west": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "VIA 57 West",
-      "url": "https://big.dk/projects/via-57-west-2350",
-      "date": null,
-      "type": "architect"
     },
     "archdaily-via-57-west": {
       "publisher": "ArchDaily",
@@ -331,14 +131,6 @@
       "date": "2016-09-08",
       "type": "media"
     },
-    "big-the-spiral": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "The Spiral",
-      "url": "https://big.dk/projects/the-spiral-4456",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-the-spiral": {
       "publisher": "ArchDaily",
       "author": null,
@@ -346,14 +138,6 @@
       "url": "https://www.archdaily.com/1008788/the-spiral-big",
       "date": "2023-10-25",
       "type": "media"
-    },
-    "big-the-smile": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "The Smile",
-      "url": "https://big.dk/projects/the-smile-residences-2956",
-      "date": null,
-      "type": "architect"
     },
     "archdaily-the-smile": {
       "publisher": "ArchDaily",
@@ -363,46 +147,6 @@
       "date": "2020-12-15",
       "type": "media"
     },
-    "big-one-high-line": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "One High Line",
-      "url": "https://big.dk/projects/one-high-line-3358",
-      "date": null,
-      "type": "architect"
-    },
-    "big-nypd-40th-precinct": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "NYPD 40th Precinct",
-      "url": "https://big.dk/projects/nypd-40th-precinct-3162",
-      "date": null,
-      "type": "architect"
-    },
-    "big-solar-one": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Solar One Environmental Education Center",
-      "url": "https://big.dk/projects/solar-one-environmental-education-center-21999",
-      "date": null,
-      "type": "architect"
-    },
-    "big-wildflower-studios": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Wildflower Film Studios Astoria",
-      "url": "https://big.dk/projects/wildflower-film-studios-astoria-4006",
-      "date": null,
-      "type": "architect"
-    },
-    "big-1200-intrepid": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "1200 Intrepid",
-      "url": "https://big.dk/projects/1200-intrepid-2933",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-1200-intrepid": {
       "publisher": "ArchDaily",
       "author": null,
@@ -410,14 +154,6 @@
       "url": "https://www.archdaily.com/799118/1200-intrepid-bjarke-ingels-group",
       "date": "2016-11-10",
       "type": "media"
-    },
-    "big-grove-grand-bay": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "The Grove at Grand Bay",
-      "url": "https://big.dk/projects/the-grove-at-grand-bay-2696",
-      "date": null,
-      "type": "architect"
     },
     "archdaily-grove-grand-bay": {
       "publisher": "ArchDaily",
@@ -427,14 +163,6 @@
       "date": "2018-02-21",
       "type": "media"
     },
-    "big-google-bay-view": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Google Bay View",
-      "url": "https://big.dk/projects/google-bay-view-3070",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-google-bay-view": {
       "publisher": "ArchDaily",
       "author": null,
@@ -442,30 +170,6 @@
       "url": "https://www.archdaily.com/985328/google-bay-view-big-plus-heatherwick-studio",
       "date": "2022-07-14",
       "type": "media"
-    },
-    "big-google-gradient-canopy": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Google Gradient Canopy",
-      "url": "https://big.dk/projects/google-gradient-canopy-16167",
-      "date": null,
-      "type": "architect"
-    },
-    "big-google-caribbean": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Google Caribbean",
-      "url": "https://big.dk/projects/google-caribbean-3648",
-      "date": null,
-      "type": "architect"
-    },
-    "big-isenberg": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Isenberg Innovation Hub",
-      "url": "https://big.dk/projects/isenberg-innovation-hub-3466",
-      "date": null,
-      "type": "architect"
     },
     "archdaily-isenberg": {
       "publisher": "ArchDaily",
@@ -475,14 +179,6 @@
       "date": "2019-04-17",
       "type": "media"
     },
-    "big-heights-building": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "The Heights School",
-      "url": "https://big.dk/projects/the-heights-school-3104",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-heights-building": {
       "publisher": "ArchDaily",
       "author": null,
@@ -490,14 +186,6 @@
       "url": "https://www.archdaily.com/927336/the-heights-building-big",
       "date": "2019-10-29",
       "type": "media"
-    },
-    "big-bloomberg-center": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Bloomberg Student Center at Johns Hopkins University",
-      "url": "https://big.dk/projects/bloomberg-student-center-at-johns-hopkins-university-22443",
-      "date": null,
-      "type": "architect"
     },
     "archdaily-bloomberg-center": {
       "publisher": "ArchDaily",
@@ -507,14 +195,6 @@
       "date": "2025-10-20",
       "type": "media"
     },
-    "big-robert-day-sciences": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Claremont McKenna College",
-      "url": "https://big.dk/projects/claremont-mckenna-college-14115",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-robert-day-sciences": {
       "publisher": "ArchDaily",
       "author": null,
@@ -522,30 +202,6 @@
       "url": "https://www.archdaily.com/1034623/claremont-mckenna-college-robert-day-sciences-center-big",
       "date": "2025-10-01",
       "type": "media"
-    },
-    "big-telus-sky": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Telus Sky",
-      "url": "https://big.dk/projects/telus-sky-4861",
-      "date": null,
-      "type": "architect"
-    },
-    "big-vancouver-house": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Vancouver House",
-      "url": "https://big.dk/projects/vancouver-house-missing-pictures-7130",
-      "date": null,
-      "type": "architect"
-    },
-    "big-iqon": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "IQON Residences",
-      "url": "https://big.dk/projects/iqon-residences-3687",
-      "date": null,
-      "type": "architect"
     },
     "archdaily-iqon": {
       "publisher": "ArchDaily",
@@ -555,30 +211,6 @@
       "date": "2022-12-08",
       "type": "media"
     },
-    "big-epiq": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "EPIQ Residences",
-      "url": "https://big.dk/projects/epiq-residences-3797",
-      "date": null,
-      "type": "architect"
-    },
-    "big-honeycomb": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Honeycomb Residences \\u0026 Albany Masterplan",
-      "url": "https://big.dk/projects/honeycomb-residences-albany-masterplan-11530",
-      "date": null,
-      "type": "architect"
-    },
-    "big-capitaspring": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "CapitaSpring",
-      "url": "https://big.dk/projects/capitaspring-4630",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-capitaspring": {
       "publisher": "ArchDaily",
       "author": null,
@@ -586,14 +218,6 @@
       "url": "https://www.archdaily.com/989946/capitaspring-big-plus-carlo-ratti-associati",
       "date": "2022-10-04",
       "type": "media"
-    },
-    "big-shenzhen-energy": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Shenzhen Energy Mansion HQ",
-      "url": "https://big.dk/projects/shenzhen-energy-mansion-hq-2314",
-      "date": null,
-      "type": "architect"
     },
     "archdaily-shenzhen-energy": {
       "publisher": "ArchDaily",
@@ -603,14 +227,6 @@
       "date": "2018-08-08",
       "type": "media"
     },
-    "big-suzhou-moca": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Suzhou Museum of Contemporary Art",
-      "url": "https://big.dk/projects/suzhou-museum-of-contemporary-art-18410",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-suzhou-moca": {
       "publisher": "ArchDaily",
       "author": null,
@@ -619,14 +235,6 @@
       "date": "2025-11-13",
       "type": "media"
     },
-    "big-jinji-lake-pavilion": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "Jinji Lake Pavilion",
-      "url": "https://big.dk/projects/jinji-lake-pavilion-20223",
-      "date": null,
-      "type": "architect"
-    },
     "archdaily-jinji-lake-pavilion": {
       "publisher": "ArchDaily",
       "author": null,
@@ -634,14 +242,6 @@
       "url": "https://www.archdaily.com/1027184/jinji-lake-pavilion-big",
       "date": "2025-02-21",
       "type": "media"
-    },
-    "big-not-a-hotel-setouchi": {
-      "publisher": "BIG",
-      "author": null,
-      "title": "NOT A HOTEL Setouchi",
-      "url": "https://big.dk/projects/not-a-hotel-setouchi-18610",
-      "date": null,
-      "type": "architect"
     },
     "archdaily-not-a-hotel-setouchi": {
       "publisher": "ArchDaily",
@@ -663,8 +263,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/lego-brand-house-2740",
       "sources": [
-        "big-lego-house",
         "archdaily-lego-house"
       ],
       "why": null,
@@ -677,7 +277,7 @@
             "osm": "way/388186452",
             "other": [
               {
-                "source": "big-lego-house",
+                "source": "firm",
                 "url": "https://big.dk/projects/lego-brand-house-2740",
                 "lat": 55.728449,
                 "lng": 9.112366
@@ -716,8 +316,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/tirpitz-museum-2640",
       "sources": [
-        "big-tirpitz",
         "archdaily-tirpitz"
       ],
       "why": null,
@@ -730,7 +330,7 @@
             "osm": "way/434573248",
             "other": [
               {
-                "source": "big-tirpitz",
+                "source": "firm",
                 "url": "https://big.dk/projects/tirpitz-museum-2640",
                 "lat": 55.550401,
                 "lng": 8.172243
@@ -742,7 +342,7 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-tirpitz",
+            "firm",
             "photo-camera"
           ]
         }
@@ -770,8 +370,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/denmarks-refugee-museum-4593",
       "sources": [
-        "big-flugt",
         "archdaily-flugt"
       ],
       "why": null,
@@ -784,7 +384,7 @@
             "osm": "way/198624909",
             "other": [
               {
-                "source": "big-flugt",
+                "source": "firm",
                 "url": "https://big.dk/projects/denmarks-refugee-museum-4593",
                 "lat": 55.6280388,
                 "lng": 8.2801861
@@ -824,8 +424,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/marsk-tower-4092",
       "sources": [
-        "big-marsk-tower",
         "archdaily-marsk-tower"
       ],
       "why": null,
@@ -838,7 +438,7 @@
             "osm": "way/964443735",
             "other": [
               {
-                "source": "big-marsk-tower",
+                "source": "firm",
                 "url": "https://big.dk/projects/marsk-tower-4092",
                 "lat": 55.1529003,
                 "lng": 8.7412282
@@ -850,7 +450,7 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-marsk-tower",
+            "firm",
             "photo-camera"
           ]
         }
@@ -878,8 +478,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/henning-g-kruses-plads-3889",
       "sources": [
-        "big-henning-g-kruses-plads",
         "archdaily-henning-g-kruses-plads"
       ],
       "why": null,
@@ -891,7 +491,7 @@
             "osm": "way/871712733",
             "other": [
               {
-                "source": "big-henning-g-kruses-plads",
+                "source": "firm",
                 "url": "https://big.dk/projects/henning-g-kruses-plads-3889",
                 "lat": 55.464138,
                 "lng": 8.45187
@@ -902,7 +502,7 @@
           "lng": 8.451248,
           "verifiedBy": [
             "osm",
-            "big-henning-g-kruses-plads"
+            "firm"
           ]
         }
       ],
@@ -919,9 +519,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-aarhus-residences"
-      ],
+      "firmPage": "https://big.dk/projects/aarhus-residences-19789",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -932,7 +531,7 @@
             "osm": "relation/9685016",
             "other": [
               {
-                "source": "big-aarhus-residences",
+                "source": "firm",
                 "url": "https://big.dk/projects/aarhus-residences-19789",
                 "lat": 56.1629735179162,
                 "lng": 10.2283701394256
@@ -944,7 +543,7 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-aarhus-residences"
+            "firm"
           ]
         }
       ],
@@ -1000,8 +599,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/sneglehusene-12338",
       "sources": [
-        "big-sneglehusene",
         "archdaily-sneglehusene"
       ],
       "why": null,
@@ -1012,7 +611,7 @@
           "refs": {
             "other": [
               {
-                "source": "big-sneglehusene",
+                "source": "firm",
                 "url": "https://big.dk/projects/sneglehusene-12338",
                 "lat": 56.162939,
                 "lng": 10.203921
@@ -1047,9 +646,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-kampanilen"
-      ],
+      "firmPage": "https://big.dk/projects/kampanilen-14736",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -1060,7 +658,7 @@
             "osm": "way/922672715",
             "other": [
               {
-                "source": "big-kampanilen",
+                "source": "firm",
                 "url": "https://big.dk/projects/kampanilen-14736",
                 "lat": 56.162939,
                 "lng": 10.203921
@@ -1099,9 +697,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-villa-gug"
-      ],
+      "firmPage": "https://big.dk/projects/villa-gug-2994",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -1110,7 +707,7 @@
           "refs": {
             "other": [
               {
-                "source": "big-villa-gug",
+                "source": "firm",
                 "url": "https://big.dk/projects/villa-gug-2994",
                 "lat": 57.0488195,
                 "lng": 9.921747
@@ -1135,9 +732,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-hb-trapper"
-      ],
+      "firmPage": "https://big.dk/projects/hb-trapper-3767",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -1146,7 +742,7 @@
           "refs": {
             "other": [
               {
-                "source": "big-hb-trapper",
+                "source": "firm",
                 "url": "https://big.dk/projects/hb-trapper-3767",
                 "lat": 56.1333441,
                 "lng": 8.9122068
@@ -1171,8 +767,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/dymak-hq-16408",
       "sources": [
-        "big-dymak-hq",
         "archdaily-dymak-hq"
       ],
       "why": null,
@@ -1184,7 +780,7 @@
             "osm": "node/13703104615",
             "other": [
               {
-                "source": "big-dymak-hq",
+                "source": "firm",
                 "url": "https://big.dk/projects/dymak-hq-16408",
                 "lat": 55.3501124668157,
                 "lng": 10.4256301165772
@@ -1195,7 +791,7 @@
           "lng": 10.42595,
           "verifiedBy": [
             "osm",
-            "big-dymak-hq"
+            "firm"
           ]
         }
       ],
@@ -1212,8 +808,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/glasir-1487",
       "sources": [
-        "big-glasir",
         "archdaily-glasir"
       ],
       "why": null,
@@ -1225,7 +821,7 @@
             "osm": "way/997129492",
             "other": [
               {
-                "source": "big-glasir",
+                "source": "firm",
                 "url": "https://big.dk/projects/glasir-1487",
                 "lat": 62.0063177,
                 "lng": -6.7989888
@@ -1236,7 +832,7 @@
           "lng": -6.799066,
           "verifiedBy": [
             "osm",
-            "big-glasir"
+            "firm"
           ]
         }
       ],
@@ -1253,8 +849,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/the-twist-2-1337",
       "sources": [
-        "big-the-twist",
         "archdaily-the-twist"
       ],
       "why": null,
@@ -1266,7 +862,7 @@
             "osm": "way/947867299",
             "other": [
               {
-                "source": "big-the-twist",
+                "source": "firm",
                 "url": "https://big.dk/projects/the-twist-2-1337",
                 "lat": 60.2223203,
                 "lng": 10.3691027
@@ -1304,8 +900,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/the-plus-3837",
       "sources": [
-        "big-the-plus",
         "archdaily-the-plus"
       ],
       "why": null,
@@ -1317,7 +913,7 @@
             "osm": "way/1158921090",
             "other": [
               {
-                "source": "big-the-plus",
+                "source": "firm",
                 "url": "https://big.dk/projects/the-plus-3837",
                 "lat": 59.9502509,
                 "lng": 12.1905492
@@ -1330,7 +926,7 @@
             "osm"
           ],
           "near": [
-            "big-the-plus"
+            "firm"
           ]
         }
       ],
@@ -1347,8 +943,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/79-park-residences-2557",
       "sources": [
-        "big-79-park",
         "archdaily-79-park"
       ],
       "why": null,
@@ -1361,7 +957,7 @@
             "osm": "relation/10519722",
             "other": [
               {
-                "source": "big-79-park",
+                "source": "firm",
                 "url": "https://big.dk/projects/79-park-residences-2557",
                 "lat": 59.3402425,
                 "lng": 18.1122368
@@ -1373,7 +969,7 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-79-park"
+            "firm"
           ]
         }
       ],
@@ -1400,8 +996,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/biosphere-4043",
       "sources": [
-        "big-biosphere",
         "archdaily-biosphere"
       ],
       "why": null,
@@ -1412,7 +1008,7 @@
           "refs": {
             "other": [
               {
-                "source": "big-biosphere",
+                "source": "firm",
                 "url": "https://big.dk/projects/biosphere-4043",
                 "lat": 66.08265,
                 "lng": 20.96268
@@ -1437,9 +1033,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-omniturm"
-      ],
+      "firmPage": "https://big.dk/projects/omniturm-tower-4529",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -1450,7 +1045,7 @@
             "osm": "way/598133203",
             "other": [
               {
-                "source": "big-omniturm",
+                "source": "firm",
                 "url": "https://big.dk/projects/omniturm-tower-4529",
                 "lat": 50.1109221,
                 "lng": 8.6821267
@@ -1488,9 +1083,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-edge-east-side"
-      ],
+      "firmPage": "https://big.dk/projects/edge-east-side-berlin-23193",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -1501,7 +1095,7 @@
             "osm": "way/1364133390",
             "other": [
               {
-                "source": "big-edge-east-side",
+                "source": "firm",
                 "url": "https://big.dk/projects/edge-east-side-berlin-23193",
                 "lat": 52.5200066,
                 "lng": 13.404954
@@ -1540,8 +1134,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/sluishuis-residences-missing-pictures-7293",
       "sources": [
-        "big-sluishuis",
         "archdaily-sluishuis"
       ],
       "why": null,
@@ -1554,7 +1148,7 @@
             "osm": "relation/21145516",
             "other": [
               {
-                "source": "big-sluishuis",
+                "source": "firm",
                 "url": "https://big.dk/projects/sluishuis-residences-missing-pictures-7293",
                 "lat": 52.3675734,
                 "lng": 4.9041389
@@ -1593,9 +1187,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-transitlager"
-      ],
+      "firmPage": "https://big.dk/projects/transitlager-dreispitz-2478",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -1605,7 +1198,7 @@
             "osm": "way/550649111",
             "other": [
               {
-                "source": "big-transitlager",
+                "source": "firm",
                 "url": "https://big.dk/projects/transitlager-dreispitz-2478",
                 "lat": 47.5319187,
                 "lng": 7.6096902
@@ -1616,7 +1209,7 @@
           "lng": 7.610493,
           "verifiedBy": [
             "osm",
-            "big-transitlager"
+            "firm"
           ]
         }
       ],
@@ -1633,8 +1226,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/musee-atelier-audemars-piguet-2884",
       "sources": [
-        "big-musee-atelier-ap",
         "archdaily-musee-atelier-ap"
       ],
       "why": null,
@@ -1647,7 +1240,7 @@
             "osm": "node/995696434",
             "other": [
               {
-                "source": "big-musee-atelier-ap",
+                "source": "firm",
                 "url": "https://big.dk/projects/musee-atelier-audemars-piguet-2884",
                 "lat": 46.5803968,
                 "lng": 6.2084088
@@ -1659,7 +1252,7 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-musee-atelier-ap"
+            "firm"
           ]
         }
       ],
@@ -1676,9 +1269,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-hotel-des-horlogers"
-      ],
+      "firmPage": "https://big.dk/projects/audemars-piguet-hotel-5067",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -1689,7 +1281,7 @@
             "osm": "way/982245636",
             "other": [
               {
-                "source": "big-hotel-des-horlogers",
+                "source": "firm",
                 "url": "https://big.dk/projects/audemars-piguet-hotel-5067",
                 "lat": 46.5818107,
                 "lng": 6.2116248
@@ -1702,7 +1294,7 @@
             "osm"
           ],
           "near": [
-            "big-hotel-des-horlogers"
+            "firm"
           ]
         }
       ],
@@ -1719,9 +1311,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-skypark"
-      ],
+      "firmPage": "https://big.dk/projects/skypark-business-center-3716",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -1730,7 +1321,7 @@
           "refs": {
             "other": [
               {
-                "source": "big-skypark",
+                "source": "firm",
                 "url": "https://big.dk/projects/skypark-business-center-3716",
                 "lat": 49.6339875,
                 "lng": 6.2144844
@@ -1755,9 +1346,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-goe"
-      ],
+      "firmPage": "https://big.dk/projects/gastronomy-open-ecosystem-4679",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -1768,7 +1358,7 @@
             "osm": "way/1257733900",
             "other": [
               {
-                "source": "big-goe",
+                "source": "firm",
                 "url": "https://big.dk/projects/gastronomy-open-ecosystem-4679",
                 "lat": 43.3253588136207,
                 "lng": -1.9693973938263
@@ -1780,7 +1370,7 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-goe"
+            "firm"
           ]
         }
       ],
@@ -1797,8 +1387,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/via-57-west-2350",
       "sources": [
-        "big-via-57-west",
         "archdaily-via-57-west"
       ],
       "why": null,
@@ -1811,7 +1401,7 @@
             "osm": "relation/4463147",
             "other": [
               {
-                "source": "big-via-57-west",
+                "source": "firm",
                 "url": "https://big.dk/projects/via-57-west-2350",
                 "lat": 40.7711006,
                 "lng": -73.9923335
@@ -1823,7 +1413,7 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-via-57-west",
+            "firm",
             "photo-camera"
           ]
         }
@@ -1851,8 +1441,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/the-spiral-4456",
       "sources": [
-        "big-the-spiral",
         "archdaily-the-spiral"
       ],
       "why": null,
@@ -1865,7 +1455,7 @@
             "osm": "way/1021580375",
             "other": [
               {
-                "source": "big-the-spiral",
+                "source": "firm",
                 "url": "https://big.dk/projects/the-spiral-4456",
                 "lat": 40.7552556,
                 "lng": -73.9995584
@@ -1877,7 +1467,7 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-the-spiral"
+            "firm"
           ]
         }
       ],
@@ -1904,8 +1494,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/the-smile-residences-2956",
       "sources": [
-        "big-the-smile",
         "archdaily-the-smile"
       ],
       "why": null,
@@ -1916,7 +1506,7 @@
           "refs": {
             "other": [
               {
-                "source": "big-the-smile",
+                "source": "firm",
                 "url": "https://big.dk/projects/the-smile-residences-2956",
                 "lat": 40.8046058224443,
                 "lng": -73.9363014915405
@@ -1932,7 +1522,7 @@
           "lat": 40.804606,
           "lng": -73.936301,
           "verifiedBy": [
-            "big-the-smile",
+            "firm",
             "archdaily-the-smile"
           ]
         }
@@ -1960,9 +1550,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-one-high-line"
-      ],
+      "firmPage": "https://big.dk/projects/one-high-line-3358",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -1973,7 +1562,7 @@
             "osm": "way/1275407069",
             "other": [
               {
-                "source": "big-one-high-line",
+                "source": "firm",
                 "url": "https://big.dk/projects/one-high-line-3358",
                 "lat": 40.7449333,
                 "lng": -74.0078645
@@ -1984,7 +1573,7 @@
           "lng": -74.007559,
           "verifiedBy": [
             "osm",
-            "big-one-high-line"
+            "firm"
           ]
         }
       ],
@@ -2011,9 +1600,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-nypd-40th-precinct"
-      ],
+      "firmPage": "https://big.dk/projects/nypd-40th-precinct-3162",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -2023,7 +1611,7 @@
             "osm": "way/643861448",
             "other": [
               {
-                "source": "big-nypd-40th-precinct",
+                "source": "firm",
                 "url": "https://big.dk/projects/nypd-40th-precinct-3162",
                 "lat": 40.8147474,
                 "lng": -73.9134661
@@ -2034,7 +1622,7 @@
           "lng": -73.913089,
           "verifiedBy": [
             "osm",
-            "big-nypd-40th-precinct"
+            "firm"
           ]
         }
       ],
@@ -2051,9 +1639,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-solar-one"
-      ],
+      "firmPage": "https://big.dk/projects/solar-one-environmental-education-center-21999",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -2063,7 +1650,7 @@
             "osm": "way/1515002113",
             "other": [
               {
-                "source": "big-solar-one",
+                "source": "firm",
                 "url": "https://big.dk/projects/solar-one-environmental-education-center-21999",
                 "lat": 40.7366507,
                 "lng": -73.9743619
@@ -2076,7 +1663,7 @@
             "osm"
           ],
           "near": [
-            "big-solar-one"
+            "firm"
           ]
         }
       ],
@@ -2093,9 +1680,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-wildflower-studios"
-      ],
+      "firmPage": "https://big.dk/projects/wildflower-film-studios-astoria-4006",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -2105,7 +1691,7 @@
             "osm": "way/1073543762",
             "other": [
               {
-                "source": "big-wildflower-studios",
+                "source": "firm",
                 "url": "https://big.dk/projects/wildflower-film-studios-astoria-4006",
                 "lat": 40.7803800097913,
                 "lng": -73.9011888363403
@@ -2116,7 +1702,7 @@
           "lng": -73.9013,
           "verifiedBy": [
             "osm",
-            "big-wildflower-studios"
+            "firm"
           ]
         }
       ],
@@ -2133,8 +1719,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/1200-intrepid-2933",
       "sources": [
-        "big-1200-intrepid",
         "archdaily-1200-intrepid"
       ],
       "why": null,
@@ -2147,7 +1733,7 @@
             "osm": "way/422720596",
             "other": [
               {
-                "source": "big-1200-intrepid",
+                "source": "firm",
                 "url": "https://big.dk/projects/1200-intrepid-2933",
                 "lat": 39.8938671,
                 "lng": -75.1725048
@@ -2159,7 +1745,7 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-1200-intrepid",
+            "firm",
             "photo-camera"
           ]
         }
@@ -2187,8 +1773,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/the-grove-at-grand-bay-2696",
       "sources": [
-        "big-grove-grand-bay",
         "archdaily-grove-grand-bay"
       ],
       "why": null,
@@ -2200,7 +1786,7 @@
             "osm": "way/1529521451",
             "other": [
               {
-                "source": "big-grove-grand-bay",
+                "source": "firm",
                 "url": "https://big.dk/projects/the-grove-at-grand-bay-2696",
                 "lat": 25.7306572,
                 "lng": -80.2370979
@@ -2211,7 +1797,7 @@
           "lng": -80.23713,
           "verifiedBy": [
             "osm",
-            "big-grove-grand-bay"
+            "firm"
           ]
         }
       ],
@@ -2228,8 +1814,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/google-bay-view-3070",
       "sources": [
-        "big-google-bay-view",
         "archdaily-google-bay-view"
       ],
       "why": null,
@@ -2240,7 +1826,7 @@
           "refs": {
             "other": [
               {
-                "source": "big-google-bay-view",
+                "source": "firm",
                 "url": "https://big.dk/projects/google-bay-view-3070",
                 "lat": 37.3860517,
                 "lng": -122.0838511
@@ -2265,9 +1851,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-google-gradient-canopy"
-      ],
+      "firmPage": "https://big.dk/projects/google-gradient-canopy-16167",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -2276,7 +1861,7 @@
           "refs": {
             "other": [
               {
-                "source": "big-google-gradient-canopy",
+                "source": "firm",
                 "url": "https://big.dk/projects/google-gradient-canopy-16167",
                 "lat": 37.4162045,
                 "lng": -122.0828468
@@ -2311,9 +1896,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-google-caribbean"
-      ],
+      "firmPage": "https://big.dk/projects/google-caribbean-3648",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -2322,7 +1906,7 @@
           "refs": {
             "other": [
               {
-                "source": "big-google-caribbean",
+                "source": "firm",
                 "url": "https://big.dk/projects/google-caribbean-3648",
                 "lat": 37.36883,
                 "lng": -122.0363496
@@ -2347,8 +1931,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/isenberg-innovation-hub-3466",
       "sources": [
-        "big-isenberg",
         "archdaily-isenberg"
       ],
       "why": null,
@@ -2360,7 +1944,7 @@
             "osm": "relation/17798539",
             "other": [
               {
-                "source": "big-isenberg",
+                "source": "firm",
                 "url": "https://big.dk/projects/isenberg-innovation-hub-3466",
                 "lat": 42.386697,
                 "lng": -72.524893
@@ -2371,7 +1955,7 @@
           "lng": -72.524857,
           "verifiedBy": [
             "osm",
-            "big-isenberg"
+            "firm"
           ]
         }
       ],
@@ -2388,8 +1972,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/the-heights-school-3104",
       "sources": [
-        "big-heights-building",
         "archdaily-heights-building"
       ],
       "why": null,
@@ -2400,7 +1984,7 @@
           "refs": {
             "other": [
               {
-                "source": "big-heights-building",
+                "source": "firm",
                 "url": "https://big.dk/projects/the-heights-school-3104",
                 "lat": 38.8946101,
                 "lng": -77.0775394
@@ -2412,7 +1996,7 @@
           "lng": -77.077525,
           "verifiedBy": [
             "osm",
-            "big-heights-building"
+            "firm"
           ]
         }
       ],
@@ -2429,8 +2013,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/bloomberg-student-center-at-johns-hopkins-university-22443",
       "sources": [
-        "big-bloomberg-center",
         "archdaily-bloomberg-center"
       ],
       "why": null,
@@ -2441,7 +2025,7 @@
           "refs": {
             "other": [
               {
-                "source": "big-bloomberg-center",
+                "source": "firm",
                 "url": "https://big.dk/projects/bloomberg-student-center-at-johns-hopkins-university-22443",
                 "lat": 39.3300091850609,
                 "lng": -76.6204318693114
@@ -2466,8 +2050,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/claremont-mckenna-college-14115",
       "sources": [
-        "big-robert-day-sciences",
         "archdaily-robert-day-sciences"
       ],
       "why": null,
@@ -2479,7 +2063,7 @@
             "osm": "way/1526653100",
             "other": [
               {
-                "source": "big-robert-day-sciences",
+                "source": "firm",
                 "url": "https://big.dk/projects/claremont-mckenna-college-14115",
                 "lat": 34.1021264,
                 "lng": -117.7112116
@@ -2492,7 +2076,7 @@
             "osm"
           ],
           "near": [
-            "big-robert-day-sciences"
+            "firm"
           ]
         }
       ],
@@ -2509,9 +2093,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-telus-sky"
-      ],
+      "firmPage": "https://big.dk/projects/telus-sky-4861",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -2522,7 +2105,7 @@
             "osm": "way/500294061",
             "other": [
               {
-                "source": "big-telus-sky",
+                "source": "firm",
                 "url": "https://big.dk/projects/telus-sky-4861",
                 "lat": 51.0468626,
                 "lng": -114.0632354
@@ -2534,7 +2117,7 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-telus-sky",
+            "firm",
             "photo-camera"
           ]
         }
@@ -2562,9 +2145,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-vancouver-house"
-      ],
+      "firmPage": "https://big.dk/projects/vancouver-house-missing-pictures-7130",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -2575,7 +2157,7 @@
             "osm": "way/742009401",
             "other": [
               {
-                "source": "big-vancouver-house",
+                "source": "firm",
                 "url": "https://big.dk/projects/vancouver-house-missing-pictures-7130",
                 "lat": 49.2749131,
                 "lng": -123.1310268
@@ -2587,7 +2169,7 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-vancouver-house"
+            "firm"
           ]
         }
       ],
@@ -2614,8 +2196,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/iqon-residences-3687",
       "sources": [
-        "big-iqon",
         "archdaily-iqon"
       ],
       "why": null,
@@ -2628,7 +2210,7 @@
             "osm": "way/1285817826",
             "other": [
               {
-                "source": "big-iqon",
+                "source": "firm",
                 "url": "https://big.dk/projects/iqon-residences-3687",
                 "lat": -0.1754903,
                 "lng": -78.4807051
@@ -2656,9 +2238,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-epiq"
-      ],
+      "firmPage": "https://big.dk/projects/epiq-residences-3797",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -2669,7 +2250,7 @@
             "osm": "way/964455339",
             "other": [
               {
-                "source": "big-epiq",
+                "source": "firm",
                 "url": "https://big.dk/projects/epiq-residences-3797",
                 "lat": -0.189879950765443,
                 "lng": -78.484768303302
@@ -2697,9 +2278,8 @@
       "firms": [
         "BIG"
       ],
-      "sources": [
-        "big-honeycomb"
-      ],
+      "firmPage": "https://big.dk/projects/honeycomb-residences-albany-masterplan-11530",
+      "sources": [],
       "why": null,
       "note": null,
       "points": [
@@ -2708,7 +2288,7 @@
           "refs": {
             "other": [
               {
-                "source": "big-honeycomb",
+                "source": "firm",
                 "url": "https://big.dk/projects/honeycomb-residences-albany-masterplan-11530",
                 "lat": 25.0443312,
                 "lng": -77.3503609
@@ -2733,8 +2313,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/capitaspring-4630",
       "sources": [
-        "big-capitaspring",
         "archdaily-capitaspring"
       ],
       "why": null,
@@ -2747,7 +2327,7 @@
             "osm": "way/694047464",
             "other": [
               {
-                "source": "big-capitaspring",
+                "source": "firm",
                 "url": "https://big.dk/projects/capitaspring-4630",
                 "lat": 1.2838605,
                 "lng": 103.8500779
@@ -2759,7 +2339,7 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-capitaspring"
+            "firm"
           ]
         }
       ],
@@ -2786,8 +2366,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/shenzhen-energy-mansion-hq-2314",
       "sources": [
-        "big-shenzhen-energy",
         "archdaily-shenzhen-energy"
       ],
       "why": null,
@@ -2799,7 +2379,7 @@
             "wikidata": "Q109410548",
             "other": [
               {
-                "source": "big-shenzhen-energy",
+                "source": "firm",
                 "url": "https://big.dk/projects/shenzhen-energy-mansion-hq-2314",
                 "lat": 22.7587983,
                 "lng": 114.3029394
@@ -2834,8 +2414,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/suzhou-museum-of-contemporary-art-18410",
       "sources": [
-        "big-suzhou-moca",
         "archdaily-suzhou-moca"
       ],
       "why": null,
@@ -2847,7 +2427,7 @@
             "wikidata": "Q136806692",
             "other": [
               {
-                "source": "big-suzhou-moca",
+                "source": "firm",
                 "url": "https://big.dk/projects/suzhou-museum-of-contemporary-art-18410",
                 "lat": 31.3167922909949,
                 "lng": 120.708878314439
@@ -2858,7 +2438,7 @@
           "lng": 120.70897,
           "verifiedBy": [
             "wikidata",
-            "big-suzhou-moca"
+            "firm"
           ]
         }
       ],
@@ -2875,8 +2455,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/jinji-lake-pavilion-20223",
       "sources": [
-        "big-jinji-lake-pavilion",
         "archdaily-jinji-lake-pavilion"
       ],
       "why": null,
@@ -2887,7 +2467,7 @@
           "refs": {
             "other": [
               {
-                "source": "big-jinji-lake-pavilion",
+                "source": "firm",
                 "url": "https://big.dk/projects/jinji-lake-pavilion-20223",
                 "lat": 31.320810781184,
                 "lng": 120.704480789888
@@ -2912,8 +2492,8 @@
       "firms": [
         "BIG"
       ],
+      "firmPage": "https://big.dk/projects/not-a-hotel-setouchi-18610",
       "sources": [
-        "big-not-a-hotel-setouchi",
         "archdaily-not-a-hotel-setouchi"
       ],
       "why": null,
@@ -2924,7 +2504,7 @@
           "refs": {
             "other": [
               {
-                "source": "big-not-a-hotel-setouchi",
+                "source": "firm",
                 "url": "https://big.dk/projects/not-a-hotel-setouchi-18610",
                 "lat": 34.3299305949302,
                 "lng": 133.096258011656

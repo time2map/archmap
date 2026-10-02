@@ -16,7 +16,8 @@ and **Paris**.
 - **Top architecture firms:** the works of the firms in `TOP_TIER_FIRMS` (`src/Map.jsx`) are always on
   the map. Inside a city they are among its places; elsewhere they are listed under "Beyond cities",
   as dots while the map is zoomed out and photo pins from zoom 6. Their cards carry a
-  "Top architecture firm" label and links to read about them instead of a note. A work without a
+  "Top architecture firm" label, a "Read more on official website" link to the work's page on the
+  firm's site, and links to read about them instead of a note. A work without a
   confirmed location is listed under "Not on the map yet" with its city and country.
 - **Four groups:** City core (the must-sees), Architecture (notable buildings, contemporary housing
   and quarters), Unusual (unusual architecture) and Parks (parks and public spaces).

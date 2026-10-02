@@ -15,8 +15,10 @@ file says otherwise: its Hard rules, §1 sources and votes, §4 locations and pi
 What differs from city-top:
 - No `why`. The card shows the links to read about the work; that is enough.
 - Every completed work of the firm is taken: there is no vote threshold and no 100-place
-  ceiling. One source is enough, and the firm's own project page is a source.
-- Every place gets `"firms": ["<firm name as in TOP_TIER_FIRMS>"]`.
+  ceiling, and a work may have no source at all.
+- Every place gets `"firms": ["<firm name as in TOP_TIER_FIRMS>"]`, and `firmPage`: the url of
+  the work's own page on the firm's site. The card links to it as "Read more on official
+  website". The firm's page is never a source: a firm does not recommend its own work.
 
 ## 1. Candidates from Wikidata
 Query works whose architect (P84) is the firm or its founder. Many works are credited to a
@@ -49,17 +51,19 @@ a consultant. A work that is not on the firm's site and has no other source that
 firm stays out; name it in the report.
 
 ## 3. Links
-Collect the sources as in city-top §1: the firm's project page (`type: architect`),
-architecture media (ArchDaily, Dezeen, Divisare, Metalocus, Wallpaper*), awards, registries,
-Arquitectura Viva (one vote, never its coordinates). Each source needs publisher, title, url
-and date. The firm's page and other pages of the same firm are one source.
+`firmPage`: the work's page on the firm's site, the page of this project, not the list of
+projects or the home page.
+
+Sources, as in city-top §1: architecture media (ArchDaily, Dezeen, Divisare, Metalocus,
+Wallpaper*), awards, registries, Arquitectura Viva (one vote, never its coordinates). Each
+source needs publisher, title, url and date.
 
 ## 4. Location
 As city-top §4: a point is stored when two independent sources agree within 150 m, or when
 another source is near the work's OSM building: within 2 km when the names match, within
 500 m otherwise. The firm's own
-coordinates often mark the town or the entrance of the grounds: put them in `refs.other`, they
-confirm the OSM building. If Nominatim does not find the building, try Geoapify geocoding
+coordinates often mark the town or the entrance of the grounds: put them in `refs.other` with
+`"source": "firm"`, they confirm the OSM building. If Nominatim does not find the building, try Geoapify geocoding
 (`GEOAPIFY_API_KEY` in `.env`): it matches names more loosely, but it is OSM too, so store the
 OSM id it leads to (place details), never the Geoapify result itself. The coordinates of the
 card's photos on Commons confirm the point too (the script reads them). Without that, the place
@@ -79,8 +83,8 @@ press about the firm, not for this map. No photo is better than a non-free one.
 - **Inside a city.** The work is in a city of `public/top/index.json` or its metro area
   (reachable by public transport, as city-top §2 scopes a city): write it to that city's file,
   group `architecture`. If the city already has the place (same Wikidata QID or OSM id, or
-  plainly the same building), only add `firms` to it: its sources are recommendations, and
-  the firm's own page is not one, so it would inflate the count.
+  plainly the same building), add `firms` and `firmPage` to it and keep its sources. A card of
+  works by several firms gets no `firmPage`: one link would not cover it.
 - **Beyond the cities:** write it to `public/top/world.json`, group `architecture` (or
   `unusual` / `parks` when that fits better; never `city-core`).
 
@@ -101,16 +105,18 @@ The same as a city file (city-top), without `cover`:
 ```json
 {
   "id": "world", "name": "Beyond cities", "updated": "YYYY-MM-DD",
-  "sources": { "<source-id>": { "publisher": "BIG", "author": null, "title": "…",
-    "url": "…", "date": null, "type": "architect" } },
+  "sources": { "<source-id>": { "publisher": "ArchDaily", "author": null, "title": "…",
+    "url": "…", "date": "2017-10-03", "type": "media" } },
   "places": [{
     "id": "lego-house", "title": "LEGO House", "architect": "BIG", "year": "2017",
     "area": "Billund, Denmark", "group": "architecture", "firms": ["BIG"],
+    "firmPage": "https://big.dk/projects/lego-brand-house-2740",
     "sources": ["<source-id>"], "why": null, "note": null,
-    "points": [{ "name": null, "refs": { "wikidata": "Q…", "osm": "way/…" } }],
+    "points": [{ "name": null, "refs": { "wikidata": "Q…", "osm": "way/…",
+      "other": [{ "source": "firm", "url": "<firmPage>", "lat": 0, "lng": 0 }] } }],
     "shapes": [],
     "photos": [{ "file": "Commons file name" }]
   }]
 }
 ```
-In a city file a firm work has the same fields: `firms`, and `why` may be null.
+In a city file a firm work has the same fields: `firms`, `firmPage`, and `why` may be null.
