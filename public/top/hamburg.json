@@ -2479,7 +2479,7 @@
       "architect": "Karl Schneider (plan) and others",
       "year": "1926–1930",
       "area": "Winterhude",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "kulturport-2025",
         "hhguide-2015"
@@ -2561,7 +2561,7 @@
       "architect": null,
       "year": "18th–20th century",
       "area": "Blankenese",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "rg"
       ],
@@ -2619,7 +2619,7 @@
       "architect": null,
       "year": "17th century",
       "area": "Neustadt",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "ht-hist"
       ],
@@ -2677,7 +2677,7 @@
       "architect": "LAN Architecture (masterplan and 33 houses); hauschild + siegel and others",
       "year": "2008–2013",
       "area": "Wilhelmsburg",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "av-nht",
         "bda-hamburg"
@@ -2718,7 +2718,7 @@
       "architect": "Störmer Murphy and Partners",
       "year": "2020–2024",
       "area": "HafenCity",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "bda-hamburg"
       ],
@@ -2748,7 +2748,7 @@
       "architect": "Bolles + Wilson",
       "year": "2013–2016",
       "area": "HafenCity",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "eumies-2017",
         "bda-hamburg"
@@ -2814,7 +2814,7 @@
       "architect": "Hermann von der Hude and Georg Theodor Schirrmacher; Fritz Schumacher and Albert Erbe; O. M. Ungers",
       "year": "1869; 1919; 1997",
       "area": "Altstadt",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "lp-2025",
         "ricksteves",
@@ -2881,7 +2881,7 @@
       "architect": "David Chipperfield Architects",
       "year": "2002–2007",
       "area": "St. Pauli",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "av-empire",
         "bda-hamburg",
@@ -2934,7 +2934,7 @@
       "architect": "Behnisch Architekten",
       "year": "2009–2010",
       "area": "HafenCity",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vd-2023",
         "bda-hamburg",
@@ -3007,7 +3007,7 @@
       "architect": "BRT Architekten (Bothe Richter Teherani)",
       "year": "2004–2005",
       "area": "Altona-Altstadt",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ht-arch",
         "rg"
@@ -3066,7 +3066,7 @@
       "architect": "Henning Larsen Architects; landscape WES",
       "year": "2011",
       "area": "HafenCity",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vd-2023",
         "landezine-ericus"
@@ -3125,7 +3125,7 @@
       "architect": "Fritz Schumacher",
       "year": "1918–1926",
       "area": "Neustadt",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vd-2023",
         "happyfrog-2021",
@@ -3176,7 +3176,7 @@
       "architect": "Fritz Schumacher; courtyard roof gmp with Jörg Schlaich",
       "year": "1914–1922",
       "area": "Neustadt",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ricksteves",
         "vd-2023",
@@ -3227,7 +3227,7 @@
       "architect": "Fritz Trautwein with Fritz Leonhardt",
       "year": "1965–1968",
       "area": "St. Pauli",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ht-arch",
         "vd-2023"
@@ -3277,7 +3277,7 @@
       "architect": null,
       "year": "17th–19th century",
       "area": "Altstadt",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ht-streets"
       ],
@@ -3354,7 +3354,7 @@
       "architect": "Sauerbruch Hutton",
       "year": "2009–2017",
       "area": "Wilhelmsburg",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vd-2023",
         "bda-hamburg",
@@ -3395,7 +3395,7 @@
       "architect": "Enric Miralles and Benedetta Tagliabue (EMBT)",
       "year": "1998–2000",
       "area": "Rotherbaum",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "av-musikschule",
         "eumies-2001"
@@ -3428,7 +3428,7 @@
       "architect": "gmp (von Gerkan, Marg and Partners)",
       "year": "2018–2019",
       "area": "HafenCity",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vd-2023",
         "bda-hamburg"
@@ -3469,7 +3469,7 @@
       "architect": null,
       "year": "1901–1907; rebuilt 2007",
       "area": "Veddel",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ricksteves",
         "rg"
@@ -3519,7 +3519,7 @@
       "architect": null,
       "year": "14th–15th century; tower top 1657",
       "area": "Altstadt",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ht-church"
       ],
@@ -3568,7 +3568,7 @@
       "architect": "J. Mayer H. Architects",
       "year": "2007",
       "area": "St. Georg",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vd-2023",
         "eumies-2009-ada1"
@@ -3606,7 +3606,7 @@
       "architect": "Störmer Murphy and Partners",
       "year": "2016–2018",
       "area": "Rotherbaum",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vd-2023"
       ],
@@ -3655,7 +3655,7 @@
       "architect": "Karl Schneider",
       "year": "1923",
       "area": "Blankenese",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "mitvergnuegen-2019"
       ],
@@ -3704,7 +3704,7 @@
       "architect": "Alsop & Störmer",
       "year": "1991–1993",
       "area": "Altona-Altstadt",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "av-faehrterminal"
       ],
@@ -3755,7 +3755,7 @@
       "architect": "Nieto Sobejano Arquitectos",
       "year": "2016–2022",
       "area": "Lurup",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "av-montblanc"
       ],

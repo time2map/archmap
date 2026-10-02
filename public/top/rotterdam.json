@@ -2233,7 +2233,7 @@
       "architect": "OMA",
       "year": "1997–2013",
       "area": "Wilhelminapier",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ad-guide-2023",
         "rp-architecture",
@@ -2310,7 +2310,7 @@
       "architect": "MVRDV",
       "year": "2021",
       "area": "Museumpark",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ad-guide-2023",
         "lp-2025",
@@ -2396,7 +2396,7 @@
       "architect": "OMA (Rem Koolhaas)",
       "year": "1992",
       "area": "Museumpark",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ad-guide-2023",
         "rp-architecture",
@@ -2467,7 +2467,7 @@
       "architect": "Jo Coenen",
       "year": "1993",
       "area": "Museumpark",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ad-guide-2023",
         "rg-2021",
@@ -2537,7 +2537,7 @@
       "architect": "Brinkman & Van der Vlugt",
       "year": "1933",
       "area": "Museumpark",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "rp-bauhaus",
         "rg-2021",
@@ -2609,7 +2609,7 @@
       "architect": "G.W. Baas and L. Stokla",
       "year": "1938",
       "area": "Museumpark",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "rp-bauhaus",
         "wallpaper-2025"
@@ -2668,7 +2668,7 @@
       "architect": "OMA",
       "year": "2009–2015",
       "area": "Stadsdriehoek",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ad-guide-2023",
         "metalocus-2022",
@@ -2750,7 +2750,7 @@
       "architect": "Mei architects and planners; MAD Architects (Tornado)",
       "year": "1923; 2019 (Fenix I); 2025 (museum)",
       "area": "Katendrecht",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ad-guide-2023",
         "rp-architecture",
@@ -2837,7 +2837,7 @@
       "architect": "MVRDV",
       "year": "2003–2012",
       "area": "Spijkenisse",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ad-guide-2023",
         "metalocus-2022",
@@ -2901,7 +2901,7 @@
       "architect": "Bolles + Wilson",
       "year": "2001",
       "area": "Kop van Zuid",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "av-luxor",
         "eumies-luxor"
@@ -2971,7 +2971,7 @@
       "architect": "Will Alsop",
       "year": "2013",
       "area": "Centrum",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ad-guide-2023"
       ],
@@ -3029,7 +3029,7 @@
       "architect": "Van den Broek & Bakema",
       "year": "1983",
       "area": "Stadsdriehoek",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ad-guide-2023"
       ],
@@ -3087,7 +3087,7 @@
       "architect": "Mecanoo",
       "year": "2001",
       "area": "Crooswijk",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ad-guide-2023"
       ],
@@ -3116,7 +3116,7 @@
       "architect": "MoederscheimMoonen Architects",
       "year": null,
       "area": "Leuvehaven",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ad-guide-2023",
         "parametric-2025"
@@ -3143,7 +3143,7 @@
       "architect": "Hugh Maaskant and Willem van Tijen",
       "year": "1949–1953",
       "area": "Centrum",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "metalocus-2022",
         "rce"
@@ -3211,7 +3211,7 @@
       "architect": "Van den Broek & Bakema",
       "year": "1953",
       "area": "Centrum",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "docomomo-lijnbaan",
         "rce"
@@ -3318,7 +3318,7 @@
       "architect": "Brinkman & Van der Vlugt",
       "year": "1937",
       "area": "IJsselmonde",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "rp-architecture"
       ],
@@ -3376,7 +3376,7 @@
       "architect": "Sybold van Ravesteyn",
       "year": "1937–1940",
       "area": "Blijdorp",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "rp-attractions"
       ],
@@ -3406,7 +3406,7 @@
       "architect": "EGM architecten",
       "year": "2018",
       "area": "Dijkzigt",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "eumies-erasmusmc",
         "rap-2018"
@@ -3473,7 +3473,7 @@
       "architect": "Juurlink [+] Geluk (landscape)",
       "year": "1960s; redesign 2010s",
       "area": "Kralingen",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "landezine-woudestein",
         "rap-2017"
@@ -3541,7 +3541,7 @@
       "architect": null,
       "year": "18th–19th century",
       "area": "Schiedam",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "lp-2025",
         "rce"
@@ -3974,7 +3974,7 @@
       "architect": "J.J.P. Oud",
       "year": "1925–1930 (rebuilt 1990s)",
       "area": "Bloemhof",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "metalocus-2022",
         "rp-bauhaus",
@@ -4034,7 +4034,7 @@
       "architect": "Michiel Brinkman",
       "year": "1922",
       "area": "Spangen",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "domus-2025",
         "rce"
@@ -4093,7 +4093,7 @@
       "architect": "Willem van Tijen, Brinkman & Van der Vlugt",
       "year": "1934",
       "area": "Bergpolder",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "rce"
       ],
@@ -4151,7 +4151,7 @@
       "architect": "Juurlink [+] Geluk, CULD",
       "year": "2020",
       "area": "Coolhaven",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "eumies-littlec",
         "rap-2021",
@@ -4218,7 +4218,7 @@
       "architect": "Mei architects and planners",
       "year": "2025",
       "area": "Lloydkwartier",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "domus-2025",
         "rap-2026"
@@ -4277,7 +4277,7 @@
       "architect": "Dam & Partners Architecten; KCAP",
       "year": "2018–2022",
       "area": "Scheepvaartkwartier",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "rp-architecture"
       ],
@@ -4342,7 +4342,7 @@
       "architect": "MVRDV",
       "year": "2002–2006",
       "area": "Oude Westen",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "av-didden",
         "eumies-didden"
@@ -4374,7 +4374,7 @@
       "architect": null,
       "year": "19th century; 2000s–2020s",
       "area": "Katendrecht",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "timeout-2024",
         "rap-2025-katendrecht"

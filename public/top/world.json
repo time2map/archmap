@@ -1,0 +1,2896 @@
+{
+  "id": "world",
+  "name": "Beyond cities",
+  "updated": "2026-10-02",
+  "sources": {
+    "big-lego-house": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "LEGO Brand House",
+      "url": "https://big.dk/projects/lego-brand-house-2740",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-lego-house": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "LEGO House / BIG",
+      "url": "https://www.archdaily.com/880900/lego-house-big",
+      "date": "2017-10-03",
+      "type": "media"
+    },
+    "big-tirpitz": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Tirpitz Museum",
+      "url": "https://big.dk/projects/tirpitz-museum-2640",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-tirpitz": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "TIRPITZ / BIG",
+      "url": "https://www.archdaily.com/875965/tirpitz-big",
+      "date": "2017-07-18",
+      "type": "media"
+    },
+    "big-flugt": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Refugee Museum of Denmark",
+      "url": "https://big.dk/projects/denmarks-refugee-museum-4593",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-flugt": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "FLUGT Refugee Museum of Denmark / BIG",
+      "url": "https://www.archdaily.com/984378/flugt-refugee-museum-of-denmark-big",
+      "date": "2022-06-29",
+      "type": "media"
+    },
+    "big-marsk-tower": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Marsk Tower",
+      "url": "https://big.dk/projects/marsk-tower-4092",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-marsk-tower": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Marsk Tower / BIG",
+      "url": "https://www.archdaily.com/966611/marsk-tower-big",
+      "date": "2021-08-12",
+      "type": "media"
+    },
+    "big-henning-g-kruses-plads": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Henning G. Kruses Plads",
+      "url": "https://big.dk/projects/henning-g-kruses-plads-3889",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-henning-g-kruses-plads": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Henning G. Kruses Plads  / BIG",
+      "url": "https://www.archdaily.com/970678/henning-g-kruses-plads-big",
+      "date": "2021-10-25",
+      "type": "media"
+    },
+    "big-aarhus-residences": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "AARhus Residences",
+      "url": "https://big.dk/projects/aarhus-residences-19789",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-aarhus-harbor-bath": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Aarhus Harbor Bath / BIG",
+      "url": "https://www.archdaily.com/900107/aarhus-harbor-bath-big",
+      "date": "2018-08-13",
+      "type": "media"
+    },
+    "big-sneglehusene": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Sneglehusene Residences",
+      "url": "https://big.dk/projects/sneglehusene-12338",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-sneglehusene": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Sneglehusene Housing / BIG",
+      "url": "https://www.archdaily.com/989940/sneglehusene-housing-big",
+      "date": "2022-10-05",
+      "type": "media"
+    },
+    "big-kampanilen": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Kampanilen",
+      "url": "https://big.dk/projects/kampanilen-14736",
+      "date": null,
+      "type": "architect"
+    },
+    "big-villa-gug": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Villa Gug",
+      "url": "https://big.dk/projects/villa-gug-2994",
+      "date": null,
+      "type": "architect"
+    },
+    "big-hb-trapper": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "HB Trapper",
+      "url": "https://big.dk/projects/hb-trapper-3767",
+      "date": null,
+      "type": "architect"
+    },
+    "big-dymak-hq": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Dymak HQ",
+      "url": "https://big.dk/projects/dymak-hq-16408",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-dymak-hq": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Dymak HQ  / BIG",
+      "url": "https://www.archdaily.com/1042958/dymak-hq-big",
+      "date": "2026-07-02",
+      "type": "media"
+    },
+    "big-glasir": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Glasir",
+      "url": "https://big.dk/projects/glasir-1487",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-glasir": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Glasir Tórshavn College / BIG",
+      "url": "https://www.archdaily.com/914510/glasir-torshavn-college-big",
+      "date": "2019-04-08",
+      "type": "media"
+    },
+    "big-the-twist": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "The Twist",
+      "url": "https://big.dk/projects/the-twist-2-1337",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-the-twist": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "The Twist Museum / BIG",
+      "url": "https://www.archdaily.com/925106/the-twist-museum-big",
+      "date": "2019-09-18",
+      "type": "media"
+    },
+    "big-the-plus": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "The Plus",
+      "url": "https://big.dk/projects/the-plus-3837",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-the-plus": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "The Plus for Vestre / BIG",
+      "url": "https://www.archdaily.com/982957/the-plus-for-vestre-big",
+      "date": "2022-06-01",
+      "type": "media"
+    },
+    "big-79-park": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "79 \\u0026 Park Residences",
+      "url": "https://big.dk/projects/79-park-residences-2557",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-79-park": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "79&PARK / BIG",
+      "url": "https://www.archdaily.com/905534/79-and-park-big",
+      "date": "2018-11-08",
+      "type": "media"
+    },
+    "big-biosphere": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Biosphere",
+      "url": "https://big.dk/projects/biosphere-4043",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-biosphere": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Biosphere at Treehotel / BIG",
+      "url": "https://www.archdaily.com/984164/biosphere-at-treehotel-big",
+      "date": "2022-06-24",
+      "type": "media"
+    },
+    "big-omniturm": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Omniturm",
+      "url": "https://big.dk/projects/omniturm-tower-4529",
+      "date": null,
+      "type": "architect"
+    },
+    "big-edge-east-side": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "EDGE East Side Berlin",
+      "url": "https://big.dk/projects/edge-east-side-berlin-23193",
+      "date": null,
+      "type": "architect"
+    },
+    "big-sluishuis": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Sluishuis Residences",
+      "url": "https://big.dk/projects/sluishuis-residences-missing-pictures-7293",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-sluishuis": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Sluishuis Residential Building / BIG + Barcode Architects",
+      "url": "https://www.archdaily.com/985419/sluishuis-residential-building-big-plus-barcode-architects",
+      "date": "2022-07-15",
+      "type": "media"
+    },
+    "big-transitlager": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Transitlager Dreispitz",
+      "url": "https://big.dk/projects/transitlager-dreispitz-2478",
+      "date": null,
+      "type": "architect"
+    },
+    "big-musee-atelier-ap": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Musée Atelier Audemars Piguet",
+      "url": "https://big.dk/projects/musee-atelier-audemars-piguet-2884",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-musee-atelier-ap": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Musée Atelier Audemars Piguet / BIG + ATELIER BRÜCKNER + CCHE",
+      "url": "https://www.archdaily.com/938537/atelier-audemars-piguet-museum-big",
+      "date": "2020-04-29",
+      "type": "media"
+    },
+    "big-hotel-des-horlogers": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Audemars Piguet Hotel",
+      "url": "https://big.dk/projects/audemars-piguet-hotel-5067",
+      "date": null,
+      "type": "architect"
+    },
+    "big-skypark": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Skypark Business Center",
+      "url": "https://big.dk/projects/skypark-business-center-3716",
+      "date": null,
+      "type": "architect"
+    },
+    "big-goe": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Gastronomy Open Ecosystem",
+      "url": "https://big.dk/projects/gastronomy-open-ecosystem-4679",
+      "date": null,
+      "type": "architect"
+    },
+    "big-via-57-west": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "VIA 57 West",
+      "url": "https://big.dk/projects/via-57-west-2350",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-via-57-west": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "VIΛ 57 West / BIG",
+      "url": "https://www.archdaily.com/794950/via-57-west-big",
+      "date": "2016-09-08",
+      "type": "media"
+    },
+    "big-the-spiral": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "The Spiral",
+      "url": "https://big.dk/projects/the-spiral-4456",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-the-spiral": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "The Spiral / BIG",
+      "url": "https://www.archdaily.com/1008788/the-spiral-big",
+      "date": "2023-10-25",
+      "type": "media"
+    },
+    "big-the-smile": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "The Smile",
+      "url": "https://big.dk/projects/the-smile-residences-2956",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-the-smile": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "The Smile Residential Building / BIG",
+      "url": "https://www.archdaily.com/953397/the-smile-residential-building-big",
+      "date": "2020-12-15",
+      "type": "media"
+    },
+    "big-one-high-line": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "One High Line",
+      "url": "https://big.dk/projects/one-high-line-3358",
+      "date": null,
+      "type": "architect"
+    },
+    "big-nypd-40th-precinct": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "NYPD 40th Precinct",
+      "url": "https://big.dk/projects/nypd-40th-precinct-3162",
+      "date": null,
+      "type": "architect"
+    },
+    "big-solar-one": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Solar One Environmental Education Center",
+      "url": "https://big.dk/projects/solar-one-environmental-education-center-21999",
+      "date": null,
+      "type": "architect"
+    },
+    "big-wildflower-studios": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Wildflower Film Studios Astoria",
+      "url": "https://big.dk/projects/wildflower-film-studios-astoria-4006",
+      "date": null,
+      "type": "architect"
+    },
+    "big-1200-intrepid": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "1200 Intrepid",
+      "url": "https://big.dk/projects/1200-intrepid-2933",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-1200-intrepid": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "1200 Intrepid / BIG",
+      "url": "https://www.archdaily.com/799118/1200-intrepid-bjarke-ingels-group",
+      "date": "2016-11-10",
+      "type": "media"
+    },
+    "big-grove-grand-bay": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "The Grove at Grand Bay",
+      "url": "https://big.dk/projects/the-grove-at-grand-bay-2696",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-grove-grand-bay": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Grove at Grand Bay / BIG",
+      "url": "https://www.archdaily.com/889344/grove-at-grand-bay-big",
+      "date": "2018-02-21",
+      "type": "media"
+    },
+    "big-google-bay-view": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Google Bay View",
+      "url": "https://big.dk/projects/google-bay-view-3070",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-google-bay-view": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Google Bay View / BIG + Heatherwick Studio",
+      "url": "https://www.archdaily.com/985328/google-bay-view-big-plus-heatherwick-studio",
+      "date": "2022-07-14",
+      "type": "media"
+    },
+    "big-google-gradient-canopy": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Google Gradient Canopy",
+      "url": "https://big.dk/projects/google-gradient-canopy-16167",
+      "date": null,
+      "type": "architect"
+    },
+    "big-google-caribbean": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Google Caribbean",
+      "url": "https://big.dk/projects/google-caribbean-3648",
+      "date": null,
+      "type": "architect"
+    },
+    "big-isenberg": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Isenberg Innovation Hub",
+      "url": "https://big.dk/projects/isenberg-innovation-hub-3466",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-isenberg": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Isenberg School Of Management Business Innovation Hub / BIG ",
+      "url": "https://www.archdaily.com/915263/isenberg-school-of-management-business-innovation-hub-big",
+      "date": "2019-04-17",
+      "type": "media"
+    },
+    "big-heights-building": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "The Heights School",
+      "url": "https://big.dk/projects/the-heights-school-3104",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-heights-building": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "The Heights Building / BIG",
+      "url": "https://www.archdaily.com/927336/the-heights-building-big",
+      "date": "2019-10-29",
+      "type": "media"
+    },
+    "big-bloomberg-center": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Bloomberg Student Center at Johns Hopkins University",
+      "url": "https://big.dk/projects/bloomberg-student-center-at-johns-hopkins-university-22443",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-bloomberg-center": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Bloomberg Student Center / BIG + Rockwell Group + Michael Van Valkenburgh Associates",
+      "url": "https://www.archdaily.com/1035127/bloomberg-student-center-big-plus-rockwell-group-plus-michael-van-valkenburgh-associates",
+      "date": "2025-10-20",
+      "type": "media"
+    },
+    "big-robert-day-sciences": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Claremont McKenna College",
+      "url": "https://big.dk/projects/claremont-mckenna-college-14115",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-robert-day-sciences": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Claremont McKenna College Robert Day Sciences Center / BIG",
+      "url": "https://www.archdaily.com/1034623/claremont-mckenna-college-robert-day-sciences-center-big",
+      "date": "2025-10-01",
+      "type": "media"
+    },
+    "big-telus-sky": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Telus Sky",
+      "url": "https://big.dk/projects/telus-sky-4861",
+      "date": null,
+      "type": "architect"
+    },
+    "big-vancouver-house": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Vancouver House",
+      "url": "https://big.dk/projects/vancouver-house-missing-pictures-7130",
+      "date": null,
+      "type": "architect"
+    },
+    "big-iqon": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "IQON Residences",
+      "url": "https://big.dk/projects/iqon-residences-3687",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-iqon": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "IQON Building / BIG",
+      "url": "https://www.archdaily.com/993395/iqon-big",
+      "date": "2022-12-08",
+      "type": "media"
+    },
+    "big-epiq": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "EPIQ Residences",
+      "url": "https://big.dk/projects/epiq-residences-3797",
+      "date": null,
+      "type": "architect"
+    },
+    "big-honeycomb": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Honeycomb Residences \\u0026 Albany Masterplan",
+      "url": "https://big.dk/projects/honeycomb-residences-albany-masterplan-11530",
+      "date": null,
+      "type": "architect"
+    },
+    "big-capitaspring": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "CapitaSpring",
+      "url": "https://big.dk/projects/capitaspring-4630",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-capitaspring": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "CapitaSpring  / BIG + Carlo Ratti Associati",
+      "url": "https://www.archdaily.com/989946/capitaspring-big-plus-carlo-ratti-associati",
+      "date": "2022-10-04",
+      "type": "media"
+    },
+    "big-shenzhen-energy": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Shenzhen Energy Mansion HQ",
+      "url": "https://big.dk/projects/shenzhen-energy-mansion-hq-2314",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-shenzhen-energy": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Shenzhen Energy Mansion / BIG",
+      "url": "https://www.archdaily.com/899785/shenzhen-energy-mansion-big",
+      "date": "2018-08-08",
+      "type": "media"
+    },
+    "big-suzhou-moca": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Suzhou Museum of Contemporary Art",
+      "url": "https://big.dk/projects/suzhou-museum-of-contemporary-art-18410",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-suzhou-moca": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Suzhou Museum of Contemporary Art / BIG",
+      "url": "https://www.archdaily.com/1035969/suzhou-museum-of-contemporary-art-big",
+      "date": "2025-11-13",
+      "type": "media"
+    },
+    "big-jinji-lake-pavilion": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "Jinji Lake Pavilion",
+      "url": "https://big.dk/projects/jinji-lake-pavilion-20223",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-jinji-lake-pavilion": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Jinji Lake Pavilion / BIG",
+      "url": "https://www.archdaily.com/1027184/jinji-lake-pavilion-big",
+      "date": "2025-02-21",
+      "type": "media"
+    },
+    "big-not-a-hotel-setouchi": {
+      "publisher": "BIG",
+      "author": null,
+      "title": "NOT A HOTEL Setouchi",
+      "url": "https://big.dk/projects/not-a-hotel-setouchi-18610",
+      "date": null,
+      "type": "architect"
+    },
+    "archdaily-not-a-hotel-setouchi": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Not a Hotel Setouchi Resort / BIG",
+      "url": "https://www.archdaily.com/1040404/not-a-hotel-setouchi-resort-big",
+      "date": "2026-04-08",
+      "type": "media"
+    }
+  },
+  "places": [
+    {
+      "id": "lego-house",
+      "title": "LEGO House",
+      "architect": "BIG",
+      "year": "2017",
+      "area": "Billund, Denmark",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-lego-house",
+        "archdaily-lego-house"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q22087791",
+            "osm": "way/388186452",
+            "other": [
+              {
+                "source": "big-lego-house",
+                "url": "https://big.dk/projects/lego-brand-house-2740",
+                "lat": 55.728449,
+                "lng": 9.112366
+              }
+            ]
+          },
+          "lat": 55.730669,
+          "lng": 9.11496,
+          "verifiedBy": [
+            "osm",
+            "wikidata"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Lego House Billund.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Lego_House_Billund.jpg/960px-Lego_House_Billund.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Lego_House_Billund.jpg/120px-Lego_House_Billund.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Lego_House_Billund.jpg",
+          "author": "MPhernambucq",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "tirpitz",
+      "title": "Tirpitz Museum",
+      "architect": "BIG",
+      "year": "2017",
+      "area": "Blåvand, Denmark",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-tirpitz",
+        "archdaily-tirpitz"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q66310617",
+            "osm": "way/434573248",
+            "other": [
+              {
+                "source": "big-tirpitz",
+                "url": "https://big.dk/projects/tirpitz-museum-2640",
+                "lat": 55.550401,
+                "lng": 8.172243
+              }
+            ]
+          },
+          "lat": 55.55086,
+          "lng": 8.17214,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "big-tirpitz"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Tirpitzmuseum aussen.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Tirpitzmuseum_aussen.jpg/960px-Tirpitzmuseum_aussen.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Tirpitzmuseum_aussen.jpg/120px-Tirpitzmuseum_aussen.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tirpitzmuseum_aussen.jpg",
+          "author": "Siegbert Brey",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "flugt",
+      "title": "FLUGT – Refugee Museum of Denmark",
+      "architect": "BIG",
+      "year": "2022",
+      "area": "Oksbøl, Denmark",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-flugt",
+        "archdaily-flugt"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q114667508",
+            "osm": "way/198624909",
+            "other": [
+              {
+                "source": "big-flugt",
+                "url": "https://big.dk/projects/denmarks-refugee-museum-4593",
+                "lat": 55.6280388,
+                "lng": 8.2801861
+              }
+            ]
+          },
+          "lat": 55.635005,
+          "lng": 8.270448,
+          "verifiedBy": [
+            "osm",
+            "wikidata"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Flugt, Oksbøl 2023 indgang 1.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Flugt%2C_Oksb%C3%B8l_2023_indgang_1.jpg/960px-Flugt%2C_Oksb%C3%B8l_2023_indgang_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Flugt%2C_Oksb%C3%B8l_2023_indgang_1.jpg/120px-Flugt%2C_Oksb%C3%B8l_2023_indgang_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Flugt,_Oksb%C3%B8l_2023_indgang_1.jpg",
+          "author": "Hjart",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "marsk-tower",
+      "title": "Marsk Tower",
+      "architect": "BIG",
+      "year": "2021",
+      "area": "Skærbæk, Denmark",
+      "group": "unusual",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-marsk-tower",
+        "archdaily-marsk-tower"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q108303626",
+            "osm": "way/964443735",
+            "other": [
+              {
+                "source": "big-marsk-tower",
+                "url": "https://big.dk/projects/marsk-tower-4092",
+                "lat": 55.1529003,
+                "lng": 8.7412282
+              }
+            ]
+          },
+          "lat": 55.152925,
+          "lng": 8.740692,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "big-marsk-tower"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Marsk Tårnet 01.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Marsk_T%C3%A5rnet_01.jpg/960px-Marsk_T%C3%A5rnet_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Marsk_T%C3%A5rnet_01.jpg/120px-Marsk_T%C3%A5rnet_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Marsk_T%C3%A5rnet_01.jpg",
+          "author": "Hjart",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "henning-g-kruses-plads",
+      "title": "Henning G. Kruses Plads",
+      "architect": "BIG",
+      "year": "2020",
+      "area": "Esbjerg, Denmark",
+      "group": "parks",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-henning-g-kruses-plads",
+        "archdaily-henning-g-kruses-plads"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/871712733",
+            "other": [
+              {
+                "source": "big-henning-g-kruses-plads",
+                "url": "https://big.dk/projects/henning-g-kruses-plads-3889",
+                "lat": 55.464138,
+                "lng": 8.45187
+              }
+            ]
+          },
+          "lat": 55.464452,
+          "lng": 8.451248,
+          "verifiedBy": [
+            "osm",
+            "big-henning-g-kruses-plads"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "aarhus-residences",
+      "title": "AARhus Residences",
+      "architect": "BIG",
+      "year": "2019",
+      "area": "Aarhus, Denmark",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-aarhus-residences"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q25476883",
+            "osm": "relation/9685016",
+            "other": [
+              {
+                "source": "big-aarhus-residences",
+                "url": "https://big.dk/projects/aarhus-residences-19789",
+                "lat": 56.1629735179162,
+                "lng": 10.2283701394256
+              }
+            ]
+          },
+          "lat": 56.163034,
+          "lng": 10.228003,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "big-aarhus-residences"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "-The highrise AArhus nearing completion.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/-The_highrise_AArhus_nearing_completion.jpg/960px--The_highrise_AArhus_nearing_completion.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/-The_highrise_AArhus_nearing_completion.jpg/120px--The_highrise_AArhus_nearing_completion.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:-The_highrise_AArhus_nearing_completion.jpg",
+          "author": "Smiley.toerist",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "aarhus-harbor-bath",
+      "title": "Aarhus Harbour Bath",
+      "architect": "BIG",
+      "year": "2018",
+      "area": "Aarhus, Denmark",
+      "group": "parks",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "archdaily-aarhus-harbor-bath"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "node/11813300935"
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "sneglehusene",
+      "title": "Sneglehusene",
+      "architect": "BIG",
+      "year": "2022",
+      "area": "Aarhus, Denmark",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-sneglehusene",
+        "archdaily-sneglehusene"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "big-sneglehusene",
+                "url": "https://big.dk/projects/sneglehusene-12338",
+                "lat": 56.162939,
+                "lng": 10.203921
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Sneglehusesøen i Nye.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Sneglehuses%C3%B8en_i_Nye.jpg/960px-Sneglehuses%C3%B8en_i_Nye.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Sneglehuses%C3%B8en_i_Nye.jpg/120px-Sneglehuses%C3%B8en_i_Nye.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sneglehuses%C3%B8en_i_Nye.jpg",
+          "author": "5801LH",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "kampanilen",
+      "title": "Kampanilen",
+      "architect": "BIG",
+      "year": "2022",
+      "area": "Aarhus, Denmark",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-kampanilen"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q117429882",
+            "osm": "way/922672715",
+            "other": [
+              {
+                "source": "big-kampanilen",
+                "url": "https://big.dk/projects/kampanilen-14736",
+                "lat": 56.162939,
+                "lng": 10.203921
+              }
+            ]
+          },
+          "lat": 56.163964,
+          "lng": 10.227038,
+          "verifiedBy": [
+            "osm",
+            "wikidata"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Kampanilen på Aarhus ø.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Kampanilen_p%C3%A5_Aarhus_%C3%B8.jpg/960px-Kampanilen_p%C3%A5_Aarhus_%C3%B8.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Kampanilen_p%C3%A5_Aarhus_%C3%B8.jpg/120px-Kampanilen_p%C3%A5_Aarhus_%C3%B8.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kampanilen_p%C3%A5_Aarhus_%C3%B8.jpg",
+          "author": "Steve Knight from Halstead, United Kingdom",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
+    },
+    {
+      "id": "villa-gug",
+      "title": "Villa Gug",
+      "architect": "BIG",
+      "year": "2022",
+      "area": "Aalborg, Denmark",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-villa-gug"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "big-villa-gug",
+                "url": "https://big.dk/projects/villa-gug-2994",
+                "lat": 57.0488195,
+                "lng": 9.921747
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "hb-trapper",
+      "title": "HB Trapper",
+      "architect": "BIG",
+      "year": "2019",
+      "area": "Herning, Denmark",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-hb-trapper"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "big-hb-trapper",
+                "url": "https://big.dk/projects/hb-trapper-3767",
+                "lat": 56.1333441,
+                "lng": 8.9122068
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "dymak-hq",
+      "title": "Dymak HQ",
+      "architect": "BIG",
+      "year": "2025",
+      "area": "Odense, Denmark",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-dymak-hq",
+        "archdaily-dymak-hq"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "node/13703104615",
+            "other": [
+              {
+                "source": "big-dymak-hq",
+                "url": "https://big.dk/projects/dymak-hq-16408",
+                "lat": 55.3501124668157,
+                "lng": 10.4256301165772
+              }
+            ]
+          },
+          "lat": 55.350189,
+          "lng": 10.42595,
+          "verifiedBy": [
+            "osm",
+            "big-dymak-hq"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "glasir",
+      "title": "Glasir Tórshavn College",
+      "architect": "BIG",
+      "year": "2018",
+      "area": "Tórshavn, Faroe Islands",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-glasir",
+        "archdaily-glasir"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/997129492",
+            "other": [
+              {
+                "source": "big-glasir",
+                "url": "https://big.dk/projects/glasir-1487",
+                "lat": 62.0063177,
+                "lng": -6.7989888
+              }
+            ]
+          },
+          "lat": 62.00597,
+          "lng": -6.799066,
+          "verifiedBy": [
+            "osm",
+            "big-glasir"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "the-twist",
+      "title": "The Twist",
+      "architect": "BIG",
+      "year": "2019",
+      "area": "Jevnaker, Norway",
+      "group": "unusual",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-the-twist",
+        "archdaily-the-twist"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/947867299",
+            "other": [
+              {
+                "source": "big-the-twist",
+                "url": "https://big.dk/projects/the-twist-2-1337",
+                "lat": 60.2223203,
+                "lng": 10.3691027
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "The Twist I.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/The_Twist_I.jpg/960px-The_Twist_I.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/The_Twist_I.jpg/120px-The_Twist_I.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Twist_I.jpg",
+          "author": "Jan-Tore Egge",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "the-plus",
+      "title": "The Plus",
+      "architect": "BIG",
+      "year": "2022",
+      "area": "Magnor, Norway",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-the-plus",
+        "archdaily-the-plus"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/1158921090",
+            "other": [
+              {
+                "source": "big-the-plus",
+                "url": "https://big.dk/projects/the-plus-3837",
+                "lat": 59.9502509,
+                "lng": 12.1905492
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "79-park",
+      "title": "79&Park",
+      "architect": "BIG",
+      "year": "2018",
+      "area": "Stockholm, Sweden",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-79-park",
+        "archdaily-79-park"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q65195906",
+            "osm": "relation/10519722",
+            "other": [
+              {
+                "source": "big-79-park",
+                "url": "https://big.dk/projects/79-park-residences-2557",
+                "lat": 59.3402425,
+                "lng": 18.1122368
+              }
+            ]
+          },
+          "lat": 59.340048,
+          "lng": 18.112685,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "big-79-park"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Gärdet Sandhamnsgatan 79&Park 2019 (DSCN5999).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/G%C3%A4rdet_Sandhamnsgatan_79%26Park_2019_%28DSCN5999%29.jpg/960px-G%C3%A4rdet_Sandhamnsgatan_79%26Park_2019_%28DSCN5999%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/G%C3%A4rdet_Sandhamnsgatan_79%26Park_2019_%28DSCN5999%29.jpg/120px-G%C3%A4rdet_Sandhamnsgatan_79%26Park_2019_%28DSCN5999%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:G%C3%A4rdet_Sandhamnsgatan_79%26Park_2019_(DSCN5999).jpg",
+          "author": "Zquid",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "biosphere",
+      "title": "Biosphere at Treehotel",
+      "architect": "BIG",
+      "year": "2022",
+      "area": "Harads, Sweden",
+      "group": "unusual",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-biosphere",
+        "archdaily-biosphere"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "big-biosphere",
+                "url": "https://big.dk/projects/biosphere-4043",
+                "lat": 66.08265,
+                "lng": 20.96268
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "omniturm",
+      "title": "Omniturm",
+      "architect": "BIG",
+      "year": "2020",
+      "area": "Frankfurt, Germany",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-omniturm"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q15107362",
+            "osm": "way/598133203",
+            "other": [
+              {
+                "source": "big-omniturm",
+                "url": "https://big.dk/projects/omniturm-tower-4529",
+                "lat": 50.1109221,
+                "lng": 8.6821267
+              }
+            ]
+          },
+          "lat": 50.111567,
+          "lng": 8.673086,
+          "verifiedBy": [
+            "osm",
+            "wikidata"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Omniturm Frankfurt 09-19.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Omniturm_Frankfurt_09-19.jpg/960px-Omniturm_Frankfurt_09-19.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Omniturm_Frankfurt_09-19.jpg/120px-Omniturm_Frankfurt_09-19.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Omniturm_Frankfurt_09-19.jpg",
+          "author": "Silesia711",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "edge-east-side",
+      "title": "EDGE East Side Berlin",
+      "architect": "BIG",
+      "year": "2023",
+      "area": "Berlin, Germany",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-edge-east-side"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q66058331",
+            "osm": "way/1364133390",
+            "other": [
+              {
+                "source": "big-edge-east-side",
+                "url": "https://big.dk/projects/edge-east-side-berlin-23193",
+                "lat": 52.5200066,
+                "lng": 13.404954
+              }
+            ]
+          },
+          "lat": 52.506018,
+          "lng": 13.448557,
+          "verifiedBy": [
+            "osm",
+            "wikidata"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Berlin - Edge East Side Tower (2023-10) Bild 02.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Berlin_-_Edge_East_Side_Tower_%282023-10%29_Bild_02.jpg/960px-Berlin_-_Edge_East_Side_Tower_%282023-10%29_Bild_02.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Berlin_-_Edge_East_Side_Tower_%282023-10%29_Bild_02.jpg/120px-Berlin_-_Edge_East_Side_Tower_%282023-10%29_Bild_02.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Berlin_-_Edge_East_Side_Tower_(2023-10)_Bild_02.jpg",
+          "author": "Chainwit.",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    {
+      "id": "sluishuis",
+      "title": "Sluishuis",
+      "architect": "BIG and Barcode Architects",
+      "year": "2022",
+      "area": "Amsterdam, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-sluishuis",
+        "archdaily-sluishuis"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q107141506",
+            "osm": "relation/21145516",
+            "other": [
+              {
+                "source": "big-sluishuis",
+                "url": "https://big.dk/projects/sluishuis-residences-missing-pictures-7293",
+                "lat": 52.3675734,
+                "lng": 4.9041389
+              }
+            ]
+          },
+          "lat": 52.364315,
+          "lng": 4.981927,
+          "verifiedBy": [
+            "osm",
+            "wikidata"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Sluishuis.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Sluishuis.jpg/960px-Sluishuis.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Sluishuis.jpg/120px-Sluishuis.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sluishuis.jpg",
+          "author": "Hay Kranen",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    {
+      "id": "transitlager",
+      "title": "Transitlager Dreispitz",
+      "architect": "BIG",
+      "year": "2017",
+      "area": "Basel, Switzerland",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-transitlager"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/550649111",
+            "other": [
+              {
+                "source": "big-transitlager",
+                "url": "https://big.dk/projects/transitlager-dreispitz-2478",
+                "lat": 47.5319187,
+                "lng": 7.6096902
+              }
+            ]
+          },
+          "lat": 47.532264,
+          "lng": 7.610493,
+          "verifiedBy": [
+            "osm",
+            "big-transitlager"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "musee-atelier-ap",
+      "title": "Musée Atelier Audemars Piguet",
+      "architect": "BIG",
+      "year": "2020",
+      "area": "Le Brassus, Switzerland",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-musee-atelier-ap",
+        "archdaily-musee-atelier-ap"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q27483983",
+            "osm": "node/995696434",
+            "other": [
+              {
+                "source": "big-musee-atelier-ap",
+                "url": "https://big.dk/projects/musee-atelier-audemars-piguet-2884",
+                "lat": 46.5803968,
+                "lng": 6.2084088
+              }
+            ]
+          },
+          "lat": 46.580129,
+          "lng": 6.207816,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "big-musee-atelier-ap"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "hotel-des-horlogers",
+      "title": "Hôtel des Horlogers",
+      "architect": "BIG",
+      "year": "2022",
+      "area": "Le Brassus, Switzerland",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-hotel-des-horlogers"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q140199003",
+            "osm": "way/982245636",
+            "other": [
+              {
+                "source": "big-hotel-des-horlogers",
+                "url": "https://big.dk/projects/audemars-piguet-hotel-5067",
+                "lat": 46.5818107,
+                "lng": 6.2116248
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "skypark",
+      "title": "Skypark Business Center",
+      "architect": "BIG",
+      "year": null,
+      "area": "Luxembourg, Luxembourg",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-skypark"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "big-skypark",
+                "url": "https://big.dk/projects/skypark-business-center-3716",
+                "lat": 49.6339875,
+                "lng": 6.2144844
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "goe",
+      "title": "Gastronomy Open Ecosystem",
+      "architect": "BIG",
+      "year": "2025",
+      "area": "San Sebastián, Spain",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-goe"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q134720194",
+            "osm": "way/1257733900",
+            "other": [
+              {
+                "source": "big-goe",
+                "url": "https://big.dk/projects/gastronomy-open-ecosystem-4679",
+                "lat": 43.3253588136207,
+                "lng": -1.9693973938263
+              }
+            ]
+          },
+          "lat": 43.32526,
+          "lng": -1.969524,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "big-goe"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "via-57-west",
+      "title": "VIA 57 West",
+      "architect": "BIG",
+      "year": "2016",
+      "area": "New York, United States",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-via-57-west",
+        "archdaily-via-57-west"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q7984220",
+            "osm": "relation/4463147",
+            "other": [
+              {
+                "source": "big-via-57-west",
+                "url": "https://big.dk/projects/via-57-west-2350",
+                "lat": 40.7711006,
+                "lng": -73.9923335
+              }
+            ]
+          },
+          "lat": 40.771489,
+          "lng": -73.993573,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "big-via-57-west"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "VIA 57 West - exterior.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/VIA_57_West_-_exterior.jpg/960px-VIA_57_West_-_exterior.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/VIA_57_West_-_exterior.jpg/120px-VIA_57_West_-_exterior.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:VIA_57_West_-_exterior.jpg",
+          "author": "Razvan Dinu",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "the-spiral",
+      "title": "The Spiral",
+      "architect": "BIG",
+      "year": "2023",
+      "area": "New York, United States",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-the-spiral",
+        "archdaily-the-spiral"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q21281579",
+            "osm": "way/1021580375",
+            "other": [
+              {
+                "source": "big-the-spiral",
+                "url": "https://big.dk/projects/the-spiral-4456",
+                "lat": 40.7552556,
+                "lng": -73.9995584
+              }
+            ]
+          },
+          "lat": 40.75525,
+          "lng": -73.999582,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "big-the-spiral"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "The Spiral 006.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/The_Spiral_006.jpg/960px-The_Spiral_006.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/The_Spiral_006.jpg/120px-The_Spiral_006.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Spiral_006.jpg",
+          "author": "Kidfly182",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    {
+      "id": "the-smile",
+      "title": "The Smile",
+      "architect": "BIG",
+      "year": "2020",
+      "area": "New York, United States",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-the-smile",
+        "archdaily-the-smile"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "big-the-smile",
+                "url": "https://big.dk/projects/the-smile-residences-2956",
+                "lat": 40.8046058224443,
+                "lng": -73.9363014915405
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "The Smile at 148 East 126th Street in New York City.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/The_Smile_at_148_East_126th_Street_in_New_York_City.jpg/960px-The_Smile_at_148_East_126th_Street_in_New_York_City.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/The_Smile_at_148_East_126th_Street_in_New_York_City.jpg/120px-The_Smile_at_148_East_126th_Street_in_New_York_City.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Smile_at_148_East_126th_Street_in_New_York_City.jpg",
+          "author": "Urahoneza",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    {
+      "id": "one-high-line",
+      "title": "One High Line",
+      "architect": "BIG",
+      "year": null,
+      "area": "New York, United States",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-one-high-line"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q54954451",
+            "osm": "way/1275407069",
+            "other": [
+              {
+                "source": "big-one-high-line",
+                "url": "https://big.dk/projects/one-high-line-3358",
+                "lat": 40.7449333,
+                "lng": -74.0078645
+              }
+            ]
+          },
+          "lat": 40.744761,
+          "lng": -74.007559,
+          "verifiedBy": [
+            "osm",
+            "big-one-high-line"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "One High Line (55380816911).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/One_High_Line_%2855380816911%29.jpg/960px-One_High_Line_%2855380816911%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/One_High_Line_%2855380816911%29.jpg/120px-One_High_Line_%2855380816911%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:One_High_Line_(55380816911).jpg",
+          "author": "Ajay Suresh",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    {
+      "id": "nypd-40th-precinct",
+      "title": "NYPD 40th Precinct",
+      "architect": "BIG",
+      "year": "2024",
+      "area": "New York, United States",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-nypd-40th-precinct"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/643861448",
+            "other": [
+              {
+                "source": "big-nypd-40th-precinct",
+                "url": "https://big.dk/projects/nypd-40th-precinct-3162",
+                "lat": 40.8147474,
+                "lng": -73.9134661
+              }
+            ]
+          },
+          "lat": 40.814705,
+          "lng": -73.913089,
+          "verifiedBy": [
+            "osm",
+            "big-nypd-40th-precinct"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "solar-one",
+      "title": "Solar One Environmental Education Center",
+      "architect": "BIG",
+      "year": "2025",
+      "area": "New York, United States",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-solar-one"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/1515002113",
+            "other": [
+              {
+                "source": "big-solar-one",
+                "url": "https://big.dk/projects/solar-one-environmental-education-center-21999",
+                "lat": 40.7366507,
+                "lng": -73.9743619
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "wildflower-studios",
+      "title": "Wildflower Studios",
+      "architect": "BIG",
+      "year": "2024",
+      "area": "New York, United States",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-wildflower-studios"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/1073543762",
+            "other": [
+              {
+                "source": "big-wildflower-studios",
+                "url": "https://big.dk/projects/wildflower-film-studios-astoria-4006",
+                "lat": 40.7803800097913,
+                "lng": -73.9011888363403
+              }
+            ]
+          },
+          "lat": 40.780556,
+          "lng": -73.9013,
+          "verifiedBy": [
+            "osm",
+            "big-wildflower-studios"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "1200-intrepid",
+      "title": "1200 Intrepid",
+      "architect": "BIG",
+      "year": "2016",
+      "area": "Philadelphia, United States",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-1200-intrepid",
+        "archdaily-1200-intrepid"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q30646205",
+            "osm": "way/422720596",
+            "other": [
+              {
+                "source": "big-1200-intrepid",
+                "url": "https://big.dk/projects/1200-intrepid-2933",
+                "lat": 39.8938671,
+                "lng": -75.1725048
+              }
+            ]
+          },
+          "lat": 39.893862,
+          "lng": -75.1725,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "big-1200-intrepid"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "1200 Intrepid Building.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/1200_Intrepid_Building.jpg/960px-1200_Intrepid_Building.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/1200_Intrepid_Building.jpg/120px-1200_Intrepid_Building.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:1200_Intrepid_Building.jpg",
+          "author": "Frank Vanhoof",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    {
+      "id": "grove-grand-bay",
+      "title": "Grove at Grand Bay",
+      "architect": "BIG",
+      "year": "2016",
+      "area": "Miami, United States",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-grove-grand-bay",
+        "archdaily-grove-grand-bay"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/1529521451",
+            "other": [
+              {
+                "source": "big-grove-grand-bay",
+                "url": "https://big.dk/projects/the-grove-at-grand-bay-2696",
+                "lat": 25.7306572,
+                "lng": -80.2370979
+              }
+            ]
+          },
+          "lat": 25.730674,
+          "lng": -80.23713,
+          "verifiedBy": [
+            "osm",
+            "big-grove-grand-bay"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "google-bay-view",
+      "title": "Google Bay View",
+      "architect": "BIG and Heatherwick Studio",
+      "year": "2022",
+      "area": "Mountain View, United States",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-google-bay-view",
+        "archdaily-google-bay-view"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "big-google-bay-view",
+                "url": "https://big.dk/projects/google-bay-view-3070",
+                "lat": 37.3860517,
+                "lng": -122.0838511
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "google-gradient-canopy",
+      "title": "Google Gradient Canopy",
+      "architect": "BIG and Heatherwick Studio",
+      "year": null,
+      "area": "Mountain View, United States",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-google-gradient-canopy"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "big-google-gradient-canopy",
+                "url": "https://big.dk/projects/google-gradient-canopy-16167",
+                "lat": 37.4162045,
+                "lng": -122.0828468
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Google´s Gradient Canopy, Mountain View, California 04.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Google%C2%B4s_Gradient_Canopy%2C_Mountain_View%2C_California_04.jpg/960px-Google%C2%B4s_Gradient_Canopy%2C_Mountain_View%2C_California_04.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Google%C2%B4s_Gradient_Canopy%2C_Mountain_View%2C_California_04.jpg/120px-Google%C2%B4s_Gradient_Canopy%2C_Mountain_View%2C_California_04.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Google%C2%B4s_Gradient_Canopy,_Mountain_View,_California_04.jpg",
+          "author": "GualdimG",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "google-caribbean",
+      "title": "Google Caribbean",
+      "architect": "BIG",
+      "year": null,
+      "area": "Sunnyvale, United States",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-google-caribbean"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "big-google-caribbean",
+                "url": "https://big.dk/projects/google-caribbean-3648",
+                "lat": 37.36883,
+                "lng": -122.0363496
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "isenberg",
+      "title": "Isenberg Business Innovation Hub",
+      "architect": "BIG",
+      "year": "2019",
+      "area": "Amherst, United States",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-isenberg",
+        "archdaily-isenberg"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "relation/17798539",
+            "other": [
+              {
+                "source": "big-isenberg",
+                "url": "https://big.dk/projects/isenberg-innovation-hub-3466",
+                "lat": 42.386697,
+                "lng": -72.524893
+              }
+            ]
+          },
+          "lat": 42.386815,
+          "lng": -72.524857,
+          "verifiedBy": [
+            "osm",
+            "big-isenberg"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "heights-building",
+      "title": "The Heights Building",
+      "architect": "BIG",
+      "year": "2019",
+      "area": "Arlington, United States",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-heights-building",
+        "archdaily-heights-building"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "big-heights-building",
+                "url": "https://big.dk/projects/the-heights-school-3104",
+                "lat": 38.8946101,
+                "lng": -77.0775394
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "bloomberg-center",
+      "title": "Bloomberg Student Center, Johns Hopkins University",
+      "architect": "BIG",
+      "year": "2025",
+      "area": "Baltimore, United States",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-bloomberg-center",
+        "archdaily-bloomberg-center"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "big-bloomberg-center",
+                "url": "https://big.dk/projects/bloomberg-student-center-at-johns-hopkins-university-22443",
+                "lat": 39.3300091850609,
+                "lng": -76.6204318693114
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "robert-day-sciences",
+      "title": "Robert Day Sciences Center, Claremont McKenna College",
+      "architect": "BIG",
+      "year": "2025",
+      "area": "Claremont, United States",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-robert-day-sciences",
+        "archdaily-robert-day-sciences"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/1526653100",
+            "other": [
+              {
+                "source": "big-robert-day-sciences",
+                "url": "https://big.dk/projects/claremont-mckenna-college-14115",
+                "lat": 34.1021264,
+                "lng": -117.7112116
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "telus-sky",
+      "title": "Telus Sky",
+      "architect": "BIG",
+      "year": "2020",
+      "area": "Calgary, Canada",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-telus-sky"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q16255317",
+            "osm": "way/500294061",
+            "other": [
+              {
+                "source": "big-telus-sky",
+                "url": "https://big.dk/projects/telus-sky-4861",
+                "lat": 51.0468626,
+                "lng": -114.0632354
+              }
+            ]
+          },
+          "lat": 51.046801,
+          "lng": -114.063573,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "big-telus-sky"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Telus Sky May.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Telus_Sky_May.jpg/960px-Telus_Sky_May.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Telus_Sky_May.jpg/120px-Telus_Sky_May.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Telus_Sky_May.jpg",
+          "author": "Jason Corbett",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "vancouver-house",
+      "title": "Vancouver House",
+      "architect": "BIG",
+      "year": "2020",
+      "area": "Vancouver, Canada",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-vancouver-house"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q55636956",
+            "osm": "way/742009401",
+            "other": [
+              {
+                "source": "big-vancouver-house",
+                "url": "https://big.dk/projects/vancouver-house-missing-pictures-7130",
+                "lat": 49.2749131,
+                "lng": -123.1310268
+              }
+            ]
+          },
+          "lat": 49.274755,
+          "lng": -123.130986,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "big-vancouver-house"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "The Tower Rises, Vancouver House, Vancouver.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/The_Tower_Rises%2C_Vancouver_House%2C_Vancouver.jpg/960px-The_Tower_Rises%2C_Vancouver_House%2C_Vancouver.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/The_Tower_Rises%2C_Vancouver_House%2C_Vancouver.jpg/120px-The_Tower_Rises%2C_Vancouver_House%2C_Vancouver.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Tower_Rises,_Vancouver_House,_Vancouver.jpg",
+          "author": "W & J",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      ]
+    },
+    {
+      "id": "iqon",
+      "title": "IQON",
+      "architect": "BIG",
+      "year": "2022",
+      "area": "Quito, Ecuador",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-iqon",
+        "archdaily-iqon"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q134506603",
+            "osm": "way/1285817826",
+            "other": [
+              {
+                "source": "big-iqon",
+                "url": "https://big.dk/projects/iqon-residences-3687",
+                "lat": -0.1754903,
+                "lng": -78.4807051
+              }
+            ]
+          },
+          "lat": -0.179078,
+          "lng": -78.480974,
+          "verifiedBy": [
+            "osm",
+            "wikidata"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "epiq",
+      "title": "EPIQ",
+      "architect": "BIG",
+      "year": "2024",
+      "area": "Quito, Ecuador",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-epiq"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q134539478",
+            "osm": "way/964455339",
+            "other": [
+              {
+                "source": "big-epiq",
+                "url": "https://big.dk/projects/epiq-residences-3797",
+                "lat": -0.189879950765443,
+                "lng": -78.484768303302
+              }
+            ]
+          },
+          "lat": -0.190687,
+          "lng": -78.486689,
+          "verifiedBy": [
+            "osm",
+            "wikidata"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "honeycomb",
+      "title": "Honeycomb",
+      "architect": "BIG",
+      "year": "2017",
+      "area": "Nassau, Bahamas",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-honeycomb"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "big-honeycomb",
+                "url": "https://big.dk/projects/honeycomb-residences-albany-masterplan-11530",
+                "lat": 25.0443312,
+                "lng": -77.3503609
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "capitaspring",
+      "title": "CapitaSpring",
+      "architect": "BIG and Carlo Ratti Associati",
+      "year": "2022",
+      "area": "Singapore, Singapore",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-capitaspring",
+        "archdaily-capitaspring"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q105702331",
+            "osm": "way/694047464",
+            "other": [
+              {
+                "source": "big-capitaspring",
+                "url": "https://big.dk/projects/capitaspring-4630",
+                "lat": 1.2838605,
+                "lng": 103.8500779
+              }
+            ]
+          },
+          "lat": 1.28422,
+          "lng": 103.850131,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "big-capitaspring"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "CapitaSpring1.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/CapitaSpring1.jpg/960px-CapitaSpring1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/CapitaSpring1.jpg/120px-CapitaSpring1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:CapitaSpring1.jpg",
+          "author": "Koronowo",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "shenzhen-energy",
+      "title": "Shenzhen Energy Mansion",
+      "architect": "BIG",
+      "year": "2018",
+      "area": "Shenzhen, China",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-shenzhen-energy",
+        "archdaily-shenzhen-energy"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q109410548",
+            "other": [
+              {
+                "source": "big-shenzhen-energy",
+                "url": "https://big.dk/projects/shenzhen-energy-mansion-hq-2314",
+                "lat": 22.7587983,
+                "lng": 114.3029394
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Shenzhen Energy Mansion2021.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Shenzhen_Energy_Mansion2021.jpg/960px-Shenzhen_Energy_Mansion2021.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Shenzhen_Energy_Mansion2021.jpg/120px-Shenzhen_Energy_Mansion2021.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Shenzhen_Energy_Mansion2021.jpg",
+          "author": "Charlie fong",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "suzhou-moca",
+      "title": "Suzhou Museum of Contemporary Art",
+      "architect": "BIG",
+      "year": "2025",
+      "area": "Suzhou, China",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-suzhou-moca",
+        "archdaily-suzhou-moca"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q136806692",
+            "other": [
+              {
+                "source": "big-suzhou-moca",
+                "url": "https://big.dk/projects/suzhou-museum-of-contemporary-art-18410",
+                "lat": 31.3167922909949,
+                "lng": 120.708878314439
+              }
+            ]
+          },
+          "lat": 31.31703,
+          "lng": 120.70897,
+          "verifiedBy": [
+            "wikidata",
+            "big-suzhou-moca"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "jinji-lake-pavilion",
+      "title": "Jinji Lake Pavilion",
+      "architect": "BIG",
+      "year": "2025",
+      "area": "Suzhou, China",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-jinji-lake-pavilion",
+        "archdaily-jinji-lake-pavilion"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "big-jinji-lake-pavilion",
+                "url": "https://big.dk/projects/jinji-lake-pavilion-20223",
+                "lat": 31.320810781184,
+                "lng": 120.704480789888
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "not-a-hotel-setouchi",
+      "title": "NOT A HOTEL Setouchi",
+      "architect": "BIG",
+      "year": "2026",
+      "area": "Onomichi, Japan",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
+      "sources": [
+        "big-not-a-hotel-setouchi",
+        "archdaily-not-a-hotel-setouchi"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "big-not-a-hotel-setouchi",
+                "url": "https://big.dk/projects/not-a-hotel-setouchi-18610",
+                "lat": 34.3299305949302,
+                "lng": 133.096258011656
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    }
+  ]
+}

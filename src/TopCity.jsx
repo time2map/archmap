@@ -16,8 +16,7 @@ const RTL_TEXT_PLUGIN = 'https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-r
 
 const GROUPS = [
   { id: 'city-core', label: 'City core', color: '#c0392b' },
-  { id: 'housing', label: 'Housing', color: '#e67e22' },
-  { id: 'buildings', label: 'Buildings', color: '#2980b9' },
+  { id: 'architecture', label: 'Architecture', color: '#2980b9' },
   { id: 'unusual', label: 'Unusual', color: '#8e44ad' },
   { id: 'parks', label: 'Parks', color: '#27ae60' }
 ]
@@ -25,6 +24,12 @@ const GROUP_BY_ID = Object.fromEntries(GROUPS.map(g => [g.id, g]))
 const MIN_MENTIONS = [1, 2, 3]
 // The map's frame when no city is open
 const OVERVIEW = Symbol('overview')
+// Works of top firms beyond the cities (public/top/world.json): dots below this zoom, photo pins from it on
+const WORLD_PHOTO_ZOOM = 6
+// Below this zoom a city is its cover; from it on, its places. Zooming out of an open city past it closes the city.
+const CITY_ZOOM = 9
+// The ids of world.json places carry this prefix, so they never collide with a city's places
+const WORLD = 'world:'
 
 const isLocated = (pin) => Number.isFinite(pin.lat) && Number.isFinite(pin.lng)
 const located = (pins) => pins.filter(isLocated)
@@ -223,9 +228,15 @@ function PlaceCard({ place, cityName, sources, selected, onSelect, onSelectPoint
             <span className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: group.color }} />
             {group.label}
           </span>
+          {place.firms?.length > 0 && (
+            <span className="rounded-full bg-gray-900 px-2 py-0.5 text-[11px] font-medium text-white" title={place.firms.join(', ')}>
+              Top architecture firm
+            </span>
+          )}
         </div>
 
-        <p className="mt-3 text-sm leading-relaxed text-gray-800">{place.why}</p>
+        {/* Works of top firms have no text of their own: the links below are the place to read about them */}
+        {place.why && <p className="mt-3 text-sm leading-relaxed text-gray-800">{place.why}</p>}
 
         <div className="mt-3">
           <p className="text-[11px] font-medium uppercase tracking-wide text-gray-500 mb-1">Recommended by</p>
@@ -371,11 +382,18 @@ function TopCity({ cityId, onCityChange }) {
   // Rounded to half steps so markers re-render only when their size class can change
   const [zoom, setZoom] = useState(11)
   const [cursor, setCursor] = useState('')
+  // What the map shows, updated when it stops: the list beyond the cities follows it
+  const [bounds, setBounds] = useState(null)
+  const [world, setWorld] = useState(null)
   const mapRef = useRef(null)
   const cardRefs = useRef({})
   const requestedCities = useRef(new Set())
   // What the map framed last: null before the first frame, OVERVIEW, or a city id
   const framedRef = useRef(null)
+  // The place to select once a city opens from one of its pins on the overview
+  const pendingSelection = useRef(null)
+  // The zoom at the start of a pan or zoom by the user; null while the map flies by itself
+  const gestureZoom = useRef(null)
   const selectedId = selection.id
 
   useEffect(() => {
@@ -385,6 +403,13 @@ function TopCity({ cityId, onCityChange }) {
         return response.json()
       })
       .then(setCities)
+      .catch(err => setError(err.message))
+    fetch(`${import.meta.env.BASE_URL}top/world.json`)
+      .then(response => {
+        if (!response.ok) throw new Error('Failed to load the places beyond the cities')
+        return response.json()
+      })
+      .then(setWorld)
       .catch(err => setError(err.message))
   }, [])
 
@@ -408,9 +433,43 @@ function TopCity({ cityId, onCityChange }) {
 
   const city = (cityId && cityData[cityId]) || null
 
+  // A new city starts with nothing selected, unless it was opened from one of its pins
   useEffect(() => {
-    setSelection({ id: null, pointIndex: null })
+    const pending = pendingSelection.current
+    pendingSelection.current = null
+    setSelection(pending || { id: null, pointIndex: null })
+    // The city's cards render with this selection; scroll to the card after they do
+    if (pending) requestAnimationFrame(() => cardRefs.current[pending.id]?.scrollIntoView({ behavior: 'smooth', block: 'nearest' }))
   }, [cityId])
+
+  const worldPlaces = useMemo(
+    () => (world ? sortPlaces(world.places.map(place => ({ ...place, id: WORLD + place.id, pins: pinsOf(place) }))) : []),
+    [world]
+  )
+
+  // Every pin beyond the cities, drawn as a dot while the map is zoomed out
+  const worldDots = useMemo(() => ({
+    type: 'FeatureCollection',
+    features: worldPlaces.flatMap(place => place.pins.map((pin, pinIndex) => (isLocated(pin) ? {
+      type: 'Feature',
+      geometry: { type: 'Point', coordinates: [pin.lng, pin.lat] },
+      properties: { placeId: place.id, pinIndex, color: GROUP_BY_ID[place.group].color }
+    } : null)).filter(Boolean))
+  }), [worldPlaces])
+
+  const inBounds = useCallback((place) => !!bounds && located(place.pins).some(pin => bounds.contains([pin.lng, pin.lat])), [bounds])
+  // The overview lists the places beyond the cities that are on the map, then those without a location
+  const worldInView = useMemo(() => worldPlaces.filter(inBounds), [worldPlaces, inBounds])
+  const worldUnlocated = useMemo(
+    () => worldPlaces.filter(place => located(place.pins).length === 0).sort((a, b) => a.area.localeCompare(b.area)),
+    [worldPlaces]
+  )
+
+  // On the overview zoomed in past CITY_ZOOM, the cities show their places instead of their covers
+  const overviewPlaces = useMemo(() => cities.filter(c => cityData[c.id]).map(c => ({
+    id: c.id,
+    places: sortPlaces(cityData[c.id].places.map(place => ({ ...place, pins: pinsOf(place) }))).map((place, rank) => ({ ...place, rank }))
+  })), [cities, cityData])
 
   // Every loaded city: the bounds of its pins, its cover, and where its marker stands: at the place
   // of the cover (the Eiffel Tower, the Royal Palace), or in the middle of the city without one
@@ -497,7 +556,10 @@ function TopCity({ cityId, onCityChange }) {
     }
   }, [mapLoaded, cityId, places, cities, overview, fitPlaces])
 
+  // A place beyond the cities stays selected whatever the city's filters
   useEffect(() => {
+    // Nothing to reset without a selection, and resetting here would undo the place a city opens with
+    if (!selectedId || selectedId.startsWith(WORLD)) return
     if (!visiblePlaces.some(p => p.id === selectedId)) setSelection({ id: null, pointIndex: null })
   }, [visiblePlaces, selectedId])
 
@@ -530,11 +592,89 @@ function TopCity({ cityId, onCityChange }) {
     cardRefs.current[place.id]?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
   }, [showPlaceOnMap])
 
-  const handleShapeClick = (e) => {
+  // A city's outlines and lines, and the dots of places beyond the cities
+  const handleLayerClick = (e) => {
     const feature = e.features?.[0]
-    const place = feature && places.find(p => p.id === feature.properties.placeId)
+    const id = feature?.properties.placeId
+    const place = id && (places.find(p => p.id === id) || worldPlaces.find(p => p.id === id))
     if (place) handleMarkerClick(place, feature.properties.pinIndex)
   }
+
+  // A pin of a city on the overview opens the city with that place selected, without framing the whole city
+  const openCityAt = (id, place, pointIndex) => {
+    const activePoint = place.pins.length > 1 ? pointIndex : null
+    pendingSelection.current = { id: place.id, pointIndex: activePoint }
+    framedRef.current = id
+    showPlaceOnMap(place, activePoint)
+    onCityChange(id)
+  }
+
+  // A place's photo pins in its group's colour; the selected place is larger, and its active pin is labelled
+  const pinMarkers = (place, zIndex, onPinClick) => {
+    const color = GROUP_BY_ID[place.group].color
+    const selected = place.id === selectedId
+    const isEnsemble = place.pins.length > 1
+    const photo = place.photos?.[0]
+    return place.pins.map((point, index) => {
+      if (!isLocated(point)) return null
+      // In an ensemble only the active pin is labelled, otherwise labels pile up
+      const active = selected && (!isEnsemble || selection.pointIndex === index)
+      // Dense cities: small pins when zoomed out, so they don't cover each other
+      const base = zoom < 12 ? 18 : zoom < 13.5 ? 28 : 40
+      const size = active ? 56 : selected ? Math.max(base, 32) : isEnsemble ? base - 4 : base
+      return (
+        <Marker
+          key={`${place.id}-${index}`}
+          longitude={point.lng}
+          latitude={point.lat}
+          anchor="center"
+          // The selected place above everything, then the city covers (z-index from their latitude)
+          style={{ zIndex: active ? 100002 : selected ? 100001 : zIndex }}
+          onClick={(e) => {
+            e.originalEvent.stopPropagation()
+            onPinClick(place, index)
+          }}
+        >
+          <div className="relative cursor-pointer" title={point.name || place.title}>
+            {/* The group colour is the ring; the first photo fills the pin */}
+            <div
+              className="rounded-full overflow-hidden bg-white shadow-md transition-all duration-200"
+              style={{ width: size, height: size, border: `${size < 24 ? 2 : 3}px solid ${color}` }}
+            >
+              {photo && (
+                <img
+                  src={photo.thumb || photo.src}
+                  alt=""
+                  loading="lazy"
+                  draggable={false}
+                  className="w-full h-full object-cover"
+                />
+              )}
+            </div>
+            {active && (
+              <div className="absolute left-1/2 top-full mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-white/95 px-2 py-0.5 text-xs font-semibold text-gray-900 shadow pointer-events-none">
+                {point.name || place.title}
+              </div>
+            )}
+          </div>
+        </Marker>
+      )
+    })
+  }
+
+  const selectedWorldPlace = selectedId?.startsWith(WORLD) ? worldPlaces.find(p => p.id === selectedId) : null
+  const worldCard = (place) => (
+    <PlaceCard
+      key={place.id}
+      place={place}
+      cityName={place.area}
+      sources={world.sources}
+      selected={place.id === selectedId}
+      onSelect={handleSelect}
+      onSelectPoint={handleSelectPoint}
+      cardRef={(el) => { cardRefs.current[place.id] = el }}
+    />
+  )
 
   const handleGroupFilter = (groupId) => {
     setGroupFilter(groupId)
@@ -560,14 +700,26 @@ function TopCity({ cityId, onCityChange }) {
             const next = Math.round(e.viewState.zoom * 2) / 2
             setZoom(prev => (prev === next ? prev : next))
           }}
+          onMoveStart={(e) => { gestureZoom.current = e.originalEvent ? e.viewState.zoom : null }}
+          onMoveEnd={(e) => {
+            setBounds(e.target.getBounds())
+            // Zooming out of a city by hand folds it back into its cover; the map stays where the user left it
+            if (cityId && gestureZoom.current !== null && e.viewState.zoom < gestureZoom.current && e.viewState.zoom < CITY_ZOOM - 0.5) {
+              framedRef.current = OVERVIEW
+              onCityChange(null)
+            }
+            gestureZoom.current = null
+          }}
           onLoad={(e) => {
             // Same as the main tab: keep Standard's 3D buildings, drop terrain so pins stay visible
             e.target.setTerrain(null)
+            setBounds(e.target.getBounds())
             setMapLoaded(true)
           }}
-          // Outlines and lines are clickable; the inside of an area is not, or a whole district would catch every click
-          interactiveLayerIds={['top-shapes-hit']}
-          onClick={handleShapeClick}
+          // Outlines, lines and the dots beyond the cities are clickable; the inside of an area is not,
+          // or a whole district would catch every click
+          interactiveLayerIds={['top-shapes-hit', 'world-dots']}
+          onClick={handleLayerClick}
           onMouseEnter={() => setCursor('pointer')}
           onMouseLeave={() => setCursor('')}
           cursor={cursor}
@@ -627,61 +779,37 @@ function TopCity({ cityId, onCityChange }) {
               />
             </Source>
           )}
+          {mapLoaded && (
+            <Source id="world-places" type="geojson" data={worldDots}>
+              <Layer
+                id="world-dots"
+                type="circle"
+                {...slot('top')}
+                maxzoom={WORLD_PHOTO_ZOOM}
+                paint={{
+                  'circle-radius': 4,
+                  'circle-color': ['get', 'color'],
+                  'circle-stroke-color': '#ffffff',
+                  'circle-stroke-width': 1.5,
+                  'circle-emissive-strength': 1
+                }}
+              />
+            </Source>
+          )}
 
-          {visiblePlaces.map(place => {
-            const color = GROUP_BY_ID[place.group].color
-            const selected = place.id === selectedId
-            const isEnsemble = place.pins.length > 1
-            const photo = place.photos?.[0]
-            return place.pins.map((point, index) => {
-              if (!isLocated(point)) return null
-              // In an ensemble only the active pin is labelled, otherwise labels pile up
-              const active = selected && (!isEnsemble || selection.pointIndex === index)
-              // Dense cities: small pins when zoomed out, so they don't cover each other
-              const base = zoom < 12 ? 18 : zoom < 13.5 ? 28 : 40
-              const size = active ? 56 : selected ? Math.max(base, 32) : isEnsemble ? base - 4 : base
-              return (
-                <Marker
-                  key={`${place.id}-${index}`}
-                  longitude={point.lng}
-                  latitude={point.lat}
-                  anchor="center"
-                  // Higher places on top; the selected place above everything
-                  style={{ zIndex: active ? places.length + 2 : selected ? places.length + 1 : places.length - place.rank }}
-                  onClick={(e) => {
-                    e.originalEvent.stopPropagation()
-                    handleMarkerClick(place, index)
-                  }}
-                >
-                  <div className="relative cursor-pointer" title={point.name || place.title}>
-                    {/* The group colour is the ring; the first photo fills the pin */}
-                    <div
-                      className="rounded-full overflow-hidden bg-white shadow-md transition-all duration-200"
-                      style={{ width: size, height: size, border: `${size < 24 ? 2 : 3}px solid ${color}` }}
-                    >
-                      {photo && (
-                        <img
-                          src={photo.thumb || photo.src}
-                          alt=""
-                          loading="lazy"
-                          draggable={false}
-                          className="w-full h-full object-cover"
-                        />
-                      )}
-                    </div>
-                    {active && (
-                      <div className="absolute left-1/2 top-full mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-white/95 px-2 py-0.5 text-xs font-semibold text-gray-900 shadow pointer-events-none">
-                        {point.name || place.title}
-                      </div>
-                    )}
-                  </div>
-                </Marker>
-              )
-            })
-          })}
+          {/* Places beyond the cities: dots while zoomed out (the world-dots layer), photo pins in view from WORLD_PHOTO_ZOOM on */}
+          {zoom >= WORLD_PHOTO_ZOOM && worldInView.map(place => pinMarkers(place, 0, handleMarkerClick))}
+
+          {/* Higher places on top */}
+          {visiblePlaces.map(place => pinMarkers(place, places.length - place.rank, handleMarkerClick))}
+
+          {/* The overview zoomed in: the places of the cities in view; a click opens the city at that place */}
+          {!cityId && zoom >= CITY_ZOOM && overviewPlaces.map(c => c.places.filter(inBounds).map(place =>
+            pinMarkers(place, c.places.length - place.rank, (p, index) => openCityAt(c.id, p, index))
+          ))}
 
           {/* The overview: a city's cover at its landmark; a click opens the city */}
-          {!cityId && overview.map(c => (
+          {!cityId && zoom < CITY_ZOOM && overview.map(c => (
             <Marker
               key={c.id}
               longitude={c.lng}
@@ -734,6 +862,24 @@ function TopCity({ cityId, onCityChange }) {
           {(cityId ? !city : overview.length === 0) && !error && <p className="text-sm text-gray-500">Loading…</p>}
 
           {!cityId && overview.map(c => <CityCard key={c.id} city={c} onOpen={onCityChange} />)}
+
+          {!cityId && world && (
+            <>
+              <h2 className="pt-2 text-base font-semibold text-gray-900">
+                Beyond cities <span className="text-sm font-normal text-gray-500">· {worldInView.length} on the map in view</span>
+              </h2>
+              {worldInView.map(worldCard)}
+              {worldUnlocated.length > 0 && (
+                <>
+                  <h2 className="pt-2 text-base font-semibold text-gray-900">Not on the map yet</h2>
+                  {worldUnlocated.map(worldCard)}
+                </>
+              )}
+            </>
+          )}
+
+          {/* A place beyond the cities picked on the map of a city */}
+          {cityId && selectedWorldPlace && worldCard(selectedWorldPlace)}
 
           {city && (
             <>

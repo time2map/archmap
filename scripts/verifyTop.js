@@ -12,7 +12,9 @@ import { fileURLToPath } from 'url'
 // - fills in Commons photo metadata (author, license, thumbnails) and rejects non-free files
 //   and files Commons tags as having no freedom of panorama;
 // - validates the schema and prints a report in the order the UI shows the places.
-// Usage: node scripts/verifyTop.js <city> [--offline]
+// public/top/world.json holds the works of top architecture firms beyond the cities: no cover, and every
+// place names its city and country in `area`, shown on the card when the location is not confirmed.
+// Usage: node scripts/verifyTop.js <city|world> [--offline]
 // --offline only validates the file and prints the report, without network access.
 
 const __filename = fileURLToPath(import.meta.url)
@@ -24,7 +26,7 @@ const MAX_PHOTOS = 5
 const THUMB_WIDTH = 960
 // Small thumbnail shown inside the map pin
 const PIN_WIDTH = 120
-const GROUPS = ['city-core', 'housing', 'buildings', 'unusual', 'parks']
+const GROUPS = ['city-core', 'architecture', 'unusual', 'parks']
 const SHAPE_KINDS = ['area', 'line']
 const MAX_CITY_CORE = 30
 const SOURCE_TYPES = ['media', 'architect', 'registry', 'award', 'tourism', 'blogger']
@@ -41,6 +43,7 @@ const CYRILLIC = /[Ѐ-ӿ]/
 const QUOTES = /[«»“”"]/
 
 const city = process.argv[2]
+const isWorld = city === 'world'
 const offline = process.argv.includes('--offline')
 if (!city || city.startsWith('--')) {
   console.error('Usage: node scripts/verifyTop.js <city> [--offline]')
@@ -488,7 +491,9 @@ function validate(data, issuesByPlace, topErrors) {
   if (!data.name) topErrors.push('name is missing')
   if (!DATE.test(data.updated || '')) topErrors.push('updated must be a date')
   // The cover is the city's picture in link previews (scripts/buildPages.js)
-  if (!data.cover) topErrors.push('cover is missing: the file of one of the city\'s photos')
+  if (isWorld) {
+    if (data.cover) topErrors.push('world.json has no cover')
+  } else if (!data.cover) topErrors.push('cover is missing: the file of one of the city\'s photos')
   else if (!(data.places || []).some(p => (p.photos || []).some(photo => photo.file === data.cover))) {
     topErrors.push(`cover "${data.cover}" is not the file of any of the city's photos`)
   }
@@ -522,7 +527,12 @@ function validate(data, issuesByPlace, topErrors) {
     if (new Set(voters).size !== voters.length) issues.errors.push('two votes from the same author and outlet')
     const avVotes = (place.sources || []).filter(id => sources[id]?.publisher === AV_PUBLISHER).length
     if (avVotes > 1) issues.errors.push('more than one Arquitectura Viva vote')
-    if (!place.why) issues.errors.push('why is missing')
+    // Works of top firms need no text: the links to read about them are enough
+    if (place.firms !== undefined && (!Array.isArray(place.firms) || place.firms.length === 0 || !place.firms.every(f => typeof f === 'string' && f.trim()))) {
+      issues.errors.push('firms must be a non-empty array of firm names')
+    }
+    if (!place.why && !place.firms?.length) issues.errors.push('why is missing')
+    if (isWorld && !/^[^,]+(, [^,]+)+$/.test(place.area || '')) issues.errors.push('area must be "City, Country"')
     if (QUOTES.test(place.why || '')) issues.warnings.push('why contains quotation marks — no quotes in card text')
     const visibleText = [place.title, place.architect, place.year, place.area, place.why, place.note,
       ...(place.points || []).map(p => p.name), ...(place.shapes || []).map(s => s.name)].join(' ')

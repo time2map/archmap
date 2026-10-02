@@ -5208,7 +5208,7 @@
       "architect": "Enrique Viedma Vidal",
       "year": "1929–1933",
       "area": "Extramurs",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "ctav-fincaroja",
         "vbonita-2020",
@@ -5278,7 +5278,7 @@
       "architect": "Santiago Artal Ríos",
       "year": "1958–1961",
       "area": "Extramurs",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "docomomo-micaela",
         "vplaza-molins-2018",
@@ -5336,7 +5336,7 @@
       "architect": "Ábalos + Sentkiewicz",
       "year": "2008–2012",
       "area": "La Torre",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "av-torresolar",
         "archdaily-ferreira-2024",
@@ -5382,7 +5382,7 @@
       "architect": "José Manuel Cortina Pérez",
       "year": "1901",
       "area": "L’Eixample",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "natgeo-lujan-2018",
         "vbonita-2020"
@@ -5450,7 +5450,7 @@
       "architect": "Manuel Peris Ferrando",
       "year": "1906",
       "area": "L’Eixample",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "vbonita-2020",
         "ctav-ortega"
@@ -5508,7 +5508,7 @@
       "architect": "Antonio Martorell, Emilio Ferrer, Carlos Carbonell",
       "year": "1916",
       "area": "L’Eixample",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "natgeo-lujan-2018",
         "ctav-chapa"
@@ -5567,7 +5567,7 @@
       "architect": "Francisco Mora Berenguer",
       "year": "1907",
       "area": "El Mercat",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "natgeo-lujan-2018",
         "vbonita-2020"
@@ -5626,7 +5626,7 @@
       "architect": "David Chipperfield Architects, b720 Fermín Vázquez Arquitectos",
       "year": "2005–2006",
       "area": "La Marina",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "eumies-2007",
         "av-veles",
@@ -5701,7 +5701,7 @@
       "architect": "Foster + Partners",
       "year": "1993–1998",
       "area": "Campanar",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "av-congresos",
         "archdaily-ferreira-2024",
@@ -5766,7 +5766,7 @@
       "architect": "Guillermo Vázquez Consuegra",
       "year": "1995–2001",
       "area": "Extramurs",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "av-muvim",
         "hidden500",
@@ -5829,7 +5829,7 @@
       "architect": "Emilio Giménez, Carlos Salvadores",
       "year": "1986–1989",
       "area": "El Carme",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "timeout-fox-2025",
         "lp-lovell-2026",
@@ -5882,7 +5882,7 @@
       "architect": "Juan Bautista Pérez Castiel",
       "year": "1683–1744",
       "area": "Pla del Real",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vv-mustsees",
         "rg-mini-2026",
@@ -5942,7 +5942,7 @@
       "architect": "Hipólito Rovira; Ignacio Vergara (portal)",
       "year": "1740–1744",
       "area": "Sant Francesc",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vv-mustsees",
         "rg-mini-2026",
@@ -6013,7 +6013,7 @@
       "architect": "ERRE arquitectura",
       "year": "2018–2023",
       "area": "La Seu",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vv-mustsees",
         "archdaily-ferreira-2024",
@@ -6067,7 +6067,7 @@
       "architect": "Cayetano Borso di Carminati; Ramón Esteve, Eduardo de Miguel, Annabelle Selldorf",
       "year": "1930–1935; 2017",
       "area": "Marxalenes",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "av-bombasgens",
         "metalocus-bombasgens-2017",
@@ -6139,7 +6139,7 @@
       "architect": "José María García de Paredes; Eduardo de Miguel (extension)",
       "year": "1987; 2002",
       "area": "Pla del Real",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "natgeo-martin-2022",
         "merxe-palaumusica",
@@ -6202,7 +6202,7 @@
       "architect": "Eduardo de Miguel",
       "year": "2002–2004",
       "area": "El Cabanyal",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "archdaily-ferreira-2024",
         "av-musical",
@@ -6257,7 +6257,7 @@
       "architect": null,
       "year": "15th century; frescoes 1690–1693",
       "area": "Ciutat Vella",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "archdaily-ferreira-2024",
         "vv-mustsees",
@@ -6327,7 +6327,7 @@
       "architect": "Salvador Escrig",
       "year": "1840",
       "area": "El Mercat",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "archdaily-ferreira-2024",
         "vv-monuments",
@@ -6408,7 +6408,7 @@
       "architect": null,
       "year": "14th century; Baroque 1693–1702",
       "area": "El Mercat",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vv-monuments",
         "bic-santosjuanes",
@@ -6477,7 +6477,7 @@
       "architect": "Juan Bautista Viñes (tower)",
       "year": "13th century; tower 1688–1705",
       "area": "Ciutat Vella",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vv-architecture",
         "bic-santacatalina",
@@ -6546,7 +6546,7 @@
       "architect": null,
       "year": "from 1238",
       "area": "La Xerea",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vv-architecture",
         "bic-sanjuan",
@@ -6624,7 +6624,7 @@
       "architect": null,
       "year": "15th–17th century",
       "area": "La Seu",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vv-architecture",
         "bic-generalitat",
@@ -6693,7 +6693,7 @@
       "architect": "Guillem del Rey",
       "year": "1586–1610",
       "area": "La Xerea",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "bic-patriarca",
         "ctav-patriarca"
@@ -6770,7 +6770,7 @@
       "architect": "Alonso de Covarrubias, Juan de Vidanya and others",
       "year": "1548–17th century",
       "area": "Orriols",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "bic-sanmiguel",
         "ctav-sanmiguel"
@@ -6847,7 +6847,7 @@
       "architect": null,
       "year": "14th–16th century",
       "area": "La Seu",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "bic-almudin",
         "ctav-almudin"
@@ -6915,7 +6915,7 @@
       "architect": "Pere de Vilarasa (founder)",
       "year": "1313–1320",
       "area": "La Xerea",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "bic-banys",
         "ctav-banys"
@@ -6983,7 +6983,7 @@
       "architect": null,
       "year": "13th–19th century",
       "area": "El Carme",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vv-architecture",
         "bic-carme",
@@ -7052,7 +7052,7 @@
       "architect": "Francisco Mora Berenguer",
       "year": "1908–1909",
       "area": "Pla del Real",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vv-architecture",
         "ctav-exposicio"
@@ -7111,7 +7111,7 @@
       "architect": null,
       "year": "1906",
       "area": "La Seu",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vv-architecture",
         "natgeo-lujan-2018",
@@ -7172,7 +7172,7 @@
       "architect": "Francisco Almenar, Javier Goerlich",
       "year": "1935–1942",
       "area": "Sant Francesc",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vv-architecture",
         "vbonita-2020",
@@ -7232,7 +7232,7 @@
       "architect": "Javier Goerlich",
       "year": "1916",
       "area": "Sant Francesc",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vv-architecture",
         "collector-chandra-2024",
@@ -7283,7 +7283,7 @@
       "architect": null,
       "year": "1914–1916",
       "area": "La Marina",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vv-architecture",
         "vbonita-2020",
@@ -7365,7 +7365,7 @@
       "architect": null,
       "year": "14th century",
       "area": "El Grau",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "bic-drassanes",
         "ctav-drassanes"
@@ -7433,7 +7433,7 @@
       "architect": "Sebastián Monleón",
       "year": "1851–1859",
       "area": "L’Eixample",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "bic-bous",
         "ctav-bous"
@@ -7492,7 +7492,7 @@
       "architect": null,
       "year": "1758–1802",
       "area": "La Xerea",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "bic-justicia",
         "ctav-justicia"
@@ -7551,7 +7551,7 @@
       "architect": null,
       "year": "18th century",
       "area": "La Xerea",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "bic-temple",
         "ctav-temple"
@@ -7619,7 +7619,7 @@
       "architect": null,
       "year": "from 1445",
       "area": "La Trinitat",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "bic-trinitat",
         "ctav-trinitat"
@@ -7678,7 +7678,7 @@
       "architect": "Antonio Gilabert",
       "year": "1767–1773",
       "area": "Velluters",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "bic-escolespies",
         "ctav-escolespies",
@@ -7738,7 +7738,7 @@
       "architect": "Santiago Calatrava",
       "year": "1991–1995",
       "area": "Pla del Real",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "lp-lovell-2026",
         "ctav-puentes"
@@ -7810,7 +7810,7 @@
       "architect": "José María Tomás Llavador (extension and Events Centre)",
       "year": "1969; 1999–2012",
       "area": "Benimàmet",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "archdaily-ferreira-2024",
         "av-feria",
@@ -7881,7 +7881,7 @@
       "architect": "Giorgio Grassi",
       "year": "1990–1998",
       "area": "Algirós",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "av-noucampus",
         "ctav-gregorimaians"
@@ -7942,7 +7942,7 @@
       "architect": "Giorgio Grassi, Manuel Portaceli (restoration)",
       "year": "c. 50 AD; 1990–1993",
       "area": "Sagunt",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "av-sagunt",
         "merxe-sagunt",
@@ -8011,7 +8011,7 @@
       "architect": "Eberhard Becker (German Federal Building Directorate)",
       "year": "1958–1961",
       "area": "Pla del Real",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vv-routes",
         "hidden500",
@@ -8063,7 +8063,7 @@
       "architect": "Manuel Ferrando (1857 remodelling)",
       "year": "17th century; 1857",
       "area": "La Seu",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "vv-architecture",
         "bic-marquescampo"
@@ -8131,7 +8131,7 @@
       "architect": null,
       "year": "15th century; 18th-century rebuilding",
       "area": "Velluters",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "bic-seda",
         "ctav-seda"

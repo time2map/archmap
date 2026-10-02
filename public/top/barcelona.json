@@ -1004,7 +1004,7 @@
       "architect": "Lacol",
       "year": "2014–2018",
       "area": "La Bordeta (Sants)",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "archdaily-diaz-2026",
         "metalocus-onsina-2022",
@@ -1084,7 +1084,7 @@
       "architect": "Josep Lluís Sert, Joan Baptista Subirana, Josep Torres Clavé (GATCPAC)",
       "year": "1931–1936",
       "area": "Sant Andreu",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "docomomo-casabloc",
         "bcin-casabloc"
@@ -1161,7 +1161,7 @@
       "architect": "Guillermo Giráldez, Pedro López Íñigo, Xavier Subías, Antoni Bonet and others",
       "year": "1957–1965",
       "area": "Horta-Guinardó",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "docomomo-montbau",
         "eldiario-2022"
@@ -1344,7 +1344,7 @@
       "architect": "Pau Vidal, Sergi Pons, Ricard Galiana",
       "year": "2011",
       "area": "Torre Baró (Nou Barris)",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "ciutat-2011",
         "av-torrejulia"
@@ -1375,7 +1375,7 @@
       "architect": "Lola Domènech, Thomas Lussi",
       "year": "2019",
       "area": "Poblenou",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "metalocus-onsina-2022",
         "av-fourfriends"
@@ -1402,7 +1402,7 @@
       "architect": "straddle3, Eulia Arkitektura, Yaiza Terré",
       "year": "2019",
       "area": "Ciutat Vella",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "metalocus-onsina-2022",
         "av-aprop"
@@ -1429,7 +1429,7 @@
       "architect": "Peris + Toral Arquitectes",
       "year": "2017–2020",
       "area": "Cornellà de Llobregat",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "archdaily-diaz-2026",
         "av-cornella85"
@@ -1456,7 +1456,7 @@
       "architect": "peris+toral.arquitectes, L3J Tècnics Associats",
       "year": "2024",
       "area": "Poblenou (22@)",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "eumies-2026",
         "av-greenhouse22"
@@ -1483,7 +1483,7 @@
       "architect": "estudioHerreros, MIM-A",
       "year": "2009–2019",
       "area": "Sant Boi de Llobregat",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "fad-2020",
         "av-caracol"
@@ -1510,7 +1510,7 @@
       "architect": "EMBT (Enric Miralles, Benedetta Tagliabue)",
       "year": "1997–2005",
       "area": "Sant Pere (Ciutat Vella)",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "duran-2019",
         "archdaily-henry-2011",
@@ -1653,7 +1653,7 @@
       "architect": "Jean Nouvel, b720 Fermín Vázquez Arquitectos",
       "year": "2001–2005",
       "area": "Glòries / 22@",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "archdaily-diaz-2026",
         "archdaily-henry-2011",
@@ -1727,7 +1727,7 @@
       "architect": "b720 Fermín Vázquez Arquitectos",
       "year": "2009–2013",
       "area": "Glòries",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "duran-2019",
         "metalocus-arias-2022",
@@ -1774,7 +1774,7 @@
       "architect": "Herzog & de Meuron",
       "year": "2001–2004",
       "area": "Fòrum",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "duran-2019",
         "archdaily-henry-2011",
@@ -1845,7 +1845,7 @@
       "architect": "Josep Fontserè (market); Enric Sòria, Rafael Cáceres (conversion); vora (surroundings)",
       "year": "1876 / 2013",
       "area": "El Born",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "metalocus-onsina-2022",
         "timeout-2024",
@@ -1890,7 +1890,7 @@
       "architect": "Richard Meier",
       "year": "1995",
       "area": "El Raval",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "duran-2019",
         "metalocus-arias-2022",
@@ -2340,7 +2340,7 @@
       "architect": "Josep Fontserè (1874); Lluís Clotet, Ignacio Paricio (1999)",
       "year": "1874 / 1999",
       "area": "Ciutadella",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "duran-2019",
         "metalocus-arias-2022",
@@ -2401,7 +2401,7 @@
       "architect": "EMBA (Enric Massip-Bosch)",
       "year": "2011",
       "area": "Diagonal Mar",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "archdaily-henry-2011",
         "metalocus-onsina-2022",
@@ -2460,7 +2460,7 @@
       "architect": "Rafael Moneo",
       "year": "1987–1999",
       "area": "Glòries",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "archdaily-henry-2011",
         "turisme-bcn",
@@ -2513,7 +2513,7 @@
       "architect": "Anna Noguera, Javier Fernández (J2J)",
       "year": "2019",
       "area": "Nou Barris",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "archdaily-diaz-2026",
         "ciutat-2019",
@@ -2541,7 +2541,7 @@
       "architect": "SUMA Arquitectura (Elena Orte, Guillermo Sevillano)",
       "year": "2022",
       "area": "Sant Martí de Provençals",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "archdaily-diaz-2026",
         "ciutat-2022",
@@ -2621,7 +2621,7 @@
       "architect": "Carme Pinós",
       "year": "2017",
       "area": "El Raval",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "metalocus-arias-2022",
         "timeout-2024",
@@ -2665,7 +2665,7 @@
       "architect": "Antoni Bonet i Castellana",
       "year": "1949–1963",
       "area": "El Prat de Llobregat",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "metalocus-arias-2022",
         "docomomo-ricarda",
@@ -2741,7 +2741,7 @@
       "architect": "Antoni Bonet i Castellana, Josep Puig Torné",
       "year": "1962–1963",
       "area": "Sant Andreu",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "metalocus-arias-2022",
         "docomomo-canodrom",
@@ -2819,7 +2819,7 @@
       "architect": "Rafael Moneo, Manuel de Solà-Morales",
       "year": "1986–1994",
       "area": "Les Corts",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "fad-1994",
         "lagos-2020",
@@ -2872,7 +2872,7 @@
       "architect": "Albert Viaplana, Helio Piñón",
       "year": "1993",
       "area": "El Raval",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "metalocus-arias-2022",
         "fad-1993",
@@ -2934,7 +2934,7 @@
       "architect": "Arata Isozaki",
       "year": "1990",
       "area": "Montjuïc (Olympic Ring)",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "turisme-bcn",
         "fad-1990"
@@ -2993,7 +2993,7 @@
       "architect": "Toyo Ito, b720 Fermín Vázquez Arquitectos",
       "year": "2002–2009",
       "area": "L'Hospitalet de Llobregat",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "duran-2019",
         "varlamov-2018"
@@ -3061,7 +3061,7 @@
       "architect": "Toyo Ito, b720 Fermín Vázquez Arquitectos",
       "year": "2010",
       "area": "L'Hospitalet de Llobregat",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "duran-2019",
         "archdaily-henry-2011",
@@ -3122,7 +3122,7 @@
       "architect": "Jean Nouvel, Ribas & Ribas",
       "year": "2012",
       "area": "L'Hospitalet de Llobregat",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "duran-2019",
         "av-renaissance"
@@ -3165,7 +3165,7 @@
       "architect": "Josep Miàs",
       "year": "2007",
       "area": "La Barceloneta",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "archdaily-henry-2011",
         "ciutat-2007"
@@ -3224,7 +3224,7 @@
       "architect": "RCR Arquitectes",
       "year": "2002–2007",
       "area": "Sant Antoni",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "archdaily-henry-2011",
         "av-santantonilib"
@@ -3285,7 +3285,7 @@
       "architect": "David Chipperfield, b720 Fermín Vázquez Arquitectos",
       "year": "2008",
       "area": "L'Hospitalet de Llobregat",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "archdaily-henry-2011",
         "av-ciutatjusticia"
@@ -3355,7 +3355,7 @@
       "architect": "Lluís Domènech i Montaner; renovation by Ábalos + Sentkiewicz",
       "year": "1885 / 2010",
       "area": "Eixample",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "archdaily-henry-2011",
         "av-tapies"
@@ -3405,7 +3405,7 @@
       "architect": "Manuel Brullet, Albert de Pineda",
       "year": "2006",
       "area": "Barceloneta seafront",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "archdaily-henry-2011",
         "turisme-bcn"
@@ -3473,7 +3473,7 @@
       "architect": "Josep Lluís Sert",
       "year": "1975",
       "area": "Montjuïc",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "archdaily-diaz-2026",
         "archdaily-henry-2011",
@@ -3536,7 +3536,7 @@
       "architect": "Antoni Rovira i Trias; restoration by Ravetllat Ribas",
       "year": "1882 / 2018",
       "area": "Sant Antoni",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "metalocus-arias-2022",
         "av-santantonimarket",
@@ -3598,7 +3598,7 @@
       "architect": "Mateo Arquitectura",
       "year": "2015",
       "area": "Eixample",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "metalocus-onsina-2022",
         "av-ninot"
@@ -3659,7 +3659,7 @@
       "architect": "Oliveras Boix Arquitectes",
       "year": "2016",
       "area": "Montbau",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "metalocus-onsina-2022",
         "av-montbaulib"
@@ -3702,7 +3702,7 @@
       "architect": "Archikubik, Enllaç Arquitectònic",
       "year": "2015",
       "area": "Sarrià-Sant Gervasi",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "metalocus-onsina-2022",
         "av-reimarti"
@@ -3743,7 +3743,7 @@
       "architect": "Barceló Balanzó Arquitectes, AIA, Gustau Gili Galfetti",
       "year": "2020",
       "area": "Sant Andreu",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "metalocus-onsina-2022",
         "av-campferro"
@@ -3774,7 +3774,7 @@
       "architect": "Roldán + Berengué",
       "year": "2019",
       "area": "La Rambla",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "metalocus-onsina-2022",
         "av-rambla124"
@@ -3805,7 +3805,7 @@
       "architect": "Roldán + Berengué",
       "year": "2016",
       "area": "Poble-sec",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "metalocus-onsina-2022",
         "av-espaibombers"
@@ -3836,7 +3836,7 @@
       "architect": "Roldán + Berengué",
       "year": "2013",
       "area": "Sant Gervasi (Plaça de Gal·la Placídia)",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "metalocus-onsina-2022",
         "av-economistes"
@@ -3867,7 +3867,7 @@
       "architect": "BAAS Arquitectura",
       "year": "2020",
       "area": "Poblenou (Parc del Centre)",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "metalocus-onsina-2022",
         "av-olivaartes"
@@ -3910,7 +3910,7 @@
       "architect": "Flores & Prats",
       "year": "2014–2016",
       "area": "Poblenou",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ciutat-2016",
         "av-beckett"
@@ -3971,7 +3971,7 @@
       "architect": "H Arquitectes",
       "year": "2017",
       "area": "Sants",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ciutat-2017",
         "av-lleialtat"
@@ -4023,7 +4023,7 @@
       "architect": "Dominique Perrault",
       "year": "1999–2008",
       "area": "Poblenou",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "timeout-2024",
         "av-meliasky"
@@ -4093,7 +4093,7 @@
       "architect": "Josep Lluís Sert, Joan Baptista Subirana, Josep Torres Clavé (GATCPAC)",
       "year": "1933–1938",
       "area": "El Raval",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "docomomo-dispensari",
         "bcin-dispensari"
@@ -4237,7 +4237,7 @@
       "architect": "Josep Puig i Cadafalch (1911); entrance by Arata Isozaki (2002)",
       "year": "1911 / 2002",
       "area": "Montjuïc",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "duran-2019"
       ],
@@ -4304,7 +4304,7 @@
       "architect": "Rogers Stirk Harbour + Partners, Alonso Balaguer (conversion)",
       "year": "1900 / 2011",
       "area": "Plaça d'Espanya",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "duran-2019"
       ],
@@ -4371,7 +4371,7 @@
       "architect": "Manuel Ruisánchez, Francesc Bacardit",
       "year": "2012",
       "area": "Sant Andreu",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ciutat-2012"
       ],
@@ -4438,7 +4438,7 @@
       "architect": "BCQ Arquitectura (David Baena, Toni Casamor)",
       "year": "2014",
       "area": "Sant Gervasi",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ciutat-2014"
       ],
@@ -4478,7 +4478,7 @@
       "architect": "Josep Llinàs",
       "year": "2003",
       "area": "Eixample",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ciutat-2003"
       ],
@@ -4527,7 +4527,7 @@
       "architect": "OAB (Carlos Ferrater, Lucía Ferrater), Jesús Coll",
       "year": "2024",
       "area": "Port of Barceloneta (Moll del Rellotge)",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "ciutat-2024"
       ],
@@ -7806,7 +7806,7 @@
       "architect": "Josep Puig i Cadafalch",
       "year": "1898–1900",
       "area": "Eixample (Passeig de Gràcia)",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "lp-fox-2026",
         "tb-modernista",
@@ -7848,7 +7848,7 @@
       "architect": "Antoni Gaudí",
       "year": "1900–1909",
       "area": "Sant Gervasi (foot of Collserola)",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "lp-fox-2026",
         "tb-96h",
@@ -7917,7 +7917,7 @@
       "architect": "Royal foundation of Queen Elisenda de Montcada",
       "year": "1327",
       "area": "Pedralbes",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "lp-fox-2026",
         "tb-96h",
@@ -7977,7 +7977,7 @@
       "architect": "Medieval royal shipyards",
       "year": "13th–17th century",
       "area": "Port Vell",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "lp-fox-2026",
         "bcin-drassanes"
@@ -8045,7 +8045,7 @@
       "architect": "Miquel Garriga i Roca; rebuilt by Ignasi de Solà-Morales",
       "year": "1847 (rebuilt 1994–1999)",
       "area": "La Rambla",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "lp-fox-2026",
         "timeout-fleischer-2019",
@@ -8096,7 +8096,7 @@
       "architect": "Josep Puig i Cadafalch",
       "year": "1903–1905",
       "area": "Eixample (Diagonal)",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "tb-modernista",
         "bcin-punxes"
@@ -8164,7 +8164,7 @@
       "architect": "Guillem Abiell (attributed)",
       "year": "1401–15th century",
       "area": "El Raval",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "tb-96h",
         "bcin-hospitalsantacreu"

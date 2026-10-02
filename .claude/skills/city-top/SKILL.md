@@ -1,6 +1,6 @@
 ---
 name: city-top
-description: Research and build the TOP list of places for a city — city-core must-sees, contemporary housing and quarters, notable buildings, unusual architecture, parks and public spaces, including districts and promenades shown as areas and lines — with verified locations and free-licensed photos, into public/top/<city>.json for the archmap TOP tab. Use when asked to build/collect a top list ("собрать топ", "топ мест") for a city.
+description: Research and build the TOP list of places for a city — city-core must-sees, architecture (contemporary housing and quarters, notable buildings), unusual architecture, parks and public spaces, including districts and promenades shown as areas and lines — with verified locations and free-licensed photos, into public/top/<city>.json for the archmap TOP tab. Use when asked to build/collect a top list ("собрать топ", "топ мест") for a city.
 ---
 
 # City TOP
@@ -75,8 +75,7 @@ is one vote. For every source record: publisher, author, title, url, publication
     When more places qualify, keep the ones that shape the city's image and public life —
     districts, squares, boulevards, promenades, parks, viewpoints, the main icons (UNESCO) —
     and leave other museums and single houses in their groups.
-  - `housing` — residential buildings and quarters;
-  - `buildings` — notable individual buildings;
+  - `architecture` — notable individual buildings, and residential buildings and quarters;
   - `unusual` — brutalist, organic, experimental;
   - `parks` — parks, gardens and public spaces where locals walk and sit. Prefer the
     non-touristy ones; a good park is worth a card even with few architecture votes.
@@ -198,7 +197,7 @@ Família). Check on Commons that the file is wider than it is tall.
   },
   "places": [{
     "id": "…", "title": "local name", "architect": "…", "year": "…", "area": "…",
-    "group": "city-core|housing|buildings|unusual|parks",
+    "group": "city-core|architecture|unusual|parks",
     "sources": ["<source-id>"], "why": "…", "note": null,
     "points": [{ "name": "building name inside an ensemble, else null",
       "lat": 0, "lng": 0,

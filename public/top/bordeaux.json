@@ -2266,7 +2266,10 @@
       "architect": "BIG with Freaks",
       "year": "2019",
       "area": "Saint-Jean – Belcier",
-      "group": "buildings",
+      "group": "architecture",
+      "firms": [
+        "BIG"
+      ],
       "sources": [
         "tourism-mustsee",
         "varlamov-2020",
@@ -2319,7 +2322,7 @@
       "architect": "Richard Rogers Partnership",
       "year": "1998",
       "area": "Bordeaux Centre",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "tourism-contemporary",
         "avontuura-2019",
@@ -2398,7 +2401,7 @@
       "architect": "Guillaume Gillet (school)",
       "year": "15th century; school 1970s",
       "area": "Bordeaux Centre",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "avontuura-2019",
         "pop-fortduha"
@@ -2448,7 +2451,7 @@
       "architect": "Herzog & de Meuron",
       "year": "2015",
       "area": "Bordeaux Lac",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "tourism-contemporary",
         "avontuura-2019",
@@ -2502,7 +2505,7 @@
       "architect": "OMA (Rem Koolhaas, Chris van Duijn) with Michel Desvigne",
       "year": "2024",
       "area": "Bègles – Floirac",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "tourism-contemporary",
         "av-simoneveil",
@@ -2546,7 +2549,7 @@
       "architect": "Michel Virlogeux (engineer); Charles and Thomas Lavigne",
       "year": "2013",
       "area": "Bacalan – La Bastide",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "lp-2024",
         "arcenreve-2019",
@@ -2606,7 +2609,7 @@
       "architect": "Rudy Ricciotti",
       "year": "2018",
       "area": "Floirac",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "tourism-contemporary"
       ],
@@ -2646,7 +2649,7 @@
       "architect": "Olivier Brochet",
       "year": "2019",
       "area": "Bassins à flot",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "tourism-mustsee"
       ],
@@ -2686,7 +2689,7 @@
       "architect": "Claude Deschamps; Denis Valode and Jean Pistre with Andrée Putman (conversion)",
       "year": "1824; 1984–1990",
       "area": "Chartrons",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "rg-2023",
         "guardian-2014",
@@ -2748,7 +2751,7 @@
       "architect": "Marius Toudoire and Louis Choron; Daydé & Pillé (train shed)",
       "year": "1898",
       "area": "Saint-Jean – Belcier",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "avontuura-2019",
         "varlamov-2020",
@@ -2809,7 +2812,7 @@
       "architect": null,
       "year": "1886 building",
       "area": "Bordeaux Centre",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "tourism-mustsee",
         "lp-2024"
@@ -2859,7 +2862,7 @@
       "architect": null,
       "year": "11th–15th century; crypt 5th–6th century",
       "area": "Saint-Seurin",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "unesco-santiago",
         "lp-neighbourhoods-2024",
@@ -2919,7 +2922,7 @@
       "architect": null,
       "year": "2nd century",
       "area": "Saint-Seurin – Fondaudège",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "lp-neighbourhoods-2024",
         "tourism-sites",
@@ -2979,7 +2982,7 @@
       "architect": null,
       "year": "11th–12th century",
       "area": "Sainte-Croix",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "tourism-sites",
         "pop-saintecroix"
@@ -3020,7 +3023,7 @@
       "architect": "Pierre Duplessy",
       "year": "1684–1707",
       "area": "Bordeaux Centre",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "tourism-sites",
         "pop-notredame"
@@ -3070,7 +3073,7 @@
       "architect": "Charles Burguet and Charles Durand",
       "year": "1877–1882",
       "area": "Bordeaux Centre",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "tourism-sites",
         "pop-synagogue"
@@ -3120,7 +3123,7 @@
       "architect": "Lanoire & Courrian (conversion)",
       "year": "1930; converted 1999",
       "area": "Chartrons",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "av-hangar14"
       ],
@@ -3169,7 +3172,7 @@
       "architect": "Lacaton & Vassal",
       "year": "2006",
       "area": "La Bastide",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "av-univ"
       ],
@@ -3199,7 +3202,7 @@
       "architect": "Jacques d’Welles",
       "year": "1935–1938",
       "area": "Victoire",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "pop-boursetravail"
       ],
@@ -3257,7 +3260,7 @@
       "architect": "Raoul Jourde",
       "year": "1938",
       "area": "Saint-Augustin",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "pop-stadechaban"
       ],
@@ -3306,7 +3309,7 @@
       "architect": "Jean Nouvel",
       "year": "1989",
       "area": "Bouliac",
-      "group": "buildings",
+      "group": "architecture",
       "sources": [
         "pop-stjames"
       ],
@@ -3726,7 +3729,7 @@
       "architect": "Lacaton & Vassal, Frédéric Druot, Christophe Hutin (530 dwellings); Bernard Bühler (Arc-en-Ciel)",
       "year": "1960s; transformed 2016; Arc-en-Ciel 2010",
       "area": "Grand Parc",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "eumies-2019",
         "av-grandparc",
@@ -3814,7 +3817,7 @@
       "architect": "ANMA — Nicolas Michelin (masterplan)",
       "year": "Docks 1879–1911; new district since 2010",
       "area": "Bacalan",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "lp-neighbourhoods-2024",
         "guardian-2014",
@@ -3938,7 +3941,7 @@
       "architect": "Christian Devillers (masterplan)",
       "year": "2010–2022",
       "area": "Bordeaux Lac",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "varlamov-ginko-2020",
         "avontuura-2019"
@@ -4036,7 +4039,7 @@
       "architect": "LAN Architecture; BASE (landscape)",
       "year": "2009–2015",
       "area": "Lormont",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "avontuura-2019",
         "av-lormont",
@@ -4064,7 +4067,7 @@
       "architect": "Le Corbusier and Pierre Jeanneret",
       "year": "1924–1926",
       "area": "Pessac",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "unesco-corbusier",
         "tourism-sites"
@@ -4128,7 +4131,7 @@
       "architect": "Lacaton & Vassal",
       "year": "1993",
       "area": "Floirac",
-      "group": "housing",
+      "group": "architecture",
       "sources": [
         "pop-latapie"
       ],
