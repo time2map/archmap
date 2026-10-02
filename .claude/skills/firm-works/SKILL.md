@@ -55,8 +55,13 @@ Arquitectura Viva (one vote, never its coordinates). Each source needs publisher
 and date. The firm's page and other pages of the same firm are one source.
 
 ## 4. Location
-As city-top §4: a point is stored when two independent sources agree within 150 m; the
-stored coordinate comes from OSM or Wikidata. Without that, the place has no point.
+As city-top §4: a point is stored when two independent sources agree within 150 m, or when
+OSM has a building of the work's name and another source is within 2 km. The firm's own
+coordinates often mark the town or the entrance of the grounds: put them in `refs.other`, they
+confirm the OSM building. If Nominatim does not find the building, try Geoapify geocoding
+(`GEOAPIFY_API_KEY` in `.env`): it matches names more loosely, but it is OSM too, so store the
+OSM id it leads to (place details), never the Geoapify result itself. Without that, the place
+has no point.
 
 Every place still says where it is in `area`:
 - in a city file: the district or municipality, as city-top does;

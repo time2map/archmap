@@ -22,6 +22,14 @@ const __dirname = path.dirname(__filename)
 
 const USER_AGENT = 'archmap-verify-top/1.0 (https://github.com/time2map/archmap)'
 const AGREE_METERS = 150
+// A named OSM building is taken when another source puts the place this close: firms and media often
+// pin the entrance of the grounds or the middle of the town, while OSM has the building itself
+const NEAR_METERS = 2000
+// OSM objects that are not a building or a structure: a street or an area of that name proves nothing
+const NOT_A_BUILDING = ['highway', 'place', 'boundary', 'landuse', 'natural', 'waterway', 'railway', 'route']
+// Words that say what a building is, not which one
+const GENERIC_WORDS = new Set(['the', 'of', 'and', 'de', 'des', 'du', 'la', 'le', 'building', 'center', 'centre', 'house', 'hall',
+  'tower', 'museum', 'hotel', 'school', 'college', 'university', 'hospital'])
 const MAX_PHOTOS = 5
 const THUMB_WIDTH = 960
 // Small thumbnail shown inside the map pin
@@ -214,9 +222,16 @@ async function loadOsm(refs) {
   const prefix = { node: 'N', way: 'W', relation: 'R' }
   for (const batch of chunks([...new Set(refs)], 50)) {
     const ids = batch.map(ref => { const [type, id] = ref.split('/'); return prefix[type] + id })
-    const params = new URLSearchParams({ osm_ids: ids.join(','), format: 'json' })
+    const params = new URLSearchParams({ osm_ids: ids.join(','), format: 'json', namedetails: 1 })
     const json = await fetchJson(`https://nominatim.openstreetmap.org/lookup?${params}`)
-    for (const item of json) result.set(`${item.osm_type}/${item.osm_id}`, { lat: Number(item.lat), lng: Number(item.lon) })
+    for (const item of json) {
+      result.set(`${item.osm_type}/${item.osm_id}`, {
+        lat: Number(item.lat),
+        lng: Number(item.lon),
+        category: item.category,
+        names: [item.name, ...Object.values(item.namedetails || {})].filter(Boolean)
+      })
+    }
     // Nominatim usage policy: at most one request per second
     await sleep(1100)
   }
@@ -355,7 +370,21 @@ function referenceCandidates(refs, lookups, issues, label) {
   return candidates
 }
 
-function verifyPoint(point, lookups, issues) {
+const significantWords = (text) => (text || '').normalize('NFD').replace(/\p{M}/gu, '').toLowerCase()
+  .split(/[^\p{L}\p{N}]+/u).filter(word => word.length > 1 && !GENERIC_WORDS.has(word))
+
+// Every significant word of one of the OSM names is in the point's or the place's name
+function osmNameMatches(names, titles) {
+  return names.some(name => {
+    const words = significantWords(name)
+    return words.length > 0 && titles.some(title => {
+      const titleWords = new Set(significantWords(title))
+      return words.every(word => titleWords.has(word))
+    })
+  })
+}
+
+function verifyPoint(point, place, lookups, issues) {
   const refs = point.refs || {}
   const label = point.name ? `point "${point.name}"` : 'point'
   const candidates = []
@@ -379,6 +408,7 @@ function verifyPoint(point, lookups, issues) {
       point.lng = round6(candidate.lng)
       point.verifiedBy = [...new Set([candidate.source, ...agreeing.map(o => o.source)])]
       delete point.singleSource
+      delete point.near
       return
     }
   }
@@ -393,6 +423,21 @@ function verifyPoint(point, lookups, issues) {
     issues.warnings.push(`${label}: sources disagree (${pairs.join(', ')})`)
   }
 
+  // A named OSM building, with another source within NEAR_METERS
+  const osm = candidates.find(c => c.source === 'osm')
+  if (osm && !NOT_A_BUILDING.includes(osm.category) && osmNameMatches(osm.names, [point.name, place.title])) {
+    const near = candidates.filter(o => o.source !== 'osm' && distanceMeters(osm, o) <= NEAR_METERS)
+    if (near.length > 0) {
+      point.lat = round6(osm.lat)
+      point.lng = round6(osm.lng)
+      point.verifiedBy = ['osm']
+      point.near = near.map(o => o.source)
+      delete point.singleSource
+      issues.warnings.push(`${label}: OSM building "${osm.names[0]}", ${near.map(o => `${o.source} ${Math.round(distanceMeters(osm, o))} m`).join(', ')} away`)
+      return
+    }
+  }
+
   // A single source is accepted only for a Wikidata landmark with a Commons category
   const wikidata = refs.wikidata && lookups.wikidata.get(refs.wikidata)
   if (wikidata?.coord && wikidata.commonsCategory && !candidates.some(c => c.source !== 'wikidata')) {
@@ -400,6 +445,7 @@ function verifyPoint(point, lookups, issues) {
     point.lng = round6(wikidata.coord.lng)
     point.verifiedBy = ['wikidata']
     point.singleSource = true
+    delete point.near
     issues.warnings.push(`${label}: single source (Wikidata landmark)`)
     return
   }
@@ -408,6 +454,7 @@ function verifyPoint(point, lookups, issues) {
   point.lng = null
   point.verifiedBy = []
   delete point.singleSource
+  delete point.near
   issues.warnings.push(`${label}: no confirmed location — left off the map`)
 }
 
@@ -595,7 +642,7 @@ async function main() {
       shapes: await loadOsmShapes(shapes.flatMap(s => s.refs?.osm || []).filter(ref => /^(way|relation)\/\d+$/.test(ref)))
     }
     for (const place of places) {
-      for (const point of place.points || []) verifyPoint(point, lookups, issuesByPlace.get(place))
+      for (const point of place.points || []) verifyPoint(point, place, lookups, issuesByPlace.get(place))
       for (const shape of place.shapes || []) verifyShape(shape, lookups, issuesByPlace.get(place))
     }
 

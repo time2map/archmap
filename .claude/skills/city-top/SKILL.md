@@ -103,8 +103,15 @@ For each point collect candidates: Wikidata P625; OSM (Nominatim or Overpass, â‰
 custom User-Agent); AV map dataset or work page; Docomomo page (its Google Maps link);
 official site.
 Accept when two independent sources agree within 150 m. The stored coordinate comes from
-OSM, Wikidata or another source; AV can only confirm it. A single source is allowed only
-for a landmark whose Wikidata item has a Commons category; it is flagged `singleSource`.
+OSM, Wikidata or another source; AV can only confirm it.
+An OSM building of the place's name is also accepted when another source puts the place within
+2 km: architects, media and AV often pin the entrance of the grounds or the middle of the town,
+while OSM has the building itself. It must be a building or a structure (not a street, an area
+or a landuse), and every significant word of its OSM name must be in the place's name; the point
+is stored with `near` listing the other sources. Geocoders built on OSM (Nominatim, Geoapify)
+are OSM, not a second source; use them to find the OSM object, then store its id.
+A single source is allowed only for a landmark whose Wikidata item has a Commons category; it
+is flagged `singleSource`.
 Otherwise: no point, and the card shows "No confirmed location".
 
 ### Areas and lines

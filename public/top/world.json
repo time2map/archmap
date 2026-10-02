@@ -1267,9 +1267,14 @@
               }
             ]
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 60.221666,
+          "lng": 10.363863,
+          "verifiedBy": [
+            "osm"
+          ],
+          "near": [
+            "big-the-twist"
+          ]
         }
       ],
       "shapes": [],
@@ -1315,9 +1320,14 @@
               }
             ]
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 59.957155,
+          "lng": 12.168699,
+          "verifiedBy": [
+            "osm"
+          ],
+          "near": [
+            "big-the-plus"
+          ]
         }
       ],
       "shapes": [],
@@ -1680,9 +1690,14 @@
               }
             ]
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 46.581055,
+          "lng": 6.20928,
+          "verifiedBy": [
+            "osm"
+          ],
+          "near": [
+            "big-hotel-des-horlogers"
+          ]
         }
       ],
       "shapes": [],
@@ -1898,12 +1913,21 @@
                 "url": "https://big.dk/projects/the-smile-residences-2956",
                 "lat": 40.8046058224443,
                 "lng": -73.9363014915405
+              },
+              {
+                "source": "archdaily-the-smile",
+                "url": "https://www.archdaily.com/953397/the-smile-residential-building-big",
+                "lat": 40.8048686,
+                "lng": -73.93661159999999
               }
             ]
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 40.804606,
+          "lng": -73.936301,
+          "verifiedBy": [
+            "big-the-smile",
+            "archdaily-the-smile"
+          ]
         }
       ],
       "shapes": [],
@@ -2039,9 +2063,14 @@
               }
             ]
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 40.734579,
+          "lng": -73.9744,
+          "verifiedBy": [
+            "osm"
+          ],
+          "near": [
+            "big-solar-one"
+          ]
         }
       ],
       "shapes": [],
@@ -2368,11 +2397,15 @@
                 "lat": 38.8946101,
                 "lng": -77.0775394
               }
-            ]
+            ],
+            "osm": "way/778884304"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 38.894696,
+          "lng": -77.077525,
+          "verifiedBy": [
+            "osm",
+            "big-heights-building"
+          ]
         }
       ],
       "shapes": [],
@@ -2445,9 +2478,14 @@
               }
             ]
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 34.102064,
+          "lng": -117.703802,
+          "verifiedBy": [
+            "osm"
+          ],
+          "near": [
+            "big-robert-day-sciences"
+          ]
         }
       ],
       "shapes": [],
