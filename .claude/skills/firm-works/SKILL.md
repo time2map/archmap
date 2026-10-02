@@ -63,7 +63,8 @@ As city-top §4: a point is stored when two independent sources agree within 150
 another source is near the work's OSM building: within 2 km when the names match, within
 500 m otherwise. The firm's own
 coordinates often mark the town or the entrance of the grounds: put them in `refs.other` with
-`"source": "firm"`, they confirm the OSM building. If Nominatim does not find the building, try Geoapify geocoding
+`"source": "firm"`, they confirm the OSM building. Search by the work's local name too (Wikidata labels in all languages, the local
+Wikipedia), see city-top §4. If Nominatim does not find the building, try Geoapify geocoding
 (`GEOAPIFY_API_KEY` in `.env`): it matches names more loosely, but it is OSM too, so store the
 OSM id it leads to (place details), never the Geoapify result itself. The coordinates of the
 card's photos on Commons confirm the point too (the script reads them). Without that, the place

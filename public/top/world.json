@@ -2384,11 +2384,17 @@
                 "lat": 22.7587983,
                 "lng": 114.3029394
               }
-            ]
+            ],
+            "osm": "way/776897369"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 22.532897,
+          "lng": 114.058712,
+          "verifiedBy": [
+            "osm"
+          ],
+          "near": [
+            "photo-camera"
+          ]
         }
       ],
       "shapes": [],

@@ -29,7 +29,9 @@ const NEAR_METERS = 2000
 // only closer: the OSM object is the one picked for the place, the other source has to be next to it
 const NEAR_UNNAMED_METERS = 500
 // OSM objects that are not a building or a structure: a street or an area of that name proves nothing
-const NOT_A_BUILDING = ['highway', 'place', 'boundary', 'landuse', 'natural', 'waterway', 'railway', 'route']
+const NOT_A_BUILDING = ['highway', 'place', 'boundary', 'natural', 'waterway', 'railway', 'route']
+// A landuse is the plot of a building only when it bears the building's name (能源大厦, the plot of Shenzhen Energy Mansion)
+const PLOT = 'landuse'
 // Words that say what a building is, not which one
 const GENERIC_WORDS = new Set(['the', 'of', 'and', 'de', 'des', 'du', 'la', 'le', 'building', 'center', 'centre', 'house', 'hall',
   'tower', 'museum', 'hotel', 'school', 'college', 'university', 'hospital'])
@@ -210,13 +212,15 @@ async function loadAvIndex() {
 async function loadWikidata(ids) {
   const result = new Map()
   for (const batch of chunks([...new Set(ids)], 50)) {
-    const params = new URLSearchParams({ action: 'wbgetentities', ids: batch.join('|'), props: 'claims', format: 'json' })
+    const params = new URLSearchParams({ action: 'wbgetentities', ids: batch.join('|'), props: 'claims|labels|aliases', format: 'json' })
     const json = await fetchJson(`https://www.wikidata.org/w/api.php?${params}`)
     for (const [id, entity] of Object.entries(json.entities || {})) {
       const coord = entity.claims?.P625?.[0]?.mainsnak?.datavalue?.value
       result.set(id, {
         coord: coord ? { lat: coord.latitude, lng: coord.longitude } : null,
-        commonsCategory: entity.claims?.P373?.[0]?.mainsnak?.datavalue?.value || null
+        commonsCategory: entity.claims?.P373?.[0]?.mainsnak?.datavalue?.value || null,
+        // Its names in every language: OSM often has only the local one
+        names: [...Object.values(entity.labels || {}), ...Object.values(entity.aliases || {}).flat()].map(l => l.value)
       })
     }
   }
@@ -402,9 +406,18 @@ function referenceCandidates(refs, lookups, issues, label) {
 const significantWords = (text) => (text || '').normalize('NFD').replace(/\p{M}/gu, '').toLowerCase()
   .split(/[^\p{L}\p{N}]+/u).filter(word => word.length > 1 && !GENERIC_WORDS.has(word))
 
+// Chinese and Japanese write without spaces: there a name of 4+ characters matches when it is part of the
+// other one (shorter ones are words like 大厦, a building, or 博物馆, a museum)
+const CJK = /[\u3040-\u30ff\u3400-\u9fff]/
+const compact = (text) => (text || '').replace(/[\s\p{P}]/gu, '')
+
 // Every significant word of one of the OSM names is in the point's or the place's name
 function osmNameMatches(names, titles) {
   return names.some(name => {
+    if (CJK.test(name)) {
+      const short = compact(name)
+      return short.length >= 4 && titles.some(title => CJK.test(title) && (compact(title).includes(short) || (compact(title).length >= 4 && short.includes(compact(title)))))
+    }
     const words = significantWords(name)
     return words.length > 0 && titles.some(title => {
       const titleWords = new Set(significantWords(title))
@@ -459,7 +472,9 @@ function verifyPoint(point, place, lookups, issues) {
   // An OSM building, with another source within NEAR_METERS when its name matches, NEAR_UNNAMED_METERS otherwise
   const osm = candidates.find(c => c.source === 'osm')
   if (osm && !NOT_A_BUILDING.includes(osm.category)) {
-    const radius = osmNameMatches(osm.names, [point.name, place.title]) ? NEAR_METERS : NEAR_UNNAMED_METERS
+    const titles = [point.name, place.title, ...(lookups.wikidata.get(refs.wikidata)?.names || [])]
+    const named = osmNameMatches(osm.names, titles)
+    const radius = named ? NEAR_METERS : osm.category === PLOT ? 0 : NEAR_UNNAMED_METERS
     const near = candidates.filter(o => o.source !== 'osm' && distanceMeters(osm, o) <= radius)
     if (near.length > 0) {
       point.lat = round6(osm.lat)

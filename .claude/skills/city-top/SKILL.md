@@ -108,9 +108,14 @@ Accept when two independent sources agree within 150 m. The stored coordinate co
 OSM, Wikidata or another source; AV can only confirm it.
 An OSM building is also accepted when another source puts the place near it: architects, media
 and AV often pin the entrance of the grounds or the middle of the town, while OSM has the
-building itself. It must be a building or a structure (not a street, an area or a landuse).
-Within 2 km when every significant word of its OSM name is in the place's name; within 500 m
-when the name differs (a local name, the name of the whole institution). The point is stored
+building itself. It must be a building or a structure (not a street or an area); a landuse
+counts only when it bears the place's name (the plot of a building). Within 2 km when its OSM
+name matches the place's name or one of the names of its Wikidata item in any language (all
+significant words, or for Chinese and Japanese a part of 4+ characters); within 500 m when the
+name differs (the name of the whole institution).
+Search OSM by the local name, not only the English one: OSM often has only the name in the
+local script (Shenzhen Energy Mansion is 能源大厦). Take the local names from the place's
+Wikidata item (labels in all languages) and from its Wikipedia article in the local language. The point is stored
 with `near` listing the other sources; check a point accepted this way on the map. Geocoders built on OSM (Nominatim, Geoapify)
 are OSM, not a second source; use them to find the OSM object, then store its id.
 A single source is allowed only for a landmark whose Wikidata item has a Commons category; it
