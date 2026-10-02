@@ -565,12 +565,13 @@ function TopCity({ cityId, onCityChange }) {
     const add = (place, diameter) => place.pins.forEach(pin => {
       if (!isLocated(pin)) return
       const selected = place.id === selectedId
-      blockers.push({ type: 'Feature', geometry: point(pin), properties: { size: (selected ? 56 : diameter) + 2 } })
+      // A little smaller than the pin, so its own label can stand close to it
+      blockers.push({ type: 'Feature', geometry: point(pin), properties: { size: (selected ? 56 : diameter) - 4 } })
       if (selected) return
-      // radialOffset, in ems of the 12 px text, to the text: 4 px from the pin, plus the 2 px of the label's padding
-      labels.push({ type: 'Feature', geometry: point(pin), properties: { name: pin.name || place.title, rank: -place.sources.length, offset: (diameter / 2 + 6) / 12 } })
+      // radialOffset, in ems of the 12 px text: the text's padding (4 px) just clears the pin's blocker
+      labels.push({ type: 'Feature', geometry: point(pin), properties: { name: pin.name || place.title, rank: -place.sources.length, offset: (diameter / 2 + 2.5) / 12 } })
     })
-    if (zoom >= WORLD_LABEL_ZOOM) worldPlaces.forEach(place => add(place, zoom >= WORLD_PHOTO_ZOOM ? Math.max(pinSize, 28) : 10))
+    if (zoom >= WORLD_LABEL_ZOOM) worldPlaces.forEach(place => add(place, zoom >= WORLD_PHOTO_ZOOM ? pinSize : 10))
     visiblePlaces.forEach(place => add(place, place.pins.length > 1 ? pinSize - 4 : pinSize))
     if (!cityId && zoom >= CITY_ZOOM) overviewPlaces.forEach(c => c.places.forEach(place => add(place, pinSize)))
     // The city covers on the overview, with their name below
@@ -897,7 +898,7 @@ function TopCity({ cityId, onCityChange }) {
                   'icon-text-fit-padding': [2, 8, 2, 8],
                   'icon-allow-overlap': true,
                   'icon-ignore-placement': true,
-                  'text-padding': 5,
+                  'text-padding': 4,
                   'symbol-sort-key': ['get', 'rank']
                 }}
                 paint={{
