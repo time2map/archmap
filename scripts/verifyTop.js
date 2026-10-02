@@ -45,7 +45,10 @@ const SOURCE_TYPES = ['media', 'architect', 'registry', 'award', 'tourism', 'blo
 const COORD_PRIORITY = ['osm', 'wikidata']
 // The AV map is Arquitectura Viva's own database: it confirms a point, but its coordinates
 // are never stored in the city file
-const CONFIRM_ONLY = ['av']
+// Where a photo of the place was taken (camera) or what it shows (object location), from Commons:
+// photographers stand back and object locations are set by eye, so they confirm and are never stored
+const PHOTO_SOURCES = ['photo-camera', 'photo-object']
+const CONFIRM_ONLY = ['av', ...PHOTO_SOURCES]
 const AV_DATASETS = ['en', 'es'].map(lang => `https://arquitecturaviva.com/assets/uploads/obras/all-${lang}.json`)
 const AV_PUBLISHER = 'Arquitectura Viva'
 const FREE_LICENSE = /^(CC0( 1\.0)?|Public domain|CC BY(-SA)? \d\.\d( [a-z]{2,})?)$/i
@@ -276,6 +279,29 @@ async function commonsImageInfo(files, width, props) {
   return result
 }
 
+// Commons coordinates of each photo: its camera location and its object location
+async function loadPhotoCoords(files) {
+  const result = new Map()
+  for (const batch of chunks([...new Set(files)], 50)) {
+    const params = new URLSearchParams({
+      action: 'query',
+      titles: batch.map(file => `File:${file}`).join('|'),
+      prop: 'coordinates',
+      coprop: 'type',
+      coprimary: 'all',
+      colimit: 'max',
+      format: 'json'
+    })
+    const json = await fetchJson(`https://commons.wikimedia.org/w/api.php?${params}`)
+    const requestedTitle = new Map((json.query?.normalized || []).map(n => [n.to, n.from]))
+    for (const page of Object.values(json.query?.pages || {})) {
+      const file = (requestedTitle.get(page.title) || page.title).replace(/^File:/, '')
+      result.set(file, (page.coordinates || []).map(c => ({ source: c.type === 'camera' ? 'photo-camera' : 'photo-object', lat: c.lat, lng: c.lon })))
+    }
+  }
+  return result
+}
+
 async function loadPhotos(files) {
   const result = new Map()
   const infos = await commonsImageInfo(files, THUMB_WIDTH, 'url|extmetadata')
@@ -398,6 +424,10 @@ function verifyPoint(point, place, lookups, issues) {
     else issues.warnings.push(`${label}: OSM ${refs.osm} not found`)
   }
   candidates.push(...referenceCandidates(refs, lookups, issues, label))
+  // The photos of a place show its one building; in an ensemble a photo may show another one
+  if ((place.points || []).length === 1 && !(place.shapes || []).length) {
+    for (const photo of place.photos || []) candidates.push(...(lookups.photoCoords.get(photo.file) || []))
+  }
 
   const rank = (c) => {
     const i = COORD_PRIORITY.indexOf(c.source)
@@ -444,7 +474,7 @@ function verifyPoint(point, place, lookups, issues) {
 
   // A single source is accepted only for a Wikidata landmark with a Commons category
   const wikidata = refs.wikidata && lookups.wikidata.get(refs.wikidata)
-  if (wikidata?.coord && wikidata.commonsCategory && !candidates.some(c => c.source !== 'wikidata')) {
+  if (wikidata?.coord && wikidata.commonsCategory && !candidates.some(c => c.source !== 'wikidata' && !PHOTO_SOURCES.includes(c.source))) {
     point.lat = round6(wikidata.coord.lat)
     point.lng = round6(wikidata.coord.lng)
     point.verifiedBy = ['wikidata']
@@ -643,7 +673,8 @@ async function main() {
       av: avIndex,
       wikidata: await loadWikidata([...points, ...shapes].map(p => p.refs?.wikidata).filter(Boolean)),
       osm: await loadOsm(points.map(p => p.refs?.osm).filter(ref => /^(node|way|relation)\/\d+$/.test(ref || ''))),
-      shapes: await loadOsmShapes(shapes.flatMap(s => s.refs?.osm || []).filter(ref => /^(way|relation)\/\d+$/.test(ref)))
+      shapes: await loadOsmShapes(shapes.flatMap(s => s.refs?.osm || []).filter(ref => /^(way|relation)\/\d+$/.test(ref))),
+      photoCoords: await loadPhotoCoords(places.flatMap(p => (p.photos || []).map(photo => photo.file)).filter(Boolean))
     }
     for (const place of places) {
       for (const point of place.points || []) verifyPoint(point, place, lookups, issuesByPlace.get(place))

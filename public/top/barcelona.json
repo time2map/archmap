@@ -1025,7 +1025,8 @@
           },
           "verifiedBy": [
             "osm",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
@@ -1111,7 +1112,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "docomomo"
+            "docomomo",
+            "photo-camera"
           ]
         }
       ],
@@ -1537,7 +1539,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
@@ -1612,7 +1615,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -1677,7 +1681,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
@@ -1795,7 +1800,8 @@
           },
           "verifiedBy": [
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
@@ -2102,7 +2108,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
@@ -2166,7 +2173,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
@@ -2360,7 +2368,8 @@
           },
           "verifiedBy": [
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
@@ -2418,9 +2427,9 @@
             "wikidata": "Q5270361"
           },
           "verifiedBy": [
-            "wikidata"
-          ],
-          "singleSource": true
+            "wikidata",
+            "photo-camera"
+          ]
         }
       ],
       "shapes": [],
@@ -2481,7 +2490,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
@@ -2562,7 +2572,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
@@ -2642,7 +2653,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
@@ -2691,7 +2703,8 @@
           },
           "verifiedBy": [
             "wikidata",
-            "docomomo"
+            "docomomo",
+            "photo-camera"
           ]
         }
       ],
@@ -2769,7 +2782,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "docomomo"
+            "docomomo",
+            "photo-camera"
           ]
         }
       ],
@@ -2840,7 +2854,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-object"
           ]
         }
       ],
@@ -2893,7 +2908,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -2952,7 +2968,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -3011,7 +3028,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -3142,7 +3160,9 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-object",
+            "photo-camera"
           ]
         }
       ],
@@ -3183,7 +3203,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -3305,7 +3326,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
@@ -3373,7 +3395,8 @@
           },
           "verifiedBy": [
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
@@ -3423,7 +3446,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -3495,7 +3519,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -3557,7 +3582,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
@@ -3618,7 +3644,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-object"
           ]
         }
       ],
@@ -3679,7 +3706,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-object"
           ]
         }
       ],
@@ -3930,7 +3958,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
@@ -4118,7 +4147,9 @@
           },
           "verifiedBy": [
             "wikidata",
-            "docomomo"
+            "docomomo",
+            "photo-camera",
+            "photo-object"
           ]
         }
       ],
@@ -4187,7 +4218,9 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera",
+            "photo-object"
           ]
         }
       ],
@@ -4254,7 +4287,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -4321,7 +4355,9 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera",
+            "photo-object"
           ]
         }
       ],
@@ -4455,7 +4491,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -4495,7 +4532,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -4566,7 +4604,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -4695,12 +4734,15 @@
       "points": [
         {
           "name": null,
-          "lat": null,
-          "lng": null,
+          "lat": 41.381077,
+          "lng": 2.068505,
           "refs": {
             "osm": "way/1241914249"
           },
-          "verifiedBy": []
+          "verifiedBy": [
+            "osm",
+            "photo-object"
+          ]
         }
       ],
       "shapes": [],
@@ -4758,7 +4800,8 @@
           },
           "verifiedBy": [
             "wikidata",
-            "docomomo"
+            "docomomo",
+            "photo-camera"
           ]
         }
       ],
@@ -5075,7 +5118,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "docomomo"
+            "docomomo",
+            "photo-object"
           ]
         }
       ],
@@ -5183,7 +5227,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -5317,7 +5362,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-object"
           ]
         }
       ],
@@ -5470,23 +5516,33 @@
         },
         {
           "name": "Bathing area — Beth Galí",
-          "lat": null,
-          "lng": null,
+          "lat": 41.409045,
+          "lng": 2.226332,
           "refs": {
             "osm": "way/158306145",
             "av": "zona-de-banos-barcelona"
           },
-          "verifiedBy": []
+          "verifiedBy": [
+            "osm"
+          ],
+          "near": [
+            "av"
+          ]
         },
         {
           "name": "Parc dels Auditoris — FOA",
-          "lat": null,
-          "lng": null,
+          "lat": 41.409541,
+          "lng": 2.225748,
           "refs": {
             "osm": "way/240500862",
             "av": "parque-de-los-auditorios-barcelona"
           },
-          "verifiedBy": []
+          "verifiedBy": [
+            "osm"
+          ],
+          "near": [
+            "av"
+          ]
         }
       ],
       "shapes": [],
@@ -6412,7 +6468,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -6462,7 +6519,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-object"
           ]
         }
       ],
@@ -7672,7 +7730,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -7867,7 +7926,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -7936,7 +7996,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-object"
           ]
         }
       ],
@@ -7995,7 +8056,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -8064,7 +8126,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-object"
           ]
         }
       ],
@@ -8114,7 +8177,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-object"
           ]
         }
       ],
@@ -8182,7 +8246,8 @@
           },
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-object"
           ]
         }
       ],

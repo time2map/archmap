@@ -101,7 +101,9 @@ Arc de Triomf, Tibidabo and the seafront because this check was not there.)
 ### Points
 For each point collect candidates: Wikidata P625; OSM (Nominatim or Overpass, ≤1 request/s,
 custom User-Agent); AV map dataset or work page; Docomomo page (its Google Maps link);
-official site.
+official site. The script adds the Commons coordinates of the card's photos by itself: the
+camera location and the object location. They only confirm, like AV, and only on a card with
+one point (in an ensemble a photo may show another building).
 Accept when two independent sources agree within 150 m. The stored coordinate comes from
 OSM, Wikidata or another source; AV can only confirm it.
 An OSM building is also accepted when another source puts the place near it: architects, media

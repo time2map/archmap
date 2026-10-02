@@ -688,7 +688,8 @@
           "lng": 9.11496,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -741,7 +742,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-tirpitz"
+            "big-tirpitz",
+            "photo-camera"
           ]
         }
       ],
@@ -793,7 +795,9 @@
           "lng": 8.270448,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-object",
+            "photo-camera"
           ]
         }
       ],
@@ -846,7 +850,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-marsk-tower"
+            "big-marsk-tower",
+            "photo-camera"
           ]
         }
       ],
@@ -1066,7 +1071,8 @@
           "lng": 10.227038,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-object"
           ]
         }
       ],
@@ -1270,10 +1276,8 @@
           "lat": 60.221666,
           "lng": 10.363863,
           "verifiedBy": [
-            "osm"
-          ],
-          "near": [
-            "big-the-twist"
+            "osm",
+            "photo-camera"
           ]
         }
       ],
@@ -1508,7 +1512,8 @@
           "lng": 13.448557,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -1560,7 +1565,8 @@
           "lng": 4.981927,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
@@ -1817,7 +1823,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-via-57-west"
+            "big-via-57-west",
+            "photo-camera"
           ]
         }
       ],
@@ -2152,7 +2159,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-1200-intrepid"
+            "big-1200-intrepid",
+            "photo-camera"
           ]
         }
       ],
@@ -2526,7 +2534,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "big-telus-sky"
+            "big-telus-sky",
+            "photo-camera"
           ]
         }
       ],

@@ -61,7 +61,8 @@ another source is near the work's OSM building: within 2 km when the names match
 coordinates often mark the town or the entrance of the grounds: put them in `refs.other`, they
 confirm the OSM building. If Nominatim does not find the building, try Geoapify geocoding
 (`GEOAPIFY_API_KEY` in `.env`): it matches names more loosely, but it is OSM too, so store the
-OSM id it leads to (place details), never the Geoapify result itself. Without that, the place
+OSM id it leads to (place details), never the Geoapify result itself. The coordinates of the
+card's photos on Commons confirm the point too (the script reads them). Without that, the place
 has no point.
 
 Every place still says where it is in `area`:
