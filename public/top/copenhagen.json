@@ -4605,6 +4605,10 @@
       "year": "villa 1918; extensions 2005 and 2021; house 1942",
       "area": "Charlottenlund (Gentofte)",
       "group": "architecture",
+      "firms": [
+        "Zaha Hadid Architects",
+        "Snøhetta"
+      ],
       "sources": [
         "avontuura-2025",
         "av-ordrupgaard",

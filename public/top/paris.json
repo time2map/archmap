@@ -1,7 +1,7 @@
 {
   "id": "paris",
   "name": "Paris",
-  "updated": "2026-09-30",
+  "updated": "2026-10-02",
   "cover": "Paris - The Eiffel Tower in spring - 2307.jpg",
   "sources": {
     "pj-mustsee": {
@@ -1235,6 +1235,14 @@
       "url": "https://www.pop.culture.gouv.fr/notice/merimee/PA75160002",
       "date": null,
       "type": "registry"
+    },
+    "archdaily-1040035": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Nanterre-Amandiers National Drama Center Renovation and Rehabilitation / Snøhetta",
+      "url": "https://www.archdaily.com/1040035/nanterre-amandiers-national-drama-center-renovation-and-rehabilitation-snohetta",
+      "date": "2026-03-30",
+      "type": "media"
     }
   },
   "places": [
@@ -5457,6 +5465,10 @@
       "year": "2014–2020",
       "area": "13th arrondissement",
       "group": "architecture",
+      "firms": [
+        "Snøhetta"
+      ],
+      "firmPage": "https://www.snohetta.com/projects/le-monde-group-headquarters",
       "sources": [
         "ad-2024",
         "duran-2024",
@@ -9261,6 +9273,40 @@
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         }
       ]
+    },
+    {
+      "id": "nanterre-amandiers",
+      "title": "Théâtre Nanterre-Amandiers",
+      "architect": "Snøhetta (renovation)",
+      "year": "2026",
+      "area": "Nanterre",
+      "group": "architecture",
+      "firms": [
+        "Snøhetta"
+      ],
+      "firmPage": "https://www.snohetta.com/projects/https-www.snohetta.com-projects-renovation-and-rehabilitation-of-the-nanterre-amandiers-national-drama-centre",
+      "sources": [
+        "archdaily-1040035"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q2430631",
+            "osm": "node/181766717"
+          },
+          "lat": 48.89317,
+          "lng": 2.214017,
+          "verifiedBy": [
+            "osm",
+            "wikidata"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
     }
   ]
 }
