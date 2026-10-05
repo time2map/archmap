@@ -69,7 +69,8 @@ const located = (pins) => pins.filter(isLocated)
 function pinsOf(place) {
   return [
     ...(place.shapes || []).map(shape => ({ name: shape.name, lat: shape.lat, lng: shape.lng, shape: shape.geometry ? shape : null })),
-    ...place.points.map(point => ({ name: point.name, lat: point.lat, lng: point.lng, shape: null }))
+    // An approximate point rests on one source (verifyTop.js): its pin is dashed and the card says so
+    ...place.points.map(point => ({ name: point.name, lat: point.lat, lng: point.lng, shape: null, approximate: !!point.approximate }))
   ]
 }
 
@@ -133,6 +134,9 @@ function sourceLabel(source) {
 
 const stop = (e) => e.stopPropagation()
 
+// The referral Unsplash asks its links to carry (verifyTop.js adds it to the photographer's link)
+const UNSPLASH_UTM = '?utm_source=archmap&utm_medium=referral'
+
 function ExternalIcon() {
   return (
     <svg className="w-3.5 h-3.5 inline shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -159,7 +163,7 @@ function PhotoGallery({ photos, title }) {
         onScroll={(e) => setIndex(Math.round(e.currentTarget.scrollLeft / e.currentTarget.clientWidth))}
       >
         {photos.map((photo, i) => (
-          <figure key={photo.file} className="w-full shrink-0 snap-center">
+          <figure key={photo.file || photo.flickr || photo.unsplash} className="w-full shrink-0 snap-center">
             <img
               src={photo.src}
               alt={`${title} — photo ${i + 1}`}
@@ -167,17 +171,33 @@ function PhotoGallery({ photos, title }) {
               className="w-full aspect-[16/10] object-cover bg-gray-100"
             />
             <figcaption className="px-3 pt-1.5 text-[11px] leading-tight text-gray-500">
-              Photo:{' '}
-              <a href={photo.page} target="_blank" rel="noopener noreferrer" onClick={stop} className="underline hover:text-gray-700">
-                {photo.author}
-              </a>
-              {', '}
-              {photo.licenseUrl ? (
-                <a href={photo.licenseUrl} target="_blank" rel="noopener noreferrer" onClick={stop} className="underline hover:text-gray-700">
-                  {photo.license}
-                </a>
-              ) : photo.license}
-              {' · Wikimedia Commons'}
+              {photo.unsplash ? (
+                // The credit Unsplash asks for: the photographer's profile and Unsplash, both linked
+                <>
+                  Photo by{' '}
+                  <a href={photo.page} target="_blank" rel="noopener noreferrer" onClick={stop} className="underline hover:text-gray-700">
+                    {photo.author}
+                  </a>
+                  {' on '}
+                  <a href={`https://unsplash.com/${UNSPLASH_UTM}`} target="_blank" rel="noopener noreferrer" onClick={stop} className="underline hover:text-gray-700">
+                    Unsplash
+                  </a>
+                </>
+              ) : (
+                <>
+                  Photo:{' '}
+                  <a href={photo.page} target="_blank" rel="noopener noreferrer" onClick={stop} className="underline hover:text-gray-700">
+                    {photo.author}
+                  </a>
+                  {', '}
+                  {photo.licenseUrl ? (
+                    <a href={photo.licenseUrl} target="_blank" rel="noopener noreferrer" onClick={stop} className="underline hover:text-gray-700">
+                      {photo.license}
+                    </a>
+                  ) : photo.license}
+                  {photo.flickr ? ' · Flickr' : ' · Wikimedia Commons'}
+                </>
+              )}
             </figcaption>
           </figure>
         ))}
@@ -308,7 +328,7 @@ function PlaceCard({ place, cityName, sources, selected, onSelect, onSelectPoint
                         }}
                         className="text-left text-gray-700 hover:text-gray-900 hover:underline"
                       >
-                        {point.name}
+                        {point.name}{point.approximate && <span className="text-gray-400"> (approximate)</span>}
                       </button>
                       <a
                         href={googleMapsUrl(point)}
@@ -346,15 +366,22 @@ function PlaceCard({ place, cityName, sources, selected, onSelect, onSelectPoint
             </a>
           )}
           {mapPins.length > 0 ? (
-            <a
-              href={googleMapsUrl(mapPins[0])}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={stop}
-              className="inline-flex items-center gap-1 font-medium text-green-700 hover:text-green-800"
-            >
-              Open in Google Maps <ExternalIcon />
-            </a>
+            <>
+              <a
+                href={googleMapsUrl(mapPins[0])}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={stop}
+                className="inline-flex items-center gap-1 font-medium text-green-700 hover:text-green-800"
+              >
+                Open in Google Maps <ExternalIcon />
+              </a>
+              {mapPins.some(pin => pin.approximate) && (
+                <span className="text-gray-500" title="The location rests on one source and is not confirmed by a second one">
+                  Approximate location
+                </span>
+              )}
+            </>
           ) : (
             <>
               <span className="text-gray-500">No confirmed location</span>
@@ -710,11 +737,11 @@ function TopCity({ cityId, onCityChange }) {
             onPinClick(place, index)
           }}
         >
-          <div className="relative cursor-pointer" title={point.name || place.title}>
+          <div className="relative cursor-pointer" title={`${point.name || place.title}${point.approximate ? ' — approximate location' : ''}`}>
             {/* The group colour is the ring; the first photo fills the pin */}
             <div
               className="rounded-full overflow-hidden bg-white shadow-md transition-all duration-200"
-              style={{ width: size, height: size, border: `${size < 24 ? 2 : 3}px solid ${color}` }}
+              style={{ width: size, height: size, border: `${size < 24 ? 2 : 3}px ${point.approximate ? 'dashed' : 'solid'} ${color}` }}
             >
               {photo && (
                 <img

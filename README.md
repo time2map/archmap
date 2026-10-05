@@ -29,9 +29,11 @@ and **Paris**.
 - **Map:** pins carry the place's photo and the colour of its group. Their names stand next to
   them, on white labels, wherever they fit without overlapping. Districts, parks
   and promenades appear as areas and lines. Click a card to fly to the place, or a pin to open its card.
-- **Checked locations:** a place gets a pin only when its location is confirmed. Otherwise
-  the card stays in the list with a "Find in Google Maps" link.
-- **Photos** come from Wikimedia Commons under free licences, credited with author and licence.
+- **Checked locations:** a place gets a pin when two sources agree on its location, or when the OSM
+  building's own tags name it. A location that rests on one source gets a dashed pin and the card says
+  "Approximate location". Otherwise the card stays in the list with a "Find in Google Maps" link.
+- **Photos** come from Wikimedia Commons and Flickr under free licences and from Unsplash under the Unsplash
+  License, credited with author and licence.
 - **Each city has its own page**, e.g. `archmap.time2map.com/madrid/`, with its own title,
   description and link preview (Open Graph); all cities are listed in `sitemap.xml`.
   Old links like `#top/madrid` still work.
@@ -48,6 +50,12 @@ Built with the `firm-works` skill (`.claude/skills/firm-works`): ask it to colle
 firm. Works inside a city go to the city's file; the others go to `public/top/world.json`, which has
 the same schema without a cover. Check it with `node scripts/verifyTop.js world`; add
 `--only <id>,<id>` to check only the places you added or changed and leave the rest of the file as it is.
+
+Photos are found with `node scripts/photoCandidates.js <city> --missing` (or `--only <id>,<id>`):
+it searches Commons and Flickr and draws a contact sheet per place; `--pick <id>=<n>,<n>` adds the chosen ones.
+Flickr is searched without a key: its public feed by tag, and Openverse by text. Unsplash needs
+`UNSPLASH_API_KEY` in `.env` (an app on unsplash.com/developers named `archmap`, the name its links carry);
+`verifyTop.js` reads it too, to fill in the Unsplash photos.
 
 The home page's picture in link previews is a collage of the city covers, `public/og-image.jpg`.
 It is not rebuilt with the site: run `npm run og-image` when you want new cities in it, and commit the image.

@@ -20,11 +20,12 @@ user sees is in English.
 - Never recommend tours or tour operators (bus, walking, guided).
 - Exclude interior-only projects (shops, restaurants, flat refurbishments, fair stands),
   ephemeral installations, and unbuilt or competition projects.
-- A point or a shape goes on the map only when verified (§4). Otherwise the card stays,
-  without it.
+- A point or a shape goes on the map only when verified (§4), or as an approximate point that the
+  card marks as such. Otherwise the card stays, without it.
 - Areas and lines come only from OpenStreetMap objects. Never draw or trace geometry by hand.
-- Photos only from Wikimedia Commons under CC0 / PD / CC BY / CC BY-SA, with author,
-  license and link to the file, and only where freedom of panorama allows commercial use (§5).
+- Photos only from Wikimedia Commons or Flickr under CC0 / PD / CC BY / CC BY-SA, or from Unsplash under
+  the Unsplash License, with author, license and link to the photo, and only where freedom of panorama
+  allows commercial use (§5).
 
 ## 1. Collect recommendations
 Search each source type in English, the local language(s) and Russian:
@@ -108,6 +109,16 @@ address, then `Consulta_CPMRC` with `SRS=EPSG:4326`; check that the parcel it re
 number you asked for, a missing number returns a neighbour). Put such a coordinate in
 `refs.other` with the catalogue's url. An OSM address point (`place=house`) at the place's
 address counts as the OSM object when there is no building with that address.
+Official address registries put an address on the building or its entrance, independently of
+OSM: Norway (Kartverket, `https://ws.geonorge.no/adresser/v1/sok?sok=<street number>&kommunenavn=<town>`,
+`representasjonspunkt`), the Netherlands (BAG through PDOK,
+`https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=<address>&fq=type:adres`, `centroide_ll`), Spain (the
+Catastro, above), France (BAN, `https://api-adresse.data.gouv.fr/search/?q=<address>`: only a result of
+`type` housenumber with `score` ≥ 0.8). Take the address from the texts about the place, put the point in
+`refs.other` with `"source": "registry"` and the query url. Not a second source: the US Census geocoder
+(it spreads house numbers along the street), a match to a street only, and Denmark's DAWA (closed in 2025).
+OSM imported many addresses from these registries: a registry point confirms an OSM building outline,
+never an OSM address point at the same spot (they coincide, so they are one source).
 Two pins that coincide within a few metres in two sources (a firm's site and AV) were copied
 from one another: count them as one source. The script adds the Commons coordinates of the card's photos by itself: the
 camera location and the object location. They only confirm, like AV, and only on a card with
@@ -134,7 +145,19 @@ with `near` listing the other sources; check a point accepted this way on the ma
 are OSM, not a second source; use them to find the OSM object, then store its id.
 A single source is allowed only for a landmark whose Wikidata item has a Commons category; it
 is flagged `singleSource`.
-Otherwise: no point, and the card shows "No confirmed location".
+
+The script sorts every point into one of three levels:
+- **Confirmed.** Two independent sources agree within 150 m; or the OSM object's own tags name the
+  work: `wikidata` is the place's item, or `architect` is one of its architects or firms, and the object
+  lies inside the place's town. An OSM outline is drawn on aerial imagery, so its position is exact;
+  what a second source checks is that it is the right building, and these tags do.
+- **Approximate** (`approximate: true`): the near rule (`near`), a single Wikidata landmark
+  (`singleSource`), or an OSM building whose name matches the place (all significant words, as for the
+  near rule) on its own, inside the bounds of the place's town (`osmOnly`): a world place's "City, Country"
+  with 1 km around it, a city file's city with 10 km around it, so a namesake elsewhere is never taken.
+  The pin is dashed and the card says "Approximate location". When OSM knows the work only by its local
+  name, add that name to the title in parentheses, so that the name check can find it.
+- **None**: the card shows "No confirmed location".
 
 ### Areas and lines
 - `area` — the OSM relation or way of the place itself: a neighbourhood or district
@@ -175,9 +198,40 @@ points, and geometry plus a pin position for shapes. Check every shape on a scre
 the right outline, no stray pieces.
 
 ## 5. Photos
-Commons only. Prefer current, recognisable exterior views. Open every thumbnail and check
-that it shows the right building. Reject scans of old publications, neighbouring
-buildings and watermarked images.
+Wikimedia Commons, Flickr and Unsplash. Prefer current, recognisable exterior views. Open every thumbnail
+and check that it shows the right building. Reject scans of old publications, neighbouring
+buildings, the building that stood there before or the construction site, and watermarked images.
+
+Search with `node scripts/photoCandidates.js <city> --only <id>,<id>` (or `--missing`: the places
+without photos). For each place it collects, most reliable first:
+1. Commons: the Wikidata image (P18); the item's category and its subcategories; files that depict the
+   item (`haswbstatement:P180=<QID>`); files and categories its OSM objects link to (`wikimedia_commons`,
+   `image`); files taken within 150 m of the place's point (geosearch: this finds
+   most photos of new buildings, which carry no category); categories named like the place (every word of
+   one of its names, including the local ones); a full-text search of its name and town.
+2. Flickr, without an API key (keys are for Pro accounts only): its public feed by tag (the place's name as
+   one tag, then its words as tags; the 20 latest photos, licenses read from Flickr's oEmbed) and Openverse
+   by text. Only CC BY, CC BY-SA, CC0 and the public domain mark, whose title or tags carry every word of one
+   of the place's names.
+3. Unsplash, by the place's name and town (`UNSPLASH_API_KEY` in `.env`): the Unsplash License, never
+   Unsplash+ photos (another license). When it knows nothing of the place it returns the town's sights, so
+   only the photos whose description names the place are kept (on Snøhetta's works: one in 22 places). A demo key allows 50 requests an hour (one per place); the
+   script goes on without Unsplash when they run out.
+It drops non-free files and Commons photos taken before the year the place was completed, and draws a
+contact sheet per place: `<tmp>/archmap-photos/<city>/<id>.jpg`, numbered tiles, `[F]` for Flickr with its
+author, `[U]` for Unsplash. Look at each sheet, then add the chosen ones with `--pick <id>=<n>,<n>` and run
+verifyTop.js. `--pick` tells Unsplash the photo is used, as its API terms ask; verifyTop.js takes the image
+from Unsplash's own URLs and the photographer's profile, and the card credits it as Unsplash asks:
+"Photo by <name> on Unsplash", both linked, with `utm_source=archmap`.
+Openverse allows 200 requests a day without a token (two per place); `OPENVERSE_TOKEN` lifts it. Its guard
+refuses some queries (HTTP 403): the place then has only the feed's Flickr photos.
+Street-level imagery (Panoramax, Mapillary) is not used: bike and car cameras, glare, the work off-frame.
+
+Flickr and Unsplash have no community review, so check each photo yourself: it must be the uploader's own
+picture. On Unsplash also reject AI-generated images.
+Reject photos from the firm's or a publication's account, press and competition images (a photographer's
+credit in the description, a watermark), renderings, and photos reposted from elsewhere. Licenses NC and
+ND are not free. Freedom of panorama applies as for Commons.
 Up to 5 photos per card: different views of a building, or different buildings of an
 ensemble; exterior first, then a public interior if there is one. The first photo is also
 the map pin, so make it the most recognisable one. Fewer is fine; no photo is better than
@@ -201,7 +255,7 @@ are not tagged, so the check is yours.
 
 ### Cover
 `cover` is the city's picture in link previews and search results (og:image of `/<city>/`).
-Pick it from the photos already in the file: a landscape exterior view of a city-core place
+Pick it from the Commons photos already in the file: a landscape exterior view of a city-core place
 that anyone would recognise as the city (Paris: the Eiffel Tower; Barcelona: the Sagrada
 Família). Check on Commons that the file is wider than it is tall.
 
@@ -236,15 +290,17 @@ Família). Check on Commons that the file is wider than it is tall.
       "lat": 0, "lng": 0,
       "refs": { "wikidata": "Q…", "osm": "way/…", "av": "<slug>",
         "other": [{ "source": "docomomo", "url": "…", "lat": 0, "lng": 0 }] },
-      "verifiedBy": ["wikidata", "osm"] }],
+      "verifiedBy": ["wikidata", "osm"], "approximate": "true only for a point resting on one source" }],
     "shapes": [{ "name": "Gothic Quarter", "kind": "area|line",
       "refs": { "osm": ["relation/…", "way/…"], "wikidata": "Q…", "av": "<slug>", "other": [] },
       "lat": 0, "lng": 0, "geometry": { "type": "MultiPolygon|MultiLineString", "coordinates": [] },
       "verifiedBy": ["osm", "wikidata"] }],
     "photos": [{ "file": "Commons file name", "src": "…", "thumb": "…", "page": "…",
-      "author": "…", "license": "…", "licenseUrl": "…" }]
+      "author": "…", "license": "…", "licenseUrl": "…" },
+      { "flickr": "https://www.flickr.com/photos/<user>/<photo id>/", "src": "…", "…": "…" },
+      { "unsplash": "https://unsplash.com/photos/<slug>-<id>", "src": "…", "…": "…" }]
   }]
 }
 ```
-Only `file` is needed for a photo, and only `refs` for a point or a shape: the script fills
-in the rest. `date` may be null. `points` and `shapes` may be empty.
+Only `file` (Commons), `flickr` or `unsplash` (the photo's page) is needed for a photo, and only `refs` for a point
+or a shape: the script fills in the rest. `date` may be null. `points` and `shapes` may be empty.

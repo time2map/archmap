@@ -5,12 +5,14 @@ import { fileURLToPath } from 'url'
 
 // Verifies public/top/<city>.json for the TOP tab:
 // - cross-checks every point between Wikidata, OpenStreetMap, the Arquitectura Viva map
-//   and manually collected sources, and writes lat/lng only when two of them agree
-//   (AV only confirms: its coordinates are never stored);
+//   and manually collected sources, and writes lat/lng when two of them agree
+//   (AV only confirms: its coordinates are never stored) or the OSM object's own tags name the work;
+//   a point that rests on one source (an OSM building near another source, a Wikidata landmark, an OSM building
+//   of the place's name inside its town) is stored with `approximate`, and the card says so;
 // - fetches the OSM geometry of every area and line and keeps it only when another source's
 //   point lies inside the area or near the line;
-// - fills in Commons photo metadata (author, license, thumbnails) and rejects non-free files
-//   and files Commons tags as having no freedom of panorama;
+// - fills in photo metadata (author, license, thumbnails) of Commons files, Flickr and Unsplash photos, and rejects
+//   non-free photos and files Commons tags as having no freedom of panorama;
 // - validates the schema and prints a report in the order the UI shows the places.
 // public/top/world.json holds the works of top architecture firms beyond the cities: no cover, and every
 // place names its city and country in `area`, shown on the card when the location is not confirmed.
@@ -21,6 +23,8 @@ import { fileURLToPath } from 'url'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+// API keys (UNSPLASH_API_KEY) from .env, when there is one
+try { process.loadEnvFile(path.join(__dirname, '..', '.env')) } catch {}
 
 const USER_AGENT = 'archmap-verify-top/1.0 (https://github.com/time2map/archmap)'
 const AGREE_METERS = 150
@@ -59,7 +63,10 @@ const PHOTO_SOURCES = ['photo-camera', 'photo-object']
 const CONFIRM_ONLY = ['av', ...PHOTO_SOURCES]
 const AV_DATASETS = ['en', 'es'].map(lang => `https://arquitecturaviva.com/assets/uploads/obras/all-${lang}.json`)
 const AV_PUBLISHER = 'Arquitectura Viva'
-const FREE_LICENSE = /^(CC0( 1\.0)?|Public domain|CC BY(-SA)? \d\.\d( [a-z]{2,})?)$/i
+// The Unsplash License allows commercial use without asking; Unsplash+ photos are not under it and are refused
+const FREE_LICENSE = /^(CC0( 1\.0)?|Public domain|CC BY(-SA)? \d\.\d( [a-z]{2,})?|Unsplash License)$/i
+// Unsplash asks for links back to it and to the photographer that name the app
+const UNSPLASH_UTM = '?utm_source=archmap&utm_medium=referral'
 const DATE = /^\d{4}(-\d{2}(-\d{2})?)?$/
 const CYRILLIC = /[Ѐ-ӿ]/
 const QUOTES = /[«»“”"]/
@@ -240,19 +247,42 @@ async function loadOsm(refs) {
   const prefix = { node: 'N', way: 'W', relation: 'R' }
   for (const batch of chunks([...new Set(refs)], 50)) {
     const ids = batch.map(ref => { const [type, id] = ref.split('/'); return prefix[type] + id })
-    const params = new URLSearchParams({ osm_ids: ids.join(','), format: 'json', namedetails: 1 })
+    const params = new URLSearchParams({ osm_ids: ids.join(','), format: 'json', namedetails: 1, extratags: 1 })
     const json = await fetchJson(`https://nominatim.openstreetmap.org/lookup?${params}`)
     for (const item of json) {
       result.set(`${item.osm_type}/${item.osm_id}`, {
         lat: Number(item.lat),
         lng: Number(item.lon),
         category: item.category,
-        names: [item.name, ...Object.values(item.namedetails || {})].filter(Boolean)
+        names: [item.name, ...Object.values(item.namedetails || {})].filter(Boolean),
+        // Tags by which the mappers themselves say which work it is
+        wikidata: item.extratags?.wikidata || null,
+        architect: item.extratags?.architect || null
       })
     }
     // Nominatim usage policy: at most one request per second
     await sleep(1100)
   }
+  return result
+}
+
+// Bounds of a town or a city ([south, north, west, east]), cached for a month: an OSM building found by its name
+// alone is kept only inside the bounds of the place's town, so a namesake elsewhere is never taken
+async function loadTownBounds(queries) {
+  const cacheFile = path.join(os.tmpdir(), 'archmap-town-bounds.json')
+  const cache = fs.existsSync(cacheFile) && Date.now() - fs.statSync(cacheFile).mtimeMs < 30 * 24 * 3600 * 1000
+    ? JSON.parse(fs.readFileSync(cacheFile, 'utf8'))
+    : {}
+  const result = new Map()
+  for (const query of new Set(queries)) {
+    if (!(query in cache)) {
+      const json = await fetchJson(`https://nominatim.openstreetmap.org/search?${new URLSearchParams({ q: query, format: 'json', limit: 1 })}`)
+      cache[query] = json[0]?.boundingbox?.map(Number) || null
+      await sleep(1100)
+    }
+    result.set(query, cache[query])
+  }
+  fs.writeFileSync(cacheFile, JSON.stringify(cache))
   return result
 }
 
@@ -334,6 +364,68 @@ async function loadPhotos(files) {
       license: cleanText(meta.LicenseShortName?.value) || null,
       licenseUrl: licenseUrl ? licenseUrl.replace(/^http:/, 'https:').replace(/deed\.[a-z-]+$/i, '') : null
     })
+  }
+  return result
+}
+
+// A Flickr photo, by the URL of its page: author, license and image sizes from Flickr's oEmbed (no API key).
+// The license is read from its URL, so only CC BY, CC BY-SA, CC0 and the public domain mark pass the free check.
+// An Unsplash photo, by the URL of its page, from the Unsplash API (UNSPLASH_API_KEY). Unsplash asks that its
+// own image URLs be used (urls.raw, resized with its parameters) and that the photographer's profile be linked
+let unsplashLimited = false
+async function loadUnsplash(urls) {
+  const result = new Map()
+  for (const url of new Set(urls)) {
+    let meta = null
+    if (process.env.UNSPLASH_API_KEY) {
+      // The id is the last 11 characters of the page's path: /photos/oslo-opera-house-PZ8Q0LXyEN8
+      const id = url.replace(/\/$/, '').split('/').pop().slice(-11)
+      const res = await fetch(`https://api.unsplash.com/photos/${id}`, {
+        headers: { Authorization: `Client-ID ${process.env.UNSPLASH_API_KEY}`, 'Accept-Version': 'v1' }
+      }).catch(() => null)
+      if (res?.status === 403) unsplashLimited = true
+      if (res?.ok) {
+        const p = await res.json()
+        meta = {
+          src: `${p.urls.raw}&w=960&q=80`,
+          thumb: `${p.urls.raw}&w=120&h=120&fit=crop&q=70`,
+          page: `${p.user.links.html}${UNSPLASH_UTM}`,
+          author: p.user.name,
+          license: p.premium || p.plus ? 'Unsplash+' : 'Unsplash License',
+          licenseUrl: 'https://unsplash.com/license'
+        }
+      }
+    }
+    result.set(url, meta)
+  }
+  return result
+}
+
+async function loadFlickr(urls) {
+  const result = new Map()
+  for (const url of new Set(urls)) {
+    let meta = null
+    try {
+      const json = await fetchJson(`https://www.flickr.com/services/oembed/?${new URLSearchParams({ url, format: 'json', maxwidth: '1024' })}`)
+      const licenseUrl = (json.license_url || '').replace(/^http:/, 'https:')
+      const cc = licenseUrl.match(/creativecommons\.org\/licenses\/(by|by-sa)\/(\d\.\d)/)
+      const license = cc ? `CC ${cc[1].toUpperCase()} ${cc[2]}`
+        : /publicdomain\/zero\/1\.0/.test(licenseUrl) ? 'CC0 1.0'
+          : /publicdomain\/mark/.test(licenseUrl) ? 'Public domain'
+            : json.license || null
+      meta = {
+        src: json.url,
+        thumb: json.thumbnail_url || json.url,
+        page: json.web_page || url,
+        author: json.author_name || null,
+        license,
+        licenseUrl: licenseUrl || null
+      }
+    } catch {
+      meta = null
+    }
+    result.set(url, meta)
+    await sleep(200)
   }
   return result
 }
@@ -454,17 +546,19 @@ function verifyPoint(point, place, lookups, issues) {
     const i = COORD_PRIORITY.indexOf(c.source)
     return i === -1 ? COORD_PRIORITY.length : i
   }
+  // Stores the point; an approximate one stands where one source alone puts it, and the card says so
+  const store = (at, verifiedBy, how = {}) => {
+    point.lat = at ? round6(at.lat) : null
+    point.lng = at ? round6(at.lng) : null
+    point.verifiedBy = verifiedBy
+    for (const key of ['approximate', 'near', 'singleSource', 'osmOnly']) delete point[key]
+    if (how.near || how.singleSource || how.osmOnly) point.approximate = true
+    Object.assign(point, how)
+  }
   const storable = candidates.filter(c => !CONFIRM_ONLY.includes(c.source))
   for (const candidate of storable.sort((a, b) => rank(a) - rank(b))) {
     const agreeing = candidates.filter(o => o.source !== candidate.source && distanceMeters(candidate, o) <= AGREE_METERS)
-    if (agreeing.length > 0) {
-      point.lat = round6(candidate.lat)
-      point.lng = round6(candidate.lng)
-      point.verifiedBy = [...new Set([candidate.source, ...agreeing.map(o => o.source)])]
-      delete point.singleSource
-      delete point.near
-      return
-    }
+    if (agreeing.length > 0) return store(candidate, [...new Set([candidate.source, ...agreeing.map(o => o.source)])])
   }
 
   if (candidates.length > 1) {
@@ -477,42 +571,73 @@ function verifyPoint(point, place, lookups, issues) {
     issues.warnings.push(`${label}: sources disagree (${pairs.join(', ')})`)
   }
 
-  // An OSM building, with another source within NEAR_METERS when its name matches, NEAR_UNNAMED_METERS otherwise
   const osm = candidates.find(c => c.source === 'osm')
-  if (osm && !NOT_A_BUILDING.includes(osm.category)) {
-    const titles = [point.name, place.title, ...(lookups.wikidata.get(refs.wikidata)?.names || [])]
-    const named = osmNameMatches(osm.names, titles)
+  const building = osm && !NOT_A_BUILDING.includes(osm.category)
+  const titles = [point.name, place.title, ...(lookups.wikidata.get(refs.wikidata)?.names || [])]
+  const named = building && osmNameMatches(osm.names, titles)
+  const inTown = building && insideTown(osm, place, lookups)
+
+  // The OSM object's own tags name the work: its Wikidata item, or its architect. An outline is drawn on aerial
+  // imagery, so its position is exact; what a second source checks is that it is the right building, and the tags do
+  const tags = building && inTown ? osmTagsMatching(osm, refs, place) : []
+  if (tags.length > 0) {
+    issues.info.push(`${label}: OSM "${osm.names[0] || refs.osm}" tagged ${tags.join(', ')}`)
+    return store(osm, ['osm', 'osm-tags'])
+  }
+
+  // An OSM building, with another source within NEAR_METERS when its name matches, NEAR_UNNAMED_METERS otherwise
+  if (building) {
     const radius = named ? NEAR_METERS : osm.category === PLOT ? 0 : NEAR_UNNAMED_METERS
     const near = candidates.filter(o => o.source !== 'osm' && distanceMeters(osm, o) <= radius)
     if (near.length > 0) {
-      point.lat = round6(osm.lat)
-      point.lng = round6(osm.lng)
-      point.verifiedBy = ['osm']
-      point.near = near.map(o => o.source)
-      delete point.singleSource
-      issues.warnings.push(`${label}: OSM building "${osm.names[0]}", ${near.map(o => `${o.source} ${Math.round(distanceMeters(osm, o))} m`).join(', ')} away`)
-      return
+      issues.warnings.push(`${label}: approximate — OSM building "${osm.names[0]}", ${near.map(o => `${o.source} ${Math.round(distanceMeters(osm, o))} m`).join(', ')} away`)
+      return store(osm, ['osm'], { near: near.map(o => o.source) })
     }
   }
 
-  // A single source is accepted only for a Wikidata landmark with a Commons category
+  // A single source: a Wikidata landmark with a Commons category
   const wikidata = refs.wikidata && lookups.wikidata.get(refs.wikidata)
   if (wikidata?.coord && wikidata.commonsCategory && !candidates.some(c => c.source !== 'wikidata' && !PHOTO_SOURCES.includes(c.source))) {
-    point.lat = round6(wikidata.coord.lat)
-    point.lng = round6(wikidata.coord.lng)
-    point.verifiedBy = ['wikidata']
-    point.singleSource = true
-    delete point.near
-    issues.warnings.push(`${label}: single source (Wikidata landmark)`)
-    return
+    issues.warnings.push(`${label}: approximate — single source (Wikidata landmark)`)
+    return store(wikidata.coord, ['wikidata'], { singleSource: true })
   }
 
-  point.lat = null
-  point.lng = null
-  point.verifiedBy = []
-  delete point.singleSource
-  delete point.near
+  // A single source: an OSM building of the place's name inside its town
+  if (named && inTown) {
+    issues.warnings.push(`${label}: approximate — OSM building "${osm.names[0]}" alone, by its name, inside the town`)
+    return store(osm, ['osm'], { osmOnly: true })
+  }
+
+  store(null, [])
   issues.warnings.push(`${label}: no confirmed location — left off the map`)
+}
+
+// The town an OSM building must lie in to be taken on its own: a world place's "City, Country", or the city of
+// the file (its metro area too, hence the wider margin)
+const townQuery = (place) => (isWorld ? place.area : data.name)
+const TOWN_MARGIN_METERS = isWorld ? 1000 : 10000
+
+function insideTown(at, place, lookups) {
+  const box = lookups.townBounds.get(townQuery(place))
+  if (!box) return false
+  const [south, north, west, east] = box
+  const dLat = TOWN_MARGIN_METERS / 110540
+  const dLng = TOWN_MARGIN_METERS / (111320 * Math.cos(at.lat * Math.PI / 180))
+  return at.lat >= south - dLat && at.lat <= north + dLat && at.lng >= west - dLng && at.lng <= east + dLng
+}
+
+// Accent- and case-blind text for comparing names
+const fold = (text) => (text || '').normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().trim()
+
+// The tags of an OSM object that name the work: wikidata = the place's item; architect = one of its architects or firms
+function osmTagsMatching(osm, refs, place) {
+  const found = []
+  if (refs.wikidata && (osm.wikidata || '').split(';').map(q => q.trim()).includes(refs.wikidata)) found.push(`wikidata=${refs.wikidata}`)
+  const architects = [...(place.firms || []), ...(place.architect || '').split(/[;,·]| and | & /)]
+    .map(fold).map(name => name.replace(/\(.*?\)/g, '').trim()).filter(name => name.length >= 4)
+  const tag = fold(osm.architect)
+  if (tag && architects.some(name => tag.includes(name) || name.includes(tag))) found.push(`architect=${osm.architect}`)
+  return found
 }
 
 // An area or a line is kept when another source's point lies inside the area or near the line
@@ -645,7 +770,10 @@ function validate(data, issuesByPlace, topErrors) {
       ...(place.points || []).map(p => p.name), ...(place.shapes || []).map(s => s.name)].join(' ')
     if (CYRILLIC.test(visibleText)) issues.errors.push('card text must be in English (Cyrillic found)')
     if ((place.photos || []).length > MAX_PHOTOS) issues.errors.push(`more than ${MAX_PHOTOS} photos`)
-    for (const photo of place.photos || []) if (!photo.file) issues.errors.push('photo without "file"')
+    // A photo is a Commons file or a Flickr page
+    for (const photo of place.photos || []) if ([photo.file, photo.flickr, photo.unsplash].filter(Boolean).length !== 1) issues.errors.push('a photo needs one of "file" (Commons), "flickr" or "unsplash" (the URL of its page)')
+    for (const photo of place.photos || []) if (photo.unsplash && !/^https:\/\/unsplash\.com\/photos\/[\w-]{11,}$/.test(photo.unsplash)) issues.errors.push(`bad Unsplash URL "${photo.unsplash}"`)
+    for (const photo of place.photos || []) if (photo.flickr && !/^https:\/\/(www\.)?flickr\.com\/photos\/[^/]+\/\d+/.test(photo.flickr)) issues.errors.push(`bad Flickr URL "${photo.flickr}"`)
     if (!Array.isArray(place.points)) issues.errors.push('points must be an array')
     for (const point of place.points || []) {
       const refs = point.refs || {}
@@ -667,6 +795,9 @@ function validate(data, issuesByPlace, topErrors) {
 
   return (data.places || []).filter(p => p.group === 'city-core').length
 }
+
+const photoName = (photo) => photo.file || photo.flickr || photo.unsplash
+const photoSource = (photo) => (photo.file ? 'Commons' : photo.flickr ? 'Flickr' : 'Unsplash')
 
 const hasLocation = (place) =>
   (place.points || []).some(p => Number.isFinite(p.lat)) || (place.shapes || []).some(s => s.geometry)
@@ -705,7 +836,8 @@ async function main() {
       wikidata: await loadWikidata([...points, ...shapes].map(p => p.refs?.wikidata).filter(Boolean)),
       osm: await loadOsm(points.map(p => p.refs?.osm).filter(ref => /^(node|way|relation)\/\d+$/.test(ref || ''))),
       shapes: await loadOsmShapes(shapes.flatMap(s => s.refs?.osm || []).filter(ref => /^(way|relation)\/\d+$/.test(ref))),
-      photoCoords: await loadPhotoCoords(checked.flatMap(p => (p.photos || []).map(photo => photo.file)).filter(Boolean))
+      photoCoords: await loadPhotoCoords(checked.flatMap(p => (p.photos || []).map(photo => photo.file)).filter(Boolean)),
+      townBounds: await loadTownBounds(checked.filter(p => (p.points || []).some(pt => pt.refs?.osm)).map(townQuery))
     }
     for (const place of checked) {
       for (const point of place.points || []) verifyPoint(point, place, lookups, issuesByPlace.get(place))
@@ -714,28 +846,33 @@ async function main() {
 
     const photoFiles = checked.flatMap(p => (p.photos || []).map(photo => photo.file)).filter(Boolean)
     const photoMeta = await loadPhotos(photoFiles)
+    const flickrMeta = await loadFlickr(checked.flatMap(p => (p.photos || []).map(photo => photo.flickr)).filter(Boolean))
+    const unsplashMeta = await loadUnsplash(checked.flatMap(p => (p.photos || []).map(photo => photo.unsplash)).filter(Boolean))
     const noFop = await loadNoFop(photoFiles)
     for (const place of checked) {
       const issues = issuesByPlace.get(place)
       for (const photo of place.photos || []) {
-        const meta = photoMeta.get(photo.file)
+        const name = photoName(photo)
+        const meta = photo.file ? photoMeta.get(photo.file) : photo.flickr ? flickrMeta.get(photo.flickr) : unsplashMeta.get(photo.unsplash)
         if (!meta) {
-          issues.errors.push(`photo "${photo.file}" not found on Commons`)
+          const why = !photo.unsplash ? '' : !process.env.UNSPLASH_API_KEY ? ' (UNSPLASH_API_KEY is not set)'
+            : unsplashLimited ? ' (the hourly limit of Unsplash requests is reached: run it again later)' : ''
+          issues.errors.push(`photo "${name}" not found on ${photoSource(photo)}${why}`)
           continue
         }
         Object.assign(photo, meta)
-        if (!FREE_LICENSE.test(meta.license || '')) issues.errors.push(`photo "${photo.file}": license "${meta.license}" is not free`)
-        if (!meta.author) issues.errors.push(`photo "${photo.file}": no author for attribution`)
+        if (!FREE_LICENSE.test(meta.license || '')) issues.errors.push(`photo "${name}": license "${meta.license}" is not free`)
+        if (!meta.author) issues.errors.push(`photo "${name}": no author for attribution`)
         for (const tag of noFop.get(photo.file) || []) {
-          issues.errors.push(`photo "${photo.file}": Commons tags it {{${tag}}} — a work under copyright, no freedom of panorama for commercial use`)
+          issues.errors.push(`photo "${name}": Commons tags it {{${tag}}} — a work under copyright, no freedom of panorama for commercial use`)
         }
       }
     }
     const failed = await checkImages(checked.flatMap(p => (p.photos || []).flatMap(photo => [photo.src, photo.thumb])).filter(Boolean))
     for (const place of checked) {
       for (const photo of place.photos || []) {
-        if (failed.has(photo.src)) issuesByPlace.get(place).errors.push(`photo "${photo.file}": thumbnail does not load`)
-        if (failed.has(photo.thumb)) issuesByPlace.get(place).errors.push(`photo "${photo.file}": pin thumbnail does not load`)
+        if (failed.has(photo.src)) issuesByPlace.get(place).errors.push(`photo "${photoName(photo)}": thumbnail does not load`)
+        if (failed.has(photo.thumb)) issuesByPlace.get(place).errors.push(`photo "${photoName(photo)}": pin thumbnail does not load`)
       }
     }
 

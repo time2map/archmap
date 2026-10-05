@@ -105,23 +105,28 @@ source needs publisher, title, url and date.
   an AV vote, and `refs.av` on its point when the AV pin is not a copy of the firm's (§4).
 
 ## 4. Location
-As city-top §4. In short: a point is stored when two independent sources agree within 150 m,
-or when another source is near the work's OSM building (2 km when the names match, 500 m
-otherwise); geotagged Commons photos of the card and AV only confirm.
+As city-top §4. In short: a point is confirmed when two independent sources agree within 150 m,
+or when the OSM object's own tags name the work (`wikidata`, `architect`). It is stored as
+approximate (a dashed pin, "Approximate location" on the card) when another source is near the
+work's OSM building (2 km when the names match, 500 m otherwise), or when an OSM building of the
+work's name lies alone inside its town. Geotagged Commons photos of the card and AV only confirm.
 
 Work through the sources in this order, and stop when the point is confirmed:
 1. Wikidata P625, and OSM by name: the English name, then the local ones (the Wikidata labels in
    all languages, the local Wikipedia). Nominatim first, at most one request a second.
 2. The firm's own coordinates, in `refs.other` with `"source": "firm"`. They often mark the
    town or the entrance of the grounds (BIG put Shenzhen Energy Mansion 35 km off), so they
-   confirm rather than place; the near rule exists for them.
+   confirm rather than place; the near rule exists for them. Leave out a firm point that several
+   projects share or that is the town's centre (Snøhetta's site gives 43 projects the same point in
+   Oslo): it says nothing about the work, and it would agree with another geocoded source.
 3. ArchDaily: a project page carries the work's coordinates (`"latitude"`, `"longitude"` in its
    source). Put them in `refs.other` with `"source": "archdaily"`.
 4. Where the texts say the work is: an address, a street, a campus (the firm's page, the
    sources, city sites). Search OSM for the address and take the building itself (or the OSM
    address point), not the campus or the institution the text names.
 5. Registries with coordinates: Docomomo; for Spain the Catastro by address; for Catalonia
-   the Arquitectura Catalana catalogue (city-top §4).
+   the Arquitectura Catalana catalogue; the official address registries of Norway, the Netherlands
+   and France for an address the texts give (city-top §4).
 6. A geotagged Commons photo of the work: search Commons, not only the Wikidata image, and
    add it to the card if it is a good photo (§5).
 
@@ -138,16 +143,20 @@ East)"): the name check (city-top §4) reads the title.
 Every place still says where it is in `area`:
 - in a city file: the district or municipality, as city-top does;
 - in world.json: `"City, Country"` in English (`"Billund, Denmark"`). The card shows it when
-  there is no point, so it must be right even when the coordinates are not. For such a place
+  there is no point, so it must be right even when the coordinates are not. Add the state when
+  the town's name is not unique (`"Bowling Green, Ohio, United States"`: Nominatim finds the one
+  in Kentucky first). For such a place
   the script stores `areaBounds`, the bounds of that town: the card is listed while the map
   shows it.
 
 ## 5. Photos
-As city-top §5: Wikimedia Commons only, free licenses, freedom of panorama checked. Never
-the firm's photos or press kits: they belong to the photographers and are licensed for
-press about the firm, not for this map. No photo is better than a non-free one.
+As city-top §5: Wikimedia Commons, Flickr and Unsplash, free licenses, freedom of panorama checked.
+Never the firm's photos or press kits, on Flickr or Unsplash either: they belong to the photographers and are
+licensed for press about the firm, not for this map. No photo is better than a non-free one.
 
-Look at every candidate (a contact sheet of thumbnails, one image to read, is quickest).
+Search with `node scripts/photoCandidates.js world --only <ids>` (city-top §5): the geosearch around
+the work's point, Flickr and Unsplash find most photos of new works, which Commons rarely categorises. Look at
+every candidate on the contact sheets, then `--pick` the chosen ones.
 Reject: photos of the construction site, renderings, signs, interiors as the first photo, and
 the building that stood there before or the institution's older building (the Wikidata image
 of Noma shows its old warehouse, that of Gammel Hellerup Gymnasium the old school).
@@ -194,7 +203,8 @@ The same as a city file (city-top), without `cover`:
     "points": [{ "name": null, "refs": { "wikidata": "Q…", "osm": "way/…",
       "other": [{ "source": "firm", "url": "<firmPage>", "lat": 0, "lng": 0 }] } }],
     "shapes": [],
-    "photos": [{ "file": "Commons file name" }]
+    "photos": [{ "file": "Commons file name" }, { "flickr": "https://www.flickr.com/photos/<user>/<id>/" },
+      { "unsplash": "https://unsplash.com/photos/<slug>-<id>" }]
   }]
 }
 ```
