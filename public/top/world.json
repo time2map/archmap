@@ -1670,6 +1670,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "firm"
           ]
@@ -1767,6 +1768,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "firm"
           ]
@@ -2045,6 +2047,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "firm"
           ]
@@ -2418,6 +2421,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "firm"
           ]
@@ -2644,6 +2648,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "firm"
           ]
@@ -2861,6 +2866,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "firm"
           ]
@@ -3184,6 +3190,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "photo-camera"
           ]
@@ -3510,15 +3517,23 @@
           "lat": 59.950115,
           "lng": 10.765639,
           "verifiedBy": [
-            "osm"
-          ],
-          "near": [
-            "archdaily"
+            "osm",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Winter , Praktica B200 - Flickr - Bernt Sønvisen.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Winter_%2C_Praktica_B200_-_Flickr_-_Bernt_S%C3%B8nvisen.jpg/960px-Winter_%2C_Praktica_B200_-_Flickr_-_Bernt_S%C3%B8nvisen.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Winter_%2C_Praktica_B200_-_Flickr_-_Bernt_S%C3%B8nvisen.jpg/120px-Winter_%2C_Praktica_B200_-_Flickr_-_Bernt_S%C3%B8nvisen.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Winter_,_Praktica_B200_-_Flickr_-_Bernt_S%C3%B8nvisen.jpg",
+          "author": "Bernt Sønvisen from Oslo, Norway",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
     },
     {
       "id": "fuglemyrhytta",
@@ -3540,16 +3555,26 @@
           "refs": {
             "osm": "node/6018924885"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 59.97823,
+          "lng": 10.69532,
+          "verifiedBy": [
+            "osm"
+          ],
+          "approximate": true,
+          "osmOnly": true
         }
       ],
       "shapes": [],
-      "photos": [],
-      "areaBounds": [
-        [10.489165, 59.809311],
-        [10.951389, 60.135106]
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/169853883@N02/48901424018",
+          "src": "https://live.staticflickr.com/65535/48901424018_cf18b5d48a_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/48901424018_cf18b5d48a_q.jpg",
+          "page": "https://www.flickr.com/photos/trinesyv/48901424018/",
+          "author": "trine.syvertsen",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
       ]
     },
     {
@@ -3832,6 +3857,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "archdaily"
           ]
@@ -4269,13 +4295,33 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "firm"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/28177519@N03/21950602934",
+          "src": "https://live.staticflickr.com/5677/21950602934_39b798e339_b.jpg",
+          "thumb": "https://live.staticflickr.com/5677/21950602934_39b798e339_q.jpg",
+          "page": "https://www.flickr.com/photos/28177519@N03/21950602934/",
+          "author": "pablocanen",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "file": "Nye Prøysenhuset 2014.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Nye_Pr%C3%B8ysenhuset_2014.jpg/960px-Nye_Pr%C3%B8ysenhuset_2014.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Nye_Pr%C3%B8ysenhuset_2014.jpg/120px-Nye_Pr%C3%B8ysenhuset_2014.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Nye_Pr%C3%B8ysenhuset_2014.jpg",
+          "author": "Proysenhuset",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      ]
     },
     {
       "id": "eggemoen-park",
@@ -4432,6 +4478,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "firm"
           ]
@@ -4574,17 +4621,17 @@
               }
             ]
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 58.953367,
+          "lng": 5.688457,
+          "verifiedBy": [
+            "osm"
+          ],
+          "approximate": true,
+          "osmOnly": true
         }
       ],
       "shapes": [],
-      "photos": [],
-      "areaBounds": [
-        [5.499034, 58.884659],
-        [6.131311, 59.312102]
-      ]
+      "photos": []
     },
     {
       "id": "the-bolder",
@@ -5525,6 +5572,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "archdaily"
           ]
@@ -5603,6 +5651,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "archdaily"
           ]
@@ -5691,7 +5740,7 @@
     },
     {
       "id": "inmed",
-      "title": "Mediterranean Institute of Neurobiology (INMED)",
+      "title": "Mediterranean Institute of Neurobiology (Institut de Neurobiologie de la Méditerranée)",
       "architect": "Snøhetta",
       "year": "2003",
       "area": "Marseille, France",
@@ -5709,17 +5758,17 @@
           "refs": {
             "osm": "way/153534631"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 43.230735,
+          "lng": 5.445747,
+          "verifiedBy": [
+            "osm"
+          ],
+          "approximate": true,
+          "osmOnly": true
         }
       ],
       "shapes": [],
-      "photos": [],
-      "areaBounds": [
-        [5.228786, 43.169623],
-        [5.532476, 43.391033]
-      ]
+      "photos": []
     },
     {
       "id": "pirelli-35",
@@ -5960,6 +6009,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "archdaily"
           ]
@@ -5990,17 +6040,17 @@
           "refs": {
             "osm": "way/322961639"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 47.358818,
+          "lng": 11.923564,
+          "verifiedBy": [
+            "osm"
+          ],
+          "approximate": true,
+          "osmOnly": true
         }
       ],
       "shapes": [],
-      "photos": [],
-      "areaBounds": [
-        [11.912229, 47.321409],
-        [12.027047, 47.41749]
-      ]
+      "photos": []
     },
     {
       "id": "zillertal-stations",
@@ -6057,6 +6107,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "firm"
           ]
@@ -6231,6 +6282,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "firm"
           ]
@@ -6695,6 +6747,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "photo-camera"
           ]
@@ -6754,6 +6807,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "firm",
             "archdaily"
@@ -7001,7 +7055,17 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "unsplash": "https://unsplash.com/photos/isabel-bader-centre-for-the-performing-arts-Q91g2PfbJs0",
+          "src": "https://images.unsplash.com/photo-1790181536710-4f680e9790f4?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkxMjA1NDk1fA&ixlib=rb-4.1.0&w=960&q=80",
+          "thumb": "https://images.unsplash.com/photo-1790181536710-4f680e9790f4?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkxMjA1NDk1fA&ixlib=rb-4.1.0&w=120&h=120&fit=crop&q=70",
+          "page": "https://unsplash.com/@anthonyaird?utm_source=archmap&utm_medium=referral",
+          "author": "Anthony Aird",
+          "license": "Unsplash License",
+          "licenseUrl": "https://unsplash.com/license"
+        }
+      ]
     },
     {
       "id": "tmu-slc",
@@ -7088,11 +7152,15 @@
         {
           "name": null,
           "refs": {
+            "wikidata": "Q96631147",
             "osm": "node/11773961569"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 43.292099,
+          "lng": 45.708165,
+          "verifiedBy": [
+            "osm",
+            "wikidata"
+          ]
         }
       ],
       "shapes": [],
@@ -7124,10 +7192,6 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         }
-      ],
-      "areaBounds": [
-        [45.432404, 43.178301],
-        [45.815456, 43.439165]
       ]
     },
     {
@@ -7353,6 +7417,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "archdaily"
           ]
@@ -7386,6 +7451,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "photo-camera"
           ]
@@ -7438,12 +7504,32 @@
           "lng": -75.155293,
           "verifiedBy": [
             "osm",
-            "archdaily"
+            "archdaily",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Charles Library in 2023.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Charles_Library_in_2023.jpg/960px-Charles_Library_in_2023.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Charles_Library_in_2023.jpg/120px-Charles_Library_in_2023.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Charles_Library_in_2023.jpg",
+          "author": "ImagineerJC",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Charles Library winter jeh.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Charles_Library_winter_jeh.jpg/960px-Charles_Library_winter_jeh.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Charles_Library_winter_jeh.jpg/120px-Charles_Library_winter_jeh.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Charles_Library_winter_jeh.jpg",
+          "author": "Jim.henderson",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
     },
     {
       "id": "hunt-library",
@@ -7550,6 +7636,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "firm"
           ]
@@ -7685,17 +7772,17 @@
           "refs": {
             "osm": "way/236835452"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 42.374742,
+          "lng": -76.873992,
+          "verifiedBy": [
+            "osm"
+          ],
+          "approximate": true,
+          "osmOnly": true
         }
       ],
       "shapes": [],
-      "photos": [],
-      "areaBounds": [
-        [-76.886248, 42.36762],
-        [-76.849056, 42.391898]
-      ]
+      "photos": []
     },
     {
       "id": "powell-hall",
@@ -7878,6 +7965,7 @@
           "lng": -103.549413,
           "verifiedBy": [
             "osm",
+            "wikidata",
             "av",
             "photo-camera"
           ]
@@ -7930,6 +8018,7 @@
           "verifiedBy": [
             "wikidata"
           ],
+          "approximate": true,
           "singleSource": true
         }
       ],
@@ -8159,17 +8248,17 @@
           "refs": {
             "osm": "relation/18008527"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 20.73522,
+          "lng": -103.381012,
+          "verifiedBy": [
+            "osm"
+          ],
+          "approximate": true,
+          "osmOnly": true
         }
       ],
       "shapes": [],
-      "photos": [],
-      "areaBounds": [
-        [-103.551367, 20.56112],
-        [-103.231367, 20.88112]
-      ]
+      "photos": []
     }
   ]
 }

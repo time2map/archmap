@@ -9522,6 +9522,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "firm"
           ]

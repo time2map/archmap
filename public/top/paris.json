@@ -2544,6 +2544,7 @@
           "verifiedBy": [
             "wikidata"
           ],
+          "approximate": true,
           "singleSource": true
         },
         {
@@ -4370,6 +4371,7 @@
           "verifiedBy": [
             "wikidata"
           ],
+          "approximate": true,
           "singleSource": true
         },
         {
@@ -4395,6 +4397,7 @@
           "verifiedBy": [
             "wikidata"
           ],
+          "approximate": true,
           "singleSource": true
         },
         {
@@ -4407,6 +4410,7 @@
           "verifiedBy": [
             "wikidata"
           ],
+          "approximate": true,
           "singleSource": true
         },
         {
@@ -4419,6 +4423,7 @@
           "verifiedBy": [
             "wikidata"
           ],
+          "approximate": true,
           "singleSource": true
         }
       ],
@@ -6171,6 +6176,7 @@
           "verifiedBy": [
             "wikidata"
           ],
+          "approximate": true,
           "singleSource": true
         }
       ],

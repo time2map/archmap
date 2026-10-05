@@ -3368,9 +3368,12 @@
           "refs": {
             "osm": "way/207653531"
           },
-          "lat": null,
-          "lng": null,
-          "verifiedBy": []
+          "lat": 53.498189,
+          "lng": 10.002793,
+          "verifiedBy": [
+            "osm",
+            "osm-tags"
+          ]
         },
         {
           "name": "Woodie",

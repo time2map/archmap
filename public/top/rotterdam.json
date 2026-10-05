@@ -3104,6 +3104,7 @@
           "verifiedBy": [
             "wikidata"
           ],
+          "approximate": true,
           "singleSource": true
         }
       ],
@@ -3142,6 +3143,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "archdaily"
           ]
@@ -5529,6 +5531,7 @@
           "verifiedBy": [
             "wikidata"
           ],
+          "approximate": true,
           "singleSource": true
         }
       ],

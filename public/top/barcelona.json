@@ -5607,10 +5607,8 @@
             "av": "zona-de-banos-barcelona"
           },
           "verifiedBy": [
-            "osm"
-          ],
-          "near": [
-            "av"
+            "osm",
+            "osm-tags"
           ]
         },
         {
@@ -5624,6 +5622,7 @@
           "verifiedBy": [
             "osm"
           ],
+          "approximate": true,
           "near": [
             "av"
           ]
