@@ -5427,12 +5427,32 @@
           "lng": 12.573651,
           "verifiedBy": [
             "osm",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Røde Kors Forsamlingshus 01.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/R%C3%B8de_Kors_Forsamlingshus_01.jpg/960px-R%C3%B8de_Kors_Forsamlingshus_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/R%C3%B8de_Kors_Forsamlingshus_01.jpg/120px-R%C3%B8de_Kors_Forsamlingshus_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:R%C3%B8de_Kors_Forsamlingshus_01.jpg",
+          "author": "Jasparbang",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Røde Kors Trappen 01.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/R%C3%B8de_Kors_Trappen_01.jpg/960px-R%C3%B8de_Kors_Trappen_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/R%C3%B8de_Kors_Trappen_01.jpg/120px-R%C3%B8de_Kors_Trappen_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:R%C3%B8de_Kors_Trappen_01.jpg",
+          "author": "Leif Jørgensen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "zoo",
@@ -6378,12 +6398,41 @@
           "lng": 12.598444,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "P-hus Lüders 11.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/P-hus_L%C3%BCders_11.jpg/960px-P-hus_L%C3%BCders_11.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/P-hus_L%C3%BCders_11.jpg/120px-P-hus_L%C3%BCders_11.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:P-hus_L%C3%BCders_11.jpg",
+          "author": "Leif Jørgensen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "P-hus Lüders 12.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/P-hus_L%C3%BCders_12.jpg/960px-P-hus_L%C3%BCders_12.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/P-hus_L%C3%BCders_12.jpg/120px-P-hus_L%C3%BCders_12.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:P-hus_L%C3%BCders_12.jpg",
+          "author": "Leif Jørgensen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "P-hus Lüders 03.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/P-hus_L%C3%BCders_03.jpg/960px-P-hus_L%C3%BCders_03.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/P-hus_L%C3%BCders_03.jpg/120px-P-hus_L%C3%BCders_03.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:P-hus_L%C3%BCders_03.jpg",
+          "author": "Leif Jørgensen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "urbanrigger",
@@ -9304,12 +9353,32 @@
           "lng": 12.533832,
           "verifiedBy": [
             "osm",
-            "firm"
+            "firm",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Skaffervej 4-6 (Copenhagen) 03.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Skaffervej_4-6_%28Copenhagen%29_03.jpg/960px-Skaffervej_4-6_%28Copenhagen%29_03.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Skaffervej_4-6_%28Copenhagen%29_03.jpg/120px-Skaffervej_4-6_%28Copenhagen%29_03.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Skaffervej_4-6_(Copenhagen)_03.jpg",
+          "author": "Ramblersen2",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Sjakket - adaptive reuse.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Sjakket_-_adaptive_reuse.jpg/960px-Sjakket_-_adaptive_reuse.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Sjakket_-_adaptive_reuse.jpg/120px-Sjakket_-_adaptive_reuse.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sjakket_-_adaptive_reuse.jpg",
+          "author": "Kim Bach from Taastrup, Denmark",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      ]
     },
     {
       "id": "noma",
@@ -9347,12 +9416,32 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "firm"
+            "firm",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/193280847@N04/53885531342",
+          "src": "https://live.staticflickr.com/65535/53885531342_78c8948bdd_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/53885531342_78c8948bdd_q.jpg",
+          "page": "https://www.flickr.com/photos/193280847@N04/53885531342/",
+          "author": "brianna_l_johns",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        },
+        {
+          "file": "Noma serre.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Noma_serre.jpg/960px-Noma_serre.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Noma_serre.jpg/120px-Noma_serre.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Noma_serre.jpg",
+          "author": "Daniele Marcuzzi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "big-hq",
@@ -9391,7 +9480,26 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "BIG HQ 02.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/BIG_HQ_02.jpg/960px-BIG_HQ_02.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/BIG_HQ_02.jpg/120px-BIG_HQ_02.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:BIG_HQ_02.jpg",
+          "author": "Ramblersen2",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "BIG HQ 01.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/BIG_HQ_01.jpg/960px-BIG_HQ_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/BIG_HQ_01.jpg/120px-BIG_HQ_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:BIG_HQ_01.jpg",
+          "author": "Ramblersen2",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
     },
     {
       "id": "gammel-hellerup",
@@ -9429,12 +9537,23 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "firm"
+            "firm",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Gammel Hellerup Gymnasium 1.JPG",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Gammel_Hellerup_Gymnasium_1.JPG/960px-Gammel_Hellerup_Gymnasium_1.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Gammel_Hellerup_Gymnasium_1.JPG/120px-Gammel_Hellerup_Gymnasium_1.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Gammel_Hellerup_Gymnasium_1.JPG",
+          "author": "Ramblersen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "maritime-museum",

@@ -3413,7 +3413,17 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Blijdorp entree.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Blijdorp_entree.jpg/960px-Blijdorp_entree.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Blijdorp_entree.jpg/120px-Blijdorp_entree.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Blijdorp_entree.jpg",
+          "author": "The original uploader was Sherpa at Dutch Wikipedia .",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
     },
     {
       "id": "erasmus-mc",
@@ -3803,7 +3813,26 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/jankruithof/55485921905/",
+          "src": "https://live.staticflickr.com/65535/55485921905_a2b861ccc5_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/55485921905_a2b861ccc5_q.jpg",
+          "page": "https://www.flickr.com/photos/jankruithof/55485921905/",
+          "author": "tjabeljan",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/jankruithof/55485705359/",
+          "src": "https://live.staticflickr.com/65535/55485705359_101db27145_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/55485705359_101db27145_q.jpg",
+          "page": "https://www.flickr.com/photos/jankruithof/55485705359/",
+          "author": "tjabeljan",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
     },
     {
       "id": "rif010",
@@ -4932,7 +4961,17 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Zuiderpark Rotterdam.jpg",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Zuiderpark_Rotterdam.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Zuiderpark_Rotterdam.jpg/120px-Zuiderpark_Rotterdam.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Zuiderpark_Rotterdam.jpg",
+          "author": "Advance at Dutch Wikipedia",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
     },
     {
       "id": "dakpark",

@@ -2381,12 +2381,23 @@
           "lng": -73.913089,
           "verifiedBy": [
             "osm",
-            "firm"
+            "firm",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "149th Street @ St. Ann's Avenue, looking west, 2024-06-16, Mott Haven, South Bronx, New York City.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/149th_Street_%40_St._Ann%27s_Avenue%2C_looking_west%2C_2024-06-16%2C_Mott_Haven%2C_South_Bronx%2C_New_York_City.jpg/960px-149th_Street_%40_St._Ann%27s_Avenue%2C_looking_west%2C_2024-06-16%2C_Mott_Haven%2C_South_Bronx%2C_New_York_City.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/149th_Street_%40_St._Ann%27s_Avenue%2C_looking_west%2C_2024-06-16%2C_Mott_Haven%2C_South_Bronx%2C_New_York_City.jpg/120px-149th_Street_%40_St._Ann%27s_Avenue%2C_looking_west%2C_2024-06-16%2C_Mott_Haven%2C_South_Bronx%2C_New_York_City.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:149th_Street_@_St._Ann%27s_Avenue,_looking_west,_2024-06-16,_Mott_Haven,_South_Bronx,_New_York_City.jpg",
+          "author": "Deans Charbal",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "solar-one",
@@ -2419,16 +2430,23 @@
           "lat": 40.734579,
           "lng": -73.9744,
           "verifiedBy": [
-            "osm"
-          ],
-          "approximate": true,
-          "near": [
-            "firm"
+            "osm",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Solar One Stuyvesant Cove Park.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Solar_One_Stuyvesant_Cove_Park.jpg/960px-Solar_One_Stuyvesant_Cove_Park.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Solar_One_Stuyvesant_Cove_Park.jpg/120px-Solar_One_Stuyvesant_Cove_Park.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Solar_One_Stuyvesant_Cove_Park.jpg",
+          "author": "Transpoman",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "wildflower-studios",
@@ -2467,7 +2485,17 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/newell_reinvention/54025586067/",
+          "src": "https://live.staticflickr.com/65535/54025586067_5ceb58c7d8_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/54025586067_5ceb58c7d8_q.jpg",
+          "page": "https://www.flickr.com/photos/newell_reinvention/54025586067/",
+          "author": "Newell Reinvention",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        }
+      ]
     },
     {
       "id": "1200-intrepid",
@@ -2562,7 +2590,17 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/25955895@N03/33677656834",
+          "src": "https://live.staticflickr.com/4179/33677656834_54e5ce3e85_b.jpg",
+          "thumb": "https://live.staticflickr.com/4179/33677656834_54e5ce3e85_q.jpg",
+          "page": "https://www.flickr.com/photos/southbeachcars/33677656834/",
+          "author": "Phillip Pessar",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "google-bay-view",
@@ -4754,6 +4792,7 @@
         {
           "name": null,
           "refs": {
+            "wikidata": "Q16873839",
             "osm": "node/9668334081",
             "av": "snohetta-cabanas-junto-al-glaciar-jostedalsbreen-noruega-19wyb"
           },
@@ -4761,6 +4800,7 @@
           "lng": 6.971743,
           "verifiedBy": [
             "osm",
+            "wikidata",
             "av"
           ]
         }

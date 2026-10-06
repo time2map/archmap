@@ -3390,7 +3390,26 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Wilhelmsburg Neue Mitte 03.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Wilhelmsburg_Neue_Mitte_03.jpg/960px-Wilhelmsburg_Neue_Mitte_03.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Wilhelmsburg_Neue_Mitte_03.jpg/120px-Wilhelmsburg_Neue_Mitte_03.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Wilhelmsburg_Neue_Mitte_03.jpg",
+          "author": "Uwe Rohwedder",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Wilhelmsburg Neue Mitte 01.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Wilhelmsburg_Neue_Mitte_01.jpg/960px-Wilhelmsburg_Neue_Mitte_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Wilhelmsburg_Neue_Mitte_01.jpg/120px-Wilhelmsburg_Neue_Mitte_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Wilhelmsburg_Neue_Mitte_01.jpg",
+          "author": "Uwe Rohwedder",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "jugendmusikschule",
@@ -3418,12 +3437,41 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Staatliche Jugendmusikschule Mittelweg Rotherbaum (3).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Staatliche_Jugendmusikschule_Mittelweg_Rotherbaum_%283%29.jpg/960px-Staatliche_Jugendmusikschule_Mittelweg_Rotherbaum_%283%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Staatliche_Jugendmusikschule_Mittelweg_Rotherbaum_%283%29.jpg/120px-Staatliche_Jugendmusikschule_Mittelweg_Rotherbaum_%283%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Staatliche_Jugendmusikschule_Mittelweg_Rotherbaum_(3).jpg",
+          "author": "Pauli-Pirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Miralle Saal - panoramio.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Miralle_Saal_-_panoramio.jpg/960px-Miralle_Saal_-_panoramio.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Miralle_Saal_-_panoramio.jpg/120px-Miralle_Saal_-_panoramio.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Miralle_Saal_-_panoramio.jpg",
+          "author": "hh oldman",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        },
+        {
+          "file": "Hamburg Rotherbaum DS243n.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Hamburg_Rotherbaum_DS243n.jpg/960px-Hamburg_Rotherbaum_DS243n.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Hamburg_Rotherbaum_DS243n.jpg/120px-Hamburg_Rotherbaum_DS243n.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Hamburg_Rotherbaum_DS243n.jpg",
+          "author": "AltSylt",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "elbbruecken",
@@ -3596,12 +3644,41 @@
           "lng": 10.015098,
           "verifiedBy": [
             "osm",
-            "eumies-2009-ada1"
+            "eumies-2009-ada1",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "St. Georg, Hamburg, Germany - panoramio (20).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/St._Georg%2C_Hamburg%2C_Germany_-_panoramio_%2820%29.jpg/960px-St._Georg%2C_Hamburg%2C_Germany_-_panoramio_%2820%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/St._Georg%2C_Hamburg%2C_Germany_-_panoramio_%2820%29.jpg/120px-St._Georg%2C_Hamburg%2C_Germany_-_panoramio_%2820%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:St._Georg,_Hamburg,_Germany_-_panoramio_(20).jpg",
+          "author": "hh oldman",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        },
+        {
+          "file": "An der Alster 1.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/An_der_Alster_1.jpg/960px-An_der_Alster_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/An_der_Alster_1.jpg/120px-An_der_Alster_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:An_der_Alster_1.jpg",
+          "author": "IK's World Trip",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "AdA102.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/AdA102.jpg/960px-AdA102.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/AdA102.jpg/120px-AdA102.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:AdA102.jpg",
+          "author": "Kresspahl ( talk ) 17:45, 5 May 2010 (UTC)",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "fontenay",

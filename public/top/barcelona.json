@@ -1369,7 +1369,17 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Torre Júlia.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Torre_J%C3%BAlia.jpg/960px-Torre_J%C3%BAlia.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Torre_J%C3%BAlia.jpg/120px-Torre_J%C3%BAlia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Torre_J%C3%BAlia.jpg",
+          "author": "Cataleirxs",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      ]
     },
     {
       "id": "fourfriends",
@@ -1402,12 +1412,41 @@
           },
           "verifiedBy": [
             "coac",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Edifici d'habitatges per a quatre amics (24571).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Edifici_d%27habitatges_per_a_quatre_amics_%2824571%29.jpg/960px-Edifici_d%27habitatges_per_a_quatre_amics_%2824571%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Edifici_d%27habitatges_per_a_quatre_amics_%2824571%29.jpg/120px-Edifici_d%27habitatges_per_a_quatre_amics_%2824571%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Edifici_d%27habitatges_per_a_quatre_amics_(24571).jpg",
+          "author": "Cataleirxs",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Façana amb cobogós.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Fa%C3%A7ana_amb_cobog%C3%B3s.jpg/960px-Fa%C3%A7ana_amb_cobog%C3%B3s.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Fa%C3%A7ana_amb_cobog%C3%B3s.jpg/120px-Fa%C3%A7ana_amb_cobog%C3%B3s.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ana_amb_cobog%C3%B3s.jpg",
+          "author": "Cataleirxs",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Edifici d'habitatges per a quatre amics (78308).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Edifici_d%27habitatges_per_a_quatre_amics_%2878308%29.jpg/960px-Edifici_d%27habitatges_per_a_quatre_amics_%2878308%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Edifici_d%27habitatges_per_a_quatre_amics_%2878308%29.jpg/120px-Edifici_d%27habitatges_per_a_quatre_amics_%2878308%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Edifici_d%27habitatges_per_a_quatre_amics_(78308).jpg",
+          "author": "Cataleirxs",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "aprop",
@@ -1433,12 +1472,23 @@
           },
           "verifiedBy": [
             "osm",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Drassanes (Bartzelona) - Streets in El Gòtic (Barcelona) - Tagzania - 1772983814234.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Drassanes_%28Bartzelona%29_-_Streets_in_El_G%C3%B2tic_%28Barcelona%29_-_Tagzania_-_1772983814234.jpg/960px-Drassanes_%28Bartzelona%29_-_Streets_in_El_G%C3%B2tic_%28Barcelona%29_-_Tagzania_-_1772983814234.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Drassanes_%28Bartzelona%29_-_Streets_in_El_G%C3%B2tic_%28Barcelona%29_-_Tagzania_-_1772983814234.jpg/120px-Drassanes_%28Bartzelona%29_-_Streets_in_El_G%C3%B2tic_%28Barcelona%29_-_Tagzania_-_1772983814234.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Drassanes_(Bartzelona)_-_Streets_in_El_G%C3%B2tic_(Barcelona)_-_Tagzania_-_1772983814234.jpg",
+          "author": "Kaletrosa (Tagzania user ID: 10999)",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "cornella85",
@@ -3852,12 +3902,23 @@
           },
           "verifiedBy": [
             "osm",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Complex Esportiu Camp del Ferro.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Complex_Esportiu_Camp_del_Ferro.jpg/960px-Complex_Esportiu_Camp_del_Ferro.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Complex_Esportiu_Camp_del_Ferro.jpg/120px-Complex_Esportiu_Camp_del_Ferro.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Complex_Esportiu_Camp_del_Ferro.jpg",
+          "author": "IM027",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "rambla124",
@@ -3883,12 +3944,23 @@
           },
           "verifiedBy": [
             "osm",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Casa Rafael Roldós - Rambla 124 - 20240616 191642.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Casa_Rafael_Rold%C3%B3s_-_Rambla_124_-_20240616_191642.jpg/960px-Casa_Rafael_Rold%C3%B3s_-_Rambla_124_-_20240616_191642.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Casa_Rafael_Rold%C3%B3s_-_Rambla_124_-_20240616_191642.jpg/120px-Casa_Rafael_Rold%C3%B3s_-_Rambla_124_-_20240616_191642.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Casa_Rafael_Rold%C3%B3s_-_Rambla_124_-_20240616_191642.jpg",
+          "author": "Pere López Brosa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "espaibombers",
@@ -3919,7 +3991,17 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/27439865@N05/30960782535",
+          "src": "https://live.staticflickr.com/5556/30960782535_06e59596b9_b.jpg",
+          "thumb": "https://live.staticflickr.com/5556/30960782535_06e59596b9_q.jpg",
+          "page": "https://www.flickr.com/photos/teresa_grau_ros/30960782535/",
+          "author": "tgrauros",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        }
+      ]
     },
     {
       "id": "economistes",
@@ -3945,12 +4027,41 @@
           },
           "verifiedBy": [
             "osm",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Col·legi d'Economistes - 20240105 163258.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Col%C2%B7legi_d%27Economistes_-_20240105_163258.jpg/960px-Col%C2%B7legi_d%27Economistes_-_20240105_163258.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Col%C2%B7legi_d%27Economistes_-_20240105_163258.jpg/120px-Col%C2%B7legi_d%27Economistes_-_20240105_163258.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Col%C2%B7legi_d%27Economistes_-_20240105_163258.jpg",
+          "author": "Pere López Brosa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Col·legi d'Economistes - 20240105 163239.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Col%C2%B7legi_d%27Economistes_-_20240105_163239.jpg/960px-Col%C2%B7legi_d%27Economistes_-_20240105_163239.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Col%C2%B7legi_d%27Economistes_-_20240105_163239.jpg/120px-Col%C2%B7legi_d%27Economistes_-_20240105_163239.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Col%C2%B7legi_d%27Economistes_-_20240105_163239.jpg",
+          "author": "Pere López Brosa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Col·legi d'Economistes - 20240105 163234.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Col%C2%B7legi_d%27Economistes_-_20240105_163234.jpg/960px-Col%C2%B7legi_d%27Economistes_-_20240105_163234.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Col%C2%B7legi_d%27Economistes_-_20240105_163234.jpg/120px-Col%C2%B7legi_d%27Economistes_-_20240105_163234.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Col%C2%B7legi_d%27Economistes_-_20240105_163234.jpg",
+          "author": "Pere López Brosa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "olivaartes",
@@ -5566,7 +5677,44 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Botanical garden of Barcelona - 2004 - 06.JPG",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Botanical_garden_of_Barcelona_-_2004_-_06.JPG/960px-Botanical_garden_of_Barcelona_-_2004_-_06.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Botanical_garden_of_Barcelona_-_2004_-_06.JPG/120px-Botanical_garden_of_Barcelona_-_2004_-_06.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Botanical_garden_of_Barcelona_-_2004_-_06.JPG",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Botánico BCN.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bot%C3%A1nico_BCN.jpg/960px-Bot%C3%A1nico_BCN.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bot%C3%A1nico_BCN.jpg/120px-Bot%C3%A1nico_BCN.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bot%C3%A1nico_BCN.jpg",
+          "author": "Canaan",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Botanical garden of Barcelona - 2004 - 08.JPG",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Botanical_garden_of_Barcelona_-_2004_-_08.JPG/960px-Botanical_garden_of_Barcelona_-_2004_-_08.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Botanical_garden_of_Barcelona_-_2004_-_08.JPG/120px-Botanical_garden_of_Barcelona_-_2004_-_08.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Botanical_garden_of_Barcelona_-_2004_-_08.JPG",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Botanical garden of Barcelona - 2004 - 04.JPG",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Botanical_garden_of_Barcelona_-_2004_-_04.JPG/960px-Botanical_garden_of_Barcelona_-_2004_-_04.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Botanical_garden_of_Barcelona_-_2004_-_04.JPG/120px-Botanical_garden_of_Barcelona_-_2004_-_04.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Botanical_garden_of_Barcelona_-_2004_-_04.JPG",
+          "author": "Jordiferrer",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      ]
     },
     {
       "id": "forum",
@@ -5897,7 +6045,35 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Superilla del barri de Sant Antoni, Barcelona 4.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Superilla_del_barri_de_Sant_Antoni%2C_Barcelona_4.jpg/960px-Superilla_del_barri_de_Sant_Antoni%2C_Barcelona_4.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Superilla_del_barri_de_Sant_Antoni%2C_Barcelona_4.jpg/120px-Superilla_del_barri_de_Sant_Antoni%2C_Barcelona_4.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Superilla_del_barri_de_Sant_Antoni,_Barcelona_4.jpg",
+          "author": "Cataleirxs",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Superilla del barri de Sant Antoni, Barcelona 3.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Superilla_del_barri_de_Sant_Antoni%2C_Barcelona_3.jpg/960px-Superilla_del_barri_de_Sant_Antoni%2C_Barcelona_3.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Superilla_del_barri_de_Sant_Antoni%2C_Barcelona_3.jpg/120px-Superilla_del_barri_de_Sant_Antoni%2C_Barcelona_3.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Superilla_del_barri_de_Sant_Antoni,_Barcelona_3.jpg",
+          "author": "Cataleirxs",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Superilla del barri de Sant Antoni, Barcelona.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Superilla_del_barri_de_Sant_Antoni%2C_Barcelona.jpg/960px-Superilla_del_barri_de_Sant_Antoni%2C_Barcelona.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Superilla_del_barri_de_Sant_Antoni%2C_Barcelona.jpg/120px-Superilla_del_barri_de_Sant_Antoni%2C_Barcelona.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Superilla_del_barri_de_Sant_Antoni,_Barcelona.jpg",
+          "author": "Cataleirxs",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "parccentralnb",
