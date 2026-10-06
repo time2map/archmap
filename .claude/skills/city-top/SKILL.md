@@ -218,14 +218,18 @@ without photos). For each place it collects, most reliable first:
    only the photos whose description names the place are kept (on Snøhetta's works: one in 22 places). A demo key allows 50 requests an hour (one per place); the
    script goes on without Unsplash when they run out.
 It drops non-free files and Commons photos taken before the year the place was completed, and draws a
-contact sheet per place: `<tmp>/archmap-photos/<city>/<id>.jpg`, numbered tiles, `[F]` for Flickr with its
+contact sheet per place: `$TMPDIR/archmap-photos/<city>/<id>.jpg` (`--out <dir>` to choose; `--pick` reads
+the same folder), numbered tiles, `[F]` for Flickr with its
 author, `[U]` for Unsplash. Look at each sheet, then add the chosen ones with `--pick <id>=<n>,<n>` and run
 verifyTop.js. `--pick` tells Unsplash the photo is used, as its API terms ask; verifyTop.js takes the image
 from Unsplash's own URLs and the photographer's profile, and the card credits it as Unsplash asks:
 "Photo by <name> on Unsplash", both linked, with `utm_source=archmap`.
 Openverse allows 200 requests a day without a token (two per place); `OPENVERSE_TOKEN` lifts it. Its guard
 refuses some queries (HTTP 403): the place then has only the feed's Flickr photos.
-Street-level imagery (Panoramax, Mapillary) is not used: bike and car cameras, glare, the work off-frame.
+Street-level imagery (Panoramax, Mapillary) is not used: bike and car cameras, glare, the work off-frame,
+and 360° panoramas that Commons hosts too (the geosearch finds them: reject them).
+A tile is small: when a building is in doubt, look at the candidate larger (its `thumb` in
+`<id>.json` at 600 px) before picking. To run without Unsplash, set `UNSPLASH_API_KEY=` for the command.
 
 Flickr and Unsplash have no community review, so check each photo yourself: it must be the uploader's own
 picture. On Unsplash also reject AI-generated images.
@@ -246,10 +250,24 @@ page on Commons: `COM:FOP <country>` (https://commons.wikimedia.org/wiki/COM:FOP
   public place is fine.
 - It does not (France: non-commercial only; Italy: none): do not take a photo whose main
   subject is a work still under copyright, that is, one of its authors is alive or died
-  less than 70 years ago (the country's term is on the same page). A protected work that is
-  only incidental in a wider view is fine (a modern kiosk on a historic square); a view
-  framed or cropped to it is not. Such a place keeps its card with photos of its parts that
-  are out of copyright, or with no photo.
+  less than 70 years ago (the country's term is on the same page). The authors' death decides,
+  not the year the work was built: Le Corbusier died in 1965, so the Villa Savoye (1931) is protected
+  until 2035; check every author on the card, the co-authors too (Pierre Jeanneret, Bernard Bijvoet).
+  A protected work that is only incidental in a wider view is fine (a modern kiosk on a historic
+  square); a view framed or cropped to it is not. Such a place keeps its card with photos of its
+  parts that are out of copyright, or with no photo.
+
+The countries met so far, read on their Commons pages in 2026-10 (read the page of a new country):
+
+| Freedom of panorama | Countries |
+|---|---|
+| Buildings and public art, commercial use | Spain, Germany and Austria (from public ground, exteriors), Belgium, United Kingdom, Canada, Mexico, Thailand, Australia, New Zealand, China and Hong Kong (3D works) |
+| Buildings only | Denmark, Norway, Sweden; United States; Russia (architecture and landscape design, not artworks); Saudi Arabia (building exteriors); the Netherlands (works in outdoor public places, not interiors) |
+| None for commercial use | France, Italy, Egypt, Oman, South Africa |
+
+"Buildings only" leaves out sculptures, murals and installations as the main subject, and in Denmark
+and Norway also parks and squares whose landscape design is the subject (Superkilen, Tåsinge Plads):
+the law treats it as a work of art, not a building. Such a place keeps its card without a photo.
 Commons tags some of these photos `{{NoFoP-<country>}}`, and the script rejects them. Most
 are not tagged, so the check is yours.
 
@@ -265,10 +283,11 @@ Família). Check on Commons that the file is wider than it is tall.
    few places of an existing city, add `--only <id>,<id>`: only they are checked online, and
    the rest of the file stays as it is.
 3. Run the app, open `/<city>/`, screenshot desktop 1440×900 and mobile 390×844,
-   click one card, one marker and one shape.
+   click one card, one marker and one shape. Look on the map at every approximate point
+   (`approximate` in the file: `near`, `osmOnly`, `singleSource`): the dashed pin must stand on the building.
 4. Report to the user: number of places, sources with dates, places without a location or
-   photo, the country's freedom of panorama and the places left without photos because of
-   it, places left out at the coverage check and why, open doubts.
+   photo, the approximate points, the country's freedom of panorama and the places left without
+   photos because of it, places left out at the coverage check and why, open doubts.
 
 ## Schema (public/top/<city>.json)
 ```json

@@ -33,7 +33,7 @@ look up the missing ones (never type a QID from memory).
 | OMA | Q2015762, Q232364 (Rem Koolhaas) | |
 | Renzo Piano Building Workshop | Q100604548, Q190148 (Renzo Piano) | Piano & Rogers (Centre Pompidou) counts |
 | Santiago Calatrava | Q168482 | |
-| Snøhetta | Q511335 | |
+| Snøhetta | Q511335, Q1813434 (Kjetil Trædal Thorsen), Q5180916 (Craig Dykers) | done 2026-10 |
 | Tadao Ando | Q208220 | |
 | Zaha Hadid Architects | Q8064602, Q47780 (Zaha Hadid) | |
 
@@ -61,6 +61,11 @@ Endpoint: https://query.wikidata.org/sparql, with a custom User-Agent. The types
 what is not built: "proposal", "proposed tower", "unfinished building", "destroyed building"
 (BIG's list had five such items).
 
+Most works found later (on the firm's site, §2) have a Wikidata item that does not name the firm as
+architect: search Wikidata for each one by its local name too, not only the English one (Snøhetta's
+Tungestølen and Prøysenhuset were found only in Norwegian), and store the QID. It is worth it for the
+photos as much as for the point: the item's image, category and "depicts" files come only with it.
+
 ## 2. Confirm on the firm's website
 For every candidate, find its project page on the firm's own site: it confirms that the firm
 designed it and that it is built. Then go through the site's list of projects and add the
@@ -73,6 +78,13 @@ often coordinates. big.dk had, for each project, `"status":"Completed"`, `"locat
 `"year"`, `"latitude"`, `"longitude"`. Fetch at most one page a second, and keep what you
 fetched in a file in the scratchpad, so a long run can resume.
 
+Use the site's own filters and its list pages, and count what they give. snohetta.com filters by
+status (completed, under construction, proposal) and by discipline (architecture, landscape, interior,
+product, brand): architecture and landscape gave the candidates, interior, product and brand alone what
+to leave out. Its map view lists only the projects that have coordinates (232 of the 294 completed ones);
+the paginated list has them all. A "completed" status can still hide a proposal or a masterplan (the
+project's name or its text says so): read the page of each candidate.
+
 Leave out, as city-top does: interiors (shops, restaurants, offices, flats, fair stands; BIG's
 Galeries Lafayette and its own offices), products and furniture, exhibitions, ephemeral and
 expo pavilions and installations (Serpentine, Expo), masterplans, unbuilt and competition
@@ -81,6 +93,17 @@ projects, and works still under construction (the site's status says so; a news 
 it was only a consultant. Leave out private homes (a family's house or cabin, Villa Gug): they
 are not places to visit, and a pin on them points at private people. A work that is not on
 the firm's site and has no other source that credits the firm stays out; name it in the report.
+
+Decisions from the Snøhetta run, to keep the firms consistent:
+- out: homes for vulnerable residents (Karmøy Pilot Homes) and amenities for residents only
+  (Pavilia Farm clubhouses); an observation deck or interior inside another architect's tower (SUMMIT
+  One Vanderbilt); a renovation where the firm did the museography or the interior of a historic
+  building (Musée Carnavalet, Musée de la Marine); festival stages and pavilions put up for an event;
+  small objects (a birdhouse);
+- in: permanent public installations and landscapes (Arch for Archbishop Tutu, Lech Mountain Mirror,
+  Trælvikosen), a major rehabilitation the firm led (Théâtre Nanterre-Amandiers), care buildings that
+  are not homes (Outdoor Care Retreats, Maggie's Centre), and a work missing from the firm's site but
+  credited to it by ArchDaily (Haier, Hussein bin Talal Park: no `firmPage`).
 
 Some firms have no full list of their works online: Alvar Aalto (died 1976; his works are kept
 by the Alvar Aalto Foundation), and sites that show only a selection (check Tadao Ando's and
@@ -102,7 +125,8 @@ source needs publisher, title, url and date.
   results whose `offices` include the firm, and only project pages (a built work with a year),
   not news of a design.
 - AV: the works map dataset (city-top Hard rules) lists the firm in `author`. A work there gets
-  an AV vote, and `refs.av` on its point when the AV pin is not a copy of the firm's (§4).
+  an AV vote, and `refs.av` on its point when the AV pin is not a copy of the firm's (§4). AV also
+  lists works that were never built (Snøhetta's Houston transit station): the firm's status decides.
 
 ## 4. Location
 As city-top §4. In short: a point is confirmed when two independent sources agree within 150 m,
@@ -120,7 +144,9 @@ Work through the sources in this order, and stop when the point is confirmed:
    projects share or that is the town's centre (Snøhetta's site gives 43 projects the same point in
    Oslo): it says nothing about the work, and it would agree with another geocoded source.
 3. ArchDaily: a project page carries the work's coordinates (`"latitude"`, `"longitude"` in its
-   source). Put them in `refs.other` with `"source": "archdaily"`.
+   source). Put them in `refs.other` with `"source": "archdaily"`. They are often as rough as the
+   firm's (Under 11 km off, Tungestølen 24 km, Lascaux IV 37 km) and sometimes copied from the firm's
+   (the same point within a few metres: keep one of the two).
 4. Where the texts say the work is: an address, a street, a campus (the firm's page, the
    sources, city sites). Search OSM for the address and take the building itself (or the OSM
    address point), not the campus or the institution the text names.
@@ -182,11 +208,12 @@ title: a work is stored once.
 3. For each place left without a point, do the steps of §4 that have not been tried, and run
    the script again.
 4. Run the app: on the home page check a pin of world.json opens its card; in a city check a
-   new work and its "Top architecture firm" label; look at each point accepted by the near
-   rule (`near` in the file) on the map.
+   new work and its "Top architecture firm" label; look at each approximate point (`approximate`
+   in the file: `near`, `osmOnly`, `singleSource`) on the map, on a satellite view when the base map
+   shows no building.
 5. Report to the user: works found in Wikidata, on the firm's site, and kept; what was left
-   out and why; places without a location or a photo; the points accepted by the near rule;
-   the cities whose files changed.
+   out and why; places without a location or a photo, and those left without a photo by freedom of
+   panorama; the approximate points; the cities whose files changed.
 
 ## Schema (public/top/world.json)
 The same as a city file (city-top), without `cover`:
@@ -209,5 +236,5 @@ The same as a city file (city-top), without `cover`:
 }
 ```
 In a city file a firm work has the same fields: `firms`, `firmPage`, and `why` may be null.
-The script adds `lat`, `lng`, `verifiedBy` (and `near`) to a point, and `areaBounds` to a work
-beyond the cities without a location.
+The script adds `lat`, `lng`, `verifiedBy` (and `approximate` with `near`, `osmOnly` or `singleSource`)
+to a point, and `areaBounds` to a work beyond the cities without a location.
