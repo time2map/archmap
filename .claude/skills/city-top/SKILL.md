@@ -189,6 +189,11 @@ The script sorts every point into one of three levels:
   (Barcelona's el Gòtic includes a pier of the port). Say so in `note` or pick a park or
   square object instead.
 - Overpass mirrors come and go; when one times out, try the next.
+- verifyTop.js looks OSM ids up through Nominatim, which does not index a building with neither a name
+  nor an address: its ref comes back "not found". Most buildings in the Netherlands are such outlines (the
+  BAG addresses are separate nodes). Store the registry's address point instead: for an unnamed building
+  found on the map, the registry's reverse search at its centre gives the address
+  (PDOK: `https://api.pdok.nl/bzk/locatieserver/search/v3_1/reverse?lat=<lat>&lon=<lng>&type=adres`).
 - Check who publishes a site: meet.barcelona belongs to the City Council, while
   thisisbarcelona.com belongs to Turisme de Barcelona; two sites of one publisher are one vote.
 
@@ -285,6 +290,8 @@ Família). Check on Commons that the file is wider than it is tall.
 3. Run the app, open `/<city>/`, screenshot desktop 1440×900 and mobile 390×844,
    click one card, one marker and one shape. Look on the map at every approximate point
    (`approximate` in the file: `near`, `osmOnly`, `singleSource`): the dashed pin must stand on the building.
+   Headless Chromium has no WebGL: launch it with `--use-angle=swiftshader --enable-unsafe-swiftshader
+   --ignore-gpu-blocklist`, or the map stays blank and the list shows no place in view.
 4. Report to the user: number of places, sources with dates, places without a location or
    photo, the approximate points, the country's freedom of panorama and the places left without
    photos because of it, places left out at the coverage check and why, open doubts.

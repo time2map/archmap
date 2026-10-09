@@ -29,7 +29,7 @@ look up the missing ones (never type a QID from memory).
 | Foster + Partners | look up the office; Q104898 (Norman Foster) | Foster Associates counts; Norman Foster in TOP_TIER_FIRMS is the same firm |
 | Frank Gehry | Q180374 | |
 | Kengo Kuma | Q725462 | |
-| MVRDV | Q932801 | |
+| MVRDV | Q932801, Q1356269 (Winy Maas), Q225927 (Jacob van Rijs), Q469961 (Nathalie de Vries) | done 2026-10 |
 | OMA | Q2015762, Q232364 (Rem Koolhaas) | |
 | Renzo Piano Building Workshop | Q100604548, Q190148 (Renzo Piano) | Piano & Rogers (Centre Pompidou) counts |
 | Santiago Calatrava | Q168482 | |
@@ -66,6 +66,11 @@ architect: search Wikidata for each one by its local name too, not only the Engl
 Tungestølen and Prøysenhuset were found only in Norwegian), and store the QID. It is worth it for the
 photos as much as for the point: the item's image, category and "depicts" files come only with it.
 
+Wikidata credits the firm with works it did not design, and a search returns namesakes: check each item's
+address and year against the firm's page, not only its description. MVRDV's list had two Carlsberg towers in
+Copenhagen (C.F. Møller's, by their own site); the search for MVRDV's Salt in Minervahaven found the Salt
+tower of Westerpark West, and the one for Studio Thonik found Thonik's later studio on Wibautstraat.
+
 ## 2. Confirm on the firm's website
 For every candidate, find its project page on the firm's own site: it confirms that the firm
 designed it and that it is built. Then go through the site's list of projects and add the
@@ -84,6 +89,11 @@ product, brand): architecture and landscape gave the candidates, interior, produ
 to leave out. Its map view lists only the projects that have coordinates (232 of the 294 completed ones);
 the paginated list has them all. A "completed" status can still hide a proposal or a masterplan (the
 project's name or its text says so): read the page of each candidate.
+
+The site's status lags behind: a work still marked as under construction may be finished, and a completed
+one may be only its first phase. The firm's news decides ("X completes…", "X opens"): MVRDV's site kept
+Project Gomila on site after its first phase was completed, while The Sax, a building in Wikidata, only
+started construction in 2025.
 
 Leave out, as city-top does: interiors (shops, restaurants, offices, flats, fair stands; BIG's
 Galeries Lafayette and its own offices), products and furniture, exhibitions, ephemeral and
@@ -210,7 +220,7 @@ title: a work is stored once.
 4. Run the app: on the home page check a pin of world.json opens its card; in a city check a
    new work and its "Top architecture firm" label; look at each approximate point (`approximate`
    in the file: `near`, `osmOnly`, `singleSource`) on the map, on a satellite view when the base map
-   shows no building.
+   shows no building (the headless browser needs software WebGL, city-top §6).
 5. Report to the user: works found in Wikidata, on the firm's site, and kept; what was left
    out and why; places without a location or a photo, and those left without a photo by freedom of
    panorama; the approximate points; the cities whose files changed.
