@@ -1,7 +1,7 @@
 {
   "id": "world",
   "name": "Beyond cities",
-  "updated": "2026-10-02",
+  "updated": "2026-10-06",
   "sources": {
     "archdaily-lego-house": {
       "publisher": "ArchDaily",
@@ -1017,6 +1017,574 @@
       "title": "The Blanton Museum of Art / Snøhetta",
       "url": "https://www.archdaily.com/1018887/the-blanton-museum-of-art-snohetta",
       "date": "2024-07-16",
+      "type": "media"
+    },
+    "av-villa-vpro": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Villa VPRO, Hilversum",
+      "url": "https://arquitecturaviva.com/works/villa-vpro-5",
+      "date": null,
+      "type": "media"
+    },
+    "av-ntr-headquarters": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "NTR Headquarters, Hilversum",
+      "url": "https://arquitecturaviva.com/works/sede-de-ntr-4",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-wozoco": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "AD Classics: WoZoCo / MVRDV",
+      "url": "https://www.archdaily.com/115776/ad-classics-wozoco-mvrdv",
+      "date": "2011-02-28",
+      "type": "media"
+    },
+    "av-wozoco": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "WoZoCo apartaments, Amsterdam",
+      "url": "https://arquitecturaviva.com/works/apartamentos-wozoco-7",
+      "date": null,
+      "type": "media"
+    },
+    "av-silodam": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "157 Silodam Housing, Amsterdam",
+      "url": "https://arquitecturaviva.com/works/viviendas-silodam-10",
+      "date": null,
+      "type": "media"
+    },
+    "av-hagen-island": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "119 Hageneiland Housing, The Hague",
+      "url": "https://arquitecturaviva.com/works/viviendas-hageneiland-6",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-parkrand": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Parkrand / MVRDV",
+      "url": "https://www.archdaily.com/501413/parkrand-mvrdv",
+      "date": "2014-05-01",
+      "type": "media"
+    },
+    "archdaily-westerdok": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Westerdok Apartments / MVRDV",
+      "url": "https://www.archdaily.com/15387/westerdok-apartments-mvrdv",
+      "date": "2009-03-03",
+      "type": "media"
+    },
+    "archdaily-glass-farm": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Glass Farm / MVRDV",
+      "url": "https://www.archdaily.com/321503/glass-farm-mvrdv-2",
+      "date": "2013-01-22",
+      "type": "media"
+    },
+    "av-glass-farm": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Glass Farm, Schijndel",
+      "url": "https://arquitecturaviva.com/works/granja-de-vidrio-5",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-the-couch": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "The Couch / MVRDV",
+      "url": "https://www.archdaily.com/775452/the-couch-mvrdv",
+      "date": "2015-10-19",
+      "type": "media"
+    },
+    "archdaily-crystal-houses": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Crystal Houses / MVRDV",
+      "url": "https://www.archdaily.com/785923/crystal-houses-mvrdv",
+      "date": "2016-04-20",
+      "type": "media"
+    },
+    "av-crystal-houses": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Crystal Houses, Amsterdam",
+      "url": "https://arquitecturaviva.com/works/casas-de-cristal-3",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-salt-amsterdam": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Salt / MVRDV",
+      "url": "https://www.archdaily.com/897492/salt-mvrdv",
+      "date": "2018-07-03",
+      "type": "media"
+    },
+    "archdaily-valley-amsterdam": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Valley Towers / MVRDV",
+      "url": "https://www.archdaily.com/989217/valley-towers-mvrdv",
+      "date": "2022-09-20",
+      "type": "media"
+    },
+    "archdaily-grotius-towers": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Grotius Towers / MVRDV",
+      "url": "https://www.archdaily.com/986979/grotius-towers-mvrdv",
+      "date": "2022-08-11",
+      "type": "media"
+    },
+    "archdaily-matrix-one": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Matrix ONE / MVRDV",
+      "url": "https://www.archdaily.com/1001481/matrix-one-mvrdv",
+      "date": "2023-05-25",
+      "type": "media"
+    },
+    "archdaily-gymnasium-beekvliet": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Gymnasium Beekvliet / MVRDV",
+      "url": "https://www.archdaily.com/1007678/gymnasium-beekvliet-mvrdv",
+      "date": "2023-10-03",
+      "type": "media"
+    },
+    "archdaily-tripolis-park": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Tripolis Park / MVRDV",
+      "url": "https://www.archdaily.com/1022500/tripolis-park-mvrdv",
+      "date": "2024-10-18",
+      "type": "media"
+    },
+    "archdaily-buitenplaats-koningsweg": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Buitenplaats Koningsweg / MVRDV",
+      "url": "https://www.archdaily.com/1021233/buitenplaats-koningsweg-mvrdv",
+      "date": "2024-09-17",
+      "type": "media"
+    },
+    "archdaily-nieuw-bergen": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Nieuw Bergen / MVRDV",
+      "url": "https://www.archdaily.com/1042421/nieuw-bergen-mvrdv",
+      "date": "2026-06-15",
+      "type": "media"
+    },
+    "archdaily-pyramid-of-tirana": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Pyramid of Tirana / MVRDV",
+      "url": "https://www.archdaily.com/1008619/pyramid-of-tirana-mvrdv",
+      "date": "2023-10-23",
+      "type": "media"
+    },
+    "av-pyramid-of-tirana": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "The Pyramid of Tirana (Albania)",
+      "url": "https://arquitecturaviva.com/works/la-piramide-de-tirana",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-le-monolithe": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Le Monolithe / MVRDV",
+      "url": "https://www.archdaily.com/94810/le-monolithe-mvrdv",
+      "date": "2010-12-09",
+      "type": "media"
+    },
+    "av-le-monolithe": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Le Monolithe Building, Lyon",
+      "url": "https://arquitecturaviva.com/works/edificio-le-monolithe-4",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-lyon-part-dieu": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Lyon Part-Dieu Urban Shopping Center / MVRDV",
+      "url": "https://www.archdaily.com/990849/lyon-part-dieu-urban-shopping-center-mvrdv",
+      "date": "2022-10-20",
+      "type": "media"
+    },
+    "archdaily-ascension-paysagere": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Ascension Paysagère / MVRDV",
+      "url": "https://www.archdaily.com/990533/ascension-paysagere-mvrdv",
+      "date": "2023-12-01",
+      "type": "media"
+    },
+    "archdaily-werk12": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "WERK12 / MVRDV + N-V-O Architekten",
+      "url": "https://www.archdaily.com/926797/werk12-mvrdv",
+      "date": "2019-10-18",
+      "type": "media"
+    },
+    "archdaily-zigzag-mainz": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "ZigZag Offices / MVRDV + morePlatz",
+      "url": "https://www.archdaily.com/992897/zigzag-offices-mvrdv",
+      "date": "2022-11-29",
+      "type": "media"
+    },
+    "archdaily-atelier-gardens-haus-1": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Atelier Gardens HAUS 1 / MVRDV + Hirschmüller Schindele Architekten",
+      "url": "https://www.archdaily.com/1010518/haus-1-mvrdv-plus-hirschmuller-schindele-architekten",
+      "date": "2023-12-01",
+      "type": "media"
+    },
+    "av-atelier-gardens-haus-1": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Haus 1 in Berlin",
+      "url": "https://arquitecturaviva.com/works/haus-1-en-berlin",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-dnb-house": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "DNB Bank Headquarters / MVRDV",
+      "url": "https://www.archdaily.com/307256/dnb-bank-headquarters-mvrdv",
+      "date": "2012-12-18",
+      "type": "media"
+    },
+    "archdaily-baltyk": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Bałtyk / MVRDV",
+      "url": "https://www.archdaily.com/872767/baltyk-mvrdv",
+      "date": "2017-06-04",
+      "type": "media"
+    },
+    "av-baltyk": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Baltyk Mixed-Use Tower",
+      "url": "https://arquitecturaviva.com/works/baltyk-mixed-use-tower",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-concordia-design-wroclaw": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Concordia Design Wrocław / MVRDV",
+      "url": "https://www.archdaily.com/943957/concordia-design-wroclaw-mvrdv",
+      "date": "2020-07-17",
+      "type": "media"
+    },
+    "av-concordia-design-wroclaw": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Concordia Design building, Wroclaw",
+      "url": "https://arquitecturaviva.com/works/mvrdv-edificio-concordia-design-en-breslavia-polonia-s47lv-7",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-project-gomila": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Project Gomila / MVRDV + GRAS Reynés Arquitectos",
+      "url": "https://www.archdaily.com/994107/project-gomila-mvrdv-plus-gras-reynes-arquitectos",
+      "date": "2022-12-23",
+      "type": "media"
+    },
+    "av-project-gomila": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Project Gomila in El Terreno, Palma de Mallorca",
+      "url": "https://arquitecturaviva.com/works/proyecto-gomila-en-el-terreno-palma-de-mallorca-7071",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-balancing-barn": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Balancing Barn / MVRDV",
+      "url": "https://www.archdaily.com/81757/balancing-barn-mvrdv",
+      "date": "2013-04-21",
+      "type": "media"
+    },
+    "av-balancing-barn": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Balancing Barn, Suffolk",
+      "url": "https://arquitecturaviva.com/works/casa-balancing-barn-2",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-hongqiao-flower-building": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Shanghai Hongqiao Airport Flower Building / MVRDV / MVRDV",
+      "url": "https://www.archdaily.com/775389/shanghai-hongqiao-airport-flower-building-mvrdv",
+      "date": "2015-10-15",
+      "type": "media"
+    },
+    "archdaily-tianjin-binhai-library": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Tianjin Binhai Library / MVRDV + Tianjin Urban Planning and Design Institute",
+      "url": "https://www.archdaily.com/882819/tianjin-binhai-library-mvrdv-plus-tianjin-urban-planning-and-design-institute",
+      "date": "2017-11-02",
+      "type": "media"
+    },
+    "av-tianjin-binhai-library": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Tianjin Library",
+      "url": "https://arquitecturaviva.com/works/tianjin-library",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-chongwenmen-m-cube": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "M·Cube / MVRDV",
+      "url": "https://www.archdaily.com/903964/m-star-cube-mvrdv",
+      "date": "2018-10-16",
+      "type": "media"
+    },
+    "archdaily-idea-factory-nantou": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Idea Factory / MVRDV",
+      "url": "https://www.archdaily.com/992956/idea-factory-mvrdv",
+      "date": "2022-11-30",
+      "type": "media"
+    },
+    "archdaily-shenzhen-women-childrens-centre": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Shenzhen Women & Children’s Center / MVRDV",
+      "url": "https://www.archdaily.com/1007562/shenzhen-women-and-childrens-center-mvrdv",
+      "date": "2023-09-29",
+      "type": "media"
+    },
+    "archdaily-pujiang-platform": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Pujiang Platform / MVRDV",
+      "url": "https://www.archdaily.com/1036990/pujiang-platform-mvrdv",
+      "date": "2025-12-15",
+      "type": "media"
+    },
+    "archdaily-gate-m-west-bund": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "GATE M West Bund Dream Center / MVRDV",
+      "url": "https://www.archdaily.com/1032468/gate-m-west-bund-dream-center-mvrdv",
+      "date": "2025-07-25",
+      "type": "media"
+    },
+    "archdaily-urban-revivo-sanlitun": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Urban Revivo Sanlitun Flagship Store / MVRDV",
+      "url": "https://www.archdaily.com/1181284/urban-revivo-sanlitun-flagship-store-mvrdv",
+      "date": "2026-07-22",
+      "type": "media"
+    },
+    "archdaily-133-wai-yip-street": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "133 Wai Yip Street / MVRDV",
+      "url": "https://www.archdaily.com/788814/133-wai-yip-street-mvrdv",
+      "date": "2016-06-03",
+      "type": "media"
+    },
+    "archdaily-future-towers-pune": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Future Towers / MVRDV",
+      "url": "https://www.archdaily.com/906774/future-towers-mvrdv",
+      "date": "2018-11-29",
+      "type": "media"
+    },
+    "archdaily-one-green-mile": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "One Green Mile / MVRDV",
+      "url": "https://www.archdaily.com/985166/one-green-mile-mvrdv",
+      "date": "2022-07-12",
+      "type": "media"
+    },
+    "archdaily-irwell-hill-residences": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Irwell Hill Residences / MVRDV",
+      "url": "https://www.archdaily.com/1036481/irwell-hill-residences-mvrdv",
+      "date": "2025-12-01",
+      "type": "media"
+    },
+    "av-matsudai-nohbutai": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Cultural and Agrarian Center, Matsudai",
+      "url": "https://arquitecturaviva.com/works/centro-cultural-y-agrario-matsudai-4",
+      "date": null,
+      "type": "media"
+    },
+    "av-gyre": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Gyre building, Tokyo",
+      "url": "https://arquitecturaviva.com/works/edificio-gyre-tokyo-0",
+      "date": null,
+      "type": "media"
+    },
+    "av-anyang-peak": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Anyang Peak Viewing Tower, Anyang",
+      "url": "https://arquitecturaviva.com/works/mirador-anyang-peak-6",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-chungha-building": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Chungha Building / MVRDV",
+      "url": "https://www.archdaily.com/388669/chungha-building-mvrdv",
+      "date": "2013-06-18",
+      "type": "media"
+    },
+    "av-chungha-building": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Chungha Building, Seoul",
+      "url": "https://arquitecturaviva.com/works/edificio-chungha-4",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-seoullo-7017": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "SEOULLO Skygarden / MVRDV",
+      "url": "https://www.archdaily.com/882382/seoullo-skygarden-mvrdv",
+      "date": "2017-10-27",
+      "type": "media"
+    },
+    "av-seoullo-7017": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Seoul Skygarden, Seoul",
+      "url": "https://arquitecturaviva.com/works/via-verde-seoul-skygarden-6",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-the-imprint": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "The Imprint / MVRDV",
+      "url": "https://www.archdaily.com/902364/the-imprint-mvrdv",
+      "date": "2018-09-24",
+      "type": "media"
+    },
+    "av-the-imprint": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "The Imprint Entertainment Complex",
+      "url": "https://arquitecturaviva.com/works/the-imprint-entertainment-complex",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-tainan-spring": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Tainan Spring / MVRDV",
+      "url": "https://www.archdaily.com/935346/tainan-spring-mvrdv",
+      "date": "2020-03-11",
+      "type": "media"
+    },
+    "av-tainan-spring": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Tainan Spring, Tainan City",
+      "url": "https://arquitecturaviva.com/works/tainan-spring",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-tainan-market": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Tainan Market / MVRDV",
+      "url": "https://www.archdaily.com/997413/tainan-market-mvrdv",
+      "date": "2023-03-06",
+      "type": "media"
+    },
+    "av-tainan-market": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Wholesale market in Tainan",
+      "url": "https://arquitecturaviva.com/works/mercado-en-tainan",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-pixel-abu-dhabi": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Pixel Residential Complex / MVRDV",
+      "url": "https://www.archdaily.com/1019003/pixel-residential-complex-mvrdv",
+      "date": "2024-07-19",
+      "type": "media"
+    },
+    "av-pixel-abu-dhabi": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Pixel en Abu Dabi",
+      "url": "https://arquitecturaviva.com/works/pixel-en-abu-dabi",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-radio-hotel": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Radio Hotel and Tower / MVRDV",
+      "url": "https://www.archdaily.com/989937/radio-hotel-and-tower-mvrdv",
+      "date": "2022-10-04",
+      "type": "media"
+    },
+    "archdaily-the-canyon": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "The Canyon / MVRDV",
+      "url": "https://www.archdaily.com/1007989/the-canyon-mvrdv",
+      "date": "2023-10-10",
+      "type": "media"
+    },
+    "archdaily-oranje-castle": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Oranje Castle Group Housing / MVRDV + Studio Archohm",
+      "url": "https://www.archdaily.com/995353/oranje-castle-group-housing-archohm",
+      "date": "2023-01-24",
       "type": "media"
     }
   },
@@ -8290,6 +8858,3576 @@
           },
           "lat": 20.73522,
           "lng": -103.381012,
+          "verifiedBy": [
+            "osm"
+          ],
+          "approximate": true,
+          "osmOnly": true
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "villa-vpro",
+      "title": "Villa VPRO",
+      "architect": "MVRDV",
+      "year": "1997",
+      "area": "Hilversum, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/172/villa-vpro",
+      "sources": [
+        "av-villa-vpro"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q84054545",
+            "osm": "way/52652985",
+            "av": "villa-vpro-5",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/172/villa-vpro",
+                "lat": 52.235459,
+                "lng": 5.17305650000003
+              }
+            ]
+          },
+          "lat": 52.235278,
+          "lng": 5.169642,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "av"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/28541331@N00/2318239649",
+          "src": "https://live.staticflickr.com/2335/2318239649_f1a347ee41_b.jpg",
+          "thumb": "https://live.staticflickr.com/2335/2318239649_f1a347ee41_q.jpg",
+          "page": "https://www.flickr.com/photos/laurenmanning/2318239649/",
+          "author": "Lauren Manning",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/28541331@N00/2318246325",
+          "src": "https://live.staticflickr.com/3039/2318246325_c66a705acd_b.jpg",
+          "thumb": "https://live.staticflickr.com/3039/2318246325_c66a705acd_q.jpg",
+          "page": "https://www.flickr.com/photos/laurenmanning/2318246325/",
+          "author": "Lauren Manning",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
+    },
+    {
+      "id": "ntr-headquarters",
+      "title": "NTR Headquarters (RVU building)",
+      "architect": "MVRDV",
+      "year": "1997",
+      "area": "Hilversum, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/166/ntr-headquarters",
+      "sources": [
+        "av-ntr-headquarters"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q125679019",
+            "av": "sede-de-ntr-4",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/166/ntr-headquarters",
+                "lat": 52.2340621,
+                "lng": 5.16784619999999
+              }
+            ]
+          },
+          "lat": 52.234222,
+          "lng": 5.168556,
+          "verifiedBy": [
+            "wikidata",
+            "av",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/28541331@N00/2318276271",
+          "src": "https://live.staticflickr.com/2007/2318276271_0d1eec83f8_b.jpg",
+          "thumb": "https://live.staticflickr.com/2007/2318276271_0d1eec83f8_q.jpg",
+          "page": "https://www.flickr.com/photos/laurenmanning/2318276271/",
+          "author": "Lauren Manning",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/28541331@N00/2319090684",
+          "src": "https://live.staticflickr.com/3119/2319090684_6dcfd949a3_b.jpg",
+          "thumb": "https://live.staticflickr.com/3119/2319090684_6dcfd949a3_q.jpg",
+          "page": "https://www.flickr.com/photos/laurenmanning/2319090684/",
+          "author": "Lauren Manning",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
+    },
+    {
+      "id": "hoenderloo-lodge",
+      "title": "Hoenderloo Lodge, Hoge Veluwe National Park",
+      "architect": "MVRDV",
+      "year": "1996",
+      "area": "Hoenderloo, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/167/hoenderloo-lodge",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/167/hoenderloo-lodge",
+                "lat": 52.1183112,
+                "lng": 5.8727758
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [],
+      "areaBounds": [
+        [5.861155, 52.0993],
+        [5.954748, 52.153008]
+      ]
+    },
+    {
+      "id": "arnhem-lodge",
+      "title": "Arnhem Lodge, Hoge Veluwe National Park",
+      "architect": "MVRDV",
+      "year": "1996",
+      "area": "Arnhem, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/168/arnhem-lodge",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/168/arnhem-lodge",
+                "lat": 52.0321705,
+                "lng": 5.87049350000007
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [],
+      "areaBounds": [
+        [5.802961, 51.933464],
+        [5.99034, 52.077891]
+      ]
+    },
+    {
+      "id": "wozoco",
+      "title": "WoZoCo",
+      "architect": "MVRDV",
+      "year": "1997",
+      "area": "Amsterdam, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/170/wozoco",
+      "sources": [
+        "archdaily-wozoco",
+        "av-wozoco"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q12779219",
+            "osm": "way/57859996",
+            "av": "apartamentos-wozoco-7",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/170/wozoco",
+                "lat": 52.3642928319627,
+                "lng": 4.79393362998962
+              }
+            ]
+          },
+          "lat": 52.363903,
+          "lng": 4.79457,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "av",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "WoZoCo Osdorp(Amsterdam)-msu-9247-.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/WoZoCo_Osdorp%28Amsterdam%29-msu-9247-.jpg/960px-WoZoCo_Osdorp%28Amsterdam%29-msu-9247-.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/WoZoCo_Osdorp%28Amsterdam%29-msu-9247-.jpg/120px-WoZoCo_Osdorp%28Amsterdam%29-msu-9247-.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:WoZoCo_Osdorp(Amsterdam)-msu-9247-.jpg",
+          "author": "Matthias Süßen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "MVRDV WOZOCOs.JPG",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/MVRDV_WOZOCOs.JPG/960px-MVRDV_WOZOCOs.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/MVRDV_WOZOCOs.JPG/120px-MVRDV_WOZOCOs.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:MVRDV_WOZOCOs.JPG",
+          "author": "User:DrBorka",
+          "license": "Public domain",
+          "licenseUrl": null
+        },
+        {
+          "file": "MVRDV Building WoZoCo.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/MVRDV_Building_WoZoCo.jpg/960px-MVRDV_Building_WoZoCo.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/MVRDV_Building_WoZoCo.jpg/120px-MVRDV_Building_WoZoCo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:MVRDV_Building_WoZoCo.jpg",
+          "author": "laurenatclemson",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/16707687@N00/2626842455",
+          "src": "https://live.staticflickr.com/3091/2626842455_0e8254e39f_b.jpg",
+          "thumb": "https://live.staticflickr.com/3091/2626842455_0e8254e39f_q.jpg",
+          "page": "https://www.flickr.com/photos/roryrory/2626842455/",
+          "author": "roryrory",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/28541331@N00/2318211725",
+          "src": "https://live.staticflickr.com/3178/2318211725_5e156f659b_b.jpg",
+          "thumb": "https://live.staticflickr.com/3178/2318211725_5e156f659b_q.jpg",
+          "page": "https://www.flickr.com/photos/laurenmanning/2318211725/",
+          "author": "Lauren Manning",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
+    },
+    {
+      "id": "calveen",
+      "title": "Calveen Service Centre (Dienstencentrum Calveen)",
+      "architect": "MVRDV",
+      "year": "1999",
+      "area": "Amersfoort, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/159/calveen",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q125679016",
+            "osm": "way/263165019",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/159/calveen",
+                "lat": 52.1954814,
+                "lng": 5.38898710000001
+              }
+            ]
+          },
+          "lat": 52.195449,
+          "lng": 5.389306,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "studio-thonik",
+      "title": "Studio Thonik",
+      "architect": "MVRDV",
+      "year": "2001",
+      "area": "Amsterdam, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/151/studio-thonik",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/151/studio-thonik",
+                "lat": 52.3535531,
+                "lng": 4.91067010000006
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [],
+      "areaBounds": [
+        [4.728778, 52.278174],
+        [5.079162, 52.431064]
+      ]
+    },
+    {
+      "id": "silodam",
+      "title": "Silodam",
+      "architect": "MVRDV",
+      "year": "2003",
+      "area": "Amsterdam, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/163/silodam",
+      "sources": [
+        "av-silodam"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q125679015",
+            "av": "viviendas-silodam-10",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/163/silodam",
+                "lat": 52.3925953,
+                "lng": 4.89090229999999
+              }
+            ]
+          },
+          "lat": 52.392222,
+          "lng": 4.890556,
+          "verifiedBy": [
+            "wikidata",
+            "av",
+            "firm",
+            "photo-camera"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Mvrdv silodam.jpg",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Mvrdv_silodam.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Mvrdv_silodam.jpg/120px-Mvrdv_silodam.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mvrdv_silodam.jpg",
+          "author": "Ronald",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        {
+          "file": "Silodam Amsterdam (15224999649).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Silodam_Amsterdam_%2815224999649%29.jpg/960px-Silodam_Amsterdam_%2815224999649%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Silodam_Amsterdam_%2815224999649%29.jpg/120px-Silodam_Amsterdam_%2815224999649%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Silodam_Amsterdam_(15224999649).jpg",
+          "author": "FaceMePLS from The Hague, The Netherlands",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Amsterdam - Silodam (29669346453).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Amsterdam_-_Silodam_%2829669346453%29.jpg/960px-Amsterdam_-_Silodam_%2829669346453%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Amsterdam_-_Silodam_%2829669346453%29.jpg/120px-Amsterdam_-_Silodam_%2829669346453%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Silodam_(29669346453).jpg",
+          "author": "Fred Romero from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Amsterdam - Silodam (30300085505).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Amsterdam_-_Silodam_%2830300085505%29.jpg/960px-Amsterdam_-_Silodam_%2830300085505%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Amsterdam_-_Silodam_%2830300085505%29.jpg/120px-Amsterdam_-_Silodam_%2830300085505%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Silodam_(30300085505).jpg",
+          "author": "Fred Romero from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/75796607@N00/8122877817",
+          "src": "https://live.staticflickr.com/8470/8122877817_9ee372a07c_b.jpg",
+          "thumb": "https://live.staticflickr.com/8470/8122877817_9ee372a07c_q.jpg",
+          "page": "https://www.flickr.com/photos/westher/8122877817/",
+          "author": "westher",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
+    },
+    {
+      "id": "hagen-island",
+      "title": "Hagen Island (Hageneiland)",
+      "architect": "MVRDV",
+      "year": "2003",
+      "area": "The Hague, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/155/hagen-island",
+      "sources": [
+        "av-hagen-island"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q125679017",
+            "av": "viviendas-hageneiland-6",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/155/hagen-island",
+                "lat": 52.0349290926865,
+                "lng": 4.37000749049071
+              }
+            ]
+          },
+          "lat": 52.035,
+          "lng": 4.37,
+          "verifiedBy": [
+            "wikidata",
+            "av",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "watervillas-ypenburg",
+      "title": "Watervillas Ypenburg",
+      "architect": "MVRDV",
+      "year": "2005",
+      "area": "The Hague, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/153/watervillas",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/153/watervillas",
+                "lat": 52.0372087,
+                "lng": 4.37412800000004
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [],
+      "areaBounds": [
+        [4.184998, 52.014849],
+        [4.42249, 52.135036]
+      ]
+    },
+    {
+      "id": "patio-island",
+      "title": "Patio Island",
+      "architect": "MVRDV",
+      "year": "2005",
+      "area": "The Hague, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/154/patio-island",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "registry",
+                "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Van%20Dijkwater%2031%20Den%20Haag&fq=type:adres",
+                "lat": 52.03746428,
+                "lng": 4.36958448
+              },
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/154/patio-island",
+                "lat": 52.0374643,
+                "lng": 4.36958319999997
+              }
+            ]
+          },
+          "lat": 52.037464,
+          "lng": 4.369584,
+          "verifiedBy": [
+            "registry",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "effenaar",
+      "title": "Effenaar",
+      "architect": "MVRDV",
+      "year": "2005",
+      "area": "Eindhoven, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/157/de-effenaar",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q2016645",
+            "osm": "node/1603477764",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/157/de-effenaar",
+                "lat": 51.4415623,
+                "lng": 5.48337919999994
+              }
+            ]
+          },
+          "lat": 51.441717,
+          "lng": 5.483114,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Effenaar.jpg",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Effenaar.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Effenaar.jpg/120px-Effenaar.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Effenaar.jpg",
+          "author": "Sander Spek",
+          "license": "Public domain",
+          "licenseUrl": null
+        }
+      ]
+    },
+    {
+      "id": "parkrand",
+      "title": "Parkrand",
+      "architect": "MVRDV",
+      "year": "2006",
+      "area": "Amsterdam, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/146/parkrand",
+      "sources": [
+        "archdaily-parkrand"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q57598566",
+            "osm": "way/58601227",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/146/parkrand",
+                "lat": 52.3814943,
+                "lng": 4.80754339999999
+              }
+            ]
+          },
+          "lat": 52.381242,
+          "lng": 4.807508,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "2020 Parkrandgebouw (1).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/2020_Parkrandgebouw_%281%29.jpg/960px-2020_Parkrandgebouw_%281%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/2020_Parkrandgebouw_%281%29.jpg/120px-2020_Parkrandgebouw_%281%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:2020_Parkrandgebouw_(1).jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Parkrand.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Parkrand.jpg/960px-Parkrand.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Parkrand.jpg/120px-Parkrand.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Parkrand.jpg",
+          "author": "laurenatclemson",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "2020 Parkrandgebouw (3).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/2020_Parkrandgebouw_%283%29.jpg/960px-2020_Parkrandgebouw_%283%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/2020_Parkrandgebouw_%283%29.jpg/120px-2020_Parkrandgebouw_%283%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:2020_Parkrandgebouw_(3).jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/28541331@N00/2319009762",
+          "src": "https://live.staticflickr.com/3274/2319009762_72a7ff3566_b.jpg",
+          "thumb": "https://live.staticflickr.com/3274/2319009762_72a7ff3566_q.jpg",
+          "page": "https://www.flickr.com/photos/laurenmanning/2319009762/",
+          "author": "Lauren Manning",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
+    },
+    {
+      "id": "westerdok",
+      "title": "Westerdok Apartments",
+      "architect": "MVRDV",
+      "year": "2009",
+      "area": "Amsterdam, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/145/westerdok",
+      "sources": [
+        "archdaily-westerdok"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "registry",
+                "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Westerdok%20440%20Amsterdam&fq=type:adres",
+                "lat": 52.38504915,
+                "lng": 4.89172122
+              },
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/145/westerdok",
+                "lat": 52.3848788,
+                "lng": 4.89184060000002
+              }
+            ]
+          },
+          "lat": 52.385049,
+          "lng": 4.891721,
+          "verifiedBy": [
+            "registry",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "glass-farm",
+      "title": "Glass Farm (De Glazen Boerderij)",
+      "architect": "MVRDV",
+      "year": "2013",
+      "area": "Schijndel, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/119/glass-farm",
+      "sources": [
+        "archdaily-glass-farm",
+        "av-glass-farm"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q3469283",
+            "osm": "way/274741825",
+            "av": "granja-de-vidrio-5",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/119/glass-farm",
+                "lat": 51.6186116,
+                "lng": 5.43483319999996
+              },
+              {
+                "source": "archdaily",
+                "url": "https://www.archdaily.com/321503/glass-farm-mvrdv-2",
+                "lat": 51.6196625,
+                "lng": 5.4334973
+              }
+            ]
+          },
+          "lat": 51.618839,
+          "lng": 5.434379,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "av",
+            "firm",
+            "archdaily"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Glazen Boerderij 3 - Schijndel, Netherlands.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Glazen_Boerderij_3_-_Schijndel%2C_Netherlands.jpg/960px-Glazen_Boerderij_3_-_Schijndel%2C_Netherlands.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Glazen_Boerderij_3_-_Schijndel%2C_Netherlands.jpg/120px-Glazen_Boerderij_3_-_Schijndel%2C_Netherlands.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Glazen_Boerderij_3_-_Schijndel,_Netherlands.jpg",
+          "author": "AGC Glass Europe",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "GlazenBoerderij.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/GlazenBoerderij.jpg/960px-GlazenBoerderij.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/GlazenBoerderij.jpg/120px-GlazenBoerderij.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:GlazenBoerderij.jpg",
+          "author": "Choinowski",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Glazen Boerderij 1 - Schijndel, Netherlands.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Glazen_Boerderij_1_-_Schijndel%2C_Netherlands.jpg/960px-Glazen_Boerderij_1_-_Schijndel%2C_Netherlands.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Glazen_Boerderij_1_-_Schijndel%2C_Netherlands.jpg/120px-Glazen_Boerderij_1_-_Schijndel%2C_Netherlands.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Glazen_Boerderij_1_-_Schijndel,_Netherlands.jpg",
+          "author": "AGC Glass Europe",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Glazen Boerderij 2 - Schijndel, Netherlands.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Glazen_Boerderij_2_-_Schijndel%2C_Netherlands.jpg/960px-Glazen_Boerderij_2_-_Schijndel%2C_Netherlands.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Glazen_Boerderij_2_-_Schijndel%2C_Netherlands.jpg/120px-Glazen_Boerderij_2_-_Schijndel%2C_Netherlands.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Glazen_Boerderij_2_-_Schijndel,_Netherlands.jpg",
+          "author": "AGC Glass Europe",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
+    },
+    {
+      "id": "the-couch",
+      "title": "The Couch",
+      "architect": "MVRDV",
+      "year": "2015",
+      "area": "Amsterdam, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/30/the-couch",
+      "sources": [
+        "archdaily-the-couch"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "registry",
+                "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Zandzeggestraat%201%20Amsterdam&fq=type:adres",
+                "lat": 52.34536044,
+                "lng": 5.00572694
+              },
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/30/the-couch",
+                "lat": 52.3458041,
+                "lng": 5.00516300000004
+              }
+            ]
+          },
+          "lat": 52.34536,
+          "lng": 5.005727,
+          "verifiedBy": [
+            "registry",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "back-to-the-roots",
+      "title": "Back to the Roots",
+      "architect": "MVRDV",
+      "year": "2016",
+      "area": "Slochteren, Netherlands",
+      "group": "parks",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/249/back-to-the-roots",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/249/back-to-the-roots",
+                "lat": 53.2121481,
+                "lng": 6.80203970000002
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [],
+      "areaBounds": [
+        [6.738304, 53.182355],
+        [6.841968, 53.244657]
+      ]
+    },
+    {
+      "id": "crystal-houses",
+      "title": "Crystal Houses",
+      "architect": "MVRDV",
+      "year": "2016",
+      "area": "Amsterdam, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/240/crystal-houses",
+      "sources": [
+        "archdaily-crystal-houses",
+        "av-crystal-houses"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q29108163",
+            "other": [
+              {
+                "source": "registry",
+                "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Pieter%20Cornelisz%20Hooftstraat%2094%20Amsterdam&fq=type:adres",
+                "lat": 52.36014892,
+                "lng": 4.87993366
+              },
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/240/crystal-houses",
+                "lat": 52.360144,
+                "lng": 4.879937
+              }
+            ]
+          },
+          "lat": 52.360139,
+          "lng": 4.879933,
+          "verifiedBy": [
+            "wikidata",
+            "registry",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "PC Hooftstraat 94 (1).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/PC_Hooftstraat_94_%281%29.jpg/960px-PC_Hooftstraat_94_%281%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/PC_Hooftstraat_94_%281%29.jpg/120px-PC_Hooftstraat_94_%281%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:PC_Hooftstraat_94_(1).jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "PC Hooftstraat 94 (2).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/PC_Hooftstraat_94_%282%29.jpg/960px-PC_Hooftstraat_94_%282%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/PC_Hooftstraat_94_%282%29.jpg/120px-PC_Hooftstraat_94_%282%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:PC_Hooftstraat_94_(2).jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "PC Hooftstraat 94 (5).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/PC_Hooftstraat_94_%285%29.jpg/960px-PC_Hooftstraat_94_%285%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/PC_Hooftstraat_94_%285%29.jpg/120px-PC_Hooftstraat_94_%285%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:PC_Hooftstraat_94_(5).jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "salt-amsterdam",
+      "title": "Salt (Minervahaven)",
+      "architect": "MVRDV",
+      "year": "2018",
+      "area": "Amsterdam, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/61/salt",
+      "sources": [
+        "archdaily-salt-amsterdam"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "registry",
+                "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Danzigerbocht%2039P%20Amsterdam&fq=type:adres",
+                "lat": 52.39734855,
+                "lng": 4.87409268
+              },
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/61/salt",
+                "lat": 52.3973750376601,
+                "lng": 4.87459176032712
+              }
+            ]
+          },
+          "lat": 52.397349,
+          "lng": 4.874093,
+          "verifiedBy": [
+            "registry",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "valley-amsterdam",
+      "title": "Valley",
+      "architect": "MVRDV",
+      "year": "2022",
+      "area": "Amsterdam, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/233/valley",
+      "sources": [
+        "archdaily-valley-amsterdam"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q66041231",
+            "osm": "way/896762181",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/233/valley",
+                "lat": 52.3368442,
+                "lng": 4.87728670000001
+              },
+              {
+                "source": "archdaily",
+                "url": "https://www.archdaily.com/989217/valley-towers-mvrdv",
+                "lat": 52.337713,
+                "lng": 4.8768376
+              }
+            ]
+          },
+          "lat": 52.337501,
+          "lng": 4.877517,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "firm",
+            "archdaily",
+            "photo-camera"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "2022 Valley, Amsterdam-Zuidas (03).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/2022_Valley%2C_Amsterdam-Zuidas_%2803%29.jpg/960px-2022_Valley%2C_Amsterdam-Zuidas_%2803%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/2022_Valley%2C_Amsterdam-Zuidas_%2803%29.jpg/120px-2022_Valley%2C_Amsterdam-Zuidas_%2803%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:2022_Valley,_Amsterdam-Zuidas_(03).jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "2022 Valley, Amsterdam-Zuidas (11) (cropped).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/2022_Valley%2C_Amsterdam-Zuidas_%2811%29_%28cropped%29.jpg/960px-2022_Valley%2C_Amsterdam-Zuidas_%2811%29_%28cropped%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/2022_Valley%2C_Amsterdam-Zuidas_%2811%29_%28cropped%29.jpg/120px-2022_Valley%2C_Amsterdam-Zuidas_%2811%29_%28cropped%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:2022_Valley,_Amsterdam-Zuidas_(11)_(cropped).jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "AmsterdamZuidAsDeValley 11 49 00 295000.jpeg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/AmsterdamZuidAsDeValley_11_49_00_295000.jpeg/960px-AmsterdamZuidAsDeValley_11_49_00_295000.jpeg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/AmsterdamZuidAsDeValley_11_49_00_295000.jpeg/120px-AmsterdamZuidAsDeValley_11_49_00_295000.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:AmsterdamZuidAsDeValley_11_49_00_295000.jpeg",
+          "author": "JakobHosp",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "AmsterdamZuidAsDeValley.jpeg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/AmsterdamZuidAsDeValley.jpeg/960px-AmsterdamZuidAsDeValley.jpeg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/AmsterdamZuidAsDeValley.jpeg/120px-AmsterdamZuidAsDeValley.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:AmsterdamZuidAsDeValley.jpeg",
+          "author": "JakobHosp",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "unsplash": "https://unsplash.com/photos/a-tall-building-with-many-windows-a9JyANekUYA",
+          "src": "https://images.unsplash.com/photo-1651657187338-8366ee711e64?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkxMjkwNzExfA&ixlib=rb-4.1.0&w=960&q=80",
+          "thumb": "https://images.unsplash.com/photo-1651657187338-8366ee711e64?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkxMjkwNzExfA&ixlib=rb-4.1.0&w=120&h=120&fit=crop&q=70",
+          "page": "https://unsplash.com/@marfamellow?utm_source=archmap&utm_medium=referral",
+          "author": "Marina Poliukhovich",
+          "license": "Unsplash License",
+          "licenseUrl": "https://unsplash.com/license"
+        }
+      ]
+    },
+    {
+      "id": "grotius-towers",
+      "title": "Grotius Towers",
+      "architect": "MVRDV",
+      "year": "2022",
+      "area": "The Hague, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/392/grotius-towers",
+      "sources": [
+        "archdaily-grotius-towers"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": "Grotius I",
+          "refs": {
+            "wikidata": "Q125679012",
+            "osm": "way/1029388336",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/392/grotius-towers",
+                "lat": 52.0815229,
+                "lng": 4.3287313
+              }
+            ]
+          },
+          "lat": 52.081578,
+          "lng": 4.328795,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "firm"
+          ]
+        },
+        {
+          "name": "Grotius II",
+          "refs": {
+            "wikidata": "Q125679012",
+            "osm": "way/1029388337"
+          },
+          "lat": 52.081138,
+          "lng": 4.328812,
+          "verifiedBy": [
+            "osm",
+            "wikidata"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Grotius Torens.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Grotius_Torens.jpg/960px-Grotius_Torens.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Grotius_Torens.jpg/120px-Grotius_Torens.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Grotius_Torens.jpg",
+          "author": "KatVanHuis",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Netherlands, The Hague, Utrechtsebaan (02), Grotius Towers.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Netherlands%2C_The_Hague%2C_Utrechtsebaan_%2802%29%2C_Grotius_Towers.jpg/960px-Netherlands%2C_The_Hague%2C_Utrechtsebaan_%2802%29%2C_Grotius_Towers.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Netherlands%2C_The_Hague%2C_Utrechtsebaan_%2802%29%2C_Grotius_Towers.jpg/120px-Netherlands%2C_The_Hague%2C_Utrechtsebaan_%2802%29%2C_Grotius_Towers.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Netherlands,_The_Hague,_Utrechtsebaan_(02),_Grotius_Towers.jpg",
+          "author": "Vincent van Zeijst",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Grotiustorens-2022.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Grotiustorens-2022.jpg/960px-Grotiustorens-2022.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Grotiustorens-2022.jpg/120px-Grotiustorens-2022.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Grotiustorens-2022.jpg",
+          "author": "KatVanHuis",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "blend-salt-westerpark",
+      "title": "Blend and Salt (Westerpark West)",
+      "architect": "MVRDV",
+      "year": "2023",
+      "area": "Amsterdam, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/news/4432/construction-completed-blend-salt-pepper-westerpark-west",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": "Blend",
+          "refs": {
+            "wikidata": "Q121989939",
+            "osm": "way/977822523"
+          },
+          "lat": 52.38557,
+          "lng": 4.854011,
+          "verifiedBy": [
+            "osm",
+            "wikidata"
+          ]
+        },
+        {
+          "name": "Salt",
+          "refs": {
+            "wikidata": "Q121864372",
+            "osm": "way/1204459162"
+          },
+          "lat": 52.385559,
+          "lng": 4.852813,
+          "verifiedBy": [
+            "osm",
+            "wikidata"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "2023 Haarlemmerweg, Asd-Blend.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/2023_Haarlemmerweg%2C_Asd-Blend.jpg/960px-2023_Haarlemmerweg%2C_Asd-Blend.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/2023_Haarlemmerweg%2C_Asd-Blend.jpg/120px-2023_Haarlemmerweg%2C_Asd-Blend.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:2023_Haarlemmerweg,_Asd-Blend.jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "2023 Haarlemmerweg, Asd-Salt (2).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/2023_Haarlemmerweg%2C_Asd-Salt_%282%29.jpg/960px-2023_Haarlemmerweg%2C_Asd-Salt_%282%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/2023_Haarlemmerweg%2C_Asd-Salt_%282%29.jpg/120px-2023_Haarlemmerweg%2C_Asd-Salt_%282%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:2023_Haarlemmerweg,_Asd-Salt_(2).jpg",
+          "author": "Ceescamel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "matrix-one",
+      "title": "Matrix ONE",
+      "architect": "MVRDV",
+      "year": "2023",
+      "area": "Amsterdam, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/393/matrix-one",
+      "sources": [
+        "archdaily-matrix-one"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/960203124",
+            "other": [
+              {
+                "source": "registry",
+                "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Science%20Park%20301%20Amsterdam&fq=type:adres",
+                "lat": 52.35538415,
+                "lng": 4.95490538
+              },
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/393/matrix-one",
+                "lat": 52.3555395,
+                "lng": 4.9546899
+              }
+            ]
+          },
+          "lat": 52.355625,
+          "lng": 4.954848,
+          "verifiedBy": [
+            "osm",
+            "registry",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "gymnasium-beekvliet",
+      "title": "Gymnasium Beekvliet",
+      "architect": "MVRDV",
+      "year": "2023",
+      "area": "Sint-Michielsgestel, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/527/gymnasium-beekvliet",
+      "sources": [
+        "archdaily-gymnasium-beekvliet"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "registry",
+                "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Beekvlietstraat%204%20Sint-Michielsgestel&fq=type:adres",
+                "lat": 51.64194594,
+                "lng": 5.36384805
+              },
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/527/gymnasium-beekvliet",
+                "lat": 51.6421134,
+                "lng": 5.3640521
+              }
+            ]
+          },
+          "lat": 51.641946,
+          "lng": 5.363848,
+          "verifiedBy": [
+            "registry",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "tripolis-park",
+      "title": "Tripolis Park",
+      "architect": "MVRDV",
+      "year": "2023",
+      "area": "Amsterdam, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/420/tripolis-park",
+      "sources": [
+        "archdaily-tripolis-park"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "registry",
+                "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Burgerweeshuispad%20301%20Amsterdam&fq=type:adres",
+                "lat": 52.33924482,
+                "lng": 4.85584242
+              },
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/420/tripolis-park",
+                "lat": 52.3390206,
+                "lng": 4.8561014
+              }
+            ]
+          },
+          "lat": 52.339245,
+          "lng": 4.855842,
+          "verifiedBy": [
+            "registry",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "buitenplaats-koningsweg",
+      "title": "Buitenplaats Koningsweg Housing",
+      "architect": "MVRDV",
+      "year": "2024",
+      "area": "Arnhem, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/551/housing-buitenplaats-koningsweg",
+      "sources": [
+        "archdaily-buitenplaats-koningsweg"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/1098578090",
+            "other": [
+              {
+                "source": "registry",
+                "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Radarpad%2074%20Arnhem&fq=type:adres",
+                "lat": 52.03611842,
+                "lng": 5.87813195
+              },
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/551/housing-buitenplaats-koningsweg",
+                "lat": 52.0359692,
+                "lng": 5.877178
+              }
+            ]
+          },
+          "lat": 52.036118,
+          "lng": 5.878132,
+          "verifiedBy": [
+            "registry",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "nieuw-bergen",
+      "title": "Nieuw Bergen",
+      "architect": "MVRDV",
+      "year": "2026",
+      "area": "Eindhoven, Netherlands",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/290/nieuw-bergen",
+      "sources": [
+        "archdaily-nieuw-bergen"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/1037156610",
+            "other": [
+              {
+                "source": "registry",
+                "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Deken%20van%20Somerenstraat%20174%20Eindhoven&fq=type:adres",
+                "lat": 51.43489384,
+                "lng": 5.47490253
+              },
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/290/nieuw-bergen",
+                "lat": 51.4347003,
+                "lng": 5.47530080000001
+              }
+            ]
+          },
+          "lat": 51.434349,
+          "lng": 5.474917,
+          "verifiedBy": [
+            "osm",
+            "registry",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "pyramid-of-tirana",
+      "title": "Pyramid of Tirana",
+      "architect": "Pranvera Hoxha, Klement Kolaneci, Pirro Vaso and Vladimir Bregu (1988); MVRDV (transformation)",
+      "year": "1988; 2023",
+      "area": "Tirana, Albania",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/312/the-pyramid-of-tirana",
+      "sources": [
+        "archdaily-pyramid-of-tirana",
+        "av-pyramid-of-tirana"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q177335",
+            "osm": "way/174510408",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/312/the-pyramid-of-tirana",
+                "lat": 41.3231878,
+                "lng": 19.8215689
+              }
+            ]
+          },
+          "lat": 41.323019,
+          "lng": 19.821589,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "firm",
+            "photo-camera"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Pyramid of Tirana October 2023.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Pyramid_of_Tirana_October_2023.jpg/960px-Pyramid_of_Tirana_October_2023.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Pyramid_of_Tirana_October_2023.jpg/120px-Pyramid_of_Tirana_October_2023.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Pyramid_of_Tirana_October_2023.jpg",
+          "author": "BBB2021",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Pyramid of Tirana 2.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pyramid_of_Tirana_2.jpg/960px-Pyramid_of_Tirana_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pyramid_of_Tirana_2.jpg/120px-Pyramid_of_Tirana_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Pyramid_of_Tirana_2.jpg",
+          "author": "BBB2021",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Pirámide de Tirana, Albania 03.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Pir%C3%A1mide_de_Tirana%2C_Albania_03.jpg/960px-Pir%C3%A1mide_de_Tirana%2C_Albania_03.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Pir%C3%A1mide_de_Tirana%2C_Albania_03.jpg/120px-Pir%C3%A1mide_de_Tirana%2C_Albania_03.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Pir%C3%A1mide_de_Tirana,_Albania_03.jpg",
+          "author": "Yastay",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Pyramid of Tirana Top.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pyramid_of_Tirana_Top.jpg/960px-Pyramid_of_Tirana_Top.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pyramid_of_Tirana_Top.jpg/120px-Pyramid_of_Tirana_Top.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Pyramid_of_Tirana_Top.jpg",
+          "author": "BBB2021",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "The Pyramid of Tirana, Albania.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/The_Pyramid_of_Tirana%2C_Albania.jpg/960px-The_Pyramid_of_Tirana%2C_Albania.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/The_Pyramid_of_Tirana%2C_Albania.jpg/120px-The_Pyramid_of_Tirana%2C_Albania.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Pyramid_of_Tirana,_Albania.jpg",
+          "author": "Marina Lamaj",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "litomysl-door",
+      "title": "The Litomyšl Door (Zrcadlová stěna)",
+      "architect": "MVRDV",
+      "year": "2024",
+      "area": "Litomyšl, Czech Republic",
+      "group": "unusual",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/1098/the-litomysl-door",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "node/13283897767",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/1098/the-litomysl-door",
+                "lat": 49.8611441,
+                "lng": 16.3098918
+              }
+            ]
+          },
+          "lat": 49.859089,
+          "lng": 16.308705,
+          "verifiedBy": [
+            "osm"
+          ],
+          "approximate": true,
+          "near": [
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "le-monolithe",
+      "title": "Le Monolithe",
+      "architect": "MVRDV",
+      "year": "2010",
+      "area": "Lyon, France",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/109/le-monolithe",
+      "sources": [
+        "archdaily-le-monolithe",
+        "av-le-monolithe"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "relation/13903997",
+            "av": "edificio-le-monolithe-4",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/109/le-monolithe",
+                "lat": 45.740218,
+                "lng": 4.81741469999997
+              }
+            ]
+          },
+          "lat": 45.742737,
+          "lng": 4.818337,
+          "verifiedBy": [
+            "osm",
+            "av"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "lyon-part-dieu",
+      "title": "Westfield La Part-Dieu",
+      "architect": "Charles Delfante (1975); MVRDV (transformation)",
+      "year": "1975; 2022",
+      "area": "Lyon, France",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/236/lyon-part-dieu",
+      "sources": [
+        "archdaily-lyon-part-dieu"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q9478",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/236/lyon-part-dieu",
+                "lat": 45.7615627,
+                "lng": 4.85599060000004
+              }
+            ]
+          },
+          "lat": 45.761389,
+          "lng": 4.855833,
+          "verifiedBy": [
+            "wikidata",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "ascension-paysagere",
+      "title": "Ascension Paysagère",
+      "architect": "MVRDV",
+      "year": "2022",
+      "area": "Rennes, France",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/252/ascension-paysagere",
+      "sources": [
+        "archdaily-ascension-paysagere"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/1159347382",
+            "other": [
+              {
+                "source": "registry",
+                "url": "https://api-adresse.data.gouv.fr/search/?q=5%20Rue%20de%20Lorient%2035000%20Rennes",
+                "lat": 48.108778,
+                "lng": -1.698066
+              },
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/252/ascension-paysagere",
+                "lat": 48.1088927,
+                "lng": -1.6977875
+              }
+            ]
+          },
+          "lat": 48.108589,
+          "lng": -1.698001,
+          "verifiedBy": [
+            "osm",
+            "registry",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "werk12",
+      "title": "WERK12",
+      "architect": "MVRDV with N-V-O Nuyken von Oefele",
+      "year": "2019",
+      "area": "Munich, Germany",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/298/werk12",
+      "sources": [
+        "archdaily-werk12"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "node/6680038975",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/298/werk12",
+                "lat": 48.124895,
+                "lng": 11.605819
+              }
+            ]
+          },
+          "lat": 48.124154,
+          "lng": 11.605857,
+          "verifiedBy": [
+            "osm",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "München, Speicherstr 20 v NW, WERK12, 2.jpeg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/M%C3%BCnchen%2C_Speicherstr_20_v_NW%2C_WERK12%2C_2.jpeg/960px-M%C3%BCnchen%2C_Speicherstr_20_v_NW%2C_WERK12%2C_2.jpeg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/M%C3%BCnchen%2C_Speicherstr_20_v_NW%2C_WERK12%2C_2.jpeg/120px-M%C3%BCnchen%2C_Speicherstr_20_v_NW%2C_WERK12%2C_2.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen,_Speicherstr_20_v_NW,_WERK12,_2.jpeg",
+          "author": "Renardo la vulpo",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "zigzag-mainz",
+      "title": "ZigZag",
+      "architect": "MVRDV with morePlatz",
+      "year": "2021",
+      "area": "Mainz, Germany",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/468/zigzag",
+      "sources": [
+        "archdaily-zigzag-mainz"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/713650690",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/468/zigzag",
+                "lat": 50.0177921,
+                "lng": 8.2542736
+              }
+            ]
+          },
+          "lat": 50.018449,
+          "lng": 8.25397,
+          "verifiedBy": [
+            "osm",
+            "firm",
+            "photo-camera"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Mainz-Zollhafen - Zig-Zag-Gebäude.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Mainz-Zollhafen_-_Zig-Zag-Geb%C3%A4ude.jpg/960px-Mainz-Zollhafen_-_Zig-Zag-Geb%C3%A4ude.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Mainz-Zollhafen_-_Zig-Zag-Geb%C3%A4ude.jpg/120px-Mainz-Zollhafen_-_Zig-Zag-Geb%C3%A4ude.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mainz-Zollhafen_-_Zig-Zag-Geb%C3%A4ude.jpg",
+          "author": "ManuelB701",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "id": "atelier-gardens-haus-1",
+      "title": "Atelier Gardens HAUS 1",
+      "architect": "MVRDV with Hirschmüller Schindele Architekten",
+      "year": "2023",
+      "area": "Berlin, Germany",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/1079/haus-1",
+      "sources": [
+        "archdaily-atelier-gardens-haus-1",
+        "av-atelier-gardens-haus-1"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/262752250",
+            "av": "haus-1-en-berlin",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/1079/haus-1",
+                "lat": 52.4643969,
+                "lng": 13.4107529
+              }
+            ]
+          },
+          "lat": 52.464386,
+          "lng": 13.410747,
+          "verifiedBy": [
+            "osm",
+            "av",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "dnb-house",
+      "title": "DNB Headquarters (DNB House)",
+      "architect": "MVRDV",
+      "year": "2012",
+      "area": "Oslo, Norway",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/125/dnb-house",
+      "sources": [
+        "archdaily-dnb-house"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q140387386",
+            "other": [
+              {
+                "source": "registry",
+                "url": "https://ws.geonorge.no/adresser/v1/sok?sok=Dronning%20Eufemias%20gate%2030&kommunenavn=Oslo",
+                "lat": 59.907591,
+                "lng": 10.760067
+              },
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/125/dnb-house",
+                "lat": 59.9075877,
+                "lng": 10.7598422999999
+              }
+            ]
+          },
+          "lat": 59.907835,
+          "lng": 10.760095,
+          "verifiedBy": [
+            "wikidata",
+            "registry",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "DNB Midt-bygget, Barcode - 2014-06-01 at 16-06-46.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/DNB_Midt-bygget%2C_Barcode_-_2014-06-01_at_16-06-46.jpg/960px-DNB_Midt-bygget%2C_Barcode_-_2014-06-01_at_16-06-46.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/DNB_Midt-bygget%2C_Barcode_-_2014-06-01_at_16-06-46.jpg/120px-DNB_Midt-bygget%2C_Barcode_-_2014-06-01_at_16-06-46.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:DNB_Midt-bygget,_Barcode_-_2014-06-01_at_16-06-46.jpg",
+          "author": "Kjetil Ree",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      ]
+    },
+    {
+      "id": "baltyk",
+      "title": "Bałtyk",
+      "architect": "MVRDV",
+      "year": "2017",
+      "area": "Poznań, Poland",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/51/baltyk",
+      "sources": [
+        "archdaily-baltyk",
+        "av-baltyk"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q48965302",
+            "osm": "way/490881244",
+            "av": "baltyk-mixed-use-tower",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/51/baltyk",
+                "lat": 52.407061,
+                "lng": 16.910811
+              }
+            ]
+          },
+          "lat": 52.407089,
+          "lng": 16.911679,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "av",
+            "firm",
+            "photo-camera"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Bałtyk 7.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Ba%C5%82tyk_7.jpg/960px-Ba%C5%82tyk_7.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Ba%C5%82tyk_7.jpg/120px-Ba%C5%82tyk_7.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ba%C5%82tyk_7.jpg",
+          "author": "Borzpoz",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Baltyk Poznan 2018 widok (cropped 2).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Baltyk_Poznan_2018_widok_%28cropped_2%29.jpg/960px-Baltyk_Poznan_2018_widok_%28cropped_2%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Baltyk_Poznan_2018_widok_%28cropped_2%29.jpg/120px-Baltyk_Poznan_2018_widok_%28cropped_2%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Baltyk_Poznan_2018_widok_(cropped_2).jpg",
+          "author": "MOs810",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Baltyk Poznan new tower (4).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Baltyk_Poznan_new_tower_%284%29.jpg/960px-Baltyk_Poznan_new_tower_%284%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Baltyk_Poznan_new_tower_%284%29.jpg/120px-Baltyk_Poznan_new_tower_%284%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Baltyk_Poznan_new_tower_(4).jpg",
+          "author": "MOs810",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Bałtyk 5.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Ba%C5%82tyk_5.jpg/960px-Ba%C5%82tyk_5.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Ba%C5%82tyk_5.jpg/120px-Ba%C5%82tyk_5.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ba%C5%82tyk_5.jpg",
+          "author": "Borzpoz",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/166290435@N05/48409404466",
+          "src": "https://live.staticflickr.com/65535/48409404466_6622021675_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/48409404466_6622021675_q.jpg",
+          "page": "https://www.flickr.com/photos/mateusz_wozniak/48409404466/",
+          "author": "mwozniak.in",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        }
+      ]
+    },
+    {
+      "id": "concordia-design-wroclaw",
+      "title": "Concordia Design Wrocław",
+      "architect": "MVRDV",
+      "year": "2020",
+      "area": "Wrocław, Poland",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/344/concordia-design-wrocław",
+      "sources": [
+        "archdaily-concordia-design-wroclaw",
+        "av-concordia-design-wroclaw"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q126942403",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/344/concordia-design-wrocław",
+                "lat": 51.1161551,
+                "lng": 17.039087
+              }
+            ]
+          },
+          "lat": 51.116105,
+          "lng": 17.038851,
+          "verifiedBy": [
+            "wikidata",
+            "firm",
+            "photo-camera"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Concordia design z wyspy bielarskiej.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Concordia_design_z_wyspy_bielarskiej.jpg/960px-Concordia_design_z_wyspy_bielarskiej.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Concordia_design_z_wyspy_bielarskiej.jpg/120px-Concordia_design_z_wyspy_bielarskiej.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Concordia_design_z_wyspy_bielarskiej.jpg",
+          "author": "Panek",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "leiria-bridges",
+      "title": "Leiria Bridges",
+      "architect": "MVRDV",
+      "year": "2005",
+      "area": "Leiria, Portugal",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/123/leiria-bridges",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/123/leiria-bridges",
+                "lat": 39.7496954,
+                "lng": -8.80594859999997
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [],
+      "areaBounds": [
+        [-8.968166, 39.636875],
+        [-8.623335, 39.965426]
+      ]
+    },
+    {
+      "id": "project-gomila",
+      "title": "Project Gomila",
+      "architect": "MVRDV with GRAS Reynés Arquitectos",
+      "year": "2022",
+      "area": "Palma, Spain",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/544/project-gomila",
+      "sources": [
+        "archdaily-project-gomila",
+        "av-project-gomila"
+      ],
+      "why": null,
+      "note": "First phase completed in 2022; the rest of the block is under construction.",
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/1041367131",
+            "av": "proyecto-gomila-en-el-terreno-palma-de-mallorca-7071",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/544/project-gomila",
+                "lat": 39.562953,
+                "lng": 2.625635
+              }
+            ]
+          },
+          "lat": 39.563075,
+          "lng": 2.625047,
+          "verifiedBy": [
+            "osm",
+            "av",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "balancing-barn",
+      "title": "Balancing Barn",
+      "architect": "MVRDV",
+      "year": "2010",
+      "area": "Thorington, Suffolk, United Kingdom",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/84/balancing-barn",
+      "sources": [
+        "archdaily-balancing-barn",
+        "av-balancing-barn"
+      ],
+      "why": null,
+      "note": "A holiday house of Living Architecture, rented to the public.",
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q23750593",
+            "osm": "way/1052523520",
+            "av": "casa-balancing-barn-2",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/84/balancing-barn",
+                "lat": 52.3095402,
+                "lng": 1.55194719999997
+              }
+            ]
+          },
+          "lat": 52.313656,
+          "lng": 1.552998,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "av",
+            "photo-camera",
+            "photo-object"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "DSC 8728-balancing-barn.JPG",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/DSC_8728-balancing-barn.JPG/960px-DSC_8728-balancing-barn.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/DSC_8728-balancing-barn.JPG/120px-DSC_8728-balancing-barn.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:DSC_8728-balancing-barn.JPG",
+          "author": "William M. Connolley",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "The Balancing Barn - geograph.org.uk - 2802681.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/The_Balancing_Barn_-_geograph.org.uk_-_2802681.jpg/960px-The_Balancing_Barn_-_geograph.org.uk_-_2802681.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/The_Balancing_Barn_-_geograph.org.uk_-_2802681.jpg/120px-The_Balancing_Barn_-_geograph.org.uk_-_2802681.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Balancing_Barn_-_geograph.org.uk_-_2802681.jpg",
+          "author": "John Goldsmith",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "The end of the Balancing Barn - geograph.org.uk - 2802843.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/The_end_of_the_Balancing_Barn_-_geograph.org.uk_-_2802843.jpg/960px-The_end_of_the_Balancing_Barn_-_geograph.org.uk_-_2802843.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/The_end_of_the_Balancing_Barn_-_geograph.org.uk_-_2802843.jpg/120px-The_end_of_the_Balancing_Barn_-_geograph.org.uk_-_2802843.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_end_of_the_Balancing_Barn_-_geograph.org.uk_-_2802843.jpg",
+          "author": "John Goldsmith",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      ]
+    },
+    {
+      "id": "hongqiao-flower-building",
+      "title": "Flower Building, Hongqiao (虹桥花瓣楼)",
+      "architect": "MVRDV",
+      "year": "2015",
+      "area": "Shanghai, China",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/234/hongqiao-flower-building",
+      "sources": [
+        "archdaily-hongqiao-flower-building"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/521964588",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/234/hongqiao-flower-building",
+                "lat": 31.178925,
+                "lng": 121.3873988
+              }
+            ]
+          },
+          "lat": 31.205872,
+          "lng": 121.310887,
+          "verifiedBy": [
+            "osm"
+          ],
+          "approximate": true,
+          "osmOnly": true
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "tianjin-binhai-library",
+      "title": "Tianjin Binhai Library",
+      "architect": "MVRDV with Tianjin Urban Planning and Design Institute",
+      "year": "2017",
+      "area": "Tianjin, China",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/246/tianjin-binhai-library",
+      "sources": [
+        "archdaily-tianjin-binhai-library",
+        "av-tianjin-binhai-library"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q47088811",
+            "osm": "node/5310836690"
+          },
+          "lat": 39.015977,
+          "lng": 117.681183,
+          "verifiedBy": [
+            "osm",
+            "wikidata"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "chongwenmen-m-cube",
+      "title": "Chongwenmen M·CUBE",
+      "architect": "MVRDV",
+      "year": "2018",
+      "area": "Beijing, China",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/235/chongwenmen-m·cube",
+      "sources": [
+        "archdaily-chongwenmen-m-cube"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/235/chongwenmen-m·cube",
+                "lat": 39.898205,
+                "lng": 116.417617
+              },
+              {
+                "source": "archdaily",
+                "url": "https://www.archdaily.com/903964/m-star-cube-mvrdv",
+                "lat": 39.89957133316636,
+                "lng": 116.41813098413081
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [],
+      "areaBounds": [
+        [115.416849, 39.17071],
+        [117.737124, 41.059236]
+      ]
+    },
+    {
+      "id": "idea-factory-nantou",
+      "title": "Idea Factory",
+      "architect": "MVRDV",
+      "year": "2021",
+      "area": "Shenzhen, China",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/436/idea-factory",
+      "sources": [
+        "archdaily-idea-factory-nantou"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/436/idea-factory",
+                "lat": 22.5443709,
+                "lng": 113.9205148
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [],
+      "areaBounds": [
+        [113.680515, 21.821364],
+        [115.389065, 23.016534]
+      ]
+    },
+    {
+      "id": "dawn-bridge",
+      "title": "Dawn Bridge",
+      "architect": "MVRDV",
+      "year": "2021",
+      "area": "Shanghai, China",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/327/dawn-bridge",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/327/dawn-bridge",
+                "lat": 31.111862,
+                "lng": 121.047369
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [],
+      "areaBounds": [
+        [120.850858, 30.669367],
+        [123.225706, 31.872019]
+      ]
+    },
+    {
+      "id": "shenzhen-women-childrens-centre",
+      "title": "Shenzhen Women and Children’s Centre (妇儿大厦)",
+      "architect": "MVRDV",
+      "year": "2023",
+      "area": "Shenzhen, China",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/467/shenzhen-women--childrens-centre",
+      "sources": [
+        "archdaily-shenzhen-women-childrens-centre"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/855693224",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/467/shenzhen-women--childrens-centre",
+                "lat": 22.555698,
+                "lng": 114.0396253
+              }
+            ]
+          },
+          "lat": 22.555298,
+          "lng": 114.039621,
+          "verifiedBy": [
+            "osm",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "pujiang-platform",
+      "title": "Pujiang Platform",
+      "architect": "MVRDV",
+      "year": "2025",
+      "area": "Pujiang, Sichuan, China",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/943/pujiang-platform",
+      "sources": [
+        "archdaily-pujiang-platform"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/943/pujiang-platform",
+                "lat": 30.2259887,
+                "lng": 103.6179639
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [],
+      "areaBounds": [
+        [103.309478, 30.091634],
+        [103.6928, 30.341693]
+      ]
+    },
+    {
+      "id": "gate-m-west-bund",
+      "title": "GATE M West Bund Dream Center (西岸梦中心)",
+      "architect": "MVRDV",
+      "year": "2025",
+      "area": "Shanghai, China",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/847/gate-m-west-bund-dream-center",
+      "sources": [
+        "archdaily-gate-m-west-bund"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/863990748",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/847/gate-m-west-bund-dream-center",
+                "lat": 31.1615536,
+                "lng": 121.4647878
+              }
+            ]
+          },
+          "lat": 31.162136,
+          "lng": 121.461241,
+          "verifiedBy": [
+            "osm"
+          ],
+          "approximate": true,
+          "near": [
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "urban-revivo-sanlitun",
+      "title": "Urban Revivo Sanlitun Flagship Store",
+      "architect": "MVRDV",
+      "year": "2026",
+      "area": "Beijing, China",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/1245/urban-revivo-sanlitun-flagship-store",
+      "sources": [
+        "archdaily-urban-revivo-sanlitun"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/1245/urban-revivo-sanlitun-flagship-store",
+                "lat": 39.93671399999999,
+                "lng": 116.45409
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [],
+      "areaBounds": [
+        [115.416849, 39.17071],
+        [117.737124, 41.059236]
+      ]
+    },
+    {
+      "id": "133-wai-yip-street",
+      "title": "133 Wai Yip Street (Cheung Fai Industrial Building)",
+      "architect": "MVRDV",
+      "year": "2016",
+      "area": "Hong Kong, China",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/245/133-wai-yip-street",
+      "sources": [
+        "archdaily-133-wai-yip-street"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/299215985",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/245/133-wai-yip-street",
+                "lat": 22.3139109,
+                "lng": 114.2178
+              }
+            ]
+          },
+          "lat": 22.31404,
+          "lng": 114.217786,
+          "verifiedBy": [
+            "osm",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "future-towers-pune",
+      "title": "Future Towers (Amanora Future Towers)",
+      "architect": "MVRDV",
+      "year": "2018",
+      "area": "Pune, India",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/366/future-towers",
+      "sources": [
+        "archdaily-future-towers-pune"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/359969704",
+            "other": [
+              {
+                "source": "archdaily",
+                "url": "https://www.archdaily.com/906774/future-towers-mvrdv",
+                "lat": 18.517142372970774,
+                "lng": 73.94714899317626
+              }
+            ]
+          },
+          "lat": 18.517023,
+          "lng": 73.947051,
+          "verifiedBy": [
+            "osm",
+            "archdaily"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "one-green-mile",
+      "title": "One Green Mile",
+      "architect": "MVRDV",
+      "year": "2022",
+      "area": "Mumbai, India",
+      "group": "parks",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/787/one-green-mile",
+      "sources": [
+        "archdaily-one-green-mile"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/787/one-green-mile",
+                "lat": 19.0090641,
+                "lng": 72.8334176
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [],
+      "areaBounds": [
+        [72.709204, 18.894999],
+        [73.029204, 19.214999]
+      ]
+    },
+    {
+      "id": "irwell-hill-residences",
+      "title": "Irwell Hill Residences",
+      "architect": "MVRDV",
+      "year": "2025",
+      "area": "Singapore, Singapore",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/460/irwell-hill-residences",
+      "sources": [
+        "archdaily-irwell-hill-residences"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/1224993230",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/460/irwell-hill-residences",
+                "lat": 1.2974204,
+                "lng": 103.8312339
+              }
+            ]
+          },
+          "lat": 1.297256,
+          "lng": 103.831023,
+          "verifiedBy": [
+            "osm",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "veranda-offices",
+      "title": "Veranda Offices",
+      "architect": "MVRDV",
+      "year": "2020",
+      "area": "Colombo, Sri Lanka",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/291/veranda-offices",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/291/veranda-offices",
+                "lat": 6.915459,
+                "lng": 79.8585047
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [],
+      "areaBounds": [
+        [79.820458, 6.862414],
+        [79.890003, 6.98136]
+      ]
+    },
+    {
+      "id": "matsudai-nohbutai",
+      "title": "Matsudai Nohbutai",
+      "architect": "MVRDV",
+      "year": "2004",
+      "area": "Tōkamachi, Japan",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/141/matsudai-centre",
+      "sources": [
+        "av-matsudai-nohbutai"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q28686074",
+            "osm": "way/276175642",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/141/matsudai-centre",
+                "lat": 37.1315924,
+                "lng": 138.6149702
+              }
+            ]
+          },
+          "lat": 37.131706,
+          "lng": 138.615121,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Matsudai Nohbutai.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Matsudai_Nohbutai.jpg/960px-Matsudai_Nohbutai.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Matsudai_Nohbutai.jpg/120px-Matsudai_Nohbutai.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Matsudai_Nohbutai.jpg",
+          "author": "Kentaro Ohno",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
+    },
+    {
+      "id": "gyre",
+      "title": "Gyre",
+      "architect": "MVRDV",
+      "year": "2007",
+      "area": "Tokyo, Japan",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/105/gyre",
+      "sources": [
+        "av-gyre"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q125394189",
+            "osm": "way/139043792",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/105/gyre",
+                "lat": 35.667385,
+                "lng": 139.706903
+              }
+            ]
+          },
+          "lat": 35.667405,
+          "lng": 139.706914,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "firm",
+            "photo-camera"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Gyre Omotesando 2.jpg",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Gyre_Omotesando_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Gyre_Omotesando_2.jpg/120px-Gyre_Omotesando_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gyre_Omotesando_2.jpg",
+          "author": "Shawnkun",
+          "license": "Public domain",
+          "licenseUrl": null
+        },
+        {
+          "file": "GYRE Omotesando - panoramio.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/GYRE_Omotesando_-_panoramio.jpg/960px-GYRE_Omotesando_-_panoramio.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/GYRE_Omotesando_-_panoramio.jpg/120px-GYRE_Omotesando_-_panoramio.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:GYRE_Omotesando_-_panoramio.jpg",
+          "author": "kcomiida",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Gyre Omotesando 5.jpg",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Gyre_Omotesando_5.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Gyre_Omotesando_5.jpg/120px-Gyre_Omotesando_5.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gyre_Omotesando_5.jpg",
+          "author": "Shawnkun",
+          "license": "Public domain",
+          "licenseUrl": null
+        },
+        {
+          "file": "Gyre Omotesando 6.jpg",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Gyre_Omotesando_6.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Gyre_Omotesando_6.jpg/120px-Gyre_Omotesando_6.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gyre_Omotesando_6.jpg",
+          "author": "Shawnkun",
+          "license": "Public domain",
+          "licenseUrl": null
+        },
+        {
+          "file": "Gyre Omotesando 1.jpg",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Gyre_Omotesando_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Gyre_Omotesando_1.jpg/120px-Gyre_Omotesando_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gyre_Omotesando_1.jpg",
+          "author": "Shawnkun",
+          "license": "Public domain",
+          "licenseUrl": null
+        }
+      ]
+    },
+    {
+      "id": "anyang-peak",
+      "title": "Anyang Peak Observation Tower",
+      "architect": "MVRDV",
+      "year": "2006",
+      "area": "Anyang, South Korea",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/102/anyang-peak",
+      "sources": [
+        "av-anyang-peak"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q131194280",
+            "osm": "node/11175714339",
+            "av": "mirador-anyang-peak-6",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/102/anyang-peak",
+                "lat": 37.4191287,
+                "lng": 126.9353459
+              }
+            ]
+          },
+          "lat": 37.421162,
+          "lng": 126.926841,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "av"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "chungha-building",
+      "title": "Chungha Building",
+      "architect": "MVRDV",
+      "year": "2013",
+      "area": "Seoul, South Korea",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/26/chungha-building",
+      "sources": [
+        "archdaily-chungha-building",
+        "av-chungha-building"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/357024709",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/26/chungha-building",
+                "lat": 37.5262354,
+                "lng": 127.0465195
+              }
+            ]
+          },
+          "lat": 37.526214,
+          "lng": 127.04653,
+          "verifiedBy": [
+            "osm",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "gwangju-folly-i-love-street",
+      "title": "I Love Street (Gwangju Folly)",
+      "architect": "MVRDV",
+      "year": "2017",
+      "area": "Gwangju, South Korea",
+      "group": "unusual",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/300/gwangju-folly",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/300/gwangju-folly",
+                "lat": 35.1465533,
+                "lng": 126.9222613
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [],
+      "areaBounds": [
+        [126.644703, 35.052199],
+        [127.023299, 35.258884]
+      ]
+    },
+    {
+      "id": "seoullo-7017",
+      "title": "Seoullo 7017 Skygarden",
+      "architect": "MVRDV",
+      "year": "2017",
+      "area": "Seoul, South Korea",
+      "group": "parks",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/208/seoullo-7017-skygarden",
+      "sources": [
+        "archdaily-seoullo-7017",
+        "av-seoullo-7017"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q30275918",
+            "osm": "way/550625236",
+            "av": "via-verde-seoul-skygarden-6",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/208/seoullo-7017-skygarden",
+                "lat": 37.5566149,
+                "lng": 126.9715781
+              }
+            ]
+          },
+          "lat": 37.556686,
+          "lng": 126.971391,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "av",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "the-imprint",
+      "title": "The Imprint, Paradise City",
+      "architect": "MVRDV",
+      "year": "2018",
+      "area": "Incheon, South Korea",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/248/the-imprint",
+      "sources": [
+        "archdaily-the-imprint",
+        "av-the-imprint"
+      ],
+      "why": null,
+      "note": "Home of the Chroma nightclub and the Wonderbox indoor theme park.",
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/840531163",
+            "av": "the-imprint-entertainment-complex",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/248/the-imprint",
+                "lat": 37.4372480519731,
+                "lng": 126.45658493042
+              },
+              {
+                "source": "archdaily",
+                "url": "https://www.archdaily.com/902364/the-imprint-mvrdv",
+                "lat": 37.4398807,
+                "lng": 126.456149
+              }
+            ]
+          },
+          "lat": 37.436621,
+          "lng": 126.457217,
+          "verifiedBy": [
+            "osm",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "tainan-spring",
+      "title": "Tainan Spring (河樂廣場)",
+      "architect": "MVRDV",
+      "year": "2020",
+      "area": "Tainan, Taiwan",
+      "group": "parks",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/272/tainan-spring",
+      "sources": [
+        "archdaily-tainan-spring",
+        "av-tainan-spring"
+      ],
+      "why": null,
+      "note": null,
+      "points": [],
+      "shapes": [
+        {
+          "name": "Tainan Spring",
+          "kind": "area",
+          "refs": {
+            "osm": [
+              "relation/10402473"
+            ],
+            "av": "tainan-spring",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/272/tainan-spring",
+                "lat": 22.9937694,
+                "lng": 120.1943422
+              }
+            ]
+          },
+          "lat": 22.992845,
+          "lng": 120.195793,
+          "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [120.19245, 22.99423],
+                  [120.19235, 22.99378],
+                  [120.19327, 22.9936],
+                  [120.19338, 22.99404],
+                  [120.19245, 22.99423]
+                ],
+                [
+                  [120.19246, 22.99386],
+                  [120.19252, 22.99413],
+                  [120.19329, 22.99397],
+                  [120.19323, 22.9937],
+                  [120.19246, 22.99386]
+                ]
+              ],
+              [
+                [
+                  [120.19343, 22.9936],
+                  [120.19346, 22.99355],
+                  [120.19455, 22.99333],
+                  [120.19461, 22.99335],
+                  [120.1947, 22.99377],
+                  [120.19353, 22.99401],
+                  [120.19343, 22.9936]
+                ],
+                [
+                  [120.19349, 22.99364],
+                  [120.19356, 22.99391],
+                  [120.19419, 22.99379],
+                  [120.19412, 22.99351],
+                  [120.19349, 22.99364]
+                ]
+              ]
+            ]
+          },
+          "verifiedBy": [
+            "osm",
+            "av"
+          ]
+        }
+      ],
+      "photos": []
+    },
+    {
+      "id": "tainan-market",
+      "title": "Tainan Market (新化果菜市場)",
+      "architect": "MVRDV",
+      "year": "2022",
+      "area": "Tainan, Taiwan",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/391/tainan-market",
+      "sources": [
+        "archdaily-tainan-market",
+        "av-tainan-market"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/1002557620",
+            "av": "mercado-en-tainan",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/391/tainan-market",
+                "lat": 23.0348363,
+                "lng": 120.3290308
+              }
+            ]
+          },
+          "lat": 23.035001,
+          "lng": 120.328761,
+          "verifiedBy": [
+            "osm",
+            "av",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "pixel-abu-dhabi",
+      "title": "Pixel",
+      "architect": "MVRDV",
+      "year": "2024",
+      "area": "Abu Dhabi, United Arab Emirates",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/301/pixel",
+      "sources": [
+        "archdaily-pixel-abu-dhabi",
+        "av-pixel-abu-dhabi"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "av": "pixel-en-abu-dabi",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/301/pixel",
+                "lat": 24.5048835,
+                "lng": 54.4152511
+              }
+            ]
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": [],
+      "areaBounds": [
+        [54.297155, 24.281033],
+        [54.765911, 24.601854]
+      ]
+    },
+    {
+      "id": "radio-hotel",
+      "title": "Radio Hotel and Tower",
+      "architect": "MVRDV",
+      "year": "2022",
+      "area": "New York, United States",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/353/radio-hotel-and-tower",
+      "sources": [
+        "archdaily-radio-hotel"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/1208498066",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/353/radio-hotel-and-tower",
+                "lat": 40.8479118,
+                "lng": -73.9316422
+              },
+              {
+                "source": "archdaily",
+                "url": "https://www.archdaily.com/989937/radio-hotel-and-tower-mvrdv",
+                "lat": 40.8475928,
+                "lng": -73.9313946
+              }
+            ]
+          },
+          "lat": 40.847925,
+          "lng": -73.931382,
+          "verifiedBy": [
+            "osm",
+            "firm",
+            "archdaily"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "the-canyon",
+      "title": "The Canyon",
+      "architect": "MVRDV",
+      "year": "2023",
+      "area": "San Francisco, United States",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/423/the-canyon",
+      "sources": [
+        "archdaily-the-canyon"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/1204801756",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/423/the-canyon",
+                "lat": 37.775735,
+                "lng": -122.3896745
+              }
+            ]
+          },
+          "lat": 37.77587,
+          "lng": -122.389518,
+          "verifiedBy": [
+            "osm",
+            "firm",
+            "photo-camera"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "The Canyon in San Francisco from Behind.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/The_Canyon_in_San_Francisco_from_Behind.jpg/960px-The_Canyon_in_San_Francisco_from_Behind.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/The_Canyon_in_San_Francisco_from_Behind.jpg/120px-The_Canyon_in_San_Francisco_from_Behind.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Canyon_in_San_Francisco_from_Behind.jpg",
+          "author": "Lexi Mattick",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    {
+      "id": "oranje-castle",
+      "title": "Oranje Castle",
+      "architect": "Studio Archohm with MVRDV",
+      "year": "2022",
+      "area": "Lucknow, India",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "sources": [
+        "archdaily-oranje-castle"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/1271226412",
+            "other": [
+              {
+                "source": "archdaily",
+                "url": "https://www.archdaily.com/995353/oranje-castle-group-housing-archohm",
+                "lat": 26.8381,
+                "lng": 80.9346
+              }
+            ]
+          },
+          "lat": 26.817668,
+          "lng": 81.0008,
           "verifiedBy": [
             "osm"
           ],

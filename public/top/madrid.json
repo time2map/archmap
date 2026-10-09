@@ -1,7 +1,7 @@
 {
   "id": "madrid",
   "name": "Madrid",
-  "updated": "2026-09-28",
+  "updated": "2026-10-06",
   "cover": "Palacio Real de Madrid Julio 2016 (cropped).jpg",
   "sources": {
     "archdaily-picado-2017": {
@@ -437,6 +437,10 @@
       "year": "2005",
       "area": "Sanchinarro (Hortaleza)",
       "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/135/mirador",
       "sources": [
         "archdaily-picado-2017",
         "archdaily-guide-2024",
@@ -730,6 +734,10 @@
       "year": "2009",
       "area": "Sanchinarro (Hortaleza)",
       "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/136/celosia",
       "sources": [
         "avontuura-2025",
         "socialhousing-2018",

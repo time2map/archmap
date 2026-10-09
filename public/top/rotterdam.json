@@ -1,7 +1,7 @@
 {
   "id": "rotterdam",
   "name": "Rotterdam",
-  "updated": "2026-10-01",
+  "updated": "2026-10-06",
   "cover": "Erasmus Bridge 2109-1489.jpg",
   "sources": {
     "ad-guide-2023": {
@@ -555,6 +555,14 @@
       "url": "https://arquitecturaviva.com/works/wikado-playground-1",
       "date": null,
       "type": "media"
+    },
+    "archdaily-library-quarter": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "MVRDV completes Book Mountain and Library Quarter Spijkenisse",
+      "url": "https://www.archdaily.com/279922/mvrdv-completes-book-mountain-and-library-quarter-spijkenisse",
+      "date": "2012-10-07",
+      "type": "media"
     }
   },
   "places": [
@@ -770,6 +778,10 @@
       "year": "2004–2014",
       "area": "Stadsdriehoek",
       "group": "city-core",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/115/markthal",
       "sources": [
         "ad-guide-2023",
         "lp-2025",
@@ -2311,6 +2323,10 @@
       "year": "2021",
       "area": "Museumpark",
       "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/10/depot-boijmans-van-beuningen",
       "sources": [
         "ad-guide-2023",
         "lp-2025",
@@ -2838,6 +2854,10 @@
       "year": "2003–2012",
       "area": "Spijkenisse",
       "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/126/book-mountain",
       "sources": [
         "ad-guide-2023",
         "metalocus-2022",
@@ -3790,6 +3810,10 @@
       "year": "2025",
       "area": "Maasvlakte",
       "group": "unusual",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/466/portlantis",
       "sources": [
         "rp-attractions",
         "domus-2025",
@@ -3802,7 +3826,8 @@
           "name": null,
           "refs": {
             "osm": "node/10978251036",
-            "av": "portlantis-en-roterdam"
+            "av": "portlantis-en-roterdam",
+            "wikidata": "Q141512194"
           },
           "lat": 51.93544,
           "lng": 3.977944,
@@ -4387,6 +4412,10 @@
       "year": "2002–2006",
       "area": "Oude Westen",
       "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/132/didden-village",
       "sources": [
         "av-didden",
         "eumies-didden"
@@ -6665,6 +6694,52 @@
           "verifiedBy": [
             "osm",
             "av"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "library-quarter",
+      "title": "Library Quarter",
+      "architect": "MVRDV",
+      "year": "2012",
+      "area": "Spijkenisse",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/112/library-quarter",
+      "sources": [
+        "archdaily-library-quarter"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "registry",
+                "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Kees%20de%20Groenplein%204%20Spijkenisse&fq=type:adres",
+                "lat": 51.84929217,
+                "lng": 4.32415264
+              },
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/112/library-quarter",
+                "lat": 51.8495386488523,
+                "lng": 4.32403040734857
+              }
+            ]
+          },
+          "lat": 51.849292,
+          "lng": 4.324153,
+          "verifiedBy": [
+            "registry",
+            "firm"
           ]
         }
       ],

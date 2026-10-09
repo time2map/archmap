@@ -1,7 +1,7 @@
 {
   "id": "paris",
   "name": "Paris",
-  "updated": "2026-10-02",
+  "updated": "2026-10-06",
   "cover": "Paris - The Eiffel Tower in spring - 2307.jpg",
   "sources": {
     "pj-mustsee": {
@@ -1242,6 +1242,22 @@
       "title": "Nanterre-Amandiers National Drama Center Renovation and Rehabilitation / Snøhetta",
       "url": "https://www.archdaily.com/1040035/nanterre-amandiers-national-drama-center-renovation-and-rehabilitation-snohetta",
       "date": "2026-03-30",
+      "type": "media"
+    },
+    "archdaily-pushed-slab": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Pushed Slab / MVRDV",
+      "url": "https://www.archdaily.com/572616/pushed-slab-mvrdv",
+      "date": "2014-12-01",
+      "type": "media"
+    },
+    "archdaily-gaite-montparnasse": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Gaîté Montparnasse / MVRDV",
+      "url": "https://www.archdaily.com/991903/gaite-montparnasse-mvrdv",
+      "date": "2022-11-09",
       "type": "media"
     }
   },
@@ -9308,6 +9324,102 @@
           "verifiedBy": [
             "osm",
             "wikidata"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "pushed-slab",
+      "title": "Pushed Slab",
+      "architect": "MVRDV",
+      "year": "2015",
+      "area": "13th arrondissement",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/363/pushed-slab",
+      "sources": [
+        "archdaily-pushed-slab"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q21309060",
+            "osm": "way/236137677",
+            "other": [
+              {
+                "source": "registry",
+                "url": "https://api-adresse.data.gouv.fr/search/?q=10%20Rue%20Brillat-Savarin%2075013%20Paris",
+                "lat": 48.821906,
+                "lng": 2.351442
+              },
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/363/pushed-slab",
+                "lat": 48.8219759,
+                "lng": 2.35134540000001
+              }
+            ]
+          },
+          "lat": 48.821666,
+          "lng": 2.350926,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "registry",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "gaite-montparnasse",
+      "title": "Gaîté Montparnasse",
+      "architect": "MVRDV",
+      "year": "2022",
+      "area": "14th arrondissement",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/73/gaite-montparnasse",
+      "sources": [
+        "archdaily-gaite-montparnasse"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "registry",
+                "url": "https://api-adresse.data.gouv.fr/search/?q=80%20Avenue%20du%20Maine%2075014%20Paris",
+                "lat": 48.838565,
+                "lng": 2.322047
+              },
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/73/gaite-montparnasse",
+                "lat": 48.838797,
+                "lng": 2.32175470000004
+              }
+            ]
+          },
+          "lat": 48.838565,
+          "lng": 2.322047,
+          "verifiedBy": [
+            "registry",
+            "firm"
           ]
         }
       ],

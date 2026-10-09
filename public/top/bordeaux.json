@@ -1,7 +1,7 @@
 {
   "id": "bordeaux",
   "name": "Bordeaux",
-  "updated": "2026-09-29",
+  "updated": "2026-10-06",
   "cover": "139 - Place de la Bourse et le miroir d'eau - Bordeaux.jpg",
   "sources": {
     "tourism-mustsee": {
@@ -513,6 +513,30 @@
       "author": null,
       "title": "UCPA Sport Station in Bordeaux",
       "url": "https://arquitecturaviva.com/works/ucpa-sport-station-en-burdeos",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-ilot-queyries": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Ilot Queyries Apartment Building / MVRDV",
+      "url": "https://www.archdaily.com/968597/ilot-queyries-apartment-building-mvrdv",
+      "date": "2021-09-17",
+      "type": "media"
+    },
+    "archdaily-la-vallee-verte": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "La Vallée Verte / MVRDV",
+      "url": "https://www.archdaily.com/1042194/la-vallee-verte-mvrdv",
+      "date": "2026-06-05",
+      "type": "media"
+    },
+    "av-la-vallee-verte": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "La Vallée Verte residential complex in Bordeaux",
+      "url": "https://arquitecturaviva.com/works/viviendas-la-vallee-verte-en-burdeos",
       "date": null,
       "type": "media"
     }
@@ -5184,6 +5208,107 @@
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
         }
       ]
+    },
+    {
+      "id": "ilot-queyries",
+      "title": "Îlot Queyries",
+      "architect": "MVRDV",
+      "year": "2020",
+      "area": "La Bastide",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/271/ilot-queyries",
+      "sources": [
+        "archdaily-ilot-queyries"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "other": [
+              {
+                "source": "registry",
+                "url": "https://api-adresse.data.gouv.fr/search/?q=79%20Quai%20des%20Queyries%2033100%20Bordeaux",
+                "lat": 44.848638,
+                "lng": -0.562594
+              },
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/271/ilot-queyries",
+                "lat": 44.8488126,
+                "lng": -0.5625866
+              },
+              {
+                "source": "archdaily",
+                "url": "https://www.archdaily.com/968597/ilot-queyries-apartment-building-mvrdv",
+                "lat": 44.8472004,
+                "lng": -0.5644056
+              }
+            ]
+          },
+          "lat": 44.848638,
+          "lng": -0.562594,
+          "verifiedBy": [
+            "registry",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "la-vallee-verte",
+      "title": "La Vallée Verte",
+      "architect": "MVRDV",
+      "year": "2024",
+      "area": "La Bastide",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/447/la-vallee-verte",
+      "sources": [
+        "archdaily-la-vallee-verte",
+        "av-la-vallee-verte"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "av": "viviendas-la-vallee-verte-en-burdeos",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/447/la-vallee-verte",
+                "lat": 44.8500436,
+                "lng": -0.5601093
+              },
+              {
+                "source": "archdaily",
+                "url": "https://www.archdaily.com/1042194/la-vallee-verte-mvrdv",
+                "lat": 44.850387,
+                "lng": -0.559889
+              }
+            ]
+          },
+          "lat": 44.850044,
+          "lng": -0.560109,
+          "verifiedBy": [
+            "firm",
+            "av",
+            "archdaily"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "copenhagen",
   "name": "Copenhagen",
-  "updated": "2026-10-01",
+  "updated": "2026-10-06",
   "cover": "Nyhavn Copenhagen 2014 10.jpg",
   "sources": {
     "woco-top": {
@@ -1138,6 +1138,38 @@
       "title": "Danish National Maritime Museum / BIG",
       "url": "https://www.archdaily.com/440541/danish-national-maritime-museum-big",
       "date": "2013-10-21",
+      "type": "media"
+    },
+    "archdaily-kube": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Ku.Be House of Culture in Movement / MVRDV + ADEPT",
+      "url": "https://www.archdaily.com/794532/ke-house-of-culture-in-movement-mvrdv-plus-adept",
+      "date": "2016-09-02",
+      "type": "media"
+    },
+    "archdaily-ragnarock": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Museum of Rock / MVRDV + Cobe",
+      "url": "https://www.archdaily.com/786489/ragnarock-mvrdv-plus-cobe",
+      "date": "2016-04-29",
+      "type": "media"
+    },
+    "av-ragnarock": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Ragnarock Museum, Roskilde",
+      "url": "https://arquitecturaviva.com/works/rockmagneten-2",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-roskilde-festival-hojskole": {
+      "publisher": "ArchDaily",
+      "author": null,
+      "title": "Roskilde Festival Folk High School / MVRDV + Cobe",
+      "url": "https://www.archdaily.com/912035/roskilde-festival-folk-high-school-mvrdv-plus-cobe",
+      "date": "2019-02-25",
       "type": "media"
     }
   },
@@ -7109,6 +7141,10 @@
       "year": "2005",
       "area": "Islands Brygge",
       "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/143/frøsilo",
       "sources": [
         "avontuura-2025",
         "av-gemini",
@@ -7139,7 +7175,8 @@
             "osm",
             "wikidata",
             "av",
-            "kk-awards"
+            "kk-awards",
+            "photo-camera"
           ]
         }
       ],
@@ -9643,6 +9680,174 @@
           ],
           "approximate": true,
           "near": [
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "kube",
+      "title": "Ku.Be House of Culture and Movement",
+      "architect": "MVRDV with ADEPT",
+      "year": "2016",
+      "area": "Frederiksberg",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/50/kube-house-of-culture-and-movement",
+      "sources": [
+        "archdaily-kube"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/372861999",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/50/kube-house-of-culture-and-movement",
+                "lat": 55.6832708,
+                "lng": 12.5056962
+              }
+            ]
+          },
+          "lat": 55.683296,
+          "lng": 12.505657,
+          "verifiedBy": [
+            "osm",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "ragnarock",
+      "title": "Ragnarock, Museum for Pop, Rock and Youth Culture",
+      "architect": "MVRDV with COBE",
+      "year": "2016",
+      "area": "Roskilde",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/242/ragnarock",
+      "sources": [
+        "archdaily-ragnarock",
+        "av-ragnarock"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q12307261",
+            "osm": "way/401365424",
+            "av": "rockmagneten-2",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/242/ragnarock",
+                "lat": 55.6281244,
+                "lng": 12.0818340000001
+              }
+            ]
+          },
+          "lat": 55.628133,
+          "lng": 12.08256,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "av",
+            "firm",
+            "photo-object"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Museum Ragnarock.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Museum_Ragnarock.jpg/960px-Museum_Ragnarock.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Museum_Ragnarock.jpg/120px-Museum_Ragnarock.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Museum_Ragnarock.jpg",
+          "author": "Mogens Engelund",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Den gyldne museumsbygning.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Den_gyldne_museumsbygning.jpg/960px-Den_gyldne_museumsbygning.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Den_gyldne_museumsbygning.jpg/120px-Den_gyldne_museumsbygning.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Den_gyldne_museumsbygning.jpg",
+          "author": "RAGNAROCK - Museet for pop, rock og ungdomskultur",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Lyssætning på \"Den Røde Løber\" op mod museet.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Lyss%C3%A6tning_p%C3%A5_%22Den_R%C3%B8de_L%C3%B8ber%22_op_mod_museet.jpg/960px-Lyss%C3%A6tning_p%C3%A5_%22Den_R%C3%B8de_L%C3%B8ber%22_op_mod_museet.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Lyss%C3%A6tning_p%C3%A5_%22Den_R%C3%B8de_L%C3%B8ber%22_op_mod_museet.jpg/120px-Lyss%C3%A6tning_p%C3%A5_%22Den_R%C3%B8de_L%C3%B8ber%22_op_mod_museet.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Lyss%C3%A6tning_p%C3%A5_%22Den_R%C3%B8de_L%C3%B8ber%22_op_mod_museet.jpg",
+          "author": "RAGNAROCK - Museet for pop, rock og ungdomskultur",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Facade. RAGNAROCK Museet for pop rock og ungdomskultur.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Facade._RAGNAROCK_Museet_for_pop_rock_og_ungdomskultur.jpg/960px-Facade._RAGNAROCK_Museet_for_pop_rock_og_ungdomskultur.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Facade._RAGNAROCK_Museet_for_pop_rock_og_ungdomskultur.jpg/120px-Facade._RAGNAROCK_Museet_for_pop_rock_og_ungdomskultur.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Facade._RAGNAROCK_Museet_for_pop_rock_og_ungdomskultur.jpg",
+          "author": "RAGNAROCK - Museet for pop, rock og ungdomskultur",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "roskilde-festival-hojskole",
+      "title": "Roskilde Festival Højskole",
+      "architect": "MVRDV with COBE",
+      "year": "2019",
+      "area": "Roskilde",
+      "group": "architecture",
+      "firms": [
+        "MVRDV"
+      ],
+      "firmPage": "https://www.mvrdv.com/projects/266/roskilde-festival-højskole",
+      "sources": [
+        "archdaily-roskilde-festival-hojskole"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q28835853",
+            "osm": "node/13744917587",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.mvrdv.com/projects/266/roskilde-festival-højskole",
+                "lat": 55.6276575,
+                "lng": 12.0821986
+              }
+            ]
+          },
+          "lat": 55.627617,
+          "lng": 12.082223,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
             "firm"
           ]
         }
