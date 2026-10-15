@@ -21,7 +21,8 @@ const GROUPS = [
   { id: 'parks', label: 'Parks', color: '#27ae60' }
 ]
 const GROUP_BY_ID = Object.fromEntries(GROUPS.map(g => [g.id, g]))
-const MIN_MENTIONS = [1, 2, 3]
+// Any = 0: works of top firms may have no source at all
+const MIN_MENTIONS = [0, 2, 3]
 // The map's frame when no city is open
 const OVERVIEW = Symbol('overview')
 // Works of top firms beyond the cities (public/top/world.json): dots below this zoom, photo pins from it on
@@ -448,7 +449,7 @@ function TopCity({ cityId, onCityChange }) {
   // pointIndex: which pin of an ensemble is active (only that one gets a map label)
   const [selection, setSelection] = useState({ id: null, pointIndex: null })
   const [groupFilter, setGroupFilter] = useState('all')
-  const [minMentions, setMinMentions] = useState(1)
+  const [minMentions, setMinMentions] = useState(0)
   const [mapLoaded, setMapLoaded] = useState(false)
   // Rounded to half steps so markers re-render only when their size class can change
   const [zoom, setZoom] = useState(11)
@@ -1065,7 +1066,7 @@ function TopCity({ cityId, onCityChange }) {
                       minMentions === min ? 'bg-gray-900 border-gray-900 text-white' : 'bg-white border-gray-300 text-gray-700 hover:bg-gray-100'
                     }`}
                   >
-                    {min === 1 ? 'Any' : `${min}+`}
+                    {min === 0 ? 'Any' : `${min}+`}
                   </button>
                 ))}
               </div>
