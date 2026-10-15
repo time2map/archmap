@@ -3547,6 +3547,10 @@
       "year": "2018",
       "area": "Indre By",
       "group": "architecture",
+      "firms": [
+        "OMA"
+      ],
+      "firmPage": "https://www.oma.com/projects/dac-blox",
       "sources": [
         "woco-masterpieces",
         "avontuura-2025",
@@ -3567,7 +3571,9 @@
           "lng": 12.57919,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-object",
+            "photo-camera"
           ]
         }
       ],

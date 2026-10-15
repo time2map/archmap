@@ -2531,6 +2531,10 @@
       "year": "2024",
       "area": "Bègles – Floirac",
       "group": "architecture",
+      "firms": [
+        "OMA"
+      ],
+      "firmPage": "https://www.oma.com/projects/simone-veil-bridge",
       "sources": [
         "tourism-contemporary",
         "av-simoneveil",
@@ -3622,6 +3626,10 @@
       "year": "1998",
       "area": "Floirac",
       "group": "unusual",
+      "firms": [
+        "OMA"
+      ],
+      "firmPage": "https://www.oma.com/projects/maison-a-bordeaux",
       "sources": [
         "avontuura-2019",
         "av-maisonbordeaux",

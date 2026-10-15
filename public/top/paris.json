@@ -1259,6 +1259,30 @@
       "url": "https://www.archdaily.com/991903/gaite-montparnasse-mvrdv",
       "date": "2022-11-09",
       "type": "media"
+    },
+    "archdaily-lafayette-anticipations": {
+      "publisher": "ArchDaily",
+      "author": "Paula Pintos",
+      "title": "Fondation Galeries Lafayette / OMA",
+      "url": "https://www.archdaily.com/910887/fondation-galeries-lafayette-oma",
+      "date": "2019-02-07",
+      "type": "media"
+    },
+    "archdaily-lab-city-centralesupelec": {
+      "publisher": "ArchDaily",
+      "author": "Diego Hernández",
+      "title": "Lab City CentraleSupélec / OMA",
+      "url": "https://www.archdaily.com/878822/lab-city-centralesupelec-oma",
+      "date": "2017-08-31",
+      "type": "media"
+    },
+    "av-lab-city-centralesupelec": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Lab City CentraleSupélec, Gif-sur-Yvette",
+      "url": "https://arquitecturaviva.com/works/lab-city-centralesupelec-paris",
+      "date": null,
+      "type": "media"
     }
   },
   "places": [
@@ -9419,6 +9443,98 @@
           "lng": 2.322047,
           "verifiedBy": [
             "registry",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "lafayette-anticipations",
+      "title": "Lafayette Anticipations",
+      "architect": "OMA",
+      "year": "2018",
+      "area": "4th arrondissement",
+      "group": "architecture",
+      "firms": [
+        "OMA"
+      ],
+      "firmPage": "https://www.oma.com/projects/fondation-entreprise-galeries-lafayette",
+      "sources": [
+        "archdaily-lafayette-anticipations"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q17353174",
+            "osm": "way/55865819",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.oma.com/projects/fondation-entreprise-galeries-lafayette",
+                "lat": 48.8592098,
+                "lng": 2.3547841
+              }
+            ]
+          },
+          "lat": 48.859013,
+          "lng": 2.354793,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "lab-city-centralesupelec",
+      "title": "Lab City CentraleSupélec (Bâtiment Gustave Eiffel)",
+      "architect": "OMA",
+      "year": "2017",
+      "area": "Gif-sur-Yvette",
+      "group": "architecture",
+      "firms": [
+        "OMA"
+      ],
+      "firmPage": "https://www.oma.com/projects/lab-city",
+      "sources": [
+        "archdaily-lab-city-centralesupelec",
+        "av-lab-city-centralesupelec"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/384147589",
+            "av": "lab-city-centralesupelec-paris",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.oma.com/projects/lab-city",
+                "lat": 48.7104457,
+                "lng": 2.1686309
+              },
+              {
+                "source": "archdaily",
+                "url": "https://www.archdaily.com/878822/lab-city-centralesupelec-oma",
+                "lat": 48.710001,
+                "lng": 2.175861
+              }
+            ]
+          },
+          "lat": 48.710344,
+          "lng": 2.167647,
+          "verifiedBy": [
+            "osm",
             "firm"
           ]
         }

@@ -2064,6 +2064,10 @@
       "year": "1988–1993",
       "area": "Centrum",
       "group": "city-core",
+      "firms": [
+        "OMA"
+      ],
+      "firmPage": "https://www.oma.com/projects/museumpark",
       "sources": [
         "rg-guide",
         "timeout-2024",
@@ -2246,6 +2250,10 @@
       "year": "1997–2013",
       "area": "Wilhelminapier",
       "group": "architecture",
+      "firms": [
+        "OMA"
+      ],
+      "firmPage": "https://www.oma.com/projects/de-rotterdam",
       "sources": [
         "ad-guide-2023",
         "rp-architecture",
@@ -2272,7 +2280,8 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-object"
           ]
         }
       ],
@@ -2413,6 +2422,10 @@
       "year": "1992",
       "area": "Museumpark",
       "group": "architecture",
+      "firms": [
+        "OMA"
+      ],
+      "firmPage": "https://www.oma.com/projects/kunsthal",
       "sources": [
         "ad-guide-2023",
         "rp-architecture",
@@ -2433,7 +2446,9 @@
           "lng": 4.473427,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera",
+            "photo-object"
           ]
         }
       ],
@@ -2685,6 +2700,10 @@
       "year": "2009–2015",
       "area": "Stadsdriehoek",
       "group": "architecture",
+      "firms": [
+        "OMA"
+      ],
+      "firmPage": "https://www.oma.com/projects/timmerhuis",
       "sources": [
         "ad-guide-2023",
         "metalocus-2022",
@@ -2716,7 +2735,8 @@
             "osm",
             "wikidata",
             "av",
-            "rotterdam-architectuurprijs"
+            "rotterdam-architectuurprijs",
+            "photo-camera"
           ]
         }
       ],
@@ -6745,6 +6765,72 @@
       ],
       "shapes": [],
       "photos": []
+    },
+    {
+      "id": "forum-rotterdam",
+      "title": "Forum Rotterdam",
+      "architect": "OMA with WDJArchitecten",
+      "year": "2020",
+      "area": "Centrum",
+      "group": "architecture",
+      "firms": [
+        "OMA"
+      ],
+      "firmPage": "https://www.oma.com/projects/forum-rotterdam",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q112207896",
+            "osm": "way/754024609",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.oma.com/projects/forum-rotterdam",
+                "lat": 51.9209,
+                "lng": 4.4794
+              },
+              {
+                "source": "registry",
+                "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Coolsingel%20129%20Rotterdam&fq=type:adres",
+                "lat": 51.91924781,
+                "lng": 4.47942776
+              }
+            ]
+          },
+          "lat": 51.919232,
+          "lng": 4.4787,
+          "verifiedBy": [
+            "osm",
+            "registry",
+            "photo-camera"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Forum Rotterdam - Rotterdamsche Bank 2022 02.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Forum_Rotterdam_-_Rotterdamsche_Bank_2022_02.jpg/960px-Forum_Rotterdam_-_Rotterdamsche_Bank_2022_02.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Forum_Rotterdam_-_Rotterdamsche_Bank_2022_02.jpg/120px-Forum_Rotterdam_-_Rotterdamsche_Bank_2022_02.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Forum_Rotterdam_-_Rotterdamsche_Bank_2022_02.jpg",
+          "author": "Sandra Fauconnier",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Forum Rotterdam (51120541265).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Forum_Rotterdam_%2851120541265%29.jpg/960px-Forum_Rotterdam_%2851120541265%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Forum_Rotterdam_%2851120541265%29.jpg/120px-Forum_Rotterdam_%2851120541265%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Forum_Rotterdam_(51120541265).jpg",
+          "author": "Sandra Fauconnier from Rotterdam, Netherlands",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     }
   ]
 }
