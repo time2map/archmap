@@ -291,7 +291,8 @@ Família). Check on Commons that the file is wider than it is tall.
    click one card, one marker and one shape. Look on the map at every approximate point
    (`approximate` in the file: `near`, `osmOnly`, `singleSource`): the dashed pin must stand on the building.
    Headless Chromium has no WebGL: launch it with `--use-angle=swiftshader --enable-unsafe-swiftshader
-   --ignore-gpu-blocklist`, or the map stays blank and the list shows no place in view.
+   --ignore-gpu-blocklist`, or the map stays blank and the list shows no place in view. On macOS add
+   `--use-mock-keychain`: otherwise every launch asks the user for the "Chromium Safe Storage" keychain item.
 4. Report to the user: number of places, sources with dates, places without a location or
    photo, the approximate points, the country's freedom of panorama and the places left without
    photos because of it, places left out at the coverage check and why, open doubts.

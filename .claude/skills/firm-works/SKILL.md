@@ -30,7 +30,7 @@ look up the missing ones (never type a QID from memory).
 | Frank Gehry | Q180374 | |
 | Kengo Kuma | Q725462 | |
 | MVRDV | Q932801, Q1356269 (Winy Maas), Q225927 (Jacob van Rijs), Q469961 (Nathalie de Vries) | done 2026-10 |
-| OMA | Q2015762, Q232364 (Rem Koolhaas) | |
+| OMA | Q2015762, Q232364 (Rem Koolhaas) | done 2026-10 |
 | Renzo Piano Building Workshop | Q100604548, Q190148 (Renzo Piano) | Piano & Rogers (Centre Pompidou) counts |
 | Santiago Calatrava | Q168482 | |
 | Snøhetta | Q511335, Q1813434 (Kjetil Trædal Thorsen), Q5180916 (Craig Dykers) | done 2026-10 |
@@ -70,6 +70,8 @@ Wikidata credits the firm with works it did not design, and a search returns nam
 address and year against the firm's page, not only its description. MVRDV's list had two Carlsberg towers in
 Copenhagen (C.F. Møller's, by their own site); the search for MVRDV's Salt in Minervahaven found the Salt
 tower of Westerpark West, and the one for Studio Thonik found Thonik's later studio on Wibautstraat.
+Koolhaas is credited with One Madison in New York (CetraRuddy's) and with Forum Nová Karolina in Ostrava,
+neither on OMA's site.
 
 ## 2. Confirm on the firm's website
 For every candidate, find its project page on the firm's own site: it confirms that the firm
@@ -82,6 +84,12 @@ JSON (JSON-LD, or the data of a Next.js page) with the status, the location, the
 often coordinates. big.dk had, for each project, `"status":"Completed"`, `"location"`,
 `"year"`, `"latitude"`, `"longitude"`. Fetch at most one page a second, and keep what you
 fetched in a file in the scratchpad, so a long run can resume.
+
+The list page can be older than the project pages: oma.com served /projects from an earlier build that
+lacked Tenjin Business Center II and still had the Lille courthouse under construction. Look for the CMS
+behind the site. Its image URLs (`cdn.sanity.io/images/<project>/<dataset>/…`) named a public Sanity
+dataset, and one GROQ query to `https://<project>.apicdn.sanity.io/v2021-10-21/data/query/<dataset>` gave
+every project with its status and coordinates.
 
 Use the site's own filters and its list pages, and count what they give. snohetta.com filters by
 status (completed, under construction, proposal) and by discipline (architecture, landscape, interior,
@@ -114,6 +122,16 @@ Decisions from the Snøhetta run, to keep the firms consistent:
   Trælvikosen), a major rehabilitation the firm led (Théâtre Nanterre-Amandiers), care buildings that
   are not homes (Outdoor Care Retreats, Maggie's Centre), and a work missing from the firm's site but
   credited to it by ArchDaily (Haier, Hussein bin Talal Park: no `firmPage`).
+
+Decisions from the OMA run:
+- out: shops and department stores refurbished inside an existing building (KaDeWe, Tiffany Landmark,
+  Beymen Tersane, Coach Omotesando); supportive housing (730 Stanyan, as Karmøy); an urban plan whose
+  buildings are not the firm's (Veerplein, Vlaardingen); a temporary pavilion moved elsewhere afterwards
+  (MPavilion);
+- in: a new building of a whole department store (Galleria Gwanggyo); a landmark the firm restored and
+  converted throughout (Fondaco dei Tedeschi); a small permanent public work credited to the firm by the
+  city's public-art catalogue (the "A Star is Born" toilet in Groningen: no `firmPage`); a building the
+  firm's site marks completed whose users move in later (Lille courthouse, handed over in 2026).
 
 Some firms have no full list of their works online: Alvar Aalto (died 1976; his works are kept
 by the Alvar Aalto Foundation), and sites that show only a selection (check Tadao Ando's and
@@ -220,7 +238,9 @@ title: a work is stored once.
 4. Run the app: on the home page check a pin of world.json opens its card; in a city check a
    new work and its "Top architecture firm" label; look at each approximate point (`approximate`
    in the file: `near`, `osmOnly`, `singleSource`) on the map, on a satellite view when the base map
-   shows no building (the headless browser needs software WebGL, city-top §6).
+   shows no building (the headless browser needs software WebGL, city-top §6). The app has no address
+   for a single place: for a work far from the cities, look at a satellite image of its stored point
+   (Mapbox Static API, `satellite-streets-v12` with a pin, `VITE_MAPBOX_ACCESS_TOKEN` in `.env`).
 5. Report to the user: works found in Wikidata, on the firm's site, and kept; what was left
    out and why; places without a location or a photo, and those left without a photo by freedom of
    panorama; the approximate points; the cities whose files changed.
