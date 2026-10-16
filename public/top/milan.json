@@ -1925,7 +1925,48 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/20034359001",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/3795/20034359001_a0b1457caf_b.jpg",
+          "thumb": "https://live.staticflickr.com/3795/20034359001_a0b1457caf_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/20034359001/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/19386113203",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/390/19386113203_6cfd72d2ae_b.jpg",
+          "thumb": "https://live.staticflickr.com/390/19386113203_6cfd72d2ae_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/19386113203/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/20007034445",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/528/20007034445_6e77895618_b.jpg",
+          "thumb": "https://live.staticflickr.com/528/20007034445_6e77895618_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/20007034445/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/22539273@N00/49870066311",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/49870066311_a29827be80_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/49870066311_a29827be80_q.jpg",
+          "page": "https://www.flickr.com/photos/o_0/49870066311/",
+          "author": "*_*",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "bosco",
@@ -1975,7 +2016,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/mabi/55480778705/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/55480778705_be6a46c5c1_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/55480778705_be6a46c5c1_q.jpg",
+          "page": "https://www.flickr.com/photos/mabi/55480778705/",
+          "author": "mabi2000",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "unsplash": "https://unsplash.com/photos/a-tall-building-with-many-windows-with-bosco-verticale-in-the-background-dTQqLjGEj18",
+          "nonCommercial": true,
+          "src": "https://images.unsplash.com/photo-1659103874401-279c2c316afc?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ1NTk0fA&ixlib=rb-4.1.0&w=960&q=80",
+          "thumb": "https://images.unsplash.com/photo-1659103874401-279c2c316afc?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ1NTk0fA&ixlib=rb-4.1.0&w=120&h=120&fit=crop&q=70",
+          "page": "https://unsplash.com/@josejovena?utm_source=archmap&utm_medium=referral",
+          "author": "José Jóvena",
+          "license": "Unsplash License",
+          "licenseUrl": "https://unsplash.com/license"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/39553193@N00/13498363784",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/5039/13498363784_eec96e6e95_b.jpg",
+          "thumb": "https://live.staticflickr.com/5039/13498363784_eec96e6e95_q.jpg",
+          "page": "https://www.flickr.com/photos/andrepax/13498363784/",
+          "author": "Andrepax",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "unsplash": "https://unsplash.com/photos/worms-eye-view-of-white-concrete-building-noBVMye3_ro",
+          "nonCommercial": true,
+          "src": "https://images.unsplash.com/photo-1528545657093-2928f2e17013?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ1NTk0fA&ixlib=rb-4.1.0&w=960&q=80",
+          "thumb": "https://images.unsplash.com/photo-1528545657093-2928f2e17013?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ1NTk0fA&ixlib=rb-4.1.0&w=120&h=120&fit=crop&q=70",
+          "page": "https://unsplash.com/@rgaleriacom?utm_source=archmap&utm_medium=referral",
+          "author": "Ricardo Gomez Angel",
+          "license": "Unsplash License",
+          "licenseUrl": "https://unsplash.com/license"
+        }
+      ]
     },
     {
       "id": "sansiro",
@@ -2001,12 +2083,44 @@
           "lng": 9.123964,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Stadio Meazza 2021 3.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Stadio_Meazza_2021_3.jpg/960px-Stadio_Meazza_2021_3.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Stadio_Meazza_2021_3.jpg/120px-Stadio_Meazza_2021_3.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Stadio_Meazza_2021_3.jpg",
+          "author": "Prelvini",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/airlines470/55083156600/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/55083156600_644eddf511_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/55083156600_644eddf511_q.jpg",
+          "page": "https://www.flickr.com/photos/airlines470/55083156600/",
+          "author": "airlines470",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/airlines470/55083051139/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/55083051139_9a0e7276ac_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/55083051139_9a0e7276ac_q.jpg",
+          "page": "https://www.flickr.com/photos/airlines470/55083051139/",
+          "author": "airlines470",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
     },
     {
       "id": "mercanti",
@@ -2349,12 +2463,54 @@
             "osm",
             "wikidata",
             "av",
-            "firm"
+            "firm",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "LU02710.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/LU02710.jpg/960px-LU02710.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/LU02710.jpg/120px-LU02710.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:LU02710.jpg",
+          "author": "Lalupa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "P za Olivetti e F Prada da v Orobia LU02708.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/P_za_Olivetti_e_F_Prada_da_v_Orobia_LU02708.jpg/960px-P_za_Olivetti_e_F_Prada_da_v_Orobia_LU02708.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/P_za_Olivetti_e_F_Prada_da_v_Orobia_LU02708.jpg/120px-P_za_Olivetti_e_F_Prada_da_v_Orobia_LU02708.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:P_za_Olivetti_e_F_Prada_da_v_Orobia_LU02708.jpg",
+          "author": "Lalupa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Fondazione Prada, Milan.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Fondazione_Prada%2C_Milan.jpg/960px-Fondazione_Prada%2C_Milan.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Fondazione_Prada%2C_Milan.jpg/120px-Fondazione_Prada%2C_Milan.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Fondazione_Prada,_Milan.jpg",
+          "author": "Jay Dixit",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "P za Olivetti, la fontana e edificio Fastweb LU02696.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/P_za_Olivetti%2C_la_fontana_e_edificio_Fastweb_LU02696.jpg/960px-P_za_Olivetti%2C_la_fontana_e_edificio_Fastweb_LU02696.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/P_za_Olivetti%2C_la_fontana_e_edificio_Fastweb_LU02696.jpg/120px-P_za_Olivetti%2C_la_fontana_e_edificio_Fastweb_LU02696.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:P_za_Olivetti,_la_fontana_e_edificio_Fastweb_LU02696.jpg",
+          "author": "Lalupa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "pirelli-35",
@@ -2431,7 +2587,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Grattacielo Pirelli (Milano) 03.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Grattacielo_Pirelli_%28Milano%29_03.jpg/960px-Grattacielo_Pirelli_%28Milano%29_03.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Grattacielo_Pirelli_%28Milano%29_03.jpg/120px-Grattacielo_Pirelli_%28Milano%29_03.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Grattacielo_Pirelli_(Milano)_03.jpg",
+          "author": "Francesco Falconetti",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Grattacielo Pirelli (Milano) 02.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Grattacielo_Pirelli_%28Milano%29_02.jpg/960px-Grattacielo_Pirelli_%28Milano%29_02.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Grattacielo_Pirelli_%28Milano%29_02.jpg/120px-Grattacielo_Pirelli_%28Milano%29_02.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Grattacielo_Pirelli_(Milano)_02.jpg",
+          "author": "Francesco Falconetti",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/25825879@N05/23152301611",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/5766/23152301611_6b40016733_b.jpg",
+          "thumb": "https://live.staticflickr.com/5766/23152301611_6b40016733_q.jpg",
+          "page": "https://www.flickr.com/photos/alandenney/23152301611/",
+          "author": "Alan Denney",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/70038540@N00/210930835",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/72/210930835_fad65603bf_b.jpg",
+          "thumb": "https://live.staticflickr.com/72/210930835_fad65603bf_q.jpg",
+          "page": "https://www.flickr.com/photos/cicciopizzettaro/210930835/",
+          "author": "Ciccio Pizzettaro",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        }
+      ]
     },
     {
       "id": "feltrinelli",
@@ -2462,12 +2659,44 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Porta Volta Feltrinelli.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Porta_Volta_Feltrinelli.jpg/960px-Porta_Volta_Feltrinelli.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Porta_Volta_Feltrinelli.jpg/120px-Porta_Volta_Feltrinelli.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Porta_Volta_Feltrinelli.jpg",
+          "author": "Saggittarius A",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "MI9 v le Pasubio LU03542.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/MI9_v_le_Pasubio_LU03542.jpg/960px-MI9_v_le_Pasubio_LU03542.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/MI9_v_le_Pasubio_LU03542.jpg/120px-MI9_v_le_Pasubio_LU03542.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:MI9_v_le_Pasubio_LU03542.jpg",
+          "author": "Lalupa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Facciata di Fondazione Giangiacomo Feltrinelli.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Facciata_di_Fondazione_Giangiacomo_Feltrinelli.jpg/960px-Facciata_di_Fondazione_Giangiacomo_Feltrinelli.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Facciata_di_Fondazione_Giangiacomo_Feltrinelli.jpg/120px-Facciata_di_Fondazione_Giangiacomo_Feltrinelli.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Facciata_di_Fondazione_Giangiacomo_Feltrinelli.jpg",
+          "author": "97Bina",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "bocconi",
@@ -2517,7 +2746,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Knowledge that matters.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Knowledge_that_matters.jpg/960px-Knowledge_that_matters.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Knowledge_that_matters.jpg/120px-Knowledge_that_matters.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Knowledge_that_matters.jpg",
+          "author": "Rob Oo [OFF]",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Nuovo Campus SANAA Milano 3.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Nuovo_Campus_SANAA_Milano_3.jpg/960px-Nuovo_Campus_SANAA_Milano_3.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Nuovo_Campus_SANAA_Milano_3.jpg/120px-Nuovo_Campus_SANAA_Milano_3.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Nuovo_Campus_SANAA_Milano_3.jpg",
+          "author": "Plumbago Capensis",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "SDA Bocconi new campus.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/SDA_Bocconi_new_campus.jpg/960px-SDA_Bocconi_new_campus.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/SDA_Bocconi_new_campus.jpg/120px-SDA_Bocconi_new_campus.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:SDA_Bocconi_new_campus.jpg",
+          "author": "Burakuberi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Nuovo Campus SANAA Milano 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Nuovo_Campus_SANAA_Milano_2.jpg/960px-Nuovo_Campus_SANAA_Milano_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Nuovo_Campus_SANAA_Milano_2.jpg/120px-Nuovo_Campus_SANAA_Milano_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Nuovo_Campus_SANAA_Milano_2.jpg",
+          "author": "Plumbago Capensis",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "citylife",
@@ -2712,7 +2982,48 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Tre Torri, Milan, Italy Apr 14, 2023 07-56-42 PM.jpeg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Tre_Torri%2C_Milan%2C_Italy_Apr_14%2C_2023_07-56-42_PM.jpeg/960px-Tre_Torri%2C_Milan%2C_Italy_Apr_14%2C_2023_07-56-42_PM.jpeg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Tre_Torri%2C_Milan%2C_Italy_Apr_14%2C_2023_07-56-42_PM.jpeg/120px-Tre_Torri%2C_Milan%2C_Italy_Apr_14%2C_2023_07-56-42_PM.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tre_Torri,_Milan,_Italy_Apr_14,_2023_07-56-42_PM.jpeg",
+          "author": "KaiKemmann",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Residenze Hadid, CityLife district, Milan, Italy 03 00 33 307000.jpeg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Residenze_Hadid%2C_CityLife_district%2C_Milan%2C_Italy_03_00_33_307000.jpeg/960px-Residenze_Hadid%2C_CityLife_district%2C_Milan%2C_Italy_03_00_33_307000.jpeg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Residenze_Hadid%2C_CityLife_district%2C_Milan%2C_Italy_03_00_33_307000.jpeg/120px-Residenze_Hadid%2C_CityLife_district%2C_Milan%2C_Italy_03_00_33_307000.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:Residenze_Hadid,_CityLife_district,_Milan,_Italy_03_00_33_307000.jpeg",
+          "author": "KaiKemmann",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Residenze Hadid, CityLife district, Milan, Italy.jpeg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Residenze_Hadid%2C_CityLife_district%2C_Milan%2C_Italy.jpeg/960px-Residenze_Hadid%2C_CityLife_district%2C_Milan%2C_Italy.jpeg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Residenze_Hadid%2C_CityLife_district%2C_Milan%2C_Italy.jpeg/120px-Residenze_Hadid%2C_CityLife_district%2C_Milan%2C_Italy.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:Residenze_Hadid,_CityLife_district,_Milan,_Italy.jpeg",
+          "author": "KaiKemmann",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Grattacielo (51727641689).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Grattacielo_%2851727641689%29.jpg/960px-Grattacielo_%2851727641689%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Grattacielo_%2851727641689%29.jpg/120px-Grattacielo_%2851727641689%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Grattacielo_(51727641689).jpg",
+          "author": "Franco Dal Molin from Milano, Italia",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     },
     {
       "id": "mudec",
@@ -2745,7 +3056,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Mudec - Museo delle culture, primo piano.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Mudec_-_Museo_delle_culture%2C_primo_piano.jpg/960px-Mudec_-_Museo_delle_culture%2C_primo_piano.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Mudec_-_Museo_delle_culture%2C_primo_piano.jpg/120px-Mudec_-_Museo_delle_culture%2C_primo_piano.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mudec_-_Museo_delle_culture,_primo_piano.jpg",
+          "author": "FrussiWMI",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Milano - MUDEC - Museo delle Culture - Particolare dell'Agorà.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Milano_-_MUDEC_-_Museo_delle_Culture_-_Particolare_dell%27Agor%C3%A0.jpg/960px-Milano_-_MUDEC_-_Museo_delle_Culture_-_Particolare_dell%27Agor%C3%A0.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Milano_-_MUDEC_-_Museo_delle_Culture_-_Particolare_dell%27Agor%C3%A0.jpg/120px-Milano_-_MUDEC_-_Museo_delle_Culture_-_Particolare_dell%27Agor%C3%A0.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_MUDEC_-_Museo_delle_Culture_-_Particolare_dell%27Agor%C3%A0.jpg",
+          "author": "Silvana Gallio",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Mudec, Agorà, Ingresso alla Collezione Permanente.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Mudec%2C_Agor%C3%A0%2C_Ingresso_alla_Collezione_Permanente.jpg/960px-Mudec%2C_Agor%C3%A0%2C_Ingresso_alla_Collezione_Permanente.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Mudec%2C_Agor%C3%A0%2C_Ingresso_alla_Collezione_Permanente.jpg/120px-Mudec%2C_Agor%C3%A0%2C_Ingresso_alla_Collezione_Permanente.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mudec,_Agor%C3%A0,_Ingresso_alla_Collezione_Permanente.jpg",
+          "author": "Hime sara",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Mudec (Museo delle Culture), Milan, May 2018 (04).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Mudec_%28Museo_delle_Culture%29%2C_Milan%2C_May_2018_%2804%29.jpg/960px-Mudec_%28Museo_delle_Culture%29%2C_Milan%2C_May_2018_%2804%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Mudec_%28Museo_delle_Culture%29%2C_Milan%2C_May_2018_%2804%29.jpg/120px-Mudec_%28Museo_delle_Culture%29%2C_Milan%2C_May_2018_%2804%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mudec_(Museo_delle_Culture),_Milan,_May_2018_(04).jpg",
+          "author": "Ardfern",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "novecento",
@@ -2773,12 +3125,54 @@
           "lng": 9.19023,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Arengario da Piazzetta Reale.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Arengario_da_Piazzetta_Reale.jpg/960px-Arengario_da_Piazzetta_Reale.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Arengario_da_Piazzetta_Reale.jpg/120px-Arengario_da_Piazzetta_Reale.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Arengario_da_Piazzetta_Reale.jpg",
+          "author": "Emanuela Terzi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Milano - Museo del Novecento - 202109022217.jpeg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Milano_-_Museo_del_Novecento_-_202109022217.jpeg/960px-Milano_-_Museo_del_Novecento_-_202109022217.jpeg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Milano_-_Museo_del_Novecento_-_202109022217.jpeg/120px-Milano_-_Museo_del_Novecento_-_202109022217.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Museo_del_Novecento_-_202109022217.jpeg",
+          "author": "Lauraderiu",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Milano - Museo del Novecento - 202109022215.jpeg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Milano_-_Museo_del_Novecento_-_202109022215.jpeg/960px-Milano_-_Museo_del_Novecento_-_202109022215.jpeg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Milano_-_Museo_del_Novecento_-_202109022215.jpeg/120px-Milano_-_Museo_del_Novecento_-_202109022215.jpeg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Museo_del_Novecento_-_202109022215.jpeg",
+          "author": "Lauraderiu",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Milano - Museo del Novecento - 2024-09-15 17-17-33 001.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Milano_-_Museo_del_Novecento_-_2024-09-15_17-17-33_001.jpg/960px-Milano_-_Museo_del_Novecento_-_2024-09-15_17-17-33_001.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Milano_-_Museo_del_Novecento_-_2024-09-15_17-17-33_001.jpg/120px-Milano_-_Museo_del_Novecento_-_2024-09-15_17-17-33_001.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Museo_del_Novecento_-_2024-09-15_17-17-33_001.jpg",
+          "author": "Bocassina",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "ambrosiana",
@@ -2941,12 +3335,54 @@
           "lng": 9.201828,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Villa Necchi, Milan, Italy.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Villa_Necchi%2C_Milan%2C_Italy.jpg/960px-Villa_Necchi%2C_Milan%2C_Italy.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Villa_Necchi%2C_Milan%2C_Italy.jpg/120px-Villa_Necchi%2C_Milan%2C_Italy.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Villa_Necchi,_Milan,_Italy.jpg",
+          "author": "Italy Chronicles Photos",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Milano - Villa Necchi Campiglio - 2026-10-14 18-09-18 011.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Milano_-_Villa_Necchi_Campiglio_-_2026-10-14_18-09-18_011.jpg/960px-Milano_-_Villa_Necchi_Campiglio_-_2026-10-14_18-09-18_011.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Milano_-_Villa_Necchi_Campiglio_-_2026-10-14_18-09-18_011.jpg/120px-Milano_-_Villa_Necchi_Campiglio_-_2026-10-14_18-09-18_011.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Villa_Necchi_Campiglio_-_2026-10-14_18-09-18_011.jpg",
+          "author": "Alicembasli",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Milano, Villa Necchi Campiglio 02.JPG",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Milano%2C_Villa_Necchi_Campiglio_02.JPG/960px-Milano%2C_Villa_Necchi_Campiglio_02.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Milano%2C_Villa_Necchi_Campiglio_02.JPG/120px-Milano%2C_Villa_Necchi_Campiglio_02.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano,_Villa_Necchi_Campiglio_02.JPG",
+          "author": "Palickap",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Milano - Villa Necchi Campiglio - 2026-10-14 18-09-18 001.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Milano_-_Villa_Necchi_Campiglio_-_2026-10-14_18-09-18_001.jpg/960px-Milano_-_Villa_Necchi_Campiglio_-_2026-10-14_18-09-18_001.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Milano_-_Villa_Necchi_Campiglio_-_2026-10-14_18-09-18_001.jpg/120px-Milano_-_Villa_Necchi_Campiglio_-_2026-10-14_18-09-18_001.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Villa_Necchi_Campiglio_-_2026-10-14_18-09-18_001.jpg",
+          "author": "Alicembasli",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "triennale",
@@ -2973,12 +3409,34 @@
           "lng": 9.1735,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Triennale Palazzo dell'Arte.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Triennale_Palazzo_dell%27Arte.jpg/960px-Triennale_Palazzo_dell%27Arte.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Triennale_Palazzo_dell%27Arte.jpg/120px-Triennale_Palazzo_dell%27Arte.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Triennale_Palazzo_dell%27Arte.jpg",
+          "author": "Airdagno",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "\" 12 - ITALY - Triennale Design Museum - Milan Design Week 2012 (fuorisalone) Triennale di Milano 2.JPG",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/%22_12_-_ITALY_-_Triennale_Design_Museum_-_Milan_Design_Week_2012_%28fuorisalone%29_Triennale_di_Milano_2.JPG/960px-%22_12_-_ITALY_-_Triennale_Design_Museum_-_Milan_Design_Week_2012_%28fuorisalone%29_Triennale_di_Milano_2.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/%22_12_-_ITALY_-_Triennale_Design_Museum_-_Milan_Design_Week_2012_%28fuorisalone%29_Triennale_di_Milano_2.JPG/120px-%22_12_-_ITALY_-_Triennale_Design_Museum_-_Milan_Design_Week_2012_%28fuorisalone%29_Triennale_di_Milano_2.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:%22_12_-_ITALY_-_Triennale_Design_Museum_-_Milan_Design_Week_2012_(fuorisalone)_Triennale_di_Milano_2.JPG",
+          "author": "Pava",
+          "license": "CC BY-SA 3.0 it",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/it/"
+        }
+      ]
     },
     {
       "id": "branca",
@@ -3004,12 +3462,54 @@
           "lng": 9.172885,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Milano Torre Branca.JPG",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Milano_Torre_Branca.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Milano_Torre_Branca.JPG/120px-Milano_Torre_Branca.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_Torre_Branca.JPG",
+          "author": "Arbalete",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Milano - Torre Branca.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Milano_-_Torre_Branca.jpg/960px-Milano_-_Torre_Branca.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Milano_-_Torre_Branca.jpg/120px-Milano_-_Torre_Branca.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Torre_Branca.jpg",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Torre Branca & Arco della Pace.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Torre_Branca_%26_Arco_della_Pace.jpg/960px-Torre_Branca_%26_Arco_della_Pace.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Torre_Branca_%26_Arco_della_Pace.jpg/120px-Torre_Branca_%26_Arco_della_Pace.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Torre_Branca_%26_Arco_della_Pace.jpg",
+          "author": "Alessandro Franceschi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Milano - Torre Branca - 2023-09-27 22-55-41 001.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Milano_-_Torre_Branca_-_2023-09-27_22-55-41_001.jpg/960px-Milano_-_Torre_Branca_-_2023-09-27_22-55-41_001.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Milano_-_Torre_Branca_-_2023-09-27_22-55-41_001.jpg/120px-Milano_-_Torre_Branca_-_2023-09-27_22-55-41_001.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Torre_Branca_-_2023-09-27_22-55-41_001.jpg",
+          "author": "Viaggiamocela",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "galimberti",
@@ -3178,12 +3678,44 @@
           "lng": 9.211752,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Casa museo Boschi-Di Stefano Milano.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Casa_museo_Boschi-Di_Stefano_Milano.jpg/960px-Casa_museo_Boschi-Di_Stefano_Milano.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Casa_museo_Boschi-Di_Stefano_Milano.jpg/120px-Casa_museo_Boschi-Di_Stefano_Milano.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Casa_museo_Boschi-Di_Stefano_Milano.jpg",
+          "author": "Lauraderiu",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Casa Boschi Di Stefano, le scale 1.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Casa_Boschi_Di_Stefano%2C_le_scale_1.jpg/960px-Casa_Boschi_Di_Stefano%2C_le_scale_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Casa_Boschi_Di_Stefano%2C_le_scale_1.jpg/120px-Casa_Boschi_Di_Stefano%2C_le_scale_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Casa_Boschi_Di_Stefano,_le_scale_1.jpg",
+          "author": "Angelo0053",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Casa Boschi Di Stefano, pianerottolo.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Casa_Boschi_Di_Stefano%2C_pianerottolo.jpg/960px-Casa_Boschi_Di_Stefano%2C_pianerottolo.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Casa_Boschi_Di_Stefano%2C_pianerottolo.jpg/120px-Casa_Boschi_Di_Stefano%2C_pianerottolo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Casa_Boschi_Di_Stefano,_pianerottolo.jpg",
+          "author": "Angelo0053",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "pac",
@@ -3215,7 +3747,38 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "PAC (padiglione d'arte contemporanea) - milano.JPG",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/PAC_%28padiglione_d%27arte_contemporanea%29_-_milano.JPG/960px-PAC_%28padiglione_d%27arte_contemporanea%29_-_milano.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/PAC_%28padiglione_d%27arte_contemporanea%29_-_milano.JPG/120px-PAC_%28padiglione_d%27arte_contemporanea%29_-_milano.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:PAC_(padiglione_d%27arte_contemporanea)_-_milano.JPG",
+          "author": "Stefano Stabile",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "PAC - Padiglione d'Arte Contemporanea di Milano.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/PAC_-_Padiglione_d%27Arte_Contemporanea_di_Milano.jpg/960px-PAC_-_Padiglione_d%27Arte_Contemporanea_di_Milano.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/PAC_-_Padiglione_d%27Arte_Contemporanea_di_Milano.jpg/120px-PAC_-_Padiglione_d%27Arte_Contemporanea_di_Milano.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:PAC_-_Padiglione_d%27Arte_Contemporanea_di_Milano.jpg",
+          "author": "Pava",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/ciaomilano/53153518626/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/53153518626_9673b7c9b6_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/53153518626_9673b7c9b6_q.jpg",
+          "page": "https://www.flickr.com/photos/ciaomilano/53153518626/",
+          "author": "CiaoMilano",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        }
+      ]
     },
     {
       "id": "scienza",
@@ -3632,12 +4195,44 @@
           "lng": 9.183209,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Palais Mezzanotte - Milan (IT25) - 2022-09-03 - 3.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Palais_Mezzanotte_-_Milan_%28IT25%29_-_2022-09-03_-_3.jpg/960px-Palais_Mezzanotte_-_Milan_%28IT25%29_-_2022-09-03_-_3.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Palais_Mezzanotte_-_Milan_%28IT25%29_-_2022-09-03_-_3.jpg/120px-Palais_Mezzanotte_-_Milan_%28IT25%29_-_2022-09-03_-_3.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Palais_Mezzanotte_-_Milan_(IT25)_-_2022-09-03_-_3.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Palais Mezzanotte - Milan (IT25) - 2022-09-03 - 1.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Palais_Mezzanotte_-_Milan_%28IT25%29_-_2022-09-03_-_1.jpg/960px-Palais_Mezzanotte_-_Milan_%28IT25%29_-_2022-09-03_-_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Palais_Mezzanotte_-_Milan_%28IT25%29_-_2022-09-03_-_1.jpg/120px-Palais_Mezzanotte_-_Milan_%28IT25%29_-_2022-09-03_-_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Palais_Mezzanotte_-_Milan_(IT25)_-_2022-09-03_-_1.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Mailänder Börse a.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Mail%C3%A4nder_B%C3%B6rse_a.jpg/960px-Mail%C3%A4nder_B%C3%B6rse_a.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Mail%C3%A4nder_B%C3%B6rse_a.jpg/120px-Mail%C3%A4nder_B%C3%B6rse_a.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mail%C3%A4nder_B%C3%B6rse_a.jpg",
+          "author": "Josef Moser",
+          "license": "Public domain",
+          "licenseUrl": null
+        }
+      ]
     },
     {
       "id": "cadorna",
@@ -3663,12 +4258,54 @@
           "lng": 9.175523,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "At Milan 2026 225.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/At_Milan_2026_225.jpg/960px-At_Milan_2026_225.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/At_Milan_2026_225.jpg/120px-At_Milan_2026_225.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:At_Milan_2026_225.jpg",
+          "author": "Photograph by Mike Peel ( www.mikepeel.net ).",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Facciata Stazione di Milano Cadorna - 02.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Facciata_Stazione_di_Milano_Cadorna_-_02.jpg/960px-Facciata_Stazione_di_Milano_Cadorna_-_02.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Facciata_Stazione_di_Milano_Cadorna_-_02.jpg/120px-Facciata_Stazione_di_Milano_Cadorna_-_02.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Facciata_Stazione_di_Milano_Cadorna_-_02.jpg",
+          "author": "SonoGrazy",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Milano - Piazzale Cadorna e Stazione Ferrovie Nord - panoramio.jpg",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/95/Milano_-_Piazzale_Cadorna_e_Stazione_Ferrovie_Nord_-_panoramio.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Milano_-_Piazzale_Cadorna_e_Stazione_Ferrovie_Nord_-_panoramio.jpg/120px-Milano_-_Piazzale_Cadorna_e_Stazione_Ferrovie_Nord_-_panoramio.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Piazzale_Cadorna_e_Stazione_Ferrovie_Nord_-_panoramio.jpg",
+          "author": "MarkusMark",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Entrée sur le côté du parvis de la gare de Milano Cadorna.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Entr%C3%A9e_sur_le_c%C3%B4t%C3%A9_du_parvis_de_la_gare_de_Milano_Cadorna.jpg/960px-Entr%C3%A9e_sur_le_c%C3%B4t%C3%A9_du_parvis_de_la_gare_de_Milano_Cadorna.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Entr%C3%A9e_sur_le_c%C3%B4t%C3%A9_du_parvis_de_la_gare_de_Milano_Cadorna.jpg/120px-Entr%C3%A9e_sur_le_c%C3%B4t%C3%A9_du_parvis_de_la_gare_de_Milano_Cadorna.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_sur_le_c%C3%B4t%C3%A9_du_parvis_de_la_gare_de_Milano_Cadorna.jpg",
+          "author": "Remontees",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "piccolo",
@@ -3694,12 +4331,54 @@
           "lng": 9.182339,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Day Two in Milan (43504917640).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Day_Two_in_Milan_%2843504917640%29.jpg/960px-Day_Two_in_Milan_%2843504917640%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Day_Two_in_Milan_%2843504917640%29.jpg/120px-Day_Two_in_Milan_%2843504917640%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Day_Two_in_Milan_(43504917640).jpg",
+          "author": "Daniel from Glasgow, United Kingdom",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Théâtre Piccolo - Milan (IT25) - 2022-09-03 - 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Th%C3%A9%C3%A2tre_Piccolo_-_Milan_%28IT25%29_-_2022-09-03_-_2.jpg/960px-Th%C3%A9%C3%A2tre_Piccolo_-_Milan_%28IT25%29_-_2022-09-03_-_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Th%C3%A9%C3%A2tre_Piccolo_-_Milan_%28IT25%29_-_2022-09-03_-_2.jpg/120px-Th%C3%A9%C3%A2tre_Piccolo_-_Milan_%28IT25%29_-_2022-09-03_-_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Th%C3%A9%C3%A2tre_Piccolo_-_Milan_(IT25)_-_2022-09-03_-_2.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Nuovo Piccolo Teatro Strehler.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Nuovo_Piccolo_Teatro_Strehler.jpg/960px-Nuovo_Piccolo_Teatro_Strehler.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Nuovo_Piccolo_Teatro_Strehler.jpg/120px-Nuovo_Piccolo_Teatro_Strehler.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Nuovo_Piccolo_Teatro_Strehler.jpg",
+          "author": "FR98PILL",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Théâtre Piccolo - Milan (IT25) - 2022-09-03 - 1.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Th%C3%A9%C3%A2tre_Piccolo_-_Milan_%28IT25%29_-_2022-09-03_-_1.jpg/960px-Th%C3%A9%C3%A2tre_Piccolo_-_Milan_%28IT25%29_-_2022-09-03_-_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Th%C3%A9%C3%A2tre_Piccolo_-_Milan_%28IT25%29_-_2022-09-03_-_1.jpg/120px-Th%C3%A9%C3%A2tre_Piccolo_-_Milan_%28IT25%29_-_2022-09-03_-_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Th%C3%A9%C3%A2tre_Piccolo_-_Milan_(IT25)_-_2022-09-03_-_1.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "lombardia",
@@ -3730,7 +4409,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Milano, Palazzo Lombardia.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Milano%2C_Palazzo_Lombardia.jpg/960px-Milano%2C_Palazzo_Lombardia.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Milano%2C_Palazzo_Lombardia.jpg/120px-Milano%2C_Palazzo_Lombardia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano,_Palazzo_Lombardia.jpg",
+          "author": "Flavmi",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Palazzo Lombardia, Milan, May 2018 (01).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Palazzo_Lombardia%2C_Milan%2C_May_2018_%2801%29.jpg/960px-Palazzo_Lombardia%2C_Milan%2C_May_2018_%2801%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Palazzo_Lombardia%2C_Milan%2C_May_2018_%2801%29.jpg/120px-Palazzo_Lombardia%2C_Milan%2C_May_2018_%2801%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Palazzo_Lombardia,_Milan,_May_2018_(01).jpg",
+          "author": "Ardfern",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/22539273@N00/50001182632",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/50001182632_5d88f3c969_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/50001182632_5d88f3c969_q.jpg",
+          "page": "https://www.flickr.com/photos/o_0/50001182632/",
+          "author": "*_*",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "file": "Milan Duomo (Ank Kumar, Infosys) 07.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Milan_Duomo_%28Ank_Kumar%2C_Infosys%29_07.jpg/960px-Milan_Duomo_%28Ank_Kumar%2C_Infosys%29_07.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Milan_Duomo_%28Ank_Kumar%2C_Infosys%29_07.jpg/120px-Milan_Duomo_%28Ank_Kumar%2C_Infosys%29_07.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milan_Duomo_(Ank_Kumar,_Infosys)_07.jpg",
+          "author": "Ank Kumar",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "memoria",
@@ -3758,12 +4478,44 @@
           "lng": 9.191242,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Casa della Memoria esterno a colori.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Casa_della_Memoria_esterno_a_colori.jpg/960px-Casa_della_Memoria_esterno_a_colori.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Casa_della_Memoria_esterno_a_colori.jpg/120px-Casa_della_Memoria_esterno_a_colori.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Casa_della_Memoria_esterno_a_colori.jpg",
+          "author": "Ettorre (gregorio)",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Casa della memoria.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Casa_della_memoria.jpg/960px-Casa_della_memoria.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Casa_della_memoria.jpg/120px-Casa_della_memoria.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Casa_della_memoria.jpg",
+          "author": "Simone Priori",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Editathon alla Casa della Memoria 07.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Editathon_alla_Casa_della_Memoria_07.jpg/960px-Editathon_alla_Casa_della_Memoria_07.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Editathon_alla_Casa_della_Memoria_07.jpg/120px-Editathon_alla_Casa_della_Memoria_07.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Editathon_alla_Casa_della_Memoria_07.jpg",
+          "author": "Bellatrovata",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "rovati",
@@ -3795,7 +4547,38 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Milano - Fondazione Luigi Rovati - Museo d'arte - 2024-09-01 20-46-52 001.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Milano_-_Fondazione_Luigi_Rovati_-_Museo_d%27arte_-_2024-09-01_20-46-52_001.jpg/960px-Milano_-_Fondazione_Luigi_Rovati_-_Museo_d%27arte_-_2024-09-01_20-46-52_001.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Milano_-_Fondazione_Luigi_Rovati_-_Museo_d%27arte_-_2024-09-01_20-46-52_001.jpg/120px-Milano_-_Fondazione_Luigi_Rovati_-_Museo_d%27arte_-_2024-09-01_20-46-52_001.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Fondazione_Luigi_Rovati_-_Museo_d%27arte_-_2024-09-01_20-46-52_001.jpg",
+          "author": "Barbaragerosa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Milano - Fondazione Luigi Rovati - Museo d'arte - 2024-09-01 20-55-58 001.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Milano_-_Fondazione_Luigi_Rovati_-_Museo_d%27arte_-_2024-09-01_20-55-58_001.jpg/960px-Milano_-_Fondazione_Luigi_Rovati_-_Museo_d%27arte_-_2024-09-01_20-55-58_001.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Milano_-_Fondazione_Luigi_Rovati_-_Museo_d%27arte_-_2024-09-01_20-55-58_001.jpg/120px-Milano_-_Fondazione_Luigi_Rovati_-_Museo_d%27arte_-_2024-09-01_20-55-58_001.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Fondazione_Luigi_Rovati_-_Museo_d%27arte_-_2024-09-01_20-55-58_001.jpg",
+          "author": "Barbaragerosa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Milano - Fondazione Luigi Rovati - Museo d'arte - 2024-09-01 20-49-34 001.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Milano_-_Fondazione_Luigi_Rovati_-_Museo_d%27arte_-_2024-09-01_20-49-34_001.jpg/960px-Milano_-_Fondazione_Luigi_Rovati_-_Museo_d%27arte_-_2024-09-01_20-49-34_001.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Milano_-_Fondazione_Luigi_Rovati_-_Museo_d%27arte_-_2024-09-01_20-49-34_001.jpg/120px-Milano_-_Fondazione_Luigi_Rovati_-_Museo_d%27arte_-_2024-09-01_20-49-34_001.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Fondazione_Luigi_Rovati_-_Museo_d%27arte_-_2024-09-01_20-49-34_001.jpg",
+          "author": "Barbaragerosa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "fiera",
@@ -3882,7 +4665,48 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Fieramilano Rho Pero 02.JPG",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Fieramilano_Rho_Pero_02.JPG/960px-Fieramilano_Rho_Pero_02.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Fieramilano_Rho_Pero_02.JPG/120px-Fieramilano_Rho_Pero_02.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Fieramilano_Rho_Pero_02.JPG",
+          "author": "böhringer friedrich",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+        },
+        {
+          "file": "Fieramilano Rho Pero 27.JPG",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Fieramilano_Rho_Pero_27.JPG/960px-Fieramilano_Rho_Pero_27.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Fieramilano_Rho_Pero_27.JPG/120px-Fieramilano_Rho_Pero_27.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Fieramilano_Rho_Pero_27.JPG",
+          "author": "böhringer friedrich",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+        },
+        {
+          "file": "Fieramilano Rho Pero 09.JPG",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Fieramilano_Rho_Pero_09.JPG/960px-Fieramilano_Rho_Pero_09.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Fieramilano_Rho_Pero_09.JPG/120px-Fieramilano_Rho_Pero_09.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Fieramilano_Rho_Pero_09.JPG",
+          "author": "böhringer friedrich",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+        },
+        {
+          "file": "Fieramilano Rho Pero 19.JPG",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Fieramilano_Rho_Pero_19.JPG/960px-Fieramilano_Rho_Pero_19.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Fieramilano_Rho_Pero_19.JPG/120px-Fieramilano_Rho_Pero_19.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Fieramilano_Rho_Pero_19.JPG",
+          "author": "böhringer friedrich",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+        }
+      ]
     },
     {
       "id": "mondadori",
@@ -3910,12 +4734,54 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Mondadori headquarters by Oscar Niemeyer, Segrate (Milano) 07.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Mondadori_headquarters_by_Oscar_Niemeyer%2C_Segrate_%28Milano%29_07.jpg/960px-Mondadori_headquarters_by_Oscar_Niemeyer%2C_Segrate_%28Milano%29_07.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Mondadori_headquarters_by_Oscar_Niemeyer%2C_Segrate_%28Milano%29_07.jpg/120px-Mondadori_headquarters_by_Oscar_Niemeyer%2C_Segrate_%28Milano%29_07.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mondadori_headquarters_by_Oscar_Niemeyer,_Segrate_(Milano)_07.jpg",
+          "author": "Carlo Dell'Orto",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Mondadori headquarters by Oscar Niemeyer, Segrate (Milano) 01.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Mondadori_headquarters_by_Oscar_Niemeyer%2C_Segrate_%28Milano%29_01.jpg/960px-Mondadori_headquarters_by_Oscar_Niemeyer%2C_Segrate_%28Milano%29_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Mondadori_headquarters_by_Oscar_Niemeyer%2C_Segrate_%28Milano%29_01.jpg/120px-Mondadori_headquarters_by_Oscar_Niemeyer%2C_Segrate_%28Milano%29_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mondadori_headquarters_by_Oscar_Niemeyer,_Segrate_(Milano)_01.jpg",
+          "author": "Carlo Dell'Orto",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Mondadori headquarters by Oscar Niemeyer, Segrate (Milano) 06.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Mondadori_headquarters_by_Oscar_Niemeyer%2C_Segrate_%28Milano%29_06.jpg/960px-Mondadori_headquarters_by_Oscar_Niemeyer%2C_Segrate_%28Milano%29_06.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Mondadori_headquarters_by_Oscar_Niemeyer%2C_Segrate_%28Milano%29_06.jpg/120px-Mondadori_headquarters_by_Oscar_Niemeyer%2C_Segrate_%28Milano%29_06.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mondadori_headquarters_by_Oscar_Niemeyer,_Segrate_(Milano)_06.jpg",
+          "author": "Carlo Dell'Orto",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Mondadori headquarters by Oscar Niemeyer, Segrate (Milano) 05.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Mondadori_headquarters_by_Oscar_Niemeyer%2C_Segrate_%28Milano%29_05.jpg/960px-Mondadori_headquarters_by_Oscar_Niemeyer%2C_Segrate_%28Milano%29_05.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Mondadori_headquarters_by_Oscar_Niemeyer%2C_Segrate_%28Milano%29_05.jpg/120px-Mondadori_headquarters_by_Oscar_Niemeyer%2C_Segrate_%28Milano%29_05.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mondadori_headquarters_by_Oscar_Niemeyer,_Segrate_(Milano)_05.jpg",
+          "author": "Carlo Dell'Orto",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "portello",
@@ -4054,7 +4920,48 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "2020 Parco del Portello 1.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/2020_Parco_del_Portello_1.jpg/960px-2020_Parco_del_Portello_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/2020_Parco_del_Portello_1.jpg/120px-2020_Parco_del_Portello_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:2020_Parco_del_Portello_1.jpg",
+          "author": "Saggittarius A",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "2020 Parco del Portello 4.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/2020_Parco_del_Portello_4.jpg/960px-2020_Parco_del_Portello_4.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/2020_Parco_del_Portello_4.jpg/120px-2020_Parco_del_Portello_4.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:2020_Parco_del_Portello_4.jpg",
+          "author": "Saggittarius A",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/o_0/49470224286/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/49470224286_0da5fc3e36_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/49470224286_0da5fc3e36_q.jpg",
+          "page": "https://www.flickr.com/photos/o_0/49470224286/",
+          "author": "*_*",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "file": "Parco del Portello.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Parco_del_Portello.jpg/960px-Parco_del_Portello.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Parco_del_Portello.jpg/120px-Parco_del_Portello.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Parco_del_Portello.jpg",
+          "author": "Bramfab",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "rcs",
@@ -4211,7 +5118,18 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Parcheggio selvaggio in via Pasolini a Milano nel quartiere Cascina Merlata nei pressi del centro commerciale Merlata Bloom.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Parcheggio_selvaggio_in_via_Pasolini_a_Milano_nel_quartiere_Cascina_Merlata_nei_pressi_del_centro_commerciale_Merlata_Bloom.jpg/960px-Parcheggio_selvaggio_in_via_Pasolini_a_Milano_nel_quartiere_Cascina_Merlata_nei_pressi_del_centro_commerciale_Merlata_Bloom.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Parcheggio_selvaggio_in_via_Pasolini_a_Milano_nel_quartiere_Cascina_Merlata_nei_pressi_del_centro_commerciale_Merlata_Bloom.jpg/120px-Parcheggio_selvaggio_in_via_Pasolini_a_Milano_nel_quartiere_Cascina_Merlata_nei_pressi_del_centro_commerciale_Merlata_Bloom.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Parcheggio_selvaggio_in_via_Pasolini_a_Milano_nel_quartiere_Cascina_Merlata_nei_pressi_del_centro_commerciale_Merlata_Bloom.jpg",
+          "author": "Marcuscalabresus",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "apple",
@@ -4240,12 +5158,54 @@
           "lng": 9.194087,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Piazza del liberty Milano da dietro 2018.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Piazza_del_liberty_Milano_da_dietro_2018.jpg/960px-Piazza_del_liberty_Milano_da_dietro_2018.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Piazza_del_liberty_Milano_da_dietro_2018.jpg/120px-Piazza_del_liberty_Milano_da_dietro_2018.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Piazza_del_liberty_Milano_da_dietro_2018.jpg",
+          "author": "Marcuscalabresus",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/22539273@N00/49871179767",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/49871179767_9eb5507a16_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/49871179767_9eb5507a16_q.jpg",
+          "page": "https://www.flickr.com/photos/o_0/49871179767/",
+          "author": "*_*",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "file": "Apple Piazza Liberty 201807.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Apple_Piazza_Liberty_201807.jpg/960px-Apple_Piazza_Liberty_201807.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Apple_Piazza_Liberty_201807.jpg/120px-Apple_Piazza_Liberty_201807.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Apple_Piazza_Liberty_201807.jpg",
+          "author": "DavidSandoz from Wabern, Suisse",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/22539273@N00/49762755292",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/49762755292_cc3a8803f0_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/49762755292_cc3a8803f0_q.jpg",
+          "page": "https://www.flickr.com/photos/o_0/49762755292/",
+          "author": "*_*",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "monte-rosa-91",
@@ -4335,12 +5295,34 @@
           "lng": 9.163724,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "IULM 6 Tower Milan.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/IULM_6_Tower_Milan.jpg/960px-IULM_6_Tower_Milan.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/IULM_6_Tower_Milan.jpg/120px-IULM_6_Tower_Milan.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:IULM_6_Tower_Milan.jpg",
+          "author": "Michael Weinold",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Libera Università di Lingue e Comunicazone IULM, Milano.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Libera_Universit%C3%A0_di_Lingue_e_Comunicazone_IULM%2C_Milano.jpg/960px-Libera_Universit%C3%A0_di_Lingue_e_Comunicazone_IULM%2C_Milano.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Libera_Universit%C3%A0_di_Lingue_e_Comunicazone_IULM%2C_Milano.jpg/120px-Libera_Universit%C3%A0_di_Lingue_e_Comunicazone_IULM%2C_Milano.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Libera_Universit%C3%A0_di_Lingue_e_Comunicazone_IULM,_Milano.jpg",
+          "author": "DaveM93",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      ]
     },
     {
       "id": "simpliciano",
@@ -4592,7 +5574,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/22218065596/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/572/22218065596_be256855d5_b.jpg",
+          "thumb": "https://live.staticflickr.com/572/22218065596_be256855d5_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/22218065596/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "file": "Milano - edificio via Serbelloni 14.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Milano_-_edificio_via_Serbelloni_14.jpg/960px-Milano_-_edificio_via_Serbelloni_14.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Milano_-_edificio_via_Serbelloni_14.jpg/120px-Milano_-_edificio_via_Serbelloni_14.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_edificio_via_Serbelloni_14.jpg",
+          "author": "Arbalete",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/22217992086/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/773/22217992086_c953f77612_b.jpg",
+          "thumb": "https://live.staticflickr.com/773/22217992086_c953f77612_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/22217992086/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "file": "20160723 Seconda casa Berri Meregalli.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/20160723_Seconda_casa_Berri_Meregalli.jpg/960px-20160723_Seconda_casa_Berri_Meregalli.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/20160723_Seconda_casa_Berri_Meregalli.jpg/120px-20160723_Seconda_casa_Berri_Meregalli.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:20160723_Seconda_casa_Berri_Meregalli.jpg",
+          "author": "Melancholia~itwiki",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
     },
     {
       "id": "hangar",
@@ -4618,12 +5641,54 @@
           "lng": 9.220148,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Milano - HangarBicocca - Esterno.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Milano_-_HangarBicocca_-_Esterno.jpg/960px-Milano_-_HangarBicocca_-_Esterno.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Milano_-_HangarBicocca_-_Esterno.jpg/120px-Milano_-_HangarBicocca_-_Esterno.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_HangarBicocca_-_Esterno.jpg",
+          "author": "Silvana Gallio",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "HangarBicocca, vue du haut du Hangar.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/HangarBicocca%2C_vue_du_haut_du_Hangar.jpg/960px-HangarBicocca%2C_vue_du_haut_du_Hangar.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/HangarBicocca%2C_vue_du_haut_du_Hangar.jpg/120px-HangarBicocca%2C_vue_du_haut_du_Hangar.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:HangarBicocca,_vue_du_haut_du_Hangar.jpg",
+          "author": "The42grabber",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Milano - HangarBicocca -.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Milano_-_HangarBicocca_-.jpg/960px-Milano_-_HangarBicocca_-.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Milano_-_HangarBicocca_-.jpg/120px-Milano_-_HangarBicocca_-.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_HangarBicocca_-.jpg",
+          "author": "Silvana Gallio",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "The Seven Heavenly Palaces (3637).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/The_Seven_Heavenly_Palaces_%283637%29.jpg/960px-The_Seven_Heavenly_Palaces_%283637%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/The_Seven_Heavenly_Palaces_%283637%29.jpg/120px-The_Seven_Heavenly_Palaces_%283637%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Seven_Heavenly_Palaces_(3637).jpg",
+          "author": "Gampe",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "chiaravalle",
@@ -4712,7 +5777,38 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Piscina Romano dal Politecnico.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Piscina_Romano_dal_Politecnico.jpg/960px-Piscina_Romano_dal_Politecnico.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Piscina_Romano_dal_Politecnico.jpg/120px-Piscina_Romano_dal_Politecnico.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Piscina_Romano_dal_Politecnico.jpg",
+          "author": "Saggittarius A",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Piscina Guido Romano - View Via Ampere - Summer 2017.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Piscina_Guido_Romano_-_View_Via_Ampere_-_Summer_2017.jpg/960px-Piscina_Guido_Romano_-_View_Via_Ampere_-_Summer_2017.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Piscina_Guido_Romano_-_View_Via_Ampere_-_Summer_2017.jpg/120px-Piscina_Guido_Romano_-_View_Via_Ampere_-_Summer_2017.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Piscina_Guido_Romano_-_View_Via_Ampere_-_Summer_2017.jpg",
+          "author": "Faffoman",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "PISCINA ROMANO.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/PISCINA_ROMANO.jpg/960px-PISCINA_ROMANO.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/PISCINA_ROMANO.jpg/120px-PISCINA_ROMANO.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:PISCINA_ROMANO.jpg",
+          "author": "Lauraderiu",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "ca-brutta",
@@ -4742,7 +5838,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/luca_volpi/8628508059/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/8541/8628508059_58136054a9_b.jpg",
+          "thumb": "https://live.staticflickr.com/8541/8628508059_58136054a9_q.jpg",
+          "page": "https://www.flickr.com/photos/luca_volpi/8628508059/",
+          "author": "Goldmund100",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/luca_volpi/8629634466/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/8264/8629634466_2d9b12a999_b.jpg",
+          "thumb": "https://live.staticflickr.com/8264/8629634466_2d9b12a999_q.jpg",
+          "page": "https://www.flickr.com/photos/luca_volpi/8629634466/",
+          "author": "Goldmund100",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/56294332@N00/40865550652",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/4777/40865550652_7b33a887c1_b.jpg",
+          "thumb": "https://live.staticflickr.com/4777/40865550652_7b33a887c1_q.jpg",
+          "page": "https://www.flickr.com/photos/56294332@N00/40865550652/",
+          "author": "shermaniac",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        },
+        {
+          "file": "Paolo Monti – Milano. Ca' Brutta, 1982 circa – BEIC IE9091089.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Paolo_Monti_%E2%80%93_Milano._Ca%27_Brutta%2C_1982_circa_%E2%80%93_BEIC_IE9091089.jpg/960px-Paolo_Monti_%E2%80%93_Milano._Ca%27_Brutta%2C_1982_circa_%E2%80%93_BEIC_IE9091089.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Paolo_Monti_%E2%80%93_Milano._Ca%27_Brutta%2C_1982_circa_%E2%80%93_BEIC_IE9091089.jpg/120px-Paolo_Monti_%E2%80%93_Milano._Ca%27_Brutta%2C_1982_circa_%E2%80%93_BEIC_IE9091089.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Paolo_Monti_%E2%80%93_Milano._Ca%27_Brutta,_1982_circa_%E2%80%93_BEIC_IE9091089.jpg",
+          "author": "Paolo Monti",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "rasini",
@@ -4767,12 +5904,24 @@
           "lng": 9.204381,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Paolo Monti – Milano. Palazzo e Torre Rasini, 1982 circa – BEIC IE9092271.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Paolo_Monti_%E2%80%93_Milano._Palazzo_e_Torre_Rasini%2C_1982_circa_%E2%80%93_BEIC_IE9092271.jpg/960px-Paolo_Monti_%E2%80%93_Milano._Palazzo_e_Torre_Rasini%2C_1982_circa_%E2%80%93_BEIC_IE9092271.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Paolo_Monti_%E2%80%93_Milano._Palazzo_e_Torre_Rasini%2C_1982_circa_%E2%80%93_BEIC_IE9092271.jpg/120px-Paolo_Monti_%E2%80%93_Milano._Palazzo_e_Torre_Rasini%2C_1982_circa_%E2%80%93_BEIC_IE9092271.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Paolo_Monti_%E2%80%93_Milano._Palazzo_e_Torre_Rasini,_1982_circa_%E2%80%93_BEIC_IE9092271.jpg",
+          "author": "Paolo Monti",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "lavezzari",
@@ -4797,12 +5946,34 @@
           "lng": 9.215967,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Milano casa Lavezzari vista.JPG",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/Milano_casa_Lavezzari_vista.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Milano_casa_Lavezzari_vista.JPG/120px-Milano_casa_Lavezzari_vista.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_casa_Lavezzari_vista.JPG",
+          "author": "Arbalete",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Milano casa Lavezzari scorcio.JPG",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Milano_casa_Lavezzari_scorcio.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Milano_casa_Lavezzari_scorcio.JPG/120px-Milano_casa_Lavezzari_scorcio.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_casa_Lavezzari_scorcio.JPG",
+          "author": "Arbalete",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "repubblica",
@@ -4846,7 +6017,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Piazza della Repubblica - ingresso linea 3 metropolitana - Milano (cropped).JPG",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Piazza_della_Repubblica_-_ingresso_linea_3_metropolitana_-_Milano_%28cropped%29.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Piazza_della_Repubblica_-_ingresso_linea_3_metropolitana_-_Milano_%28cropped%29.JPG/120px-Piazza_della_Repubblica_-_ingresso_linea_3_metropolitana_-_Milano_%28cropped%29.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Piazza_della_Repubblica_-_ingresso_linea_3_metropolitana_-_Milano_(cropped).JPG",
+          "author": "Stefano Stabile",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Milano torre Turati.JPG",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Milano_torre_Turati.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Milano_torre_Turati.JPG/120px-Milano_torre_Turati.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_torre_Turati.JPG",
+          "author": "Arbalete",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Breda Tower from Viale Tunisia.jpg",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Breda_Tower_from_Viale_Tunisia.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Breda_Tower_from_Viale_Tunisia.jpg/120px-Breda_Tower_from_Viale_Tunisia.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Breda_Tower_from_Viale_Tunisia.jpg",
+          "author": "Moongateclimber",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/150699379@N08/31276724493",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/445/31276724493_72105e7bef_b.jpg",
+          "thumb": "https://live.staticflickr.com/445/31276724493_72105e7bef_q.jpg",
+          "page": "https://www.flickr.com/photos/150699379@N08/31276724493/",
+          "author": "ceciliabrioschi",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "velasca",
@@ -4880,7 +6092,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Torre Velasca 01.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Torre_Velasca_01.jpg/960px-Torre_Velasca_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Torre_Velasca_01.jpg/120px-Torre_Velasca_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Torre_Velasca_01.jpg",
+          "author": "https://www.flickr.com/photos/davidorban/",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Milano - Torre Velasca - panoramio - MarkusMark (1).jpg",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Milano_-_Torre_Velasca_-_panoramio_-_MarkusMark_%281%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Milano_-_Torre_Velasca_-_panoramio_-_MarkusMark_%281%29.jpg/120px-Milano_-_Torre_Velasca_-_panoramio_-_MarkusMark_%281%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Torre_Velasca_-_panoramio_-_MarkusMark_(1).jpg",
+          "author": "MarkusMark",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Milano - Torre Velasca vista da Via Francesco Sforza - panoramio.jpg",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Milano_-_Torre_Velasca_vista_da_Via_Francesco_Sforza_-_panoramio.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Milano_-_Torre_Velasca_vista_da_Via_Francesco_Sforza_-_panoramio.jpg/120px-Milano_-_Torre_Velasca_vista_da_Via_Francesco_Sforza_-_panoramio.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Torre_Velasca_vista_da_Via_Francesco_Sforza_-_panoramio.jpg",
+          "author": "MarkusMark",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/cicciopizzettaro/54600477239/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/54600477239_d8fc172e80_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/54600477239_d8fc172e80_q.jpg",
+          "page": "https://www.flickr.com/photos/cicciopizzettaro/54600477239/",
+          "author": "Ciccio Pizzettaro",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+        }
+      ]
     },
     {
       "id": "gallaratese",
@@ -4913,7 +6166,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/56294332@N00/43687388885",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/1854/43687388885_6683cb24b2_b.jpg",
+          "thumb": "https://live.staticflickr.com/1854/43687388885_6683cb24b2_q.jpg",
+          "page": "https://www.flickr.com/photos/56294332@N00/43687388885/",
+          "author": "shermaniac",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/56294332@N00/44597030131",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/1883/44597030131_14c4cc5e3b_b.jpg",
+          "thumb": "https://live.staticflickr.com/1883/44597030131_14c4cc5e3b_q.jpg",
+          "page": "https://www.flickr.com/photos/56294332@N00/44597030131/",
+          "author": "shermaniac",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/13016192@N00/2697394691",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/3098/2697394691_9a519a0a0f_b.jpg",
+          "thumb": "https://live.staticflickr.com/3098/2697394691_9a519a0a0f_q.jpg",
+          "page": "https://www.flickr.com/photos/luca_volpi/2697394691/",
+          "author": "Goldmund100",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/147316538@N02/32891236566",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/2807/32891236566_02b91491dc_z.jpg",
+          "thumb": "https://live.staticflickr.com/2807/32891236566_02b91491dc_q.jpg",
+          "page": "https://www.flickr.com/photos/147316538@N02/32891236566/",
+          "author": "bianca.maggio",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+        }
+      ]
     },
     {
       "id": "politecnico",
@@ -4970,12 +6264,54 @@
           "lng": 9.192343,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Milano - monumento a Sandro Pertini.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Milano_-_monumento_a_Sandro_Pertini.jpg/960px-Milano_-_monumento_a_Sandro_Pertini.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Milano_-_monumento_a_Sandro_Pertini.jpg/120px-Milano_-_monumento_a_Sandro_Pertini.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_monumento_a_Sandro_Pertini.jpg",
+          "author": "Sordelli",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/22539273@N00/50115001193",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/50115001193_c275734d08_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/50115001193_c275734d08_q.jpg",
+          "page": "https://www.flickr.com/photos/o_0/50115001193/",
+          "author": "*_*",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/22539273@N00/50115572996",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/50115572996_df68c057a1_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/50115572996_df68c057a1_q.jpg",
+          "page": "https://www.flickr.com/photos/o_0/50115572996/",
+          "author": "*_*",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "file": "Monumento a Sandro Pertini @ Milan (50115000403).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Monumento_a_Sandro_Pertini_%40_Milan_%2850115000403%29.jpg/960px-Monumento_a_Sandro_Pertini_%40_Milan_%2850115000403%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Monumento_a_Sandro_Pertini_%40_Milan_%2850115000403%29.jpg/120px-Monumento_a_Sandro_Pertini_%40_Milan_%2850115000403%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Monumento_a_Sandro_Pertini_@_Milan_(50115000403).jpg",
+          "author": "Guilhem Vellut from Annecy, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     },
     {
       "id": "marchiondi",
@@ -5000,12 +6336,44 @@
           "lng": 9.083592,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Paolo Monti - Servizio fotografico - BEIC 6365924.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Paolo_Monti_-_Servizio_fotografico_-_BEIC_6365924.jpg/960px-Paolo_Monti_-_Servizio_fotografico_-_BEIC_6365924.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Paolo_Monti_-_Servizio_fotografico_-_BEIC_6365924.jpg/120px-Paolo_Monti_-_Servizio_fotografico_-_BEIC_6365924.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Paolo_Monti_-_Servizio_fotografico_-_BEIC_6365924.jpg",
+          "author": "Paolo Monti",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Paolo Monti – Milano. Istituto minorile Marchiondi Spagliardi, 1957 circa – BEIC IE9090762.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Paolo_Monti_%E2%80%93_Milano._Istituto_minorile_Marchiondi_Spagliardi%2C_1957_circa_%E2%80%93_BEIC_IE9090762.jpg/960px-Paolo_Monti_%E2%80%93_Milano._Istituto_minorile_Marchiondi_Spagliardi%2C_1957_circa_%E2%80%93_BEIC_IE9090762.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Paolo_Monti_%E2%80%93_Milano._Istituto_minorile_Marchiondi_Spagliardi%2C_1957_circa_%E2%80%93_BEIC_IE9090762.jpg/120px-Paolo_Monti_%E2%80%93_Milano._Istituto_minorile_Marchiondi_Spagliardi%2C_1957_circa_%E2%80%93_BEIC_IE9090762.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Paolo_Monti_%E2%80%93_Milano._Istituto_minorile_Marchiondi_Spagliardi,_1957_circa_%E2%80%93_BEIC_IE9090762.jpg",
+          "author": "Paolo Monti",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Paolo Monti – Milano. Istituto minorile Marchiondi Spagliardi, 1957 circa – BEIC IE9090555.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Paolo_Monti_%E2%80%93_Milano._Istituto_minorile_Marchiondi_Spagliardi%2C_1957_circa_%E2%80%93_BEIC_IE9090555.jpg/960px-Paolo_Monti_%E2%80%93_Milano._Istituto_minorile_Marchiondi_Spagliardi%2C_1957_circa_%E2%80%93_BEIC_IE9090555.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Paolo_Monti_%E2%80%93_Milano._Istituto_minorile_Marchiondi_Spagliardi%2C_1957_circa_%E2%80%93_BEIC_IE9090555.jpg/120px-Paolo_Monti_%E2%80%93_Milano._Istituto_minorile_Marchiondi_Spagliardi%2C_1957_circa_%E2%80%93_BEIC_IE9090555.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Paolo_Monti_%E2%80%93_Milano._Istituto_minorile_Marchiondi_Spagliardi,_1957_circa_%E2%80%93_BEIC_IE9090555.jpg",
+          "author": "Paolo Monti",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "san-giovanni-bono",
@@ -5030,12 +6398,44 @@
           "lng": 9.162114,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Milano - Chiesa di San Giovanni Bono - 2023-09-29 00-09-47 001.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Milano_-_Chiesa_di_San_Giovanni_Bono_-_2023-09-29_00-09-47_001.jpg/960px-Milano_-_Chiesa_di_San_Giovanni_Bono_-_2023-09-29_00-09-47_001.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Milano_-_Chiesa_di_San_Giovanni_Bono_-_2023-09-29_00-09-47_001.jpg/120px-Milano_-_Chiesa_di_San_Giovanni_Bono_-_2023-09-29_00-09-47_001.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Chiesa_di_San_Giovanni_Bono_-_2023-09-29_00-09-47_001.jpg",
+          "author": "Carlo318",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Milano chiesa San Giovanni Bono fianco est.JPG",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Milano_chiesa_San_Giovanni_Bono_fianco_est.JPG/960px-Milano_chiesa_San_Giovanni_Bono_fianco_est.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Milano_chiesa_San_Giovanni_Bono_fianco_est.JPG/120px-Milano_chiesa_San_Giovanni_Bono_fianco_est.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_chiesa_San_Giovanni_Bono_fianco_est.JPG",
+          "author": "Arbalete",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Milano chiesa San Giovanni Bono altare.JPG",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Milano_chiesa_San_Giovanni_Bono_altare.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Milano_chiesa_San_Giovanni_Bono_altare.JPG/120px-Milano_chiesa_San_Giovanni_Bono_altare.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_chiesa_San_Giovanni_Bono_altare.JPG",
+          "author": "Arbalete",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      ]
     },
     {
       "id": "tre-cilindri",
@@ -5060,12 +6460,35 @@
           "lng": 9.139457,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera",
+            "photo-object"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Milano - casa a tre cilindri - vista.JPG",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Milano_-_casa_a_tre_cilindri_-_vista.JPG/960px-Milano_-_casa_a_tre_cilindri_-_vista.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Milano_-_casa_a_tre_cilindri_-_vista.JPG/120px-Milano_-_casa_a_tre_cilindri_-_vista.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_casa_a_tre_cilindri_-_vista.JPG",
+          "author": "Arbalete",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Paolo Monti - Servizio fotografico - BEIC 6356058.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Paolo_Monti_-_Servizio_fotografico_-_BEIC_6356058.jpg/960px-Paolo_Monti_-_Servizio_fotografico_-_BEIC_6356058.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Paolo_Monti_-_Servizio_fotografico_-_BEIC_6356058.jpg/120px-Paolo_Monti_-_Servizio_fotografico_-_BEIC_6356058.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Paolo_Monti_-_Servizio_fotografico_-_BEIC_6356058.jpg",
+          "author": "Paolo Monti",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "igloo",
@@ -5088,14 +6511,44 @@
           "lat": 45.497751,
           "lng": 9.202778,
           "verifiedBy": [
-            "osm"
-          ],
-          "approximate": true,
-          "osmOnly": true
+            "osm",
+            "photo-camera"
+          ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "2021-07 2 Milano, case igloo.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/2021-07_2_Milano%2C_case_igloo.jpg/960px-2021-07_2_Milano%2C_case_igloo.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/2021-07_2_Milano%2C_case_igloo.jpg/120px-2021-07_2_Milano%2C_case_igloo.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:2021-07_2_Milano,_case_igloo.jpg",
+          "author": "Doraz77",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Igloo houses in Maggiolina.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Igloo_houses_in_Maggiolina.jpg/960px-Igloo_houses_in_Maggiolina.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Igloo_houses_in_Maggiolina.jpg/120px-Igloo_houses_in_Maggiolina.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Igloo_houses_in_Maggiolina.jpg",
+          "author": "FlavMi",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Milano, Maggiolina, case a igloo 01.jpg",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/92/Milano%2C_Maggiolina%2C_case_a_igloo_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Milano%2C_Maggiolina%2C_case_a_igloo_01.jpg/120px-Milano%2C_Maggiolina%2C_case_a_igloo_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano,_Maggiolina,_case_a_igloo_01.jpg",
+          "author": "Anonymous Unknown author",
+          "license": "Public domain",
+          "licenseUrl": null
+        }
+      ]
     },
     {
       "id": "giardini-montanelli",
@@ -6122,7 +7575,38 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/o_0/49470140426/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/49470140426_f18d8fd64b_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/49470140426_f18d8fd64b_q.jpg",
+          "page": "https://www.flickr.com/photos/o_0/49470140426/",
+          "author": "*_*",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "file": "Monte Stella - Milano 07-2009 - panoramio.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Monte_Stella_-_Milano_07-2009_-_panoramio.jpg/960px-Monte_Stella_-_Milano_07-2009_-_panoramio.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Monte_Stella_-_Milano_07-2009_-_panoramio.jpg/120px-Monte_Stella_-_Milano_07-2009_-_panoramio.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Monte_Stella_-_Milano_07-2009_-_panoramio.jpg",
+          "author": "adirricor",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/o_0/49464744037/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/49464744037_f878e0edb2_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/49464744037_f878e0edb2_q.jpg",
+          "page": "https://www.flickr.com/photos/o_0/49464744037/",
+          "author": "*_*",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "bam",
@@ -6235,7 +7719,48 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Milano - Biblioteca degli Alberi - 01.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Milano_-_Biblioteca_degli_Alberi_-_01.jpg/960px-Milano_-_Biblioteca_degli_Alberi_-_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Milano_-_Biblioteca_degli_Alberi_-_01.jpg/120px-Milano_-_Biblioteca_degli_Alberi_-_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Biblioteca_degli_Alberi_-_01.jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Milano - Biblioteca degli Alberi - 02.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Milano_-_Biblioteca_degli_Alberi_-_02.jpg/960px-Milano_-_Biblioteca_degli_Alberi_-_02.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Milano_-_Biblioteca_degli_Alberi_-_02.jpg/120px-Milano_-_Biblioteca_degli_Alberi_-_02.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Biblioteca_degli_Alberi_-_02.jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Milano - Biblioteca degli Alberi - 03.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Milano_-_Biblioteca_degli_Alberi_-_03.jpg/960px-Milano_-_Biblioteca_degli_Alberi_-_03.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Milano_-_Biblioteca_degli_Alberi_-_03.jpg/120px-Milano_-_Biblioteca_degli_Alberi_-_03.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Biblioteca_degli_Alberi_-_03.jpg",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/22539273@N00/49997374203",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/49997374203_14ca47db37_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/49997374203_14ca47db37_q.jpg",
+          "page": "https://www.flickr.com/photos/o_0/49997374203/",
+          "author": "*_*",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "boscoincitta",

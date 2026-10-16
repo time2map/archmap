@@ -374,7 +374,12 @@ async function contactSheet(candidates, file) {
   await Promise.all(candidates.map(async (c, i) => {
     const x = (i % COLS) * TILE_W
     const y = Math.floor(i / COLS) * TILE_H
-    const res = await fetch(c.thumb, { headers: { 'User-Agent': USER_AGENT } }).catch(() => null)
+    // Commons refuses some of a burst of thumbnails (HTTP 429): a blank tile, unless asked again
+    let res = null
+    for (let attempt = 0; attempt < 4 && !res?.ok; attempt++) {
+      if (attempt) await sleep(2000 * attempt + Math.random() * 1000)
+      res = await fetch(c.thumb, { headers: { 'User-Agent': USER_AGENT } }).catch(() => null)
+    }
     if (res?.ok) {
       const input = await sharp(Buffer.from(await res.arrayBuffer()))
         .resize(TILE_W - 6, TILE_H - 30, { fit: 'contain', background: '#ffffff' }).toBuffer().catch(() => null)
