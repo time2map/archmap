@@ -160,10 +160,14 @@ async function categoriesByName(names, place) {
 async function osmCommons(osmRefs) {
   if (osmRefs.length === 0) return []
   const prefix = { node: 'N', way: 'W', relation: 'R' }
-  const json = await fetchJson(`https://nominatim.openstreetmap.org/lookup?${new URLSearchParams({
-    osm_ids: osmRefs.map(r => prefix[r.split('/')[0]] + r.split('/')[1]).join(','), format: 'json', extratags: '1'
-  })}`)
-  await sleep(1100)
+  // Nominatim looks up 50 objects a request at most (a promenade of 51 ways got HTTP 400)
+  const json = []
+  for (let i = 0; i < osmRefs.length; i += 50) {
+    json.push(...await fetchJson(`https://nominatim.openstreetmap.org/lookup?${new URLSearchParams({
+      osm_ids: osmRefs.slice(i, i + 50).map(r => prefix[r.split('/')[0]] + r.split('/')[1]).join(','), format: 'json', extratags: '1'
+    })}`))
+    await sleep(1100)
+  }
   const titles = []
   for (const item of json) {
     for (const value of [item.extratags?.wikimedia_commons, item.extratags?.image].filter(Boolean)) {

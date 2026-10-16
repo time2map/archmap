@@ -3693,7 +3693,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "unsplash": "https://unsplash.com/photos/white-and-red-building-FLw2X9tp394",
+          "nonCommercial": true,
+          "src": "https://images.unsplash.com/photo-1540651983585-81bde7fdfd3a?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ0MDUwfA&ixlib=rb-4.1.0&w=960&q=80",
+          "thumb": "https://images.unsplash.com/photo-1540651983585-81bde7fdfd3a?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ0MDUwfA&ixlib=rb-4.1.0&w=120&h=120&fit=crop&q=70",
+          "page": "https://unsplash.com/@ostia24?utm_source=archmap&utm_medium=referral",
+          "author": "Volker Junker",
+          "license": "Unsplash License",
+          "licenseUrl": "https://unsplash.com/license"
+        },
+        {
+          "unsplash": "https://unsplash.com/photos/blue-building-under-blue-sky-during-daytime-XgsxpANbF2E",
+          "nonCommercial": true,
+          "src": "https://images.unsplash.com/photo-1565025072863-7e73bd68c7cb?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ0MDUwfA&ixlib=rb-4.1.0&w=960&q=80",
+          "thumb": "https://images.unsplash.com/photo-1565025072863-7e73bd68c7cb?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ0MDUwfA&ixlib=rb-4.1.0&w=120&h=120&fit=crop&q=70",
+          "page": "https://unsplash.com/@hariboisverygood?utm_source=archmap&utm_medium=referral",
+          "author": "Adora Goodenough",
+          "license": "Unsplash License",
+          "licenseUrl": "https://unsplash.com/license"
+        },
+        {
+          "unsplash": "https://unsplash.com/photos/a-train-travels-down-the-tracks-fAcGlDhTlI0",
+          "nonCommercial": true,
+          "src": "https://images.unsplash.com/photo-1659731772578-6f917bca939f?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ0MDUwfA&ixlib=rb-4.1.0&w=960&q=80",
+          "thumb": "https://images.unsplash.com/photo-1659731772578-6f917bca939f?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ0MDUwfA&ixlib=rb-4.1.0&w=120&h=120&fit=crop&q=70",
+          "page": "https://unsplash.com/@meizhilang?utm_source=archmap&utm_medium=referral",
+          "author": "Meizhi Lang",
+          "license": "Unsplash License",
+          "licenseUrl": "https://unsplash.com/license"
+        },
+        {
+          "file": "Centre Pompidou @ Jardin Anne-Frank.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Centre_Pompidou_%40_Jardin_Anne-Frank.jpg/960px-Centre_Pompidou_%40_Jardin_Anne-Frank.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Centre_Pompidou_%40_Jardin_Anne-Frank.jpg/120px-Centre_Pompidou_%40_Jardin_Anne-Frank.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Centre_Pompidou_@_Jardin_Anne-Frank.jpg",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "montparnasse",
@@ -3726,7 +3767,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/9813542@N08/3094071650",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/3239/3094071650_40c4f89f59_c.jpg",
+          "thumb": "https://live.staticflickr.com/3239/3094071650_40c4f89f59_q.jpg",
+          "page": "https://www.flickr.com/photos/ijansch/3094071650/",
+          "author": "Ivo Jansch",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        },
+        {
+          "file": "TourMontparnasse VueDeLux.jpg",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/6/6e/TourMontparnasse_VueDeLux.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/TourMontparnasse_VueDeLux.jpg/120px-TourMontparnasse_VueDeLux.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:TourMontparnasse_VueDeLux.jpg",
+          "author": "Sebjarod at French Wikipedia",
+          "license": "Public domain",
+          "licenseUrl": null
+        },
+        {
+          "file": "Rue de Renne with the Tower in Montparnasse, Paris.JPG",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Rue_de_Renne_with_the_Tower_in_Montparnasse%2C_Paris.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Rue_de_Renne_with_the_Tower_in_Montparnasse%2C_Paris.JPG/120px-Rue_de_Renne_with_the_Tower_in_Montparnasse%2C_Paris.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Rue_de_Renne_with_the_Tower_in_Montparnasse,_Paris.JPG",
+          "author": "Britchi Mirela",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/22539273@N00/8099303016",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/8053/8099303016_8c9d869f9e_b.jpg",
+          "thumb": "https://live.staticflickr.com/8053/8099303016_8c9d869f9e_q.jpg",
+          "page": "https://www.flickr.com/photos/o_0/8099303016/",
+          "author": "*_*",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "orsay",
@@ -4546,7 +4628,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Grande Mosquée de Paris.JPG",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Grande_Mosqu%C3%A9e_de_Paris.JPG/960px-Grande_Mosqu%C3%A9e_de_Paris.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Grande_Mosqu%C3%A9e_de_Paris.JPG/120px-Grande_Mosqu%C3%A9e_de_Paris.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Grande_Mosqu%C3%A9e_de_Paris.JPG",
+          "author": "LPLT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Grande Mosquée de Paris @ Paris (25297120789).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Grande_Mosqu%C3%A9e_de_Paris_%40_Paris_%2825297120789%29.jpg/960px-Grande_Mosqu%C3%A9e_de_Paris_%40_Paris_%2825297120789%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Grande_Mosqu%C3%A9e_de_Paris_%40_Paris_%2825297120789%29.jpg/120px-Grande_Mosqu%C3%A9e_de_Paris_%40_Paris_%2825297120789%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Grande_Mosqu%C3%A9e_de_Paris_@_Paris_(25297120789).jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Gran Mezquita, París, Francia, 2026-04-05, DD 73.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Gran_Mezquita%2C_Par%C3%ADs%2C_Francia%2C_2026-04-05%2C_DD_73.jpg/960px-Gran_Mezquita%2C_Par%C3%ADs%2C_Francia%2C_2026-04-05%2C_DD_73.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Gran_Mezquita%2C_Par%C3%ADs%2C_Francia%2C_2026-04-05%2C_DD_73.jpg/120px-Gran_Mezquita%2C_Par%C3%ADs%2C_Francia%2C_2026-04-05%2C_DD_73.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gran_Mezquita,_Par%C3%ADs,_Francia,_2026-04-05,_DD_73.jpg",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "unsplash": "https://unsplash.com/photos/a-fountain-in-the-middle-of-a-garden-dswUVoVMRt4",
+          "nonCommercial": true,
+          "src": "https://images.unsplash.com/photo-1692924869416-25046013bc45?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ0MDUwfA&ixlib=rb-4.1.0&w=960&q=80",
+          "thumb": "https://images.unsplash.com/photo-1692924869416-25046013bc45?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ0MDUwfA&ixlib=rb-4.1.0&w=120&h=120&fit=crop&q=70",
+          "page": "https://unsplash.com/@mrluckya4?utm_source=archmap&utm_medium=referral",
+          "author": "Ali Kerem Erhan",
+          "license": "Unsplash License",
+          "licenseUrl": "https://unsplash.com/license"
+        }
+      ]
     },
     {
       "id": "samaritaine",
@@ -4645,12 +4768,54 @@
           "lng": 2.302904,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Le théâtre des Champs-Élysées à Paris, 2022.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Le_th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es_%C3%A0_Paris%2C_2022.jpg/960px-Le_th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es_%C3%A0_Paris%2C_2022.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Le_th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es_%C3%A0_Paris%2C_2022.jpg/120px-Le_th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es_%C3%A0_Paris%2C_2022.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Le_th%C3%A9%C3%A2tre_des_Champs-%C3%89lys%C3%A9es_%C3%A0_Paris,_2022.jpg",
+          "author": "Jean-Pierre Dalbéra",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Paris - Théâtre des Champs-Elysées (32534012295).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Paris_-_Th%C3%A9%C3%A2tre_des_Champs-Elys%C3%A9es_%2832534012295%29.jpg/960px-Paris_-_Th%C3%A9%C3%A2tre_des_Champs-Elys%C3%A9es_%2832534012295%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Paris_-_Th%C3%A9%C3%A2tre_des_Champs-Elys%C3%A9es_%2832534012295%29.jpg/120px-Paris_-_Th%C3%A9%C3%A2tre_des_Champs-Elys%C3%A9es_%2832534012295%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Th%C3%A9%C3%A2tre_des_Champs-Elys%C3%A9es_(32534012295).jpg",
+          "author": "Fred Romero from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/32411388631/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/674/32411388631_eeff187a90_b.jpg",
+          "thumb": "https://live.staticflickr.com/674/32411388631_eeff187a90_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/32411388631/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/61895332@N00/8178927439",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/8347/8178927439_4b18571a70_b.jpg",
+          "thumb": "https://live.staticflickr.com/8347/8178927439_4b18571a70_q.jpg",
+          "page": "https://www.flickr.com/photos/denejac/8178927439/",
+          "author": "jacques.deneux",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        }
+      ]
     },
     {
       "id": "portedoree",
@@ -4681,7 +4846,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Palais Porte Doree Facade gauche.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Palais_Porte_Doree_Facade_gauche.jpg/960px-Palais_Porte_Doree_Facade_gauche.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Palais_Porte_Doree_Facade_gauche.jpg/120px-Palais_Porte_Doree_Facade_gauche.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Palais_Porte_Doree_Facade_gauche.jpg",
+          "author": "AlSepPhoenix",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Palasi Porte Doree Entree.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Palasi_Porte_Doree_Entree.jpg/960px-Palasi_Porte_Doree_Entree.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Palasi_Porte_Doree_Entree.jpg/120px-Palasi_Porte_Doree_Entree.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Palasi_Porte_Doree_Entree.jpg",
+          "author": "AlSepPhoenix",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Palais Porte Doree facade detail coton soie.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Palais_Porte_Doree_facade_detail_coton_soie.jpg/960px-Palais_Porte_Doree_facade_detail_coton_soie.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Palais_Porte_Doree_facade_detail_coton_soie.jpg/120px-Palais_Porte_Doree_facade_detail_coton_soie.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Palais_Porte_Doree_facade_detail_coton_soie.jpg",
+          "author": "AlSepPhoenix",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/72746018@N00/26589641676",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/1512/26589641676_a445901ef8_b.jpg",
+          "thumb": "https://live.staticflickr.com/1512/26589641676_a445901ef8_q.jpg",
+          "page": "https://www.flickr.com/photos/dalbera/26589641676/",
+          "author": "dalbera",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "molitorpool",
@@ -4708,12 +4914,54 @@
           "lng": 2.253743,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Hôtel Molitor - Paris XVI (FR75) - 2022-08-26 - 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/H%C3%B4tel_Molitor_-_Paris_XVI_%28FR75%29_-_2022-08-26_-_2.jpg/960px-H%C3%B4tel_Molitor_-_Paris_XVI_%28FR75%29_-_2022-08-26_-_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/H%C3%B4tel_Molitor_-_Paris_XVI_%28FR75%29_-_2022-08-26_-_2.jpg/120px-H%C3%B4tel_Molitor_-_Paris_XVI_%28FR75%29_-_2022-08-26_-_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Molitor_-_Paris_XVI_(FR75)_-_2022-08-26_-_2.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Summer pool at the Molitor in Paris 01.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Summer_pool_at_the_Molitor_in_Paris_01.jpg/960px-Summer_pool_at_the_Molitor_in_Paris_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Summer_pool_at_the_Molitor_in_Paris_01.jpg/120px-Summer_pool_at_the_Molitor_in_Paris_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Summer_pool_at_the_Molitor_in_Paris_01.jpg",
+          "author": "BikerNormand from Morsan, Eure, France",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "Paris, piscine Molitor, 1 November 2015 001.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Paris%2C_piscine_Molitor%2C_1_November_2015_001.jpg/960px-Paris%2C_piscine_Molitor%2C_1_November_2015_001.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Paris%2C_piscine_Molitor%2C_1_November_2015_001.jpg/120px-Paris%2C_piscine_Molitor%2C_1_November_2015_001.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Paris,_piscine_Molitor,_1_November_2015_001.jpg",
+          "author": "Fred Romero from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "The Molitor pool in Paris by night - 2022-08-10.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/The_Molitor_pool_in_Paris_by_night_-_2022-08-10.jpg/960px-The_Molitor_pool_in_Paris_by_night_-_2022-08-10.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/The_Molitor_pool_in_Paris_by_night_-_2022-08-10.jpg/120px-The_Molitor_pool_in_Paris_by_night_-_2022-08-10.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:The_Molitor_pool_in_Paris_by_night_-_2022-08-10.jpg",
+          "author": "Bretwa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "madeleine",
@@ -5099,7 +5347,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/72746018@N00/15694919064",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/8606/15694919064_1e83b974ce_b.jpg",
+          "thumb": "https://live.staticflickr.com/8606/15694919064_1e83b974ce_q.jpg",
+          "page": "https://www.flickr.com/photos/dalbera/15694919064/",
+          "author": "dalbera",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "file": "Philharmonie de Paris at night.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Philharmonie_de_Paris_at_night.jpg/960px-Philharmonie_de_Paris_at_night.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Philharmonie_de_Paris_at_night.jpg/120px-Philharmonie_de_Paris_at_night.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Philharmonie_de_Paris_at_night.jpg",
+          "author": "Gerda Arendt",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Le Cercle de l'Harmonie - Jérémie Rhorer - Missa solemnis - Philharmonie de Paris 2024.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Le_Cercle_de_l%27Harmonie_-_J%C3%A9r%C3%A9mie_Rhorer_-_Missa_solemnis_-_Philharmonie_de_Paris_2024.jpg/960px-Le_Cercle_de_l%27Harmonie_-_J%C3%A9r%C3%A9mie_Rhorer_-_Missa_solemnis_-_Philharmonie_de_Paris_2024.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Le_Cercle_de_l%27Harmonie_-_J%C3%A9r%C3%A9mie_Rhorer_-_Missa_solemnis_-_Philharmonie_de_Paris_2024.jpg/120px-Le_Cercle_de_l%27Harmonie_-_J%C3%A9r%C3%A9mie_Rhorer_-_Missa_solemnis_-_Philharmonie_de_Paris_2024.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Le_Cercle_de_l%27Harmonie_-_J%C3%A9r%C3%A9mie_Rhorer_-_Missa_solemnis_-_Philharmonie_de_Paris_2024.jpg",
+          "author": "Euphemie3",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/121788243@N02/17277969908",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/7664/17277969908_7ed3220445_b.jpg",
+          "thumb": "https://live.staticflickr.com/7664/17277969908_7ed3220445_q.jpg",
+          "page": "https://www.flickr.com/photos/chribille/17277969908/",
+          "author": "cbille",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        }
+      ]
     },
     {
       "id": "ima",
@@ -5137,7 +5426,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/20879422@N05/2704627618",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/3016/2704627618_58f8d24aee_b.jpg",
+          "thumb": "https://live.staticflickr.com/3016/2704627618_58f8d24aee_q.jpg",
+          "page": "https://www.flickr.com/photos/gcattiaux/2704627618/",
+          "author": "Guillaume Cattiaux",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        },
+        {
+          "file": "Institut du Monde Arabe au bord de la Seine.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Institut_du_Monde_Arabe_au_bord_de_la_Seine.jpg/960px-Institut_du_Monde_Arabe_au_bord_de_la_Seine.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Institut_du_Monde_Arabe_au_bord_de_la_Seine.jpg/120px-Institut_du_Monde_Arabe_au_bord_de_la_Seine.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Institut_du_Monde_Arabe_au_bord_de_la_Seine.jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/tongeron91/54572224157/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/54572224157_ed44f7f2a8_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/54572224157_ed44f7f2a8_q.jpg",
+          "page": "https://www.flickr.com/photos/tongeron91/54572224157/",
+          "author": "tongeron91",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        },
+        {
+          "file": "Paris Pont de Sully IMA dsc04039.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Paris_Pont_de_Sully_IMA_dsc04039.jpg/960px-Paris_Pont_de_Sully_IMA_dsc04039.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Paris_Pont_de_Sully_IMA_dsc04039.jpg/120px-Paris_Pont_de_Sully_IMA_dsc04039.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Paris_Pont_de_Sully_IMA_dsc04039.jpg",
+          "author": "Copyright © 2005 David Monniaux",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
     },
     {
       "id": "bnf",
@@ -5189,7 +5519,58 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Bibliothèque Mitterrand Mai 2022.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Biblioth%C3%A8que_Mitterrand_Mai_2022.jpg/960px-Biblioth%C3%A8que_Mitterrand_Mai_2022.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Biblioth%C3%A8que_Mitterrand_Mai_2022.jpg/120px-Biblioth%C3%A8que_Mitterrand_Mai_2022.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Biblioth%C3%A8que_Mitterrand_Mai_2022.jpg",
+          "author": "Arthur Weidmann",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Bibliothèque Nationale François Mitterrand @ Paris (8099274961).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Biblioth%C3%A8que_Nationale_Fran%C3%A7ois_Mitterrand_%40_Paris_%288099274961%29.jpg/960px-Biblioth%C3%A8que_Nationale_Fran%C3%A7ois_Mitterrand_%40_Paris_%288099274961%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Biblioth%C3%A8que_Nationale_Fran%C3%A7ois_Mitterrand_%40_Paris_%288099274961%29.jpg/120px-Biblioth%C3%A8que_Nationale_Fran%C3%A7ois_Mitterrand_%40_Paris_%288099274961%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Biblioth%C3%A8que_Nationale_Fran%C3%A7ois_Mitterrand_@_Paris_(8099274961).jpg",
+          "author": "Guilhem Vellut from Annecy, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Passerelle Simone-de-Beauvoir.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Passerelle_Simone-de-Beauvoir.jpg/960px-Passerelle_Simone-de-Beauvoir.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Passerelle_Simone-de-Beauvoir.jpg/120px-Passerelle_Simone-de-Beauvoir.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Passerelle_Simone-de-Beauvoir.jpg",
+          "author": "AHert",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Bibliothèque François Mitterand vue de la Seine (Paris).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Biblioth%C3%A8que_Fran%C3%A7ois_Mitterand_vue_de_la_Seine_%28Paris%29.jpg/960px-Biblioth%C3%A8que_Fran%C3%A7ois_Mitterand_vue_de_la_Seine_%28Paris%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Biblioth%C3%A8que_Fran%C3%A7ois_Mitterand_vue_de_la_Seine_%28Paris%29.jpg/120px-Biblioth%C3%A8que_Fran%C3%A7ois_Mitterand_vue_de_la_Seine_%28Paris%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Biblioth%C3%A8que_Fran%C3%A7ois_Mitterand_vue_de_la_Seine_(Paris).jpg",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Bibliothèque Nationale de France, October 2016 003.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Biblioth%C3%A8que_Nationale_de_France%2C_October_2016_003.jpg/960px-Biblioth%C3%A8que_Nationale_de_France%2C_October_2016_003.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Biblioth%C3%A8que_Nationale_de_France%2C_October_2016_003.jpg/120px-Biblioth%C3%A8que_Nationale_de_France%2C_October_2016_003.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Biblioth%C3%A8que_Nationale_de_France,_October_2016_003.jpg",
+          "author": "jean-louis Zimmermann from Orange, FRANCE",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     },
     {
       "id": "flv",
@@ -5350,12 +5731,44 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/72746018@N00/12419276954",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/5491/12419276954_56f9abd88d_b.jpg",
+          "thumb": "https://live.staticflickr.com/5491/12419276954_56f9abd88d_q.jpg",
+          "page": "https://www.flickr.com/photos/dalbera/12419276954/",
+          "author": "dalbera",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "file": "Palais de Tokyo, Paris, France - panoramio (62).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Palais_de_Tokyo%2C_Paris%2C_France_-_panoramio_%2862%29.jpg/960px-Palais_de_Tokyo%2C_Paris%2C_France_-_panoramio_%2862%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Palais_de_Tokyo%2C_Paris%2C_France_-_panoramio_%2862%29.jpg/120px-Palais_de_Tokyo%2C_Paris%2C_France_-_panoramio_%2862%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Palais_de_Tokyo,_Paris,_France_-_panoramio_(62).jpg",
+          "author": "4net",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        },
+        {
+          "file": "Palais Tokyo 1107855.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Palais_Tokyo_1107855.jpg/960px-Palais_Tokyo_1107855.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Palais_Tokyo_1107855.jpg/120px-Palais_Tokyo_1107855.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Palais_Tokyo_1107855.jpg",
+          "author": "G.Garitan",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "branly",
@@ -5393,7 +5806,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Musèe du Quai Branly.JPG",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Mus%C3%A8e_du_Quai_Branly.JPG/960px-Mus%C3%A8e_du_Quai_Branly.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Mus%C3%A8e_du_Quai_Branly.JPG/120px-Mus%C3%A8e_du_Quai_Branly.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Mus%C3%A8e_du_Quai_Branly.JPG",
+          "author": "Mies me",
+          "license": "Public domain",
+          "licenseUrl": null
+        },
+        {
+          "file": "At Paris 2009 16.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/At_Paris_2009_16.jpg/960px-At_Paris_2009_16.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/At_Paris_2009_16.jpg/120px-At_Paris_2009_16.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:At_Paris_2009_16.jpg",
+          "author": "Photograph by Mike Peel ( www.mikepeel.net ).",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Musée du quai Branly - 20150801 16h07 (10629).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Mus%C3%A9e_du_quai_Branly_-_20150801_16h07_%2810629%29.jpg/960px-Mus%C3%A9e_du_quai_Branly_-_20150801_16h07_%2810629%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Mus%C3%A9e_du_quai_Branly_-_20150801_16h07_%2810629%29.jpg/120px-Mus%C3%A9e_du_quai_Branly_-_20150801_16h07_%2810629%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_quai_Branly_-_20150801_16h07_(10629).jpg",
+          "author": "Another one of my pictures: [[File:|150x150px]] This photograph was taken by Medium69 (William Crochot) and released under the license stated below. You are free to use it for any purpose as long as you credit the author (William Crochot), the Source (Wikimedia Commons) and the license (CC-BY-SA 4.0) in close relation to the image. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source RAW. This ensures that the changes are preserved. Please if you think that any changes should be required, please inform the author. Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract .",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Museo di quai branly, interno 01.JPG",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Museo_di_quai_branly%2C_interno_01.JPG/960px-Museo_di_quai_branly%2C_interno_01.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Museo_di_quai_branly%2C_interno_01.JPG/120px-Museo_di_quai_branly%2C_interno_01.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Museo_di_quai_branly,_interno_01.JPG",
+          "author": "Sailko",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        }
+      ]
     },
     {
       "id": "seinemusicale",
@@ -5425,12 +5879,54 @@
           "lng": 2.22983,
           "verifiedBy": [
             "osm",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "L'auditorium de la Seine Musicale (Boulogne-Billancourt) (40628039774).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/L%27auditorium_de_la_Seine_Musicale_%28Boulogne-Billancourt%29_%2840628039774%29.jpg/960px-L%27auditorium_de_la_Seine_Musicale_%28Boulogne-Billancourt%29_%2840628039774%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/L%27auditorium_de_la_Seine_Musicale_%28Boulogne-Billancourt%29_%2840628039774%29.jpg/120px-L%27auditorium_de_la_Seine_Musicale_%28Boulogne-Billancourt%29_%2840628039774%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:L%27auditorium_de_la_Seine_Musicale_(Boulogne-Billancourt)_(40628039774).jpg",
+          "author": "Jean-Pierre Dalbéra",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Gare embarcadère de Sèvres.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Gare_embarcad%C3%A8re_de_S%C3%A8vres.jpg/960px-Gare_embarcad%C3%A8re_de_S%C3%A8vres.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Gare_embarcad%C3%A8re_de_S%C3%A8vres.jpg/120px-Gare_embarcad%C3%A8re_de_S%C3%A8vres.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Gare_embarcad%C3%A8re_de_S%C3%A8vres.jpg",
+          "author": "FR",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "L'auditorium de la Seine Musicale (Boulogne-Billancourt) (25821877538).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/L%27auditorium_de_la_Seine_Musicale_%28Boulogne-Billancourt%29_%2825821877538%29.jpg/960px-L%27auditorium_de_la_Seine_Musicale_%28Boulogne-Billancourt%29_%2825821877538%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/L%27auditorium_de_la_Seine_Musicale_%28Boulogne-Billancourt%29_%2825821877538%29.jpg/120px-L%27auditorium_de_la_Seine_Musicale_%28Boulogne-Billancourt%29_%2825821877538%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:L%27auditorium_de_la_Seine_Musicale_(Boulogne-Billancourt)_(25821877538).jpg",
+          "author": "Jean-Pierre Dalbéra from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "La Seine musicale, staircase.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/La_Seine_musicale%2C_staircase.jpg/960px-La_Seine_musicale%2C_staircase.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/La_Seine_musicale%2C_staircase.jpg/120px-La_Seine_musicale%2C_staircase.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:La_Seine_musicale,_staircase.jpg",
+          "author": "Gerda Arendt",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
     },
     {
       "id": "pathe",
@@ -5465,7 +5961,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/153313154@N05/35585691364",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/4354/35585691364_b3d3aa800e_b.jpg",
+          "thumb": "https://live.staticflickr.com/4354/35585691364_b3d3aa800e_q.jpg",
+          "page": "https://www.flickr.com/photos/yonahfreemark/35585691364/",
+          "author": "Yonah Freemark",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/153313154@N05/36271603561",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/4351/36271603561_7f4c1f82f9_b.jpg",
+          "thumb": "https://live.staticflickr.com/4351/36271603561_7f4c1f82f9_q.jpg",
+          "page": "https://www.flickr.com/photos/yonahfreemark/36271603561/",
+          "author": "Yonah Freemark",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        },
+        {
+          "file": "Fondation Jérôme Seydoux-Pathé (29922082557).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Fondation_J%C3%A9r%C3%B4me_Seydoux-Path%C3%A9_%2829922082557%29.jpg/960px-Fondation_J%C3%A9r%C3%B4me_Seydoux-Path%C3%A9_%2829922082557%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Fondation_J%C3%A9r%C3%B4me_Seydoux-Path%C3%A9_%2829922082557%29.jpg/120px-Fondation_J%C3%A9r%C3%B4me_Seydoux-Path%C3%A9_%2829922082557%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Fondation_J%C3%A9r%C3%B4me_Seydoux-Path%C3%A9_(29922082557).jpg",
+          "author": "Arthur Weidmann",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/153313154@N05/36421130765",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/4360/36421130765_e1798aedeb_b.jpg",
+          "thumb": "https://live.staticflickr.com/4360/36421130765_e1798aedeb_q.jpg",
+          "page": "https://www.flickr.com/photos/yonahfreemark/36421130765/",
+          "author": "Yonah Freemark",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        }
+      ]
     },
     {
       "id": "docks",
@@ -5493,12 +6030,54 @@
           "lng": 2.370068,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Cité de la mode et du design @ Paris (15191278798).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Cit%C3%A9_de_la_mode_et_du_design_%40_Paris_%2815191278798%29.jpg/960px-Cit%C3%A9_de_la_mode_et_du_design_%40_Paris_%2815191278798%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Cit%C3%A9_de_la_mode_et_du_design_%40_Paris_%2815191278798%29.jpg/120px-Cit%C3%A9_de_la_mode_et_du_design_%40_Paris_%2815191278798%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cit%C3%A9_de_la_mode_et_du_design_@_Paris_(15191278798).jpg",
+          "author": "Guilhem Vellut from Annecy, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Les Docks - Cité de la Mode et du Design @ Paris (8712671105).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Les_Docks_-_Cit%C3%A9_de_la_Mode_et_du_Design_%40_Paris_%288712671105%29.jpg/960px-Les_Docks_-_Cit%C3%A9_de_la_Mode_et_du_Design_%40_Paris_%288712671105%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Les_Docks_-_Cit%C3%A9_de_la_Mode_et_du_Design_%40_Paris_%288712671105%29.jpg/120px-Les_Docks_-_Cit%C3%A9_de_la_Mode_et_du_Design_%40_Paris_%288712671105%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Les_Docks_-_Cit%C3%A9_de_la_Mode_et_du_Design_@_Paris_(8712671105).jpg",
+          "author": "Guilhem Vellut from Annecy, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Vitrophanie-rue.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Vitrophanie-rue.jpg/960px-Vitrophanie-rue.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Vitrophanie-rue.jpg/120px-Vitrophanie-rue.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Vitrophanie-rue.jpg",
+          "author": "Art Ludique - Le Musée",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Les Docks - Cité de la Mode et du Design @ Paris (8713781080).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Les_Docks_-_Cit%C3%A9_de_la_Mode_et_du_Design_%40_Paris_%288713781080%29.jpg/960px-Les_Docks_-_Cit%C3%A9_de_la_Mode_et_du_Design_%40_Paris_%288713781080%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Les_Docks_-_Cit%C3%A9_de_la_Mode_et_du_Design_%40_Paris_%288713781080%29.jpg/120px-Les_Docks_-_Cit%C3%A9_de_la_Mode_et_du_Design_%40_Paris_%288713781080%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Les_Docks_-_Cit%C3%A9_de_la_Mode_et_du_Design_@_Paris_(8713781080).jpg",
+          "author": "Guilhem Vellut from Annecy, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     },
     {
       "id": "canopee",
@@ -5528,12 +6107,54 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Canopée des Halles, Paris (36551928931).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Canop%C3%A9e_des_Halles%2C_Paris_%2836551928931%29.jpg/960px-Canop%C3%A9e_des_Halles%2C_Paris_%2836551928931%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Canop%C3%A9e_des_Halles%2C_Paris_%2836551928931%29.jpg/120px-Canop%C3%A9e_des_Halles%2C_Paris_%2836551928931%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Canop%C3%A9e_des_Halles,_Paris_(36551928931).jpg",
+          "author": "xiquinhosilva from Cacau",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Vista de la Église Saint-Eustache desde la estación de Châtelet - Les Halles (25648537731).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Vista_de_la_%C3%89glise_Saint-Eustache_desde_la_estaci%C3%B3n_de_Ch%C3%A2telet_-_Les_Halles_%2825648537731%29.jpg/960px-Vista_de_la_%C3%89glise_Saint-Eustache_desde_la_estaci%C3%B3n_de_Ch%C3%A2telet_-_Les_Halles_%2825648537731%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Vista_de_la_%C3%89glise_Saint-Eustache_desde_la_estaci%C3%B3n_de_Ch%C3%A2telet_-_Les_Halles_%2825648537731%29.jpg/120px-Vista_de_la_%C3%89glise_Saint-Eustache_desde_la_estaci%C3%B3n_de_Ch%C3%A2telet_-_Les_Halles_%2825648537731%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Vista_de_la_%C3%89glise_Saint-Eustache_desde_la_estaci%C3%B3n_de_Ch%C3%A2telet_-_Les_Halles_(25648537731).jpg",
+          "author": "Carlos Reusser Monsalvez from Santiago, Chile",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Forum des Halles.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Forum_des_Halles.jpg/960px-Forum_des_Halles.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Forum_des_Halles.jpg/120px-Forum_des_Halles.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Forum_des_Halles.jpg",
+          "author": "Benjamin Laible",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Canopy @ Les Halles @ Paris (27910809960).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Canopy_%40_Les_Halles_%40_Paris_%2827910809960%29.jpg/960px-Canopy_%40_Les_Halles_%40_Paris_%2827910809960%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Canopy_%40_Les_Halles_%40_Paris_%2827910809960%29.jpg/120px-Canopy_%40_Les_Halles_%40_Paris_%2827910809960%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Canopy_@_Les_Halles_@_Paris_(27910809960).jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     },
     {
       "id": "lemonde",
@@ -5567,12 +6188,44 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Esplanade Hubert Beuve Méry - Paris XIII (FR75) - 2025-10-25 - 3.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Esplanade_Hubert_Beuve_M%C3%A9ry_-_Paris_XIII_%28FR75%29_-_2025-10-25_-_3.jpg/960px-Esplanade_Hubert_Beuve_M%C3%A9ry_-_Paris_XIII_%28FR75%29_-_2025-10-25_-_3.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Esplanade_Hubert_Beuve_M%C3%A9ry_-_Paris_XIII_%28FR75%29_-_2025-10-25_-_3.jpg/120px-Esplanade_Hubert_Beuve_M%C3%A9ry_-_Paris_XIII_%28FR75%29_-_2025-10-25_-_3.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Esplanade_Hubert_Beuve_M%C3%A9ry_-_Paris_XIII_(FR75)_-_2025-10-25_-_3.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Esplanade Hubert Beuve Méry - Paris XIII (FR75) - 2025-04-02 - 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Esplanade_Hubert_Beuve_M%C3%A9ry_-_Paris_XIII_%28FR75%29_-_2025-04-02_-_2.jpg/960px-Esplanade_Hubert_Beuve_M%C3%A9ry_-_Paris_XIII_%28FR75%29_-_2025-04-02_-_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Esplanade_Hubert_Beuve_M%C3%A9ry_-_Paris_XIII_%28FR75%29_-_2025-04-02_-_2.jpg/120px-Esplanade_Hubert_Beuve_M%C3%A9ry_-_Paris_XIII_%28FR75%29_-_2025-04-02_-_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Esplanade_Hubert_Beuve_M%C3%A9ry_-_Paris_XIII_(FR75)_-_2025-04-02_-_2.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Esplanade Hubert Beuve Méry - Paris XIII (FR75) - 2025-04-02 - 5.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Esplanade_Hubert_Beuve_M%C3%A9ry_-_Paris_XIII_%28FR75%29_-_2025-04-02_-_5.jpg/960px-Esplanade_Hubert_Beuve_M%C3%A9ry_-_Paris_XIII_%28FR75%29_-_2025-04-02_-_5.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Esplanade_Hubert_Beuve_M%C3%A9ry_-_Paris_XIII_%28FR75%29_-_2025-04-02_-_5.jpg/120px-Esplanade_Hubert_Beuve_M%C3%A9ry_-_Paris_XIII_%28FR75%29_-_2025-04-02_-_5.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Esplanade_Hubert_Beuve_M%C3%A9ry_-_Paris_XIII_(FR75)_-_2025-04-02_-_5.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "tribunal",
@@ -5609,7 +6262,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Tribunal de Paris seen from Batignolles park.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Tribunal_de_Paris_seen_from_Batignolles_park.jpg/960px-Tribunal_de_Paris_seen_from_Batignolles_park.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Tribunal_de_Paris_seen_from_Batignolles_park.jpg/120px-Tribunal_de_Paris_seen_from_Batignolles_park.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tribunal_de_Paris_seen_from_Batignolles_park.jpg",
+          "author": "Coppertarzan",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Tribunal de Paris seem from behind.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Tribunal_de_Paris_seem_from_behind.jpg/960px-Tribunal_de_Paris_seem_from_behind.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Tribunal_de_Paris_seem_from_behind.jpg/120px-Tribunal_de_Paris_seem_from_behind.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tribunal_de_Paris_seem_from_behind.jpg",
+          "author": "Coppertarzan",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Tribunal de Paris seen from entrance.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Tribunal_de_Paris_seen_from_entrance.jpg/960px-Tribunal_de_Paris_seen_from_entrance.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Tribunal_de_Paris_seen_from_entrance.jpg/120px-Tribunal_de_Paris_seen_from_entrance.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tribunal_de_Paris_seen_from_entrance.jpg",
+          "author": "Coppertarzan",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Palais de Justice TGI de Paris (46823998584).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Palais_de_Justice_TGI_de_Paris_%2846823998584%29.jpg/960px-Palais_de_Justice_TGI_de_Paris_%2846823998584%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Palais_de_Justice_TGI_de_Paris_%2846823998584%29.jpg/120px-Palais_de_Justice_TGI_de_Paris_%2846823998584%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Palais_de_Justice_TGI_de_Paris_(46823998584).jpg",
+          "author": "Jacques Paquier",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     },
     {
       "id": "cartier",
@@ -5638,12 +6332,24 @@
           "lng": 2.331913,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "La Fondation Cartier pour l'art contemporain (15907035710).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/La_Fondation_Cartier_pour_l%27art_contemporain_%2815907035710%29.jpg/960px-La_Fondation_Cartier_pour_l%27art_contemporain_%2815907035710%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/La_Fondation_Cartier_pour_l%27art_contemporain_%2815907035710%29.jpg/120px-La_Fondation_Cartier_pour_l%27art_contemporain_%2815907035710%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:La_Fondation_Cartier_pour_l%27art_contemporain_(15907035710).jpg",
+          "author": "Jean-Pierre Dalbéra from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     },
     {
       "id": "cinematheque",
@@ -5676,7 +6382,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/10655856@N04/2210522774",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/2015/2210522774_8bdcc2c6e7_b.jpg",
+          "thumb": "https://live.staticflickr.com/2015/2210522774_8bdcc2c6e7_q.jpg",
+          "page": "https://www.flickr.com/photos/truusbobjantoo/2210522774/",
+          "author": "Truus, Bob & Jan too!",
+          "license": "CC BY-NC 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/72746018@N00/6691746279",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/7151/6691746279_6aa6047c31_b.jpg",
+          "thumb": "https://live.staticflickr.com/7151/6691746279_6aa6047c31_q.jpg",
+          "page": "https://www.flickr.com/photos/dalbera/6691746279/",
+          "author": "dalbera",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/33718942@N07/14138327682",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/7437/14138327682_0f00955a71_b.jpg",
+          "thumb": "https://live.staticflickr.com/7437/14138327682_0f00955a71_q.jpg",
+          "page": "https://www.flickr.com/photos/33718942@N07/14138327682/",
+          "author": "Luke McKernan",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/44871926@N00/384930691",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/181/384930691_557fa8b83a_b.jpg",
+          "thumb": "https://live.staticflickr.com/181/384930691_557fa8b83a_q.jpg",
+          "page": "https://www.flickr.com/photos/meuh/384930691/",
+          "author": "Meuh !",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        }
+      ]
     },
     {
       "id": "berlier",
@@ -5738,12 +6485,44 @@
           "lng": 2.343805,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Bureau Poste Central Louvre - Paris I (FR75) - 2024-09-22 - 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Bureau_Poste_Central_Louvre_-_Paris_I_%28FR75%29_-_2024-09-22_-_2.jpg/960px-Bureau_Poste_Central_Louvre_-_Paris_I_%28FR75%29_-_2024-09-22_-_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Bureau_Poste_Central_Louvre_-_Paris_I_%28FR75%29_-_2024-09-22_-_2.jpg/120px-Bureau_Poste_Central_Louvre_-_Paris_I_%28FR75%29_-_2024-09-22_-_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bureau_Poste_Central_Louvre_-_Paris_I_(FR75)_-_2024-09-22_-_2.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Patio, poste centrale du Louvre.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Patio%2C_poste_centrale_du_Louvre.jpg/960px-Patio%2C_poste_centrale_du_Louvre.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Patio%2C_poste_centrale_du_Louvre.jpg/120px-Patio%2C_poste_centrale_du_Louvre.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Patio,_poste_centrale_du_Louvre.jpg",
+          "author": "Photographie : Florent Pécassou . Architecture : Julien Guadet (1886), Dominique Perrault (2021).",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Bureau Poste Central Louvre - Paris I (FR75) - 2024-09-22 - 1.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Bureau_Poste_Central_Louvre_-_Paris_I_%28FR75%29_-_2024-09-22_-_1.jpg/960px-Bureau_Poste_Central_Louvre_-_Paris_I_%28FR75%29_-_2024-09-22_-_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Bureau_Poste_Central_Louvre_-_Paris_I_%28FR75%29_-_2024-09-22_-_1.jpg/120px-Bureau_Poste_Central_Louvre_-_Paris_I_%28FR75%29_-_2024-09-22_-_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bureau_Poste_Central_Louvre_-_Paris_I_(FR75)_-_2024-09-22_-_1.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "morland",
@@ -5770,12 +6549,44 @@
           "lng": 2.362794,
           "verifiedBy": [
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Cour Île Louviers - Paris IV (FR75) - 2022-05-10 - 3.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Cour_%C3%8Ele_Louviers_-_Paris_IV_%28FR75%29_-_2022-05-10_-_3.jpg/960px-Cour_%C3%8Ele_Louviers_-_Paris_IV_%28FR75%29_-_2022-05-10_-_3.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Cour_%C3%8Ele_Louviers_-_Paris_IV_%28FR75%29_-_2022-05-10_-_3.jpg/120px-Cour_%C3%8Ele_Louviers_-_Paris_IV_%28FR75%29_-_2022-05-10_-_3.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cour_%C3%8Ele_Louviers_-_Paris_IV_(FR75)_-_2022-05-10_-_3.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Cour Île Louviers - Paris IV (FR75) - 2022-06-02 - 3.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Cour_%C3%8Ele_Louviers_-_Paris_IV_%28FR75%29_-_2022-06-02_-_3.jpg/960px-Cour_%C3%8Ele_Louviers_-_Paris_IV_%28FR75%29_-_2022-06-02_-_3.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Cour_%C3%8Ele_Louviers_-_Paris_IV_%28FR75%29_-_2022-06-02_-_3.jpg/120px-Cour_%C3%8Ele_Louviers_-_Paris_IV_%28FR75%29_-_2022-06-02_-_3.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cour_%C3%8Ele_Louviers_-_Paris_IV_(FR75)_-_2022-06-02_-_3.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Passage Île Louviers - Paris IV (FR75) - 2022-06-02 - 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Passage_%C3%8Ele_Louviers_-_Paris_IV_%28FR75%29_-_2022-06-02_-_2.jpg/960px-Passage_%C3%8Ele_Louviers_-_Paris_IV_%28FR75%29_-_2022-06-02_-_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Passage_%C3%8Ele_Louviers_-_Paris_IV_%28FR75%29_-_2022-06-02_-_2.jpg/120px-Passage_%C3%8Ele_Louviers_-_Paris_IV_%28FR75%29_-_2022-06-02_-_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Passage_%C3%8Ele_Louviers_-_Paris_IV_(FR75)_-_2022-06-02_-_2.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "savoye",
@@ -5821,7 +6632,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/49228852@N00/2196405082",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/2244/2196405082_3c1cdf95c0_b.jpg",
+          "thumb": "https://live.staticflickr.com/2244/2196405082_3c1cdf95c0_q.jpg",
+          "page": "https://www.flickr.com/photos/yogomi/2196405082/",
+          "author": "yoyomigo",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/16707687@N00/2520028487",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/3024/2520028487_86259f01d2_b.jpg",
+          "thumb": "https://live.staticflickr.com/3024/2520028487_86259f01d2_q.jpg",
+          "page": "https://www.flickr.com/photos/roryrory/2520028487/",
+          "author": "roryrory",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/16707687@N00/2520847634",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/2039/2520847634_a5e39aeb16_b.jpg",
+          "thumb": "https://live.staticflickr.com/2039/2520847634_a5e39aeb16_q.jpg",
+          "page": "https://www.flickr.com/photos/roryrory/2520847634/",
+          "author": "roryrory",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/16707687@N00/2520846494",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/2383/2520846494_977ecd37c3_b.jpg",
+          "thumb": "https://live.staticflickr.com/2383/2520846494_977ecd37c3_q.jpg",
+          "page": "https://www.flickr.com/photos/roryrory/2520846494/",
+          "author": "roryrory",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        }
+      ]
     },
     {
       "id": "laroche",
@@ -5867,7 +6719,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/72746018@N00/43564768164",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/1866/43564768164_f8d21fbb9d_b.jpg",
+          "thumb": "https://live.staticflickr.com/1866/43564768164_f8d21fbb9d_q.jpg",
+          "page": "https://www.flickr.com/photos/dalbera/43564768164/",
+          "author": "dalbera",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/34727749694",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/4238/34727749694_f43643a40a_b.jpg",
+          "thumb": "https://live.staticflickr.com/4238/34727749694_f43643a40a_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/34727749694/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/72746018@N00/30415092418",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/1842/30415092418_1987001cde_b.jpg",
+          "thumb": "https://live.staticflickr.com/1842/30415092418_1987001cde_q.jpg",
+          "page": "https://www.flickr.com/photos/dalbera/30415092418/",
+          "author": "dalbera",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/72746018@N00/30415108578",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/1885/30415108578_6a99ae1ceb_b.jpg",
+          "thumb": "https://live.staticflickr.com/1885/30415108578_6a99ae1ceb_q.jpg",
+          "page": "https://www.flickr.com/photos/dalbera/30415108578/",
+          "author": "dalbera",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "citerefuge",
@@ -5909,7 +6802,38 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/30050550856/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/5662/30050550856_e2d22ffd12_b.jpg",
+          "thumb": "https://live.staticflickr.com/5662/30050550856_e2d22ffd12_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/30050550856/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/29456938174",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/8410/29456938174_19bbcdbbf0_b.jpg",
+          "thumb": "https://live.staticflickr.com/8410/29456938174_19bbcdbbf0_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/29456938174/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/29456937464",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/8407/29456937464_43e693448b_b.jpg",
+          "thumb": "https://live.staticflickr.com/8407/29456937464_43e693448b_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/29456937464/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "citeu",
@@ -6048,7 +6972,38 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/142586045@N02/44817197102/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/1953/44817197102_c2966e50de_b.jpg",
+          "thumb": "https://live.staticflickr.com/1953/44817197102_c2966e50de_q.jpg",
+          "page": "https://www.flickr.com/photos/142586045@N02/44817197102/",
+          "author": "T.Oscar",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/142586045@N02/43055483900/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/1976/43055483900_0bc85fbd95_b.jpg",
+          "thumb": "https://live.staticflickr.com/1976/43055483900_0bc85fbd95_q.jpg",
+          "page": "https://www.flickr.com/photos/142586045@N02/43055483900/",
+          "author": "T.Oscar",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/72746018@N00/7997664566",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/8171/7997664566_4f698aa126_b.jpg",
+          "thumb": "https://live.staticflickr.com/8171/7997664566_4f698aa126_q.jpg",
+          "page": "https://www.flickr.com/photos/dalbera/7997664566/",
+          "author": "dalbera",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "defense",
@@ -6113,7 +7068,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Grande Arche, France - April 2011.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Grande_Arche%2C_France_-_April_2011.jpg/960px-Grande_Arche%2C_France_-_April_2011.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Grande_Arche%2C_France_-_April_2011.jpg/120px-Grande_Arche%2C_France_-_April_2011.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Grande_Arche,_France_-_April_2011.jpg",
+          "author": "Cristian Bortes from Cluj-Napoca, Romania",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "unsplash": "https://unsplash.com/photos/a-view-of-the-city-of-paris-from-the-top-of-the-eiffel-tower-x8iT65EfCb0",
+          "nonCommercial": true,
+          "src": "https://images.unsplash.com/photo-1738424444929-8756a70a4011?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ0MDUxfA&ixlib=rb-4.1.0&w=960&q=80",
+          "thumb": "https://images.unsplash.com/photo-1738424444929-8756a70a4011?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ0MDUxfA&ixlib=rb-4.1.0&w=120&h=120&fit=crop&q=70",
+          "page": "https://unsplash.com/@stevenclc?utm_source=archmap&utm_medium=referral",
+          "author": "Steven Chen",
+          "license": "Unsplash License",
+          "licenseUrl": "https://unsplash.com/license"
+        },
+        {
+          "file": "Details in Paris in October 1991 12.jpg",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Details_in_Paris_in_October_1991_12.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Details_in_Paris_in_October_1991_12.jpg/120px-Details_in_Paris_in_October_1991_12.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Details_in_Paris_in_October_1991_12.jpg",
+          "author": "Szilas",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/pom-angers/55423873376/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/55423873376_553352b695_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/55423873376_553352b695_q.jpg",
+          "page": "https://www.flickr.com/photos/pom-angers/55423873376/",
+          "author": "pom'.",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
     },
     {
       "id": "memorial",
@@ -6145,7 +7141,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Mémorial des Martyrs de la Déportation @ Square de l'Ile de France @ Paris (25016871180).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_%40_Square_de_l%27Ile_de_France_%40_Paris_%2825016871180%29.jpg/960px-M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_%40_Square_de_l%27Ile_de_France_%40_Paris_%2825016871180%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_%40_Square_de_l%27Ile_de_France_%40_Paris_%2825016871180%29.jpg/120px-M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_%40_Square_de_l%27Ile_de_France_%40_Paris_%2825016871180%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_@_Square_de_l%27Ile_de_France_@_Paris_(25016871180).jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Mémorial des Martyrs de la Déportation @ Ile de la Cité @ Paris (26558253140).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_%40_Ile_de_la_Cit%C3%A9_%40_Paris_%2826558253140%29.jpg/960px-M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_%40_Ile_de_la_Cit%C3%A9_%40_Paris_%2826558253140%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_%40_Ile_de_la_Cit%C3%A9_%40_Paris_%2826558253140%29.jpg/120px-M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_%40_Ile_de_la_Cit%C3%A9_%40_Paris_%2826558253140%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_@_Ile_de_la_Cit%C3%A9_@_Paris_(26558253140).jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Mémorial des Martyrs de la Déportation @ Ile de la Cité @ Paris (26225699524).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_%40_Ile_de_la_Cit%C3%A9_%40_Paris_%2826225699524%29.jpg/960px-M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_%40_Ile_de_la_Cit%C3%A9_%40_Paris_%2826225699524%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_%40_Ile_de_la_Cit%C3%A9_%40_Paris_%2826225699524%29.jpg/120px-M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_%40_Ile_de_la_Cit%C3%A9_%40_Paris_%2826225699524%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_@_Ile_de_la_Cit%C3%A9_@_Paris_(26225699524).jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Mémorial des Martyrs de la Déportation @ Ile de la Cité @ Paris (26737121802).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_%40_Ile_de_la_Cit%C3%A9_%40_Paris_%2826737121802%29.jpg/960px-M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_%40_Ile_de_la_Cit%C3%A9_%40_Paris_%2826737121802%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_%40_Ile_de_la_Cit%C3%A9_%40_Paris_%2826737121802%29.jpg/120px-M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_%40_Ile_de_la_Cit%C3%A9_%40_Paris_%2826737121802%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:M%C3%A9morial_des_Martyrs_de_la_D%C3%A9portation_@_Ile_de_la_Cit%C3%A9_@_Paris_(26737121802).jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     },
     {
       "id": "pcf",
@@ -6184,7 +7221,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/27854446705",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/7547/27854446705_b52363481c_b.jpg",
+          "thumb": "https://live.staticflickr.com/7547/27854446705_b52363481c_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/27854446705/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "file": "Communist Party HQ, Place du Colonel Fabien, Paris July 2014.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Communist_Party_HQ%2C_Place_du_Colonel_Fabien%2C_Paris_July_2014.jpg/960px-Communist_Party_HQ%2C_Place_du_Colonel_Fabien%2C_Paris_July_2014.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Communist_Party_HQ%2C_Place_du_Colonel_Fabien%2C_Paris_July_2014.jpg/120px-Communist_Party_HQ%2C_Place_du_Colonel_Fabien%2C_Paris_July_2014.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Communist_Party_HQ,_Place_du_Colonel_Fabien,_Paris_July_2014.jpg",
+          "author": "Guilhem Vellut from Tokyo, Japan",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/27819909456",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/7419/27819909456_4e92d62634_b.jpg",
+          "thumb": "https://live.staticflickr.com/7419/27819909456_4e92d62634_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/27819909456/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/79376123@N00/52374214069",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/52374214069_69a7f2e943_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/52374214069_69a7f2e943_q.jpg",
+          "page": "https://www.flickr.com/photos/gedankenstuecke/52374214069/",
+          "author": "gedankenstuecke",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        }
+      ]
     },
     {
       "id": "orgues",
@@ -6218,7 +7296,38 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Orgues de Flandre (27199297528).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Orgues_de_Flandre_%2827199297528%29.jpg/960px-Orgues_de_Flandre_%2827199297528%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Orgues_de_Flandre_%2827199297528%29.jpg/120px-Orgues_de_Flandre_%2827199297528%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Orgues_de_Flandre_(27199297528).jpg",
+          "author": "Arthur Weidmann from Paris, France",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "Orgues de Flandre - Paris - Martin Schulz van Treeck, Photo Maxim Pouska.jpg",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Orgues_de_Flandre_-_Paris_-_Martin_Schulz_van_Treeck%2C_Photo_Maxim_Pouska.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Orgues_de_Flandre_-_Paris_-_Martin_Schulz_van_Treeck%2C_Photo_Maxim_Pouska.jpg/120px-Orgues_de_Flandre_-_Paris_-_Martin_Schulz_van_Treeck%2C_Photo_Maxim_Pouska.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Orgues_de_Flandre_-_Paris_-_Martin_Schulz_van_Treeck,_Photo_Maxim_Pouska.jpg",
+          "author": "Maxim Pouska",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/gedankenstuecke/52460270512/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/52460270512_fb46b42dc8_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/52460270512_fb46b42dc8_q.jpg",
+          "page": "https://www.flickr.com/photos/gedankenstuecke/52460270512/",
+          "author": "gedankenstuecke",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        }
+      ]
     },
     {
       "id": "choux",
@@ -6253,7 +7362,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Les Choux de Créteil - panoramio (3).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Les_Choux_de_Cr%C3%A9teil_-_panoramio_%283%29.jpg/960px-Les_Choux_de_Cr%C3%A9teil_-_panoramio_%283%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Les_Choux_de_Cr%C3%A9teil_-_panoramio_%283%29.jpg/120px-Les_Choux_de_Cr%C3%A9teil_-_panoramio_%283%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Les_Choux_de_Cr%C3%A9teil_-_panoramio_(3).jpg",
+          "author": "Paul Fleury",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        },
+        {
+          "file": "Les Choux de Créteil - panoramio (6).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Les_Choux_de_Cr%C3%A9teil_-_panoramio_%286%29.jpg/960px-Les_Choux_de_Cr%C3%A9teil_-_panoramio_%286%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Les_Choux_de_Cr%C3%A9teil_-_panoramio_%286%29.jpg/120px-Les_Choux_de_Cr%C3%A9teil_-_panoramio_%286%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Les_Choux_de_Cr%C3%A9teil_-_panoramio_(6).jpg",
+          "author": "Paul Fleury",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        },
+        {
+          "file": "Créteil (95) Choux de Créteil 612.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Cr%C3%A9teil_%2895%29_Choux_de_Cr%C3%A9teil_612.jpg/960px-Cr%C3%A9teil_%2895%29_Choux_de_Cr%C3%A9teil_612.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Cr%C3%A9teil_%2895%29_Choux_de_Cr%C3%A9teil_612.jpg/120px-Cr%C3%A9teil_%2895%29_Choux_de_Cr%C3%A9teil_612.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cr%C3%A9teil_(95)_Choux_de_Cr%C3%A9teil_612.jpg",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Les Choux de Créteil - panoramio (10).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Les_Choux_de_Cr%C3%A9teil_-_panoramio_%2810%29.jpg/960px-Les_Choux_de_Cr%C3%A9teil_-_panoramio_%2810%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Les_Choux_de_Cr%C3%A9teil_-_panoramio_%2810%29.jpg/120px-Les_Choux_de_Cr%C3%A9teil_-_panoramio_%2810%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Les_Choux_de_Cr%C3%A9teil_-_panoramio_(10).jpg",
+          "author": "Paul Fleury",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        }
+      ]
     },
     {
       "id": "abraxas",
@@ -6297,7 +7447,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Espaces d'Abraxas - 2024.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Espaces_d%27Abraxas_-_2024.jpg/960px-Espaces_d%27Abraxas_-_2024.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Espaces_d%27Abraxas_-_2024.jpg/120px-Espaces_d%27Abraxas_-_2024.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Espaces_d%27Abraxas_-_2024.jpg",
+          "author": "Matgrt",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Espaces d'Abraxas - Le théâtre - 2025.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Espaces_d%27Abraxas_-_Le_th%C3%A9%C3%A2tre_-_2025.jpg/960px-Espaces_d%27Abraxas_-_Le_th%C3%A9%C3%A2tre_-_2025.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Espaces_d%27Abraxas_-_Le_th%C3%A9%C3%A2tre_-_2025.jpg/120px-Espaces_d%27Abraxas_-_Le_th%C3%A9%C3%A2tre_-_2025.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Espaces_d%27Abraxas_-_Le_th%C3%A9%C3%A2tre_-_2025.jpg",
+          "author": "Lucasdcrk",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Arènes de Picasso 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Ar%C3%A8nes_de_Picasso_2.jpg/960px-Ar%C3%A8nes_de_Picasso_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Ar%C3%A8nes_de_Picasso_2.jpg/120px-Ar%C3%A8nes_de_Picasso_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ar%C3%A8nes_de_Picasso_2.jpg",
+          "author": "Arthur Weidmann",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/mikeshaheenphotography/51607175529/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/51607175529_39c015124a_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/51607175529_39c015124a_q.jpg",
+          "page": "https://www.flickr.com/photos/mikeshaheenphotography/51607175529/",
+          "author": "Mike Shaheen",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
     },
     {
       "id": "aillaud",
@@ -6329,7 +7520,28 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Tours Aillaud @ Parc André Malraux @ La Défense @ Paris (34799539710).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Tours_Aillaud_%40_Parc_Andr%C3%A9_Malraux_%40_La_D%C3%A9fense_%40_Paris_%2834799539710%29.jpg/960px-Tours_Aillaud_%40_Parc_Andr%C3%A9_Malraux_%40_La_D%C3%A9fense_%40_Paris_%2834799539710%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Tours_Aillaud_%40_Parc_Andr%C3%A9_Malraux_%40_La_D%C3%A9fense_%40_Paris_%2834799539710%29.jpg/120px-Tours_Aillaud_%40_Parc_Andr%C3%A9_Malraux_%40_La_D%C3%A9fense_%40_Paris_%2834799539710%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tours_Aillaud_@_Parc_Andr%C3%A9_Malraux_@_La_D%C3%A9fense_@_Paris_(34799539710).jpg",
+          "author": "Guilhem Vellut from Annecy, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Tours Aillaud @ Parc André Malraux @ La Défense @ Paris (34376638913).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Tours_Aillaud_%40_Parc_Andr%C3%A9_Malraux_%40_La_D%C3%A9fense_%40_Paris_%2834376638913%29.jpg/960px-Tours_Aillaud_%40_Parc_Andr%C3%A9_Malraux_%40_La_D%C3%A9fense_%40_Paris_%2834376638913%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Tours_Aillaud_%40_Parc_Andr%C3%A9_Malraux_%40_La_D%C3%A9fense_%40_Paris_%2834376638913%29.jpg/120px-Tours_Aillaud_%40_Parc_Andr%C3%A9_Malraux_%40_La_D%C3%A9fense_%40_Paris_%2834376638913%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tours_Aillaud_@_Parc_Andr%C3%A9_Malraux_@_La_D%C3%A9fense_@_Paris_(34376638913).jpg",
+          "author": "Guilhem Vellut from Annecy, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     },
     {
       "id": "bobigny",
@@ -6364,7 +7576,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Bourse départementale travail Bobigny 1.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Bourse_d%C3%A9partementale_travail_Bobigny_1.jpg/960px-Bourse_d%C3%A9partementale_travail_Bobigny_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Bourse_d%C3%A9partementale_travail_Bobigny_1.jpg/120px-Bourse_d%C3%A9partementale_travail_Bobigny_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bourse_d%C3%A9partementale_travail_Bobigny_1.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Bourse départementale travail Bobigny 6.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Bourse_d%C3%A9partementale_travail_Bobigny_6.jpg/960px-Bourse_d%C3%A9partementale_travail_Bobigny_6.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Bourse_d%C3%A9partementale_travail_Bobigny_6.jpg/120px-Bourse_d%C3%A9partementale_travail_Bobigny_6.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bourse_d%C3%A9partementale_travail_Bobigny_6.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Bourse du travail de Bobigny.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Bourse_du_travail_de_Bobigny.jpg/960px-Bourse_du_travail_de_Bobigny.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Bourse_du_travail_de_Bobigny.jpg/120px-Bourse_du_travail_de_Bobigny.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bourse_du_travail_de_Bobigny.jpg",
+          "author": "Torres1986",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Bourse départementale travail Bobigny 5.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Bourse_d%C3%A9partementale_travail_Bobigny_5.jpg/960px-Bourse_d%C3%A9partementale_travail_Bobigny_5.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Bourse_d%C3%A9partementale_travail_Bobigny_5.jpg/120px-Bourse_d%C3%A9partementale_travail_Bobigny_5.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bourse_d%C3%A9partementale_travail_Bobigny_5.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "unesco",
@@ -6398,7 +7651,38 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/23800838@N03/3712216223",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/2443/3712216223_e4a8e63071_b.jpg",
+          "thumb": "https://live.staticflickr.com/2443/3712216223_e4a8e63071_q.jpg",
+          "page": "https://www.flickr.com/photos/french-disko/3712216223/",
+          "author": "French Disko",
+          "license": "CC BY-NC 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/"
+        },
+        {
+          "file": "Architecture, Paris UNESCO House - UNESCO - PHOTO0000002877 0001.tiff",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Architecture%2C_Paris_UNESCO_House_-_UNESCO_-_PHOTO0000002877_0001.tiff/lossy-page1-960px-Architecture%2C_Paris_UNESCO_House_-_UNESCO_-_PHOTO0000002877_0001.tiff.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Architecture%2C_Paris_UNESCO_House_-_UNESCO_-_PHOTO0000002877_0001.tiff/lossy-page1-120px-Architecture%2C_Paris_UNESCO_House_-_UNESCO_-_PHOTO0000002877_0001.tiff.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Architecture,_Paris_UNESCO_House_-_UNESCO_-_PHOTO0000002877_0001.tiff",
+          "author": "Michel Claude",
+          "license": "CC BY-SA 3.0 igo",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/"
+        },
+        {
+          "file": "Architecture, Paris - Maison de l’UNESCO - UNESCO - PHOTO0000002876 0001.tiff",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Architecture%2C_Paris_-_Maison_de_l%E2%80%99UNESCO_-_UNESCO_-_PHOTO0000002876_0001.tiff/lossy-page1-960px-Architecture%2C_Paris_-_Maison_de_l%E2%80%99UNESCO_-_UNESCO_-_PHOTO0000002876_0001.tiff.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Architecture%2C_Paris_-_Maison_de_l%E2%80%99UNESCO_-_UNESCO_-_PHOTO0000002876_0001.tiff/lossy-page1-120px-Architecture%2C_Paris_-_Maison_de_l%E2%80%99UNESCO_-_UNESCO_-_PHOTO0000002876_0001.tiff.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Architecture,_Paris_-_Maison_de_l%E2%80%99UNESCO_-_UNESCO_-_PHOTO0000002876_0001.tiff",
+          "author": "Dominique Roger",
+          "license": "CC BY-SA 3.0 igo",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/"
+        }
+      ]
     },
     {
       "id": "maisondeverre",
@@ -6436,12 +7720,24 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "docomomo"
+            "docomomo",
+            "photo-object"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Maison de verre Chareau.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Maison_de_verre_Chareau.jpg/960px-Maison_de_verre_Chareau.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Maison_de_verre_Chareau.jpg/120px-Maison_de_verre_Chareau.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Maison_de_verre_Chareau.jpg",
+          "author": "Subrealistsandu",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      ]
     },
     {
       "id": "molitor",
@@ -6484,7 +7780,38 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/26803823344/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/7367/26803823344_4be008f502_b.jpg",
+          "thumb": "https://live.staticflickr.com/7367/26803823344_4be008f502_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/26803823344/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/dalbera/42758074440/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/1890/42758074440_95b5c033c7_b.jpg",
+          "thumb": "https://live.staticflickr.com/1890/42758074440_95b5c033c7_q.jpg",
+          "page": "https://www.flickr.com/photos/dalbera/42758074440/",
+          "author": "dalbera",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/dalbera/43871956724/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/1858/43871956724_1900726673_b.jpg",
+          "thumb": "https://live.staticflickr.com/1858/43871956724_1900726673_q.jpg",
+          "page": "https://www.flickr.com/photos/dalbera/43871956724/",
+          "author": "dalbera",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "malletstevens",
@@ -6810,12 +8137,34 @@
           "lng": 2.3136,
           "verifiedBy": [
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "L'immeuble Herzog & de Meuron de la rue des Suisses, Paris 2007.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/L%27immeuble_Herzog_%26_de_Meuron_de_la_rue_des_Suisses%2C_Paris_2007.jpg/960px-L%27immeuble_Herzog_%26_de_Meuron_de_la_rue_des_Suisses%2C_Paris_2007.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/L%27immeuble_Herzog_%26_de_Meuron_de_la_rue_des_Suisses%2C_Paris_2007.jpg/120px-L%27immeuble_Herzog_%26_de_Meuron_de_la_rue_des_Suisses%2C_Paris_2007.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:L%27immeuble_Herzog_%26_de_Meuron_de_la_rue_des_Suisses,_Paris_2007.jpg",
+          "author": "Bruno Collinet",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Rue Suisses - Paris XIV (FR75) - 2021-08-01 - 1.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Rue_Suisses_-_Paris_XIV_%28FR75%29_-_2021-08-01_-_1.jpg/960px-Rue_Suisses_-_Paris_XIV_%28FR75%29_-_2021-08-01_-_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Rue_Suisses_-_Paris_XIV_%28FR75%29_-_2021-08-01_-_1.jpg/120px-Rue_Suisses_-_Paris_XIV_%28FR75%29_-_2021-08-01_-_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Rue_Suisses_-_Paris_XIV_(FR75)_-_2021-08-01_-_1.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "meaux",
@@ -6842,12 +8191,44 @@
           "lng": 2.375799,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Square Bouleaux - Paris XIX (FR75) - 2021-07-25 - 1.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Square_Bouleaux_-_Paris_XIX_%28FR75%29_-_2021-07-25_-_1.jpg/960px-Square_Bouleaux_-_Paris_XIX_%28FR75%29_-_2021-07-25_-_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Square_Bouleaux_-_Paris_XIX_%28FR75%29_-_2021-07-25_-_1.jpg/120px-Square_Bouleaux_-_Paris_XIX_%28FR75%29_-_2021-07-25_-_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Square_Bouleaux_-_Paris_XIX_(FR75)_-_2021-07-25_-_1.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Square Bouleaux - Paris XIX (FR75) - 2021-07-25 - 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Square_Bouleaux_-_Paris_XIX_%28FR75%29_-_2021-07-25_-_2.jpg/960px-Square_Bouleaux_-_Paris_XIX_%28FR75%29_-_2021-07-25_-_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Square_Bouleaux_-_Paris_XIX_%28FR75%29_-_2021-07-25_-_2.jpg/120px-Square_Bouleaux_-_Paris_XIX_%28FR75%29_-_2021-07-25_-_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Square_Bouleaux_-_Paris_XIX_(FR75)_-_2021-07-25_-_2.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Plaque Rue Clovis Hugues - Paris XIX (FR75) - 2021-07-25 - 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Plaque_Rue_Clovis_Hugues_-_Paris_XIX_%28FR75%29_-_2021-07-25_-_2.jpg/960px-Plaque_Rue_Clovis_Hugues_-_Paris_XIX_%28FR75%29_-_2021-07-25_-_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Plaque_Rue_Clovis_Hugues_-_Paris_XIX_%28FR75%29_-_2021-07-25_-_2.jpg/120px-Plaque_Rue_Clovis_Hugues_-_Paris_XIX_%28FR75%29_-_2021-07-25_-_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Plaque_Rue_Clovis_Hugues_-_Paris_XIX_(FR75)_-_2021-07-25_-_2.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "butterouge",
@@ -6887,7 +8268,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Cité-jardin Butte-Rouge - rue Albert Thomas.jpg",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cit%C3%A9-jardin_Butte-Rouge_-_rue_Albert_Thomas.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Cit%C3%A9-jardin_Butte-Rouge_-_rue_Albert_Thomas.jpg/120px-Cit%C3%A9-jardin_Butte-Rouge_-_rue_Albert_Thomas.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cit%C3%A9-jardin_Butte-Rouge_-_rue_Albert_Thomas.jpg",
+          "author": "Azadeh AC",
+          "license": "Public domain",
+          "licenseUrl": null
+        },
+        {
+          "file": "Cité de la Butte-Route - Place François Simiand.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Cit%C3%A9_de_la_Butte-Route_-_Place_Fran%C3%A7ois_Simiand.jpg/960px-Cit%C3%A9_de_la_Butte-Route_-_Place_Fran%C3%A7ois_Simiand.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Cit%C3%A9_de_la_Butte-Route_-_Place_Fran%C3%A7ois_Simiand.jpg/120px-Cit%C3%A9_de_la_Butte-Route_-_Place_Fran%C3%A7ois_Simiand.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cit%C3%A9_de_la_Butte-Route_-_Place_Fran%C3%A7ois_Simiand.jpg",
+          "author": "Azadeh AC",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Mail Lucien Herr, Cité-jardin de la Butte-Rouge, à Châtenay-Malabry,.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Mail_Lucien_Herr%2C_Cit%C3%A9-jardin_de_la_Butte-Rouge%2C_%C3%A0_Ch%C3%A2tenay-Malabry%2C.jpg/960px-Mail_Lucien_Herr%2C_Cit%C3%A9-jardin_de_la_Butte-Rouge%2C_%C3%A0_Ch%C3%A2tenay-Malabry%2C.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Mail_Lucien_Herr%2C_Cit%C3%A9-jardin_de_la_Butte-Rouge%2C_%C3%A0_Ch%C3%A2tenay-Malabry%2C.jpg/120px-Mail_Lucien_Herr%2C_Cit%C3%A9-jardin_de_la_Butte-Rouge%2C_%C3%A0_Ch%C3%A2tenay-Malabry%2C.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Mail_Lucien_Herr,_Cit%C3%A9-jardin_de_la_Butte-Rouge,_%C3%A0_Ch%C3%A2tenay-Malabry,.jpg",
+          "author": "Azadeh AC",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Butte rouge rue Marie Bonnevial.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Butte_rouge_rue_Marie_Bonnevial.jpg/960px-Butte_rouge_rue_Marie_Bonnevial.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Butte_rouge_rue_Marie_Bonnevial.jpg/120px-Butte_rouge_rue_Marie_Bonnevial.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Butte_rouge_rue_Marie_Bonnevial.jpg",
+          "author": "VVVCFFrance",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "butteauxcailles",
@@ -7065,7 +8487,48 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Batignolles parc Martin-Luther-King avril 2026.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Batignolles_parc_Martin-Luther-King_avril_2026.jpg/960px-Batignolles_parc_Martin-Luther-King_avril_2026.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Batignolles_parc_Martin-Luther-King_avril_2026.jpg/120px-Batignolles_parc_Martin-Luther-King_avril_2026.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Batignolles_parc_Martin-Luther-King_avril_2026.jpg",
+          "author": "Guallendra",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Batignolles parc Martin-Luther-King Paris 2026 I.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Batignolles_parc_Martin-Luther-King_Paris_2026_I.jpg/960px-Batignolles_parc_Martin-Luther-King_Paris_2026_I.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Batignolles_parc_Martin-Luther-King_Paris_2026_I.jpg/120px-Batignolles_parc_Martin-Luther-King_Paris_2026_I.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Batignolles_parc_Martin-Luther-King_Paris_2026_I.jpg",
+          "author": "Guallendra",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Les Batignolles à Paris et l'immeuble tordu (50877059772).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Les_Batignolles_%C3%A0_Paris_et_l%27immeuble_tordu_%2850877059772%29.jpg/960px-Les_Batignolles_%C3%A0_Paris_et_l%27immeuble_tordu_%2850877059772%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Les_Batignolles_%C3%A0_Paris_et_l%27immeuble_tordu_%2850877059772%29.jpg/120px-Les_Batignolles_%C3%A0_Paris_et_l%27immeuble_tordu_%2850877059772%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Les_Batignolles_%C3%A0_Paris_et_l%27immeuble_tordu_(50877059772).jpg",
+          "author": "besopha",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Batignolles les jardins de Martin-Luther-King.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Batignolles_les_jardins_de_Martin-Luther-King.jpg/960px-Batignolles_les_jardins_de_Martin-Luther-King.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Batignolles_les_jardins_de_Martin-Luther-King.jpg/120px-Batignolles_les_jardins_de_Martin-Luther-King.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Batignolles_les_jardins_de_Martin-Luther-King.jpg",
+          "author": "Guallendra",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
     },
     {
       "id": "ivry",
@@ -7094,12 +8557,44 @@
           "lng": 2.386494,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Place Gérard Philipe - Ivry-sur-Seine (FR94) - 2021-01-30 - 1.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Place_G%C3%A9rard_Philipe_-_Ivry-sur-Seine_%28FR94%29_-_2021-01-30_-_1.jpg/960px-Place_G%C3%A9rard_Philipe_-_Ivry-sur-Seine_%28FR94%29_-_2021-01-30_-_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Place_G%C3%A9rard_Philipe_-_Ivry-sur-Seine_%28FR94%29_-_2021-01-30_-_1.jpg/120px-Place_G%C3%A9rard_Philipe_-_Ivry-sur-Seine_%28FR94%29_-_2021-01-30_-_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Place_G%C3%A9rard_Philipe_-_Ivry-sur-Seine_(FR94)_-_2021-01-30_-_1.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Place Gérard Philipe - Ivry-sur-Seine (FR94) - 2021-01-30 - 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Place_G%C3%A9rard_Philipe_-_Ivry-sur-Seine_%28FR94%29_-_2021-01-30_-_2.jpg/960px-Place_G%C3%A9rard_Philipe_-_Ivry-sur-Seine_%28FR94%29_-_2021-01-30_-_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Place_G%C3%A9rard_Philipe_-_Ivry-sur-Seine_%28FR94%29_-_2021-01-30_-_2.jpg/120px-Place_G%C3%A9rard_Philipe_-_Ivry-sur-Seine_%28FR94%29_-_2021-01-30_-_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Place_G%C3%A9rard_Philipe_-_Ivry-sur-Seine_(FR94)_-_2021-01-30_-_2.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Place Gérard Philipe - Ivry-sur-Seine (FR94) - 2021-01-30 - 3.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Place_G%C3%A9rard_Philipe_-_Ivry-sur-Seine_%28FR94%29_-_2021-01-30_-_3.jpg/960px-Place_G%C3%A9rard_Philipe_-_Ivry-sur-Seine_%28FR94%29_-_2021-01-30_-_3.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Place_G%C3%A9rard_Philipe_-_Ivry-sur-Seine_%28FR94%29_-_2021-01-30_-_3.jpg/120px-Place_G%C3%A9rard_Philipe_-_Ivry-sur-Seine_%28FR94%29_-_2021-01-30_-_3.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Place_G%C3%A9rard_Philipe_-_Ivry-sur-Seine_(FR94)_-_2021-01-30_-_3.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "tzara",
@@ -7672,7 +9167,48 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Building in the Parc André Citroën.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Building_in_the_Parc_Andr%C3%A9_Citro%C3%ABn.jpg/960px-Building_in_the_Parc_Andr%C3%A9_Citro%C3%ABn.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Building_in_the_Parc_Andr%C3%A9_Citro%C3%ABn.jpg/120px-Building_in_the_Parc_Andr%C3%A9_Citro%C3%ABn.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Building_in_the_Parc_Andr%C3%A9_Citro%C3%ABn.jpg",
+          "author": "DiscoA340",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Building seen from the Parc André Citroën.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Building_seen_from_the_Parc_Andr%C3%A9_Citro%C3%ABn.jpg/960px-Building_seen_from_the_Parc_Andr%C3%A9_Citro%C3%ABn.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Building_seen_from_the_Parc_Andr%C3%A9_Citro%C3%ABn.jpg/120px-Building_seen_from_the_Parc_Andr%C3%A9_Citro%C3%ABn.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Building_seen_from_the_Parc_Andr%C3%A9_Citro%C3%ABn.jpg",
+          "author": "DiscoA340",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Aerial view of Parc André Citroën November 15, 2011.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Aerial_view_of_Parc_Andr%C3%A9_Citro%C3%ABn_November_15%2C_2011.jpg/960px-Aerial_view_of_Parc_Andr%C3%A9_Citro%C3%ABn_November_15%2C_2011.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Aerial_view_of_Parc_Andr%C3%A9_Citro%C3%ABn_November_15%2C_2011.jpg/120px-Aerial_view_of_Parc_Andr%C3%A9_Citro%C3%ABn_November_15%2C_2011.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Parc_Andr%C3%A9_Citro%C3%ABn_November_15,_2011.jpg",
+          "author": "Andrew Duthie",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "Ballon de Paris @ Parc André Citroën @ Paris (33145680103).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Ballon_de_Paris_%40_Parc_Andr%C3%A9_Citro%C3%ABn_%40_Paris_%2833145680103%29.jpg/960px-Ballon_de_Paris_%40_Parc_Andr%C3%A9_Citro%C3%ABn_%40_Paris_%2833145680103%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Ballon_de_Paris_%40_Parc_Andr%C3%A9_Citro%C3%ABn_%40_Paris_%2833145680103%29.jpg/120px-Ballon_de_Paris_%40_Parc_Andr%C3%A9_Citro%C3%ABn_%40_Paris_%2833145680103%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ballon_de_Paris_@_Parc_Andr%C3%A9_Citro%C3%ABn_@_Paris_(33145680103).jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     },
     {
       "id": "monceau",
@@ -8017,7 +9553,38 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "P1010851 Paris XX Parc de Belleville reductwk.JPG",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/P1010851_Paris_XX_Parc_de_Belleville_reductwk.JPG/960px-P1010851_Paris_XX_Parc_de_Belleville_reductwk.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/P1010851_Paris_XX_Parc_de_Belleville_reductwk.JPG/120px-P1010851_Paris_XX_Parc_de_Belleville_reductwk.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:P1010851_Paris_XX_Parc_de_Belleville_reductwk.JPG",
+          "author": "Mbzt",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        },
+        {
+          "file": "Belvédère de Belleville @ Parc de Belleville @ Paris 20 (25133422364).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Belv%C3%A9d%C3%A8re_de_Belleville_%40_Parc_de_Belleville_%40_Paris_20_%2825133422364%29.jpg/960px-Belv%C3%A9d%C3%A8re_de_Belleville_%40_Parc_de_Belleville_%40_Paris_20_%2825133422364%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Belv%C3%A9d%C3%A8re_de_Belleville_%40_Parc_de_Belleville_%40_Paris_20_%2825133422364%29.jpg/120px-Belv%C3%A9d%C3%A8re_de_Belleville_%40_Parc_de_Belleville_%40_Paris_20_%2825133422364%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Belv%C3%A9d%C3%A8re_de_Belleville_@_Parc_de_Belleville_@_Paris_20_(25133422364).jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Belvédère de Belleville @ Parc de Belleville @ Paris 20 (25763807795).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Belv%C3%A9d%C3%A8re_de_Belleville_%40_Parc_de_Belleville_%40_Paris_20_%2825763807795%29.jpg/960px-Belv%C3%A9d%C3%A8re_de_Belleville_%40_Parc_de_Belleville_%40_Paris_20_%2825763807795%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Belv%C3%A9d%C3%A8re_de_Belleville_%40_Parc_de_Belleville_%40_Paris_20_%2825763807795%29.jpg/120px-Belv%C3%A9d%C3%A8re_de_Belleville_%40_Parc_de_Belleville_%40_Paris_20_%2825763807795%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Belv%C3%A9d%C3%A8re_de_Belleville_@_Parc_de_Belleville_@_Paris_20_(25763807795).jpg",
+          "author": "Guilhem Vellut from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     },
     {
       "id": "vincennes",
@@ -9076,7 +10643,38 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Promenade plantée, Paris August 2009 (10).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Promenade_plant%C3%A9e%2C_Paris_August_2009_%2810%29.jpg/960px-Promenade_plant%C3%A9e%2C_Paris_August_2009_%2810%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Promenade_plant%C3%A9e%2C_Paris_August_2009_%2810%29.jpg/120px-Promenade_plant%C3%A9e%2C_Paris_August_2009_%2810%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Promenade_plant%C3%A9e,_Paris_August_2009_(10).jpg",
+          "author": "jean-louis Zimmermann from Moulins, FRANCE",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Coulée Verte René Dumont - Paris XII (FR75) - 2022-09-15 - 1.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Coul%C3%A9e_Verte_Ren%C3%A9_Dumont_-_Paris_XII_%28FR75%29_-_2022-09-15_-_1.jpg/960px-Coul%C3%A9e_Verte_Ren%C3%A9_Dumont_-_Paris_XII_%28FR75%29_-_2022-09-15_-_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Coul%C3%A9e_Verte_Ren%C3%A9_Dumont_-_Paris_XII_%28FR75%29_-_2022-09-15_-_1.jpg/120px-Coul%C3%A9e_Verte_Ren%C3%A9_Dumont_-_Paris_XII_%28FR75%29_-_2022-09-15_-_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coul%C3%A9e_Verte_Ren%C3%A9_Dumont_-_Paris_XII_(FR75)_-_2022-09-15_-_1.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Coulée Verte René Dumont - Paris XII (FR75) - 2024-08-23 - 5.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Coul%C3%A9e_Verte_Ren%C3%A9_Dumont_-_Paris_XII_%28FR75%29_-_2024-08-23_-_5.jpg/960px-Coul%C3%A9e_Verte_Ren%C3%A9_Dumont_-_Paris_XII_%28FR75%29_-_2024-08-23_-_5.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Coul%C3%A9e_Verte_Ren%C3%A9_Dumont_-_Paris_XII_%28FR75%29_-_2024-08-23_-_5.jpg/120px-Coul%C3%A9e_Verte_Ren%C3%A9_Dumont_-_Paris_XII_%28FR75%29_-_2024-08-23_-_5.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coul%C3%A9e_Verte_Ren%C3%A9_Dumont_-_Paris_XII_(FR75)_-_2024-08-23_-_5.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "republique",
@@ -9175,14 +10773,16 @@
             ],
             "wikidata": "Q16964687"
           },
-          "lat": 48.915512,
-          "lng": 2.327252,
+          "lat": 48.915513,
+          "lng": 2.327243,
           "geometry": {
             "type": "MultiPolygon",
             "coordinates": [
               [
                 [
-                  [2.32402, 48.91599],
+                  [2.32389, 48.91596],
+                  [2.32411, 48.91577],
+                  [2.32434, 48.91574],
                   [2.32492, 48.91521],
                   [2.32682, 48.91391],
                   [2.32704, 48.91402],
@@ -9210,7 +10810,7 @@
                   [2.32673, 48.91673],
                   [2.32662, 48.91682],
                   [2.325, 48.91624],
-                  [2.32402, 48.91599]
+                  [2.32389, 48.91596]
                 ]
               ]
             ]
@@ -9221,7 +10821,18 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Parc des Docks de Saint-Ouen.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Parc_des_Docks_de_Saint-Ouen.jpg/960px-Parc_des_Docks_de_Saint-Ouen.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Parc_des_Docks_de_Saint-Ouen.jpg/120px-Parc_des_Docks_de_Saint-Ouen.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Parc_des_Docks_de_Saint-Ouen.jpg",
+          "author": "Lektz",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "sceaux",
@@ -9434,7 +11045,38 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/30084819865/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/5825/30084819865_f5bf64dce5_b.jpg",
+          "thumb": "https://live.staticflickr.com/5825/30084819865_f5bf64dce5_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/30084819865/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/29789961760/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/8347/29789961760_684a5543fa_b.jpg",
+          "thumb": "https://live.staticflickr.com/8347/29789961760_684a5543fa_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/29789961760/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/30050601086/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/8125/30050601086_6b0df328ae_b.jpg",
+          "thumb": "https://live.staticflickr.com/8125/30050601086_6b0df328ae_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/30050601086/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "gaite-montparnasse",
