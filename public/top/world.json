@@ -611,14 +611,6 @@
       "date": null,
       "type": "media"
     },
-    "archdaily-1031787": {
-      "publisher": "ArchDaily",
-      "author": null,
-      "title": "Pirelli 35 Office Building / Park Associati + Snøhetta",
-      "url": "https://www.archdaily.com/1031787/pirelli-35-office-building-park-associati-plus-snohetta",
-      "date": "2025-07-08",
-      "type": "media"
-    },
     "archdaily-625188": {
       "publisher": "ArchDaily",
       "author": null,
@@ -1728,30 +1720,6 @@
       "author": null,
       "title": "Exhibition and Convention Center MEETT, Toulouse",
       "url": "https://arquitecturaviva.com/works/oma-centro-de-convenciones-y-exposiciones-meett-en-toulouse-francia-rg31p-10",
-      "date": null,
-      "type": "media"
-    },
-    "archdaily-fondazione-prada": {
-      "publisher": "ArchDaily",
-      "author": "Cristian Aguilar",
-      "title": "Fondazione Prada / OMA",
-      "url": "https://www.archdaily.com/628472/fondazione-prada-oma",
-      "date": "2015-05-07",
-      "type": "media"
-    },
-    "archdaily-fondazione-prada-torre": {
-      "publisher": "ArchDaily",
-      "author": "Diego Hernández",
-      "title": "Fondazione Prada Torre / OMA",
-      "url": "https://www.archdaily.com/892898/fondazione-prada-torre-oma",
-      "date": "2018-04-19",
-      "type": "media"
-    },
-    "av-fondazione-prada": {
-      "publisher": "Arquitectura Viva",
-      "author": null,
-      "title": "Prada Foundation, Milan",
-      "url": "https://arquitecturaviva.com/works/fundacion-prada-5",
       "date": null,
       "type": "media"
     },
@@ -7093,47 +7061,6 @@
           ],
           "approximate": true,
           "osmOnly": true
-        }
-      ],
-      "shapes": [],
-      "photos": []
-    },
-    {
-      "id": "pirelli-35",
-      "title": "Pirelli 35",
-      "architect": "Park Associati; Snøhetta",
-      "year": "2025",
-      "area": "Milan, Italy",
-      "group": "architecture",
-      "firms": [
-        "Snøhetta"
-      ],
-      "firmPage": "https://www.snohetta.com/projects/pirelli-35",
-      "sources": [
-        "archdaily-1031787"
-      ],
-      "why": null,
-      "note": null,
-      "points": [
-        {
-          "name": null,
-          "refs": {
-            "osm": "relation/20454937",
-            "other": [
-              {
-                "source": "archdaily",
-                "url": "https://www.archdaily.com/1031787/pirelli-35-office-building-park-associati-plus-snohetta",
-                "lat": 45.4838596,
-                "lng": 9.1959583
-              }
-            ]
-          },
-          "lat": 45.483453,
-          "lng": 9.195365,
-          "verifiedBy": [
-            "osm",
-            "archdaily"
-          ]
         }
       ],
       "shapes": [],
@@ -14620,53 +14547,6 @@
           "verifiedBy": [
             "osm",
             "wikidata"
-          ]
-        }
-      ],
-      "shapes": [],
-      "photos": []
-    },
-    {
-      "id": "fondazione-prada",
-      "title": "Fondazione Prada",
-      "architect": "OMA (Rem Koolhaas)",
-      "year": "2018",
-      "area": "Milan, Italy",
-      "group": "architecture",
-      "firms": [
-        "OMA"
-      ],
-      "firmPage": "https://www.oma.com/projects/fondazione-prada",
-      "sources": [
-        "archdaily-fondazione-prada",
-        "archdaily-fondazione-prada-torre",
-        "av-fondazione-prada"
-      ],
-      "why": null,
-      "note": null,
-      "points": [
-        {
-          "name": null,
-          "refs": {
-            "wikidata": "Q55832089",
-            "osm": "way/425004880",
-            "av": "fundacion-prada-5",
-            "other": [
-              {
-                "source": "firm",
-                "url": "https://www.oma.com/projects/fondazione-prada",
-                "lat": 45.4438196,
-                "lng": 9.2045734
-              }
-            ]
-          },
-          "lat": 45.443923,
-          "lng": 9.204322,
-          "verifiedBy": [
-            "osm",
-            "wikidata",
-            "av",
-            "firm"
           ]
         }
       ],
