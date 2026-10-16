@@ -2610,12 +2610,50 @@
           "lng": 10.225379,
           "verifiedBy": [
             "osm",
-            "wikidata"
+            "wikidata",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Havnebadet Aarhus.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Havnebadet_Aarhus.jpg/960px-Havnebadet_Aarhus.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Havnebadet_Aarhus.jpg/120px-Havnebadet_Aarhus.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Havnebadet_Aarhus.jpg",
+          "author": "Mikkel Houmøller",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Aarhus Havnebad 50.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Aarhus_Havnebad_50.jpg/960px-Aarhus_Havnebad_50.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Aarhus_Havnebad_50.jpg/120px-Aarhus_Havnebad_50.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Aarhus_Havnebad_50.jpg",
+          "author": "Mikkel Houmøller",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Aarhus Havnebad udspringsbassin.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Aarhus_Havnebad_udspringsbassin.jpg/960px-Aarhus_Havnebad_udspringsbassin.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Aarhus_Havnebad_udspringsbassin.jpg/120px-Aarhus_Havnebad_udspringsbassin.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Aarhus_Havnebad_udspringsbassin.jpg",
+          "author": "Mikkel Houmøller",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Aarhus Havnebad 2.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Aarhus_Havnebad_2.jpg/960px-Aarhus_Havnebad_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Aarhus_Havnebad_2.jpg/120px-Aarhus_Havnebad_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Aarhus_Havnebad_2.jpg",
+          "author": "Fugit hora",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "sneglehusene",
@@ -3390,7 +3428,26 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "San Sebastián - Gastronomy Open Ecosystem (GOe), del Basque Culinary Center (BCC) 1.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/San_Sebasti%C3%A1n_-_Gastronomy_Open_Ecosystem_%28GOe%29%2C_del_Basque_Culinary_Center_%28BCC%29_1.jpg/960px-San_Sebasti%C3%A1n_-_Gastronomy_Open_Ecosystem_%28GOe%29%2C_del_Basque_Culinary_Center_%28BCC%29_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/San_Sebasti%C3%A1n_-_Gastronomy_Open_Ecosystem_%28GOe%29%2C_del_Basque_Culinary_Center_%28BCC%29_1.jpg/120px-San_Sebasti%C3%A1n_-_Gastronomy_Open_Ecosystem_%28GOe%29%2C_del_Basque_Culinary_Center_%28BCC%29_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:San_Sebasti%C3%A1n_-_Gastronomy_Open_Ecosystem_(GOe),_del_Basque_Culinary_Center_(BCC)_1.jpg",
+          "author": "Zarateman",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "San Sebastián - Gastronomy Open Ecosystem (GOe), del Basque Culinary Center (BCC) 2.jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/San_Sebasti%C3%A1n_-_Gastronomy_Open_Ecosystem_%28GOe%29%2C_del_Basque_Culinary_Center_%28BCC%29_2.jpg/960px-San_Sebasti%C3%A1n_-_Gastronomy_Open_Ecosystem_%28GOe%29%2C_del_Basque_Culinary_Center_%28BCC%29_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/San_Sebasti%C3%A1n_-_Gastronomy_Open_Ecosystem_%28GOe%29%2C_del_Basque_Culinary_Center_%28BCC%29_2.jpg/120px-San_Sebasti%C3%A1n_-_Gastronomy_Open_Ecosystem_%28GOe%29%2C_del_Basque_Culinary_Center_%28BCC%29_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:San_Sebasti%C3%A1n_-_Gastronomy_Open_Ecosystem_(GOe),_del_Basque_Culinary_Center_(BCC)_2.jpg",
+          "author": "Zarateman",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
     },
     {
       "id": "via-57-west",
@@ -6905,12 +6962,44 @@
           "lng": 3.131436,
           "verifiedBy": [
             "osm",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Orionis et Arkéos.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Orionis_et_Ark%C3%A9os.jpg/960px-Orionis_et_Ark%C3%A9os.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Orionis_et_Ark%C3%A9os.jpg/120px-Orionis_et_Ark%C3%A9os.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Orionis_et_Ark%C3%A9os.jpg",
+          "author": "JackyM59",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Douai - Route de Tournai, près du finage de Râches (05).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Douai_-_Route_de_Tournai%2C_pr%C3%A8s_du_finage_de_R%C3%A2ches_%2805%29.jpg/960px-Douai_-_Route_de_Tournai%2C_pr%C3%A8s_du_finage_de_R%C3%A2ches_%2805%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Douai_-_Route_de_Tournai%2C_pr%C3%A8s_du_finage_de_R%C3%A2ches_%2805%29.jpg/120px-Douai_-_Route_de_Tournai%2C_pr%C3%A8s_du_finage_de_R%C3%A2ches_%2805%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Douai_-_Route_de_Tournai,_pr%C3%A8s_du_finage_de_R%C3%A2ches_(05).jpg",
+          "author": "Jérémy-Günther-Heinz Jähnick",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Douai - Inauguration d'Orionis, le 13 mai 2023 (14).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Douai_-_Inauguration_d%27Orionis%2C_le_13_mai_2023_%2814%29.jpg/960px-Douai_-_Inauguration_d%27Orionis%2C_le_13_mai_2023_%2814%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Douai_-_Inauguration_d%27Orionis%2C_le_13_mai_2023_%2814%29.jpg/120px-Douai_-_Inauguration_d%27Orionis%2C_le_13_mai_2023_%2814%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Douai_-_Inauguration_d%27Orionis,_le_13_mai_2023_(14).jpg",
+          "author": "Jérémy-Günther-Heinz Jähnick",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      ]
     },
     {
       "id": "ecosysteme-d",
@@ -7032,7 +7121,38 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Lascaux-IV von Snøhetta.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Lascaux-IV_von_Sn%C3%B8hetta.jpg/960px-Lascaux-IV_von_Sn%C3%B8hetta.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Lascaux-IV_von_Sn%C3%B8hetta.jpg/120px-Lascaux-IV_von_Sn%C3%B8hetta.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Lascaux-IV_von_Sn%C3%B8hetta.jpg",
+          "author": "JanManu",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/mgaylard/54594270139/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/54594270139_8ba795b1f7_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/54594270139_8ba795b1f7_q.jpg",
+          "page": "https://www.flickr.com/photos/mgaylard/54594270139/",
+          "author": "www.mgaylard.co.uk and thanks for looking",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "file": "Lacsaux VOA 2021 02.webp",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Lacsaux_VOA_2021_02.webp/960px-Lacsaux_VOA_2021_02.webp",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Lacsaux_VOA_2021_02.webp/120px-Lacsaux_VOA_2021_02.webp",
+          "page": "https://commons.wikimedia.org/wiki/File:Lacsaux_VOA_2021_02.webp",
+          "author": "arzu çakır",
+          "license": "Public domain",
+          "licenseUrl": null
+        }
+      ]
     },
     {
       "id": "inmed",
@@ -7102,12 +7222,44 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "archdaily"
+            "archdaily",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Riese sommer by Edgar Moskopp.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Riese_sommer_by_Edgar_Moskopp.jpg/960px-Riese_sommer_by_Edgar_Moskopp.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Riese_sommer_by_Edgar_Moskopp.jpg/120px-Riese_sommer_by_Edgar_Moskopp.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Riese_sommer_by_Edgar_Moskopp.jpg",
+          "author": "Gegengoliath",
+          "license": "Public domain",
+          "licenseUrl": null
+        },
+        {
+          "file": "Kristallwelt Swarovski - Kristallwolke.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Kristallwelt_Swarovski_-_Kristallwolke.jpg/960px-Kristallwelt_Swarovski_-_Kristallwolke.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Kristallwelt_Swarovski_-_Kristallwolke.jpg/120px-Kristallwelt_Swarovski_-_Kristallwolke.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kristallwelt_Swarovski_-_Kristallwolke.jpg",
+          "author": "Tudoi61",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Kristallwelt Swarovski - Kristallwolke 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Kristallwelt_Swarovski_-_Kristallwolke_2.jpg/960px-Kristallwelt_Swarovski_-_Kristallwolke_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Kristallwelt_Swarovski_-_Kristallwolke_2.jpg/120px-Kristallwelt_Swarovski_-_Kristallwolke_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Kristallwelt_Swarovski_-_Kristallwolke_2.jpg",
+          "author": "Tudoi61",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "swarovski-manufaktur",
@@ -7502,7 +7654,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Bibliotheca Alexandrina (Alexandrie bibliothèque).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Bibliotheca_Alexandrina_%28Alexandrie_biblioth%C3%A8que%29.jpg/960px-Bibliotheca_Alexandrina_%28Alexandrie_biblioth%C3%A8que%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Bibliotheca_Alexandrina_%28Alexandrie_biblioth%C3%A8que%29.jpg/120px-Bibliotheca_Alexandrina_%28Alexandrie_biblioth%C3%A8que%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bibliotheca_Alexandrina_(Alexandrie_biblioth%C3%A8que).jpg",
+          "author": "René Dinkel",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Alexandria library (1).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Alexandria_library_%281%29.jpg/960px-Alexandria_library_%281%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Alexandria_library_%281%29.jpg/120px-Alexandria_library_%281%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Alexandria_library_(1).jpg",
+          "author": "Ahmedsalahemam",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Alexandria library (2).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Alexandria_library_%282%29.jpg/960px-Alexandria_library_%282%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Alexandria_library_%282%29.jpg/120px-Alexandria_library_%282%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Alexandria_library_(2).jpg",
+          "author": "Ahmedsalahemam",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/10629034@N00/7368299646",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/7224/7368299646_513925c87b_b.jpg",
+          "thumb": "https://live.staticflickr.com/7224/7368299646_513925c87b_q.jpg",
+          "page": "https://www.flickr.com/photos/bliink/7368299646/",
+          "author": "bliink",
+          "license": "CC BY-NC 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/"
+        }
+      ]
     },
     {
       "id": "arch-for-the-arch",
@@ -8511,12 +8704,34 @@
             "osm",
             "wikidata",
             "av",
-            "archdaily"
+            "archdaily",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "11 Memorial - Flickr id 15251509819.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/11_Memorial_-_Flickr_id_15251509819.jpg/960px-11_Memorial_-_Flickr_id_15251509819.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/11_Memorial_-_Flickr_id_15251509819.jpg/120px-11_Memorial_-_Flickr_id_15251509819.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:11_Memorial_-_Flickr_id_15251509819.jpg",
+          "author": "jschauma",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "9-11 Memorial and Museum (28815276064).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/9-11_Memorial_and_Museum_%2828815276064%29.jpg/960px-9-11_Memorial_and_Museum_%2828815276064%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/9-11_Memorial_and_Museum_%2828815276064%29.jpg/120px-9-11_Memorial_and_Museum_%2828815276064%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:9-11_Memorial_and_Museum_(28815276064).jpg",
+          "author": "Paul Sableman",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     },
     {
       "id": "times-square",
@@ -10276,12 +10491,41 @@
           "lng": 4.891721,
           "verifiedBy": [
             "registry",
-            "firm"
+            "firm",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Westerdok, Haarlemmerbuurt, Amsterdam, Noord-Holland, Nederland (48719684348).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Westerdok%2C_Haarlemmerbuurt%2C_Amsterdam%2C_Noord-Holland%2C_Nederland_%2848719684348%29.jpg/960px-Westerdok%2C_Haarlemmerbuurt%2C_Amsterdam%2C_Noord-Holland%2C_Nederland_%2848719684348%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Westerdok%2C_Haarlemmerbuurt%2C_Amsterdam%2C_Noord-Holland%2C_Nederland_%2848719684348%29.jpg/120px-Westerdok%2C_Haarlemmerbuurt%2C_Amsterdam%2C_Noord-Holland%2C_Nederland_%2848719684348%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Westerdok,_Haarlemmerbuurt,_Amsterdam,_Noord-Holland,_Nederland_(48719684348).jpg",
+          "author": "Warren LeMay from Cullowhee, NC, United States",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Westerdok, Haarlemmerbuurt, Amsterdam, Noord-Holland, Nederland (48720184492).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Westerdok%2C_Haarlemmerbuurt%2C_Amsterdam%2C_Noord-Holland%2C_Nederland_%2848720184492%29.jpg/960px-Westerdok%2C_Haarlemmerbuurt%2C_Amsterdam%2C_Noord-Holland%2C_Nederland_%2848720184492%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Westerdok%2C_Haarlemmerbuurt%2C_Amsterdam%2C_Noord-Holland%2C_Nederland_%2848720184492%29.jpg/120px-Westerdok%2C_Haarlemmerbuurt%2C_Amsterdam%2C_Noord-Holland%2C_Nederland_%2848720184492%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Westerdok,_Haarlemmerbuurt,_Amsterdam,_Noord-Holland,_Nederland_(48720184492).jpg",
+          "author": "Warren LeMay from Cullowhee, NC, United States",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Westerdok, Haarlemmerbuurt, Amsterdam, Noord-Holland, Nederland (48720013456).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Westerdok%2C_Haarlemmerbuurt%2C_Amsterdam%2C_Noord-Holland%2C_Nederland_%2848720013456%29.jpg/960px-Westerdok%2C_Haarlemmerbuurt%2C_Amsterdam%2C_Noord-Holland%2C_Nederland_%2848720013456%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Westerdok%2C_Haarlemmerbuurt%2C_Amsterdam%2C_Noord-Holland%2C_Nederland_%2848720013456%29.jpg/120px-Westerdok%2C_Haarlemmerbuurt%2C_Amsterdam%2C_Noord-Holland%2C_Nederland_%2848720013456%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Westerdok,_Haarlemmerbuurt,_Amsterdam,_Noord-Holland,_Nederland_(48720013456).jpg",
+          "author": "Warren LeMay from Cullowhee, NC, United States",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
     },
     {
       "id": "glass-farm",
@@ -11235,7 +11479,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/72746018@N00/10749309636",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/7331/10749309636_c324647b70_b.jpg",
+          "thumb": "https://live.staticflickr.com/7331/10749309636_c324647b70_q.jpg",
+          "page": "https://www.flickr.com/photos/dalbera/10749309636/",
+          "author": "dalbera",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/54549576@N00/52788864772",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/52788864772_5793f75a8e_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/52788864772_5793f75a8e_q.jpg",
+          "page": "https://www.flickr.com/photos/wojtekgurak/52788864772/",
+          "author": "Wojtek Gurak",
+          "license": "CC BY-NC 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/16208463072",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/8672/16208463072_2b6668c48a_b.jpg",
+          "thumb": "https://live.staticflickr.com/8672/16208463072_2b6668c48a_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/16208463072/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/16214672691",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/8603/16214672691_31c41f482e_b.jpg",
+          "thumb": "https://live.staticflickr.com/8603/16214672691_31c41f482e_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/16214672691/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "lyon-part-dieu",
@@ -11271,12 +11556,44 @@
           "lng": 4.855833,
           "verifiedBy": [
             "wikidata",
-            "firm"
+            "firm",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Westfield La Part-Dieu (Lyon, 2026).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Westfield_La_Part-Dieu_%28Lyon%2C_2026%29.jpg/960px-Westfield_La_Part-Dieu_%28Lyon%2C_2026%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Westfield_La_Part-Dieu_%28Lyon%2C_2026%29.jpg/120px-Westfield_La_Part-Dieu_%28Lyon%2C_2026%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Westfield_La_Part-Dieu_(Lyon,_2026).jpg",
+          "author": "Corentin Eustacchi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Esplanade Centre Commercial Part Dieu - Lyon III (FR69) - 2024-12-21 - 1.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Esplanade_Centre_Commercial_Part_Dieu_-_Lyon_III_%28FR69%29_-_2024-12-21_-_1.jpg/960px-Esplanade_Centre_Commercial_Part_Dieu_-_Lyon_III_%28FR69%29_-_2024-12-21_-_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Esplanade_Centre_Commercial_Part_Dieu_-_Lyon_III_%28FR69%29_-_2024-12-21_-_1.jpg/120px-Esplanade_Centre_Commercial_Part_Dieu_-_Lyon_III_%28FR69%29_-_2024-12-21_-_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Esplanade_Centre_Commercial_Part_Dieu_-_Lyon_III_(FR69)_-_2024-12-21_-_1.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Lyon 3e - Centre commercial de La Part-Dieu - Rooftop - Jardin de plantes aromatiques 01.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Lyon_3e_-_Centre_commercial_de_La_Part-Dieu_-_Rooftop_-_Jardin_de_plantes_aromatiques_01.jpg/960px-Lyon_3e_-_Centre_commercial_de_La_Part-Dieu_-_Rooftop_-_Jardin_de_plantes_aromatiques_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Lyon_3e_-_Centre_commercial_de_La_Part-Dieu_-_Rooftop_-_Jardin_de_plantes_aromatiques_01.jpg/120px-Lyon_3e_-_Centre_commercial_de_La_Part-Dieu_-_Rooftop_-_Jardin_de_plantes_aromatiques_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Lyon_3e_-_Centre_commercial_de_La_Part-Dieu_-_Rooftop_-_Jardin_de_plantes_aromatiques_01.jpg",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
     },
     {
       "id": "ascension-paysagere",
@@ -11910,7 +12227,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Tianjin Binhai Library 1.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Tianjin_Binhai_Library_1.jpg/960px-Tianjin_Binhai_Library_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Tianjin_Binhai_Library_1.jpg/120px-Tianjin_Binhai_Library_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tianjin_Binhai_Library_1.jpg",
+          "author": "H2v5o68z",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "天津滨海图书馆 矫正版.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%E5%A4%A9%E6%B4%A5%E6%BB%A8%E6%B5%B7%E5%9B%BE%E4%B9%A6%E9%A6%86_%E7%9F%AB%E6%AD%A3%E7%89%88.jpg/960px-%E5%A4%A9%E6%B4%A5%E6%BB%A8%E6%B5%B7%E5%9B%BE%E4%B9%A6%E9%A6%86_%E7%9F%AB%E6%AD%A3%E7%89%88.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%E5%A4%A9%E6%B4%A5%E6%BB%A8%E6%B5%B7%E5%9B%BE%E4%B9%A6%E9%A6%86_%E7%9F%AB%E6%AD%A3%E7%89%88.jpg/120px-%E5%A4%A9%E6%B4%A5%E6%BB%A8%E6%B5%B7%E5%9B%BE%E4%B9%A6%E9%A6%86_%E7%9F%AB%E6%AD%A3%E7%89%88.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E6%B4%A5%E6%BB%A8%E6%B5%B7%E5%9B%BE%E4%B9%A6%E9%A6%86_%E7%9F%AB%E6%AD%A3%E7%89%88.jpg",
+          "author": "CNHowey",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Tianjin-BinhaiXinqu Library.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Tianjin-BinhaiXinqu_Library.jpg/960px-Tianjin-BinhaiXinqu_Library.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Tianjin-BinhaiXinqu_Library.jpg/120px-Tianjin-BinhaiXinqu_Library.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tianjin-BinhaiXinqu_Library.jpg",
+          "author": "Suginami",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Tianjin Binhai Library 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Tianjin_Binhai_Library_2.jpg/960px-Tianjin_Binhai_Library_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Tianjin_Binhai_Library_2.jpg/120px-Tianjin_Binhai_Library_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Tianjin_Binhai_Library_2.jpg",
+          "author": "H2v5o68z",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
     },
     {
       "id": "chongwenmen-m-cube",
@@ -12721,7 +13079,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Seoullo 7017 02.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Seoullo_7017_02.jpg/960px-Seoullo_7017_02.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Seoullo_7017_02.jpg/120px-Seoullo_7017_02.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Seoullo_7017_02.jpg",
+          "author": "분당선M",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Seoullo 7017 05.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Seoullo_7017_05.jpg/960px-Seoullo_7017_05.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Seoullo_7017_05.jpg/120px-Seoullo_7017_05.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Seoullo_7017_05.jpg",
+          "author": "분당선M",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Seoullo 7017 01.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Seoullo_7017_01.jpg/960px-Seoullo_7017_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Seoullo_7017_01.jpg/120px-Seoullo_7017_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Seoullo_7017_01.jpg",
+          "author": "분당선M",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/91049143@N00/45698964932",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/1970/45698964932_57149e8d1c_b.jpg",
+          "thumb": "https://live.staticflickr.com/1970/45698964932_57149e8d1c_q.jpg",
+          "page": "https://www.flickr.com/photos/bryansjs/45698964932/",
+          "author": "bryan...",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+        }
+      ]
     },
     {
       "id": "the-imprint",
@@ -12855,7 +13254,35 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "08.14 總統參訪「河樂廣場」 (50224878808).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/08.14_%E7%B8%BD%E7%B5%B1%E5%8F%83%E8%A8%AA%E3%80%8C%E6%B2%B3%E6%A8%82%E5%BB%A3%E5%A0%B4%E3%80%8D_%2850224878808%29.jpg/960px-08.14_%E7%B8%BD%E7%B5%B1%E5%8F%83%E8%A8%AA%E3%80%8C%E6%B2%B3%E6%A8%82%E5%BB%A3%E5%A0%B4%E3%80%8D_%2850224878808%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/08.14_%E7%B8%BD%E7%B5%B1%E5%8F%83%E8%A8%AA%E3%80%8C%E6%B2%B3%E6%A8%82%E5%BB%A3%E5%A0%B4%E3%80%8D_%2850224878808%29.jpg/120px-08.14_%E7%B8%BD%E7%B5%B1%E5%8F%83%E8%A8%AA%E3%80%8C%E6%B2%B3%E6%A8%82%E5%BB%A3%E5%A0%B4%E3%80%8D_%2850224878808%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:08.14_%E7%B8%BD%E7%B5%B1%E5%8F%83%E8%A8%AA%E3%80%8C%E6%B2%B3%E6%A8%82%E5%BB%A3%E5%A0%B4%E3%80%8D_(50224878808).jpg",
+          "author": "總統府",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "08.14 總統參訪「河樂廣場」 (50224879128).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/08.14_%E7%B8%BD%E7%B5%B1%E5%8F%83%E8%A8%AA%E3%80%8C%E6%B2%B3%E6%A8%82%E5%BB%A3%E5%A0%B4%E3%80%8D_%2850224879128%29.jpg/960px-08.14_%E7%B8%BD%E7%B5%B1%E5%8F%83%E8%A8%AA%E3%80%8C%E6%B2%B3%E6%A8%82%E5%BB%A3%E5%A0%B4%E3%80%8D_%2850224879128%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/08.14_%E7%B8%BD%E7%B5%B1%E5%8F%83%E8%A8%AA%E3%80%8C%E6%B2%B3%E6%A8%82%E5%BB%A3%E5%A0%B4%E3%80%8D_%2850224879128%29.jpg/120px-08.14_%E7%B8%BD%E7%B5%B1%E5%8F%83%E8%A8%AA%E3%80%8C%E6%B2%B3%E6%A8%82%E5%BB%A3%E5%A0%B4%E3%80%8D_%2850224879128%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:08.14_%E7%B8%BD%E7%B5%B1%E5%8F%83%E8%A8%AA%E3%80%8C%E6%B2%B3%E6%A8%82%E5%BB%A3%E5%A0%B4%E3%80%8D_(50224879128).jpg",
+          "author": "總統府",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "08.14 總統參訪「河樂廣場」 (50224880118).jpg",
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/08.14_%E7%B8%BD%E7%B5%B1%E5%8F%83%E8%A8%AA%E3%80%8C%E6%B2%B3%E6%A8%82%E5%BB%A3%E5%A0%B4%E3%80%8D_%2850224880118%29.jpg/960px-08.14_%E7%B8%BD%E7%B5%B1%E5%8F%83%E8%A8%AA%E3%80%8C%E6%B2%B3%E6%A8%82%E5%BB%A3%E5%A0%B4%E3%80%8D_%2850224880118%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/08.14_%E7%B8%BD%E7%B5%B1%E5%8F%83%E8%A8%AA%E3%80%8C%E6%B2%B3%E6%A8%82%E5%BB%A3%E5%A0%B4%E3%80%8D_%2850224880118%29.jpg/120px-08.14_%E7%B8%BD%E7%B5%B1%E5%8F%83%E8%A8%AA%E3%80%8C%E6%B2%B3%E6%A8%82%E5%BB%A3%E5%A0%B4%E3%80%8D_%2850224880118%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:08.14_%E7%B8%BD%E7%B5%B1%E5%8F%83%E8%A8%AA%E3%80%8C%E6%B2%B3%E6%A8%82%E5%BB%A3%E5%A0%B4%E3%80%8D_(50224880118).jpg",
+          "author": "總統府",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     },
     {
       "id": "tainan-market",
@@ -14427,12 +14854,34 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "firm"
+            "firm",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Universala kongreso de Esperanto en 2015 01.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Universala_kongreso_de_Esperanto_en_2015_01.jpg/960px-Universala_kongreso_de_Esperanto_en_2015_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Universala_kongreso_de_Esperanto_en_2015_01.jpg/120px-Universala_kongreso_de_Esperanto_en_2015_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Universala_kongreso_de_Esperanto_en_2015_01.jpg",
+          "author": "RG72",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "UK 2015, kongresejo.JPG",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/UK_2015%2C_kongresejo.JPG/960px-UK_2015%2C_kongresejo.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/UK_2015%2C_kongresejo.JPG/120px-UK_2015%2C_kongresejo.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:UK_2015,_kongresejo.JPG",
+          "author": "Marek Blahuš",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      ]
     },
     {
       "id": "palais-de-justice-lille",
@@ -14510,12 +14959,54 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "firm"
+            "firm",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Bibliothèque Alexis de Tocqueville 2025-03-29.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Biblioth%C3%A8que_Alexis_de_Tocqueville_2025-03-29.jpg/960px-Biblioth%C3%A8que_Alexis_de_Tocqueville_2025-03-29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Biblioth%C3%A8que_Alexis_de_Tocqueville_2025-03-29.jpg/120px-Biblioth%C3%A8que_Alexis_de_Tocqueville_2025-03-29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Biblioth%C3%A8que_Alexis_de_Tocqueville_2025-03-29.jpg",
+          "author": "Andy Li",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "BATocqueville.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/BATocqueville.jpg/960px-BATocqueville.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/BATocqueville.jpg/120px-BATocqueville.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:BATocqueville.jpg",
+          "author": "UneAutreHistoire",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "1st floor of Bibliothèque Alexis de Tocqueville (1) 2025-03-29.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/1st_floor_of_Biblioth%C3%A8que_Alexis_de_Tocqueville_%281%29_2025-03-29.jpg/960px-1st_floor_of_Biblioth%C3%A8que_Alexis_de_Tocqueville_%281%29_2025-03-29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/1st_floor_of_Biblioth%C3%A8que_Alexis_de_Tocqueville_%281%29_2025-03-29.jpg/120px-1st_floor_of_Biblioth%C3%A8que_Alexis_de_Tocqueville_%281%29_2025-03-29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:1st_floor_of_Biblioth%C3%A8que_Alexis_de_Tocqueville_(1)_2025-03-29.jpg",
+          "author": "Andy Li",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "2nd floor of Bibliothèque Alexis de Tocqueville 2025-03-29.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/2nd_floor_of_Biblioth%C3%A8que_Alexis_de_Tocqueville_2025-03-29.jpg/960px-2nd_floor_of_Biblioth%C3%A8que_Alexis_de_Tocqueville_2025-03-29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/2nd_floor_of_Biblioth%C3%A8que_Alexis_de_Tocqueville_2025-03-29.jpg/120px-2nd_floor_of_Biblioth%C3%A8que_Alexis_de_Tocqueville_2025-03-29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:2nd_floor_of_Biblioth%C3%A8que_Alexis_de_Tocqueville_2025-03-29.jpg",
+          "author": "Andy Li",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
     },
     {
       "id": "meett-toulouse",
@@ -17272,7 +17763,28 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/15853051@N00/2228416326",
+          "src": "https://live.staticflickr.com/2344/2228416326_f1c282565d_b.jpg",
+          "thumb": "https://live.staticflickr.com/2344/2228416326_f1c282565d_q.jpg",
+          "page": "https://www.flickr.com/photos/dalcrose/2228416326/",
+          "author": "dalcrose",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+          "nonCommercial": true
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/15853051@N00/2227626425",
+          "src": "https://live.staticflickr.com/2282/2227626425_073d7de529_b.jpg",
+          "thumb": "https://live.staticflickr.com/2282/2227626425_073d7de529_q.jpg",
+          "page": "https://www.flickr.com/photos/dalcrose/2227626425/",
+          "author": "dalcrose",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+          "nonCommercial": true
+        }
+      ]
     },
     {
       "id": "galleria-gwanggyo",
@@ -17471,7 +17983,48 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "unsplash": "https://unsplash.com/photos/a-large-building-with-a-curved-walkway-in-front-of-it-xkQb0LYnEjw",
+          "nonCommercial": true,
+          "src": "https://images.unsplash.com/photo-1642628555215-77cb80554c3d?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ5MzY3fA&ixlib=rb-4.1.0&w=960&q=80",
+          "thumb": "https://images.unsplash.com/photo-1642628555215-77cb80554c3d?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ5MzY3fA&ixlib=rb-4.1.0&w=120&h=120&fit=crop&q=70",
+          "page": "https://unsplash.com/@michaeltoler?utm_source=archmap&utm_medium=referral",
+          "author": "Michael Toler",
+          "license": "Unsplash License",
+          "licenseUrl": "https://unsplash.com/license"
+        },
+        {
+          "file": "Qatar National Library.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Qatar_National_Library.jpg/960px-Qatar_National_Library.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Qatar_National_Library.jpg/120px-Qatar_National_Library.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Qatar_National_Library.jpg",
+          "author": "En Merker",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Qatar National Library 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Qatar_National_Library_2.jpg/960px-Qatar_National_Library_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Qatar_National_Library_2.jpg/120px-Qatar_National_Library_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Qatar_National_Library_2.jpg",
+          "author": "Sharawi13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/travelourplanet/53553464149/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/53553464149_4eefe0c807_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/53553464149_4eefe0c807_q.jpg",
+          "page": "https://www.flickr.com/photos/travelourplanet/53553464149/",
+          "author": "travelourplanet.com",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "concrete-alserkal",
