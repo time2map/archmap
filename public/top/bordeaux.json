@@ -3576,7 +3576,38 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Cité administrative (Bordeaux).JPG",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/df/Cit%C3%A9_administrative_%28Bordeaux%29.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cit%C3%A9_administrative_%28Bordeaux%29.JPG/120px-Cit%C3%A9_administrative_%28Bordeaux%29.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Cit%C3%A9_administrative_(Bordeaux).JPG",
+          "author": "F.rodrigo",
+          "license": "Public domain",
+          "licenseUrl": null
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/27959591075",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/7284/27959591075_181058fe2c_b.jpg",
+          "thumb": "https://live.staticflickr.com/7284/27959591075_181058fe2c_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/27959591075/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/129231073@N06/27347155464",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/7300/27347155464_5717bdc129_b.jpg",
+          "thumb": "https://live.staticflickr.com/7300/27347155464_5717bdc129_q.jpg",
+          "page": "https://www.flickr.com/photos/129231073@N06/27347155464/",
+          "author": "corno.fulgur75",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "benauge",
@@ -4160,7 +4191,58 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/xiquinho/53316746482/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/53316746482_9d80c13939_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/53316746482_9d80c13939_q.jpg",
+          "page": "https://www.flickr.com/photos/xiquinho/53316746482/",
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/xiquinho/53317970534/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/53317970534_9c74065375_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/53317970534_9c74065375_q.jpg",
+          "page": "https://www.flickr.com/photos/xiquinho/53317970534/",
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/xiquinho/53317970749/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/53317970749_64ac2f322e_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/53317970749_64ac2f322e_q.jpg",
+          "page": "https://www.flickr.com/photos/xiquinho/53317970749/",
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/xiquinho/53317969749/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/53317969749_75250e0989_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/53317969749_75250e0989_q.jpg",
+          "page": "https://www.flickr.com/photos/xiquinho/53317969749/",
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/xiquinho/53316747097/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/53316747097_e4d8748890_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/53316747097_e4d8748890_q.jpg",
+          "page": "https://www.flickr.com/photos/xiquinho/53316747097/",
+          "author": "xiquinhosilva",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
+      ]
     },
     {
       "id": "latapie",
