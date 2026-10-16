@@ -7738,7 +7738,48 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Superkilen hill-top view.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Superkilen_hill-top_view.jpg/960px-Superkilen_hill-top_view.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Superkilen_hill-top_view.jpg/120px-Superkilen_hill-top_view.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Superkilen_hill-top_view.jpg",
+          "author": "Emily",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "København - Superkilen (30697508970).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/K%C3%B8benhavn_-_Superkilen_%2830697508970%29.jpg/960px-K%C3%B8benhavn_-_Superkilen_%2830697508970%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/K%C3%B8benhavn_-_Superkilen_%2830697508970%29.jpg/120px-K%C3%B8benhavn_-_Superkilen_%2830697508970%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:K%C3%B8benhavn_-_Superkilen_(30697508970).jpg",
+          "author": "Fred Romero from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "København - Superkilen (30882438352).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/K%C3%B8benhavn_-_Superkilen_%2830882438352%29.jpg/960px-K%C3%B8benhavn_-_Superkilen_%2830882438352%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/K%C3%B8benhavn_-_Superkilen_%2830882438352%29.jpg/120px-K%C3%B8benhavn_-_Superkilen_%2830882438352%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:K%C3%B8benhavn_-_Superkilen_(30882438352).jpg",
+          "author": "Fred Romero from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Superkilen.JPG",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Superkilen.JPG/960px-Superkilen.JPG",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Superkilen.JPG/120px-Superkilen.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Superkilen.JPG",
+          "author": "Orf3us",
+          "license": "Public domain",
+          "licenseUrl": null
+        }
+      ]
     },
     {
       "id": "harbourbath",
@@ -8475,7 +8516,48 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Cph opera house from opera park 01.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Cph_opera_house_from_opera_park_01.jpg/960px-Cph_opera_house_from_opera_park_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Cph_opera_house_from_opera_park_01.jpg/120px-Cph_opera_house_from_opera_park_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cph_opera_house_from_opera_park_01.jpg",
+          "author": "Zandcee",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Operaparken - Den nordamerikanske skov 04.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Operaparken_-_Den_nordamerikanske_skov_04.jpg/960px-Operaparken_-_Den_nordamerikanske_skov_04.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Operaparken_-_Den_nordamerikanske_skov_04.jpg/120px-Operaparken_-_Den_nordamerikanske_skov_04.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Operaparken_-_Den_nordamerikanske_skov_04.jpg",
+          "author": "Leif Jørgensen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Operaparken - Den nordiske skov 04.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Operaparken_-_Den_nordiske_skov_04.jpg/960px-Operaparken_-_Den_nordiske_skov_04.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Operaparken_-_Den_nordiske_skov_04.jpg/120px-Operaparken_-_Den_nordiske_skov_04.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Operaparken_-_Den_nordiske_skov_04.jpg",
+          "author": "Leif Jørgensen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Operaparken - Skovsøen 01.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Operaparken_-_Skovs%C3%B8en_01.jpg/960px-Operaparken_-_Skovs%C3%B8en_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Operaparken_-_Skovs%C3%B8en_01.jpg/120px-Operaparken_-_Skovs%C3%B8en_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Operaparken_-_Skovs%C3%B8en_01.jpg",
+          "author": "Leif Jørgensen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "sanktkjeld",
@@ -8532,7 +8614,38 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Sankt Kjelds Plads med bænk.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Sankt_Kjelds_Plads_med_b%C3%A6nk.jpg/960px-Sankt_Kjelds_Plads_med_b%C3%A6nk.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Sankt_Kjelds_Plads_med_b%C3%A6nk.jpg/120px-Sankt_Kjelds_Plads_med_b%C3%A6nk.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sankt_Kjelds_Plads_med_b%C3%A6nk.jpg",
+          "author": "Orf3us",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Sankt Kjelds Plads, København.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Sankt_Kjelds_Plads%2C_K%C3%B8benhavn.jpg/960px-Sankt_Kjelds_Plads%2C_K%C3%B8benhavn.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Sankt_Kjelds_Plads%2C_K%C3%B8benhavn.jpg/120px-Sankt_Kjelds_Plads%2C_K%C3%B8benhavn.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sankt_Kjelds_Plads,_K%C3%B8benhavn.jpg",
+          "author": "Orf3us",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Sankt Kjelds Plads mod Tåsingegade.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Sankt_Kjelds_Plads_mod_T%C3%A5singegade.jpg/960px-Sankt_Kjelds_Plads_mod_T%C3%A5singegade.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Sankt_Kjelds_Plads_mod_T%C3%A5singegade.jpg/120px-Sankt_Kjelds_Plads_mod_T%C3%A5singegade.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Sankt_Kjelds_Plads_mod_T%C3%A5singegade.jpg",
+          "author": "Orf3us",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "tasinge",
@@ -8581,7 +8694,48 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Tåsinge Plads 02.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/T%C3%A5singe_Plads_02.jpg/960px-T%C3%A5singe_Plads_02.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/T%C3%A5singe_Plads_02.jpg/120px-T%C3%A5singe_Plads_02.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:T%C3%A5singe_Plads_02.jpg",
+          "author": "Leif Jørgensen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Tåsinge Plads 03.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/T%C3%A5singe_Plads_03.jpg/960px-T%C3%A5singe_Plads_03.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/T%C3%A5singe_Plads_03.jpg/120px-T%C3%A5singe_Plads_03.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:T%C3%A5singe_Plads_03.jpg",
+          "author": "Leif Jørgensen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Tåsinge Plads 06.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/T%C3%A5singe_Plads_06.jpg/960px-T%C3%A5singe_Plads_06.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/T%C3%A5singe_Plads_06.jpg/120px-T%C3%A5singe_Plads_06.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:T%C3%A5singe_Plads_06.jpg",
+          "author": "Leif Jørgensen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Tåsinge Plads 04.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/T%C3%A5singe_Plads_04.jpg/960px-T%C3%A5singe_Plads_04.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/T%C3%A5singe_Plads_04.jpg/120px-T%C3%A5singe_Plads_04.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:T%C3%A5singe_Plads_04.jpg",
+          "author": "Leif Jørgensen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "gronningen",
@@ -8870,7 +9024,48 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Guldbergs Plads 03.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Guldbergs_Plads_03.jpg/960px-Guldbergs_Plads_03.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Guldbergs_Plads_03.jpg/120px-Guldbergs_Plads_03.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Guldbergs_Plads_03.jpg",
+          "author": "Leif Jørgensen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Guldbergs Plads 01.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Guldbergs_Plads_01.jpg/960px-Guldbergs_Plads_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Guldbergs_Plads_01.jpg/120px-Guldbergs_Plads_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Guldbergs_Plads_01.jpg",
+          "author": "em ha",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Guldbergs Plads 06.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Guldbergs_Plads_06.jpg/960px-Guldbergs_Plads_06.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Guldbergs_Plads_06.jpg/120px-Guldbergs_Plads_06.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Guldbergs_Plads_06.jpg",
+          "author": "Leif Jørgensen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Guldbergs Plads 04.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Guldbergs_Plads_04.jpg/960px-Guldbergs_Plads_04.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Guldbergs_Plads_04.jpg/120px-Guldbergs_Plads_04.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Guldbergs_Plads_04.jpg",
+          "author": "Leif Jørgensen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "landbo",
@@ -9237,7 +9432,38 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "PlaneplaygroundNørrebroparken.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/PlaneplaygroundN%C3%B8rrebroparken.jpg/960px-PlaneplaygroundN%C3%B8rrebroparken.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/PlaneplaygroundN%C3%B8rrebroparken.jpg/120px-PlaneplaygroundN%C3%B8rrebroparken.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:PlaneplaygroundN%C3%B8rrebroparken.jpg",
+          "author": "xmacex",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "København - Nørrebroparken (22820624858).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/K%C3%B8benhavn_-_N%C3%B8rrebroparken_%2822820624858%29.jpg/960px-K%C3%B8benhavn_-_N%C3%B8rrebroparken_%2822820624858%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/K%C3%B8benhavn_-_N%C3%B8rrebroparken_%2822820624858%29.jpg/120px-K%C3%B8benhavn_-_N%C3%B8rrebroparken_%2822820624858%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:K%C3%B8benhavn_-_N%C3%B8rrebroparken_(22820624858).jpg",
+          "author": "Fred Romero from Paris, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/12983708@N08/2232931829",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/2011/2232931829_6456a00e50_b.jpg",
+          "thumb": "https://live.staticflickr.com/2011/2232931829_6456a00e50_q.jpg",
+          "page": "https://www.flickr.com/photos/nomanson/2232931829/",
+          "author": "nomanson",
+          "license": "CC BY-NC 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/2.0/"
+        }
+      ]
     },
     {
       "id": "karenblixen",
@@ -9310,7 +9536,48 @@
           ]
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "file": "Karen Blixens Plads 03.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Karen_Blixens_Plads_03.jpg/960px-Karen_Blixens_Plads_03.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Karen_Blixens_Plads_03.jpg/120px-Karen_Blixens_Plads_03.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Karen_Blixens_Plads_03.jpg",
+          "author": "Jasparbang",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Karen Blixens Plads 01.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Karen_Blixens_Plads_01.jpg/960px-Karen_Blixens_Plads_01.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Karen_Blixens_Plads_01.jpg/120px-Karen_Blixens_Plads_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Karen_Blixens_Plads_01.jpg",
+          "author": "Jasparbang",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/195355216@N02/51998314549",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/65535/51998314549_32e166716d_b.jpg",
+          "thumb": "https://live.staticflickr.com/65535/51998314549_32e166716d_q.jpg",
+          "page": "https://www.flickr.com/photos/michiel_brouwer_mbdso/51998314549/",
+          "author": "michiel brouwer MBDSO",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        },
+        {
+          "file": "Campus architecture - Karen Blixens Plads - University of Copenhagen (50698437228).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Campus_architecture_-_Karen_Blixens_Plads_-_University_of_Copenhagen_%2850698437228%29.jpg/960px-Campus_architecture_-_Karen_Blixens_Plads_-_University_of_Copenhagen_%2850698437228%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Campus_architecture_-_Karen_Blixens_Plads_-_University_of_Copenhagen_%2850698437228%29.jpg/120px-Campus_architecture_-_Karen_Blixens_Plads_-_University_of_Copenhagen_%2850698437228%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Campus_architecture_-_Karen_Blixens_Plads_-_University_of_Copenhagen_(50698437228).jpg",
+          "author": "Jens Cederskjold from København S, Danmark",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      ]
     },
     {
       "id": "kaktus",

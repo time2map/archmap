@@ -371,10 +371,10 @@ async function contactSheet(candidates, file) {
   const rows = Math.max(1, Math.ceil(candidates.length / COLS))
   const tiles = []
   const labels = []
-  await Promise.all(candidates.map(async (c, i) => {
+  // One thumbnail at a time: Commons refuses a burst of them (HTTP 429), even when asked again
+  for (const [i, c] of candidates.entries()) {
     const x = (i % COLS) * TILE_W
     const y = Math.floor(i / COLS) * TILE_H
-    // Commons refuses some of a burst of thumbnails (HTTP 429): a blank tile, unless asked again
     let res = null
     for (let attempt = 0; attempt < 4 && !res?.ok; attempt++) {
       if (attempt) await sleep(2000 * attempt + Math.random() * 1000)
@@ -389,7 +389,7 @@ async function contactSheet(candidates, file) {
     const name = c.file || `${c.author}: ${c.title}`
     const label = `${i} ${c.file ? '' : c.flickr ? '[F] ' : '[U] '}${/\bnc\b/i.test(c.license || '') ? 'NC ' : ''}${name}`.slice(0, 34) + (c.taken ? ` ${c.taken}` : '')
     labels.push(`<text x="${x + 4}" y="${y + TILE_H - 10}" font-family="Helvetica, Arial" font-size="13">${xml(label)}</text>`)
-  }))
+  }
   const width = COLS * TILE_W
   const height = rows * TILE_H
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">${labels.join('')}</svg>`
