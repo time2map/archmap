@@ -11,8 +11,8 @@ import { fileURLToPath } from 'url'
 //   of the place's name inside its town) is stored with `approximate`, and the card says so;
 // - fetches the OSM geometry of every area and line and keeps it only when another source's
 //   point lies inside the area or near the line;
-// - fills in photo metadata (author, license, thumbnails) of Commons files, Flickr and Unsplash photos, and rejects
-//   non-free photos and files Commons tags as having no freedom of panorama;
+// - fills in photo metadata (author, license, thumbnails) of Commons files, Flickr and Unsplash photos, rejects
+//   non-free photos, and marks `nonCommercial` the NC ones and files Commons tags as having no freedom of panorama;
 // - validates the schema and prints a report in the order the UI shows the places.
 // public/top/world.json holds the works of top architecture firms beyond the cities: no cover, and every
 // place names its city and country in `area`, shown on the card when the location is not confirmed.
@@ -63,8 +63,10 @@ const PHOTO_SOURCES = ['photo-camera', 'photo-object']
 const CONFIRM_ONLY = ['av', ...PHOTO_SOURCES]
 const AV_DATASETS = ['en', 'es'].map(lang => `https://arquitecturaviva.com/assets/uploads/obras/all-${lang}.json`)
 const AV_PUBLISHER = 'Arquitectura Viva'
-// The Unsplash License allows commercial use without asking; Unsplash+ photos are not under it and are refused
-const FREE_LICENSE = /^(CC0( 1\.0)?|Public domain|CC BY(-SA)? \d\.\d( [a-z]{2,})?|Unsplash License)$/i
+// The Unsplash License allows commercial use without asking; Unsplash+ photos are not under it and are refused.
+// NC licenses are taken while the map is non-commercial (2026-10): such a photo is marked `nonCommercial`
+const FREE_LICENSE = /^(CC0( 1\.0)?|Public domain|CC BY(-NC)?(-SA)? \d\.\d( [a-z]{2,})?|Unsplash License)$/i
+const NC_LICENSE = /^CC BY-NC/i
 // Unsplash asks for links back to it and to the photographer that name the app
 const UNSPLASH_UTM = '?utm_source=archmap&utm_medium=referral'
 const DATE = /^\d{4}(-\d{2}(-\d{2})?)?$/
@@ -369,7 +371,8 @@ async function loadPhotos(files) {
 }
 
 // A Flickr photo, by the URL of its page: author, license and image sizes from Flickr's oEmbed (no API key).
-// The license is read from its URL, so only CC BY, CC BY-SA, CC0 and the public domain mark pass the free check.
+// The license is read from its URL, so only CC BY, CC BY-SA, their NC kinds, CC0 and the public domain mark pass
+// the free check.
 // An Unsplash photo, by the URL of its page, from the Unsplash API (UNSPLASH_API_KEY). Unsplash asks that its
 // own image URLs be used (urls.raw, resized with its parameters) and that the photographer's profile be linked
 let unsplashLimited = false
@@ -408,7 +411,7 @@ async function loadFlickr(urls) {
     try {
       const json = await fetchJson(`https://www.flickr.com/services/oembed/?${new URLSearchParams({ url, format: 'json', maxwidth: '1024' })}`)
       const licenseUrl = (json.license_url || '').replace(/^http:/, 'https:')
-      const cc = licenseUrl.match(/creativecommons\.org\/licenses\/(by|by-sa)\/(\d\.\d)/)
+      const cc = licenseUrl.match(/creativecommons\.org\/licenses\/(by|by-sa|by-nc|by-nc-sa)\/(\d\.\d)/)
       const license = cc ? `CC ${cc[1].toUpperCase()} ${cc[2]}`
         : /publicdomain\/zero\/1\.0/.test(licenseUrl) ? 'CC0 1.0'
           : /publicdomain\/mark/.test(licenseUrl) ? 'Public domain'
@@ -431,7 +434,7 @@ async function loadFlickr(urls) {
 }
 
 // {{NoFoP-<country>}}: the photo shows a work under copyright in a country whose freedom of
-// panorama does not cover commercial use
+// panorama does not cover commercial use: the photo is marked `nonCommercial`
 async function loadNoFop(files) {
   const result = new Map()
   for (const batch of chunks([...new Set(files)], 50)) {
@@ -863,9 +866,8 @@ async function main() {
         Object.assign(photo, meta)
         if (!FREE_LICENSE.test(meta.license || '')) issues.errors.push(`photo "${name}": license "${meta.license}" is not free`)
         if (!meta.author) issues.errors.push(`photo "${name}": no author for attribution`)
-        for (const tag of noFop.get(photo.file) || []) {
-          issues.errors.push(`photo "${name}": Commons tags it {{${tag}}} — a work under copyright, no freedom of panorama for commercial use`)
-        }
+        // Set here or by hand (freedom of panorama checked by eye, city-top §5), and never cleared
+        if (NC_LICENSE.test(meta.license || '') || noFop.has(photo.file)) photo.nonCommercial = true
       }
     }
     const failed = await checkImages(checked.flatMap(p => (p.photos || []).flatMap(photo => [photo.src, photo.thumb])).filter(Boolean))
@@ -918,7 +920,8 @@ async function main() {
     const shapes = place.shapes || []
     const located = points.filter(p => Number.isFinite(p.lat)).length
     const shapeInfo = shapes.length ? `, ${shapes.filter(s => s.geometry).length}/${shapes.length} shapes` : ''
-    console.log(`${String(index + 1).padStart(3)}. ${place.title} — ${place.sources.length} votes, ${located}/${points.length} points${shapeInfo}, ${(place.photos || []).length} photos (${place.group})`)
+    const nc = (place.photos || []).filter(p => p.nonCommercial).length
+    console.log(`${String(index + 1).padStart(3)}. ${place.title} — ${place.sources.length} votes, ${located}/${points.length} points${shapeInfo}, ${(place.photos || []).length} photos${nc ? ` (${nc} non-commercial)` : ''} (${place.group})`)
     for (const error of issues.errors) console.log(`       ERROR ${error}`)
     for (const warning of issues.warnings) console.log(`       warn  ${warning}`)
     for (const line of issues.info) console.log(`       info  ${line}`)

@@ -204,7 +204,8 @@ Every place still says where it is in `area`:
   shows it.
 
 ## 5. Photos
-As city-top §5: Wikimedia Commons, Flickr and Unsplash, free licenses, freedom of panorama checked.
+As city-top §5: Wikimedia Commons, Flickr and Unsplash, free licenses (NC ones on Flickr), freedom of
+panorama checked; a photo not free for commercial use is marked `"nonCommercial": true`.
 Never the firm's photos or press kits, on Flickr or Unsplash either: they belong to the photographers and are
 licensed for press about the firm, not for this map. No photo is better than a non-free one.
 
@@ -242,8 +243,8 @@ title: a work is stored once.
    for a single place: for a work far from the cities, look at a satellite image of its stored point
    (Mapbox Static API, `satellite-streets-v12` with a pin, `VITE_MAPBOX_ACCESS_TOKEN` in `.env`).
 5. Report to the user: works found in Wikidata, on the firm's site, and kept; what was left
-   out and why; places without a location or a photo, and those left without a photo by freedom of
-   panorama; the approximate points; the cities whose files changed.
+   out and why; places without a location or a photo, and the photos marked `nonCommercial`; the
+   approximate points; the cities whose files changed.
 
 ## Schema (public/top/world.json)
 The same as a city file (city-top), without `cover`:

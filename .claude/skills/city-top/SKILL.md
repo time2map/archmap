@@ -23,9 +23,11 @@ user sees is in English.
 - A point or a shape goes on the map only when verified (§4), or as an approximate point that the
   card marks as such. Otherwise the card stays, without it.
 - Areas and lines come only from OpenStreetMap objects. Never draw or trace geometry by hand.
-- Photos only from Wikimedia Commons or Flickr under CC0 / PD / CC BY / CC BY-SA, or from Unsplash under
-  the Unsplash License, with author, license and link to the photo, and only where freedom of panorama
-  allows commercial use (§5).
+- Photos only from Wikimedia Commons or Flickr under CC0 / PD / CC BY / CC BY-SA (and on Flickr also
+  CC BY-NC / BY-NC-SA), or from Unsplash under the Unsplash License, with author, license and link to the
+  photo. The map is non-commercial for now (decided 2026-10): a photo that is not free for commercial use,
+  by its NC license or by freedom of panorama (§5), is taken and marked `"nonCommercial": true`.
+  Prefer a photo free for any use when one as good exists.
 
 ## 1. Collect recommendations
 Search each source type in English, the local language(s) and Russian:
@@ -224,12 +226,13 @@ without photos). For each place it collects, most reliable first:
    one of its names, including the local ones); a full-text search of its name and town.
 2. Flickr, without an API key (keys are for Pro accounts only): its public feed by tag (the place's name as
    one tag, then its words as tags; the 20 latest photos, licenses read from Flickr's oEmbed) and Openverse
-   by text. Only CC BY, CC BY-SA, CC0 and the public domain mark, whose title or tags carry every word of one
-   of the place's names.
+   by text. Only CC BY, CC BY-SA, their NC kinds (`NC` on the sheet), CC0 and the public domain mark, whose
+   title or tags carry every word of one of the place's names.
 3. Unsplash, by the place's name and town (`UNSPLASH_API_KEY` in `.env`): the Unsplash License, never
    Unsplash+ photos (another license). When it knows nothing of the place it returns the town's sights, so
-   only the photos whose description names the place are kept (on Snøhetta's works: one in 22 places). A demo key allows 50 requests an hour (one per place); the
-   script goes on without Unsplash when they run out.
+   only the photos whose description names the place are kept (on Snøhetta's works: one in 22 places). The
+   production key allows 1000 requests an hour (two per place); the script goes on without Unsplash when
+   they run out.
 It drops non-free files and Commons photos taken before the year the place was completed, and draws a
 contact sheet per place: `$TMPDIR/archmap-photos/<city>/<id>.jpg` (`--out <dir>` to choose; `--pick` reads
 the same folder), numbered tiles, `[F]` for Flickr with its
@@ -247,13 +250,14 @@ A tile is small: when a building is in doubt, look at the candidate larger (its 
 Flickr and Unsplash have no community review, so check each photo yourself: it must be the uploader's own
 picture. On Unsplash also reject AI-generated images.
 Reject photos from the firm's or a publication's account, press and competition images (a photographer's
-credit in the description, a watermark), renderings, and photos reposted from elsewhere. Licenses NC and
-ND are not free. Freedom of panorama applies as for Commons.
+credit in the description, a watermark), renderings, and photos reposted from elsewhere. NC licenses are
+taken and the script marks such a photo `nonCommercial`; ND is not taken. Freedom of panorama applies as for
+Commons.
 Up to 5 photos per card: different views of a building, or different buildings of an
 ensemble; exterior first, then a public interior if there is one. The first photo is also
 the map pin, so make it the most recognisable one. Fewer is fine; no photo is better than
 a wrong or non-free one. The script fills in author, license, the 960 px image and the
-120 px pin thumbnail, and rejects non-free licenses.
+120 px pin thumbnail, rejects non-free licenses and marks NC ones `nonCommercial`.
 
 ### Freedom of panorama
 The photo's license covers only the photographer. The building, landscape design,
@@ -261,14 +265,13 @@ sculpture or artwork in it has its own author. Before choosing photos, read the 
 page on Commons: `COM:FOP <country>` (https://commons.wikimedia.org/wiki/COM:FOP_France).
 - Freedom of panorama covers commercial use (Spain, LPI art. 35.2): any photo taken from a
   public place is fine.
-- It does not (France: non-commercial only; Italy: none): do not take a photo whose main
-  subject is a work still under copyright, that is, one of its authors is alive or died
-  less than 70 years ago (the country's term is on the same page). The authors' death decides,
+- It does not (France: non-commercial only; Italy: none): a photo whose main subject is a work
+  still under copyright, that is, one of its authors is alive or died less than 70 years ago (the
+  country's term is on the same page), is taken and marked `"nonCommercial": true` by hand. The authors' death decides,
   not the year the work was built: Le Corbusier died in 1965, so the Villa Savoye (1931) is protected
   until 2035; check every author on the card, the co-authors too (Pierre Jeanneret, Bernard Bijvoet).
-  A protected work that is only incidental in a wider view is fine (a modern kiosk on a historic
-  square); a view framed or cropped to it is not. Such a place keeps its card with photos of its
-  parts that are out of copyright, or with no photo.
+  A protected work that is only incidental in a wider view is free for any use (a modern kiosk on a
+  historic square); a view framed or cropped to it is not.
 
 The countries met so far, read on their Commons pages in 2026-10 (read the page of a new country):
 
@@ -280,9 +283,9 @@ The countries met so far, read on their Commons pages in 2026-10 (read the page 
 
 "Buildings only" leaves out sculptures, murals and installations as the main subject, and in Denmark
 and Norway also parks and squares whose landscape design is the subject (Superkilen, Tåsinge Plads):
-the law treats it as a work of art, not a building. Such a place keeps its card without a photo.
-Commons tags some of these photos `{{NoFoP-<country>}}`, and the script rejects them. Most
-are not tagged, so the check is yours.
+the law treats it as a work of art, not a building: their photos are marked `nonCommercial` too.
+Commons tags some of these photos `{{NoFoP-<country>}}`, and the script marks them itself. Most
+are not tagged, so the check is yours. The script never clears the mark: remove a wrong one by hand.
 
 ### Cover
 `cover` is the city's picture in link previews and search results (og:image of `/<city>/`).
@@ -302,8 +305,8 @@ Família). Check on Commons that the file is wider than it is tall.
    --ignore-gpu-blocklist`, or the map stays blank and the list shows no place in view. On macOS add
    `--use-mock-keychain`: otherwise every launch asks the user for the "Chromium Safe Storage" keychain item.
 4. Report to the user: number of places, sources with dates, places without a location or
-   photo, the approximate points, the country's freedom of panorama and the places left without
-   photos because of it, places left out at the coverage check and why, open doubts.
+   photo, the approximate points, the country's freedom of panorama and the photos marked
+   `nonCommercial`, places left out at the coverage check and why, open doubts.
 
 ## Schema (public/top/<city>.json)
 ```json
@@ -331,7 +334,8 @@ Família). Check on Commons that the file is wider than it is tall.
       "lat": 0, "lng": 0, "geometry": { "type": "MultiPolygon|MultiLineString", "coordinates": [] },
       "verifiedBy": ["osm", "wikidata"] }],
     "photos": [{ "file": "Commons file name", "src": "…", "thumb": "…", "page": "…",
-      "author": "…", "license": "…", "licenseUrl": "…" },
+      "author": "…", "license": "…", "licenseUrl": "…",
+      "nonCommercial": "true only for a photo not free for commercial use (NC license, freedom of panorama)" },
       { "flickr": "https://www.flickr.com/photos/<user>/<photo id>/", "src": "…", "…": "…" },
       { "unsplash": "https://unsplash.com/photos/<slug>-<id>", "src": "…", "…": "…" }]
   }]

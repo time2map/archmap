@@ -8,7 +8,8 @@ import sharp from 'sharp'
 // Commons: the Wikidata image (P18), the place's category and its subcategories, files that depict the item
 // (P180), files and categories its OSM objects link to, files taken within 150 m of its point, categories found by
 // the place's names, a full-text search.
-// Flickr, by tag through its public feed and by text through Openverse: CC BY, CC BY-SA, CC0 and public domain.
+// Flickr, by tag through its public feed and by text through Openverse: CC BY, CC BY-SA, their NC kinds (taken while
+// the map is non-commercial, 2026-10; "NC" on the sheet), CC0 and public domain.
 // Unsplash, by text (UNSPLASH_API_KEY): the Unsplash License, without Unsplash+.
 // Only free licenses; Commons photos taken before the place was completed are dropped (the building that stood
 // there before, the construction site). Each place gets a contact sheet, <out>/<place>.jpg, with numbered tiles.
@@ -233,17 +234,17 @@ async function flickrLicense(url) {
   await sleep(200)
   const json = await fetchJson(`https://www.flickr.com/services/oembed/?${new URLSearchParams({ url, format: 'json' })}`).catch(() => null)
   const licenseUrl = json?.license_url || ''
-  const cc = licenseUrl.match(/creativecommons\.org\/licenses\/(by|by-sa)\/(\d\.\d)/)
+  const cc = licenseUrl.match(/creativecommons\.org\/licenses\/(by|by-sa|by-nc|by-nc-sa)\/(\d\.\d)/)
   return cc ? `CC ${cc[1].toUpperCase()} ${cc[2]}` : /publicdomain\/(zero|mark)/.test(licenseUrl) ? 'CC0 / PD' : null
 }
 
-// Unsplash: photos under the Unsplash License (UNSPLASH_API_KEY; the demo key allows 50 requests an hour).
+// Unsplash: photos under the Unsplash License (UNSPLASH_API_KEY; the production key allows 1000 requests an hour).
 // Unsplash+ photos are under another license and are left out
 let unsplashOff = !process.env.UNSPLASH_API_KEY
 
 async function unsplashSearch(query) {
   if (unsplashOff) return []
-  const res = await fetch(`https://api.unsplash.com/search/photos?${new URLSearchParams({ query, per_page: '12' })}`, { headers: unsplashHeaders() })
+  const res = await fetch(`https://api.unsplash.com/search/photos?${new URLSearchParams({ query, per_page: '30' })}`, { headers: unsplashHeaders() })
   if (!res.ok) {
     // Out of requests for this hour: the rest of the run goes without Unsplash
     unsplashOff = true
@@ -273,7 +274,7 @@ async function openverseSearch(query) {
   lastOpenverse = Date.now()
   const headers = process.env.OPENVERSE_TOKEN ? { Authorization: `Bearer ${process.env.OPENVERSE_TOKEN}` } : {}
   const json = await fetchJson(`https://api.openverse.org/v1/images/?${new URLSearchParams({
-    q: query.replace(/[,;:]/g, ' '), source: 'flickr', license: 'by,by-sa,cc0,pdm', page_size: '20'
+    q: query.replace(/[,;:]/g, ' '), source: 'flickr', license: 'by,by-sa,by-nc,by-nc-sa,cc0,pdm', page_size: '20'
   })}`, headers).catch(err => {
     // A refused query (HTTP 403) concerns that query alone; no answer at all means the service is down
     if (!/HTTP 4\d\d/.test(err.message)) openverseDown = true
@@ -285,6 +286,7 @@ async function openverseSearch(query) {
     author: r.creator || '',
     text: [r.title, ...(r.tags || []).map(t => t.name)].join(' '),
     taken: null,
+    license: r.license,
     thumb: (r.url || '').replace(/(_[a-z])?\.jpg$/, '_m.jpg')
   }))
 }
@@ -347,8 +349,13 @@ async function candidatesOf(place) {
   const freeFlickr = fromFlickr.filter(r => r.license !== null)
   // Unsplash falls back on the town's sights when it knows nothing of the place: keep the photos whose description
   // names it, as for Flickr
-  const fromUnsplash = (await unsplashSearch(`${mainTitle} ${town}`))
-    .filter(r => names.some(n => hasAllWords(r.title, n)) && !(place.photos || []).some(p => p.unsplash === r.unsplash))
+  const fromUnsplash = []
+  for (const query of [`${mainTitle} ${town}`, names[1] && `${names[1]} ${town}`].filter(Boolean)) {
+    for (const r of await unsplashSearch(query)) {
+      if (names.some(n => hasAllWords(r.title, n)) && !(place.photos || []).some(p => p.unsplash === r.unsplash) &&
+        !fromUnsplash.some(f => f.unsplash === r.unsplash)) fromUnsplash.push(r)
+    }
+  }
   return [...fromCommons, ...freeFlickr.slice(0, MAX_FLICKR), ...fromUnsplash.slice(0, MAX_UNSPLASH)]
 }
 
@@ -371,7 +378,7 @@ async function contactSheet(candidates, file) {
     }
     // A Flickr photo shows its author: the firm's own account or a photographer's press shots are left out
     const name = c.file || `${c.author}: ${c.title}`
-    const label = `${i} ${c.file ? '' : c.flickr ? '[F] ' : '[U] '}${name}`.slice(0, 34) + (c.taken ? ` ${c.taken}` : '')
+    const label = `${i} ${c.file ? '' : c.flickr ? '[F] ' : '[U] '}${/\bnc\b/i.test(c.license || '') ? 'NC ' : ''}${name}`.slice(0, 34) + (c.taken ? ` ${c.taken}` : '')
     labels.push(`<text x="${x + 4}" y="${y + TILE_H - 10}" font-family="Helvetica, Arial" font-size="13">${xml(label)}</text>`)
   }))
   const width = COLS * TILE_W

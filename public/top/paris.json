@@ -5224,12 +5224,44 @@
           "verifiedBy": [
             "osm",
             "wikidata",
-            "av"
+            "av",
+            "photo-camera"
           ]
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/27195496@N00/16315865630",
+          "src": "https://live.staticflickr.com/8576/16315865630_b3858cea32_b.jpg",
+          "thumb": "https://live.staticflickr.com/8576/16315865630_b3858cea32_q.jpg",
+          "page": "https://www.flickr.com/photos/stanbury/16315865630/",
+          "author": "FlickrDelusions",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+          "nonCommercial": true
+        },
+        {
+          "file": "Fondation Louis Vuitton roof @ Mare Saint-James @ Bois de Boulogne @ Paris (28303477171).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Fondation_Louis_Vuitton_roof_%40_Mare_Saint-James_%40_Bois_de_Boulogne_%40_Paris_%2828303477171%29.jpg/960px-Fondation_Louis_Vuitton_roof_%40_Mare_Saint-James_%40_Bois_de_Boulogne_%40_Paris_%2828303477171%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Fondation_Louis_Vuitton_roof_%40_Mare_Saint-James_%40_Bois_de_Boulogne_%40_Paris_%2828303477171%29.jpg/120px-Fondation_Louis_Vuitton_roof_%40_Mare_Saint-James_%40_Bois_de_Boulogne_%40_Paris_%2828303477171%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Fondation_Louis_Vuitton_roof_@_Mare_Saint-James_@_Bois_de_Boulogne_@_Paris_(28303477171).jpg",
+          "author": "Guilhem Vellut from Paris, France; cropped by Beyond My Ken ( talk ) 23:42, 29 December 2016 (UTC)",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Paris - Jardin d'Acclimatation - Espaces verts avec vue sur la fondation Louis Vuitton.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Paris_-_Jardin_d%27Acclimatation_-_Espaces_verts_avec_vue_sur_la_fondation_Louis_Vuitton.jpg/960px-Paris_-_Jardin_d%27Acclimatation_-_Espaces_verts_avec_vue_sur_la_fondation_Louis_Vuitton.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Paris_-_Jardin_d%27Acclimatation_-_Espaces_verts_avec_vue_sur_la_fondation_Louis_Vuitton.jpg/120px-Paris_-_Jardin_d%27Acclimatation_-_Espaces_verts_avec_vue_sur_la_fondation_Louis_Vuitton.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Jardin_d%27Acclimatation_-_Espaces_verts_avec_vue_sur_la_fondation_Louis_Vuitton.jpg",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
     },
     {
       "id": "bourse",
