@@ -3149,7 +3149,18 @@
         }
       ],
       "shapes": [],
-      "photos": []
+      "photos": [
+        {
+          "file": "Chapel Saint Mary of the Angels, Rotterdam.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Chapel_Saint_Mary_of_the_Angels%2C_Rotterdam.jpg/960px-Chapel_Saint_Mary_of_the_Angels%2C_Rotterdam.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Chapel_Saint_Mary_of_the_Angels%2C_Rotterdam.jpg/120px-Chapel_Saint_Mary_of_the_Angels%2C_Rotterdam.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Chapel_Saint_Mary_of_the_Angels,_Rotterdam.jpg",
+          "author": "M8scho",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
     },
     {
       "id": "port-pavilion",
