@@ -53,7 +53,8 @@ const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms))
 
 async function fetchJson(url, headers = {}) {
   for (let attempt = 1; ; attempt++) {
-    const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT, ...headers } }).catch(() => null)
+    // A server that stops answering would otherwise hold the run forever (Openverse did, in 2026-10)
+    const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT, ...headers }, signal: AbortSignal.timeout(20000) }).catch(() => null)
     if (res?.ok) return res.json()
     if (attempt >= 3 || (res && res.status < 500 && res.status !== 429)) throw new Error(`HTTP ${res?.status} for ${url}`)
     await sleep(3000 * attempt)
@@ -181,9 +182,16 @@ async function nearbyFiles(at) {
 // License, size and date of Commons files, with a 220 px thumbnail
 async function commonsInfo(titles) {
   const info = new Map()
-  for (let i = 0; i < titles.length; i += 40) {
+  // Up to 40 titles a request, fewer when they are long: a GET of 30 long scan names failed with HTTP 414
+  const batches = []
+  for (const title of titles) {
+    const last = batches[batches.length - 1]
+    if (last && last.length < 40 && [...last, title].join('|').length < 2000) last.push(title)
+    else batches.push([title])
+  }
+  for (const batch of batches) {
     const json = await commons({
-      action: 'query', titles: titles.slice(i, i + 40).join('|'), prop: 'imageinfo', iiprop: 'url|extmetadata', iiurlwidth: String(TILE_W)
+      action: 'query', titles: batch.join('|'), prop: 'imageinfo', iiprop: 'url|extmetadata', iiurlwidth: String(TILE_W)
     })
     for (const page of Object.values(json.query?.pages || {})) {
       const ii = page.imageinfo?.[0]
@@ -254,16 +262,23 @@ async function unsplashSearch(query) {
 }
 
 let lastOpenverse = 0
+// Once Openverse fails, the rest of the run goes without it rather than waiting on it for every place
+let openverseDown = false
 // Without a key: Flickr through Openverse (20 requests a minute anonymously). Its Cloudflare guard refuses a query
 // with a comma, so punctuation goes
 async function openverseSearch(query) {
+  if (openverseDown) return []
   const wait = 3200 - (Date.now() - lastOpenverse)
   if (wait > 0) await sleep(wait)
   lastOpenverse = Date.now()
   const headers = process.env.OPENVERSE_TOKEN ? { Authorization: `Bearer ${process.env.OPENVERSE_TOKEN}` } : {}
   const json = await fetchJson(`https://api.openverse.org/v1/images/?${new URLSearchParams({
     q: query.replace(/[,;:]/g, ' '), source: 'flickr', license: 'by,by-sa,cc0,pdm', page_size: '20'
-  })}`, headers)
+  })}`, headers).catch(err => {
+    // A refused query (HTTP 403) concerns that query alone; no answer at all means the service is down
+    if (!/HTTP 4\d\d/.test(err.message)) openverseDown = true
+    throw err
+  })
   return (json.results || []).map(r => ({
     flickr: r.foreign_landing_url.replace(/^http:/, 'https:'),
     title: r.title || '',

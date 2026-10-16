@@ -35,7 +35,7 @@ Search each source type in English, the local language(s) and Russian:
 | Architecture media city guides | ArchDaily "Architecture City Guide: <City>", Metalocus, Dezeen, Wallpaper*, Divisare |
 | Travel guides | top sights of Lonely Planet, Rough Guides, Time Out, Guardian / NYT city guides |
 | Architects, architect-bloggers, architecture photographers | Virginia Duran city guides; photo series such as Roberto Conte's |
-| Registries | Docomomo, SOS Brutalism; heritage at the highest level: UNESCO, national and regional lists (Spain: BIC; Catalonia: BCIN) |
+| Registries | Docomomo, SOS Brutalism; national selections of modern works (Italy: Atlante dell'architettura contemporanea of the Ministry of Culture); heritage at the highest level: UNESCO, national and regional lists (Spain: BIC; Catalonia: BCIN) |
 | Awards | EUmies (winners, shortlist, nominees), national and regional awards, local college of architects, city awards |
 | Official tourism | the city tourism portal: its top sights and architecture pages |
 | Urbanists and bloggers | local and Russian-language (e.g. Varlamov) |
@@ -188,12 +188,20 @@ The script sorts every point into one of three levels:
 - Administrative boundaries follow the city's districts, not the historic area
   (Barcelona's el Gòtic includes a pier of the port). Say so in `note` or pick a park or
   square object instead.
-- Overpass mirrors come and go; when one times out, try the next.
+- Overpass mirrors come and go; when one times out, try the next. When all are down (Milan, 2026-10), QLever's
+  OSM endpoint (`https://qlever.dev/api/osm-planet`, SPARQL) answers the same questions: the objects tagged with
+  a list of QIDs (`?osm osmkey:wikidata ?qid`), and named objects inside the city's relation (`ogc:sfContains`).
+- Nominatim's lookup, and so verifyTop.js, does not return some objects: a water area (the Darsena), a
+  `boundary=civil` relation (QT8), a `type=site` relation (Bosco Verticale), an unnamed building. Store the
+  building ways, a node of the place or a waterway line instead.
+- ArchDaily's project coordinates are often the city's centroid (Milan: 45.4654, 9.1859): discard them.
 - verifyTop.js looks OSM ids up through Nominatim, which does not index a building with neither a name
   nor an address: its ref comes back "not found". Most buildings in the Netherlands are such outlines (the
   BAG addresses are separate nodes). Store the registry's address point instead: for an unnamed building
   found on the map, the registry's reverse search at its centre gives the address
   (PDOK: `https://api.pdok.nl/bzk/locatieserver/search/v3_1/reverse?lat=<lat>&lon=<lng>&type=adres`).
+- ArchDaily's city guides of 2026 are for subscribers: read the previous version in the Wayback Machine and
+  cite that snapshot, with its own title and date.
 - Check who publishes a site: meet.barcelona belongs to the City Council, while
   thisisbarcelona.com belongs to Turisme de Barcelona; two sites of one publisher are one vote.
 
