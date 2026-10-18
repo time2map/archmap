@@ -35,7 +35,7 @@ look up the missing ones (never type a QID from memory).
 | Santiago Calatrava | Q168482 | |
 | Snøhetta | Q511335, Q1813434 (Kjetil Trædal Thorsen), Q5180916 (Craig Dykers) | done 2026-10 |
 | Tadao Ando | Q208220 | |
-| Zaha Hadid Architects | Q8064602, Q47780 (Zaha Hadid) | |
+| Zaha Hadid Architects | Q8064602, Q47780 (Zaha Hadid) | done 2026-10 |
 
 A big firm is a long run: work in batches of about 20 works, each written and verified
 (§7) before the next.
@@ -71,7 +71,11 @@ address and year against the firm's page, not only its description. MVRDV's list
 Copenhagen (C.F. Møller's, by their own site); the search for MVRDV's Salt in Minervahaven found the Salt
 tower of Westerpark West, and the one for Studio Thonik found Thonik's later studio on Wibautstraat.
 Koolhaas is credited with One Madison in New York (CetraRuddy's) and with Forum Nová Karolina in Ostrava,
-neither on OMA's site.
+neither on OMA's site. Zaha Hadid is credited with Chennai Tech Park (One Indiabulls Park), the railway
+station of Durango (her office's entry for the Eusko Tren headquarters there was a competition) and the
+Arthotel Billie Strauss; the Klenovy Bulvar metro station that opened in Moscow is ARCHSLON's (ZHA designed a
+station of that name on a planned line). An item can have a twin (Vitra Fire Station: Q25455138 and
+Q54988948): take the one the OSM object is tagged with.
 
 ## 2. Confirm on the firm's website
 For every candidate, find its project page on the firm's own site: it confirms that the firm
@@ -90,6 +94,20 @@ lacked Tenjin Business Center II and still had the Lille courthouse under constr
 behind the site. Its image URLs (`cdn.sanity.io/images/<project>/<dataset>/…`) named a public Sanity
 dataset, and one GROQ query to `https://<project>.apicdn.sanity.io/v2021-10-21/data/query/<dataset>` gave
 every project with its status and coordinates.
+
+A site behind a bot check (a Cloudflare "Just a moment" page) can still have a public backend: never try to
+get past the check, look for the API the pages are built from. zha.com is a Next.js front of a headless
+Umbraco: `https://api.zha.com/<page path>` returns each page's content as JSON (a project's `keyFacts`:
+location, years, `constructionStatus`), and `https://api.zha.com/sitemap` lists every project (188 in
+2026-10). Its listing returns ten random cards and ignores paging, so take the sitemap. An API that asks for
+a key (Umbraco's delivery API answered 401) stays closed.
+
+When a firm has moved to a new site, the archived pages of the old one (Wayback Machine; its `cdx` API lists
+the captured URLs) hold what the new one dropped. zaha-hadid.com, redirected to zha.com in 2026, marked the
+Spittelau Viaducts housing, the IBA housing in Berlin and Fraunhofer's Technikum III as Built, and its
+project pages carried a static map centred on the work (`center=<lat>,<lng>`): such a pin goes to
+`refs.other` as `firm`, with the archive URL. A work only on the old site has no `firmPage` and needs a
+source of its own (a registry: Berlin's monument database credits Hadid with the IBA housing).
 
 Use the site's own filters and its list pages, and count what they give. snohetta.com filters by
 status (completed, under construction, proposal) and by discipline (architecture, landscape, interior,
@@ -132,6 +150,17 @@ Decisions from the OMA run:
   converted throughout (Fondaco dei Tedeschi); a small permanent public work credited to the firm by the
   city's public-art catalogue (the "A Star is Born" toilet in Groningen: no `firmPage`); a building the
   firm's site marks completed whose users move in later (Lille courthouse, handed over in 2026).
+
+Decisions from the Zaha Hadid Architects run:
+- out: emergency tents (EAA Foundation Tents); a hotel interior inside the firm's own building (ME Dubai in
+  the Opus: the building's card covers it); a festival pavilion moved to another town later (the Groningen
+  music-video pavilion, now in Appingedam, as MPavilion); private houses the site lists as works (Capital
+  Hill Residence, Mews House);
+- in: a garden-show or expo pavilion that stayed as a permanent public building or bridge (Landscape
+  Formation One, Zaragoza Bridge Pavilion), a permanent pavilion at a winery open to visitors (R. López de
+  Heredia), a listed palazzo converted throughout into a hotel (Romeo Roma, as Fondaco dei Tedeschi), an
+  airport whose construction the firm's news calls complete before its first flights (Western Sydney), a
+  residential ensemble whose first phase is open (Sky Park, Bratislava).
 
 Some firms have no full list of their works online: Alvar Aalto (died 1976; his works are kept
 by the Alvar Aalto Foundation), and sites that show only a selection (check Tadao Ando's and
@@ -190,6 +219,13 @@ Overpass is often down or slow (504s, timeouts): send small queries (`around:` a
 small bbox, never a whole city's area) and switch mirrors. Run a long lookup in the background,
 with its results in a file, so it can resume.
 
+Before searching work by work, ask QLever's OSM endpoint two questions for the whole planet: the objects
+whose `architect` tag names the firm or its founder, and the objects tagged with any of the candidates'
+QIDs (one `VALUES` list). For ZHA they gave OSM objects for 55 of 77 works at once. A planet-wide scan of
+names (`CONTAINS(?name, …)`) times out: search names with Nominatim, or with Overpass in a small bbox.
+ArchDaily's pins are often the city centre and sometimes on another continent (its Dongdaemun Design Plaza
+in Arizona, the Rosenthal Center in Wichita): store only those that fall on the work.
+
 When OSM knows the work by another name, a former or a local one, and Wikidata has no item to
 carry it, add that name to the title in parentheses ("Google Gradient Canopy (Charleston
 East)"): the name check (city-top §4) reads the title.
@@ -215,6 +251,12 @@ every candidate on the contact sheets, then `--pick` the chosen ones.
 Reject: photos of the construction site, renderings, signs, interiors as the first photo, and
 the building that stood there before or the institution's older building (the Wikidata image
 of Noma shows its old warehouse, that of Gammel Hellerup Gymnasium the old school).
+Renderings reach Commons as "own work" too (both files of ZHA's BEEAH headquarters): a perfect sky and an
+empty, spotless site give them away.
+
+The script keeps only files whose name carries the place's name, so a work known by another name gets an
+empty sheet: search Commons yourself (`list=search`, `srnamespace=6`) by the other names and add the files by
+hand (ZHA's pavilion for López de Heredia is filed as the "Tondonia Winery Pavillion").
 
 ## 6. Where each work goes
 - **Inside a city.** The work is in a city of `public/top/index.json` or its metro area
