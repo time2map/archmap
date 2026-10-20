@@ -31,7 +31,7 @@ look up the missing ones (never type a QID from memory).
 | Kengo Kuma | Q725462 | |
 | MVRDV | Q932801, Q1356269 (Winy Maas), Q225927 (Jacob van Rijs), Q469961 (Nathalie de Vries) | done 2026-10 |
 | OMA | Q2015762, Q232364 (Rem Koolhaas) | done 2026-10 |
-| Renzo Piano Building Workshop | Q100604548, Q190148 (Renzo Piano) | Piano & Rogers (Centre Pompidou) counts |
+| Renzo Piano Building Workshop | Q100604548, Q190148 (Renzo Piano) | Piano & Rogers (Centre Pompidou) counts; done 2026-10 |
 | Santiago Calatrava | Q168482 | |
 | Snøhetta | Q511335, Q1813434 (Kjetil Trædal Thorsen), Q5180916 (Craig Dykers) | done 2026-10 |
 | Tadao Ando | Q208220 | |
@@ -75,7 +75,9 @@ neither on OMA's site. Zaha Hadid is credited with Chennai Tech Park (One Indiab
 station of Durango (her office's entry for the Eusko Tren headquarters there was a competition) and the
 Arthotel Billie Strauss; the Klenovy Bulvar metro station that opened in Moscow is ARCHSLON's (ZHA designed a
 station of that name on a planned line). An item can have a twin (Vitra Fire Station: Q25455138 and
-Q54988948): take the one the OSM object is tagged with.
+Q54988948): take the one the OSM object is tagged with. Renzo Piano is credited with the stadium of Trani,
+the De Ferrari metro station of Genoa (the firm names five other stations as its own) and all four Exelon
+Pavilions in Chicago (the north pair is Thomas Beeby's).
 
 ## 2. Confirm on the firm's website
 For every candidate, find its project page on the firm's own site: it confirms that the firm
@@ -108,6 +110,16 @@ Spittelau Viaducts housing, the IBA housing in Berlin and Fraunhofer's Technikum
 project pages carried a static map centred on the work (`center=<lat>,<lng>`): such a pin goes to
 `refs.other` as `firm`, with the archive URL. A work only on the old site has no `firmPage` and needs a
 source of its own (a registry: Berlin's monument database credits Hadid with the IBA housing).
+
+An old site built in JavaScript has no content in its archived pages, but the archive may hold the answers of
+the API the pages called. The rpbw.com of before 2025 loaded its projects from Contentful through
+`www.rpbw.com/spaces/<space>/entries?…`; the capture of `entries?content_type=project&include=1&limit=1000`
+(2023-10; an `id_` URL gives the raw answer, gzip-compressed) lists its 135 projects with their status, 30 of
+them missing from the new site. Read the capture; never call the live API with the token found in the page.
+
+A foundation can keep the firm's archive. The Fondazione Renzo Piano lists 47 projects with their years and a
+point (`data-lat`, `data-lng`, rounded to three decimals, up to 1.3 km off: Tjibaou, Lowara, Maison Hermès);
+its project page is the `firmPage` of a work the firm's site lacks (Cy Twombly Gallery, Lowara, Bercy 2).
 
 Use the site's own filters and its list pages, and count what they give. snohetta.com filters by
 status (completed, under construction, proposal) and by discipline (architecture, landscape, interior,
@@ -161,6 +173,21 @@ Decisions from the Zaha Hadid Architects run:
   Heredia), a listed palazzo converted throughout into a hotel (Romeo Roma, as Fondaco dei Tedeschi), an
   airport whose construction the firm's news calls complete before its first flights (Western Sydney), a
   residential ensemble whose first phase is open (Sky Park, Bratislava).
+
+Decisions from the Renzo Piano Building Workshop run:
+- out: a product or prototype made with a manufacturer (Diogene for Vitra, the Eolic Windmill for Enel); the
+  cladding of a regatta team base (Luna Rossa, Valencia); an installation inside a historic warehouse
+  (Fondazione Vedova, Venice); a school fitted inside another architect's building (Whittle School,
+  Washington); a campus whose concept the founder gave and another office designed (Politecnico di Milano,
+  by Ottavio Di Blasi & Partners); masterplans (Manhattanville, ex-Falck) and districts still building
+  (Waterfront di Levante);
+- in: the firm's own office building (Punta Nave, Genoa); the one building of a new district the firm designed
+  (Le Renzo in Mareterra); works only on the archived old site, each with a source of its own (EMI Music
+  France, Thomson Optronics, the Banca Popolare di Lodi, the Ferrari wind tunnel, the Genoa metro stations); a
+  factory partly demolished whose kept part is being restored (Thomson Optronics, with a `note`); a tower
+  inaugurated whose users have not moved in (Torre Piloti) and an institute whose staff moved in while the site
+  still says in progress (SNF Agora), each with the news as a source; a city card that holds the work as one
+  of its points gets the firm, without `firmPage` (Rotterdam's Wilhelminapier, for the KPN Tower).
 
 Some firms have no full list of their works online: Alvar Aalto (died 1976; his works are kept
 by the Alvar Aalto Foundation), and sites that show only a selection (check Tadao Ando's and
@@ -225,6 +252,10 @@ QIDs (one `VALUES` list). For ZHA they gave OSM objects for 55 of 77 works at on
 names (`CONTAINS(?name, …)`) times out: search names with Nominatim, or with Overpass in a small bbox.
 ArchDaily's pins are often the city centre and sometimes on another continent (its Dongdaemun Design Plaza
 in Arizona, the Rosenthal Center in Wichita): store only those that fall on the work.
+A `wikidata` tag does not make Nominatim return an unnamed building (Maison Hermès, the Thomson factory): use
+Wikidata with AV or the firm's point, or a landuse of the work's name (PA Consulting's plot in Melbourn). A
+company's address in the texts can lead to its other building: Uniper's office on Holzstraße is not the Float,
+whose five buildings OSM names Float on Franziusstraße. Look at every approximate point on a satellite image.
 
 When OSM knows the work by another name, a former or a local one, and Wikidata has no item to
 carry it, add that name to the title in parentheses ("Google Gradient Canopy (Charleston
