@@ -1,7 +1,7 @@
 {
   "id": "paris",
   "name": "Paris",
-  "updated": "2026-10-06",
+  "updated": "2026-10-19",
   "cover": "Paris - The Eiffel Tower in spring - 2307.jpg",
   "sources": {
     "pj-mustsee": {
@@ -1282,6 +1282,78 @@
       "title": "Lab City CentraleSupélec, Gif-sur-Yvette",
       "url": "https://arquitecturaviva.com/works/lab-city-centralesupelec-paris",
       "date": null,
+      "type": "media"
+    },
+    "av-ircam": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Extension of the IRCAM, Paris",
+      "url": "https://arquitecturaviva.com/works/ampliacion-del-ircam-paris",
+      "date": null,
+      "type": "media"
+    },
+    "av-moda": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Maison de l’Ordre des Avocats, Paris (France)",
+      "url": "https://arquitecturaviva.com/works/sede-del-colegio-de-abogados-de-paris",
+      "date": null,
+      "type": "media"
+    },
+    "archdaily-moda": {
+      "publisher": "ArchDaily",
+      "author": "Paula Pintos",
+      "title": "MOdA Headquarters of the Paris Bar Association / Renzo Piano Building Workshop",
+      "url": "https://www.archdaily.com/946533/moda-headquarters-of-the-paris-bar-association-renzo-piano-building-workshop",
+      "date": "2020-08-28",
+      "type": "media"
+    },
+    "av-pathe-palace": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Pathé Palace, Paris (France)",
+      "url": "https://arquitecturaviva.com/works/pathe-palace-paris",
+      "date": null,
+      "type": "media"
+    },
+    "av-bercy2": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Shopping Center in Bercy-Charenton, Paris",
+      "url": "https://arquitecturaviva.com/works/centro-comercial-en-bercy-charenton-paris",
+      "date": null,
+      "type": "media"
+    },
+    "av-schlumberger": {
+      "publisher": "Arquitectura Viva",
+      "author": null,
+      "title": "Rehabilitation of the Schlumberger facilities at Montrouge, Paris",
+      "url": "https://arquitecturaviva.com/works/rehabilitacion-de-las-instalaciones-schlumberger-en-montrouge-paris",
+      "date": null,
+      "type": "media"
+    },
+    "area-emi": {
+      "publisher": "Area",
+      "author": null,
+      "title": "EMI Music France Headquarters",
+      "url": "https://www.area-arch.it/en/emi-music-france-headquarters/",
+      "date": "2014-07-03",
+      "type": "media"
+    },
+    "palissy-thomson": {
+      "publisher": "Ministère de la Culture (Palissy)",
+      "author": null,
+      "title": "Maquette : bâtiment Thomson CSF à Guyancourt",
+      "url": "https://pop.culture.gouv.fr/notice/palissy/PM78002145",
+      "date": null,
+      "type": "registry"
+    },
+    "epaps-halle-piano": {
+      "publisher": "EPA Paris-Saclay",
+      "author": null,
+      "title": "Halle Piano à Guyancourt : un groupement de maîtrise d’œuvre choisi pour sa réhabilitation",
+      "url": "https://epa-paris-saclay.fr/wp-content/uploads/2022/03/2022-03-28_CP_EPA_ParisSaclay_MOE-Rehabilitation-Halle-Piano_vdef.pdf",
+      "date": "2022-03-28",
       "type": "media"
     }
   },
@@ -3665,6 +3737,10 @@
       "year": "1971–1977",
       "area": "4th arrondissement",
       "group": "city-core",
+      "firms": [
+        "Renzo Piano Building Workshop"
+      ],
+      "firmPage": "https://www.rpbw.com/project/centre-georges-pompidou",
       "sources": [
         "pj-contemporary",
         "vpr-modern",
@@ -3697,8 +3773,8 @@
         {
           "unsplash": "https://unsplash.com/photos/white-and-red-building-FLw2X9tp394",
           "nonCommercial": true,
-          "src": "https://images.unsplash.com/photo-1540651983585-81bde7fdfd3a?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ0MDUwfA&ixlib=rb-4.1.0&w=960&q=80",
-          "thumb": "https://images.unsplash.com/photo-1540651983585-81bde7fdfd3a?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ0MDUwfA&ixlib=rb-4.1.0&w=120&h=120&fit=crop&q=70",
+          "src": "https://images.unsplash.com/photo-1540651983585-81bde7fdfd3a?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyNDE5Njk1fA&ixlib=rb-4.1.0&w=960&q=80",
+          "thumb": "https://images.unsplash.com/photo-1540651983585-81bde7fdfd3a?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyNDE5Njk1fA&ixlib=rb-4.1.0&w=120&h=120&fit=crop&q=70",
           "page": "https://unsplash.com/@ostia24?utm_source=archmap&utm_medium=referral",
           "author": "Volker Junker",
           "license": "Unsplash License",
@@ -3707,8 +3783,8 @@
         {
           "unsplash": "https://unsplash.com/photos/blue-building-under-blue-sky-during-daytime-XgsxpANbF2E",
           "nonCommercial": true,
-          "src": "https://images.unsplash.com/photo-1565025072863-7e73bd68c7cb?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ0MDUwfA&ixlib=rb-4.1.0&w=960&q=80",
-          "thumb": "https://images.unsplash.com/photo-1565025072863-7e73bd68c7cb?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ0MDUwfA&ixlib=rb-4.1.0&w=120&h=120&fit=crop&q=70",
+          "src": "https://images.unsplash.com/photo-1565025072863-7e73bd68c7cb?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyNDE5Njk1fA&ixlib=rb-4.1.0&w=960&q=80",
+          "thumb": "https://images.unsplash.com/photo-1565025072863-7e73bd68c7cb?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyNDE5Njk1fA&ixlib=rb-4.1.0&w=120&h=120&fit=crop&q=70",
           "page": "https://unsplash.com/@hariboisverygood?utm_source=archmap&utm_medium=referral",
           "author": "Adora Goodenough",
           "license": "Unsplash License",
@@ -3717,8 +3793,8 @@
         {
           "unsplash": "https://unsplash.com/photos/a-train-travels-down-the-tracks-fAcGlDhTlI0",
           "nonCommercial": true,
-          "src": "https://images.unsplash.com/photo-1659731772578-6f917bca939f?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ0MDUwfA&ixlib=rb-4.1.0&w=960&q=80",
-          "thumb": "https://images.unsplash.com/photo-1659731772578-6f917bca939f?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyMTQ0MDUwfA&ixlib=rb-4.1.0&w=120&h=120&fit=crop&q=70",
+          "src": "https://images.unsplash.com/photo-1659731772578-6f917bca939f?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyNDE5Njk1fA&ixlib=rb-4.1.0&w=960&q=80",
+          "thumb": "https://images.unsplash.com/photo-1659731772578-6f917bca939f?ixid=M3wxMDkzNTkzfDB8MXxhbGx8fHx8fHx8fHwxNzkyNDE5Njk1fA&ixlib=rb-4.1.0&w=120&h=120&fit=crop&q=70",
           "page": "https://unsplash.com/@meizhilang?utm_source=archmap&utm_medium=referral",
           "author": "Meizhi Lang",
           "license": "Unsplash License",
@@ -5935,6 +6011,10 @@
       "year": "2006–2014",
       "area": "13th arrondissement",
       "group": "architecture",
+      "firms": [
+        "Renzo Piano Building Workshop"
+      ],
+      "firmPage": "https://www.rpbw.com/project/fondation-jerome-seydoux-path",
       "sources": [
         "pj-contemporary",
         "ad-2024",
@@ -6234,6 +6314,10 @@
       "year": "2010–2018",
       "area": "17th arrondissement",
       "group": "architecture",
+      "firms": [
+        "Renzo Piano Building Workshop"
+      ],
+      "firmPage": "https://www.rpbw.com/project/paris-courthouse",
       "sources": [
         "duran-2024",
         "metalocus-2022b",
@@ -8173,6 +8257,10 @@
       "year": "1987–1991",
       "area": "19th arrondissement",
       "group": "architecture",
+      "firms": [
+        "Renzo Piano Building Workshop"
+      ],
+      "firmPage": "https://www.rpbw.com/project/rue-de-meaux-housing",
       "sources": [
         "duran-2024",
         "equerre-1991",
@@ -11215,6 +11303,538 @@
       ],
       "shapes": [],
       "photos": []
+    },
+    {
+      "id": "ircam",
+      "title": "IRCAM",
+      "architect": "Renzo Piano Building Workshop",
+      "year": "1977–1990",
+      "area": "4th arrondissement",
+      "group": "architecture",
+      "firms": [
+        "Renzo Piano Building Workshop"
+      ],
+      "firmPage": "https://www.rpbw.com/project/ircam",
+      "sources": [
+        "av-ircam"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q579314",
+            "osm": "node/855292325",
+            "av": "ampliacion-del-ircam-paris",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.fondazionerenzopiano.org/en/project/ircam-institut-de-recherche-et-coordination-acoustique-musique/",
+                "lat": 48.86,
+                "lng": 2.351
+              }
+            ]
+          },
+          "lat": 48.859848,
+          "lng": 2.351386,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "av",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "flickr": "https://www.flickr.com/photos/laurenmanning/2971057186/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/3229/2971057186_75f5058dec_b.jpg",
+          "thumb": "https://live.staticflickr.com/3229/2971057186_75f5058dec_q.jpg",
+          "page": "https://www.flickr.com/photos/laurenmanning/2971057186/",
+          "author": "Lauren Manning",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        {
+          "flickr": "https://www.flickr.com/photos/chogenbo/5344976709/",
+          "nonCommercial": true,
+          "src": "https://live.staticflickr.com/5285/5344976709_95de204189_b.jpg",
+          "thumb": "https://live.staticflickr.com/5285/5344976709_95de204189_q.jpg",
+          "page": "https://www.flickr.com/photos/chogenbo/5344976709/",
+          "author": "chogenbo",
+          "license": "CC BY-NC-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+        },
+        {
+          "file": "Ircam.jpg",
+          "nonCommercial": true,
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Ircam.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Ircam.jpg/120px-Ircam.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Ircam.jpg",
+          "author": "30rKs56MaE at Japanese Wikipedia",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
+    },
+    {
+      "id": "atelier-brancusi",
+      "title": "Atelier Brancusi",
+      "architect": "Renzo Piano Building Workshop",
+      "year": "1997",
+      "area": "4th arrondissement",
+      "group": "architecture",
+      "firms": [
+        "Renzo Piano Building Workshop"
+      ],
+      "firmPage": "https://www.rpbw.com/project/reconstruction-of-the-atelier-brancusi",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q60058273",
+            "osm": "way/55503399",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.fondazionerenzopiano.org/en/project/reconstruction-of-the-atelier-brancusi/",
+                "lat": 48.861,
+                "lng": 2.352
+              }
+            ]
+          },
+          "lat": 48.861389,
+          "lng": 2.351982,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "firm",
+            "photo-camera"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "P1380705 Paris IV Place Pompidou rwk.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/P1380705_Paris_IV_Place_Pompidou_rwk.jpg/960px-P1380705_Paris_IV_Place_Pompidou_rwk.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/P1380705_Paris_IV_Place_Pompidou_rwk.jpg/120px-P1380705_Paris_IV_Place_Pompidou_rwk.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:P1380705_Paris_IV_Place_Pompidou_rwk.jpg",
+          "author": "Mbzt",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Atelier Brancusi, Paris 31 August 2009.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Atelier_Brancusi%2C_Paris_31_August_2009.jpg/960px-Atelier_Brancusi%2C_Paris_31_August_2009.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Atelier_Brancusi%2C_Paris_31_August_2009.jpg/120px-Atelier_Brancusi%2C_Paris_31_August_2009.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Atelier_Brancusi,_Paris_31_August_2009.jpg",
+          "author": "Marko Kudjerski from Toronto, Canada",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Atelier-brancusi.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Atelier-brancusi.jpg/960px-Atelier-brancusi.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Atelier-brancusi.jpg/120px-Atelier-brancusi.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Atelier-brancusi.jpg",
+          "author": "Edal Anton Lefterov",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      ]
+    },
+    {
+      "id": "maison-avocats",
+      "title": "Maison de l'Ordre des Avocats",
+      "architect": "Renzo Piano Building Workshop",
+      "year": "2019",
+      "area": "17th arrondissement",
+      "group": "architecture",
+      "firms": [
+        "Renzo Piano Building Workshop"
+      ],
+      "firmPage": "https://www.rpbw.com/project/maison-des-avocats",
+      "sources": [
+        "archdaily-moda",
+        "av-moda"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q50532135",
+            "osm": "way/810467236",
+            "av": "sede-del-colegio-de-abogados-de-paris"
+          },
+          "lat": 48.894857,
+          "lng": 2.311268,
+          "verifiedBy": [
+            "osm",
+            "wikidata"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Maison des Avocats (DSC09467).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Maison_des_Avocats_%28DSC09467%29.jpg/960px-Maison_des_Avocats_%28DSC09467%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Maison_des_Avocats_%28DSC09467%29.jpg/120px-Maison_des_Avocats_%28DSC09467%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Maison_des_Avocats_(DSC09467).jpg",
+          "author": "Teachix",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Maison des Avocats (DSC09463).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Maison_des_Avocats_%28DSC09463%29.jpg/960px-Maison_des_Avocats_%28DSC09463%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Maison_des_Avocats_%28DSC09463%29.jpg/120px-Maison_des_Avocats_%28DSC09463%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Maison_des_Avocats_(DSC09463).jpg",
+          "author": "Teachix",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "pathe-palace",
+      "title": "Pathé Palace",
+      "architect": "Renzo Piano Building Workshop",
+      "year": "2024",
+      "area": "9th arrondissement",
+      "group": "architecture",
+      "firms": [
+        "Renzo Piano Building Workshop"
+      ],
+      "firmPage": "https://www.rpbw.com/project/pathe-palace",
+      "sources": [
+        "av-pathe-palace"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q289908",
+            "osm": "way/69221119",
+            "av": "pathe-palace-paris"
+          },
+          "lat": 48.871338,
+          "lng": 2.333527,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "av",
+            "photo-camera"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Cinéma Gaumont Opéra Capucines - Paris IX (FR75) - 2024-12-07 - 4.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Cin%C3%A9ma_Gaumont_Op%C3%A9ra_Capucines_-_Paris_IX_%28FR75%29_-_2024-12-07_-_4.jpg/960px-Cin%C3%A9ma_Gaumont_Op%C3%A9ra_Capucines_-_Paris_IX_%28FR75%29_-_2024-12-07_-_4.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Cin%C3%A9ma_Gaumont_Op%C3%A9ra_Capucines_-_Paris_IX_%28FR75%29_-_2024-12-07_-_4.jpg/120px-Cin%C3%A9ma_Gaumont_Op%C3%A9ra_Capucines_-_Paris_IX_%28FR75%29_-_2024-12-07_-_4.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cin%C3%A9ma_Gaumont_Op%C3%A9ra_Capucines_-_Paris_IX_(FR75)_-_2024-12-07_-_4.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Pathé Palace (1).jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Path%C3%A9_Palace_%281%29.jpg/960px-Path%C3%A9_Palace_%281%29.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Path%C3%A9_Palace_%281%29.jpg/120px-Path%C3%A9_Palace_%281%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Path%C3%A9_Palace_(1).jpg",
+          "author": "Bernard Lee",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "file": "Cinema-Pathe-Palace-Paris9e-20-janvier-2026-21h11-byMmeRundvald.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cinema-Pathe-Palace-Paris9e-20-janvier-2026-21h11-byMmeRundvald.jpg/960px-Cinema-Pathe-Palace-Paris9e-20-janvier-2026-21h11-byMmeRundvald.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cinema-Pathe-Palace-Paris9e-20-janvier-2026-21h11-byMmeRundvald.jpg/120px-Cinema-Pathe-Palace-Paris9e-20-janvier-2026-21h11-byMmeRundvald.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cinema-Pathe-Palace-Paris9e-20-janvier-2026-21h11-byMmeRundvald.jpg",
+          "author": "Rundvald",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "bercy-2",
+      "title": "Bercy 2",
+      "architect": "Renzo Piano Building Workshop",
+      "year": "1990",
+      "area": "Charenton-le-Pont",
+      "group": "architecture",
+      "firms": [
+        "Renzo Piano Building Workshop"
+      ],
+      "firmPage": "https://www.fondazionerenzopiano.org/en/project/bercy-2-shopping-centre/",
+      "sources": [
+        "av-bercy2"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q2896953",
+            "osm": "relation/2013390",
+            "av": "centro-comercial-en-bercy-charenton-paris",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.fondazionerenzopiano.org/en/project/bercy-2-shopping-centre/",
+                "lat": 48.826,
+                "lng": 2.394
+              }
+            ]
+          },
+          "lat": 48.82613,
+          "lng": 2.393772,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "av",
+            "firm",
+            "photo-camera"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Bercy 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Bercy_2.jpg/960px-Bercy_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Bercy_2.jpg/120px-Bercy_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Bercy_2.jpg",
+          "author": "VVVCFFrance",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Centre commercial Bercy 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Centre_commercial_Bercy_2.jpg/960px-Centre_commercial_Bercy_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Centre_commercial_Bercy_2.jpg/120px-Centre_commercial_Bercy_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Centre_commercial_Bercy_2.jpg",
+          "author": "Aviator12",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Centre Commercial Bercy 2 - Charenton-le-Pont (FR94) - 2024-08-28 - 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Centre_Commercial_Bercy_2_-_Charenton-le-Pont_%28FR94%29_-_2024-08-28_-_2.jpg/960px-Centre_Commercial_Bercy_2_-_Charenton-le-Pont_%28FR94%29_-_2024-08-28_-_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Centre_Commercial_Bercy_2_-_Charenton-le-Pont_%28FR94%29_-_2024-08-28_-_2.jpg/120px-Centre_Commercial_Bercy_2_-_Charenton-le-Pont_%28FR94%29_-_2024-08-28_-_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Centre_Commercial_Bercy_2_-_Charenton-le-Pont_(FR94)_-_2024-08-28_-_2.jpg",
+          "author": "Chabe01",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "id": "schlumberger-montrouge",
+      "title": "Schlumberger factories (Crédit Agricole - Forum)",
+      "architect": "Renzo Piano Building Workshop",
+      "year": "1984",
+      "area": "Montrouge",
+      "group": "architecture",
+      "firms": [
+        "Renzo Piano Building Workshop"
+      ],
+      "firmPage": "https://www.fondazionerenzopiano.org/en/project/renovation-du-site-schlumberger/",
+      "sources": [
+        "av-schlumberger"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q96602117",
+            "osm": "way/236112452",
+            "av": "rehabilitacion-de-las-instalaciones-schlumberger-en-montrouge-paris",
+            "other": [
+              {
+                "source": "firm",
+                "url": "https://www.fondazionerenzopiano.org/en/project/renovation-du-site-schlumberger/",
+                "lat": 48.817,
+                "lng": 2.313
+              }
+            ]
+          },
+          "lat": 48.817765,
+          "lng": 2.314394,
+          "verifiedBy": [
+            "osm",
+            "av",
+            "firm"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "emi-music-france",
+      "title": "EMI Music France headquarters (Warner Music France)",
+      "architect": "Renzo Piano Building Workshop",
+      "year": "2005",
+      "area": "18th arrondissement",
+      "group": "architecture",
+      "firms": [
+        "Renzo Piano Building Workshop"
+      ],
+      "sources": [
+        "area-emi"
+      ],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "osm": "way/454372981"
+          },
+          "lat": 48.896777,
+          "lng": 2.347621,
+          "verifiedBy": [
+            "osm",
+            "photo-camera"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "Bâtiment 118 Rue Mont Cenis - Paris XVIII (FR75) - 2022-10-12 - 2.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/B%C3%A2timent_118_Rue_Mont_Cenis_-_Paris_XVIII_%28FR75%29_-_2022-10-12_-_2.jpg/960px-B%C3%A2timent_118_Rue_Mont_Cenis_-_Paris_XVIII_%28FR75%29_-_2022-10-12_-_2.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/B%C3%A2timent_118_Rue_Mont_Cenis_-_Paris_XVIII_%28FR75%29_-_2022-10-12_-_2.jpg/120px-B%C3%A2timent_118_Rue_Mont_Cenis_-_Paris_XVIII_%28FR75%29_-_2022-10-12_-_2.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:B%C3%A2timent_118_Rue_Mont_Cenis_-_Paris_XVIII_(FR75)_-_2022-10-12_-_2.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Bâtiment 118 Rue Mont Cenis - Paris XVIII (FR75) - 2022-10-12 - 1.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/B%C3%A2timent_118_Rue_Mont_Cenis_-_Paris_XVIII_%28FR75%29_-_2022-10-12_-_1.jpg/960px-B%C3%A2timent_118_Rue_Mont_Cenis_-_Paris_XVIII_%28FR75%29_-_2022-10-12_-_1.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/B%C3%A2timent_118_Rue_Mont_Cenis_-_Paris_XVIII_%28FR75%29_-_2022-10-12_-_1.jpg/120px-B%C3%A2timent_118_Rue_Mont_Cenis_-_Paris_XVIII_%28FR75%29_-_2022-10-12_-_1.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:B%C3%A2timent_118_Rue_Mont_Cenis_-_Paris_XVIII_(FR75)_-_2022-10-12_-_1.jpg",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "thomson-optronics",
+      "title": "Thomson Optronics factory (Halle Piano)",
+      "architect": "Renzo Piano Building Workshop",
+      "year": "1991",
+      "area": "Guyancourt",
+      "group": "architecture",
+      "firms": [
+        "Renzo Piano Building Workshop"
+      ],
+      "sources": [
+        "palissy-thomson",
+        "epaps-halle-piano"
+      ],
+      "why": null,
+      "note": "Partly demolished in 2017–2021; the south part of the hall and the sighting tower were kept and are being restored.",
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q131414031"
+          },
+          "lat": null,
+          "lng": null,
+          "verifiedBy": []
+        }
+      ],
+      "shapes": [],
+      "photos": []
+    },
+    {
+      "id": "ens-paris-saclay",
+      "title": "École normale supérieure Paris-Saclay",
+      "architect": "Renzo Piano Building Workshop",
+      "year": "2020",
+      "area": "Gif-sur-Yvette",
+      "group": "architecture",
+      "firms": [
+        "Renzo Piano Building Workshop"
+      ],
+      "firmPage": "https://www.rpbw.com/project/ecole-normale-suprieure-ens-paris-saclay",
+      "sources": [],
+      "why": null,
+      "note": null,
+      "points": [
+        {
+          "name": null,
+          "refs": {
+            "wikidata": "Q273604",
+            "osm": "way/925944075"
+          },
+          "lat": 48.712873,
+          "lng": 2.164812,
+          "verifiedBy": [
+            "osm",
+            "wikidata",
+            "photo-camera"
+          ]
+        }
+      ],
+      "shapes": [],
+      "photos": [
+        {
+          "file": "École normale supérieure Paris-Saclay 5 - Université Paris-Saclay.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/%C3%89cole_normale_sup%C3%A9rieure_Paris-Saclay_5_-_Universit%C3%A9_Paris-Saclay.jpg/960px-%C3%89cole_normale_sup%C3%A9rieure_Paris-Saclay_5_-_Universit%C3%A9_Paris-Saclay.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/%C3%89cole_normale_sup%C3%A9rieure_Paris-Saclay_5_-_Universit%C3%A9_Paris-Saclay.jpg/120px-%C3%89cole_normale_sup%C3%A9rieure_Paris-Saclay_5_-_Universit%C3%A9_Paris-Saclay.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%C3%89cole_normale_sup%C3%A9rieure_Paris-Saclay_5_-_Universit%C3%A9_Paris-Saclay.jpg",
+          "author": "Kévin Belbéoc'h",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "École normale supérieure Paris-Saclay, 1 December 2021.jpg",
+          "nonCommercial": true,
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/%C3%89cole_normale_sup%C3%A9rieure_Paris-Saclay%2C_1_December_2021.jpg/960px-%C3%89cole_normale_sup%C3%A9rieure_Paris-Saclay%2C_1_December_2021.jpg",
+          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/%C3%89cole_normale_sup%C3%A9rieure_Paris-Saclay%2C_1_December_2021.jpg/120px-%C3%89cole_normale_sup%C3%A9rieure_Paris-Saclay%2C_1_December_2021.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:%C3%89cole_normale_sup%C3%A9rieure_Paris-Saclay,_1_December_2021.jpg",
+          "author": "IAEA Imagebank",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
     }
   ]
 }

@@ -1300,6 +1300,9 @@
       "year": "1901 (Hotel New York); 1997–2010 (towers)",
       "area": "Kop van Zuid",
       "group": "city-core",
+      "firms": [
+        "Renzo Piano Building Workshop"
+      ],
       "sources": [
         "domus-2025",
         "avontuura-2025",
