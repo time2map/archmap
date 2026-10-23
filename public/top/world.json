@@ -3163,22 +3163,6 @@
       "date": null,
       "type": "media"
     },
-    "av-istanbul-modern": {
-      "publisher": "Arquitectura Viva",
-      "author": null,
-      "title": "Istanbul Museum, Istanbul (Turkey)",
-      "url": "https://arquitecturaviva.com/works/museo-de-arte-moderno-de-estambul",
-      "date": null,
-      "type": "media"
-    },
-    "archdaily-istanbul-modern": {
-      "publisher": "ArchDaily",
-      "author": "Paula Pintos",
-      "title": "Istanbul Modern Museum / Renzo Piano Building Workshop + Arup",
-      "url": "https://www.archdaily.com/1002751/istanbul-modern-museum-renzo-piano-building-workshop-plus-arup",
-      "date": "2023-06-21",
-      "type": "media"
-    },
     "av-shard": {
       "publisher": "Arquitectura Viva",
       "author": null,
@@ -27817,90 +27801,6 @@
           "author": "Photograph by Mike Peel ( www.mikepeel.net ).",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-        }
-      ]
-    },
-    {
-      "id": "istanbul-modern",
-      "title": "İstanbul Modern",
-      "architect": "Renzo Piano Building Workshop",
-      "year": "2023",
-      "area": "Istanbul, Turkey",
-      "group": "architecture",
-      "firms": [
-        "Renzo Piano Building Workshop"
-      ],
-      "firmPage": "https://www.rpbw.com/project/istanbul-modern",
-      "sources": [
-        "archdaily-istanbul-modern",
-        "av-istanbul-modern"
-      ],
-      "why": null,
-      "note": null,
-      "points": [
-        {
-          "name": null,
-          "refs": {
-            "wikidata": "Q1463961",
-            "osm": "node/5640069827",
-            "av": "museo-de-arte-moderno-de-estambul",
-            "other": [
-              {
-                "source": "archdaily",
-                "url": "https://www.archdaily.com/1002751/istanbul-modern-museum-renzo-piano-building-workshop-plus-arup",
-                "lat": 41.02592,
-                "lng": 28.982838
-              }
-            ]
-          },
-          "lat": 41.025911,
-          "lng": 28.982812,
-          "verifiedBy": [
-            "osm",
-            "wikidata",
-            "av",
-            "archdaily",
-            "photo-camera"
-          ]
-        }
-      ],
-      "shapes": [],
-      "photos": [
-        {
-          "file": "Istanbul Museum of Modern Art Exterior in 2024 5632.jpg",
-          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Istanbul_Museum_of_Modern_Art_Exterior_in_2024_5632.jpg/960px-Istanbul_Museum_of_Modern_Art_Exterior_in_2024_5632.jpg",
-          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Istanbul_Museum_of_Modern_Art_Exterior_in_2024_5632.jpg/120px-Istanbul_Museum_of_Modern_Art_Exterior_in_2024_5632.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Istanbul_Museum_of_Modern_Art_Exterior_in_2024_5632.jpg",
-          "author": "Dosseman",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-        },
-        {
-          "file": "Modern sanat 2.jpg",
-          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Modern_sanat_2.jpg/960px-Modern_sanat_2.jpg",
-          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Modern_sanat_2.jpg/120px-Modern_sanat_2.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Modern_sanat_2.jpg",
-          "author": "NaklovD",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
-        },
-        {
-          "file": "Istanbul Modern in September 2023.jpg",
-          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Istanbul_Modern_in_September_2023.jpg/960px-Istanbul_Modern_in_September_2023.jpg",
-          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Istanbul_Modern_in_September_2023.jpg/120px-Istanbul_Modern_in_September_2023.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Istanbul_Modern_in_September_2023.jpg",
-          "author": "Kurmanbek",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-        },
-        {
-          "file": "20260213 Istanbul 04 (76000).jpg",
-          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/20260213_Istanbul_04_%2876000%29.jpg/960px-20260213_Istanbul_04_%2876000%29.jpg",
-          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/20260213_Istanbul_04_%2876000%29.jpg/120px-20260213_Istanbul_04_%2876000%29.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:20260213_Istanbul_04_(76000).jpg",
-          "author": "Sergey A. Demidov",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
         }
       ]
     },
