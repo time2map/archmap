@@ -747,14 +747,6 @@
       "date": "2018-05-10",
       "type": "media"
     },
-    "archdaily-1036604": {
-      "publisher": "ArchDaily",
-      "author": null,
-      "title": "Cloud 11 Creative Park / Snøhetta",
-      "url": "https://www.archdaily.com/1036604/cloud-11-creative-park-snohetta",
-      "date": "2025-12-03",
-      "type": "media"
-    },
     "archdaily-926650": {
       "publisher": "ArchDaily",
       "author": null,
@@ -9430,60 +9422,6 @@
       "areaBounds": [
         [120.850858, 30.669367],
         [123.225706, 31.872019]
-      ]
-    },
-    {
-      "id": "cloud-11",
-      "title": "Cloud 11",
-      "architect": "Snøhetta",
-      "year": "2025",
-      "area": "Bangkok, Thailand",
-      "group": "architecture",
-      "firms": [
-        "Snøhetta"
-      ],
-      "firmPage": "https://www.snohetta.com/projects/cloud-11-2",
-      "sources": [
-        "archdaily-1036604"
-      ],
-      "why": null,
-      "note": null,
-      "points": [
-        {
-          "name": null,
-          "refs": {
-            "osm": "way/1553806240",
-            "other": [
-              {
-                "source": "archdaily",
-                "url": "https://www.archdaily.com/1036604/cloud-11-creative-park-snohetta",
-                "lat": 13.7563309,
-                "lng": 100.5017651
-              }
-            ]
-          },
-          "lat": 13.683424,
-          "lng": 100.608285,
-          "verifiedBy": [
-            "osm"
-          ],
-          "approximate": true,
-          "near": [
-            "photo-camera"
-          ]
-        }
-      ],
-      "shapes": [],
-      "photos": [
-        {
-          "file": "Cloud 11 Bangkok.jpg",
-          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Cloud_11_Bangkok.jpg/960px-Cloud_11_Bangkok.jpg",
-          "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Cloud_11_Bangkok.jpg/120px-Cloud_11_Bangkok.jpg",
-          "page": "https://commons.wikimedia.org/wiki/File:Cloud_11_Bangkok.jpg",
-          "author": "Magnamonkun",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
-        }
       ]
     },
     {
