@@ -94,6 +94,18 @@ function chunks(items, size) {
   return out
 }
 
+// Commons file names for one GET: up to 50, fewer when the encoded titles grow long (a Thai letter takes nine
+// characters in the URL; 50 Thai names failed with HTTP 414)
+function fileBatches(files) {
+  const out = []
+  for (const file of new Set(files)) {
+    const last = out[out.length - 1]
+    if (last && last.length < 50 && encodeURIComponent([...last, file].join('|File:')).length < 2000) last.push(file)
+    else out.push([file])
+  }
+  return out
+}
+
 async function request(url, { method = 'GET', attempts = 4 } = {}) {
   for (let attempt = 1; ; attempt++) {
     try {
@@ -191,6 +203,15 @@ function lineLengthMeters(line) {
     length += distanceMeters({ lng: line[i - 1][0], lat: line[i - 1][1] }, { lng: line[i][0], lat: line[i][1] })
   }
   return length
+}
+
+// The author of a Commons file. Some photographers put a whole note in the field ("This Photo was taken by
+// <user link>. Feel free to use…"): a long text that links to a user page gives that link's name
+function authorName(html) {
+  const text = cleanText(html)
+  if (text.length <= 60) return text || null
+  const user = (html.match(/<a [^>]*href="[^"]*\/wiki\/User:[^"]*"[^>]*>(.*?)<\/a>/) || [])[1]
+  return cleanText(user) || text
 }
 
 function cleanText(html) {
@@ -304,7 +325,7 @@ async function loadOsmShapes(refs) {
 
 async function commonsImageInfo(files, width, props) {
   const result = new Map()
-  for (const batch of chunks([...new Set(files)], 50)) {
+  for (const batch of fileBatches(files)) {
     const params = new URLSearchParams({
       action: 'query',
       titles: batch.map(file => `File:${file}`).join('|'),
@@ -326,7 +347,7 @@ async function commonsImageInfo(files, width, props) {
 // Commons coordinates of each photo: its camera location and its object location
 async function loadPhotoCoords(files) {
   const result = new Map()
-  for (const batch of chunks([...new Set(files)], 50)) {
+  for (const batch of fileBatches(files)) {
     const params = new URLSearchParams({
       action: 'query',
       titles: batch.map(file => `File:${file}`).join('|'),
@@ -362,7 +383,7 @@ async function loadPhotos(files) {
       src: (info.thumburl || info.url).split('?')[0],
       thumb: (pin?.thumburl || pin?.url || info.url).split('?')[0],
       page: info.descriptionurl,
-      author: cleanText(meta.Artist?.value) || null,
+      author: authorName(meta.Artist?.value),
       license: cleanText(meta.LicenseShortName?.value) || null,
       licenseUrl: licenseUrl ? licenseUrl.replace(/^http:/, 'https:').replace(/deed\.[a-z-]+$/i, '') : null
     })
@@ -437,7 +458,7 @@ async function loadFlickr(urls) {
 // panorama does not cover commercial use: the photo is marked `nonCommercial`
 async function loadNoFop(files) {
   const result = new Map()
-  for (const batch of chunks([...new Set(files)], 50)) {
+  for (const batch of fileBatches(files)) {
     let next = {}
     while (next) {
       const params = new URLSearchParams({

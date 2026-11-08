@@ -187,11 +187,12 @@ async function nearbyFiles(at) {
 // License, size and date of Commons files, with a 220 px thumbnail
 async function commonsInfo(titles) {
   const info = new Map()
-  // Up to 40 titles a request, fewer when they are long: a GET of 30 long scan names failed with HTTP 414
+  // Up to 40 titles a request, fewer when they are long: a GET of 30 long scan names failed with HTTP 414.
+  // The limit is on the encoded URL: a Thai letter takes nine characters there
   const batches = []
   for (const title of titles) {
     const last = batches[batches.length - 1]
-    if (last && last.length < 40 && [...last, title].join('|').length < 2000) last.push(title)
+    if (last && last.length < 40 && encodeURIComponent([...last, title].join('|')).length < 2000) last.push(title)
     else batches.push([title])
   }
   for (const batch of batches) {
