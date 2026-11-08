@@ -206,6 +206,12 @@ The script sorts every point into one of three levels:
   cite that snapshot, with its own title and date.
 - Check who publishes a site: meet.barcelona belongs to the City Council, while
   thisisbarcelona.com belongs to Turisme de Barcelona; two sites of one publisher are one vote.
+- A river's Wikidata item can hold several coordinates (its source and its mouth, qualified with P518); the
+  script reads the first, 200 km away for the Chao Phraya. Confirm the river's line with the Wikidata point of
+  a bridge over it in `other` (Bangkok: Memorial Bridge), as a park is confirmed by a landmark inside it.
+- Streets in Thailand are `type=route` relations of their ways: store the member ways (the OSM API's
+  `relation/<id>.json` lists them), without the `*_link` ways and the `area=yes` polygons among them.
+- An official portal behind a bot wall (tourismthailand.org, Cloudflare): read its Wayback snapshot and cite it.
 
 Store the refs (wikidata / osm / av / other) in the city file.
 `node scripts/verifyTop.js <city>` fetches them, cross-checks them and writes lat/lng for
