@@ -9,5 +9,6 @@
   { "id": "hamburg", "name": "Hamburg" },
   { "id": "milan", "name": "Milan" },
   { "id": "istanbul", "name": "Istanbul" },
-  { "id": "bangkok", "name": "Bangkok" }
+  { "id": "bangkok", "name": "Bangkok" },
+  { "id": "tbilisi", "name": "Tbilisi" }
 ]
