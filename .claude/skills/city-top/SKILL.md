@@ -193,6 +193,17 @@ The script sorts every point into one of three levels:
 - Overpass mirrors come and go; when one times out, try the next. When all are down (Milan, 2026-10), QLever's
   OSM endpoint (`https://qlever.dev/api/osm-planet`, SPARQL) answers the same questions: the objects tagged with
   a list of QIDs (`?osm osmkey:wikidata ?qid`), and named objects inside the city's relation (`ogc:sfContains`).
+  To find the building at a point without Overpass: Nominatim's reverse returns the shop or ATM inside it, while
+  its search by street address (`<street> <number>, <city>`) returns the outline when the building carries the
+  address (Almaty, 2026-11).
+- Many Wikidata searches in a row get HTTP 429: take all the items of the city with one SPARQL query
+  (`?item wdt:P131+ wd:<city>`, labels in all languages, P625) and search their labels locally.
+- Card text must be in Latin script (verifyTop.js rejects Cyrillic), so in a city whose local names are Cyrillic
+  (Almaty: OSM's `name` is Kazakh) the local name cannot go into the title. The name check then rests on the
+  Wikidata item's labels: an OSM building named only in Cyrillic and without a Wikidata item cannot be confirmed
+  by its name (Almaty: the Tchaikovsky college).
+- Almaty: the Archcode catalogue (archcode.kz/objects/view?id=N, about 100 modernist buildings) gives each object's
+  point (the centre of its Google static map): a source for `refs.other`, like the Catalan architects' catalogue.
 - Nominatim's lookup, and so verifyTop.js, does not return some objects: a water area (the Darsena), a
   `boundary=civil` relation (QT8), a `type=site` relation (Bosco Verticale), an unnamed building. Store the
   building ways, a node of the place or a waterway line instead.
@@ -251,7 +262,11 @@ refuses some queries (HTTP 403): the place then has only the feed's Flickr photo
 Street-level imagery (Panoramax, Mapillary) is not used: bike and car cameras, glare, the work off-frame,
 and 360° panoramas that Commons hosts too (the geosearch finds them: reject them).
 A tile is small: when a building is in doubt, look at the candidate larger (its `thumb` in
-`<id>.json` at 600 px) before picking. To run without Unsplash, set `UNSPLASH_API_KEY=` for the command.
+`<id>.json` at 960 px; Commons refuses 600 px with HTTP 400) before picking. To run without Unsplash, set
+`UNSPLASH_API_KEY=` for the command.
+The search takes 3–4 minutes a place. Three runs over disjoint `--only` lists cut the time to a third, but
+Commons then throttles them and some places come back with 0 Commons files (Almaty: Tselinny, the TV centre):
+run the empty ones again on their own before deciding that no photo exists.
 
 Flickr and Unsplash have no community review, so check each photo yourself: it must be the uploader's own
 picture. On Unsplash also reject AI-generated images.
@@ -285,7 +300,7 @@ The countries met so far, read on their Commons pages in 2026-10 (read the page 
 |---|---|
 | Buildings and public art, commercial use | Spain, Germany and Austria (from public ground, exteriors), Belgium, United Kingdom, Canada, Mexico, Thailand, Australia, New Zealand, China and Hong Kong (3D works) |
 | Buildings only | Denmark, Norway, Sweden; United States; Russia (architecture and landscape design, not artworks); Saudi Arabia (building exteriors); the Netherlands (works in outdoor public places, not interiors) |
-| None for commercial use | France, Italy, Egypt, Oman, South Africa |
+| None for commercial use | France, Italy, Egypt, Oman, South Africa, Georgia, Kazakhstan (Art. 21: not as the main subject, not commercially) |
 
 "Buildings only" leaves out sculptures, murals and installations as the main subject, and in Denmark
 and Norway also parks and squares whose landscape design is the subject (Superkilen, Tåsinge Plads):
